@@ -1,0 +1,105 @@
+SELECT COUNT( * ) , SUBSTR( word , -3 ) , COUNT( DISTINCT strsclass ) , strsclass
+FROM  `lemmas2` 
+WHERE mysylcnt =2
+GROUP BY SUBSTR( word , -3 ) 
+HAVING COUNT( * ) >20
+AND COUNT( DISTINCT strsclass ) =1
+ORDER BY strsclass, COUNT( * ) DESC
+
+Dominierende Suffixe entfernt (-abc, -xbc vs -bc)
+
+
+518 	-ig			paenultima
+337		-ln			paenultima
+117		-se			paenultima
+101		-he			paenultima
+81		-ge			paenultima
+61		-be			paenultima
+56		-pe			paenultima
+53		-ze			paenultima
+29		-ad			paenultima
+21		-to			paenultima
+163		-ken		paenultima	
+149		-ter		paenultima	
+106		-zen		paenultima	
+105		-ler		paenultima	
+104		-los		paenultima	
+103		-fen		paenultima	
+102		-nen		paenultima	
+89		-men		paenultima	
+71		-den		paenultima
+70		-ben		paenultima	
+59		-ner		paenultima	
+59		-der		paenultima	
+58		-ker		paenultima	
+50		-ger		paenultima	
+49		-ber		paenultima	
+48		-lle		paenultima	
+46		-gel		paenultima	
+43		-cke		paenultima	
+40		-kel		paenultima	
+39		-sel		paenultima	
+39		-ser		paenultima	
+37		-pel		paenultima	
+36		-bel		paenultima	
+35		-tte		paenultima	
+35		-mer		paenultima	
+34		-ild		paenultima	
+33		-sam		paenultima	
+33		-ahn		paenultima	
+31		-bau		paenultima	
+30		-eld		paenultima	
+29		-ste		paenultima	
+29		-off		paenultima	
+29		-opf		paenultima	
+26		-fel		paenultima	
+25		-mpf		paenultima	
+25		-uen		paenultima	
+25		-zer		paenultima	
+25		-nde		paenultima	
+22		-tag		paenultima	
+22		-nke		paenultima	
+21		-och		paenultima	
+35		-ent		ultima	
+
+343		-chen		paenultima
+187		-lich		paenultima
+57		-cher		paenultima
+54		-ling		paenultima
+54		-ssen		paenultima
+47		-sten		paenultima
+45		-llen		paenultima
+45		-tung		paenultima
+39		-lung		paenultima
+38		-werk		paenultima
+33		-voll		paenultima
+33		-rung		paenultima
+32		-ppen		paenultima
+31		-egen		paenultima
+30		-ngen		paenultima
+28		-rren		paenultima
+28		-mann		paenultima
+28		-ahrt		paenultima
+27		-tten		paenultima
+27		-nung		paenultima
+27		-dung		paenultima
+25		-kern		paenultima
+25		-rift		paenultima
+25		-hten		paenultima
+25		-wort		paenultima
+25		-gang		paenultima
+25		-hung		paenultima
+24		-frei		paenultima
+24		-ehen		paenultima
+23		-stig		paenultima
+23		-fest		paenultima
+21		-pern		paenultima
+
+41		-tisch 		paenultima
+33		-ecken 		paenultima
+31		-cheln 		paenultima
+29		-stoff 		paenultima
+26		-stern 		paenultima
+26		-ttern 		paenultima
+24		-chten 		paenultima
+23		-hrift 		paenultima

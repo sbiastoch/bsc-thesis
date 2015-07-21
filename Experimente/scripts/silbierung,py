@@ -1,0 +1,56 @@
+
+disc_alphabet = {
+'plosive':				['p', 'b', 't', 'd', 'k', 'g'],
+'frikative':			['f', 'v', 's', 'z', 'S', 'Z', 'x', 'h'],
+'affrikate':			['=', '+','J','_'],
+'nasale':				['m', 'n', 'N'],
+'liquide':				['l', 'R', 'r'],
+'approximanten':		['E', '/', '&', 'O', '@', 'j', 'w', '#','$','3',')','e','|','o','<'],
+'geschlossene_vokale':	['i', 'u', 'y', 'I', 'Y', 'U'],
+'offene_vokale':		['a', '&', '{', 'A', 'V'],
+'diphtonge': 			['1','2','4','6','W','B','X'],
+'komische_diphtonge':	['^', 'c', 'q', '0', '~'],
+}
+
+hierarchy = {
+	1: disc_alphabet['plosive']+disc_alphabet['frikative']+disc_alphabet['affrikate'],	# obstruente
+	2: disc_alphabet['nasale'],
+	3: disc_alphabet['liquide'],
+	4: disc_alphabet['approximanten'],
+	5: disc_alphabet['geschlossene_vokale']+disc_alphabet['komische_diphtonge'],
+	6: disc_alphabet['offene_vokale']+disc_alphabet['diphtonge'],
+}
+
+X = 'Abbaugerechtigkeit'
+x = '&pbBg@rExtIxkWt'
+
+for c in x:
+	for weight, chars in hierarchy.items():
+		if c in chars:
+			x=x.replace(c, str(weight))
+print x
+
+i = 0
+ret = []
+while i < len(x)-1:
+	syls = []
+	onset = ""
+	while int(x[i]) < int(x[i+1]) and i < len(x)-1:
+		onset += x[i]
+		i = i+1
+
+	nucleus = x[i]
+	while int(x[i]) == int(x[i+1]) and i < len(x)-1:
+		nucleus += x[i]
+		i = i+1
+	i += 1
+
+	koda = ""
+	while int(x[i-1]) > int(x[i]) and i < len(x)-1:
+		koda += x[i]
+		i = i+1
+
+	ret.append(onset+nucleus+koda)
+print 'Ab-bau-ge-recht-ig-keit'
+print '-'.join(ret)
+print '&p-bB-g@-rEx-tIx-kWt'

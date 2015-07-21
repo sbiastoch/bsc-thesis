@@ -1,0 +1,37 @@
+3 silbige nonkomposita
+
+unbetont: be-, ent-, er-, ver-, zer-
+praefix = be: paenultima (572.0)
+praefix = ent: paenultima (230.0)
+praefix = er: paenultima (370.0)
+praefix = ver: paenultima (901.0/1.0)
+praefix = zer: paenultima (107.0)
+
+betont: ab-, an-, auf-, aus-, ein-, fern-, fort-, gegen-, hin-, hinter-, hoch-, mit-, nach-, ueber-, unter-, ur-, vor-, weg-, zu
+praefix = ab: antepaenultima (547.0/1.0)
+praefix = an: antepaenultima (417.0)
+praefix = auf: antepaenultima (391.0)
+praefix = aus: antepaenultima (567.0/1.0)
+praefix = ein: antepaenultima (355.0/4.0)
+praefix = fern: antepaenultima (1.0)
+praefix = fort: antepaenultima (5.0)
+praefix = gegen: antepaenultima (1.0)
+praefix = hin: antepaenultima (9.0)
+praefix = hinter: antepaenultima (1.0)
+praefix = hoch: antepaenultima (7.0)
+praefix = mit: antepaenultima (63.0)
+praefix = nach: antepaenultima (31.0)
+praefix = ueber: antepaenultima (18.0)
+praefix = unter: antepaenultima (17.0)
+praefix = ur: antepaenultima (35.0/2.0)
+praefix = vor: antepaenultima (64.0/4.0)
+praefix = weg: antepaenultima (1.0)
+praefix = zu: antepaenultima (178.0/2.0)
+
+Nur beim Adverb unbetont, sonst betont: bei
+praefix = bei
+|   basic_pos = ADV: paenultima (3.0)
+|   basic_pos = V: antepaenultima (25.0)
+|   basic_pos = A: antepaenultima (2.0)
+|   basic_pos = N: antepaenultima (12.0)
+|   basic_pos = ø: antepaenultima (0.0)

@@ -1,0 +1,31 @@
+
+SylStruct:
+	koda_class.
+	koda_len.
+	nucleus_class.
+	nucleus_len.
+	onset_class.
+	onset_len.
+	syl_len.
+
+Affixes:
+	nk_suffix
+	prae_class
+	praefix
+	praefix.
+	suff_class
+	suffix.
+
+Phonetical:
+	rhyme.
+	cv_ratio.
+	sonority.
+	sonority_dir
+	sonority_ratio.
+	syl_weight.
+	syl_class.
+
+SylCnt
+	sylcnt
+
+	stress_class
