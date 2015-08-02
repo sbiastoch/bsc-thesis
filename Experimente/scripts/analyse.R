@@ -63,8 +63,10 @@ majority <- function(results, error=FALSE, minority=FALSE) {
 compare <- function(results, num_syls, folder) {
 	unique_errors = uniques(results)							# anzahl der zeilen mit genau einem NO in der Spalte von MODEL
 	unique_correct = uniques(results, correct=TRUE)				# anzahl der zeilen mit genau einem YES in der Spalte von MODEL
-	common_errors = match_row(results, replicate(ncol(results), 'yes'))		# anzahl der zeilen mit NO, bei der alle anderen MODELs ein YES haben
-	common_correct = match_row(results, replicate(ncol(results), 'no'))		# anzahl der zeilen mit YES, bei der alle anderen MODELs ein NO haben
+	common_errors_value = match_row(results, replicate(ncol(results), 'yes'))		# anzahl der zeilen mit NO, bei der alle anderen MODELs ein YES haben
+	common_errors = matrix(replicate(length(unique_errors),common_errors_value),1, dimnames=list('common_errors',colnames(results)))
+	common_correct_value = match_row(results, replicate(ncol(results), 'no'))		# anzahl der zeilen mit YES, bei der alle anderen MODELs ein NO haben
+	common_correct = matrix(replicate(length(unique_correct),common_correct_value),1, dimnames=list('common_correct',colnames(results)))
 
 	errors_per_row = apply(results, 2, function(col) {
 		unlist(
@@ -173,7 +175,7 @@ compare_jrips <- function (results, num_syls, folder) {
 		merged_errors, 
 		horiz=TRUE,
 		cex.names=0.8,legend.text = TRUE, args.legend = list(x = 'topright', bty = "n", inset = c(-0.45,0)), col=colors, main=paste(num_syls,' Silben'))
-	savePlot(paste(folder,'stats/plots/',num_syls,'syl-jrips.png',sep=''))
+	savePlot(paste(folder,num_syls,'-syl-jrips.png',sep=''))
 
 }
 
@@ -202,7 +204,7 @@ unique_errors <- function (results, num_syls, folder) {
 	par(las=2) # make label text perpendicular to axis
 	par(mar=c(10,3,2,2)) # increase y-axis margin.
 	barplot(unique_errors)
-	savePlot(paste(folder,'stats/plots/unique-errors/',num_syls,'syl.png',sep=''))
+	savePlot(paste(folder,'unique-errors/',num_syls,'syl.png',sep=''))
 
 
 	unique_correct = t(unlist(lapply(seq_along(jrips), function(i) {
@@ -227,7 +229,7 @@ unique_errors <- function (results, num_syls, folder) {
 	par(las=2) # make label text perpendicular to axis
 	par(mar=c(10,3,2,2)) # increase y-axis margin.
 	barplot(unique_correct,legend.text = TRUE, args.legend = list(x = "topright", bty = "n"))
-	savePlot(paste(folder,'stats/plots/unique-correct/',num_syls,'syl.png',sep=''))
+	savePlot(paste(folder,'unique-correct/',num_syls,'syl.png',sep=''))
 
 	total_errors = t(unlist(t(lapply(jrips, function(x) sum(x=='yes')/nrow(jrips)))))
 #	dimnames(other_errors) = list(c('other errors'),names)
@@ -246,7 +248,7 @@ unique_errors <- function (results, num_syls, folder) {
 	par(mar=c(4,7,2,8)) # increase y-axis margin.
 
 	barplot(merged_errors,horiz=TRUE,cex.names=0.8, legend.text = TRUE, args.legend = list(x = 1.4, bty = "n"), col=c('green', 'blue','yellow', 'red'))
-	savePlot(paste(folder,'stats/plots/',num_syls,'syl-aggregated.png',sep=''))
+	savePlot(paste(folder,num_syls,'syl-aggregated.png',sep=''))
 
 }
 
@@ -261,7 +263,7 @@ basic_stats <- function(results, num_syls, folder) {
 }
 
 plot_basic_stats <- function(results, num_syls, folder) {
-	filename = paste(folder,'stats/plots/total/',num_syls,'syl-basicstats.png',sep='')
+	filename = paste(folder,'total/',num_syls,'syl-basicstats.png',sep='')
 	png(filename = filename, width = 1920, height = 1080, units = "px", pointsize = 24, bg = "white")
 
 	stat = basic_stats(results, num_syls, folder)
@@ -280,7 +282,7 @@ plot_basic_stats <- function(results, num_syls, folder) {
 	colors = c('chartreuse2','brown2')
 	barplot(stat,horiz=TRUE, col=colors, main=paste(num_syls, 'Silben: Fehler je Modell'))
 	#barplot(t(stat/total_rows),horiz=TRUE,cex.names=0.8,legend.text = TRUE, args.legend = list(x = "topright", bty = "n"), main='Errors by classifier')
-	#savePlot(paste(folder,'stats/plots/total/',num_syls,'syl.png',sep=''))
+	#savePlot(paste(folder,'total/',num_syls,'syl.png',sep=''))
 	dev.off()
 }
 
@@ -340,7 +342,7 @@ evaluate_voting_models <- function(results, correct_class, models, folder, num_s
 	par(mar=c(5,10,4,6))
 	barplot(ret,horiz=TRUE,cex.names=0.6,legend.text = TRUE, args.legend = list(x = 1.25, bty = "n"), main=paste(num_syls, 'Syllables: Voting models'),
 		space = spacing)
-	savePlot(paste(folder,'stats/plots/votings/',num_syls,'syl.png',sep=''))
+	savePlot(paste(folder,'votings/',num_syls,'syl.png',sep=''))
 
 }
 
@@ -349,7 +351,7 @@ error_freq <- function(results, errors) {
 }
 
 plot_compare <- function(model_sets, num_syls, folder) {
-	filename = paste(folder,'stats/plots/compare/',num_syls,'syl.png',sep='')
+	filename = paste(folder,'compare/',num_syls,'syl.png',sep='')
 	png(filename = filename, width = 1920, height = 1080, units = "px", pointsize = 24, bg = "white")
 
 	par(mfrow=c(4,2),
@@ -380,7 +382,7 @@ plot_compare <- function(model_sets, num_syls, folder) {
 }
 
 do_plot_majorites <- function(model_sets, num_syls, folder) {
-	filename = paste(folder,'stats/plots/majorities/',num_syls,'syl.png',sep='')
+	filename = paste(folder,'majorities/',num_syls,'syl.png',sep='')
 	png(filename = filename, width = 1920, height = 1080, units = "px", pointsize = 24, bg = "white")
 
 	par(mfrow=c(4,2),
@@ -419,8 +421,9 @@ pretty_name <- function(str) {
 }
 
 lapply(2:8, function(num_syls) {
-	folder = '~/Schreibtisch/results/'
-	csv = read.csv(paste(folder,num_syls,'syl-results.csv',sep=''), header=TRUE)
+	data_folder = '~/Schreibtisch/thesis/Experimente/csv/classifications/'
+	folder = '/home/sbiastoch/Schreibtisch/thesis/Experimente/evaluation/'
+	csv = read.csv(paste(data_folder,num_syls,'syl-results.csv',sep=''), header=TRUE)
 
 	results = csv[grep("error", names(csv))]
 #	colnames(results) = lapply(colnames(results), pretty_name) ### verursacht data too long
@@ -436,7 +439,7 @@ lapply(2:8, function(num_syls) {
 	names(model_sets) = models
 
 	# Fehler je Einzelmodell
-	plot_basic_stats(results, num_syls, folder)
+#	plot_basic_stats(results, num_syls, folder)
 
 	#
 #	unique_errors(results, num_syls, folder) depracted?
@@ -445,7 +448,7 @@ lapply(2:8, function(num_syls) {
 	plot_compare(model_sets, num_syls, folder)
 
 	# Aufschlüsselung der error/correct in Mehrheits/Minderheits corrects/errors
-	do_plot_majorites(model_sets, num_syls, folder)
+#	do_plot_majorites(model_sets, num_syls, folder)
 
 	# ???????????????
 #	evaluate_voting_models(results_class, csv$stress_class, methodsodels, folder, num_syls)
