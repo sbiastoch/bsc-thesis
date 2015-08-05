@@ -44,7 +44,7 @@
                   <object class="java.lang.String" name="8">-th</object>
                   <object class="java.lang.String" name="9">0</object>
                   <object class="java.lang.String" name="10">-hl</object>
-                  <object class="java.lang.String" name="11">100</object>
+                  <object class="java.lang.String" name="11">50</object>
                   <object class="java.lang.String" name="12">-di</object>
                   <object class="java.lang.String" name="13">0.2</object>
                   <object class="java.lang.String" name="14">-dh</object>
@@ -54,7 +54,7 @@
                </object>
             </object>
             <object class="boolean" name="blockOnLastFold" primitive="yes">false</object>
-            <object class="int" name="executionSlots" primitive="yes">2</object>
+            <object class="int" name="executionSlots" primitive="yes">4</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
             <object class="java.lang.String" name="loadClassifierFileName"/>
@@ -124,7 +124,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">sylstruct-</object>
-            <object class="java.io.File" name="directory">../results</object>
+            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -150,7 +150,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">sylstruct-</object>
-            <object class="java.io.File" name="directory">../results</object>
+            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -215,7 +215,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">sylstruct-</object>
-            <object class="java.io.File" name="directory">../results</object>
+            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -232,7 +232,7 @@
          <object class="java.lang.String" name="custom_name">CSVLoader</object>
          <object class="weka.gui.beans.Loader" name="bean">
             <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
-               <object class="java.lang.String" name="file">/home/sbiastoch/Schreibtisch/csv_files/000047-everything-7syl.csv</object>
+               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/000047-everything-8syl.csv</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-M</object>
@@ -418,7 +418,7 @@
                   <object class="java.lang.String" name="8">-th</object>
                   <object class="java.lang.String" name="9">0</object>
                   <object class="java.lang.String" name="10">-hl</object>
-                  <object class="java.lang.String" name="11">100</object>
+                  <object class="java.lang.String" name="11">50</object>
                   <object class="java.lang.String" name="12">-di</object>
                   <object class="java.lang.String" name="13">0.2</object>
                   <object class="java.lang.String" name="14">-dh</object>
@@ -428,7 +428,7 @@
                </object>
             </object>
             <object class="boolean" name="blockOnLastFold" primitive="yes">false</object>
-            <object class="int" name="executionSlots" primitive="yes">2</object>
+            <object class="int" name="executionSlots" primitive="yes">4</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
             <object class="java.lang.String" name="loadClassifierFileName"/>
@@ -498,7 +498,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">phon-</object>
-            <object class="java.io.File" name="directory">../results</object>
+            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -524,7 +524,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">phon-</object>
-            <object class="java.io.File" name="directory">../results</object>
+            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -589,7 +589,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">phon-</object>
-            <object class="java.io.File" name="directory">../results</object>
+            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -610,8 +610,8 @@
       </object>
       <object class="weka.gui.beans.BeanInstance" name="33">
          <object class="int" name="id" primitive="yes">33</object>
-         <object class="int" name="x" primitive="yes">1579</object>
-         <object class="int" name="y" primitive="yes">1115</object>
+         <object class="int" name="x" primitive="yes">1624</object>
+         <object class="int" name="y" primitive="yes">1087</object>
          <object class="java.lang.String" name="custom_name">TextViewer32</object>
          <object class="weka.gui.beans.TextViewer" name="bean">
             <object class="null" name="name" null="yes"/>
@@ -658,7 +658,7 @@
                   <object class="java.lang.String" name="8">-th</object>
                   <object class="java.lang.String" name="9">0</object>
                   <object class="java.lang.String" name="10">-hl</object>
-                  <object class="java.lang.String" name="11">100</object>
+                  <object class="java.lang.String" name="11">50</object>
                   <object class="java.lang.String" name="12">-di</object>
                   <object class="java.lang.String" name="13">0.2</object>
                   <object class="java.lang.String" name="14">-dh</object>
@@ -668,7 +668,7 @@
                </object>
             </object>
             <object class="boolean" name="blockOnLastFold" primitive="yes">false</object>
-            <object class="int" name="executionSlots" primitive="yes">2</object>
+            <object class="int" name="executionSlots" primitive="yes">4</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
             <object class="java.lang.String" name="loadClassifierFileName"/>
@@ -738,7 +738,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">all-</object>
-            <object class="java.io.File" name="directory">../results</object>
+            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -764,7 +764,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">all-</object>
-            <object class="java.io.File" name="directory">../results</object>
+            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -829,7 +829,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">all-</object>
-            <object class="java.io.File" name="directory">../results</object>
+            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -850,8 +850,8 @@
       </object>
       <object class="weka.gui.beans.BeanInstance" name="46">
          <object class="int" name="id" primitive="yes">46</object>
-         <object class="int" name="x" primitive="yes">50</object>
-         <object class="int" name="y" primitive="yes">514</object>
+         <object class="int" name="x" primitive="yes">51</object>
+         <object class="int" name="y" primitive="yes">534</object>
          <object class="java.lang.String" name="custom_name">TextViewer34</object>
          <object class="weka.gui.beans.TextViewer" name="bean">
             <object class="null" name="name" null="yes"/>
@@ -898,7 +898,7 @@
                   <object class="java.lang.String" name="8">-th</object>
                   <object class="java.lang.String" name="9">0</object>
                   <object class="java.lang.String" name="10">-hl</object>
-                  <object class="java.lang.String" name="11">100</object>
+                  <object class="java.lang.String" name="11">50</object>
                   <object class="java.lang.String" name="12">-di</object>
                   <object class="java.lang.String" name="13">0.2</object>
                   <object class="java.lang.String" name="14">-dh</object>
@@ -908,7 +908,7 @@
                </object>
             </object>
             <object class="boolean" name="blockOnLastFold" primitive="yes">false</object>
-            <object class="int" name="executionSlots" primitive="yes">2</object>
+            <object class="int" name="executionSlots" primitive="yes">4</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
             <object class="java.lang.String" name="loadClassifierFileName"/>
@@ -978,7 +978,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">affix-</object>
-            <object class="java.io.File" name="directory">../results</object>
+            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -1004,7 +1004,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">affix-</object>
-            <object class="java.io.File" name="directory">../results</object>
+            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -1069,7 +1069,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">affix-</object>
-            <object class="java.io.File" name="directory">../results</object>
+            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -1090,8 +1090,8 @@
       </object>
       <object class="weka.gui.beans.BeanInstance" name="59">
          <object class="int" name="id" primitive="yes">59</object>
-         <object class="int" name="x" primitive="yes">56</object>
-         <object class="int" name="y" primitive="yes">1155</object>
+         <object class="int" name="x" primitive="yes">22</object>
+         <object class="int" name="y" primitive="yes">1172</object>
          <object class="java.lang.String" name="custom_name">TextViewer342</object>
          <object class="weka.gui.beans.TextViewer" name="bean">
             <object class="null" name="name" null="yes"/>
@@ -1106,6 +1106,222 @@
                <object class="java.lang.String" name="animatedIconPath">weka/gui/beans/icons/DefaultText_animated.gif</object>
             </object>
             <object class="java.lang.String" name="customName">TextViewer342</object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="60">
+         <object class="int" name="id" primitive="yes">60</object>
+         <object class="int" name="x" primitive="yes">1637</object>
+         <object class="int" name="y" primitive="yes">224</object>
+         <object class="java.lang.String" name="custom_name">TextSaver</object>
+         <object class="weka.gui.beans.TextSaver" name="bean">
+            <object class="boolean" name="append" primitive="yes">true</object>
+            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/sylstruct-JRip.txt</object>
+            <object class="null" name="name" null="yes"/>
+            <object class="weka.gui.beans.BeanVisual" name="visual">
+               <object class="null" name="name" null="yes"/>
+               <object class="java.lang.String" name="text">TextSaver</object>
+               <object class="java.lang.String" name="iconPath">weka/gui/beans/icons/DefaultText.gif</object>
+               <object class="java.lang.String" name="animatedIconPath">weka/gui/beans/icons/DefaultText_animated.gif</object>
+            </object>
+            <object class="java.lang.String" name="customName">TextSaver</object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="61">
+         <object class="int" name="id" primitive="yes">61</object>
+         <object class="int" name="x" primitive="yes">1625</object>
+         <object class="int" name="y" primitive="yes">536</object>
+         <object class="java.lang.String" name="custom_name">TextSaver2</object>
+         <object class="weka.gui.beans.TextSaver" name="bean">
+            <object class="boolean" name="append" primitive="yes">true</object>
+            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/sylstruct-NN.txt</object>
+            <object class="null" name="name" null="yes"/>
+            <object class="weka.gui.beans.BeanVisual" name="visual">
+               <object class="null" name="name" null="yes"/>
+               <object class="java.lang.String" name="text">TextSaver2</object>
+               <object class="java.lang.String" name="iconPath">weka/gui/beans/icons/DefaultText.gif</object>
+               <object class="java.lang.String" name="animatedIconPath">weka/gui/beans/icons/DefaultText_animated.gif</object>
+            </object>
+            <object class="java.lang.String" name="customName">TextSaver2</object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="62">
+         <object class="int" name="id" primitive="yes">62</object>
+         <object class="int" name="x" primitive="yes">1681</object>
+         <object class="int" name="y" primitive="yes">737</object>
+         <object class="java.lang.String" name="custom_name">TextSaver3</object>
+         <object class="weka.gui.beans.TextSaver" name="bean">
+            <object class="boolean" name="append" primitive="yes">true</object>
+            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/sylstruct-J48.txt</object>
+            <object class="null" name="name" null="yes"/>
+            <object class="weka.gui.beans.BeanVisual" name="visual">
+               <object class="null" name="name" null="yes"/>
+               <object class="java.lang.String" name="text">TextSaver3</object>
+               <object class="java.lang.String" name="iconPath">weka/gui/beans/icons/DefaultText.gif</object>
+               <object class="java.lang.String" name="animatedIconPath">weka/gui/beans/icons/DefaultText_animated.gif</object>
+            </object>
+            <object class="java.lang.String" name="customName">TextSaver3</object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="63">
+         <object class="int" name="id" primitive="yes">63</object>
+         <object class="int" name="x" primitive="yes">1644</object>
+         <object class="int" name="y" primitive="yes">944</object>
+         <object class="java.lang.String" name="custom_name">TextSaver4</object>
+         <object class="weka.gui.beans.TextSaver" name="bean">
+            <object class="boolean" name="append" primitive="yes">true</object>
+            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/phon-JRip.txt</object>
+            <object class="null" name="name" null="yes"/>
+            <object class="weka.gui.beans.BeanVisual" name="visual">
+               <object class="null" name="name" null="yes"/>
+               <object class="java.lang.String" name="text">TextSaver4</object>
+               <object class="java.lang.String" name="iconPath">weka/gui/beans/icons/DefaultText.gif</object>
+               <object class="java.lang.String" name="animatedIconPath">weka/gui/beans/icons/DefaultText_animated.gif</object>
+            </object>
+            <object class="java.lang.String" name="customName">TextSaver4</object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="64">
+         <object class="int" name="id" primitive="yes">64</object>
+         <object class="int" name="x" primitive="yes">1721</object>
+         <object class="int" name="y" primitive="yes">1173</object>
+         <object class="java.lang.String" name="custom_name">TextSaver42</object>
+         <object class="weka.gui.beans.TextSaver" name="bean">
+            <object class="boolean" name="append" primitive="yes">true</object>
+            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/phon-NN.txt</object>
+            <object class="null" name="name" null="yes"/>
+            <object class="weka.gui.beans.BeanVisual" name="visual">
+               <object class="null" name="name" null="yes"/>
+               <object class="java.lang.String" name="text">TextSaver42</object>
+               <object class="java.lang.String" name="iconPath">weka/gui/beans/icons/DefaultText.gif</object>
+               <object class="java.lang.String" name="animatedIconPath">weka/gui/beans/icons/DefaultText_animated.gif</object>
+            </object>
+            <object class="java.lang.String" name="customName">TextSaver42</object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="65">
+         <object class="int" name="id" primitive="yes">65</object>
+         <object class="int" name="x" primitive="yes">1703</object>
+         <object class="int" name="y" primitive="yes">1340</object>
+         <object class="java.lang.String" name="custom_name">TextSaver43</object>
+         <object class="weka.gui.beans.TextSaver" name="bean">
+            <object class="boolean" name="append" primitive="yes">true</object>
+            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/phon-J48.txt</object>
+            <object class="null" name="name" null="yes"/>
+            <object class="weka.gui.beans.BeanVisual" name="visual">
+               <object class="null" name="name" null="yes"/>
+               <object class="java.lang.String" name="text">TextSaver43</object>
+               <object class="java.lang.String" name="iconPath">weka/gui/beans/icons/DefaultText.gif</object>
+               <object class="java.lang.String" name="animatedIconPath">weka/gui/beans/icons/DefaultText_animated.gif</object>
+            </object>
+            <object class="java.lang.String" name="customName">TextSaver43</object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="66">
+         <object class="int" name="id" primitive="yes">66</object>
+         <object class="int" name="x" primitive="yes">41</object>
+         <object class="int" name="y" primitive="yes">979</object>
+         <object class="java.lang.String" name="custom_name">TextSaver44</object>
+         <object class="weka.gui.beans.TextSaver" name="bean">
+            <object class="boolean" name="append" primitive="yes">true</object>
+            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/affix-JRip.txt</object>
+            <object class="null" name="name" null="yes"/>
+            <object class="weka.gui.beans.BeanVisual" name="visual">
+               <object class="null" name="name" null="yes"/>
+               <object class="java.lang.String" name="text">TextSaver44</object>
+               <object class="java.lang.String" name="iconPath">weka/gui/beans/icons/DefaultText.gif</object>
+               <object class="java.lang.String" name="animatedIconPath">weka/gui/beans/icons/DefaultText_animated.gif</object>
+            </object>
+            <object class="java.lang.String" name="customName">TextSaver44</object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="67">
+         <object class="int" name="id" primitive="yes">67</object>
+         <object class="int" name="x" primitive="yes">56</object>
+         <object class="int" name="y" primitive="yes">1068</object>
+         <object class="java.lang.String" name="custom_name">TextSaver442</object>
+         <object class="weka.gui.beans.TextSaver" name="bean">
+            <object class="boolean" name="append" primitive="yes">true</object>
+            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/affix-NN.txt</object>
+            <object class="null" name="name" null="yes"/>
+            <object class="weka.gui.beans.BeanVisual" name="visual">
+               <object class="null" name="name" null="yes"/>
+               <object class="java.lang.String" name="text">TextSaver442</object>
+               <object class="java.lang.String" name="iconPath">weka/gui/beans/icons/DefaultText.gif</object>
+               <object class="java.lang.String" name="animatedIconPath">weka/gui/beans/icons/DefaultText_animated.gif</object>
+            </object>
+            <object class="java.lang.String" name="customName">TextSaver442</object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="68">
+         <object class="int" name="id" primitive="yes">68</object>
+         <object class="int" name="x" primitive="yes">61</object>
+         <object class="int" name="y" primitive="yes">1259</object>
+         <object class="java.lang.String" name="custom_name">TextSaver443</object>
+         <object class="weka.gui.beans.TextSaver" name="bean">
+            <object class="boolean" name="append" primitive="yes">true</object>
+            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/affix-J48.txt</object>
+            <object class="null" name="name" null="yes"/>
+            <object class="weka.gui.beans.BeanVisual" name="visual">
+               <object class="null" name="name" null="yes"/>
+               <object class="java.lang.String" name="text">TextSaver443</object>
+               <object class="java.lang.String" name="iconPath">weka/gui/beans/icons/DefaultText.gif</object>
+               <object class="java.lang.String" name="animatedIconPath">weka/gui/beans/icons/DefaultText_animated.gif</object>
+            </object>
+            <object class="java.lang.String" name="customName">TextSaver443</object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="69">
+         <object class="int" name="id" primitive="yes">69</object>
+         <object class="int" name="x" primitive="yes">42</object>
+         <object class="int" name="y" primitive="yes">307</object>
+         <object class="java.lang.String" name="custom_name">TextSaver444</object>
+         <object class="weka.gui.beans.TextSaver" name="bean">
+            <object class="boolean" name="append" primitive="yes">true</object>
+            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/all-JRip.txt</object>
+            <object class="null" name="name" null="yes"/>
+            <object class="weka.gui.beans.BeanVisual" name="visual">
+               <object class="null" name="name" null="yes"/>
+               <object class="java.lang.String" name="text">TextSaver444</object>
+               <object class="java.lang.String" name="iconPath">weka/gui/beans/icons/DefaultText.gif</object>
+               <object class="java.lang.String" name="animatedIconPath">weka/gui/beans/icons/DefaultText_animated.gif</object>
+            </object>
+            <object class="java.lang.String" name="customName">TextSaver444</object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="70">
+         <object class="int" name="id" primitive="yes">70</object>
+         <object class="int" name="x" primitive="yes">37</object>
+         <object class="int" name="y" primitive="yes">397</object>
+         <object class="java.lang.String" name="custom_name">TextSaver4442</object>
+         <object class="weka.gui.beans.TextSaver" name="bean">
+            <object class="boolean" name="append" primitive="yes">true</object>
+            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/all-NN.txt</object>
+            <object class="null" name="name" null="yes"/>
+            <object class="weka.gui.beans.BeanVisual" name="visual">
+               <object class="null" name="name" null="yes"/>
+               <object class="java.lang.String" name="text">TextSaver4442</object>
+               <object class="java.lang.String" name="iconPath">weka/gui/beans/icons/DefaultText.gif</object>
+               <object class="java.lang.String" name="animatedIconPath">weka/gui/beans/icons/DefaultText_animated.gif</object>
+            </object>
+            <object class="java.lang.String" name="customName">TextSaver4442</object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="71">
+         <object class="int" name="id" primitive="yes">71</object>
+         <object class="int" name="x" primitive="yes">45</object>
+         <object class="int" name="y" primitive="yes">689</object>
+         <object class="java.lang.String" name="custom_name">TextSaver4443</object>
+         <object class="weka.gui.beans.TextSaver" name="bean">
+            <object class="boolean" name="append" primitive="yes">true</object>
+            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/all-J48.txt</object>
+            <object class="null" name="name" null="yes"/>
+            <object class="weka.gui.beans.BeanVisual" name="visual">
+               <object class="null" name="name" null="yes"/>
+               <object class="java.lang.String" name="text">TextSaver4443</object>
+               <object class="java.lang.String" name="iconPath">weka/gui/beans/icons/DefaultText.gif</object>
+               <object class="java.lang.String" name="animatedIconPath">weka/gui/beans/icons/DefaultText_animated.gif</object>
+            </object>
+            <object class="java.lang.String" name="customName">TextSaver4443</object>
          </object>
       </object>
    </object>
@@ -1653,6 +1869,150 @@
       <object class="weka.gui.beans.BeanConnection" name="90">
          <object class="int" name="source_id" primitive="yes">50</object>
          <object class="int" name="target_id" primitive="yes">59</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="91">
+         <object class="int" name="source_id" primitive="yes">6</object>
+         <object class="int" name="target_id" primitive="yes">60</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="92">
+         <object class="int" name="source_id" primitive="yes">2</object>
+         <object class="int" name="target_id" primitive="yes">60</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="93">
+         <object class="int" name="source_id" primitive="yes">3</object>
+         <object class="int" name="target_id" primitive="yes">62</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="94">
+         <object class="int" name="source_id" primitive="yes">8</object>
+         <object class="int" name="target_id" primitive="yes">62</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="95">
+         <object class="int" name="source_id" primitive="yes">7</object>
+         <object class="int" name="target_id" primitive="yes">61</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="96">
+         <object class="int" name="source_id" primitive="yes">1</object>
+         <object class="int" name="target_id" primitive="yes">61</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="97">
+         <object class="int" name="source_id" primitive="yes">23</object>
+         <object class="int" name="target_id" primitive="yes">63</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="98">
+         <object class="int" name="source_id" primitive="yes">27</object>
+         <object class="int" name="target_id" primitive="yes">63</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="99">
+         <object class="int" name="source_id" primitive="yes">22</object>
+         <object class="int" name="target_id" primitive="yes">64</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="100">
+         <object class="int" name="source_id" primitive="yes">28</object>
+         <object class="int" name="target_id" primitive="yes">64</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="101">
+         <object class="int" name="source_id" primitive="yes">24</object>
+         <object class="int" name="target_id" primitive="yes">65</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="102">
+         <object class="int" name="source_id" primitive="yes">29</object>
+         <object class="int" name="target_id" primitive="yes">65</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="103">
+         <object class="int" name="source_id" primitive="yes">50</object>
+         <object class="int" name="target_id" primitive="yes">68</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="104">
+         <object class="int" name="source_id" primitive="yes">55</object>
+         <object class="int" name="target_id" primitive="yes">68</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="105">
+         <object class="int" name="source_id" primitive="yes">48</object>
+         <object class="int" name="target_id" primitive="yes">67</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="106">
+         <object class="int" name="source_id" primitive="yes">54</object>
+         <object class="int" name="target_id" primitive="yes">67</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="107">
+         <object class="int" name="source_id" primitive="yes">49</object>
+         <object class="int" name="target_id" primitive="yes">66</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="108">
+         <object class="int" name="source_id" primitive="yes">53</object>
+         <object class="int" name="target_id" primitive="yes">66</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="109">
+         <object class="int" name="source_id" primitive="yes">42</object>
+         <object class="int" name="target_id" primitive="yes">71</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="110">
+         <object class="int" name="source_id" primitive="yes">37</object>
+         <object class="int" name="target_id" primitive="yes">71</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="111">
+         <object class="int" name="source_id" primitive="yes">35</object>
+         <object class="int" name="target_id" primitive="yes">70</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="112">
+         <object class="int" name="source_id" primitive="yes">41</object>
+         <object class="int" name="target_id" primitive="yes">70</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="113">
+         <object class="int" name="source_id" primitive="yes">40</object>
+         <object class="int" name="target_id" primitive="yes">69</object>
+         <object class="java.lang.String" name="eventname">text</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="114">
+         <object class="int" name="source_id" primitive="yes">36</object>
+         <object class="int" name="target_id" primitive="yes">69</object>
          <object class="java.lang.String" name="eventname">text</object>
          <object class="boolean" name="hidden" primitive="yes">false</object>
       </object>
