@@ -1,0 +1,229 @@
+BONN MACHINE-READABLE PRONUNCIATION DICTIONARY
+  (BOMP, HADI-BOMP, BOSS-BOMP, FEST-BOMP)
+
+Dieses Archiv enthält das maschinenlesbare Bonner Aussprachewörterbuch
+(BOMP).
+
+WICHTIG:
+BOMP darf nur in Einklang mit den in der Datei "License.txt" festgehaltenen
+Bedingungen benutzt werden.
+
+
+---------------------------------------
+
+Was ist BOMP?
+
+BOMP ist ein maschinenlesbares Aussprachewörterbuch für das Deutsche.
+Es wurde ursprünglich von Dr. Dieter Stock aus verschiedenen Wortlisten
+zusammengetragen, die dann durch das Programm P-TRA (ebenfalls v. Dr. Stock)
+ automatisch transkribiert (in Lautschrift umgesetzt) wurden. Die Trans-
+kriptionen wurden von Dr. Stock, Monika Braun, Bernhard Herrchen und
+Thomas Portele manuell korrigiert.
+
+Von Thomas Portele wurde das Lexikon für den Einsatz im Sprachsynthese-
+system HADIFIX 
+http://www.ikp.uni-bonn.de/dt/forsch/phonetik/hadifix/Hadifix.en.html
+angepasst.
+Jürgen Krämer entwickelte Quellcode für die Analyse flektierter und
+dervivierter Wortformen. Eine Reihe von Korrekturen wurden von
+ Monika Rauth durchgeführt. Stefan Breuer und Jörg Bröggelwirth haben
+zahlreiche Transkriptionen auf ihre Richtigkeit hin überprüft.
+
+Seit August 2001 enthält BOMP viele Flexions- und Derivationsformen,
+die in der vorherigen Version fehlten. Wortklassen (Wortarten) 
+und (etwas unzuverlässige) Silbengrenzen wurden den Einträgen
+hinzugefügt. Die Flexionen und Derivationen wurden von Stefan
+Breuer mit Hilfe der im HADIFIX-Präprozessor enthaltenen Affix-Liste
+erzeugt. Aus den so generierten Einträgen wurden die Nonsens-Wörter
+von Gregor Möhler (IMS, Uni Stuttgart) herausgefiltert.
+
+BOMP wird jetzt in drei verschiedenen Transkriptionsformaten ausgeliefert:
+
+- HADI-BOMP benutzt die in HADIFIX eingesetzten SAMPA-Transkriptionen
+
+- BOSS-BOMP ist in BLF, dem BOSSII-Labelformat gehalten. Dieses
+	Format wird vom Bonn Open Synthesis System, einer Open 
+	Source-Sprachsynthese benutzt, die derzeit am IKP entwickelt
+	wird.
+
+- FEST-BOMP liegt im Festival-Transkriptionsformat vor. Dieses
+	Format wird von GermanFestival, der Open Source-Synthese
+	des IMS (http://www.ims.uni-stuttgart.de/phonetik/synthesis/index.html)
+	verwendet. FEST-BOMP ist Teil der GermanFestival-Distribution,
+	die über obigen Link erhältlich ist.
+
+Wie sieht das Datenformat aus?
+
+Die untenstehende Beschreibung betrifft ausschließlich HADI-BOMP.
+Eine BLF-Dokumentation für BOSS-BOMP  wird in Kürze unter 
+http://www.ikp.uni-bonn.de/~kst/boss_ii.htm zur Verfügung stehen.
+Bitte konsultieren Sie die Seiten des IMS für Informationen 
+über GermanFestival (http://www.ims.uni-stuttgart.de/phonetik/synthesis/index.html)
+oder besuchen Sie http://www.cstr.ed.ac.uk/projects/festival
+für generelle Informationen über das Festival-Synthesesystem.
+
+Das HADI-BOMP-Transkriptionsformat:
+
+Jede Zeile enthält einen Eintrag. In der ersten Spalte steht
+die orthographische Version in ANSI inklusive Umlaute. Die
+zweite Spalte enthält eine phonetische Umschrift. Die Spalten
+sind durch ein TAB (0x09) getrennt.
+
+Die phonetische Transkription liegt in SAMPA vor. SAMPA ist unter
+http://www.phon.ucl.ac.uk/home/sampa/german.htm dokumentiert. Der
+folgende Text ist von dieser Seite kopiert, die relevanten Passagen
+wurden übersetzt und an die in BOMP verwendete Kodierung angepasst.
+
+Konsonanten
+
+Dem Konsonantensystem des Standarddeutschen werden in der Regel 
+17 oder 19 Obstruenten-Phoneme zugeschrieben  (abhängig davon, ob
+gewisse Laute, die nur in Lehnwörtern auftauchen, dazugerechnet
+werden). Dazu kommen fünf Sonoranten. Zu den Obstruenten des 
+Deutschen gehören sechs Plosive, drei (vier) Affrikaten und acht
+(neun) Frikative, wobei eines der Frikativ-Phoneme zwei akustisch
+ unterscheidbare Allophone aufweist (X und C), wodurch sich zehn
+Symbole ergeben, die zur Repräsentation der Frikative benötigt
+werden. Wie im Englischen sind die Obstruenten normalerweise in 
+"stimmlose" und "stimmhafte" Oppositionspaare eingeteilt, wobei die
+Periodizität ein weniger verlässliches Unterscheidungsmerkmal ist
+als Dauer und Intensität, weshalb man besser von "lenis" und "fortis"
+sprechen sollte.
+
+Die sechs Plosives sind p b t d k g: 
+
+        Symbol          Wort                    Transkription
+        p               Pein                    paIn
+        b               Bein                    baIn
+        t               Teich                   taIC
+        d               Deich                   daIC
+        k               Kunst                   kUnst
+        g               Gunst                   gUnst
+
+
+        ?               Verein                  fE6?aIn
+
+Es gibt drei dem Deutschen zugeschriebene phonemische Affrikaten, und eine vierte,
+dZ, die in einigen Lehnwörtern auftaucht und häufig durch tS ersetzt wird. 
+
+        pf              Pfahl                   pfa:l
+        ts              Zahl                    tsa:l
+        tS              deutsch                 dOYtS
+
+        dZ              Dschungel               dZUN@l
+
+Es gibt zehn Frikative, f v s z S Z C j x h. j und v werden meist als Approximant realisiert.
+
+        f               fast                    fast
+        v               was                     vas
+        s               Tasse                   tas@
+        z               Hase                    ha:z@
+        S               waschen                 vaS@n
+        Z               Genie                   Zeni:
+        C               sicher                  zIC=6
+        j               Jahr                    ja:6
+        x               Buch                    bu:x
+        h               Hand                    hant
+
+Die Sonoranten bestehen aus drei Nasalen, m n N, und zwei "Liquiden", l R, 
+von denen R als stimmhafter oder stimmloser uvularer Frikativ, 
+uvularer Approximant, oder uvularer Tap / Trill realisiert werden kann.
+
+        m               mein                    maIn
+        n               nein                    naIn
+        N               Ding                    dIN
+        l               Leim                    laIm
+        r               Reim                    raIm
+
+Vokale
+
+Die Vokale fallen in drei Gruppen, ungespannt (kurz), gespannt (lang) und zwei
+Kurzvokale, die nur in unbetonter Position auftauchen. . 
+
+Die Kurzvokale sind I E a O U Y 9
+
+        I               Sitz            zIts
+        E               Gesetz          g@zEts
+        a               Satz            zats
+        O               Trotz           trOts
+        U               Schutz          SUts
+        Y               hübsch          hYpS
+        9               plötzlich       pl9tslIC
+
+Die Langvokale sind i: e: E: a: o: u: y: 2:, plus drei Diphthonge aI aU OY 
+
+        i:              Lied            li:t
+        e:              Beet            be:t
+        E:              spät            SpE:t
+        a:              Tat             ta:t
+        o:              rot             ro:t
+        u:              Blut            blu:t
+        y:              süß             zy:s
+        2:              blöd            bl2:t
+
+        aI              Eis             aIs
+        aU              Haus            haUs
+        OY              Kreuz           krOYts
+
+In Lehnwörtern taucht auch der Diphthong EI auf
+
+	EI		Spray		sprEI		
+
+Der unbetonte Schwa-Vokal ist: 
+
+        @               bitte           bIt@
+
+Die vokalische Realisierung von <r> (am Silbenende) wird
+durch 6, bzw. im silbischen Fall mit =6 markiert:
+
+        =6              besser          bEs6
+	6		Schnur		Snu:6
+
+Drei Nasalvokale kommen vor:
+	O~		Jargon		ZargO~
+	a~		Chance		Sa~s@
+	E~		Bassin		basE~
+
+Drei nicht-silbische Vokale sind möglich:
+	<o		Toilette	t<oalEt@
+	<u		sexuell		sEks<uEl
+	<i		Nation		nats<io:n
+
+Der Wortakzent (Wortbetonung) wird mit einem ' vor der
+Silbe markiert (außer in einsilbigen Wörtern). Sekundärakzente
+können durch , markiert werden. Silbengrenzen werden durch
+ das Pipe-Symbol ("|") repräsentiert.
+
+Silbische Konsonanten (wie =n statt @n) sind nicht enthalten,
+das sie regelhaft abgeleitet werden können.
+
+_________________________________________
+
+Was fordern wir als Gegenleistung für den Arbeitsaufwand?
+
+Dieses Wörterbuch ist eine hervorragende Basis für eigene Forschung.
+Die Erstellung des Wörterbuches hat uns viele (geisttötende) Arbeitsstunden 
+gekostet. Als Gegenleistung forden wir, dass
+
+1. uns alle Fehler mitgeteilt werden,
+
+2. das Lexikon nicht weitergegeben wird,
+
+3. das Lexikon nur unter den angegebenen Lizenzbestimmungen benutzt wird,
+
+4. wir in Ihren wissenschaftlichen Aufsätzen zitiert werden,
+
+5. Feedback erhalten.
+
+Wenn Sie dieses Wörterbuch für kommerzielle Zwecke einsetzen
+wollen, kontaktieren Sie uns. Der Einsatz durch militärische
+Einrichtungen ist generell untersagt!
+
+___________________________________________
+
+
+Kontakt:
+
+Stefan Breuer
+IKP, Universität Bonn, Poppelsdorfer Allee 47, 53115 Bonn, Germany
+email: sbr@ikp.uni-bonn.de
