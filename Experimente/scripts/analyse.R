@@ -346,17 +346,17 @@ evaluate_voting_models <- function(results, correct_class, models, folder, num_s
 
 }
 
-error_freq <- function(model_sets, errors) {
-	lapply(model_sets, function(results) {
-		matrix(
-			unlist(lapply(colnames(results), function(colname) {
-				arg = list(); arg[colname] = 'yes'
-				table(apply(find_row(results, arg) == 'yes',1,sum))
-			}), recursive=FALSE)
-		length(results))
-	})
-}
-x=error_freq(model_sets,list(error_all_J48='yes'))
+#error_freq <- function(model_sets, errors) {
+#	lapply(model_sets, function(results) {
+#		matrix(
+#			unlist(lapply(colnames(results), function(colname) {
+#				arg = list(); arg[colname] = 'yes'
+#				table(apply(find_row(results, arg) == 'yes',1,sum))
+#			}), recursive=FALSE),
+#		length(results))
+#	})
+#}
+#x=error_freq(model_sets,list(error_all_J48='yes'))
 
 plot_compare <- function(model_sets, num_syls, folder) {
 	filename = paste(folder,'compare/',num_syls,'syl.png',sep='')
@@ -429,8 +429,10 @@ pretty_name <- function(str) {
 }
 
 lapply(2:8, function(num_syls) {
-	data_folder = '~/Schreibtisch/thesis/Experimente/csv/classifications/'
-	folder = '/home/sbiastoch/Schreibtisch/thesis/Experimente/evaluation/'
+	data_folder = '/home/student/thesis/Experimente/csv/classifications/'
+	#data_folder = '~/Schreibtisch/thesis/Experimente/csv/classifications/'
+	folder = '/home/student/thesis/Experimente/evaluation/'
+	#folder = '/home/sbiastoch/Schreibtisch/thesis/Experimente/evaluation/'
 	csv = read.csv(paste(data_folder,num_syls,'syl-results.csv',sep=''), header=TRUE)
 
 	results = csv[grep("error", names(csv))]
@@ -447,28 +449,28 @@ lapply(2:8, function(num_syls) {
 	names(model_sets) = models
 
 	# Fehler je Einzelmodell
-#	plot_basic_stats(results, num_syls, folder)
+	plot_basic_stats(results, num_syls, folder)
 
 	#
 #	unique_errors(results, num_syls, folder) depracted?
 
 	# Vergleich der error/correct: unique, common, other
-#	plot_compare(model_sets, num_syls, folder)
+	plot_compare(model_sets, num_syls, folder)
 
 	# Aufschlüsselung der error/correct in Mehrheits/Minderheits corrects/errors
-#	do_plot_majorites(model_sets, num_syls, folder)
+	do_plot_majorites(model_sets, num_syls, folder)
 
 	# ???????????????
 #	evaluate_voting_models(results_class, csv$stress_class, methodsodels, folder, num_syls)
 
 	# Histogramm der Fehlerhäufigkeiten der Fehler eines Models 
-	error_freq_histogram = rbind(
-		all=error_freq(model_sets, errors=list(error_all_J48='yes')),
-		phon=error_freq(model_sets, errors=list(error_phon_J48='yes')),
-		affix=error_freq(model_sets, errors=list(error_affix_J48='yes')),
-		sylstruct=error_freq(model_sets, errors=list(error_sylstruct_J48='yes'))
-	)
-	barplot(error_freq_histogram, legend=TRUE)
+#	error_freq_histogram = rbind(
+#		all=error_freq(model_sets, errors=list(error_all_J48='yes')),
+#		phon=error_freq(model_sets, errors=list(error_phon_J48='yes')),
+#		affix=error_freq(model_sets, errors=list(error_affix_J48='yes')),
+#		sylstruct=error_freq(model_sets, errors=list(error_sylstruct_J48='yes'))
+#	)
+#	barplot(error_freq_histogram, legend=TRUE)
 
 
 	# ????????????????????
