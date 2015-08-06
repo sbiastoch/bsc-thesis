@@ -288,7 +288,7 @@
          <object class="int" name="id" primitive="yes">14</object>
          <object class="int" name="x" primitive="yes">903</object>
          <object class="int" name="y" primitive="yes">733</object>
-         <object class="java.lang.String" name="custom_name">sylstruct-attributes</object>
+         <object class="java.lang.String" name="custom_name">RemoveByName</object>
          <object class="weka.gui.beans.Filter" name="bean">
             <object class="weka.filters.unsupervised.attribute.RemoveByName" name="filter">
                <object array="yes" class="java.lang.String" name="options">
@@ -339,7 +339,7 @@
          <object class="int" name="id" primitive="yes">17</object>
          <object class="int" name="x" primitive="yes">649</object>
          <object class="int" name="y" primitive="yes">897</object>
-         <object class="java.lang.String" name="custom_name">affix-attributes</object>
+         <object class="java.lang.String" name="custom_name">RemoveByName</object>
          <object class="weka.gui.beans.Filter" name="bean">
             <object class="weka.filters.unsupervised.attribute.RemoveByName" name="filter">
                <object array="yes" class="java.lang.String" name="options">
@@ -356,7 +356,7 @@
          <object class="int" name="id" primitive="yes">18</object>
          <object class="int" name="x" primitive="yes">880</object>
          <object class="int" name="y" primitive="yes">897</object>
-         <object class="java.lang.String" name="custom_name">phon-attributes</object>
+         <object class="java.lang.String" name="custom_name">RemoveByName</object>
          <object class="weka.gui.beans.Filter" name="bean">
             <object class="weka.filters.unsupervised.attribute.RemoveByName" name="filter">
                <object array="yes" class="java.lang.String" name="options">
@@ -1106,8 +1106,8 @@
       </object>
       <object class="weka.gui.beans.BeanInstance" name="56">
          <object class="int" name="id" primitive="yes">56</object>
-         <object class="int" name="x" primitive="yes">582</object>
-         <object class="int" name="y" primitive="yes">1074</object>
+         <object class="int" name="x" primitive="yes">580</object>
+         <object class="int" name="y" primitive="yes">1064</object>
          <object class="java.lang.String" name="custom_name">TrainingSetMaker</object>
          <object class="weka.gui.beans.TrainingSetMaker" name="bean">
             <object class="null" name="name" null="yes"/>

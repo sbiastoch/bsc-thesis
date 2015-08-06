@@ -1,0 +1,602 @@
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 000047-everything-3syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+JRIP rules:
+===========
+
+(nucleus_len2 >= 2) and (comp_len <= 1) and (syl_len1 <= 2) => stress_class=ultima (763.0/178.0)
+(syl_weight2 >= 2) and (comp_len <= 1) and (syl_weight1 >= 1) => stress_class=ultima (351.0/82.0)
+(prae_class = noacc) => stress_class=paenultima (1457.0/1.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight2 <= 0) and (syl_class0 = CK) and (rhyme0 = CV) => stress_class=paenultima (215.0/0.0)
+(comp_len <= 1) and (praefix = ø) and (nucleus_class1 = L) and (sonority0 <= 121) and (suffix4 = LCKC) => stress_class=paenultima (451.0/89.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (praefix1 = C) and (nucleus_len2 <= 1) and (onset_class2 = C) => stress_class=paenultima (644.0/131.0)
+(syl_len0 <= 2) and (syl_weight1 >= 1) and (praefix = ø) and (nucleus_len2 <= 1) and (sonority0 <= 201) and (koda_class1 = C) => stress_class=paenultima (107.0/25.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (rhyme2 = CV) => stress_class=paenultima (149.0/66.0)
+ => stress_class=antepaenultima (8803.0/1066.0)
+
+Number of Rules : 9
+=== Evaluation result ===
+
+Scheme: min100 : JRip
+Options: -F 3 -N 100.0 -O 10 -S 1
+Relation: 000047-everything-3syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+
+Correctly Classified Instances        3739               56.0906 %
+Incorrectly Classified Instances      2927               43.9094 %
+Kappa statistic                          0.1757
+Mean absolute error                      0.2494
+Root mean squared error                  0.4452
+Relative absolute error                 95.614  %
+Root relative squared error            122.9975 %
+Coverage of cases (0.95 level)          80.318  %
+Mean rel. region size (0.95 level)      62.5    %
+Total Number of Instances             6666     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,635    0,540    0,667      0,635    0,651      0,093    0,480     0,649     antepaenultima
+                 0,340    0,290    0,295      0,340    0,316      0,048    0,518     0,272     paenultima
+                 0,736    0,028    0,735      0,736    0,735      0,707    0,887     0,568     ultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,666     0,015     multa
+Weighted Avg.    0,561    0,420    0,569      0,561    0,564      0,140    0,531     0,536     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 2668 1406  128    0 |    a = antepaenultima
+ 1116  597   41    0 |    b = paenultima
+  154   16  474    0 |    c = ultima
+   61    3    2    0 |    d = multa
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 000047-everything-3syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+JRIP rules:
+===========
+
+(nucleus_len2 >= 2) and (comp_len <= 1) and (koda_len1 <= 0) and (sa_struct = SA) => stress_class=ultima (284.0/19.0)
+(nucleus_class2 = L) and (comp_len <= 1) and (syl_len1 <= 2) and (suffix2 = LC) => stress_class=ultima (333.0/43.0)
+(syl_weight2 >= 1) and (comp_len <= 0) and (nucleus_len2 >= 2) and (syl_len2 >= 3) and (onset_len2 <= 1) => stress_class=ultima (132.0/10.0)
+(syl_weight2 >= 2) and (comp_len <= 1) and (syl_weight1 >= 1) => stress_class=ultima (360.0/87.0)
+(prae_class = noacc) => stress_class=paenultima (1456.0/1.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight2 <= 0) and (syl_class0 = CK) and (rhyme0 = CV) => stress_class=paenultima (215.0/0.0)
+(comp_len <= 1) and (praefix = ø) and (nucleus_class1 = L) and (syl2 = ren) => stress_class=paenultima (170.0/2.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (sonority0 <= 111) and (nk_suffix = isch) => stress_class=paenultima (168.0/14.0)
+(comp_len <= 0) and (suffix2 = CK) => stress_class=paenultima (165.0/9.0)
+(syl_len0 <= 2) and (praefix2 = CK) and (syl_weight1 >= 1) and (syl_weight0 <= 0) => stress_class=paenultima (94.0/0.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (cv_ratio0 >= 2) and (nucleus_len2 <= 1) => stress_class=paenultima (416.0/110.0)
+(syl_len0 <= 2) and (syl_weight1 >= 1) and (praefix = ø) and (onset_len0 >= 1) and (nucleus_len2 <= 1) and (onset_class2 = C) => stress_class=paenultima (207.0/56.0)
+(syl_len0 <= 2) and (syl_weight1 >= 1) and (praefix = ø) and (sonority0 <= 11) and (nucleus_len0 <= 1) => stress_class=paenultima (137.0/55.0)
+(syl_weight1 >= 1) and (syl_len0 <= 2) and (comp_struct = ø) => stress_class=paenultima (152.0/74.0)
+ => stress_class=antepaenultima (8651.0/807.0)
+
+Number of Rules : 15
+=== Evaluation result ===
+
+Scheme: min50 : JRip
+Options: -F 3 -N 50.0 -O 10 -S 1
+Relation: 000047-everything-3syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+
+Correctly Classified Instances        3778               56.6757 %
+Incorrectly Classified Instances      2888               43.3243 %
+Kappa statistic                          0.1484
+Mean absolute error                      0.2447
+Root mean squared error                  0.4489
+Relative absolute error                 93.8355 %
+Root relative squared error            124.0382 %
+Coverage of cases (0.95 level)          75.4875 %
+Mean rel. region size (0.95 level)      47.2847 %
+Total Number of Instances             6666     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,675    0,594    0,660      0,675    0,667      0,081    0,486     0,649     antepaenultima
+                 0,377    0,276    0,328      0,377    0,351      0,097    0,527     0,262     paenultima
+                 0,436    0,011    0,803      0,436    0,565      0,563    0,763     0,456     ultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,656     0,014     multa
+Weighted Avg.    0,567    0,448    0,580      0,567    0,567      0,131    0,525     0,522     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 2836 1316   50    0 |    a = antepaenultima
+ 1075  661   18    0 |    b = paenultima
+  326   37  281    0 |    c = ultima
+   63    2    1    0 |    d = multa
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 000047-everything-3syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+JRIP rules:
+===========
+
+(nucleus_len2 >= 2) and (comp_len <= 1) and (syl_len1 <= 2) and (sa_struct = SA) and (basic_pos = N) => stress_class=ultima (202.0/5.0)
+(nucleus_class2 = L) and (comp_len <= 1) and (rhyme1 = CVV) and (suffix2 = LC) and (comp_struct = ø) => stress_class=ultima (141.0/8.0)
+(syl_weight2 >= 1) and (comp_len <= 0) and (rhyme2 = CVVC) => stress_class=ultima (101.0/12.0)
+(syl_weight2 >= 1) and (comp_len <= 1) and (koda_len2 >= 2) and (syl_weight1 >= 1) => stress_class=ultima (365.0/87.0)
+(nucleus_len2 >= 2) and (comp_len <= 1) and (rhyme2 = CVV) and (syl_len2 >= 3) => stress_class=ultima (132.0/21.0)
+(syl_weight2 >= 1) and (comp_len <= 1) and (suffix2 = LC) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len1 <= 3) => stress_class=ultima (291.0/49.0)
+(prae_class = noacc) => stress_class=paenultima (1457.0/1.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_class0 = CK) => stress_class=paenultima (517.0/49.0)
+(nucleus_class1 = L) and (comp_len <= 1) and (praefix = ø) and (syl2 = ren) => stress_class=paenultima (143.0/2.0)
+(comp_len <= 1) and (praefix = ø) and (nucleus_class1 = L) and (nk_suffix = isch) => stress_class=paenultima (146.0/11.0)
+(comp_len <= 0) and (suffix2 = CK) => stress_class=paenultima (136.0/9.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (sonority0 <= 111) and (nucleus_len0 <= 1) and (syl_len0 <= 3) => stress_class=paenultima (333.0/110.0)
+(syl_len0 <= 2) and (syl_weight1 >= 1) and (praefix1 = C) and (onset_class2 = C) => stress_class=paenultima (299.0/88.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (cv_ratio0 >= 2) and (syl_len0 <= 3) => stress_class=paenultima (135.0/47.0)
+(syl_len0 <= 2) and (syl_weight1 >= 1) and (praefix = ø) and (sa_struct = SS) and (sonority1 >= 111) => stress_class=paenultima (53.0/16.0)
+ => stress_class=antepaenultima (8489.0/668.0)
+
+Number of Rules : 16
+=== Evaluation result ===
+
+Scheme: min30 : JRip
+Options: -F 3 -N 30.0 -O 10 -S 1
+Relation: 000047-everything-3syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+
+Correctly Classified Instances        3830               57.4557 %
+Incorrectly Classified Instances      2836               42.5443 %
+Kappa statistic                          0.2005
+Mean absolute error                      0.239 
+Root mean squared error                  0.4431
+Relative absolute error                 91.624  %
+Root relative squared error            122.4289 %
+Coverage of cases (0.95 level)          76.2526 %
+Mean rel. region size (0.95 level)      49.2049 %
+Total Number of Instances             6666     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,659    0,442    0,718      0,659    0,687      0,212    0,534     0,688     antepaenultima
+                 0,495    0,332    0,348      0,495    0,409      0,149    0,536     0,266     paenultima
+                 0,300    0,019    0,625      0,300    0,405      0,394    0,808     0,359     ultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,680     0,016     multa
+Weighted Avg.    0,575    0,368    0,604      0,575    0,580      0,211    0,562     0,538     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 2768 1378   56    0 |    a = antepaenultima
+  827  869   58    0 |    b = paenultima
+  200  251  193    0 |    c = ultima
+   62    2    2    0 |    d = multa
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 000047-everything-3syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+JRIP rules:
+===========
+
+(nucleus_len2 >= 2) and (comp_len <= 1) and (syl_len1 <= 2) and (suffix2 = LC) and (praefix1 = C) => stress_class=ultima (296.0/23.0)
+(nucleus_class2 = L) and (comp_len <= 1) and (rhyme1 = CVV) and (suffix2 = LC) and (sonority1 >= 101) => stress_class=ultima (90.0/12.0)
+(syl_weight2 >= 1) and (comp_len <= 0) and (nucleus_len2 >= 2) and (syl_len2 >= 3) and (onset_class2 = C) => stress_class=ultima (141.0/11.0)
+(syl_weight2 >= 2) and (comp_len <= 1) and (syl_weight1 >= 1) and (basic_pos = N) and (syl_len2 <= 4) => stress_class=ultima (215.0/20.0)
+(nucleus_class2 = L) and (comp_len <= 1) and (nk_suffix = ie) => stress_class=ultima (31.0/0.0)
+(syl_weight2 >= 1) and (comp_len <= 0) and (koda_len2 >= 2) and (syl_weight1 >= 1) => stress_class=ultima (24.0/0.0)
+(nucleus_len2 >= 2) and (comp_len <= 1) and (suffix2 = LC) and (basic_pos = N) and (syl_weight1 >= 1) => stress_class=ultima (78.0/18.0)
+(syl_weight2 >= 1) and (comp_len <= 1) and (suffix2 = LC) and (sonority2 >= 121) and (sonority2 <= 201) => stress_class=ultima (39.0/2.0)
+(syl_weight2 >= 1) and (comp_len <= 1) and (cv_ratio2 >= 3) and (syl_weight1 >= 1) and (rhyme2 = CVCC) and (comp_struct = R) => stress_class=ultima (26.0/2.0)
+(syl_weight2 >= 1) and (sonority2 <= 21) and (sa_struct = SA) and (koda_len1 <= 0) => stress_class=ultima (180.0/3.0)
+(prae_class = noacc) => stress_class=paenultima (1456.0/1.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_class0 = CK) and (rhyme0 = CV) => stress_class=paenultima (297.0/0.0)
+(comp_len <= 1) and (praefix = ø) and (nucleus_class1 = L) and (syl_weight2 <= 0) and (syl2 = ren) => stress_class=paenultima (170.0/2.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (cv_ratio0 >= 2) and (syl_weight2 <= 0) => stress_class=paenultima (305.0/43.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (nk_suffix = isch) => stress_class=paenultima (241.0/32.0)
+(syl_len0 <= 2) and (syl_weight1 >= 1) and (praefix = ø) and (praefix1 = C) and (rhyme1 = CVVC) => stress_class=paenultima (51.0/1.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (sonority_ratio0 <= 2) and (syl_class2 = CKC) and (praefix4 = CKCC) and (sa_struct = SA) => stress_class=paenultima (40.0/6.0)
+(syl_len0 <= 2) and (syl_weight1 >= 1) and (praefix = ø) and (basic_pos = N) and (suffix5 = KCCKC) and (syl_len2 <= 3) => stress_class=paenultima (52.0/5.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (basic_pos = N) and (sonority_ratio1 <= 2) and (suffix5 = KCCKC) => stress_class=paenultima (37.0/9.0)
+(syl_len0 <= 2) and (syl_weight1 >= 1) and (praefix = ø) and (onset_len0 >= 1) and (onset_class2 = C) and (cv_ratio1 <= 0) => stress_class=paenultima (136.0/40.0)
+(comp_len <= 0) and (koda_len2 <= 0) => stress_class=paenultima (140.0/34.0)
+(syl_weight1 >= 1) and (nucleus_class0 = K) and (syl_len0 <= 3) and (praefix = ø) and (sonority_ratio0 <= 2) and (syl_len1 >= 4) and (onset_len0 >= 1) => stress_class=paenultima (71.0/14.0)
+(syl_len0 <= 2) and (syl_weight1 >= 1) and (praefix = ø) and (syl_weight2 <= 0) and (sonority0 <= 101) and (praefix1 = K) and (sonority0 <= 11) => stress_class=paenultima (36.0/2.0)
+(syl_weight1 >= 1) and (syl_len0 <= 2) and (comp_struct = ø) and (syl_weight2 <= 0) => stress_class=paenultima (67.0/20.0)
+(praefix = um) and (nk_suffix = en) and (sonority1 >= 111) => stress_class=paenultima (61.0/28.0)
+(syl_weight1 >= 1) and (sa_struct = S) and (comp_struct = N) and (koda_len2 <= 0) and (syl_len2 >= 2) => stress_class=paenultima (66.0/20.0)
+ => stress_class=antepaenultima (8594.0/672.0)
+
+Number of Rules : 27
+=== Evaluation result ===
+
+Scheme: min20 : JRip
+Options: -F 3 -N 20.0 -O 10 -S 1
+Relation: 000047-everything-3syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+
+Correctly Classified Instances        3503               52.5503 %
+Incorrectly Classified Instances      3163               47.4497 %
+Kappa statistic                          0.0304
+Mean absolute error                      0.2542
+Root mean squared error                  0.4704
+Relative absolute error                 97.4635 %
+Root relative squared error            129.9645 %
+Coverage of cases (0.95 level)          74.1974 %
+Mean rel. region size (0.95 level)      45.6496 %
+Total Number of Instances             6666     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,684    0,707    0,623      0,684    0,652      -0,024   0,454     0,625     antepaenultima
+                 0,242    0,276    0,239      0,242    0,241      -0,033   0,471     0,245     paenultima
+                 0,318    0,011    0,756      0,318    0,448      0,460    0,757     0,366     ultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,623     0,013     multa
+Weighted Avg.    0,526    0,519    0,528      0,526    0,517      0,020    0,490     0,494     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 2873 1294   35    0 |    a = antepaenultima
+ 1299  425   30    0 |    b = paenultima
+  381   58  205    0 |    c = ultima
+   62    3    1    0 |    d = multa
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 000047-everything-3syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+JRIP rules:
+===========
+
+(nucleus_len2 >= 2) and (comp_len <= 1) and (syl_len1 <= 2) and (onset_len0 >= 1) and (syl_len2 >= 3) and (sonority_ratio2 >= 3) => stress_class=ultima (319.0/14.0)
+(nucleus_class2 = L) and (comp_len <= 1) and (sonority2 >= 121) and (syl_weight1 >= 1) and (sonority_ratio2 <= 2) => stress_class=ultima (259.0/38.0)
+(syl_weight2 >= 1) and (comp_len <= 1) and (koda_len2 >= 2) and (syl_weight1 >= 1) and (comp_struct = R) => stress_class=ultima (109.0/4.0)
+(syl_weight2 >= 1) and (comp_len <= 1) and (suffix2 = LC) and (syl_len1 <= 2) and (syl_weight1 >= 1) => stress_class=ultima (133.0/15.0)
+(syl_weight2 >= 1) and (comp_len <= 1) and (koda_len2 >= 2) and (syl_weight1 >= 1) and (syl_len2 <= 4) and (basic_pos = N) => stress_class=ultima (138.0/17.0)
+(comp_len <= 0) and (syl_weight2 >= 1) and (cv_ratio2 >= 3) => stress_class=ultima (44.0/10.0)
+(nucleus_len2 >= 2) and (comp_len <= 1) and (comp_len <= 0) and (syl_len2 >= 3) and (onset_class2 = C) => stress_class=ultima (76.0/9.0)
+(syl_weight2 >= 1) and (sonority2 <= 101) and (sa_struct = SA) => stress_class=ultima (64.0/14.0)
+(syl_weight2 >= 1) and (syl_len0 <= 2) and (nucleus_class2 = L) and (comp_struct = N) and (sonority2 >= 121) and (syl_weight1 >= 1) and (koda_len0 >= 1) and (syl_len2 >= 3) => stress_class=ultima (15.0/1.0)
+(nucleus_len2 >= 2) and (comp_len <= 1) and (comp_struct = R) => stress_class=ultima (20.0/0.0)
+(syl_weight2 >= 1) and (comp_struct = ø) and (basic_pos = ADV) and (koda_class2 = C) and (cv_ratio0 <= 0) => stress_class=ultima (26.0/8.0)
+(prae_class = noacc) => stress_class=paenultima (1458.0/1.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight2 <= 0) and (syl_class0 = CK) and (rhyme0 = CV) => stress_class=paenultima (215.0/0.0)
+(comp_len <= 1) and (praefix = ø) and (nucleus_class1 = L) and (sonority0 <= 111) and (onset_class2 = C) and (syl_weight2 <= 0) and (sonority_ratio2 >= 3) => stress_class=paenultima (185.0/5.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (praefix1 = C) and (rhyme2 = CV) => stress_class=paenultima (195.0/15.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (suffix4 = LCKC) and (nk_suffix = isch) => stress_class=paenultima (162.0/11.0)
+(syl_len0 <= 2) and (praefix2 = CK) and (syl_weight1 >= 1) and (rhyme0 = CV) => stress_class=paenultima (104.0/0.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (cv_ratio0 >= 2) and (syl_weight2 <= 0) and (nucleus_class1 = L) => stress_class=paenultima (97.0/7.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (sonority0 <= 121) and (nucleus_class0 = K) and (syl_weight2 <= 0) and (sa_struct = ø) => stress_class=paenultima (41.0/5.0)
+(syl_len0 <= 2) and (syl_weight1 >= 1) and (praefix = ø) and (praefix1 = C) and (syl_len1 >= 3) and (nucleus_len1 >= 2) => stress_class=paenultima (95.0/16.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (sonority_ratio0 <= 2) and (cv_ratio2 >= 2) and (comp_len >= 1) and (suff_class = ø) => stress_class=paenultima (170.0/44.0)
+(syl_len0 <= 2) and (syl_weight1 >= 1) and (praefix = ø) and (sonority0 <= 201) and (suffix3 = CKC) and (nk_suffix = isch) => stress_class=paenultima (25.0/3.0)
+(syl_len0 <= 2) and (syl_weight1 >= 1) and (praefix = ø) and (comp_struct = ø) and (syl_weight2 <= 0) => stress_class=paenultima (55.0/15.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (basic_pos = N) and (suffix4 = CCKC) => stress_class=paenultima (95.0/22.0)
+(nucleus_class1 = L) and (syl_len0 <= 2) and (praefix = ø) and (onset_len2 >= 1) and (sonority1 <= 101) and (syl_len2 <= 3) and (comp_len <= 0) => stress_class=paenultima (30.0/8.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (suffix4 = LCKC) and (rhyme0 = CCVC) and (sonority2 >= 1011) and (sonority2 <= 1011) => stress_class=paenultima (25.0/0.0)
+(syl_weight1 >= 1) and (syl_len0 <= 2) and (praefix = ø) and (onset_len0 >= 1) and (syl_len1 >= 4) => stress_class=paenultima (31.0/12.0)
+(syl_weight1 >= 1) and (nucleus_class0 = K) and (comp_len <= 1) and (praefix = ø) and (sonority0 <= 111) and (sa_struct = S) => stress_class=paenultima (82.0/29.0)
+(syl_weight1 >= 1) and (syl_len0 <= 2) and (comp_struct = ø) and (nucleus_len1 <= 1) => stress_class=paenultima (50.0/12.0)
+(nucleus_len1 >= 2) and (syl_weight2 >= 1) and (syl_len0 <= 3) and (cv_ratio0 >= 2) and (koda_len1 >= 1) and (koda_len0 <= 1) => stress_class=paenultima (44.0/11.0)
+(praefix = um) and (basic_pos = V) and (sonority1 >= 111) => stress_class=paenultima (72.0/35.0)
+(praefix = durch) and (syl_len2 >= 4) => stress_class=paenultima (42.0/20.0)
+(nucleus_len1 >= 2) and (koda_len0 <= 0) and (syl_weight2 >= 1) and (sa_struct = SA) and (basic_pos = N) and (praefix = ø) => stress_class=paenultima (21.0/5.0)
+ => stress_class=antepaenultima (8443.0/571.0)
+
+Number of Rules : 34
+=== Evaluation result ===
+
+Scheme: min15 : JRip
+Options: -F 3 -N 15.0 -O 10 -S 1
+Relation: 000047-everything-3syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+
+Correctly Classified Instances        3347               50.21   %
+Incorrectly Classified Instances      3319               49.79   %
+Kappa statistic                          0.1749
+Mean absolute error                      0.2559
+Root mean squared error                  0.4644
+Relative absolute error                 98.1271 %
+Root relative squared error            128.3189 %
+Coverage of cases (0.95 level)          73.0573 %
+Mean rel. region size (0.95 level)      47.3185 %
+Total Number of Instances             6666     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,631    0,329    0,766      0,631    0,692      0,292    0,630     0,722     antepaenultima
+                 0,164    0,126    0,317      0,164    0,216      0,048    0,411     0,237     paenultima
+                 0,634    0,314    0,178      0,634    0,277      0,199    0,733     0,360     ultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,702     0,017     multa
+Weighted Avg.    0,502    0,271    0,583      0,502    0,520      0,216    0,583     0,552     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 2652  587  963    0 |    a = antepaenultima
+  544  287  923    0 |    b = paenultima
+  206   30  408    0 |    c = ultima
+   61    2    3    0 |    d = multa
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 000047-everything-3syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+JRIP rules:
+===========
+
+(basic_pos = ADV) and (rhyme2 = CVVC) => stress_class=multa (42.0/20.0)
+(nucleus_len2 >= 2) and (comp_len <= 1) and (syl_len1 <= 2) and (suffix2 = LC) and (onset_len0 >= 1) => stress_class=ultima (312.0/25.0)
+(nucleus_len2 >= 2) and (comp_len <= 1) and (koda_len1 <= 0) and (sa_struct = SA) and (cv_ratio2 <= 0) => stress_class=ultima (184.0/4.0)
+(comp_len <= 0) and (nucleus_len2 >= 2) and (syl_len2 >= 3) => stress_class=ultima (186.0/23.0)
+(syl_weight2 >= 1) and (comp_len <= 0) and (suffix2 = LC) => stress_class=ultima (8.0/1.0)
+(syl_weight2 >= 2) and (comp_len <= 1) and (syl_weight1 >= 1) and (sonority0 <= 211) and (sonority2 >= 1101) => stress_class=ultima (156.0/10.0)
+(nucleus_class2 = L) and (comp_len <= 1) and (sonority2 >= 201) and (sonority2 <= 201) and (suffix3 = CLC) => stress_class=ultima (57.0/5.0)
+(syl_weight2 >= 1) and (suff_class = acc) => stress_class=ultima (51.0/2.0)
+(syl_weight2 >= 1) and (comp_len <= 0) and (cv_ratio2 >= 3) and (syl_weight1 >= 1) => stress_class=ultima (41.0/5.0)
+(nucleus_class2 = L) and (comp_struct = N) and (sonority_ratio2 >= 3) and (syl_len2 >= 3) and (syl_weight1 >= 1) => stress_class=ultima (69.0/11.0)
+(comp_struct = R) and (nucleus_len2 >= 2) => stress_class=ultima (23.0/0.0)
+(syl_weight2 >= 1) and (sa_struct = S) and (syl_weight1 >= 1) and (suffix2 = LC) => stress_class=ultima (24.0/3.0)
+(syl_weight2 >= 1) and (nk_suffix = ell) and (syl_weight1 >= 1) => stress_class=ultima (24.0/1.0)
+(syl_weight2 >= 1) and (comp_len <= 1) and (koda_len2 >= 2) and (syl_weight1 >= 1) and (syl_len2 <= 4) and (basic_pos = N) => stress_class=ultima (45.0/11.0)
+(syl_weight2 >= 1) and (comp_struct = ø) and (basic_pos = ADV) and (koda_class2 = C) and (cv_ratio0 <= 0) => stress_class=ultima (19.0/5.0)
+(prae_class = noacc) => stress_class=paenultima (1457.0/1.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (sonority0 <= 111) and (syl_class0 = CK) and (rhyme0 = CV) => stress_class=paenultima (290.0/0.0)
+(comp_len <= 1) and (praefix = ø) and (nucleus_class1 = L) and (suffix4 = LCKC) and (sonority_ratio2 >= 3) and (sonority2 >= 1011) and (syl_len1 >= 3) => stress_class=paenultima (213.0/4.0)
+(comp_len <= 0) and (suffix2 = CK) => stress_class=paenultima (165.0/9.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (praefix1 = C) and (rhyme2 = CV) => stress_class=paenultima (122.0/12.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (nk_suffix = isch) => stress_class=paenultima (241.0/32.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (sonority_ratio0 <= 2) and (syl_class2 = CKC) and (praefix2 = CK) and (comp_len >= 1) => stress_class=paenultima (108.0/20.0)
+(syl_len0 <= 2) and (syl_weight1 >= 1) and (praefix = ø) and (onset_len0 >= 1) and (rhyme1 = CVVC) => stress_class=paenultima (55.0/2.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (cv_ratio0 >= 2) and (suffix5 = CLCKC) and (syl_weight2 <= 0) => stress_class=paenultima (32.0/4.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (sonority0 <= 111) and (syl_len0 <= 2) and (rhyme2 = CVC) and (koda_class1 = C) and (sonority_ratio2 <= 2) => stress_class=paenultima (61.0/5.0)
+(syl_len0 <= 2) and (syl_weight1 >= 1) and (praefix = ø) and (praefix1 = C) and (syl_len1 >= 4) and (cv_ratio0 <= 1) => stress_class=paenultima (30.0/2.0)
+(comp_len <= 0) and (suffix2 = CL) and (sonority2 >= 101) => stress_class=paenultima (36.0/8.0)
+(syl_weight1 >= 1) and (syl_len0 <= 2) and (praefix = ø) and (syl_class0 = K) and (sonority_ratio0 <= 4) => stress_class=paenultima (41.0/9.0)
+(syl_weight1 >= 1) and (koda_len0 <= 0) and (comp_struct = N) and (onset_len2 >= 1) and (syl_len1 <= 2) and (syl_len0 <= 2) => stress_class=paenultima (39.0/11.0)
+(syl_weight1 >= 1) and (koda_len0 <= 0) and (comp_struct = ø) and (basic_pos = ADV) => stress_class=paenultima (30.0/1.0)
+(nucleus_class0 = K) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (praefix = ø) and (sonority_ratio0 <= 2) and (syl1 = zens_or_port_or_sken_or_wei$_or_3r_or_wig_or_schlit_or_fekt_or_f2hls_or_xen_or_b2h_or_ble2_or_brig_or_ruh_or_nat_or_l3s_or_stof_or_herbst_or_trans_or_scen_or_blas_or_g1l_or_hoch_or_stum_or_em_or_siert_or_schwit_or_dyl_or_suchts_or_fall_or_thro_or_ob_or_wip_or_meind_or_br2l_or_t2m_or_geh_or_xa_or_starr_or_steckt_or_ple_or_welt_or_sch3f_or_fl1ch_or_tr2m_or_s2d_or_ckucks_or_gnal_or_kl2_or_rho_or_lungs_or_merg_or_werf_or_py_or_kni_or_ort_or_schop_or_dump_or_gro_or_part_or_spann_or_schlu_or_behr_or_grie_or_lin_or_sprach_or_tun_or_spekt_or_trak_or_freun_or_chent_or_sorp_or_kannt_or_weg_or_hig_or_n1cht_or_gler_or_zwun_or_mis_or_lut_or_pez_or_kirch_or_hof_or_glet_or_ta2_or_buch_or_ros_or_nier_or_bral_or_nanz_or_pach_or_steh_or_fr1u_or_tr2_or_sas_or_schun_or_lands_or_wai_or_wandt_or_1rzt_or_sitt_or_spruchs_or_kriegs_or_k1m_or_sag_or_blend_or_form_or_te2_or_h3r_or_schn1u_or_wjet_or_d1ch_or_tas_or_nom_or_scho_or_spea_or_dien_or_laubs_or_stot_or_cho_or_fremd_or_nich_or_prel_or_stap_or_nick_or_oh_or_kna_or_of_or_r2ckt_or_vol_or_than_or_s2h_or_drie_or_drat_or_str1n_or_h1m_or_schimp_or_griffs_or_schum_or_bitz_or_ram_or_kehr_or_gli_or_star_or_schlan_or_tha_or_krab_or_n1h_or_dal_or_wands_or_lem_or_dri_or_markt_or_noph_or_gent_or_bohrt_or_jung_or_kee_or_end_or_bring_or_scher_or_werb_or_f3rm_or_fr1_or_werks_or_t2f_or_duld_or_lou_or_brie_or_stink_or_k2nf_or_g1ng_or_kleid_or_stalt_or_tes_or_stard_or_wohn_or_quar_or_ceu_or_lis_or_zan_or_n2g_or_ne2_or_stiz_or_jour_or_schw1_or_triebs_or_spr1chs_or_fre_or_stren_or_woll_or_vek_or_lap_or_samm_or_dol_or_sach_or_br1uch_or_sch2_or_geu_or_nin_or_tram_or_spr2ng_or_he2_or_b2n_or_blin_or_pr2f_or_3st_or_trich_or_step_or_fehl_or_nap_or_z1hm_or_hirn_or_mers_or_dy_or_pur_or_m3r_or_w1n_or_scheu_or_ge$_or_rent_or_klu_or_t2r_or_knit_or_pfla_or_thi_or_l1pp_or_lehr_or_q2et_or_sche2_or_klip_or_bry_or_pau_or_dent_or_h3s_or_bir_or_zert_or_rok_or_last_or_st3h_or_nie$_or_b1rm_or_kauf_or_droh_or_dre$_or_sent_or_san_or_promp_or_bak_or_st2l_or_p2nkt_or_pral_or_schwing_or_zweif_or_nus_or_br2n_or_ca_or_gr3_or_wohl_or_ski_or_wrin_or_kut_or_wu$t_or_m1cht_or_m2n_or_pis_or_tark_or_hee_or_trus_or_him_or_st2nd_or_dar_or_rens_or_lai_or_tag_or_schwer_or_fo_or_lah_or_grund_or_gaf_or_quir_or_sell_or_fa$_or_tausch_or_eu_or_knaut_or_f1n_or_zup_or_forsch_or_tels_or_schnap_or_f1u_or_tr2b_or_fein_or_werk_or_kn12_or_trump_or_kal_or_stinkt_or_schm1_or_akt_or_res_or_glaub_or_liebt_or_arz_or_gr1t_or_s2n_or_schlep_or_wurfs_or_sinn_or_bands_or_kn3pf_or_gis_or_tex_or_tr3p_or_sterb_or_schmet_or_schrie_or_spit_or_pras_or_thip_or_sier_or_kehrs_or_ys_or_leug_or_test_or_klau_or_ath_or_ley_or_schnitts_or_klir_or_chie_or_fl2ch_or_bl2f_or_b3r_or_j1hr_or_skrip_or_p1p_or_m2p_or_rek_or_acht_or_hens_or_tak_or_staun_or_waff_or_schreib_or_trach_or_tagt_or_dienst_or_ckens_or_knab_or_sungs_or_pflegt_or_eins_or_f2hl_or_streit_or_n2tz_or_schin_or_lot_or_klet_or_tip_or_sim_or_schlos_or_muts_or_klo_or_schot_or_spr1_or_z2r_or_pier_or_leids_or_ig_or_plan_or_kip_or_sehn_or_gl3ck_or_lat_or_treff_or_laub_or_re2_or_b2t_or_s1s_or_feld_or_glimpf_or_sand_or_grif_or_pan_or_bot_or_dacht_or_schwir_or_1rm_or_tiv_or_wieg_or_wirk_or_schmieg_or_tr1ch_or_flu$_or_rem_or_dreht_or_d3_or_zor_or_knip_or_streu_or_rend_or_strik_or_werbs_or_zo_or_kl2g_or_teil_or_tof_or_joh_or_rein_or_flek_or_ding_or_schis_or_folgs_or_w2rf_or_nu$_or_m2s_or_thar_or_zahl_or_ble_or_flin_or_knei_or_pun_or_fleu_or_r3hr_or_scheit_or_gr1b_or_r1t_or_grun_or_schick_or_pfo_or_schl1g_or_leich_or_bon_or_d1cht_or_vis_or_then_or_k3st_or_2b_or_herzt_or_lings_or_h1k_or_weck_or_dap_or_kr2m_or_prin_or_zun_or_pal_or_fla2_or_weckt_or_v3l_or_tail_or_lust_or_m1nn_or_gip_or_non_or_vour_or_sof_or_ost_or_schel_or_krit_or_h3rd_or_phy_or_sch1u_or_nage_or_voll_or_gra2_or_skie_or_r2ch_or_fu_or_trast_or_pf1n_or_walt_or_bam_or_sches_or_schlem_or_g2_or_pfar_or_fangs_or_fis_or_mem_or_st1b_or_neu_or_furchts_or_$isch_or_stram_or_nord_or_meid_or_strak_or_1ng_or_j1_or_schiff_or_sar_or_hut_or_w3_or_knal_or_stumm_or_quick_or_q2em_or_frak_or_w2n_or_quat_or_gat_or_kr1nz_or_g1u_or_sucht_or_kot_or_rats_or_kers_or_rel_or_brat_or_gn2g_or_d2_or_gangs_or_tul_or_ap_or_z2nd_or_falls_or_k1l_or_kru_or_gre_or_streut_or_flug_or_bud_or_roh_or_find_or_wasch_or_henk_or_say_or_nisch_or_br3_or_brech_or_digt_or_rak_or_xor_or_trat_or_qu1_or_grim_or_klemp_or_dos_or_d2rf_or_harr_or_be$_or_wirr_or_blet_or_me$_or_tap_or_sot_or_gleich_or_erb_or_skla_or_faul_or_stech_or_leibt_or_ners_or_trig_or_ching_or_l3h_or_ers_or_ton_or_knir_or_st3rt_or_fern_or_pat_or_kord_or_komm_or_k1uf_or_spor_or_sah_or_l1ng_or_schor_or_duf_or_sorg_or_prak_or_lauch_or_kit_or_chig_or_nib_or_don_or_gin_or_rei$_or_bret_or_gil_or_das_or_gleichs_or_wort_or_mitt_or_klim_or_sump_or_kof_or_schulds_or_k1u_or_ling_or_schup_or_zept_or_schmir_or_det_or_gl2ck_or_1au_or_lent_or_gnet_or_1hn_or_ril_or_la2_or_r2hmt_or_brannt_or_gast_or_lauf_or_prig_or_wor_or_round_or_dels_or_big_or_sitz_or_jekt_or_zwing_or_trep_or_mach_or_fl1sch_or_puf_or_bier_or_band_or_phal_or_fum_or_drig_or_ark_or_sund_or_richt_or_sprungs_or_raum_or_kin_or_letz_or_fach_or_bl3_or_stein_or_hang_or_kind_or_w1l_or_ruf_or_xu_or_grup_or_bl1tt_or_z1n_or_eng_or_nigs_or_r2ck_or_is_or_sport_or_steck_or_fit_or_ka2_or_br1_or_z1hl_or_gri_or_l2p_or_zit_or_pflich_or_zog_or_bles_or_dier_or_fr1n_or_tent_or_dog_or_pl3tz_or_xo_or_schrot_or_treu_or_christ_or_kn3_or_1r_or_schluch_or_wes_or_schw1t_or_h3f_or_rip_or_pflau_or_dr1ng_or_kr1n_or_stran_or_pf1nd_or_pra_or_fl2s_or_schmer_or_vul_or_lags_or_schl2r_or_mil_or_j2n_or_tom_or_pol_or_bat_or_schmal_or_ckers_or_paa_or_wra_or_glim_or_ball_or_sard_or_taug_or_h2p_or_kn2l_or_flo_or_ie_or_bots_or_s1g_or_raun_or_tep_or_sch2ch_or_schlags_or_vu_or_wim_or_dern_or_schna_or_stimm_or_fran_or_schw1n_or_nil_or_m1u_or_schlaf_or_reit_or_dum_or_bran_or_nens_or_sul_or_sch1f_or_haup_or_fug_or_richts_or_sch1fts_or_zle_or_schn2f_or_vet_or_stamp_or_as_or_schee_or_klum_or_sprech_or_kreis_or_nos_or_p1ch_or_sem_or_gig_or_zeig_or_gun_or_brauch_or_bind_or_rib_or_xier_or_brenn_or_folg_or_bur_or_fau_or_flag_or_lieb_or_trieb_or_qual_or_tr3st_or_w3hn_or_zwe_or_sab_or_dies_or_brief_or_mail_or_h1up_or_zier_or_skot_or_veau_or_mur_or_nar_or_nug_or_heu_or_fent_or_pri_or_zwir_or_dhis_or_hab_or_pfen_or_wi$_or_flugs_or_schmau_or_tr1cht_or_trap_or_s3n_or_kehl_or_fluchts_or_knor_or_thy_or_kopp_or_s3hn_or_f3t_or_z3l_or_schr1nkt_or_schlum_or_beit_or_s1n_or_dit_or_sp1n_or_nel_or_schrump_or_schram_or_f2ll_or_sch2s_or_tr3_or_weich_or_spot_or_zi$_or_schens_or_klat_or_pfu_or_blo_or_tin_or_mee_or_g1_or_zwa_or_trouil_or_dul_or_r1d_or_mak_or_st2rz_or_kr3_or_pot_or_schm2_or_n3_or_fl2cht_or_schlim_or_tral_or_schmu_or_st1h_or_kunfts_or_gne_or_bruch_or_zil_or_kai_or_lach_or_korn_or_w2ch_or_sik_or_mungs_or_m1ch_or_bun_or_w1rts_or_beh_or_t2ch_or_sta2_or_s1ch_or_tad_or_bul_or_reif_or_schwat_or_zol_or_mum_or_b3_or_traut_or_lern_or_mensch_or_kaps_or_plo_or_dr2ckt_or_kork_or_gungs_or_streck_or_zif_or_st2m_or_stir_or_rett_or_pl2n_or_tiz_or_fr2cht_or_pet_or_stump_or_h3rn_or_w1s_or_kunf_or_$i_or_d1_or_s12_or_graf_or_f2g_or_zis_or_tr1umt_or_by_or_sals_or_schuld_or_wu_or_el_or_rekt_or_schr1_or_klar_or_frucht_or_chy_or_git_or_phe_or_ant_or_stockt_or_flis_or_thral_or_tiers_or_schwa_or_schlam_or_gan_or_kli_or_fre2_or_vinz_or_fek_or_szen_or_kr1ch_or_cie_or_kanz_or_fecht_or_vest_or_fang_or_n2ch_or_mands_or_g3n_or_bust_or_wert_or_xil_or_zagt_or_lon_or_w3hnt_or_kaf_or_tek_or_sep_or_n2$_or_pril_or_gha_or_leid_or_g1rt_or_stimmt_or_pfef_or_feind_or_schrif_or_hack_or_r2st_or_bis_or_puff_or_hilf_or_dau_or_dop_or_murk_or_zwie_or_stoh_or_l1ch_or_ed_or_dr3_or_plap_or_1cht_or_zeits_or_kisch_or_x2_or_lang_or_trol_or_dingt_or_blind_or_stern_or_b1u_or_beug_or_schwein_or_nais_or_flot_or_half_or_dank_or_nenn_or_dra_or_tr1n_or_spreizt_or_leit_or_stif_or_hag_or_m12_or_farb_or_pap_or_krei_or_t12_or_spo_or_nail_or_rai_or_dard_or_k2hl_or_ehr_or_schl2p_or_schmitzt_or_kaufs_or_kral_or_fuhr_or_toch_or_gni_or_neigt_or_ex_or_trenn_or_pferd_or_plas_or_s1tz_or_jauch_or_glai_or_schleu_or_rat_or_h1us_or_la$_or_ai_or_st2t_or_gier_or_fl2g_or_strit_or_ry_or_schrub_or_ma$_or_phis_or_gle_or_schr1nk_or_rund_or_kl1r_or_gla_or_g3_or_krau_or_fitt_or_plig_or_heh_or_saf_or_leb_or_rut_or_1n_or_gret_or_stand_or_liv_or_kramp_or_k2nd_or_ragd_or_quap_or_prop_or_ru$_or_schwar_or_hent_or_pop_or_pl1r_or_kann_or_zw1n_or_phri_or_rucht_or_rieb_or_gelt_or_kop_or_h1lt_or_bag_or_weib_or_schritt_or_wagt_or_meint_or_schran_or_sch3pf_or_rufs_or_schmack_or_f3o_or_lys_or_k2hn_or_h2t_or_lym_or_schein_or_sun_or_af_or_pfrop_or_tyr_or_k2m_or_3op_or_br3t_or_quo_or_m2d_or_gn1_or_m2r_or_punk_or_trot_or_mund_or_skri_or_schnitt_or_knat_or_still_or_vents_or_bab_or_schieds_or_tik_or_1f_or_frau_or_place_or_rap_or_f2$_or_str1u_or_cka_or_je_or_los_or_m1r_or_r2m_or_f2llt_or_br1nd) and (syl_len1 >= 4) and (koda_len0 <= 1) => stress_class=paenultima (46.0/6.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (sonority_ratio0 <= 2) and (cv_ratio2 >= 2) and (praefix2 = CC) and (comp_len >= 1) => stress_class=paenultima (19.0/2.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (sonority0 <= 111) and (nucleus_len0 <= 1) and (sa_struct = S) and (syl_len1 >= 3) => stress_class=paenultima (44.0/12.0)
+(syl_weight1 >= 1) and (syl_len0 <= 2) and (comp_struct = ø) and (suffix3 = CKC) and (syl_weight2 <= 0) => stress_class=paenultima (35.0/8.0)
+(praefix = um) and (sa_struct = AS) and (praefix4 = KCCC) => stress_class=paenultima (47.0/21.0)
+ => stress_class=antepaenultima (8588.0/610.0)
+
+Number of Rules : 36
+=== Evaluation result ===
+
+Scheme: min10 : JRip
+Options: -F 3 -N 10.0 -O 10 -S 1
+Relation: 000047-everything-3syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+
+Correctly Classified Instances        3421               51.3201 %
+Incorrectly Classified Instances      3245               48.6799 %
+Kappa statistic                          0.0468
+Mean absolute error                      0.256 
+Root mean squared error                  0.4752
+Relative absolute error                 98.1611 %
+Root relative squared error            131.2892 %
+Coverage of cases (0.95 level)          75.0525 %
+Mean rel. region size (0.95 level)      45.8146 %
+Total Number of Instances             6666     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,658    0,662    0,629      0,658    0,643      -0,004   0,463     0,629     antepaenultima
+                 0,172    0,270    0,185      0,172    0,178      -0,101   0,459     0,244     paenultima
+                 0,551    0,048    0,553      0,551    0,552      0,504    0,806     0,439     ultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,615     0,013     multa
+Weighted Avg.    0,513    0,493    0,498      0,513    0,506      0,019    0,497     0,503     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 2765 1288  149    0 |    a = antepaenultima
+ 1317  301  136    0 |    b = paenultima
+  254   35  355    0 |    c = ultima
+   61    3    2    0 |    d = multa
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 000047-everything-3syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+JRIP rules:
+===========
+
+(basic_pos = ADV) and (syl_weight1 <= 0) and (rhyme0 = VC) and (praefix = ø) => stress_class=multa (16.0/2.0)
+(comp_struct = ø) and (nomen = F) and (sonority1 >= 1101) and (syl_len0 >= 5) => stress_class=multa (15.0/7.0)
+(comp_struct = ø) and (comp_len >= 1) and (sonority0 <= 111) and (sonority1 <= 101) and (sonority0 <= 11) and (nucleus_len2 >= 2) and (cv_ratio1 >= 1) => stress_class=multa (11.0/1.0)
+(nucleus_len2 >= 2) and (comp_len <= 1) and (syl_len1 <= 2) and (sa_struct = SA) and (cv_ratio2 <= 0) => stress_class=ultima (173.0/4.0)
+(nucleus_class2 = L) and (comp_len <= 1) and (rhyme1 = CVV) and (suffix1 = C) and (comp_struct = ø) => stress_class=ultima (143.0/8.0)
+(nucleus_class2 = L) and (comp_len <= 1) and (sonority2 >= 121) and (syl_weight1 >= 1) and (sonority_ratio2 <= 2) and (suffix3 = CLC) => stress_class=ultima (176.0/21.0)
+(nucleus_class2 = L) and (comp_len <= 1) and (basic_pos = N) and (syl_len2 >= 3) and (syl_weight1 >= 1) and (nk_suffix = ie) => stress_class=ultima (58.0/0.0)
+(syl_weight2 >= 1) and (comp_len <= 1) and (koda_len2 >= 2) and (syl_weight1 >= 1) and (sa_struct = SA) and (sonority_ratio2 >= 2) => stress_class=ultima (159.0/5.0)
+(nucleus_len2 >= 2) and (comp_len <= 1) and (suffix2 = LC) and (basic_pos = N) and (syl_weight1 >= 1) and (syl_len2 >= 4) => stress_class=ultima (33.0/1.0)
+(comp_len <= 0) and (syl_weight2 >= 1) and (rhyme2 = CVVC) => stress_class=ultima (52.0/6.0)
+(syl_weight2 >= 1) and (comp_len <= 0) and (koda_len2 >= 2) and (syl_weight1 >= 1) => stress_class=ultima (74.0/6.0)
+(syl_weight2 >= 1) and (sa_struct = S) and (suffix2 = LC) and (syl_weight1 >= 1) => stress_class=ultima (72.0/5.0)
+(nucleus_len2 >= 2) and (comp_len <= 1) and (sonority1 <= 102) and (syl_len2 >= 3) and (basic_pos = N) and (sonority_ratio2 >= 3) => stress_class=ultima (83.0/11.0)
+(syl_weight2 >= 1) and (comp_len <= 1) and (koda_len2 >= 2) and (syl_weight1 >= 1) and (syl_len1 <= 2) and (sa_struct = S) => stress_class=ultima (40.0/6.0)
+(syl_weight2 >= 1) and (syl_len0 <= 2) and (cv_ratio2 <= 1) and (syl_len2 <= 3) and (comp_struct = R) and (syl_len2 >= 3) => stress_class=ultima (13.0/1.0)
+(syl_weight2 >= 1) and (comp_struct = ø) and (syl_len0 <= 2) and (basic_pos = ADV) and (sonority_ratio0 <= 3) and (rhyme1 = CVC) => stress_class=ultima (10.0/1.0)
+(syl_weight2 >= 1) and (comp_len <= 0) and (rhyme2 = CCVC) => stress_class=ultima (14.0/3.0)
+(syl_weight2 >= 1) and (nk_suffix = ell) and (comp_len <= 1) => stress_class=ultima (23.0/2.0)
+(syl_weight2 >= 1) and (comp_struct = ø) and (basic_pos = ADV) and (syl_len0 <= 3) and (sa_struct = SS) and (onset_class1 = C) and (sonority0 <= 1001) => stress_class=ultima (31.0/13.0)
+(syl_weight2 >= 1) and (nk_suffix = ett) and (sonority2 <= 111) => stress_class=ultima (9.0/0.0)
+(nucleus_len2 >= 2) and (comp_struct = N) and (sa_struct = SA) and (syl_weight1 >= 1) and (syl_len1 <= 3) => stress_class=ultima (48.0/7.0)
+(syl_weight2 >= 1) and (comp_struct = ø) and (rhyme2 = CVV) and (syl_len2 >= 3) and (sa_struct = ø) => stress_class=ultima (13.0/4.0)
+(syl_weight2 >= 2) and (comp_len <= 1) and (syl_len0 <= 1) and (sonority2 >= 301) => stress_class=ultima (11.0/2.0)
+(prae_class = noacc) => stress_class=paenultima (1458.0/1.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (sonority0 <= 111) and (syl_class0 = CK) and (rhyme0 = CV) => stress_class=paenultima (290.0/0.0)
+(nucleus_class1 = L) and (comp_len <= 1) and (praefix = ø) and (syl2 = ren) => stress_class=paenultima (170.0/2.0)
+(comp_len <= 1) and (praefix = ø) and (nucleus_class1 = L) and (nk_suffix = isch) => stress_class=paenultima (167.0/11.0)
+(comp_len <= 0) and (suffix2 = CK) => stress_class=paenultima (165.0/9.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (cv_ratio0 >= 2) and (syl_weight2 <= 0) and (nucleus_class1 = L) => stress_class=paenultima (118.0/9.0)
+(syl_len0 <= 2) and (praefix = ø) and (syl_weight1 >= 1) and (onset_len0 >= 1) and (syl_len1 >= 3) and (nucleus_len1 >= 2) => stress_class=paenultima (115.0/18.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (sonority_ratio0 <= 2) and (cv_ratio0 >= 2) and (sa_struct = S) => stress_class=paenultima (80.0/10.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (onset_len0 >= 1) and (onset_class2 = C) and (syl_len0 <= 2) and (koda_len2 <= 0) => stress_class=paenultima (61.0/9.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (sonority0 <= 111) and (syl_len0 <= 2) and (rhyme2 = CVC) and (suffix4 = CCKC) and (sonority_ratio2 <= 2) => stress_class=paenultima (88.0/6.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (koda_len2 <= 0) and (cv_ratio2 >= 1) and (koda_len0 <= 0) and (suff_class = ø) => stress_class=paenultima (19.0/1.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (praefix1 = C) and (suffix5 = KCCKC) and (syl_len1 <= 2) => stress_class=paenultima (23.0/0.0)
+(syl_len0 <= 2) and (syl_weight1 >= 1) and (praefix = ø) and (sonority0 <= 201) and (cv_ratio0 >= 1) and (sonority1 >= 202) => stress_class=paenultima (55.0/17.0)
+(syl_weight1 >= 1) and (syl_len0 <= 3) and (praefix = ø) and (nucleus_class0 = K) and (sonority_ratio0 <= 2) and (syl_len1 >= 4) and (onset_len0 >= 1) and (syl1 = zens_or_port_or_sken_or_wei$_or_3r_or_wig_or_schlit_or_fekt_or_f2hls_or_xen_or_b2h_or_ble2_or_brig_or_ruh_or_nat_or_l3s_or_stof_or_herbst_or_trans_or_scen_or_blas_or_g1l_or_hoch_or_stum_or_em_or_siert_or_schwit_or_dyl_or_suchts_or_fall_or_thro_or_ob_or_wip_or_meind_or_br2l_or_t2m_or_geh_or_xa_or_starr_or_steckt_or_ple_or_welt_or_sch3f_or_fl1ch_or_tr2m_or_s2d_or_ckucks_or_gnal_or_kl2_or_rho_or_lungs_or_merg_or_werf_or_py_or_kni_or_ort_or_schop_or_dump_or_gro_or_part_or_spann_or_schlu_or_behr_or_grie_or_lin_or_sprach_or_tun_or_spekt_or_trak_or_freun_or_chent_or_sorp_or_kannt_or_weg_or_hig_or_n1cht_or_gler_or_zwun_or_mis_or_lut_or_pez_or_kirch_or_hof_or_glet_or_ta2_or_buch_or_ros_or_nier_or_bral_or_nanz_or_pach_or_steh_or_fr1u_or_tr2_or_sas_or_schun_or_lands_or_wai_or_wandt_or_1rzt_or_sitt_or_spruchs_or_kriegs_or_k1m_or_sag_or_blend_or_form_or_te2_or_h3r_or_schn1u_or_wjet_or_d1ch_or_tas_or_nom_or_scho_or_spea_or_dien_or_laubs_or_stot_or_cho_or_fremd_or_nich_or_prel_or_stap_or_nick_or_oh_or_kna_or_of_or_r2ckt_or_vol_or_than_or_s2h_or_drie_or_drat_or_str1n_or_h1m_or_schimp_or_griffs_or_schum_or_bitz_or_ram_or_kehr_or_gli_or_star_or_schlan_or_tha_or_krab_or_n1h_or_dal_or_wands_or_lem_or_dri_or_markt_or_noph_or_gent_or_bohrt_or_jung_or_kee_or_end_or_bring_or_scher_or_werb_or_f3rm_or_fr1_or_werks_or_t2f_or_duld_or_lou_or_brie_or_stink_or_k2nf_or_g1ng_or_kleid_or_stalt_or_tes_or_stard_or_wohn_or_quar_or_ceu_or_lis_or_zan_or_n2g_or_ne2_or_stiz_or_jour_or_schw1_or_triebs_or_spr1chs_or_fre_or_stren_or_woll_or_vek_or_lap_or_samm_or_dol_or_sach_or_br1uch_or_sch2_or_geu_or_nin_or_tram_or_spr2ng_or_he2_or_b2n_or_blin_or_pr2f_or_3st_or_trich_or_step_or_fehl_or_nap_or_z1hm_or_hirn_or_mers_or_dy_or_pur_or_m3r_or_w1n_or_scheu_or_ge$_or_rent_or_klu_or_t2r_or_knit_or_pfla_or_thi_or_l1pp_or_lehr_or_q2et_or_sche2_or_klip_or_bry_or_pau_or_dent_or_h3s_or_bir_or_zert_or_rok_or_last_or_st3h_or_nie$_or_b1rm_or_kauf_or_droh_or_dre$_or_sent_or_san_or_promp_or_bak_or_st2l_or_p2nkt_or_pral_or_schwing_or_zweif_or_nus_or_br2n_or_ca_or_gr3_or_wohl_or_ski_or_wrin_or_kut_or_wu$t_or_m1cht_or_m2n_or_pis_or_tark_or_hee_or_trus_or_him_or_st2nd_or_dar_or_rens_or_lai_or_tag_or_schwer_or_fo_or_lah_or_grund_or_gaf_or_quir_or_sell_or_fa$_or_tausch_or_eu_or_knaut_or_f1n_or_zup_or_forsch_or_tels_or_schnap_or_f1u_or_tr2b_or_fein_or_werk_or_kn12_or_trump_or_kal_or_stinkt_or_schm1_or_akt_or_res_or_glaub_or_liebt_or_arz_or_gr1t_or_s2n_or_schlep_or_wurfs_or_sinn_or_bands_or_kn3pf_or_gis_or_tex_or_tr3p_or_sterb_or_schmet_or_schrie_or_spit_or_pras_or_thip_or_sier_or_kehrs_or_ys_or_leug_or_test_or_klau_or_ath_or_ley_or_schnitts_or_klir_or_chie_or_fl2ch_or_bl2f_or_b3r_or_j1hr_or_skrip_or_p1p_or_m2p_or_rek_or_acht_or_hens_or_tak_or_staun_or_waff_or_schreib_or_trach_or_tagt_or_dienst_or_ckens_or_knab_or_sungs_or_pflegt_or_eins_or_f2hl_or_streit_or_n2tz_or_schin_or_lot_or_klet_or_tip_or_sim_or_schlos_or_muts_or_klo_or_schot_or_spr1_or_z2r_or_pier_or_leids_or_ig_or_plan_or_kip_or_sehn_or_gl3ck_or_lat_or_treff_or_laub_or_re2_or_b2t_or_s1s_or_feld_or_glimpf_or_sand_or_grif_or_pan_or_bot_or_dacht_or_schwir_or_1rm_or_tiv_or_wieg_or_wirk_or_schmieg_or_tr1ch_or_flu$_or_rem_or_dreht_or_d3_or_zor_or_knip_or_streu_or_rend_or_strik_or_werbs_or_zo_or_kl2g_or_teil_or_tof_or_joh_or_rein_or_flek_or_ding_or_schis_or_folgs_or_w2rf_or_nu$_or_m2s_or_thar_or_zahl_or_ble_or_flin_or_knei_or_pun_or_fleu_or_r3hr_or_scheit_or_gr1b_or_r1t_or_grun_or_schick_or_pfo_or_schl1g_or_leich_or_bon_or_d1cht_or_vis_or_then_or_k3st_or_2b_or_herzt_or_lings_or_h1k_or_weck_or_dap_or_kr2m_or_prin_or_zun_or_pal_or_fla2_or_weckt_or_v3l_or_tail_or_lust_or_m1nn_or_gip_or_non_or_vour_or_sof_or_ost_or_schel_or_krit_or_h3rd_or_phy_or_sch1u_or_nage_or_voll_or_gra2_or_skie_or_r2ch_or_fu_or_trast_or_pf1n_or_walt_or_bam_or_sches_or_schlem_or_g2_or_pfar_or_fangs_or_fis_or_mem_or_st1b_or_neu_or_furchts_or_$isch_or_stram_or_nord_or_meid_or_strak_or_1ng_or_j1_or_schiff_or_sar_or_hut_or_w3_or_knal_or_stumm_or_quick_or_q2em_or_frak_or_w2n_or_quat_or_gat_or_kr1nz_or_g1u_or_sucht_or_kot_or_rats_or_kers_or_rel_or_brat_or_gn2g_or_d2_or_gangs_or_tul_or_ap_or_z2nd_or_falls_or_k1l_or_kru_or_gre_or_streut_or_flug_or_bud_or_roh_or_find_or_wasch_or_henk_or_say_or_nisch_or_br3_or_brech_or_digt_or_rak_or_xor_or_trat_or_qu1_or_grim_or_klemp_or_dos_or_d2rf_or_harr_or_be$_or_wirr_or_blet_or_me$_or_tap_or_sot_or_gleich_or_erb_or_skla_or_faul_or_stech_or_leibt_or_ners_or_trig_or_ching_or_l3h_or_ers_or_ton_or_knir_or_st3rt_or_fern_or_pat_or_kord_or_komm_or_k1uf_or_spor_or_sah_or_l1ng_or_schor_or_duf_or_sorg_or_prak_or_lauch_or_kit_or_chig_or_nib_or_don_or_gin_or_rei$_or_bret_or_gil_or_das_or_gleichs_or_wort_or_mitt_or_klim_or_sump_or_kof_or_schulds_or_k1u_or_ling_or_schup_or_zept_or_schmir_or_det_or_gl2ck_or_1au_or_lent_or_gnet_or_1hn_or_ril_or_la2_or_r2hmt_or_brannt_or_gast_or_lauf_or_prig_or_wor_or_round_or_dels_or_big_or_sitz_or_jekt_or_zwing_or_trep_or_mach_or_fl1sch_or_puf_or_bier_or_band_or_phal_or_fum_or_drig_or_ark_or_sund_or_richt_or_sprungs_or_raum_or_kin_or_letz_or_fach_or_bl3_or_stein_or_hang_or_kind_or_w1l_or_ruf_or_xu_or_grup_or_bl1tt_or_z1n_or_eng_or_nigs_or_r2ck_or_is_or_sport_or_steck_or_fit_or_ka2_or_br1_or_z1hl_or_gri_or_l2p_or_zit_or_pflich_or_zog_or_bles_or_dier_or_fr1n_or_tent_or_dog_or_pl3tz_or_xo_or_schrot_or_treu_or_christ_or_kn3_or_1r_or_schluch_or_wes_or_schw1t_or_h3f_or_rip_or_pflau_or_dr1ng_or_kr1n_or_stran_or_pf1nd_or_pra_or_fl2s_or_schmer_or_vul_or_lags_or_schl2r_or_mil_or_j2n_or_tom_or_pol_or_bat_or_schmal_or_ckers_or_paa_or_wra_or_glim_or_ball_or_sard_or_taug_or_h2p_or_kn2l_or_flo_or_ie_or_bots_or_s1g_or_raun_or_tep_or_sch2ch_or_schlags_or_vu_or_wim_or_dern_or_schna_or_stimm_or_fran_or_schw1n_or_nil_or_m1u_or_schlaf_or_reit_or_dum_or_bran_or_nens_or_sul_or_sch1f_or_haup_or_fug_or_richts_or_sch1fts_or_zle_or_schn2f_or_vet_or_stamp_or_as_or_schee_or_klum_or_sprech_or_kreis_or_nos_or_p1ch_or_sem_or_gig_or_zeig_or_gun_or_brauch_or_bind_or_rib_or_xier_or_brenn_or_folg_or_bur_or_fau_or_flag_or_lieb_or_trieb_or_qual_or_tr3st_or_w3hn_or_zwe_or_sab_or_dies_or_brief_or_mail_or_h1up_or_zier_or_skot_or_veau_or_mur_or_nar_or_nug_or_heu_or_fent_or_pri_or_zwir_or_dhis_or_hab_or_pfen_or_wi$_or_flugs_or_schmau_or_tr1cht_or_trap_or_s3n_or_kehl_or_fluchts_or_knor_or_thy_or_kopp_or_s3hn_or_f3t_or_z3l_or_schr1nkt_or_schlum_or_beit_or_s1n_or_dit_or_sp1n_or_nel_or_schrump_or_schram_or_f2ll_or_sch2s_or_tr3_or_weich_or_spot_or_zi$_or_schens_or_klat_or_pfu_or_blo_or_tin_or_mee_or_g1_or_zwa_or_trouil_or_dul_or_r1d_or_mak_or_st2rz_or_kr3_or_pot_or_schm2_or_n3_or_fl2cht_or_schlim_or_tral_or_schmu_or_st1h_or_kunfts_or_gne_or_bruch_or_zil_or_kai_or_lach_or_korn_or_w2ch_or_sik_or_mungs_or_m1ch_or_bun_or_w1rts_or_beh_or_t2ch_or_sta2_or_s1ch_or_tad_or_bul_or_reif_or_schwat_or_zol_or_mum_or_b3_or_traut_or_lern_or_mensch_or_kaps_or_plo_or_dr2ckt_or_kork_or_gungs_or_streck_or_zif_or_st2m_or_stir_or_rett_or_pl2n_or_tiz_or_fr2cht_or_pet_or_stump_or_h3rn_or_w1s_or_kunf_or_$i_or_d1_or_s12_or_graf_or_f2g_or_zis_or_tr1umt_or_by_or_sals_or_schuld_or_wu_or_el_or_rekt_or_schr1_or_klar_or_frucht_or_chy_or_git_or_phe_or_ant_or_stockt_or_flis_or_thral_or_tiers_or_schwa_or_schlam_or_gan_or_kli_or_fre2_or_vinz_or_fek_or_szen_or_kr1ch_or_cie_or_kanz_or_fecht_or_vest_or_fang_or_n2ch_or_mands_or_g3n_or_bust_or_wert_or_xil_or_zagt_or_lon_or_w3hnt_or_kaf_or_tek_or_sep_or_n2$_or_pril_or_gha_or_leid_or_g1rt_or_stimmt_or_pfef_or_feind_or_schrif_or_hack_or_r2st_or_bis_or_puff_or_hilf_or_dau_or_dop_or_murk_or_zwie_or_stoh_or_l1ch_or_ed_or_dr3_or_plap_or_1cht_or_zeits_or_kisch_or_x2_or_lang_or_trol_or_dingt_or_blind_or_stern_or_b1u_or_beug_or_schwein_or_nais_or_flot_or_half_or_dank_or_nenn_or_dra_or_tr1n_or_spreizt_or_leit_or_stif_or_hag_or_m12_or_farb_or_pap_or_krei_or_t12_or_spo_or_nail_or_rai_or_dard_or_k2hl_or_ehr_or_schl2p_or_schmitzt_or_kaufs_or_kral_or_fuhr_or_toch_or_gni_or_neigt_or_ex_or_trenn_or_pferd_or_plas_or_s1tz_or_jauch_or_glai_or_schleu_or_rat_or_h1us_or_la$_or_ai_or_st2t_or_gier_or_fl2g_or_strit_or_ry_or_schrub_or_ma$_or_phis_or_gle_or_schr1nk_or_rund_or_kl1r_or_gla_or_g3_or_krau_or_fitt_or_plig_or_heh_or_saf_or_leb_or_rut_or_1n_or_gret_or_stand_or_liv_or_kramp_or_k2nd_or_ragd_or_quap_or_prop_or_ru$_or_schwar_or_hent_or_pop_or_pl1r_or_kann_or_zw1n_or_phri_or_rucht_or_rieb_or_gelt_or_kop_or_h1lt_or_bag_or_weib_or_schritt_or_wagt_or_meint_or_schran_or_sch3pf_or_rufs_or_schmack_or_f3o_or_lys_or_k2hn_or_h2t_or_lym_or_schein_or_sun_or_af_or_pfrop_or_tyr_or_k2m_or_3op_or_br3t_or_quo_or_m2d_or_gn1_or_m2r_or_punk_or_trot_or_mund_or_skri_or_schnitt_or_knat_or_still_or_vents_or_bab_or_schieds_or_tik_or_1f_or_frau_or_place_or_rap_or_f2$_or_str1u_or_cka_or_je_or_los_or_m1r_or_r2m_or_f2llt_or_br1nd) => stress_class=paenultima (38.0/5.0)
+(syl_weight1 >= 1) and (syl_len0 <= 2) and (comp_struct = ø) and (basic_pos = ADV) => stress_class=paenultima (28.0/0.0)
+(syl_len0 <= 2) and (syl_weight1 >= 1) and (praefix = ø) and (sonority0 <= 101) and (nucleus_class1 = L) and (cv_ratio0 >= 1) and (nucleus_len2 <= 1) => stress_class=paenultima (39.0/11.0)
+(syl_weight1 >= 1) and (nucleus_class0 = K) and (syl0 = um) and (comp_struct = ø) and (cv_ratio1 >= 1) => stress_class=paenultima (8.0/0.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (sonority0 <= 111) and (sonority_ratio0 <= 2) and (rhyme2 = CVC) and (koda_len0 <= 0) and (syl_len2 <= 3) => stress_class=paenultima (34.0/7.0)
+(syl_weight1 >= 1) and (syl_len0 <= 2) and (praefix = ø) and (sonority0 <= 101) and (syl_class0 = K) and (basic_pos = N) and (syl_len2 <= 3) => stress_class=paenultima (17.0/1.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (basic_pos = N) and (syl_len2 <= 3) and (onset_class2 = C) and (koda_class1 = C) => stress_class=paenultima (41.0/10.0)
+(praefix = um) and (praefix4 = KCCC) and (nk_suffix = en) => stress_class=paenultima (41.0/17.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (sonority_ratio2 >= 3) and (sonority2 >= 1011) and (suffix4 = LCKC) => stress_class=paenultima (49.0/7.0)
+(praefix = durch) and (nucleus_class1 = D) => stress_class=paenultima (27.0/12.0)
+(comp_len <= 0) and (nk_suffix = el) => stress_class=paenultima (10.0/1.0)
+ => stress_class=antepaenultima (8522.0/537.0)
+
+Number of Rules : 48
+=== Evaluation result ===
+
+Scheme: min5 : JRip
+Options: -F 3 -N 5.0 -O 10 -S 1
+Relation: 000047-everything-3syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+
+Correctly Classified Instances        3458               51.8752 %
+Incorrectly Classified Instances      3208               48.1248 %
+Kappa statistic                          0.0123
+Mean absolute error                      0.2551
+Root mean squared error                  0.4764
+Relative absolute error                 97.822  %
+Root relative squared error            131.6164 %
+Coverage of cases (0.95 level)          71.8122 %
+Mean rel. region size (0.95 level)      45.0758 %
+Total Number of Instances             6666     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,682    0,714    0,620      0,682    0,649      -0,034   0,449     0,622     antepaenultima
+                 0,278    0,273    0,267      0,278    0,272      0,005    0,478     0,240     paenultima
+                 0,161    0,017    0,498      0,161    0,244      0,244    0,661     0,189     ultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,630     0,013     multa
+Weighted Avg.    0,519    0,524    0,509      0,519    0,504      0,004    0,479     0,474     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 2866 1280   56    0 |    a = antepaenultima
+ 1219  488   47    0 |    b = paenultima
+  479   61  104    0 |    c = ultima
+   62    2    2    0 |    d = multa
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 000047-everything-3syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+JRIP rules:
+===========
+
+(basic_pos = ADV) and (syl_weight1 <= 0) and (rhyme0 = VC) and (praefix = ø) => stress_class=multa (16.0/2.0)
+(basic_pos = ADV) and (nucleus_class2 = D) and (nucleus_class0 = D) => stress_class=multa (10.0/1.0)
+(basic_pos = ADV) and (comp_len >= 2) and (sonority0 >= 111) and (sonority0 <= 211) and (sonority1 <= 111) and (syl_len2 <= 4) => stress_class=multa (15.0/5.0)
+(comp_struct = ø) and (syl_weight1 <= 0) and (syl1 = ler) => stress_class=multa (8.0/1.0)
+(comp_struct = ø) and (basic_pos = ø) and (suffix3 = KCC) and (comp_len >= 2) => stress_class=multa (12.0/4.0)
+(sa_struct = SS) and (basic_pos = A) and (sonority1 >= 1001) and (suffix4 = CCKC) and (syl0 = Schmer_or_gott_or_bauch_or_Schlam_or_at_or_Mun_or_Sou_or_Emp_or_Grau_or_ef_or_laus_or_Wat_or_Pad_or_Dreh_or_Senk_or_Bie_or_Ser_or_pous_or_Bruch_or_Lam_or_wel_or_Priem_or_Zieh_or_Zep_or_knor_or_stick_or_sp1t_or_qu1_or_T2p_or_lym_or_Ret_or_Pis_or_Test_or_mensch_or_Hyp_or_wer_or_Wolfs_or_But_or_Ing_or_Wol_or_sehn_or_stumpf_or_dos_or_bau_or_m1us_or_Strub_or_Start_or_Pfeif_or_frucht_or_staats_or_Schen_or_kauf_or_Stem_or_Hetz_or_mot_or_Kne_or_Phar_or_Chro_or_Schwung_or_jen_or_krei_or_Klang_or_M2_or_Stel_or_Haft_or_Sul_or_feil_or_eh_or_Stim_or_dies_or_wohn_or_Grim_or_Mensch_or_Leich_or_Ple_or_pres_or_q2el_or_kno_or_Fri_or_Schwert_or_Tras_or_fehl_or_N2ch_or_W1r_or_Mal_or_toll_or_schuld_or_Xy_or_Shag_or_schief_or_kr1_or_tra_or_Zwick_or_sech_or_m2h_or_kur_or_sprung_or_Schne_or_Pfei_or_hohn_or_r1u_or_fan_or_Wit_or_West_or_s1u_or_w3_or_skal_or_Knall_or_Skat_or_Viel_or_spon_or_F1_or_Schmug_or_sti_or_K3r_or_Schank_or_Schm1_or_Schwa_or_Bet_or_Stot_or_pas_or_ruhm_or_Lak_or_Haar_or_schwei_or_Phos_or_Sich_or_Phan_or_hu_or_wert_or_l2_or_Phre_or_Throm_or_strom_or_N3_or_Quark_or_Schwal_or_m3r_or_rat_or_mein_or_statt_or_wech_or_Tritt_or_kunst_or_r2h_or_leib_or_spat_or_Tel_or_ri_or_jung_or_Spru_or_Guck_or_Fak_or_S1u_or_Rinds_or_plan_or_Wahr_or_scho_or_Sch1d_or_Dau_or_Pig_or_tier_or_Ke_or_Lip_or_steif_or_Sar_or_dick_or_Zwit_or_Fre_or_Kum_or_Sch2t_or_tags_or_Lor_or_Kei_or_Schn2r_or_sin_or_Bras_or_et_or_Schwer_or_Wunsch_or_br2_or_K1m_or_haut_or_bron_or_shake_or_Ni_or_pa$_or_St2ck_or_f2rch_or_Schrumpf_or_spen_or_te_or_Mohr_or_Plap_or_tal_or_Sten_or_Fan_or_Koh_or_dau_or_lahm_or_Blend_or_Lust_or_schwert_or_prunk_or_l3_or_Dek_or_Bord_or_Steif_or_Star_or_Ich_or_schlitz_or_Kirch_or_Nu$_or_Schmie_or_Feind_or_Ger_or_Fau_or_Kam_or_Kie_or_ger_or_t3ch_or_Tot_or_sei_or_wei_or_Schatz_or_schluck_or_flat_or_hals_or_stu_or_Nat_or_Schal_or_Leid_or_Stri_or_stut_or_Ly_or_Klim_or_scha2_or_schlaf_or_Slo_or_bun_or_z2r_or_schnud_or_phy_or_Spring_or_Bad_or_Klei_or_rost_or_thes_or_fla_or_Uhr_or_b1_or_sp1_or_warm_or_m1r_or_ba_or_blei_or_ti_or_Da_or_hirn_or_die_or_Eh_or_Sep_or_9r_or_Yan_or_Pfl1_or_na$_or_Weh_or_Kat_or_Stirn_or_zug_or_Schlau_or_tem_or_mor_or_krie_or_Fund_or_St2r_or_mond_or_Bron_or_Pre$_or_skan_or_n1m_or_han_or_tek_or_pfef_or_Gau_or_di_or_ohr_or_Ker_or_Spil_or_straf_or_weid_or_knu_or_Punkt_or_Tusch_or_schil_or_Keu_or_schaum_or_Ber_or_seit_or_R3_or_leer_or_Ath_or_phleg_or_Dro_or_Form_or_val_or_fo_or_prah_or_Tie_or_Mem_or_B1e_or_krib_or_schi_or_Bro_or_Luf_or_bu$_or_lot_or_Bak_or_Stuk_or_nord_or_drin_or_V1_or_K2hl_or_Gras_or_wein_or_skru_or_kid_or_kl2m_or_Scheu_or_vo_or_Wurst_or_pur_or_Row_or_trag_or_First_or_trau_or_Heer_or_salz_or_Muf_or_Q2eck_or_Talg_or_pul_or_Tun_or_g3n_or_en_or_gleit_or_Hirsch_or_Kost_or_L1n_or_drauf_or_won_or_Lun_or_Scherz_or_L3t_or_s1nf_or_1l_or_L2m_or_Forst_or_bro_or_rhein_or_F2r_or_schwe_or_Hir_or_rit_or_scheel_or_Pl3tz_or_Truck_or_Nel_or_ath_or_Kleck_or_Lehns_or_Schieds_or_Talk_or_Schrot_or_Bru_or_n1ch_or_Schleif_or_prie_or_ton_or_lands_or_hab_or_Rich_or_kryp_or_Gl2cks_or_Din_or_Trotz_or_Wis_or_kinds_or_pri_or_Sank_or_wis_or_Schmerz_or_hi_or_Schu$_or_Sla_or_waa_or_non_or_M2l_or_Stief_or_Hack_or_Drauf_or_Seis_or_Bri_or_schmeich_or_m1n_or_trust_or_Ah_or_sein_or_rin_or_Pil_or_lei_or_Z1rt_or_Tuch_or_Dach_or_fun_or_Dr1_or_tur_or_br3_or_l1ng_or_Pflug_or_lauf_or_Rum_or_fall_or_L1_or_Ner_or_rheu_or_Swa_or_Wurm_or_freu_or_pi_or_h3_or_Gerb_or_skon_or_my_or_Brom_or_Hell_or_witz_or_Prie_or_has_or_pfar_or_s2n_or_r2_or_B1r_or_Steil_or_Reichs_or_lob_or_schie_or_Sze_or_Weich_or_Kork_or_Strumpf_or_Brack_or_but_or_S1ug_or_Hilfs_or_Bum_or_Hau_or_ad_or_Garn_or_Schw1t_or_kie_or_Heils_or_fick_or_N1hr_or_meh_or_Ramsch_or_stil_or_heu_or_Mee_or_Halb_or_Plan_or_red_or_Tod_or_ren_or_dra_or_Spek_or_zorn_or_j2ng_or_Schw1_or_Krebs_or_Stab_or_reh_or_Freu_or_mai_or_schrift_or_Kreu_or_Sinn_or_Fr3mm_or_V3_or_zot_or_spin_or_M2n_or_R2hr_or_Schiff_or_zwang_or_Sieb_or_Saft_or_Xan_or_pos_or_Dick_or_Korb_or_mer_or_tei_or_Leicht_or_T3p_or_Gro_or_Vol_or_staf_or_frost_or_blan_or_hor_or_land_or_Tr1u_or_h2l_or_Takt_or_teer_or_denk_or_ir_or_wu_or_frist_or_kip_or_Glanz_or_schre_or_Phle_or_Deut_or_fas_or_Wahn_or_sack_or_Moor_or_seg_or_hyp_or_Brem_or_Lom_or_Recht_or_Min_or_schall_or_Rab_or_Schnitt_or_Q2en_or_Mies_or_Schaum_or_Huf_or_Krip_or_phre_or_Hor_or_flek_or_b3s_or_knie_or_streik_or_W1s_or_Lab_or_Trun_or_glim_or_tat_or_buh_or_spar_or_borg_or_Tscher_or_stern_or_Dik_or_Sch2r_or_gram_or_Specht_or_gl2ck_or_W2hl_or_Farb_or_Mai_or_St2_or_kup_or_H1us_or_murr_or_angst_or_for_or_and_or_schnauz_or_Sam_or_do_or_G2_or_Flick_or_sche_or_nicht_or_sach_or_q2eck_or_Chlo_or_zwi_or_Froh_or_ah_or_wach_or_Pflan_or_Fach_or_Glie_or_mas_or_Vo_or_rou_or_Tren_or_b2_or_ste_or_Dol_or_ring_or_zwie_or_Turk_or_R3nt_or_zau_or_fau_or_kli_or_netz_or_j1h_or_satz_or_M1ch_or_w1h_or_Schuf_or_Schmel_or_Tem_or_Schw1ch_or_j1m_or_nas_or_Stell_or_1n_or_Wich_or_brach_or_Fuff_or_stac_or_Ruhr_or_dy_or_l2b_or_schla_or_bor_or_mut_or_trief_or_Kle_or_Knif_or_strub_or_Mam_or_Stopf_or_gr1_or_Q2ell_or_Kern_or_Lich_or_H3chst_or_Pfingst_or_am_or_Spann_or_Step_or_trunk_or_gr2_or_fil_or_Fried_or_tr2b_or_Ske_or_ernst_or_Folk_or_Flot_or_Bank_or_stand_or_e2_or_kas_or_9u_or_Kof_or_Spon_or_R1n_or_M1u_or_Souf_or_haar_or_Fe2_or_Tropf_or_nacht_or_Send_or_Rek_or_Schmut_or_B3tt_or_Gr3_or_kar_or_F2t_or_sieb_or_Fron_or_sprich_or_pl1_or_vir_or_Reib_or_k2n_or_Torf_or_dak_or_orts_or_Lieb_or_Nest_or_Kos_or_schiel_or_Waf_or_H1_or_stimm_or_Schnei_or_som_or_Les_or_pau_or_Cel_or_T3l_or_Schad_or_Go_or_co_or_Phra_or_Schin_or_R3s_or_krampf_or_k3r_or_ten_or_l1_or_grund_or_flach_or_Kel_or_Kreuz_or_gril_or_Schmu_or_Gris_or_Keuch_or_fel_or_Blu_or_Mohn_or_Blin_or_Flitz_or_as_or_Gy_or_Schlot_or_D2_or_pat_or_m2t_or_St3r_or_Dok_or_ben_or_R3st_or_sprech_or_reg_or_hol_or_Ket_or_Leu_or_Bra_or_Blo_or_Skiz_or_rub_or_bast_or_arg_or_Grup_or_fleisch_or_Rhe_or_Bind_or_spas_or_Dock_or_Len_or_Dun_or_dran_or_Kalk_or_Gan_or_Kind_or_M1n_or_veil_or_Pa$_or_Zwerg_or_Schnitz_or_B3r_or_schlei_or_Pfla_or_Schlum_or_kul_or_Ban_or_Vet_or_Flei_or_knit_or_Watt_or_Har_or_Bos_or_Bol_or_Schwim_or_schnod_or_Grie$_or_bunt_or_Fahrt_or_J1_or_tr2_or_the_or_Fie_or_buch_or_dicht_or_Sel_or_Fen_or_ehr_or_fie_or_Tast_or_Preu_or_sanft_or_Schup_or_1u_or_Rein_or_Zopf_or_T3ch_or_Ki_or_berg_or_Flu$_or_nie_or_mann_or_Netz_or_Pseu_or_kn3_or_Sch3p_or_sum_or_Ek_or_Taub_or_feind_or_Klat_or_Stak_or_kit_or_fr3mm_or_Sit_or_Bl3_or_Seel_or_Zin_or_ja_or_Kran_or_Eins_or_Kli_or_trom_or_Eu_or_Koks_or_Hil_or_Pech_or_Stampf_or_Heck_or_Fr3m_or_Hen_or_M3_or_Rost_or_Tap_or_W2rg_or_kr1f_or_trieb_or_stol_or_Stepp_or_Rut_or_Dank_or_Aug_or_skle_or_Meist_or_mul_or_Brot_or_Ag_or_Stink_or_platt_or_Rem_or_l2m_or_Tek_or_bl2_or_Z2ch_or_Breit_or_Sek_or_Tr3_or_schlu$_or_Es_or_Wald_or_kalk_or_Fik_or_spa_or_Brand_or_Fl2s_or_Lok_or_pelz_or_Kr1f_or_Pre_or_Lev_or_Trop_or_Plau_or_Cha_or_D1m_or_quar_or_Knu_or_Pfann_or_St2m_or_Schaft_or_Tril_or_fried_or_wind_or_Folg_or_Kram_or_Kri_or_Nas_or_v1_or_raf_or_K1l_or_wild_or_r1t_or_klap_or_wall_or_alk_or_Platt_or_sports_or_l2g_or_tritt_or_Bart_or_Bes_or_st2ck_or_chan_or_Scharf_or_9f_or_Quo_or_Schreib_or_Klas_or_Film_or_ich_or_Col_or_Stau_or_pech_or_Bl1t_or_don_or_Pun_or_Sol_or_weis_or_Krieg_or_Spruch_or_Warn_or_7rt_or_nah_or_H3_or_Trieb_or_suk_or_H2t_or_gar_or_Plus_or_weih_or_op_or_fe2_or_spreiz_or_Napf_or_n3_or_Ska_or_Ramm_or_Rech_or_marsch_or_Brau_or_Schel_or_Sch1ch_or_tip_or_Kron_or_Boh_or_Br2_or_gr3$_or_Kampf_or_Schil_or_sicht_or_bril_or_Wacht_or_W2_or_Kies_or_Pau_or_Leit_or_Rog_or_Frau_or_F1l_or_H2h_or_blond_or_paar_or_sorg_or_wirt_or_end_or_M2t_or_Lenk_or_Fu$_or_Pum_or_Richt_or_fu_or_Ruf_or_ant_or_sar_or_Sturm_or_Schluck_or_eid_or_Lock_or_miss_or_gna_or_Ven_or_Cou_or_Wun_or_Pei_or_wurm_or_Trat_or_Rhap_or_L3sch_or_Mas_or_Gre_or_Treib_or_hilfs_or_heil_or_Knie_or_Meu_or_Stor_or_Stubs_or_Trom_or_Frie_or_hun_or_Fl3_or_Klet_or_Fehl_or_P1_or_Reim_or_Braun_or_Hei$_or_Hals_or_takt_or_dem_or_Niet_or_T2f_or_Dan_or_schiff_or_Pflau_or_dei_or_haupt_or_Die_or_zehn_or_W3r_or_schw1t_or_tho_or_Gir_or_hal_or_T2_or_Riech_or_Woh_or_Tym_or_bom_or_Mur_or_Sekt_or_zeich_or_mem_or_arz_or_Still_or_schis_or_raub_or_struk_or_Kanz_or_Sal_or_fru_or_Quit_or_wi_or_zweit_or_Spott_or_Mehl_or_zip_or_staa_or_Lehn_or_gau_or_L1rm_or_quab_or_Part_or_knapp_or_Ne2_or_Skla_or_Schwel_or_frag_or_mar_or_Pr2_or_zen_or_Schlos_or_trak_or_schicht_or_Schnupf_or_kennt_or_mitt_or_fahr_or_schnellst_or_ne2_or_echt_or_krebs_or_Veits_or_Schmoll_or_Gluck_or_Rest_or_Hub_or_Phleg_or_mus_or_vorn_or_Zw3lf_or_Rus_or_Frak_or_fol_or_Bap_or_Lym_or_Spie$_or_wan_or_Spick_or_Gla_or_Nut_or_Bl1_or_kin_or_s12_or_Erl_or_schlu_or_zoll_or_sym_or_gra_or_Ree_or_Rob_or_Tex_or_Dy_or_Zweit_or_Tink_or_jeg_or_Blei_or_My_or_pfle_or_Wirts_or_Jahr_or_Klub_or_Lot_or_tel_or_Flat_or_Stop_or_rol_or_Rhein_or_Bild_or_Gram_or_Sitt_or_Kur_or_Eth_or_tak_or_kut_or_ost_or_erz_or_Fick_or_H1u_or_M2h_or_Sitz_or_kopf_or_Finn_or_trans_or_fir_or_Schn1_or_Papp_or_Het_or_eu_or_spal_or_Schlen_or_Speck_or_quack_or_Spreit_or_N3l_or_rech_or_Trei_or_Schlitz_or_Schimpf_or_Schild_or_stot_or_Streck_or_Fein_or_bug_or_rad_or_wag_or_St1d_or_Mords_or_stra_or_Satz_or_b1n_or_Patsch_or_Ell_or_schw1r_or_stramm_or_gold_or_K3_or_krank_or_schmach_or_amts_or_raum_or_Saug_or_Bret_or_Trip_or_Floh_or_sou_or_Ro$_or_Schind_or_Spa$_or_bruch_or_R1_or_Rock_or_trot_or_Asch_or_cha_or_Ball_or_Peit_or_Ta2_or_Sims_or_mauve_or_Bran_or_Greif_or_s1_or_Rip_or_K2nst_or_Knur_or_mag_or_Gl2h_or_fak_or_Best_or_stau_or_spi_or_Stron_or_Saar_or_Kinn_or_gno_or_Brum_or_Pur_or_s3_or_Nies_or_krepp_or_Pas_or_men_or_schlauch_or_stoff_or_P2_or_Pras_or_Puz_or_plap_or_Lob_or_hei$_or_Thy_or_Dr1n_or_Herbst_or_Sah_or_1ng_or_skor_or_Frik_or_Trol_or_ek_or_Schnapp_or_Rahm_or_Sin_or_d2_or_Hip_or_Flie_or_Pneu_or_Schmor_or_H1n_or_W3ch_or_Nau_or_schlab_or_rum_or_ru$_or_Brach_or_Schrift_or_leid_or_Stall_or_Gou_or_Flut_or_Senn_or_Weis_or_ple_or_K1rg_or_Schnaps_or_eil_or_Los_or_t2p_or_Schlach_or_schmerz_or_V3l_or_stroh_or_Heft_or_r2hr_or_Myr_or_beige_or_Melk_or_zank_or_steck_or_sil_or_hul_or_Gas_or_wet_or_laut_or_spie$_or_krin_or_grup_or_eis_or_g3t_or_Zap_or_Flin_or_Duft_or_flot_or_Stemm_or_3f_or_kom_or_Spu_or_Bud_or_Mast_or_meuch_or_G2e_or_rutsch_or_Schw1r_or_Sti_or_Mix_or_Ark_or_Kl1r_or_pit_or_K2m_or_Kl3p_or_Zeu_or_wat_or_Stups_or_Misch_or_Non_or_Tank_or_stock_or_tanz_or_sonst_or_Sto_or_herr_or_schrum_or_grob_or_Reg_or_flo_or_schwin_or_hunds_or_Stun_or_Trou_or_Sext_or_Krei_or_fr2h_or_Lap_or_St1m_or_Zart_or_jed_or_Com_or_pho_or_Ran_or_Til_or_Penn_or_B12_or_Dra_or_F3rm_or_harn_or_schei$_or_Hah_or_stab_or_is_or_Schick_or_Auk_or_H3l_or_Schan_or_nutz_or_Schaff_or_Bleich_or_bin_or_Trep_or_wahl_or_Prinz_or_falsch_or_Ma2_or_Fl2_or_grau_or_B1n_or_Hup_or_Ph3_or_spann_or_Rou_or_ruh_or_Ring_or_plau_or_zwangs_or_R2t_or_pal_or_Boots_or_z1h_or_Rie_or_Lohn_or_Te2_or_Hal_or_Pra_or_Spr2h_or_Gl1u_or_zwat_or_Krie_or_Lauf_or_barm_or_turk_or_Kehrt_or_Flun_or_Kn2pf_or_will_or_lern_or_Zimt_or_Schwie_or_Blau_or_stel_or_Z2_or_Stroh_or_Feuil_or_Schweins_or_sand_or_Jour_or_schilf_or_tob_or_Fell_or_stier_or_bank_or_wal_or_Reih_or_Chi_or_hoff_or_tou_or_os_or_Pik_or_bot_or_jam_or_Drein_or_schl1n_or_Gal_or_H3h_or_lieb_or_zy_or_Fr2h_or_stim_or_Zinn_or_Streik_or_nym_or_Phi_or_ach_or_Weid_or_Haut_or_gou_or_schwind_or_Schw1n_or_schrank_or_syl_or_Schalt_or_S2$_or_zimt_or_Heiz_or_krab_or_Arzt_or_pol_or_Rang_or_stre_or_Pyg_or_Bann_or_Schwind_or_w2n_or_Steg_or_K3f_or_Schmutz_or_Vak_or_merk_or_wund_or_Pap_or_kol_or_blind_or_Z1hm_or_Front_or_w1s_or_Fich_or_schw1_or_punkt_or_m2_or_Ken_or_Klaf_or_Lee_or_Gr1$_or_Kipp_or_Schlo$_or_art_or_Herr_or_Schritt_or_Pes_or_Pla_or_Rand_or_Nichts_or_Eich_or_Sot_or_Sch3pf_or_Mehr_or_m1_or_kra_or_Schlupf_or_deutsch_or_Denk_or_nachts_or_Blind_or_Skep_or_Kan_or_nep_or_schnee_or_Stei$_or_Tret_or_keil_or_fes_or_Skle_or_Brenn_or_volks_or_Tr1ch_or_Rau_or_tausch_or_start_or_kum_or_Gie$_or_strauch_or_L2_or_plis_or_Schim_or_Lu_or_paus_or_F2rst_or_za_or_em_or_Kratz_or_Trenn_or_Fl2ch_or_Stol_or_rap_or_gus_or_Wurf_or_K3st_or_T2ch_or_Du_or_schlech_or_leut_or_ty_or_frisch_or_Aas_or_z2_or_Speis_or_Spros_or_Pacht_or_Krepp_or_Block_or_Scher_or_Fle_or_D2rf_or_Gans_or_M1r_or_prag_or_Ach_or_Last_or_Quar_or_gi_or_ster_or_M3g_or_streng_or_lin_or_Stil_or_L1s_or_af_or_Jah_or_sten_or_schritt_or_f2r_or_tai_or_glit_or_kro_or_Paar_or_klas_or_bis_or_Flach_or_Schwan_or_Nes_or_wehr_or_f3_or_Horch_or_Fels_or_flan_or_kam_or_Spul_or_Phe_or_Sech_or_7_or_Mol_or_Schlech_or_ska_or_Feil_or_Sli_or_Cho_or_Pack_or_Kalbs_or_qua_or_t1n_or_rauch_or_Malz_or_Scho_or_Nein_or_Bom_or_trotz_or_Sturz_or_Fra2_or_Prag_or_wip_or_Sp3t_or_h3chst_or_Lymph_or_wab_or_Blick_or_Schma_or_Pha_or_Schlei$_or_Glo_or_klump_or_Got_or_Ros_or_ve_or_Pin_or_rach_or_Nerz_or_reich_or_koch_or_scherz_or_feh_or_ke_or_Glut_or_Sauf_or_klaf_or_cham_or_Zweig_or_Bat_or_Lands_or_Ben_or_Sche2_or_Schwam_or_Kirsch_or_Trot_or_Schlei_or_Kin_or_Orts_or_Schwanz_or_saug_or_Prin_or_gal_or_span_or_Tar_or_Oh_or_trai_or_tol_or_Schn2f_or_Flucht_or_8p_or_lun_or_Sph1_or_Nied_or_Gift_or_Koch_or_gru_or_Schutt_or_Pris_or_len_or_Kl1_or_phi_or_geld_or_klamm_or_Spra_or_Ram_or_mi_or_kal_or_tex_or_leih_or_zwit_or_trost_or_Tr2m_or_putz_or_krit_or_schwa_or_Wur_or_Tom_or_Well_or_pseu_or_plom_or_zwerg_or_Speer_or_Bug_or_was_or_Gips_or_Stich_or_durst_or_Wirk_or_schran_or_klat_or_Juck_or_Kru_or_Skro_or_Sp2r_or_Geiz_or_bay_or_Schling_or_stop_or_Kenn_or_k1mp_or_Rast_or_skiz_or_glas_or_Schnal_or_kraut_or_sal_or_Schlacht_or_W1l_or_kleinst_or_Mitt_or_split_or_sit_or_Bahn_or_wut_or_sim_or_Quack_or_Zoll_or_bles_or_st2m_or_n3r_or_Sonn_or_rich_or_Zins_or_Wet_or_M2m_or_Brei_or_Pein_or_zig_or_Rup_or_schwab_or_9p_or_re2_or_Lid_or_blau_or_p2_or_Of_or_Zwirns_or_Reh_or_schorf_or_Schleim_or_thai_or_Bu_or_Fut_or_stich_or_Prel_or_Tum_or_Schicht_or_Dreck_or_Sorg_or_fer_or_Ih_or_Manns_or_Blas_or_stamm_or_schaff_or_Puf_or_Trach_or_Raz_or_lust_or_Wichs_or_Zorn_or_wes_or_sch3p_or_Hef_or_Zun_or_Lou_or_Sch2_or_kl1_or_bahn_or_Firm_or_Zes_or_9b_or_Z3_or_Schlin_or_chir_or_Weib_or_Kid_or_hy_or_klan_or_Os_or_Luv_or_M1nn_or_Treff_or_Senf_or_Lach_or_Ai_or_Dru_or_Strau_or_Sai_or_Satt_or_Qu1_or_fix_or_W1hl_or_Pfad_or_Band_or_spei_or_dif_or_Dring_or_Plom_or_Fei_or_sma_or_Kaul_or_lon_or_Harn_or_rasch_or_Prah_or_Sod_or_tag_or_Park_or_Schweig_or_hohl_or_Leih_or_Och_or_schlecht_or_psy_or_Lau_or_L3$_or_Rol_or_pun_or_Je_or_Teich_or_mne_or_S2n_or_Heh_or_ken_or_Fas_or_Lynch_or_tran_or_Schlepp_or_Zel_or_Brat_or_bla_or_griff_or_Schleu_or_Kreis_or_flucht_or_Toll_or_Rotz_or_dol_or_Syl_or_rab_or_Z2n_or_Stie_or_Br2ll_or_schim_or_hof_or_mehl_or_asth_or_Puls_or_letz_or_froh_or_Herd_or_Dorf_or_Mis_or_Ul_or_Streb_or_schlan_or_Bier_or_Trief_or_1s_or_hel_or_kiel_or_Pr3_or_sie_or_frap_or_tr1_or_schlem_or_Nim_or_Dog_or_Teig_or_Sprit_or_luchs_or_Frucht_or_Statt_or_kreu_or_Dusch_or_kaf_or_roh_or_tro_or_F2g_or_neid_or_Nop_or_Sarg_or_Kn1_or_Feu_or_kan_or_schnurr_or_Wuch_or_kraus_or_pan_or_Schl1ch_or_Schreck_or_fre_or_Bram_or_gla_or_schlapp_or_Strick_or_Schnat_or_Kop_or_fei_or_gries_or_Mau_or_ban_or_haus_or_Fremd_or_schnat_or_tweed_or_t3l_or_tuch_or_Kot_or_kost_or_kai_or_Trut_or_klug_or_f3r_or_Spr3_or_Reck_or_tres_or_por_or_raff_or_six_or_bil_or_Ast_or_Streich_or_haft_or_asch) and (onset_class1 = C) and (syl_len0 >= 4) => stress_class=multa (9.0/0.0)
+(comp_struct = ø) and (syl_weight1 <= 0) and (syl_len2 <= 3) and (nucleus_class0 = D) and (cv_ratio2 <= 0) => stress_class=multa (4.0/0.0)
+(comp_struct = NA) and (syl0 = tod) => stress_class=multa (3.0/0.0)
+(comp_struct = NA) and (syl0 = pu) => stress_class=multa (3.0/0.0)
+(comp_struct = NA) and (syl2 = gelb) => stress_class=multa (3.0/0.0)
+(basic_pos = ADV) and (syl_class2 = CLC) and (koda_class0 = C) => stress_class=multa (4.0/1.0)
+(comp_struct = ø) and (nomen = F) and (syl0 = der) => stress_class=multa (6.0/2.0)
+(basic_pos = ADV) and (rhyme0 = CVCC) and (cv_ratio1 >= 2) => stress_class=multa (4.0/1.0)
+(praefix1 = L) and (syl0 = alt) and (suffix2 = CC) => stress_class=multa (3.0/0.0)
+(nucleus_len2 >= 2) and (comp_len <= 1) and (koda_len1 <= 0) and (sa_struct = SA) and (sonority2 <= 101) => stress_class=ultima (196.0/4.0)
+(nucleus_class2 = L) and (comp_len <= 1) and (rhyme1 = CVV) and (suffix2 = LC) => stress_class=ultima (306.0/30.0)
+(nucleus_class2 = L) and (comp_len <= 1) and (syl_weight1 >= 1) and (sonority2 >= 121) and (sonority2 <= 211) => stress_class=ultima (115.0/17.0)
+(syl_weight2 >= 1) and (comp_len <= 1) and (koda_len2 >= 2) and (syl_weight1 >= 1) and (comp_struct = R) => stress_class=ultima (109.0/4.0)
+(syl_weight2 >= 1) and (comp_len <= 0) and (cv_ratio2 >= 3) and (syl_weight1 >= 1) => stress_class=ultima (77.0/9.0)
+(nucleus_len2 >= 2) and (comp_len <= 1) and (sonority1 <= 102) and (suffix2 = LC) and (syl_weight1 >= 1) and (nucleus_class1 = K) => stress_class=ultima (44.0/1.0)
+(nucleus_class2 = L) and (comp_len <= 1) and (nk_suffix = ie) => stress_class=ultima (66.0/0.0)
+(syl_weight2 >= 1) and (comp_len <= 1) and (koda_len2 >= 2) and (syl_weight1 >= 1) and (basic_pos = N) and (nk_suffix = ist) => stress_class=ultima (44.0/1.0)
+(nucleus_len2 >= 2) and (comp_len <= 0) and (syl_len2 >= 3) => stress_class=ultima (96.0/20.0)
+(syl_weight2 >= 1) and (sa_struct = S) and (syl_weight1 >= 1) and (koda_len2 >= 2) and (syl_weight0 >= 1) => stress_class=ultima (48.0/9.0)
+(nucleus_class2 = L) and (comp_len <= 1) and (comp_struct = R) => stress_class=ultima (18.0/0.0)
+(syl_weight2 >= 1) and (comp_struct = ø) and (basic_pos = ADV) and (koda_class2 = C) and (cv_ratio0 <= 0) => stress_class=ultima (26.0/8.0)
+(nk_suffix = ell) and (syl_weight1 >= 1) => stress_class=ultima (24.0/1.0)
+(syl_weight2 >= 1) and (sa_struct = S) and (syl_class2 = CLC) and (syl_weight1 >= 1) => stress_class=ultima (14.0/1.0)
+(syl_weight2 >= 1) and (comp_struct = ø) and (nk_suffix = ett) => stress_class=ultima (9.0/1.0)
+(syl_weight2 >= 1) and (nk_suffix = ant) => stress_class=ultima (14.0/3.0)
+(syl2 = dampf_or_bl2mt_or_gant_or_pest_or_bausch_or_satt_or_tr2ckt_or_reg_or_dock_or_port_or_farn_or_vier_or_ir_or_lot_or_xisch_or_bon_or_tas_or_kryph_or_jekt_or_still_or_pfad_or_skus_or_echt_or_zeut_or_som_or_horn_or_zaun_or_vern_or_fehl_or_koll_or_fant_or_pie_or_zil_or_drit_or_mos_or_sol_or_span_or_schmerz_or_schlauch_or_spann_or_zog_or_brut_or_zweigt_or_draht_or_ernst_or_dett_or_terre_or_schend_or_plast_or_schern_or_pack_or_kahl_or_w2nscht_or_pfund_or_scheut_or_ders_or_ros_or_lernt_or_genz_or_kies_or_ehrt_or_trik_or_heul_or_sul_or_thus_or_gold_or_klub_or_schwingt_or_einst_or_mast_or_ding_or_samt_or_thit_or_bens_or_napf_or_reicht_or_folg_or_miert_or_deur_or_stet_or_weich_or_tenz_or_hahn_or_kaans_or_gas_or_qual_or_fu$_or_schr1nkt_or_pa$_or_saft_or_belt_or_mein_or_jen_or_nol_or_verb_or_kei_or_phag_or_st3rt_or_netz_or_thong_or_tom_or_nus_or_schnur_or_brauch_or_bral_or_schwitzt_or_frisch_or_winn_or_jagd_or_grant_or_tanz_or_dieb_or_drid_or_d1r_or_sagt_or_mord_or_quid_or_gert_or_drin_or_dreck_or_strant_or_ol_or_korb_or_rausch_or_path_or_pr2ft_or_q2er_or_kurs_or_strom_or_die_or_haust_or_stom_or_rein_or_digst_or_tros_or_venz_or_tert_or_stert_or_ziert_or_gur_or_leicht_or_gner_or_bi_or_pfahl_or_sturm_or_w1hrt_or_brei_or_pher_or_spitzt_or_stem_or_all_or_cap_or_dingt_or_stat_or_bucht_or_tu_or_strauch_or_neu_or_pelz_or_fa$_or_si_or_schwang_or_staub_or_bauch_or_om_or_held_or_part_or_r3s_or_grisch_or_la$_or_dil_or_brik_or_sichts_or_stimmt_or_schau_or_frucht_or_gik_or_ahn_or_drauf_or_schwach_or_kost_or_wollt_or_kauft_or_heft_or_spielt_or_kl1rt_or_tief_or_fakt_or_grau_or_strig_or_fleckt_or_letzt_or_lier_or_wut_or_scheck_or_el_or_gneur_or_zenz_or_strand_or_mert_or_geur_or_druckt_or_reist_or_tes_or_chord_or_schicht_or_telt_or_seur_or_selnd_or_gabt_or_lern_or_tut_or_werb_or_feind_or_hanf_or_blik_or_sus_or_stant_or_dram_or_fremd_or_let_or_sko_or_pol_or_spekt_or_kn3pft_or_darf_or_kohl_or_nutzt_or_nee_or_put_or_trig_or_p1ck_or_bra_or_dorf_or_d1mpft_or_gill_or_in_or_b1ck_or_mach_or_nas_or_welsch_or_lis_or_bold_or_breit_or_saat_or_knackst_or_herd_or_hell_or_chin_or_dit_or_zucht_or_kelt_or_zahlt_or_nant_or_fa$t_or_qua_or_leg_or_legt_or_strie_or_brig_or_sit_or_fin_or_hern_or_stiz_or_durst_or_mi_or_fried_or_stes_or_strat_or_mit_or_ti_or_christ_or_ze$_or_mannt_or_rakt_or_phal_or_trum_or_ha$_or_dur_or_grenzt_or_fracht_or_ckisch_or_hut_or_h3r_or_ran_or_ab_or_schlaf_or_dot_or_gent_or_pumpt_or_meint_or_stuft_or_wern_or_nau_or_start_or_gral_or_baut_or_wahn_or_schof_or_nam_or_leih_or_iert_or_hernd_or_lan_or_greis_or_zip_or_nunft_or_ert_or_sekt_or_pos_or_view_or_setz_or_kult_or_most_or_b1r_or_beet_or_dukt_or_r2cks_or_$el_or_fik_or_wer_or_tracht_or_zyt_or_ett_or_schurz_or_stit_or_tigt_or_schlupf_or_dend_or_gist_or_lith_or_mond_or_heil_or_ie_or_wik_or_farkt_or_gniert_or_car_or_ohr_or_nack_or_bran_or_dr1ngt_or_kinn_or_stro_or_stigt_or_stin_or_tim_or_lack_or_pig_or_stil_or_strengt_or_xie_or_rich_or_heizt_or_xiv_or_mom_or_bla$_or_frost_or_zont_or_ris_or_morph_or_pa_or_gran_or_wurst_or_raub_or_h3chst_or_z1hmt_or_gro_or_duld_or_gras_or_res_or_bil_or_herz_or_je_or_hackt_or_terst_or_lak_or_sat_or_lurg_or_schwulst_or_sch2tzt_or_n2e_or_nehm_or_aal_or_gurt_or_graf_or_des_or_rak_or_kunft_or_quot_or_stelt_or_li_or_ent_or_zagt_or_chiv_or_bord_or_stral_or_fei_or_chel_or_stroh_or_gnal_or_wal_or_pelt_or_dens_or_rohr_or_es_or_plex_or_busch_or_sack_or_br2ht_or_zern_or_merkt_or_schnell_or_wachs_or_park_or_kig_or_thyst_or_feimt_or_$erst_or_flucht_or_quant_or_lockt_or_ku$_or_fleischt_or_d2nnt_or_reimt_or_lit_or_ryl_or_leib_or_hund_or_ganz_or_vas_or_bann_or_wein_or_putzt_or_bol_or_rast_or_chie_or_sprucht_or_blee_or_anz_or_tran_or_panz_or_klopft_or_rest_or_rekt_or_zin_or_num_or_phor_or_gier_or_bris_or_schacht_or_stahl_or_gyn_or_sik_or_zu_or_ef_or_stolz_or_erst_or_q2ent_or_vant_or_mell_or_quark_or_sent_or_seil_or_teilt_or_mers_or_launt_or_pflicht_or_sist_or_leer_or_de$_or_3hr_or_proof_or_wach_or_burg_or_lieb_or_keil_or_schmiert_or_krach_or_taph_or_freund_or_lamm_or_r1umt_or_streift_or_kisch_or_dus_or_chist_or_sal_or_fett_or_schabt_or_quist_or_grig_or_pflegt_or_strolch_or_lo_or_em_or_haupt_or_the_or_schi_or_flex_or_d2nn_or_pich_or_herr_or_chon_or_r1n_or_tee_or_zahn_or_best_or_nackt_or_schnitt_or_k1mmt_or_witsch_or_rupft_or_fat_or_bal_or_straft_or_vit_or_plin_or_blo_or_lie_or_sang_or_phalt_or_mand_or_drom_or_huhn_or_tich_or_zelt_or_rif_or_braun_or_neur_or_zweig_or_lik_or_jisch_or_dernd_or_phob_or_dal_or_wohl_or_naut_or_ritt_or_rind_or_plett_or_sitz_or_jau_or_gin_or_veau_or_lans_or_resk_or_tont_or_wild_or_wart_or_zirk_or_lernd_or_dix_or_lance_or_schamt_or_l3st_or_dest_or_ga_or_jer_or_duft_or_klar_or_wurm_or_dant_or_dour_or_kord_or_minz_or_eins_or_wie_or_sonnt_or_stiel_or_kalt_or_wi$_or_sell_or_bock_or_brum_or_dikt_or_mol_or_stent_or_wehrt_or_bords_or_garn_or_watt_or_blond_or_zert_or_korps_or_scheln_or_wohnt_or_zei_or_trie_or_west_or_haut_or_kehrt_or_pult_or_grab_or_skript_or_k2rzt_or_ternd_or_schwein_or_we_or_brett_or_drang_or_vieh_or_stall_or_is_or_bunt_or_haart_or_soph_or_visch_or_tau_or_bisch_or_hold_or_st2m_or_golf_or_seelt_or_lekt_or_rhein_or_klau_or_strickt_or_denk_or_schmackt_or_sch1mt_or_ranz_or_arch_or_z1hlt_or_nach_or_lanz_or_stor_or_quat_or_rauch_or_b2rgt_or_sor_or_enz_or_lor_or_tron_or_k2l_or_liebt_or_streik_or_wurz_or_schrei_or_f1lscht_or_rum_or_fuchst_or_dei_or_jan_or_pus_or_lum_or_dings_or_riert_or_teig_or_balt_or_freut_or_maus_or_vall_or_net_or_laubt_or_prinz_or_schminkt_or_gra_or_schwall_or_lic_or_ence_or_phyt_or_rob_or_trav_or_krit_or_hofft_or_fanz_or_streckt_or_vice_or_steln_or_flink_or_fragt_or_lehrt_or_kerl_or_zie_or_da_or_flecht_or_zoll_or_fee_or_rem_or_stab_or_gens_or_min_or_nil_or_hertz_or_kreuzt_or_turm_or_fert_or_gnon_or_quarz_or_val_or_topf_or_chef_or_zwang_or_nerst_or_bin_or_bier_or_trank_or_tank_or_eck_or_leid_or_k3r_or_nett_or_brand_or_prok_or_scheid_or_bliert_or_cote_or_pin_or_webt_or_lenkt_or_pal_or_schmaus_or_gence_or_paar_or_tr1r_or_quiert_or_s1umt_or_zent_or_sance_or_strang_or_lahm_or_str3s_or_schirr_or_gleis_or_1r_or_pung_or_stellt_or_sper_or_2bt_or_hemmt_or_glott_or_bracht_or_fix_or_aas_or_dam_or_du_or_stau_or_teich_or_dammt_or_kret_or_thon_or_trant_or_phisch_or_n2tzt_or_trakt_or_mals_or_ril_or_spickt_or_ich_or_graut_or_trog_or_bri_or_schmutzt_or_knopf_or_gast_or_stumpft_or_bei_or_lut_or_weilt_or_digt_or_schleim_or_ernd_or_dor_or_dik_or_kron_or_bat_or_thek_or_beugt_or_taur_or_laub_or_vir_or_merk_or_xas_or_va_or_steig_or_rim_or_bot_or_stroph_or_schickt_or_blind_or_helm_or_ting_or_tausch_or_streit_or_turnt_or_fecht_or_it_or_wo_or_zier_or_loid_or_xyd_or_korn_or_ses_or_ligt_or_brust_or_driert_or_vat_or_bufft_or_t2m_or_hol_or_zym_or_kap_or_chit_or_liert_or_glut_or_esk_or_bent_or_gernd_or_ket_or_dist_or_bist_or_schwert_or_darft_or_hent_or_phan_or_ble_or_kan_or_klin_or_rott_or_lel_or_rauht_or_reiz_or_trem_or_n1r_or_ba$_or_st1t_or_schall_or_nichts_or_knall) and (comp_len <= 0) and (rhyme2 = VCC) => stress_class=ultima (6.0/0.0)
+(syl_weight2 >= 1) and (syl2 = dampf_or_bl2mt_or_gant_or_pest_or_bausch_or_satt_or_tr2ckt_or_reg_or_dock_or_port_or_farn_or_vier_or_ir_or_lot_or_xisch_or_bon_or_tas_or_kryph_or_jekt_or_still_or_pfad_or_skus_or_echt_or_zeut_or_som_or_horn_or_zaun_or_vern_or_fehl_or_koll_or_fant_or_pie_or_zil_or_drit_or_mos_or_sol_or_span_or_schmerz_or_schlauch_or_spann_or_zog_or_brut_or_zweigt_or_draht_or_ernst_or_dett_or_terre_or_schend_or_plast_or_schern_or_pack_or_kahl_or_w2nscht_or_pfund_or_scheut_or_ders_or_ros_or_lernt_or_genz_or_kies_or_ehrt_or_trik_or_heul_or_sul_or_thus_or_gold_or_klub_or_schwingt_or_einst_or_mast_or_ding_or_samt_or_thit_or_bens_or_napf_or_reicht_or_folg_or_miert_or_deur_or_stet_or_weich_or_tenz_or_hahn_or_kaans_or_gas_or_qual_or_fu$_or_schr1nkt_or_pa$_or_saft_or_belt_or_mein_or_jen_or_nol_or_verb_or_kei_or_phag_or_st3rt_or_netz_or_thong_or_tom_or_nus_or_schnur_or_brauch_or_bral_or_schwitzt_or_frisch_or_winn_or_jagd_or_grant_or_tanz_or_dieb_or_drid_or_d1r_or_sagt_or_mord_or_quid_or_gert_or_drin_or_dreck_or_strant_or_ol_or_korb_or_rausch_or_path_or_pr2ft_or_q2er_or_kurs_or_strom_or_die_or_haust_or_stom_or_rein_or_digst_or_tros_or_venz_or_tert_or_stert_or_ziert_or_gur_or_leicht_or_gner_or_bi_or_pfahl_or_sturm_or_w1hrt_or_brei_or_pher_or_spitzt_or_stem_or_all_or_cap_or_dingt_or_stat_or_bucht_or_tu_or_strauch_or_neu_or_pelz_or_fa$_or_si_or_schwang_or_staub_or_bauch_or_om_or_held_or_part_or_r3s_or_grisch_or_la$_or_dil_or_brik_or_sichts_or_stimmt_or_schau_or_frucht_or_gik_or_ahn_or_drauf_or_schwach_or_kost_or_wollt_or_kauft_or_heft_or_spielt_or_kl1rt_or_tief_or_fakt_or_grau_or_strig_or_fleckt_or_letzt_or_lier_or_wut_or_scheck_or_el_or_gneur_or_zenz_or_strand_or_mert_or_geur_or_druckt_or_reist_or_tes_or_chord_or_schicht_or_telt_or_seur_or_selnd_or_gabt_or_lern_or_tut_or_werb_or_feind_or_hanf_or_blik_or_sus_or_stant_or_dram_or_fremd_or_let_or_sko_or_pol_or_spekt_or_kn3pft_or_darf_or_kohl_or_nutzt_or_nee_or_put_or_trig_or_p1ck_or_bra_or_dorf_or_d1mpft_or_gill_or_in_or_b1ck_or_mach_or_nas_or_welsch_or_lis_or_bold_or_breit_or_saat_or_knackst_or_herd_or_hell_or_chin_or_dit_or_zucht_or_kelt_or_zahlt_or_nant_or_fa$t_or_qua_or_leg_or_legt_or_strie_or_brig_or_sit_or_fin_or_hern_or_stiz_or_durst_or_mi_or_fried_or_stes_or_strat_or_mit_or_ti_or_christ_or_ze$_or_mannt_or_rakt_or_phal_or_trum_or_ha$_or_dur_or_grenzt_or_fracht_or_ckisch_or_hut_or_h3r_or_ran_or_ab_or_schlaf_or_dot_or_gent_or_pumpt_or_meint_or_stuft_or_wern_or_nau_or_start_or_gral_or_baut_or_wahn_or_schof_or_nam_or_leih_or_iert_or_hernd_or_lan_or_greis_or_zip_or_nunft_or_ert_or_sekt_or_pos_or_view_or_setz_or_kult_or_most_or_b1r_or_beet_or_dukt_or_r2cks_or_$el_or_fik_or_wer_or_tracht_or_zyt_or_ett_or_schurz_or_stit_or_tigt_or_schlupf_or_dend_or_gist_or_lith_or_mond_or_heil_or_ie_or_wik_or_farkt_or_gniert_or_car_or_ohr_or_nack_or_bran_or_dr1ngt_or_kinn_or_stro_or_stigt_or_stin_or_tim_or_lack_or_pig_or_stil_or_strengt_or_xie_or_rich_or_heizt_or_xiv_or_mom_or_bla$_or_frost_or_zont_or_ris_or_morph_or_pa_or_gran_or_wurst_or_raub_or_h3chst_or_z1hmt_or_gro_or_duld_or_gras_or_res_or_bil_or_herz_or_je_or_hackt_or_terst_or_lak_or_sat_or_lurg_or_schwulst_or_sch2tzt_or_n2e_or_nehm_or_aal_or_gurt_or_graf_or_des_or_rak_or_kunft_or_quot_or_stelt_or_li_or_ent_or_zagt_or_chiv_or_bord_or_stral_or_fei_or_chel_or_stroh_or_gnal_or_wal_or_pelt_or_dens_or_rohr_or_es_or_plex_or_busch_or_sack_or_br2ht_or_zern_or_merkt_or_schnell_or_wachs_or_park_or_kig_or_thyst_or_feimt_or_$erst_or_flucht_or_quant_or_lockt_or_ku$_or_fleischt_or_d2nnt_or_reimt_or_lit_or_ryl_or_leib_or_hund_or_ganz_or_vas_or_bann_or_wein_or_putzt_or_bol_or_rast_or_chie_or_sprucht_or_blee_or_anz_or_tran_or_panz_or_klopft_or_rest_or_rekt_or_zin_or_num_or_phor_or_gier_or_bris_or_schacht_or_stahl_or_gyn_or_sik_or_zu_or_ef_or_stolz_or_erst_or_q2ent_or_vant_or_mell_or_quark_or_sent_or_seil_or_teilt_or_mers_or_launt_or_pflicht_or_sist_or_leer_or_de$_or_3hr_or_proof_or_wach_or_burg_or_lieb_or_keil_or_schmiert_or_krach_or_taph_or_freund_or_lamm_or_r1umt_or_streift_or_kisch_or_dus_or_chist_or_sal_or_fett_or_schabt_or_quist_or_grig_or_pflegt_or_strolch_or_lo_or_em_or_haupt_or_the_or_schi_or_flex_or_d2nn_or_pich_or_herr_or_chon_or_r1n_or_tee_or_zahn_or_best_or_nackt_or_schnitt_or_k1mmt_or_witsch_or_rupft_or_fat_or_bal_or_straft_or_vit_or_plin_or_blo_or_lie_or_sang_or_phalt_or_mand_or_drom_or_huhn_or_tich_or_zelt_or_rif_or_braun_or_neur_or_zweig_or_lik_or_jisch_or_dernd_or_phob_or_dal_or_wohl_or_naut_or_ritt_or_rind_or_plett_or_sitz_or_jau_or_gin_or_veau_or_lans_or_resk_or_tont_or_wild_or_wart_or_zirk_or_lernd_or_dix_or_lance_or_schamt_or_l3st_or_dest_or_ga_or_jer_or_duft_or_klar_or_wurm_or_dant_or_dour_or_kord_or_minz_or_eins_or_wie_or_sonnt_or_stiel_or_kalt_or_wi$_or_sell_or_bock_or_brum_or_dikt_or_mol_or_stent_or_wehrt_or_bords_or_garn_or_watt_or_blond_or_zert_or_korps_or_scheln_or_wohnt_or_zei_or_trie_or_west_or_haut_or_kehrt_or_pult_or_grab_or_skript_or_k2rzt_or_ternd_or_schwein_or_we_or_brett_or_drang_or_vieh_or_stall_or_is_or_bunt_or_haart_or_soph_or_visch_or_tau_or_bisch_or_hold_or_st2m_or_golf_or_seelt_or_lekt_or_rhein_or_klau_or_strickt_or_denk_or_schmackt_or_sch1mt_or_ranz_or_arch_or_z1hlt_or_nach_or_lanz_or_stor_or_quat_or_rauch_or_b2rgt_or_sor_or_enz_or_lor_or_tron_or_k2l_or_liebt_or_streik_or_wurz_or_schrei_or_f1lscht_or_rum_or_fuchst_or_dei_or_jan_or_pus_or_lum_or_dings_or_riert_or_teig_or_balt_or_freut_or_maus_or_vall_or_net_or_laubt_or_prinz_or_schminkt_or_gra_or_schwall_or_lic_or_ence_or_phyt_or_rob_or_trav_or_krit_or_hofft_or_fanz_or_streckt_or_vice_or_steln_or_flink_or_fragt_or_lehrt_or_kerl_or_zie_or_da_or_flecht_or_zoll_or_fee_or_rem_or_stab_or_gens_or_min_or_nil_or_hertz_or_kreuzt_or_turm_or_fert_or_gnon_or_quarz_or_val_or_topf_or_chef_or_zwang_or_nerst_or_bin_or_bier_or_trank_or_tank_or_eck_or_leid_or_k3r_or_nett_or_brand_or_prok_or_scheid_or_bliert_or_cote_or_pin_or_webt_or_lenkt_or_pal_or_schmaus_or_gence_or_paar_or_tr1r_or_quiert_or_s1umt_or_zent_or_sance_or_strang_or_lahm_or_str3s_or_schirr_or_gleis_or_1r_or_pung_or_stellt_or_sper_or_2bt_or_hemmt_or_glott_or_bracht_or_fix_or_aas_or_dam_or_du_or_stau_or_teich_or_dammt_or_kret_or_thon_or_trant_or_phisch_or_n2tzt_or_trakt_or_mals_or_ril_or_spickt_or_ich_or_graut_or_trog_or_bri_or_schmutzt_or_knopf_or_gast_or_stumpft_or_bei_or_lut_or_weilt_or_digt_or_schleim_or_ernd_or_dor_or_dik_or_kron_or_bat_or_thek_or_beugt_or_taur_or_laub_or_vir_or_merk_or_xas_or_va_or_steig_or_rim_or_bot_or_stroph_or_schickt_or_blind_or_helm_or_ting_or_tausch_or_streit_or_turnt_or_fecht_or_it_or_wo_or_zier_or_loid_or_xyd_or_korn_or_ses_or_ligt_or_brust_or_driert_or_vat_or_bufft_or_t2m_or_hol_or_zym_or_kap_or_chit_or_liert_or_glut_or_esk_or_bent_or_gernd_or_ket_or_dist_or_bist_or_schwert_or_darft_or_hent_or_phan_or_ble_or_kan_or_klin_or_rott_or_lel_or_rauht_or_reiz_or_trem_or_n1r_or_ba$_or_st1t_or_schall_or_nichts_or_knall) and (comp_len <= 1) and (rhyme2 = CVVC) and (sonority_ratio0 <= 2) => stress_class=ultima (7.0/1.0)
+(syl_weight2 >= 1) and (comp_struct = ø) and (suffix4 = LCLC) => stress_class=ultima (7.0/2.0)
+(syl_weight2 >= 1) and (sa_struct = S) and (syl0 = 2) => stress_class=ultima (4.0/0.0)
+(syl_weight2 >= 1) and (comp_struct = N) and (basic_pos = N) and (nucleus_len2 >= 2) and (sa_struct = SA) and (sonority2 <= 1002) => stress_class=ultima (13.0/0.0)
+(syl_weight2 >= 1) and (basic_pos = ADV) and (praefix1 = K) => stress_class=ultima (6.0/1.0)
+(syl2 = dampf_or_bl2mt_or_gant_or_pest_or_bausch_or_satt_or_tr2ckt_or_reg_or_dock_or_port_or_farn_or_vier_or_ir_or_lot_or_xisch_or_bon_or_tas_or_kryph_or_jekt_or_still_or_pfad_or_skus_or_echt_or_zeut_or_som_or_horn_or_zaun_or_vern_or_fehl_or_koll_or_fant_or_pie_or_zil_or_drit_or_mos_or_sol_or_span_or_schmerz_or_schlauch_or_spann_or_zog_or_brut_or_zweigt_or_draht_or_ernst_or_dett_or_terre_or_schend_or_plast_or_schern_or_pack_or_kahl_or_w2nscht_or_pfund_or_scheut_or_ders_or_ros_or_lernt_or_genz_or_kies_or_ehrt_or_trik_or_heul_or_sul_or_thus_or_gold_or_klub_or_schwingt_or_einst_or_mast_or_ding_or_samt_or_thit_or_bens_or_napf_or_reicht_or_folg_or_miert_or_deur_or_stet_or_weich_or_tenz_or_hahn_or_kaans_or_gas_or_qual_or_fu$_or_schr1nkt_or_pa$_or_saft_or_belt_or_mein_or_jen_or_nol_or_verb_or_kei_or_phag_or_st3rt_or_netz_or_thong_or_tom_or_nus_or_schnur_or_brauch_or_bral_or_schwitzt_or_frisch_or_winn_or_jagd_or_grant_or_tanz_or_dieb_or_drid_or_d1r_or_sagt_or_mord_or_quid_or_gert_or_drin_or_dreck_or_strant_or_ol_or_korb_or_rausch_or_path_or_pr2ft_or_q2er_or_kurs_or_strom_or_die_or_haust_or_stom_or_rein_or_digst_or_tros_or_venz_or_tert_or_stert_or_ziert_or_gur_or_leicht_or_gner_or_bi_or_pfahl_or_sturm_or_w1hrt_or_brei_or_pher_or_spitzt_or_stem_or_all_or_cap_or_dingt_or_stat_or_bucht_or_tu_or_strauch_or_neu_or_pelz_or_fa$_or_si_or_schwang_or_staub_or_bauch_or_om_or_held_or_part_or_r3s_or_grisch_or_la$_or_dil_or_brik_or_sichts_or_stimmt_or_schau_or_frucht_or_gik_or_ahn_or_drauf_or_schwach_or_kost_or_wollt_or_kauft_or_heft_or_spielt_or_kl1rt_or_tief_or_fakt_or_grau_or_strig_or_fleckt_or_letzt_or_lier_or_wut_or_scheck_or_el_or_gneur_or_zenz_or_strand_or_mert_or_geur_or_druckt_or_reist_or_tes_or_chord_or_schicht_or_telt_or_seur_or_selnd_or_gabt_or_lern_or_tut_or_werb_or_feind_or_hanf_or_blik_or_sus_or_stant_or_dram_or_fremd_or_let_or_sko_or_pol_or_spekt_or_kn3pft_or_darf_or_kohl_or_nutzt_or_nee_or_put_or_trig_or_p1ck_or_bra_or_dorf_or_d1mpft_or_gill_or_in_or_b1ck_or_mach_or_nas_or_welsch_or_lis_or_bold_or_breit_or_saat_or_knackst_or_herd_or_hell_or_chin_or_dit_or_zucht_or_kelt_or_zahlt_or_nant_or_fa$t_or_qua_or_leg_or_legt_or_strie_or_brig_or_sit_or_fin_or_hern_or_stiz_or_durst_or_mi_or_fried_or_stes_or_strat_or_mit_or_ti_or_christ_or_ze$_or_mannt_or_rakt_or_phal_or_trum_or_ha$_or_dur_or_grenzt_or_fracht_or_ckisch_or_hut_or_h3r_or_ran_or_ab_or_schlaf_or_dot_or_gent_or_pumpt_or_meint_or_stuft_or_wern_or_nau_or_start_or_gral_or_baut_or_wahn_or_schof_or_nam_or_leih_or_iert_or_hernd_or_lan_or_greis_or_zip_or_nunft_or_ert_or_sekt_or_pos_or_view_or_setz_or_kult_or_most_or_b1r_or_beet_or_dukt_or_r2cks_or_$el_or_fik_or_wer_or_tracht_or_zyt_or_ett_or_schurz_or_stit_or_tigt_or_schlupf_or_dend_or_gist_or_lith_or_mond_or_heil_or_ie_or_wik_or_farkt_or_gniert_or_car_or_ohr_or_nack_or_bran_or_dr1ngt_or_kinn_or_stro_or_stigt_or_stin_or_tim_or_lack_or_pig_or_stil_or_strengt_or_xie_or_rich_or_heizt_or_xiv_or_mom_or_bla$_or_frost_or_zont_or_ris_or_morph_or_pa_or_gran_or_wurst_or_raub_or_h3chst_or_z1hmt_or_gro_or_duld_or_gras_or_res_or_bil_or_herz_or_je_or_hackt_or_terst_or_lak_or_sat_or_lurg_or_schwulst_or_sch2tzt_or_n2e_or_nehm_or_aal_or_gurt_or_graf_or_des_or_rak_or_kunft_or_quot_or_stelt_or_li_or_ent_or_zagt_or_chiv_or_bord_or_stral_or_fei_or_chel_or_stroh_or_gnal_or_wal_or_pelt_or_dens_or_rohr_or_es_or_plex_or_busch_or_sack_or_br2ht_or_zern_or_merkt_or_schnell_or_wachs_or_park_or_kig_or_thyst_or_feimt_or_$erst_or_flucht_or_quant_or_lockt_or_ku$_or_fleischt_or_d2nnt_or_reimt_or_lit_or_ryl_or_leib_or_hund_or_ganz_or_vas_or_bann_or_wein_or_putzt_or_bol_or_rast_or_chie_or_sprucht_or_blee_or_anz_or_tran_or_panz_or_klopft_or_rest_or_rekt_or_zin_or_num_or_phor_or_gier_or_bris_or_schacht_or_stahl_or_gyn_or_sik_or_zu_or_ef_or_stolz_or_erst_or_q2ent_or_vant_or_mell_or_quark_or_sent_or_seil_or_teilt_or_mers_or_launt_or_pflicht_or_sist_or_leer_or_de$_or_3hr_or_proof_or_wach_or_burg_or_lieb_or_keil_or_schmiert_or_krach_or_taph_or_freund_or_lamm_or_r1umt_or_streift_or_kisch_or_dus_or_chist_or_sal_or_fett_or_schabt_or_quist_or_grig_or_pflegt_or_strolch_or_lo_or_em_or_haupt_or_the_or_schi_or_flex_or_d2nn_or_pich_or_herr_or_chon_or_r1n_or_tee_or_zahn_or_best_or_nackt_or_schnitt_or_k1mmt_or_witsch_or_rupft_or_fat_or_bal_or_straft_or_vit_or_plin_or_blo_or_lie_or_sang_or_phalt_or_mand_or_drom_or_huhn_or_tich_or_zelt_or_rif_or_braun_or_neur_or_zweig_or_lik_or_jisch_or_dernd_or_phob_or_dal_or_wohl_or_naut_or_ritt_or_rind_or_plett_or_sitz_or_jau_or_gin_or_veau_or_lans_or_resk_or_tont_or_wild_or_wart_or_zirk_or_lernd_or_dix_or_lance_or_schamt_or_l3st_or_dest_or_ga_or_jer_or_duft_or_klar_or_wurm_or_dant_or_dour_or_kord_or_minz_or_eins_or_wie_or_sonnt_or_stiel_or_kalt_or_wi$_or_sell_or_bock_or_brum_or_dikt_or_mol_or_stent_or_wehrt_or_bords_or_garn_or_watt_or_blond_or_zert_or_korps_or_scheln_or_wohnt_or_zei_or_trie_or_west_or_haut_or_kehrt_or_pult_or_grab_or_skript_or_k2rzt_or_ternd_or_schwein_or_we_or_brett_or_drang_or_vieh_or_stall_or_is_or_bunt_or_haart_or_soph_or_visch_or_tau_or_bisch_or_hold_or_st2m_or_golf_or_seelt_or_lekt_or_rhein_or_klau_or_strickt_or_denk_or_schmackt_or_sch1mt_or_ranz_or_arch_or_z1hlt_or_nach_or_lanz_or_stor_or_quat_or_rauch_or_b2rgt_or_sor_or_enz_or_lor_or_tron_or_k2l_or_liebt_or_streik_or_wurz_or_schrei_or_f1lscht_or_rum_or_fuchst_or_dei_or_jan_or_pus_or_lum_or_dings_or_riert_or_teig_or_balt_or_freut_or_maus_or_vall_or_net_or_laubt_or_prinz_or_schminkt_or_gra_or_schwall_or_lic_or_ence_or_phyt_or_rob_or_trav_or_krit_or_hofft_or_fanz_or_streckt_or_vice_or_steln_or_flink_or_fragt_or_lehrt_or_kerl_or_zie_or_da_or_flecht_or_zoll_or_fee_or_rem_or_stab_or_gens_or_min_or_nil_or_hertz_or_kreuzt_or_turm_or_fert_or_gnon_or_quarz_or_val_or_topf_or_chef_or_zwang_or_nerst_or_bin_or_bier_or_trank_or_tank_or_eck_or_leid_or_k3r_or_nett_or_brand_or_prok_or_scheid_or_bliert_or_cote_or_pin_or_webt_or_lenkt_or_pal_or_schmaus_or_gence_or_paar_or_tr1r_or_quiert_or_s1umt_or_zent_or_sance_or_strang_or_lahm_or_str3s_or_schirr_or_gleis_or_1r_or_pung_or_stellt_or_sper_or_2bt_or_hemmt_or_glott_or_bracht_or_fix_or_aas_or_dam_or_du_or_stau_or_teich_or_dammt_or_kret_or_thon_or_trant_or_phisch_or_n2tzt_or_trakt_or_mals_or_ril_or_spickt_or_ich_or_graut_or_trog_or_bri_or_schmutzt_or_knopf_or_gast_or_stumpft_or_bei_or_lut_or_weilt_or_digt_or_schleim_or_ernd_or_dor_or_dik_or_kron_or_bat_or_thek_or_beugt_or_taur_or_laub_or_vir_or_merk_or_xas_or_va_or_steig_or_rim_or_bot_or_stroph_or_schickt_or_blind_or_helm_or_ting_or_tausch_or_streit_or_turnt_or_fecht_or_it_or_wo_or_zier_or_loid_or_xyd_or_korn_or_ses_or_ligt_or_brust_or_driert_or_vat_or_bufft_or_t2m_or_hol_or_zym_or_kap_or_chit_or_liert_or_glut_or_esk_or_bent_or_gernd_or_ket_or_dist_or_bist_or_schwert_or_darft_or_hent_or_phan_or_ble_or_kan_or_klin_or_rott_or_lel_or_rauht_or_reiz_or_trem_or_n1r_or_ba$_or_st1t_or_schall_or_nichts_or_knall) and (comp_len <= 0) and (praefix4 = KCCK) => stress_class=ultima (3.0/0.0)
+(prae_class = noacc) => stress_class=paenultima (1457.0/1.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (sonority0 <= 121) and (syl_class0 = CK) and (rhyme0 = CV) => stress_class=paenultima (292.0/0.0)
+(comp_len <= 1) and (praefix = ø) and (nucleus_class1 = L) and (syl2 = ren) => stress_class=paenultima (170.0/2.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (praefix1 = C) and (rhyme2 = CV) => stress_class=paenultima (233.0/15.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (sonority0 <= 111) and (nk_suffix = isch) => stress_class=paenultima (166.0/14.0)
+(comp_len <= 0) and (suffix2 = CK) => stress_class=paenultima (53.0/6.0)
+(nucleus_class1 = L) and (syl_len0 <= 2) and (praefix1 = C) and (koda_len1 >= 1) => stress_class=paenultima (57.0/1.0)
+(nucleus_class1 = L) and (syl_weight2 >= 1) and (syl_len0 <= 3) and (onset_len0 >= 1) and (nucleus_len0 <= 1) and (syl_len1 >= 3) => stress_class=paenultima (94.0/24.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (rhyme0 = CVC) and (syl_len0 <= 3) and (syl_weight2 <= 0) => stress_class=paenultima (137.0/32.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (cv_ratio0 >= 2) and (sa_struct = S) and (syl_len0 >= 3) => stress_class=paenultima (32.0/5.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (suffix4 = LCKC) and (sonority_dir >= 1) and (sonority2 <= 1011) => stress_class=paenultima (97.0/33.0)
+(syl_len0 <= 2) and (syl_weight1 >= 1) and (praefix = ø) and (sonority0 <= 201) and (syl_weight2 <= 0) and (sonority0 <= 11) and (praefix1 = K) => stress_class=paenultima (39.0/2.0)
+(syl_weight1 >= 1) and (syl_len0 <= 2) and (praefix = ø) and (praefix1 = C) and (syl_len1 >= 4) => stress_class=paenultima (47.0/10.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (onset_len0 >= 1) and (suffix3 = CKC) and (nk_suffix = isch) => stress_class=paenultima (37.0/2.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (sonority_ratio0 <= 2) and (syl0 = Ver) => stress_class=paenultima (10.0/0.0)
+(syl_len0 <= 2) and (syl_weight1 >= 1) and (comp_struct = ø) and (basic_pos = ADV) => stress_class=paenultima (30.0/1.0)
+(syl_len0 <= 2) and (comp_struct = ø) and (syl_weight1 >= 1) and (nucleus_len1 <= 1) and (syl_len1 >= 3) => stress_class=paenultima (47.0/7.0)
+(comp_len <= 0) and (suffix2 = CL) and (sonority2 >= 101) and (sonority0 >= 101) => stress_class=paenultima (16.0/1.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (syl_len0 <= 3) and (onset_len0 >= 1) and (suffix5 = KCCKC) and (basic_pos = N) => stress_class=paenultima (53.0/3.0)
+(praefix = um) and (nk_suffix = en) and (sonority1 >= 111) => stress_class=paenultima (61.0/28.0)
+(nucleus_len1 >= 2) and (koda_len0 <= 0) and (syl_class1 = CLC) and (sonority1 <= 1011) and (syl_len2 <= 5) => stress_class=paenultima (12.0/0.0)
+(comp_len <= 1) and (praefix = ø) and (syl_weight1 >= 1) and (cv_ratio1 <= 0) and (nk_suffix = isch) => stress_class=paenultima (16.0/2.0)
+(praefix = durch) and (syl_len2 >= 4) and (comp_struct = V) => stress_class=paenultima (6.0/0.0)
+(syl_weight1 >= 1) and (syl_len0 <= 2) and (praefix = ø) and (syl_class0 = K) => stress_class=paenultima (27.0/9.0)
+(syl_weight1 >= 1) and (nucleus_len0 <= 1) and (comp_len <= 1) and (praefix = ø) and (sonority2 <= 111) and (sonority0 <= 111) and (rhyme1 = CVC) and (syl_len1 >= 3) => stress_class=paenultima (17.0/2.0)
+(syl_weight1 >= 1) and (syl_len0 <= 2) and (praefix = ø) and (syl_len2 <= 3) and (koda_len0 <= 0) and (onset_class2 = C) and (sonority1 <= 101) and (suff_class = ø) => stress_class=paenultima (40.0/14.0)
+(syl0 = durch) and (nucleus_class1 = D) => stress_class=paenultima (25.0/11.0)
+ => stress_class=antepaenultima (8317.0/400.0)
+
+Number of Rules : 65
+=== Evaluation result ===
+
+Scheme: min2 : JRip
+Options: -F 3 -N 2.0 -O 10 -S 1
+Relation: 000047-everything-3syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+
+Correctly Classified Instances        2653               39.799  %
+Incorrectly Classified Instances      4013               60.201  %
+Kappa statistic                          0.0625
+Mean absolute error                      0.3036
+Root mean squared error                  0.5259
+Relative absolute error                116.3945 %
+Root relative squared error            145.2887 %
+Coverage of cases (0.95 level)          50.075  %
+Mean rel. region size (0.95 level)      31.3794 %
+Total Number of Instances             6666     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,496    0,340    0,713      0,496    0,585      0,152    0,568     0,681     antepaenultima
+                 0,182    0,176    0,270      0,182    0,218      0,007    0,385     0,238     paenultima
+                 0,387    0,355    0,104      0,387    0,164      0,020    0,481     0,094     ultima
+                 0,000    0,026    0,000      0,000    0,000      -0,016   0,667     0,016     multa
+Weighted Avg.    0,398    0,295    0,531      0,398    0,442      0,099    0,512     0,501     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 2084  786 1209  123 |    a = antepaenultima
+  459  320  925   50 |    b = paenultima
+  324   71  249    0 |    c = ultima
+   54    9    3    0 |    d = multa

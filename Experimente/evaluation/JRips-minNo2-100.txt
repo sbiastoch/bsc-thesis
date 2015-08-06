@@ -1,0 +1,550 @@
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 000047-everything-3syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-29,40-46,59-61,64-weka.filters.unsupervised.attribute.RemoveByName-E^(cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.)$-V
+
+JRIP rules:
+===========
+
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (sonority1 <= 102) and (sonority2 <= 21) => stress_class=ultima (275.0/52.0)
+(syl_weight2 >= 1) and (cv_ratio1 <= 0) and (cv_ratio2 <= 1) => stress_class=ultima (506.0/188.0)
+(syl_weight2 >= 1) and (syl_weight2 >= 2) and (syl_weight1 >= 1) and (sonority1 <= 101) => stress_class=ultima (232.0/67.0)
+(syl_weight0 <= 0) => stress_class=paenultima (694.0/1.0)
+(cv_ratio0 >= 2) and (sonority0 <= 111) and (syl_weight1 >= 1) and (sonority2 >= 1001) and (sonority_ratio0 <= 2) and (sonority0 >= 111) and (cv_ratio2 >= 2) and (syl_weight2 <= 1) => stress_class=paenultima (709.0/32.0)
+(syl_weight1 >= 1) and (sonority0 <= 111) and (cv_ratio0 >= 2) and (syl_weight2 <= 0) and (sonority_ratio0 <= 2) and (syl_weight0 <= 1) => stress_class=paenultima (223.0/34.0)
+(syl_weight1 >= 1) and (sonority0 <= 11) and (sonority_ratio0 <= 3) and (cv_ratio0 >= 1) => stress_class=paenultima (358.0/42.0)
+(syl_weight1 >= 1) and (cv_ratio0 >= 2) and (cv_ratio0 <= 2) and (sonority0 <= 111) and (cv_ratio1 <= 1) => stress_class=paenultima (181.0/72.0)
+(syl_weight1 >= 1) and (cv_ratio0 >= 2) and (cv_ratio0 <= 2) and (syl_weight0 >= 2) and (sonority0 >= 1101) and (sonority0 <= 1101) => stress_class=paenultima (188.0/12.0)
+ => stress_class=antepaenultima (9574.0/1713.0)
+
+Number of Rules : 10
+=== Evaluation result ===
+
+Scheme: min100 : JRip
+Options: -F 3 -N 100.0 -O 20 -S 1
+Relation: 000047-everything-3syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-29,40-46,59-61,64-weka.filters.unsupervised.attribute.RemoveByName-E^(cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.)$-V
+
+
+Correctly Classified Instances        5458               81.8782 %
+Incorrectly Classified Instances      1208               18.1218 %
+Kappa statistic                          0.6225
+Mean absolute error                      0.1484
+Root mean squared error                  0.275 
+Relative absolute error                 56.914  %
+Root relative squared error             75.9899 %
+Coverage of cases (0.95 level)          98.6949 %
+Mean rel. region size (0.95 level)      68.1893 %
+Total Number of Instances             6666     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,951    0,374    0,813      0,951    0,876      0,633    0,797     0,810     antepaenultima
+                 0,625    0,020    0,919      0,625    0,744      0,696    0,810     0,722     paenultima
+                 0,570    0,032    0,658      0,570    0,611      0,574    0,807     0,449     ultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,572     0,012     multa
+Weighted Avg.    0,819    0,244    0,818      0,819    0,807      0,637    0,799     0,744     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 3995   79  128    0 |    a = antepaenultima
+  601 1096   57    0 |    b = paenultima
+  261   16  367    0 |    c = ultima
+   59    1    6    0 |    d = multa
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 000047-everything-3syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-29,40-46,59-61,64-weka.filters.unsupervised.attribute.RemoveByName-E^(cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.)$-V
+
+JRIP rules:
+===========
+
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (cv_ratio1 <= 0) => stress_class=ultima (600.0/220.0)
+(syl_weight2 >= 1) and (sonority2 <= 21) and (cv_ratio1 <= 1) => stress_class=ultima (198.0/17.0)
+(syl_weight2 >= 1) and (syl_weight1 >= 1) and (syl_weight2 >= 2) and (sonority1 <= 101) => stress_class=ultima (232.0/67.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (syl_weight1 <= 1) and (sonority0 <= 101) and (cv_ratio1 >= 2) => stress_class=ultima (205.0/93.0)
+(syl_weight0 <= 0) => stress_class=paenultima (687.0/1.0)
+(cv_ratio0 >= 2) and (sonority0 <= 111) and (syl_weight1 >= 1) and (sonority2 >= 1001) and (sonority_ratio0 <= 2) and (syl_weight0 <= 1) and (syl_weight2 <= 1) => stress_class=paenultima (791.0/38.0)
+(syl_weight1 >= 1) and (sonority0 <= 11) and (sonority_ratio0 <= 3) and (cv_ratio0 >= 1) => stress_class=paenultima (342.0/32.0)
+(syl_weight1 >= 1) and (cv_ratio0 >= 2) and (cv_ratio0 <= 2) and (syl_weight0 >= 2) and (sonority0 >= 1101) and (sonority0 <= 1101) => stress_class=paenultima (188.0/12.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (sonority0 <= 111) and (cv_ratio0 >= 2) and (sonority_ratio0 <= 2) and (syl_weight0 <= 1) => stress_class=paenultima (335.0/86.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (sonority0 <= 101) and (sonority0 <= 11) and (sonority0 <= 2) and (syl_weight0 <= 1) => stress_class=paenultima (123.0/37.0)
+(cv_ratio1 <= 0) and (sonority2 <= 1011) and (sonority2 >= 1011) and (cv_ratio0 >= 2) => stress_class=paenultima (98.0/31.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (cv_ratio0 <= 0) and (sonority_ratio0 <= 2) and (sonority_ratio1 >= 3) => stress_class=paenultima (94.0/27.0)
+ => stress_class=antepaenultima (9047.0/1308.0)
+
+Number of Rules : 13
+=== Evaluation result ===
+
+Scheme: min50 : JRip
+Options: -F 3 -N 50.0 -O 20 -S 1
+Relation: 000047-everything-3syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-29,40-46,59-61,64-weka.filters.unsupervised.attribute.RemoveByName-E^(cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.)$-V
+
+
+Correctly Classified Instances        5545               83.1833 %
+Incorrectly Classified Instances      1121               16.8167 %
+Kappa statistic                          0.6627
+Mean absolute error                      0.1352
+Root mean squared error                  0.2643
+Relative absolute error                 51.8374 %
+Root relative squared error             73.0212 %
+Coverage of cases (0.95 level)          96.0696 %
+Mean rel. region size (0.95 level)      50.3525 %
+Total Number of Instances             6666     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,932    0,293    0,844      0,932    0,886      0,670    0,832     0,839     antepaenultima
+                 0,673    0,032    0,883      0,673    0,764      0,705    0,833     0,753     paenultima
+                 0,696    0,040    0,648      0,696    0,671      0,635    0,855     0,548     ultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,607     0,013     multa
+Weighted Avg.    0,832    0,197    0,827      0,832    0,824      0,670    0,832     0,780     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 3916  122  164    0 |    a = antepaenultima
+  499 1181   74    0 |    b = paenultima
+  163   33  448    0 |    c = ultima
+   60    1    5    0 |    d = multa
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 000047-everything-3syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-29,40-46,59-61,64-weka.filters.unsupervised.attribute.RemoveByName-E^(cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.)$-V
+
+JRIP rules:
+===========
+
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (cv_ratio1 <= 0) => stress_class=ultima (600.0/220.0)
+(syl_weight2 >= 1) and (sonority2 <= 21) and (cv_ratio1 <= 1) => stress_class=ultima (198.0/17.0)
+(syl_weight2 >= 2) and (syl_weight1 >= 1) and (cv_ratio1 <= 0) => stress_class=ultima (184.0/46.0)
+(syl_weight2 >= 1) and (syl_weight1 >= 1) and (syl_weight2 >= 2) and (sonority1 <= 101) and (sonority0 <= 201) => stress_class=ultima (45.0/7.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (sonority1 <= 102) and (cv_ratio1 >= 2) and (syl_weight0 <= 1) => stress_class=ultima (114.0/42.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (sonority0 <= 11) and (cv_ratio1 >= 2) and (syl_weight1 <= 1) => stress_class=ultima (74.0/28.0)
+(syl_weight0 <= 0) => stress_class=paenultima (692.0/1.0)
+(cv_ratio0 >= 2) and (sonority0 <= 111) and (syl_weight1 >= 1) and (sonority2 >= 1001) and (sonority_ratio0 <= 2) and (sonority0 >= 111) => stress_class=paenultima (756.0/44.0)
+(syl_weight1 >= 1) and (sonority0 <= 11) and (sonority_ratio0 <= 3) => stress_class=paenultima (415.0/69.0)
+(syl_weight1 >= 1) and (cv_ratio0 >= 2) and (cv_ratio0 <= 2) and (sonority0 <= 111) and (sonority_ratio0 <= 2) => stress_class=paenultima (381.0/112.0)
+(syl_weight1 >= 1) and (cv_ratio0 >= 2) and (cv_ratio0 <= 2) and (syl_weight0 >= 2) and (sonority0 >= 1101) => stress_class=paenultima (200.0/24.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (sonority0 <= 121) and (cv_ratio0 >= 2) and (cv_ratio1 <= 1) and (syl_weight0 <= 1) => stress_class=paenultima (62.0/18.0)
+(cv_ratio1 <= 0) and (sonority2 <= 1011) and (sonority_dir >= 0) and (sonority2 <= 201) and (sonority0 <= 101) and (syl_weight2 >= 1) => stress_class=paenultima (96.0/37.0)
+(syl_weight1 >= 1) and (sonority0 <= 11) and (sonority0 <= 2) and (cv_ratio2 <= 2) and (cv_ratio0 <= 1) and (sonority_ratio0 <= 5) => stress_class=paenultima (96.0/22.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (cv_ratio0 <= 0) and (sonority_ratio1 >= 3) and (sonority_ratio0 <= 2) => stress_class=paenultima (74.0/23.0)
+(syl_weight1 >= 1) and (sonority_ratio2 >= 3) and (sonority_ratio1 >= 3) and (cv_ratio0 >= 2) and (syl_weight0 <= 1) and (sonority2 >= 1011) and (cv_ratio1 <= 1) => stress_class=paenultima (70.0/10.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (cv_ratio0 <= 0) and (sonority_dir <= 0) and (sonority_ratio0 <= 3) and (sonority_ratio2 <= 2) => stress_class=paenultima (107.0/43.0)
+ => stress_class=antepaenultima (8776.0/1110.0)
+
+Number of Rules : 18
+=== Evaluation result ===
+
+Scheme: min30 : JRip
+Options: -F 3 -N 30.0 -O 20 -S 1
+Relation: 000047-everything-3syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-29,40-46,59-61,64-weka.filters.unsupervised.attribute.RemoveByName-E^(cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.)$-V
+
+
+Correctly Classified Instances        5586               83.7984 %
+Incorrectly Classified Instances      1080               16.2016 %
+Kappa statistic                          0.6794
+Mean absolute error                      0.1298
+Root mean squared error                  0.2599
+Relative absolute error                 49.7567 %
+Root relative squared error             71.7951 %
+Coverage of cases (0.95 level)          96.3696 %
+Mean rel. region size (0.95 level)      51.8339 %
+Total Number of Instances             6666     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,922    0,254    0,861      0,922    0,890      0,688    0,849     0,855     antepaenultima
+                 0,722    0,049    0,841      0,722    0,777      0,709    0,852     0,772     paenultima
+                 0,693    0,035    0,677      0,693    0,685      0,650    0,857     0,566     ultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,602     0,013     multa
+Weighted Avg.    0,838    0,177    0,829      0,838    0,832      0,683    0,848     0,797     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 3874  189  139    0 |    a = antepaenultima
+  418 1266   70    0 |    b = paenultima
+  150   48  446    0 |    c = ultima
+   59    3    4    0 |    d = multa
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 000047-everything-3syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-29,40-46,59-61,64-weka.filters.unsupervised.attribute.RemoveByName-E^(cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.)$-V
+
+JRIP rules:
+===========
+
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (cv_ratio1 <= 0) and (sonority2 >= 1011) => stress_class=ultima (111.0/19.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (cv_ratio1 <= 0) and (sonority_ratio2 <= 2) => stress_class=ultima (152.0/48.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (cv_ratio1 <= 0) and (sonority2 <= 121) and (sonority2 >= 111) => stress_class=ultima (80.0/26.0)
+(syl_weight2 >= 1) and (syl_weight1 >= 1) and (syl_weight2 >= 2) and (cv_ratio1 <= 0) => stress_class=ultima (184.0/46.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (cv_ratio2 <= 0) and (sonority_ratio2 >= 3) and (sonority_ratio2 <= 3) => stress_class=ultima (155.0/49.0)
+(syl_weight2 >= 1) and (syl_weight1 >= 1) and (syl_weight2 >= 2) and (sonority1 <= 101) and (sonority0 <= 201) => stress_class=ultima (45.0/7.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (sonority1 <= 111) and (sonority0 <= 101) and (sonority_ratio1 <= 2) and (syl_weight0 >= 1) and (sonority1 >= 111) => stress_class=ultima (42.0/10.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (sonority1 <= 102) and (cv_ratio1 >= 2) and (syl_weight0 <= 1) => stress_class=ultima (94.0/34.0)
+(syl_weight2 >= 1) and (sonority2 <= 21) and (cv_ratio1 <= 1) and (sonority2 >= 11) => stress_class=ultima (275.0/31.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (sonority0 <= 11) and (cv_ratio1 >= 2) and (syl_weight1 <= 1) => stress_class=ultima (50.0/24.0)
+(syl_weight2 >= 1) and (sonority2 >= 1111) and (syl_weight1 >= 1) and (syl_weight2 >= 2) and (cv_ratio2 <= 3) and (sonority0 <= 111) and (cv_ratio2 >= 3) and (sonority2 >= 1201) => stress_class=ultima (42.0/9.0)
+(syl_weight0 <= 0) => stress_class=paenultima (693.0/1.0)
+(cv_ratio0 >= 2) and (sonority0 <= 111) and (syl_weight1 >= 1) and (sonority2 >= 401) and (sonority_ratio0 <= 2) and (syl_weight0 <= 1) and (cv_ratio2 >= 2) => stress_class=paenultima (735.0/29.0)
+(syl_weight1 >= 1) and (sonority0 <= 11) and (sonority_ratio0 <= 3) => stress_class=paenultima (415.0/63.0)
+(syl_weight1 >= 1) and (cv_ratio0 >= 2) and (cv_ratio0 <= 2) and (sonority0 <= 111) and (cv_ratio1 <= 1) and (syl_weight0 <= 1) and (sonority0 <= 102) and (syl_weight2 <= 0) and (sonority2 <= 1011) => stress_class=paenultima (53.0/1.0)
+(syl_weight1 >= 1) and (cv_ratio0 >= 2) and (cv_ratio0 <= 2) and (syl_weight0 >= 2) and (sonority0 >= 1101) and (sonority0 <= 1101) => stress_class=paenultima (190.0/13.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (sonority0 <= 111) and (cv_ratio0 >= 2) and (sonority_ratio0 <= 2) and (syl_weight0 <= 1) => stress_class=paenultima (356.0/92.0)
+(syl_weight1 >= 1) and (sonority0 <= 11) and (syl_weight2 <= 0) and (cv_ratio0 >= 1) and (sonority0 <= 2) and (syl_weight0 <= 1) => stress_class=paenultima (30.0/0.0)
+(cv_ratio1 <= 0) and (sonority2 <= 1011) and (sonority_dir >= 0) and (sonority_ratio1 >= 3) and (cv_ratio0 >= 2) and (syl_weight0 <= 1) => stress_class=paenultima (63.0/14.0)
+(syl_weight1 >= 1) and (sonority_ratio2 >= 3) and (sonority_ratio1 >= 3) and (sonority2 >= 1011) and (cv_ratio0 >= 2) and (syl_weight0 <= 1) and (cv_ratio1 <= 1) => stress_class=paenultima (46.0/7.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (sonority0 <= 101) and (sonority0 <= 2) and (sonority1 <= 111) and (sonority2 >= 101) => stress_class=paenultima (56.0/16.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (cv_ratio0 <= 0) and (sonority_ratio1 >= 3) and (sonority_ratio0 <= 2) => stress_class=paenultima (103.0/34.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (cv_ratio0 <= 0) and (sonority_dir <= 0) and (sonority_ratio0 <= 3) and (sonority2 >= 101) => stress_class=paenultima (125.0/51.0)
+ => stress_class=antepaenultima (8845.0/1098.0)
+
+Number of Rules : 24
+=== Evaluation result ===
+
+Scheme: min20 : JRip
+Options: -F 3 -N 20.0 -O 20 -S 1
+Relation: 000047-everything-3syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-29,40-46,59-61,64-weka.filters.unsupervised.attribute.RemoveByName-E^(cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.)$-V
+
+
+Correctly Classified Instances        5655               84.8335 %
+Incorrectly Classified Instances      1011               15.1665 %
+Kappa statistic                          0.6996
+Mean absolute error                      0.1225
+Root mean squared error                  0.2537
+Relative absolute error                 46.9748 %
+Root relative squared error             70.1062 %
+Coverage of cases (0.95 level)          96.3846 %
+Mean rel. region size (0.95 level)      49.7637 %
+Total Number of Instances             6666     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,930    0,249    0,864      0,930    0,896      0,703    0,853     0,859     antepaenultima
+                 0,718    0,042    0,859      0,718    0,782      0,718    0,851     0,773     paenultima
+                 0,761    0,032    0,720      0,761    0,740      0,711    0,885     0,629     ultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,589     0,012     multa
+Weighted Avg.    0,848    0,171    0,840      0,848    0,842      0,701    0,853     0,806     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 3906  174  122    0 |    a = antepaenultima
+  430 1259   65    0 |    b = paenultima
+  124   30  490    0 |    c = ultima
+   59    3    4    0 |    d = multa
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 000047-everything-3syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-29,40-46,59-61,64-weka.filters.unsupervised.attribute.RemoveByName-E^(cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.)$-V
+
+JRIP rules:
+===========
+
+(syl_weight1 <= 0) and (sonority0 <= 1) and (sonority1 <= 21) => stress_class=multa (24.0/7.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (sonority1 <= 102) and (sonority2 <= 21) => stress_class=ultima (273.0/50.0)
+(syl_weight2 >= 1) and (cv_ratio1 <= 0) and (cv_ratio2 <= 1) and (sonority_dir >= 1) => stress_class=ultima (325.0/101.0)
+(syl_weight2 >= 1) and (syl_weight1 >= 1) and (syl_weight2 >= 2) and (cv_ratio1 <= 0) => stress_class=ultima (187.0/48.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (sonority1 <= 102) and (syl_weight0 <= 1) => stress_class=ultima (272.0/128.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (syl_weight1 <= 1) and (sonority0 <= 101) and (cv_ratio1 >= 2) and (sonority0 <= 11) => stress_class=ultima (74.0/28.0)
+(syl_weight2 >= 1) and (syl_weight2 >= 2) and (syl_weight1 >= 1) and (sonority1 <= 101) and (sonority0 <= 201) => stress_class=ultima (44.0/6.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (sonority1 <= 111) and (sonority_ratio1 <= 2) and (sonority0 <= 101) and (syl_weight0 >= 1) => stress_class=ultima (33.0/7.0)
+(syl_weight2 >= 1) and (sonority2 <= 101) and (sonority2 <= 21) and (cv_ratio1 <= 1) => stress_class=ultima (42.0/9.0)
+(syl_weight2 >= 1) and (sonority2 >= 1111) and (syl_weight1 >= 1) and (syl_weight2 >= 2) and (cv_ratio2 <= 3) and (syl_weight1 <= 1) => stress_class=ultima (118.0/52.0)
+(syl_weight0 <= 0) => stress_class=paenultima (690.0/1.0)
+(sonority0 <= 111) and (cv_ratio0 >= 2) and (syl_weight1 >= 1) and (sonority2 >= 401) and (sonority_ratio0 <= 2) and (syl_weight0 <= 1) => stress_class=paenultima (794.0/39.0)
+(sonority0 <= 11) and (syl_weight1 >= 1) and (cv_ratio0 >= 1) and (sonority2 >= 1001) => stress_class=paenultima (285.0/22.0)
+(syl_weight1 >= 1) and (cv_ratio0 >= 2) and (cv_ratio0 <= 2) and (syl_weight0 >= 2) and (sonority0 >= 1101) => stress_class=paenultima (202.0/25.0)
+(syl_weight1 >= 1) and (sonority0 <= 111) and (sonority2 <= 211) and (cv_ratio0 >= 2) and (sonority_ratio0 <= 2) and (syl_weight0 <= 1) => stress_class=paenultima (333.0/86.0)
+(syl_weight1 >= 1) and (sonority0 <= 11) and (sonority_ratio2 >= 3) and (cv_ratio1 <= 0) => stress_class=paenultima (53.0/9.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (sonority0 <= 111) and (sonority0 <= 11) and (cv_ratio2 <= 2) and (syl_weight0 <= 1) => stress_class=paenultima (228.0/83.0)
+(syl_weight1 >= 1) and (cv_ratio0 >= 2) and (cv_ratio0 <= 2) and (sonority_ratio2 >= 3) and (cv_ratio2 >= 2) and (sonority_ratio1 >= 3) and (sonority2 >= 1011) => stress_class=paenultima (54.0/13.0)
+(cv_ratio1 <= 0) and (sonority2 <= 1011) and (sonority_dir >= 0) and (sonority_ratio1 >= 3) and (cv_ratio0 >= 2) and (syl_weight0 <= 1) => stress_class=paenultima (46.0/10.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (cv_ratio0 <= 0) and (sonority_ratio1 >= 3) and (sonority_ratio0 <= 2) => stress_class=paenultima (99.0/30.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (cv_ratio0 <= 0) and (sonority_ratio2 <= 2) and (sonority_ratio0 <= 3) and (sonority_dir <= 0) => stress_class=paenultima (111.0/48.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (syl_weight0 <= 1) and (cv_ratio0 >= 2) and (sonority0 >= 1001) and (syl_weight2 <= 0) and (sonority1 <= 111) and (cv_ratio2 <= 1) and (sonority2 >= 101) and (cv_ratio1 <= 1) and (sonority2 <= 101) => stress_class=paenultima (25.0/5.0)
+(syl_weight1 >= 1) and (cv_ratio1 <= 1) and (syl_weight2 >= 1) and (sonority0 <= 111) and (cv_ratio1 <= 0) and (sonority2 <= 201) and (sonority0 <= 101) => stress_class=paenultima (40.0/17.0)
+ => stress_class=antepaenultima (8588.0/985.0)
+
+Number of Rules : 24
+=== Evaluation result ===
+
+Scheme: min15 : JRip
+Options: -F 3 -N 15.0 -O 20 -S 1
+Relation: 000047-everything-3syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-29,40-46,59-61,64-weka.filters.unsupervised.attribute.RemoveByName-E^(cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.)$-V
+
+
+Correctly Classified Instances        5601               84.0234 %
+Incorrectly Classified Instances      1065               15.9766 %
+Kappa statistic                          0.689 
+Mean absolute error                      0.1249
+Root mean squared error                  0.2562
+Relative absolute error                 47.9054 %
+Root relative squared error             70.7857 %
+Coverage of cases (0.95 level)          96.7297 %
+Mean rel. region size (0.95 level)      50.6188 %
+Total Number of Instances             6666     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,911    0,230    0,871      0,911    0,891      0,694    0,858     0,864     antepaenultima
+                 0,722    0,050    0,837      0,722    0,775      0,706    0,852     0,776     paenultima
+                 0,772    0,041    0,666      0,772    0,715      0,684    0,879     0,579     ultima
+                 0,121    0,000    0,800      0,121    0,211      0,309    0,609     0,108     multa
+Weighted Avg.    0,840    0,162    0,842      0,840    0,837      0,692    0,856     0,806     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 3829  206  165    2 |    a = antepaenultima
+  409 1267   78    0 |    b = paenultima
+  109   38  497    0 |    c = ultima
+   49    3    6    8 |    d = multa
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 000047-everything-3syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-29,40-46,59-61,64-weka.filters.unsupervised.attribute.RemoveByName-E^(cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.)$-V
+
+JRIP rules:
+===========
+
+(syl_weight1 <= 0) and (sonority1 <= 21) and (sonority0 <= 1) => stress_class=multa (24.0/7.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (cv_ratio1 <= 0) and (sonority2 >= 1011) => stress_class=ultima (109.0/17.0)
+(syl_weight2 >= 1) and (cv_ratio1 <= 0) and (cv_ratio2 <= 1) and (sonority2 <= 211) and (sonority2 >= 111) => stress_class=ultima (196.0/55.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 0) and (cv_ratio1 <= 1) and (cv_ratio0 >= 2) => stress_class=ultima (177.0/35.0)
+(syl_weight2 >= 1) and (syl_weight1 >= 1) and (syl_weight2 >= 2) and (sonority1 <= 101) and (sonority0 <= 201) => stress_class=ultima (149.0/27.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (sonority2 <= 101) and (sonority_ratio2 >= 3) and (cv_ratio1 >= 2) and (sonority0 >= 1001) and (syl_weight1 <= 1) => stress_class=ultima (18.0/2.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (sonority0 <= 101) and (sonority1 <= 111) and (sonority_ratio1 <= 2) and (sonority_ratio0 >= 4) => stress_class=ultima (34.0/6.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (cv_ratio2 <= 0) and (sonority_ratio2 <= 3) and (sonority_dir >= 0) => stress_class=ultima (81.0/29.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (sonority1 <= 102) and (cv_ratio1 >= 2) and (syl_weight0 <= 1) => stress_class=ultima (89.0/34.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (cv_ratio0 <= 0) and (sonority1 <= 111) and (sonority_ratio1 <= 2) and (sonority_dir >= 1) => stress_class=ultima (20.0/5.0)
+(syl_weight2 >= 1) and (sonority2 <= 101) and (sonority2 <= 21) and (cv_ratio1 <= 1) and (sonority2 >= 11) => stress_class=ultima (163.0/24.0)
+(syl_weight2 >= 1) and (syl_weight2 >= 2) and (syl_weight1 >= 1) and (sonority2 >= 1201) and (cv_ratio2 <= 3) and (syl_weight1 <= 1) => stress_class=ultima (122.0/41.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (syl_weight1 <= 1) and (cv_ratio1 >= 2) and (sonority0 <= 11) => stress_class=ultima (49.0/23.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (sonority_ratio2 <= 2) and (syl_weight1 <= 1) and (cv_ratio1 >= 3) and (sonority2 <= 201) => stress_class=ultima (25.0/11.0)
+(syl_weight2 >= 1) and (syl_weight2 >= 2) and (syl_weight1 >= 1) and (cv_ratio1 <= 0) => stress_class=ultima (52.0/21.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (syl_weight1 <= 1) and (cv_ratio1 >= 2) and (sonority0 <= 101) and (cv_ratio0 >= 2) => stress_class=ultima (14.0/2.0)
+(syl_weight0 <= 0) => stress_class=paenultima (693.0/1.0)
+(sonority0 <= 111) and (cv_ratio0 >= 2) and (syl_weight1 >= 1) and (sonority2 >= 1001) and (sonority_ratio0 <= 2) and (syl_weight0 <= 1) => stress_class=paenultima (798.0/38.0)
+(syl_weight1 >= 1) and (sonority0 <= 11) and (sonority_ratio0 <= 3) and (cv_ratio0 >= 1) => stress_class=paenultima (347.0/31.0)
+(syl_weight1 >= 1) and (cv_ratio0 >= 2) and (cv_ratio0 <= 2) and (sonority0 <= 111) and (sonority_ratio0 <= 2) and (sonority0 <= 101) => stress_class=paenultima (104.0/14.0)
+(syl_weight1 >= 1) and (cv_ratio0 >= 2) and (cv_ratio0 <= 2) and (sonority0 >= 1101) and (syl_weight0 >= 2) and (sonority0 <= 1101) => stress_class=paenultima (189.0/13.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (sonority0 <= 111) and (cv_ratio0 >= 2) and (syl_weight0 <= 1) and (sonority_ratio0 <= 2) => stress_class=paenultima (222.0/63.0)
+(cv_ratio1 <= 0) and (sonority2 <= 1011) and (sonority_dir >= 0) and (sonority0 <= 11) and (sonority2 >= 1011) => stress_class=paenultima (21.0/1.0)
+(syl_weight1 >= 1) and (sonority0 <= 11) and (sonority0 <= 1) and (sonority_ratio0 <= 4) and (cv_ratio0 <= 1) => stress_class=paenultima (99.0/22.0)
+(cv_ratio1 <= 0) and (sonority2 <= 1011) and (sonority_dir >= 0) and (cv_ratio0 >= 2) and (syl_weight0 <= 1) and (sonority_ratio1 >= 3) => stress_class=paenultima (67.0/14.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (cv_ratio0 <= 0) and (sonority_ratio0 <= 3) and (sonority0 >= 1001) => stress_class=paenultima (78.0/26.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (sonority0 <= 101) and (sonority_ratio2 <= 2) and (sonority_dir <= 0) => stress_class=paenultima (93.0/43.0)
+(syl_weight1 >= 1) and (cv_ratio1 <= 0) and (syl_weight2 >= 1) and (sonority0 <= 201) and (sonority0 <= 101) and (sonority2 <= 201) and (cv_ratio2 >= 2) => stress_class=paenultima (81.0/28.0)
+(syl_weight1 >= 1) and (sonority_ratio2 >= 3) and (sonority_ratio1 >= 3) and (cv_ratio0 >= 2) and (syl_weight0 <= 1) and (sonority2 >= 1011) and (cv_ratio1 <= 1) => stress_class=paenultima (45.0/7.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (sonority0 <= 101) and (sonority_ratio2 <= 2) and (sonority0 <= 11) and (sonority_ratio0 <= 3) and (sonority_ratio1 <= 2) => stress_class=paenultima (27.0/6.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (sonority0 <= 111) and (sonority_ratio1 >= 3) and (cv_ratio0 <= 0) and (sonority_ratio0 <= 2) and (syl_weight2 <= 0) and (cv_ratio2 >= 1) and (sonority1 >= 11) => stress_class=paenultima (37.0/6.0)
+(syl_weight1 >= 1) and (cv_ratio0 >= 2) and (syl_weight0 <= 1) and (sonority0 >= 1001) and (cv_ratio1 <= 1) and (sonority0 <= 1001) and (sonority2 <= 1001) and (syl_weight1 <= 1) => stress_class=paenultima (20.0/1.0)
+ => stress_class=antepaenultima (8697.0/970.0)
+
+Number of Rules : 33
+=== Evaluation result ===
+
+Scheme: min10 : JRip
+Options: -F 3 -N 10.0 -O 20 -S 1
+Relation: 000047-everything-3syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-29,40-46,59-61,64-weka.filters.unsupervised.attribute.RemoveByName-E^(cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.)$-V
+
+
+Correctly Classified Instances        5703               85.5536 %
+Incorrectly Classified Instances       963               14.4464 %
+Kappa statistic                          0.7169
+Mean absolute error                      0.1154
+Root mean squared error                  0.2472
+Relative absolute error                 44.234  %
+Root relative squared error             68.2907 %
+Coverage of cases (0.95 level)          96.7447 %
+Mean rel. region size (0.95 level)      49.7787 %
+Total Number of Instances             6666     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,927    0,222    0,877      0,927    0,901      0,722    0,867     0,871     antepaenultima
+                 0,737    0,042    0,863      0,737    0,795      0,733    0,864     0,787     paenultima
+                 0,784    0,035    0,708      0,784    0,744      0,717    0,894     0,604     ultima
+                 0,121    0,000    0,800      0,121    0,211      0,309    0,638     0,108     multa
+Weighted Avg.    0,856    0,154    0,856      0,856    0,851      0,721    0,867     0,816     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 3897  168  135    2 |    a = antepaenultima
+  393 1293   68    0 |    b = paenultima
+  103   36  505    0 |    c = ultima
+   51    2    5    8 |    d = multa
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 000047-everything-3syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-29,40-46,59-61,64-weka.filters.unsupervised.attribute.RemoveByName-E^(cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.)$-V
+
+JRIP rules:
+===========
+
+(syl_weight1 <= 0) and (sonority1 <= 21) and (sonority0 <= 1) => stress_class=multa (24.0/7.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (sonority1 <= 102) and (sonority2 <= 21) and (syl_weight1 <= 0) => stress_class=ultima (167.0/10.0)
+(syl_weight2 >= 1) and (cv_ratio1 <= 0) and (cv_ratio2 <= 1) and (sonority2 >= 1011) => stress_class=ultima (109.0/17.0)
+(syl_weight2 >= 1) and (cv_ratio1 <= 0) and (cv_ratio2 <= 1) and (sonority_dir >= 0) and (sonority2 <= 211) => stress_class=ultima (195.0/55.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (cv_ratio1 <= 0) and (sonority_ratio1 <= 3) and (sonority2 >= 111) and (sonority2 <= 211) and (sonority_ratio0 >= 3) => stress_class=ultima (24.0/6.0)
+(syl_weight2 >= 1) and (syl_weight1 >= 1) and (syl_weight2 >= 2) and (sonority1 <= 101) => stress_class=ultima (233.0/68.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (sonority1 <= 102) and (sonority2 <= 21) and (sonority2 >= 11) => stress_class=ultima (72.0/19.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (sonority1 <= 111) and (sonority_dir >= 1) and (sonority_ratio1 <= 2) and (sonority2 >= 1011) and (syl_weight2 <= 1) and (sonority0 >= 201) => stress_class=ultima (13.0/1.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (sonority1 <= 111) and (sonority_ratio1 <= 2) and (sonority0 <= 101) and (sonority1 >= 111) and (syl_weight0 >= 1) => stress_class=ultima (48.0/10.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (sonority0 <= 101) and (syl_weight1 <= 1) and (cv_ratio1 >= 2) and (sonority0 <= 11) => stress_class=ultima (76.0/29.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 0) and (cv_ratio1 <= 1) and (sonority1 >= 1001) and (sonority2 <= 11) => stress_class=ultima (23.0/2.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (sonority1 <= 102) and (cv_ratio1 >= 2) and (sonority0 <= 201) => stress_class=ultima (49.0/19.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (sonority1 <= 102) and (sonority0 >= 1001) and (sonority2 >= 111) and (syl_weight0 <= 1) and (cv_ratio0 >= 2) => stress_class=ultima (34.0/9.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (syl_weight1 <= 1) and (sonority_ratio1 <= 2) and (sonority_dir <= -1) and (cv_ratio0 <= 2) and (cv_ratio0 >= 2) and (sonority_ratio2 >= 3) and (syl_weight0 <= 1) => stress_class=ultima (21.0/4.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (syl_weight1 <= 1) and (sonority_ratio2 <= 2) and (cv_ratio0 <= 2) and (cv_ratio1 >= 3) => stress_class=ultima (25.0/11.0)
+(syl_weight2 >= 1) and (syl_weight2 >= 2) and (syl_weight1 >= 1) and (syl_weight1 <= 1) and (sonority2 >= 1201) and (cv_ratio2 <= 3) => stress_class=ultima (97.0/33.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 0) and (sonority2 >= 1001) and (sonority_ratio2 <= 3) => stress_class=ultima (54.0/10.0)
+(syl_weight2 >= 1) and (sonority2 <= 101) and (sonority1 <= 201) and (sonority2 <= 21) and (cv_ratio2 >= 1) => stress_class=ultima (12.0/2.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (syl_weight1 <= 1) and (sonority1 >= 311) and (cv_ratio1 >= 2) and (sonority1 <= 1011) and (cv_ratio0 >= 2) => stress_class=ultima (12.0/3.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (sonority0 >= 1001) and (cv_ratio1 >= 2) and (cv_ratio1 <= 2) and (sonority0 <= 1001) and (sonority2 <= 111) => stress_class=ultima (23.0/10.0)
+(syl_weight0 <= 0) => stress_class=paenultima (693.0/0.0)
+(sonority0 <= 111) and (cv_ratio0 >= 2) and (syl_weight1 >= 1) and (sonority2 >= 1011) and (sonority_ratio0 <= 2) and (syl_weight0 <= 1) => stress_class=paenultima (740.0/32.0)
+(syl_weight1 >= 1) and (sonority0 <= 11) and (sonority_ratio0 <= 3) => stress_class=paenultima (410.0/62.0)
+(syl_weight1 >= 1) and (cv_ratio0 >= 2) and (cv_ratio0 <= 2) and (syl_weight0 >= 2) and (sonority0 >= 1101) and (sonority0 <= 1101) => stress_class=paenultima (189.0/13.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (sonority0 <= 111) and (cv_ratio0 >= 2) and (sonority_ratio0 <= 2) and (syl_weight0 <= 1) => stress_class=paenultima (395.0/91.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (sonority0 <= 111) and (sonority0 <= 11) and (sonority0 <= 2) => stress_class=paenultima (140.0/48.0)
+(cv_ratio1 <= 0) and (sonority2 <= 1011) and (sonority_dir >= 0) and (sonority0 <= 102) and (sonority_ratio0 <= 2) and (cv_ratio0 <= 0) => stress_class=paenultima (71.0/20.0)
+(cv_ratio1 <= 0) and (sonority2 <= 1011) and (sonority2 >= 1011) and (cv_ratio0 >= 2) and (syl_weight0 <= 1) and (sonority_ratio1 >= 3) => stress_class=paenultima (70.0/8.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (cv_ratio0 <= 0) and (sonority_ratio1 >= 3) and (sonority_ratio0 <= 3) and (sonority_dir <= 0) and (cv_ratio1 >= 1) => stress_class=paenultima (34.0/12.0)
+(syl_weight1 >= 1) and (cv_ratio1 <= 1) and (sonority2 <= 1011) and (sonority_ratio0 >= 3) and (cv_ratio0 >= 2) and (sonority1 >= 201) and (cv_ratio1 >= 1) and (syl_weight1 <= 1) => stress_class=paenultima (16.0/3.0)
+(syl_weight1 >= 1) and (cv_ratio1 <= 0) and (sonority2 <= 1011) and (cv_ratio0 <= 0) and (sonority_ratio0 <= 3) and (sonority0 >= 1001) and (sonority1 <= 101) and (sonority2 >= 101) => stress_class=paenultima (31.0/6.0)
+(syl_weight1 >= 1) and (sonority0 >= 1001) and (sonority0 <= 1101) and (cv_ratio0 >= 2) and (sonority2 <= 111) and (cv_ratio2 <= 1) and (cv_ratio1 <= 1) => stress_class=paenultima (37.0/11.0)
+(syl_weight1 >= 1) and (cv_ratio1 <= 0) and (syl_weight2 >= 1) and (sonority0 <= 201) and (sonority2 <= 211) and (sonority0 <= 101) and (cv_ratio0 >= 1) => stress_class=paenultima (17.0/4.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (sonority_dir >= 0) and (cv_ratio1 <= 0) and (sonority_ratio1 >= 3) and (cv_ratio0 >= 2) and (cv_ratio2 <= 1) and (sonority1 <= 101) => stress_class=paenultima (14.0/2.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (sonority0 <= 111) and (sonority_ratio1 >= 3) and (cv_ratio0 <= 0) and (sonority2 >= 1011) and (sonority0 <= 11) => stress_class=paenultima (8.0/0.0)
+ => stress_class=antepaenultima (8764.0/1030.0)
+
+Number of Rules : 36
+=== Evaluation result ===
+
+Scheme: min5 : JRip
+Options: -F 3 -N 5.0 -O 20 -S 1
+Relation: 000047-everything-3syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-29,40-46,59-61,64-weka.filters.unsupervised.attribute.RemoveByName-E^(cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.)$-V
+
+
+Correctly Classified Instances        5651               84.7735 %
+Incorrectly Classified Instances      1015               15.2265 %
+Kappa statistic                          0.6996
+Mean absolute error                      0.1205
+Root mean squared error                  0.2541
+Relative absolute error                 46.2182 %
+Root relative squared error             70.1957 %
+Coverage of cases (0.95 level)          96.6847 %
+Mean rel. region size (0.95 level)      50.0975 %
+Total Number of Instances             6666     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,928    0,242    0,867      0,928    0,897      0,707    0,855     0,861     antepaenultima
+                 0,715    0,043    0,857      0,715    0,780      0,715    0,855     0,773     paenultima
+                 0,758    0,034    0,702      0,758    0,729      0,699    0,883     0,625     ultima
+                 0,121    0,000    0,800      0,121    0,211      0,309    0,641     0,109     multa
+Weighted Avg.    0,848    0,167    0,848      0,848    0,843      0,704    0,856     0,808     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 3901  166  133    2 |    a = antepaenultima
+  432 1254   68    0 |    b = paenultima
+  114   42  488    0 |    c = ultima
+   51    1    6    8 |    d = multa
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 000047-everything-3syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-29,40-46,59-61,64-weka.filters.unsupervised.attribute.RemoveByName-E^(cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.)$-V
+
+JRIP rules:
+===========
+
+(syl_weight1 <= 0) and (sonority1 <= 21) and (sonority0 <= 1) => stress_class=multa (24.0/7.0)
+(syl_weight1 <= 0) and (sonority0 <= 1) and (cv_ratio0 >= 2) => stress_class=multa (3.0/0.0)
+(syl_weight1 <= 0) and (sonority_ratio1 >= 3) and (cv_ratio0 <= 0) and (sonority1 >= 21) and (sonority2 <= 201) and (sonority_ratio0 >= 4) => stress_class=multa (8.0/3.0)
+(syl_weight1 <= 0) and (cv_ratio1 >= 3) and (sonority0 >= 1001) and (sonority0 <= 1011) and (cv_ratio0 >= 1) and (sonority2 <= 211) => stress_class=multa (7.0/2.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (cv_ratio1 <= 0) and (sonority2 >= 111) and (sonority2 >= 1011) => stress_class=ultima (109.0/17.0)
+(syl_weight2 >= 1) and (cv_ratio1 <= 0) and (cv_ratio2 <= 1) and (sonority_ratio2 <= 2) => stress_class=ultima (152.0/48.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (cv_ratio1 <= 0) and (sonority2 <= 211) and (sonority_dir >= 0) and (sonority2 >= 111) => stress_class=ultima (48.0/8.0)
+(cv_ratio2 <= 0) and (cv_ratio1 <= 1) and (syl_weight1 <= 0) and (sonority_ratio2 >= 4) => stress_class=ultima (184.0/8.0)
+(syl_weight2 >= 1) and (syl_weight1 >= 1) and (syl_weight2 >= 2) and (sonority1 <= 101) and (sonority0 <= 201) => stress_class=ultima (149.0/27.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (sonority1 <= 102) and (sonority2 <= 21) and (cv_ratio2 >= 1) => stress_class=ultima (39.0/4.0)
+(syl_weight2 >= 1) and (syl_weight1 >= 1) and (syl_weight2 >= 2) and (cv_ratio1 <= 0) => stress_class=ultima (81.0/27.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (cv_ratio2 <= 0) and (sonority_ratio2 >= 3) and (sonority_ratio2 <= 3) => stress_class=ultima (155.0/49.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (sonority1 <= 111) and (sonority_ratio1 <= 2) and (sonority_dir >= 1) => stress_class=ultima (101.0/41.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (sonority1 <= 102) and (cv_ratio1 >= 2) and (sonority0 <= 201) => stress_class=ultima (43.0/15.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (syl_weight1 <= 1) and (sonority2 <= 21) and (sonority2 >= 11) => stress_class=ultima (53.0/17.0)
+(syl_weight2 >= 1) and (syl_weight1 >= 1) and (syl_weight2 >= 2) and (sonority2 >= 411) and (syl_weight1 <= 1) and (cv_ratio2 <= 3) => stress_class=ultima (118.0/50.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (cv_ratio1 >= 2) and (syl_weight1 <= 1) and (sonority1 >= 311) and (sonority1 <= 1011) and (sonority_ratio2 <= 2) => stress_class=ultima (21.0/5.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (sonority0 >= 1001) and (sonority0 <= 1001) and (sonority_ratio2 <= 2) and (sonority1 <= 111) and (sonority2 <= 201) => stress_class=ultima (19.0/7.0)
+(syl_weight2 >= 1) and (cv_ratio2 <= 1) and (syl_weight1 >= 1) and (syl_weight1 <= 1) and (sonority_ratio1 <= 2) and (cv_ratio0 >= 2) and (cv_ratio0 <= 2) and (sonority0 >= 201) and (sonority2 <= 111) => stress_class=ultima (17.0/5.0)
+(sonority0 <= 111) and (syl_weight0 <= 0) => stress_class=paenultima (689.0/1.0)
+(sonority0 <= 111) and (cv_ratio0 >= 2) and (syl_weight1 >= 1) and (sonority2 >= 1001) and (sonority_ratio0 <= 2) and (syl_weight0 <= 1) and (cv_ratio2 >= 2) => stress_class=paenultima (734.0/29.0)
+(syl_weight1 >= 1) and (sonority0 <= 11) and (sonority_ratio0 <= 3) and (sonority2 >= 1001) and (cv_ratio0 >= 1) => stress_class=paenultima (261.0/11.0)
+(syl_weight1 >= 1) and (sonority0 <= 11) and (cv_ratio0 >= 1) and (syl_weight2 <= 0) and (sonority1 >= 201) and (syl_weight0 <= 1) => stress_class=paenultima (20.0/0.0)
+(syl_weight1 >= 1) and (cv_ratio0 >= 2) and (cv_ratio0 <= 2) and (sonority0 <= 111) and (cv_ratio1 <= 1) and (sonority_ratio2 >= 3) and (sonority0 <= 102) => stress_class=paenultima (45.0/5.0)
+(syl_weight1 >= 1) and (cv_ratio0 >= 2) and (cv_ratio0 <= 2) and (syl_weight0 >= 2) and (sonority0 >= 1101) and (sonority0 <= 1101) => stress_class=paenultima (189.0/13.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (sonority0 <= 111) and (cv_ratio0 >= 2) and (sonority_ratio0 <= 2) and (syl_weight0 <= 1) => stress_class=paenultima (367.0/89.0)
+(syl_weight1 >= 1) and (sonority0 <= 11) and (cv_ratio0 >= 1) and (cv_ratio1 <= 0) => stress_class=paenultima (51.0/12.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (sonority0 <= 111) and (sonority0 <= 11) and (cv_ratio0 >= 1) and (sonority_ratio2 >= 3) and (sonority_ratio0 <= 3) => stress_class=paenultima (37.0/6.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (sonority0 <= 121) and (sonority_ratio1 >= 3) and (sonority0 <= 101) and (sonority_ratio0 <= 2) and (cv_ratio0 <= 0) => stress_class=paenultima (102.0/33.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (sonority0 <= 111) and (sonority0 <= 11) and (sonority1 <= 121) and (sonority0 <= 2) and (sonority2 <= 211) and (sonority2 >= 101) and (cv_ratio0 <= 1) => stress_class=paenultima (47.0/7.0)
+(cv_ratio1 <= 0) and (sonority_ratio2 >= 3) and (sonority2 >= 1011) and (cv_ratio0 >= 2) and (syl_weight0 <= 1) and (sonority_ratio1 >= 3) => stress_class=paenultima (68.0/9.0)
+(syl_weight1 >= 1) and (sonority_ratio0 >= 3) and (sonority2 <= 1011) and (cv_ratio0 <= 0) and (sonority_ratio2 <= 2) and (sonority2 <= 101) and (sonority_ratio0 <= 3) => stress_class=paenultima (74.0/29.0)
+(syl_weight1 >= 1) and (sonority0 <= 11) and (cv_ratio2 >= 2) and (sonority2 <= 201) and (sonority2 >= 201) and (sonority1 >= 201) => stress_class=paenultima (27.0/4.0)
+(syl_weight1 >= 1) and (cv_ratio1 <= 0) and (sonority2 <= 1011) and (sonority_dir >= 0) and (sonority0 <= 11) and (sonority2 >= 1011) => stress_class=paenultima (15.0/0.0)
+(syl_weight1 >= 1) and (cv_ratio1 <= 0) and (sonority2 <= 1011) and (sonority_dir >= 0) and (sonority2 <= 201) and (sonority0 <= 101) and (sonority_ratio1 <= 2) => stress_class=paenultima (16.0/4.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (sonority_ratio0 >= 3) and (cv_ratio0 >= 2) and (sonority0 >= 1001) and (cv_ratio1 <= 1) and (sonority0 <= 1001) and (syl_weight1 <= 1) and (sonority2 >= 101) and (sonority_ratio1 <= 3) => stress_class=paenultima (18.0/0.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (cv_ratio0 <= 0) and (sonority_ratio0 <= 3) and (sonority0 >= 1001) and (sonority1 <= 201) => stress_class=paenultima (49.0/16.0)
+(syl_weight1 >= 1) and (sonority2 <= 1011) and (sonority0 <= 101) and (sonority_ratio2 <= 2) and (sonority0 <= 11) and (sonority_ratio0 <= 3) and (cv_ratio1 >= 3) => stress_class=paenultima (12.0/2.0)
+(syl_weight1 >= 1) and (cv_ratio1 <= 0) and (cv_ratio0 >= 2) and (syl_weight0 <= 1) and (sonority_ratio1 <= 3) and (sonority0 >= 1011) and (sonority2 <= 201) and (sonority0 <= 1111) and (sonority_ratio2 <= 2) => stress_class=paenultima (38.0/13.0)
+ => stress_class=antepaenultima (8750.0/995.0)
+
+Number of Rules : 40
+=== Evaluation result ===
+
+Scheme: min2 : JRip
+Options: -F 3 -N 2.0 -O 20 -S 1
+Relation: 000047-everything-3syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-29,40-46,59-61,64-weka.filters.unsupervised.attribute.RemoveByName-E^(cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.)$-V
+
+
+Correctly Classified Instances        5679               85.1935 %
+Incorrectly Classified Instances       987               14.8065 %
+Kappa statistic                          0.709 
+Mean absolute error                      0.117 
+Root mean squared error                  0.25  
+Relative absolute error                 44.8536 %
+Root relative squared error             69.0584 %
+Coverage of cases (0.95 level)          96.6547 %
+Mean rel. region size (0.95 level)      49.1187 %
+Total Number of Instances             6666     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,927    0,237    0,870      0,927    0,898      0,710    0,860     0,864     antepaenultima
+                 0,723    0,035    0,880      0,723    0,794      0,736    0,856     0,780     paenultima
+                 0,776    0,037    0,693      0,776    0,732      0,703    0,894     0,664     ultima
+                 0,212    0,001    0,636      0,212    0,318      0,364    0,645     0,155     multa
+Weighted Avg.    0,852    0,162    0,853      0,852    0,849      0,713    0,860     0,816     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 3897  147  151    7 |    a = antepaenultima
+  420 1268   66    0 |    b = paenultima
+  119   24  500    1 |    c = ultima
+   45    2    5   14 |    d = multa

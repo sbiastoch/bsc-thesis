@@ -1,0 +1,238 @@
+=== Evaluation result ===
+
+Scheme: NeuralNetwork
+Options: -lr 0.010000000000000002 -wp 1.0E-8 -mi 1000 -bs 100 -th 4 -hl 5 -di 0.2 -dh 0.5 -iw 13
+Relation: 000047-everything-3syl-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-29,40-46,59-61,64-weka.filters.unsupervised.attribute.RemoveByName-E^(cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.|stress_class)$-V-output-debug-info-do-not-check-capabilities
+
+
+Correctly Classified Instances        4202               63.0363 %
+Incorrectly Classified Instances      2464               36.9637 %
+Kappa statistic                          0     
+Mean absolute error                      0.2621
+Root mean squared error                  0.3605
+Relative absolute error                100.4719 %
+Root relative squared error             99.5974 %
+Coverage of cases (0.95 level)          99.0099 %
+Mean rel. region size (0.95 level)      75      %
+Total Number of Instances             6666     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    1,000    0,630      1,000    0,773      0,000    0,629     0,735     antepaenultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,653     0,184     ultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,649     0,399     paenultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,500     0,010     multa
+Weighted Avg.    0,630    0,630    0,397      0,630    0,487      0,000    0,635     0,586     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 4202    0    0    0 |    a = antepaenultima
+  644    0    0    0 |    b = ultima
+ 1754    0    0    0 |    c = paenultima
+   66    0    0    0 |    d = multa
+=== Evaluation result ===
+
+Scheme: NeuralNetwork
+Options: -lr 0.010000000000000002 -wp 1.0E-8 -mi 1000 -bs 100 -th 4 -hl 30 -di 0.2 -dh 0.5 -iw 13
+Relation: 000047-everything-3syl-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-29,40-46,59-61,64-weka.filters.unsupervised.attribute.RemoveByName-E^(cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.|stress_class)$-V-output-debug-info-do-not-check-capabilities
+
+
+Correctly Classified Instances        4222               63.3363 %
+Incorrectly Classified Instances      2444               36.6637 %
+Kappa statistic                          0.0111
+Mean absolute error                      0.2472
+Root mean squared error                  0.3464
+Relative absolute error                 94.793  %
+Root relative squared error             95.694  %
+Coverage of cases (0.95 level)          99.0099 %
+Mean rel. region size (0.95 level)      75      %
+Total Number of Instances             6666     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    0,992    0,632      1,000    0,775      0,072    0,725     0,802     antepaenultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,781     0,329     ultima
+                 0,011    0,000    1,000      0,011    0,023      0,092    0,754     0,598     paenultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,369     0,009     multa
+Weighted Avg.    0,633    0,625    0,662      0,633    0,494      0,069    0,735     0,695     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 4202    0    0    0 |    a = antepaenultima
+  644    0    0    0 |    b = ultima
+ 1734    0   20    0 |    c = paenultima
+   66    0    0    0 |    d = multa
+=== Evaluation result ===
+
+Scheme: NeuralNetwork
+Options: -lr 0.010000000000000002 -wp 1.0E-8 -mi 1000 -bs 100 -th 4 -hl 100 -di 0.2 -dh 0.5 -iw 13
+Relation: 000047-everything-3syl-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-29,40-46,59-61,64-weka.filters.unsupervised.attribute.RemoveByName-E^(cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.|stress_class)$-V-output-debug-info-do-not-check-capabilities
+
+
+Correctly Classified Instances        4551               68.2718 %
+Incorrectly Classified Instances      2115               31.7282 %
+Kappa statistic                          0.1862
+Mean absolute error                      0.2335
+Root mean squared error                  0.3344
+Relative absolute error                 89.5423 %
+Root relative squared error             92.3779 %
+Coverage of cases (0.95 level)          99.0099 %
+Mean rel. region size (0.95 level)      74.9737 %
+Total Number of Instances             6666     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,998    0,855    0,666      0,998    0,799      0,303    0,754     0,820     antepaenultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,868     0,418     ultima
+                 0,204    0,002    0,975      0,204    0,338      0,390    0,787     0,650     paenultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,442     0,009     multa
+Weighted Avg.    0,683    0,539    0,676      0,683    0,592      0,294    0,770     0,728     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 4193    0    9    0 |    a = antepaenultima
+  644    0    0    0 |    b = ultima
+ 1396    0  358    0 |    c = paenultima
+   66    0    0    0 |    d = multa
+=== Evaluation result ===
+
+Scheme: NeuralNetwork
+Options: -lr 0.1 -wp 1.0E-8 -mi 1000 -bs 100 -th 4 -hl 50 -di 0.2 -dh 0.5 -iw 13
+Relation: 000047-everything-3syl-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-29,40-46,59-61,64-weka.filters.unsupervised.attribute.RemoveByName-E^(cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.|stress_class)$-V-output-debug-info-do-not-check-capabilities
+
+
+Correctly Classified Instances        4846               72.6973 %
+Incorrectly Classified Instances      1820               27.3027 %
+Kappa statistic                          0.3639
+Mean absolute error                      0.1908
+Root mean squared error                  0.2987
+Relative absolute error                 73.1653 %
+Root relative squared error             82.5241 %
+Coverage of cases (0.95 level)          99.0699 %
+Mean rel. region size (0.95 level)      58.1721 %
+Total Number of Instances             6666     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,968    0,653    0,716      0,968    0,823      0,427    0,847     0,898     antepaenultima
+                 0,188    0,014    0,596      0,188    0,286      0,300    0,938     0,545     ultima
+                 0,376    0,026    0,837      0,376    0,519      0,477    0,850     0,735     paenultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,701     0,095     multa
+Weighted Avg.    0,727    0,420    0,729      0,727    0,683      0,423    0,855     0,813     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 4066   42   94    0 |    a = antepaenultima
+  492  121   31    0 |    b = ultima
+ 1058   37  659    0 |    c = paenultima
+   60    3    3    0 |    d = multa
+=== Evaluation result ===
+
+Scheme: NeuralNetwork
+Options: -lr 0.1 -wp 1.0E-8 -mi 1000 -bs 100 -th 4 -hl 10 -di 0.2 -dh 0.5 -iw 13
+Relation: 000047-everything-3syl-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-29,40-46,59-61,64-weka.filters.unsupervised.attribute.RemoveByName-E^(cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.|stress_class)$-V-output-debug-info-do-not-check-capabilities
+
+
+Correctly Classified Instances        4626               69.3969 %
+Incorrectly Classified Instances      2040               30.6031 %
+Kappa statistic                          0.2269
+Mean absolute error                      0.2017
+Root mean squared error                  0.3117
+Relative absolute error                 77.3511 %
+Root relative squared error             86.1185 %
+Coverage of cases (0.95 level)          99.0099 %
+Mean rel. region size (0.95 level)      62.9763 %
+Total Number of Instances             6666     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,994    0,817    0,675      0,994    0,804      0,332    0,829     0,885     antepaenultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,930     0,551     ultima
+                 0,256    0,005    0,943      0,256    0,403      0,428    0,837     0,724     paenultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,641     0,017     multa
+Weighted Avg.    0,694    0,516    0,674      0,694    0,613      0,322    0,839     0,802     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 4177    0   25    0 |    a = antepaenultima
+  642    0    2    0 |    b = ultima
+ 1305    0  449    0 |    c = paenultima
+   66    0    0    0 |    d = multa
+=== Evaluation result ===
+
+Scheme: NeuralNetwork
+Options: -lr 0.1 -wp 1.0E-8 -mi 1000 -bs 100 -th 4 -hl 20 -di 0.2 -dh 0.5 -iw 13
+Relation: 000047-everything-3syl-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-29,40-46,59-61,64-weka.filters.unsupervised.attribute.RemoveByName-E^(cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.|stress_class)$-V-output-debug-info-do-not-check-capabilities
+
+
+Correctly Classified Instances        4748               71.2271 %
+Incorrectly Classified Instances      1918               28.7729 %
+Kappa statistic                          0.3036
+Mean absolute error                      0.1927
+Root mean squared error                  0.3031
+Relative absolute error                 73.8642 %
+Root relative squared error             83.7441 %
+Coverage of cases (0.95 level)          98.9949 %
+Mean rel. region size (0.95 level)      59.3047 %
+Total Number of Instances             6666     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,983    0,730    0,697      0,983    0,815      0,389    0,847     0,897     antepaenultima
+                 0,098    0,009    0,538      0,098    0,166      0,200    0,937     0,527     ultima
+                 0,316    0,013    0,895      0,316    0,468      0,460    0,851     0,739     paenultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,628     0,019     multa
+Weighted Avg.    0,712    0,465    0,727      0,712    0,653      0,386    0,854     0,811     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 4130   29   43    0 |    a = antepaenultima
+  560   63   21    0 |    b = ultima
+ 1174   25  555    0 |    c = paenultima
+   65    0    1    0 |    d = multa
+=== Evaluation result ===
+
+Scheme: NeuralNetwork
+Options: -lr 0.1 -wp 1.0E-8 -mi 1000 -bs 100 -th 4 -hl 15 -di 0.2 -dh 0.5 -iw 13
+Relation: 000047-everything-3syl-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-29,40-46,59-61,64-weka.filters.unsupervised.attribute.RemoveByName-E^(cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.|stress_class)$-V-output-debug-info-do-not-check-capabilities
+
+
+Correctly Classified Instances        4758               71.3771 %
+Incorrectly Classified Instances      1908               28.6229 %
+Kappa statistic                          0.3072
+Mean absolute error                      0.1962
+Root mean squared error                  0.3023
+Relative absolute error                 75.2336 %
+Root relative squared error             83.5155 %
+Coverage of cases (0.95 level)          98.9949 %
+Mean rel. region size (0.95 level)      60.4073 %
+Total Number of Instances             6666     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,984    0,728    0,697      0,984    0,816      0,392    0,845     0,894     antepaenultima
+                 0,112    0,007    0,626      0,112    0,190      0,237    0,941     0,562     ultima
+                 0,315    0,014    0,888      0,315    0,465      0,455    0,843     0,736     paenultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,654     0,030     multa
+Weighted Avg.    0,714    0,464    0,734      0,714    0,655      0,390    0,852     0,812     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 4133   23   46    0 |    a = antepaenultima
+  549   72   23    0 |    b = ultima
+ 1181   20  553    0 |    c = paenultima
+   65    0    1    0 |    d = multa
