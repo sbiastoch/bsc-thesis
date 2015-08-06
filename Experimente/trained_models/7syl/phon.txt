@@ -1,0 +1,49 @@
+=== Classifier model ===
+
+Scheme:   J48
+Relation: 000047-everything-7syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R32-45,68-89,111-117,120-weka.filters.unsupervised.attribute.RemoveByName-E^(rhyme.|cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.|syl_class.)$-V-output-debug-info-do-not-check-capabilities
+
+J48 pruned tree
+------------------
+
+rhyme4 = CVVCC_or_CCCVV_or_CVCC: prima (4.0/2.0)
+rhyme4 = CVC
+|   cv_ratio6 <= 0: ultima (24.0/13.0)
+|   cv_ratio6 > 0: undef (45.0/27.0)
+rhyme4 = CV: undef (19.0/4.0)
+rhyme4 = CVV
+|   cv_ratio6 <= 1
+|   |   cv_ratio1 <= 1: undef (20.0/11.0)
+|   |   cv_ratio1 > 1: prima (24.0/13.0)
+|   cv_ratio6 > 1: paenultima (37.0/10.0)
+rhyme4 = CCVV: prima (6.0/4.0)
+rhyme4 = CVVC: antepaenultima (8.0/3.0)
+rhyme4 = VVCC: antepaenultima (18.0)
+rhyme4 = VV: paenultima (7.0/3.0)
+rhyme4 = VCC: prima (3.0/1.0)
+rhyme4 = VC: undef (19.0/9.0)
+rhyme4 = CCVC: sekunda (3.0/1.0)
+rhyme4 = VVC: undef (5.0/2.0)
+
+Number of Leaves  : 	15
+
+Size of the tree : 	19
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 000047-everything-7syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R32-45,68-89,111-117,120-weka.filters.unsupervised.attribute.RemoveByName-E^(rhyme.|cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.|syl_class.)$-V-output-debug-info-do-not-check-capabilities
+
+JRIP rules:
+===========
+
+(sonority_ratio4 >= 4) and (sonority6 >= 1011) => stress_class=paenultima (26.0/2.0)
+(syl_weight1 <= 0) => stress_class=prima (57.0/27.0)
+ => stress_class=undef (159.0/110.0)
+
+Number of Rules : 3
+=== Classifier model ===
+
+Scheme:   NeuralNetwork
+Relation: 000047-everything-7syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R32-45,68-89,111-117,120-weka.filters.unsupervised.attribute.RemoveByName-E^(rhyme.|cv_ratio.|sonority.|sonority_dir|sonority_ratio.|syl_weight.|syl_class.)$-V-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@5cd998ba

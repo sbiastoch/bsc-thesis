@@ -1,0 +1,111 @@
+=== Evaluation result ===
+
+Scheme: JRip : InputMappedClassifier
+Options: -I -trim -W weka.classifiers.rules.JRip -- -F 3 -N 20.0 -O 5 -S 1
+Relation: 000047-everything-7syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+
+Correctly Classified Instances          43               34.4    %
+Incorrectly Classified Instances        82               65.6    %
+Kappa statistic                          0.0618
+Mean absolute error                      0.2269
+Root mean squared error                  0.3399
+Coverage of cases (0.95 level)          92.8    %
+Total Number of Instances              125     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,409     0,032     multa
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,581     0,212     prima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,449     0,140     sekunda
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,599     0,136     ultima
+                 0,833    0,819    0,340      0,833    0,483      0,017    0,507     0,339     undef
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,505     0,048     antepaenultima
+                 0,471    0,130    0,364      0,471    0,410      0,307    0,670     0,243     paenultima
+Weighted Avg.    0,344    0,293    0,164      0,344    0,218      0,048    0,541     0,226     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g   <-- classified as
+  0  0  0  0  4  0  0 |  a = multa
+  0  0  0  0 22  0  1 |  b = prima
+  0  0  0  0 14  0  5 |  c = sekunda
+  0  0  0  0 14  0  0 |  d = ultima
+  0  0  0  0 35  0  7 |  e = undef
+  0  0  0  0  5  0  1 |  f = antepaenultima
+  0  0  0  0  9  0  8 |  g = paenultima
+=== Evaluation result ===
+
+Scheme: J48 : InputMappedClassifier
+Options: -I -trim -W weka.classifiers.trees.J48 -- -C 0.25 -M 20
+Relation: 000047-everything-7syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+
+Correctly Classified Instances          54               43.2    %
+Incorrectly Classified Instances        71               56.8    %
+Kappa statistic                          0.2668
+Mean absolute error                      0.2038
+Root mean squared error                  0.3253
+Coverage of cases (0.95 level)          93.6    %
+Total Number of Instances              125     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,843     0,127     multa
+                 0,174    0,118    0,250      0,174    0,205      0,065    0,574     0,213     prima
+                 0,000    0,047    0,000      0,000    0,000      -0,086   0,464     0,155     sekunda
+                 1,000    0,072    0,636      1,000    0,778      0,768    0,965     0,641     ultima
+                 0,595    0,373    0,446      0,595    0,510      0,211    0,611     0,403     undef
+                 0,000    0,034    0,000      0,000    0,000      -0,041   0,800     0,131     antepaenultima
+                 0,647    0,102    0,500      0,647    0,564      0,491    0,819     0,481     paenultima
+Weighted Avg.    0,432    0,178    0,335      0,432    0,373      0,220    0,666     0,346     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g   <-- classified as
+  0  0  0  0  4  0  0 |  a = multa
+  0  4  2  5 11  0  1 |  b = prima
+  0  6  0  1  7  2  3 |  c = sekunda
+  0  0  0 14  0  0  0 |  d = ultima
+  0  4  2  2 25  2  7 |  e = undef
+  0  0  1  0  5  0  0 |  f = antepaenultima
+  0  2  0  0  4  0 11 |  g = paenultima
+=== Evaluation result ===
+
+Scheme: NeuralNetwork : InputMappedClassifier
+Options: -I -trim -W weka.classifiers.functions.NeuralNetwork -- -lr 0.1 -wp 1.0E-8 -mi 1000 -bs 100 -th 4 -hl 50 -di 0.2 -dh 0.5 -iw 168
+Relation: 000047-everything-7syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+
+Correctly Classified Instances          65               52      %
+Incorrectly Classified Instances        60               48      %
+Kappa statistic                          0.3923
+Mean absolute error                      0.1706
+Root mean squared error                  0.305 
+Coverage of cases (0.95 level)          97.6    %
+Total Number of Instances              125     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,500    0,000    1,000      0,500    0,667      0,701    0,815     0,761     multa
+                 0,261    0,098    0,375      0,261    0,308      0,189    0,678     0,378     prima
+                 0,316    0,057    0,500      0,316    0,387      0,316    0,774     0,426     sekunda
+                 0,929    0,072    0,619      0,929    0,743      0,722    0,966     0,764     ultima
+                 0,595    0,253    0,543      0,595    0,568      0,335    0,765     0,634     undef
+                 0,000    0,017    0,000      0,000    0,000      -0,029   0,759     0,124     antepaenultima
+                 0,765    0,120    0,500      0,765    0,605      0,544    0,893     0,637     paenultima
+Weighted Avg.    0,520    0,137    0,497      0,520    0,493      0,371    0,792     0,550     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g   <-- classified as
+  2  0  0  1  0  1  0 |  a = multa
+  0  6  3  4  9  0  1 |  b = prima
+  0  3  6  1  6  0  3 |  c = sekunda
+  0  1  0 13  0  0  0 |  d = ultima
+  0  5  2  2 25  0  8 |  e = undef
+  0  0  1  0  4  0  1 |  f = antepaenultima
+  0  1  0  0  2  1 13 |  g = paenultima

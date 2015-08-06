@@ -1,0 +1,219 @@
+=== Classifier model ===
+
+Scheme:   J48
+Relation: 000047-everything-3syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R1-3,30-38,50-58,64-weka.filters.unsupervised.attribute.RemoveByName-E^(koda_class.|koda_len.|nucleus_class.|nucleus_len.|onset_class.|onset_len.|syl_len.)$-V
+
+J48 pruned tree
+------------------
+
+nucleus_len2 <= 1
+|   syl_len0 <= 3
+|   |   nucleus_class0 = K
+|   |   |   koda_len0 <= 0: paenultima (641.0/1.0)
+|   |   |   koda_len0 > 0
+|   |   |   |   koda_len2 <= 1
+|   |   |   |   |   syl_len0 <= 2
+|   |   |   |   |   |   syl_len0 <= 1: paenultima (60.0/15.0)
+|   |   |   |   |   |   syl_len0 > 1
+|   |   |   |   |   |   |   onset_len0 <= 0
+|   |   |   |   |   |   |   |   onset_len2 <= 1
+|   |   |   |   |   |   |   |   |   syl_len2 <= 4: antepaenultima (1138.0/359.0)
+|   |   |   |   |   |   |   |   |   syl_len2 > 4
+|   |   |   |   |   |   |   |   |   |   nucleus_len1 <= 1: antepaenultima (33.0/14.0)
+|   |   |   |   |   |   |   |   |   |   nucleus_len1 > 1: paenultima (24.0/8.0)
+|   |   |   |   |   |   |   |   onset_len2 > 1: antepaenultima (37.0/5.0)
+|   |   |   |   |   |   |   onset_len0 > 0
+|   |   |   |   |   |   |   |   nucleus_len1 <= 1
+|   |   |   |   |   |   |   |   |   koda_len2 <= 0: paenultima (25.0)
+|   |   |   |   |   |   |   |   |   koda_len2 > 0: antepaenultima (62.0/24.0)
+|   |   |   |   |   |   |   |   nucleus_len1 > 1: paenultima (125.0/16.0)
+|   |   |   |   |   syl_len0 > 2
+|   |   |   |   |   |   nucleus_len1 <= 1
+|   |   |   |   |   |   |   koda_len1 <= 0: antepaenultima (85.0/1.0)
+|   |   |   |   |   |   |   koda_len1 > 0
+|   |   |   |   |   |   |   |   onset_len1 <= 1
+|   |   |   |   |   |   |   |   |   koda_len0 <= 1
+|   |   |   |   |   |   |   |   |   |   onset_len1 <= 0: paenultima (22.0/3.0)
+|   |   |   |   |   |   |   |   |   |   onset_len1 > 0
+|   |   |   |   |   |   |   |   |   |   |   syl_len2 <= 3: paenultima (215.0/62.0)
+|   |   |   |   |   |   |   |   |   |   |   syl_len2 > 3
+|   |   |   |   |   |   |   |   |   |   |   |   syl_len1 <= 2: paenultima (38.0/12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   syl_len1 > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   syl_len1 <= 3: antepaenultima (132.0/44.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   syl_len1 > 3: paenultima (43.0/18.0)
+|   |   |   |   |   |   |   |   |   koda_len0 > 1: paenultima (86.0/14.0)
+|   |   |   |   |   |   |   |   onset_len1 > 1: paenultima (127.0/19.0)
+|   |   |   |   |   |   nucleus_len1 > 1: paenultima (736.0/138.0)
+|   |   |   |   koda_len2 > 1
+|   |   |   |   |   nucleus_class1 = L
+|   |   |   |   |   |   koda_len1 <= 0
+|   |   |   |   |   |   |   onset_len0 <= 0: antepaenultima (94.0/49.0)
+|   |   |   |   |   |   |   onset_len0 > 0: ultima (87.0/27.0)
+|   |   |   |   |   |   koda_len1 > 0: paenultima (25.0/7.0)
+|   |   |   |   |   nucleus_class1 = K
+|   |   |   |   |   |   koda_len1 <= 0: antepaenultima (63.0/7.0)
+|   |   |   |   |   |   koda_len1 > 0
+|   |   |   |   |   |   |   syl_len1 <= 2
+|   |   |   |   |   |   |   |   onset_len0 <= 0: antepaenultima (27.0/14.0)
+|   |   |   |   |   |   |   |   onset_len0 > 0: ultima (30.0/12.0)
+|   |   |   |   |   |   |   syl_len1 > 2
+|   |   |   |   |   |   |   |   onset_len1 <= 1: antepaenultima (322.0/103.0)
+|   |   |   |   |   |   |   |   onset_len1 > 1
+|   |   |   |   |   |   |   |   |   syl_len0 <= 2: antepaenultima (35.0/11.0)
+|   |   |   |   |   |   |   |   |   syl_len0 > 2: paenultima (23.0/1.0)
+|   |   |   |   |   nucleus_class1 = D
+|   |   |   |   |   |   syl_len0 <= 2: antepaenultima (34.0/11.0)
+|   |   |   |   |   |   syl_len0 > 2: paenultima (28.0/2.0)
+|   |   |   |   |   nucleus_class1 = N: antepaenultima (0.0)
+|   |   nucleus_class0 = L
+|   |   |   koda_len0 <= 0
+|   |   |   |   koda_len2 <= 1
+|   |   |   |   |   onset_len2 <= 0: antepaenultima (59.0/15.0)
+|   |   |   |   |   onset_len2 > 0
+|   |   |   |   |   |   koda_len2 <= 0: paenultima (135.0/30.0)
+|   |   |   |   |   |   koda_len2 > 0
+|   |   |   |   |   |   |   nucleus_class1 = L
+|   |   |   |   |   |   |   |   syl_len2 <= 4
+|   |   |   |   |   |   |   |   |   onset_class0 = C
+|   |   |   |   |   |   |   |   |   |   syl_len0 <= 2: paenultima (87.87/22.58)
+|   |   |   |   |   |   |   |   |   |   syl_len0 > 2: antepaenultima (34.0/12.0)
+|   |   |   |   |   |   |   |   |   onset_class0 = CC: paenultima (27.89/11.59)
+|   |   |   |   |   |   |   |   |   onset_class0 = A: antepaenultima (39.25/6.42)
+|   |   |   |   |   |   |   |   |   onset_class0 = CCC: paenultima (0.0)
+|   |   |   |   |   |   |   |   |   onset_class0 = AC: paenultima (0.0)
+|   |   |   |   |   |   |   |   |   onset_class0 = CA: paenultima (0.0)
+|   |   |   |   |   |   |   |   syl_len2 > 4: paenultima (70.0/11.0)
+|   |   |   |   |   |   |   nucleus_class1 = K
+|   |   |   |   |   |   |   |   koda_len1 <= 0: antepaenultima (72.0/1.0)
+|   |   |   |   |   |   |   |   koda_len1 > 0
+|   |   |   |   |   |   |   |   |   syl_len2 <= 3
+|   |   |   |   |   |   |   |   |   |   onset_class0 = C: paenultima (63.7/28.7)
+|   |   |   |   |   |   |   |   |   |   onset_class0 = CC: paenultima (13.58/3.58)
+|   |   |   |   |   |   |   |   |   |   onset_class0 = A: antepaenultima (39.68/3.67)
+|   |   |   |   |   |   |   |   |   |   onset_class0 = CCC: antepaenultima (1.04/0.02)
+|   |   |   |   |   |   |   |   |   |   onset_class0 = AC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   |   |   onset_class0 = CA: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   |   syl_len2 > 3
+|   |   |   |   |   |   |   |   |   |   syl_len2 <= 4: antepaenultima (108.0/19.0)
+|   |   |   |   |   |   |   |   |   |   syl_len2 > 4
+|   |   |   |   |   |   |   |   |   |   |   onset_class2 = C: paenultima (37.0/13.0)
+|   |   |   |   |   |   |   |   |   |   |   onset_class2 = A: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   |   |   |   onset_class2 = CC: antepaenultima (28.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   onset_class2 = AC: antepaenultima (1.0)
+|   |   |   |   |   |   |   |   |   |   |   onset_class2 = CCC: antepaenultima (3.0)
+|   |   |   |   |   |   |   |   |   |   |   onset_class2 = ø: antepaenultima (0.0)
+|   |   |   |   |   |   |   nucleus_class1 = D: antepaenultima (30.0/6.0)
+|   |   |   |   |   |   |   nucleus_class1 = N: antepaenultima (0.0)
+|   |   |   |   koda_len2 > 1
+|   |   |   |   |   syl_len1 <= 2: ultima (109.0/32.0)
+|   |   |   |   |   syl_len1 > 2
+|   |   |   |   |   |   nucleus_len1 <= 1: antepaenultima (174.0/28.0)
+|   |   |   |   |   |   nucleus_len1 > 1: paenultima (20.0/7.0)
+|   |   |   koda_len0 > 0: antepaenultima (461.0/37.0)
+|   |   nucleus_class0 = D: antepaenultima (1200.0/30.0)
+|   |   nucleus_class0 = N: paenultima (3.0)
+|   syl_len0 > 3
+|   |   nucleus_len0 <= 1
+|   |   |   nucleus_class1 = L
+|   |   |   |   onset_len0 <= 1: antepaenultima (384.0/43.0)
+|   |   |   |   onset_len0 > 1
+|   |   |   |   |   syl_len0 <= 4: paenultima (68.0/13.0)
+|   |   |   |   |   syl_len0 > 4: antepaenultima (114.0/7.0)
+|   |   |   nucleus_class1 = K: antepaenultima (966.0/79.0)
+|   |   |   nucleus_class1 = D: antepaenultima (188.0/21.0)
+|   |   |   nucleus_class1 = N: antepaenultima (0.0)
+|   |   nucleus_len0 > 1: antepaenultima (1260.0/44.0)
+nucleus_len2 > 1
+|   koda_len1 <= 0
+|   |   koda_len0 <= 1
+|   |   |   syl_len2 <= 2
+|   |   |   |   koda_len2 <= 0: antepaenultima (75.0/36.0)
+|   |   |   |   koda_len2 > 0: ultima (80.0/8.0)
+|   |   |   syl_len2 > 2
+|   |   |   |   koda_len2 <= 0: ultima (243.0/22.0)
+|   |   |   |   koda_len2 > 0
+|   |   |   |   |   nucleus_class1 = L: ultima (329.0/54.0)
+|   |   |   |   |   nucleus_class1 = K: antepaenultima (206.0/19.0)
+|   |   |   |   |   nucleus_class1 = D: antepaenultima (5.0/2.0)
+|   |   |   |   |   nucleus_class1 = N: ultima (1.0)
+|   |   koda_len0 > 1: antepaenultima (59.0/10.0)
+|   koda_len1 > 0
+|   |   nucleus_len1 <= 1
+|   |   |   koda_len1 <= 1
+|   |   |   |   nucleus_class2 = L
+|   |   |   |   |   syl_len2 <= 2
+|   |   |   |   |   |   syl_len0 <= 2: paenultima (23.0/6.0)
+|   |   |   |   |   |   syl_len0 > 2: antepaenultima (23.0/9.0)
+|   |   |   |   |   syl_len2 > 2
+|   |   |   |   |   |   onset_len1 <= 1
+|   |   |   |   |   |   |   syl_len0 <= 2
+|   |   |   |   |   |   |   |   syl_len1 <= 2: ultima (59.0/11.0)
+|   |   |   |   |   |   |   |   syl_len1 > 2
+|   |   |   |   |   |   |   |   |   syl_len2 <= 3
+|   |   |   |   |   |   |   |   |   |   koda_len0 <= 0: antepaenultima (66.0/25.0)
+|   |   |   |   |   |   |   |   |   |   koda_len0 > 0: ultima (71.0/31.0)
+|   |   |   |   |   |   |   |   |   syl_len2 > 3: antepaenultima (100.0/23.0)
+|   |   |   |   |   |   |   syl_len0 > 2
+|   |   |   |   |   |   |   |   syl_len1 <= 2
+|   |   |   |   |   |   |   |   |   syl_len0 <= 3: ultima (37.0/12.0)
+|   |   |   |   |   |   |   |   |   syl_len0 > 3: antepaenultima (56.0/7.0)
+|   |   |   |   |   |   |   |   syl_len1 > 2: antepaenultima (316.0/32.0)
+|   |   |   |   |   |   onset_len1 > 1
+|   |   |   |   |   |   |   syl_len1 <= 4: ultima (42.0/16.0)
+|   |   |   |   |   |   |   syl_len1 > 4: paenultima (24.0/14.0)
+|   |   |   |   nucleus_class2 = K: antepaenultima (0.0)
+|   |   |   |   nucleus_class2 = D: antepaenultima (466.0/38.0)
+|   |   |   |   nucleus_class2 = N: ultima (12.0/4.0)
+|   |   |   |   nucleus_class2 = ø: antepaenultima (0.0)
+|   |   |   koda_len1 > 1
+|   |   |   |   syl_len0 <= 3
+|   |   |   |   |   nucleus_len0 <= 1
+|   |   |   |   |   |   koda_len0 <= 0: paenultima (20.0)
+|   |   |   |   |   |   koda_len0 > 0
+|   |   |   |   |   |   |   nucleus_class2 = L: antepaenultima (58.0/22.0)
+|   |   |   |   |   |   |   nucleus_class2 = K: antepaenultima (0.0)
+|   |   |   |   |   |   |   nucleus_class2 = D: paenultima (26.0/12.0)
+|   |   |   |   |   |   |   nucleus_class2 = N: antepaenultima (0.0)
+|   |   |   |   |   |   |   nucleus_class2 = ø: antepaenultima (0.0)
+|   |   |   |   |   nucleus_len0 > 1: antepaenultima (61.0/9.0)
+|   |   |   |   syl_len0 > 3: antepaenultima (41.0/2.0)
+|   |   nucleus_len1 > 1
+|   |   |   syl_len0 <= 3
+|   |   |   |   onset_len0 <= 0: antepaenultima (67.0/22.0)
+|   |   |   |   onset_len0 > 0
+|   |   |   |   |   nucleus_len0 <= 1: paenultima (83.0/4.0)
+|   |   |   |   |   nucleus_len0 > 1: antepaenultima (34.0/20.0)
+|   |   |   syl_len0 > 3: antepaenultima (63.0/6.0)
+
+Number of Leaves  : 	104
+
+Size of the tree : 	179
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 000047-everything-3syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R1-3,30-38,50-58,64-weka.filters.unsupervised.attribute.RemoveByName-E^(koda_class.|koda_len.|nucleus_class.|nucleus_len.|onset_class.|onset_len.|syl_len.)$-V
+
+JRIP rules:
+===========
+
+(nucleus_len2 >= 2) and (koda_len1 <= 0) and (syl_len2 <= 3) and (syl_len2 >= 3) and (koda_len2 <= 0) and (onset_len2 <= 1) => stress_class=ultima (225.0/10.0)
+(nucleus_class2 = L) and (nucleus_class1 = L) and (koda_len1 <= 0) and (koda_class2 = C) => stress_class=ultima (393.0/60.0)
+(nucleus_class2 = L) and (syl_len0 <= 2) and (nucleus_class1 = K) and (syl_len2 <= 3) and (koda_len1 <= 1) and (syl_len2 >= 3) and (koda_len0 >= 1) => stress_class=ultima (119.0/45.0)
+(nucleus_class2 = L) and (syl_len0 <= 2) and (syl_len1 <= 3) and (syl_len2 >= 3) and (koda_len2 <= 0) and (onset_len2 <= 1) => stress_class=ultima (15.0/4.0)
+(koda_len2 >= 2) and (nucleus_class1 = L) and (syl_len1 <= 2) and (koda_len0 <= 0) and (nucleus_len0 >= 2) => stress_class=ultima (71.0/13.0)
+(nucleus_class2 = L) and (syl_len0 <= 3) and (syl_len1 <= 2) and (koda_len1 >= 1) => stress_class=ultima (85.0/28.0)
+(koda_len2 >= 2) and (nucleus_class1 = L) and (nucleus_class0 = K) and (syl_len1 <= 3) and (koda_len0 >= 1) and (onset_len0 >= 1) and (syl_len0 <= 3) and (koda_len1 <= 0) => stress_class=ultima (83.0/23.0)
+(koda_len2 >= 2) and (syl_len0 <= 2) and (syl_len1 <= 2) and (koda_len1 >= 1) and (onset_class0 = C) => stress_class=ultima (29.0/5.0)
+(nucleus_class0 = K) and (syl_len0 <= 3) and (koda_len0 <= 0) => stress_class=paenultima (698.0/1.0)
+(nucleus_class0 = K) and (syl_len0 <= 3) and (nucleus_len1 >= 2) and (onset_len0 >= 1) => stress_class=paenultima (882.0/156.0)
+(syl_len0 <= 3) and (nucleus_class0 = K) and (koda_class0 = CC) => stress_class=paenultima (227.0/45.0)
+(syl_len0 <= 3) and (nucleus_class0 = K) and (onset_len0 >= 1) and (koda_class0 = C) and (nucleus_class2 = K) and (syl_len1 >= 4) and (onset_len1 >= 2) => stress_class=paenultima (107.0/13.0)
+(syl_len0 <= 2) and (nucleus_class1 = L) and (onset_class0 = C) and (onset_len2 >= 1) => stress_class=paenultima (204.0/41.0)
+(syl_len0 <= 3) and (nucleus_class0 = K) and (syl_len2 <= 3) and (onset_len0 >= 1) and (nucleus_len2 <= 1) and (syl_len1 >= 3) and (koda_len1 >= 1) => stress_class=paenultima (235.0/53.0)
+(syl_len0 <= 2) and (syl_len2 <= 3) and (koda_len2 <= 0) and (onset_len0 >= 1) and (syl_len1 >= 3) and (syl_len2 <= 2) => stress_class=paenultima (52.0/4.0)
+(syl_len0 <= 2) and (koda_len2 <= 1) and (nucleus_len2 <= 1) and (syl_len2 >= 5) and (onset_class2 = C) => stress_class=paenultima (119.0/40.0)
+(nucleus_class0 = K) and (syl_len0 <= 3) and (nucleus_class2 = K) and (koda_len2 <= 1) and (koda_len1 >= 1) and (syl_len0 >= 3) and (koda_class0 = C) and (onset_len0 >= 1) => stress_class=paenultima (185.0/67.0)
+(syl_len0 <= 2) and (syl_len2 <= 3) and (nucleus_class0 = K) and (syl_len0 <= 1) => stress_class=paenultima (39.0/7.0)
+ => stress_class=antepaenultima (9172.0/1446.0)
+
+Number of Rules : 19

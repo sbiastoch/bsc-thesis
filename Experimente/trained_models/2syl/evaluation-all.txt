@@ -1,0 +1,87 @@
+=== Evaluation result ===
+
+Scheme: J484 : InputMappedClassifier
+Options: -I -trim -W weka.classifiers.trees.J48 -- -C 0.25 -M 20
+Relation: 000047-everything-2syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+
+Correctly Classified Instances        3878               90.5018 %
+Incorrectly Classified Instances       407                9.4982 %
+Kappa statistic                          0.5412
+Mean absolute error                      0.0914
+Root mean squared error                  0.2144
+Coverage of cases (0.95 level)          99.3466 %
+Total Number of Instances             4285     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,972    0,503    0,923      0,972    0,947      0,557    0,920     0,981     paenultima
+                 0,514    0,029    0,733      0,514    0,604      0,566    0,925     0,654     ultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,715     0,012     multa
+Weighted Avg.    0,905    0,437    0,892      0,905    0,895      0,555    0,919     0,931     
+
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+ 3585  104    0 |    a = paenultima
+  277  293    0 |    b = ultima
+   23    3    0 |    c = multa
+=== Evaluation result ===
+
+Scheme: JRip4 : InputMappedClassifier
+Options: -I -trim -W weka.classifiers.rules.JRip -- -F 3 -N 20.0 -O 5 -S 1
+Relation: 000047-everything-2syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+
+Correctly Classified Instances        3927               91.6453 %
+Incorrectly Classified Instances       358                8.3547 %
+Kappa statistic                          0.5859
+Mean absolute error                      0.086 
+Root mean squared error                  0.2249
+Coverage of cases (0.95 level)          93.1622 %
+Total Number of Instances             4285     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,982    0,490    0,925      0,982    0,953      0,607    0,748     0,925     paenultima
+                 0,532    0,018    0,821      0,532    0,645      0,622    0,759     0,545     ultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,524     0,006     multa
+Weighted Avg.    0,916    0,424    0,906      0,916    0,906      0,606    0,748     0,869     
+
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+ 3624   65    0 |    a = paenultima
+  267  303    0 |    b = ultima
+   25    1    0 |    c = multa
+=== Evaluation result ===
+
+Scheme: NeuralNetwork4 : InputMappedClassifier
+Options: -I -trim -W weka.classifiers.functions.NeuralNetwork -- -lr 0.010000000000000002 -wp 1.0E-8 -mi 1000 -bs 100 -th 4 -hl 50 -di 0.2 -dh 0.5 -iw 2502
+Relation: 000047-everything-2syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+
+Correctly Classified Instances        4103               95.7526 %
+Incorrectly Classified Instances       182                4.2474 %
+Kappa statistic                          0.8152
+Mean absolute error                      0.0392
+Root mean squared error                  0.1531
+Coverage of cases (0.95 level)          98.5764 %
+Total Number of Instances             4285     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,984    0,201    0,968      0,984    0,976      0,820    0,980     0,996     paenultima
+                 0,828    0,017    0,884      0,828    0,855      0,834    0,983     0,920     ultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,920     0,173     multa
+Weighted Avg.    0,958    0,176    0,951      0,958    0,954      0,817    0,980     0,981     
+
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+ 3631   58    0 |    a = paenultima
+   98  472    0 |    b = ultima
+   22    4    0 |    c = multa

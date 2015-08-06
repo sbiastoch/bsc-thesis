@@ -1,0 +1,50 @@
+=== Classifier model ===
+
+Scheme:   J48
+Relation: 000047-everything-7syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-R17-19,67,118-weka.filters.unsupervised.attribute.RemoveByName-E^(basic_pos|comp_len|comp_struct|sa_struct|nomen)$-output-debug-info-do-not-check-capabilities
+
+J48 pruned tree
+------------------
+
+syl5 = schal_or_sell_or_le_or_sy_or_din_or_si_or_han_or_gi_or_na_or_frei_or_lauf_or_lo_or_d2_or_ste2_or_ne_or_fal_or_kl1_or_bre_or_mit_or_go_or_schich_or_kom_or_wu$t_or_ra_or_rak_or_stau_or_sph1_or_nigs_or_nis_or_or_or_sen_or_ga_or_samm_or_lei_or_kra_or_neh_or_ni_or_mi_or_kal_or_sig_or_st1n_or_f1_or_er_or_nen_or_mes_or_zeich_or_h1l_or_me_or_schi_or_m3_or_sta_or_de_or_z2n_or_h1lt_or_ons_or_bei_or_i_or_e_or_st3_or_fak_or_kennt_or_che_or_hig_or_ro_or_tech_or_schwe_or_kli_or_nah_or_du_or_bun_or_find_or_a_or_ton_or_mein_or_nie_or_bi_or_sul_or_h3_or_f1n_or_ta_or_ho_or_stim_or_schicht_or_fl1_or_hand_or_stat_or_q2el_or_man_or_so_or_rig_or_s1u_or_gen_or_brei_or_jek_or_ren_or_stel
+|   koda_len4 <= 1: undef (98.0/49.0)
+|   koda_len4 > 1: antepaenultima (20.0/5.0)
+syl5 = wei: multa (6.0/2.0)
+syl5 = no: undef (3.0/1.0)
+syl5 = ge: antepaenultima (8.0/3.0)
+syl5 = ri: prima (6.0/3.0)
+syl5 = sie: paenultima (22.0/1.0)
+syl5 = ma: multa (5.0/2.0)
+syl5 = ti: prima (28.0/17.0)
+syl5 = dig: sekunda (3.0/1.0)
+syl5 = li: ultima (13.0/7.0)
+syl5 = d2rf: undef (4.0/1.0)
+syl5 = la: undef (3.0/1.0)
+syl5 = lis: paenultima (6.0/1.0)
+syl5 = ka: prima (3.0/1.0)
+syl5 = pa: undef (3.0/1.0)
+syl5 = di: undef (3.0/1.0)
+syl5 = zi: prima (3.0/1.0)
+syl5 = o: prima (5.0/3.0)
+
+Number of Leaves  : 	19
+
+Size of the tree : 	21
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 000047-everything-7syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-R17-19,67,118-weka.filters.unsupervised.attribute.RemoveByName-E^(basic_pos|comp_len|comp_struct|sa_struct|nomen)$-output-debug-info-do-not-check-capabilities
+
+JRIP rules:
+===========
+
+(syl_weight1 <= 0) => stress_class=prima (57.0/27.0)
+ => stress_class=undef (185.0/135.0)
+
+Number of Rules : 2
+=== Classifier model ===
+
+Scheme:   NeuralNetwork
+Relation: 000047-everything-7syl-train-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-R17-19,67,118-weka.filters.unsupervised.attribute.RemoveByName-E^(basic_pos|comp_len|comp_struct|sa_struct|nomen)$-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@494a6641

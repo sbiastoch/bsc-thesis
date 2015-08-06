@@ -1,0 +1,105 @@
+=== Evaluation result ===
+
+Scheme: J483 : InputMappedClassifier
+Options: -I -trim -W weka.classifiers.trees.J48 -- -C 0.25 -M 20
+Relation: 000047-everything-5syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+
+Correctly Classified Instances         860               59.7637 %
+Incorrectly Classified Instances       579               40.2363 %
+Kappa statistic                          0.4526
+Mean absolute error                      0.169 
+Root mean squared error                  0.3007
+Coverage of cases (0.95 level)          94.5101 %
+Total Number of Instances             1439     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,698    0,363    0,519      0,698    0,595      0,322    0,736     0,608     prima
+                 0,250    0,028    0,479      0,250    0,329      0,299    0,742     0,291     antepaenultima
+                 0,234    0,039    0,574      0,234    0,332      0,287    0,767     0,462     sekunda
+                 0,818    0,054    0,685      0,818    0,746      0,709    0,961     0,740     ultima
+                 0,797    0,083    0,733      0,797    0,763      0,693    0,928     0,770     paenultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,693     0,053     multa
+Weighted Avg.    0,598    0,166    0,586      0,598    0,570      0,440    0,813     0,596     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   <-- classified as
+ 361  16  35  50  55   0 |   a = prima
+  80  34   5   6  11   0 |   b = antepaenultima
+ 163   9  62   7  24   0 |   c = sekunda
+  28   3   2 148   0   0 |   d = ultima
+  51   6   4   4 255   0 |   e = paenultima
+  13   3   0   1   3   0 |   f = multa
+=== Evaluation result ===
+
+Scheme: JRip3 : InputMappedClassifier
+Options: -I -trim -W weka.classifiers.rules.JRip -- -F 3 -N 20.0 -O 5 -S 1
+Relation: 000047-everything-5syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+
+Correctly Classified Instances         912               63.3773 %
+Incorrectly Classified Instances       527               36.6227 %
+Kappa statistic                          0.4856
+Mean absolute error                      0.1709
+Root mean squared error                  0.2973
+Coverage of cases (0.95 level)          96.9423 %
+Total Number of Instances             1439     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,849    0,444    0,518      0,849    0,643      0,395    0,719     0,509     prima
+                 0,125    0,002    0,850      0,125    0,218      0,307    0,705     0,228     antepaenultima
+                 0,358    0,013    0,864      0,358    0,507      0,504    0,767     0,487     sekunda
+                 0,696    0,021    0,824      0,696    0,754      0,726    0,889     0,643     ultima
+                 0,734    0,065    0,763      0,734    0,748      0,678    0,872     0,691     paenultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,631     0,019     multa
+Weighted Avg.    0,634    0,179    0,699      0,634    0,606      0,506    0,781     0,529     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   <-- classified as
+ 439   2   9  22  45   0 |   a = prima
+ 106  17   2   2   9   0 |   b = antepaenultima
+ 151   1  95   3  15   0 |   c = sekunda
+  54   0   1 126   0   0 |   d = ultima
+  82   0   3   0 235   0 |   e = paenultima
+  16   0   0   0   4   0 |   f = multa
+=== Evaluation result ===
+
+Scheme: NeuralNetwork3 : InputMappedClassifier
+Options: -I -trim -W weka.classifiers.functions.NeuralNetwork -- -lr 0.1 -wp 1.0E-8 -mi 1000 -bs 100 -th 4 -hl 50 -di 0.2 -dh 0.5 -iw 479
+Relation: 000047-everything-5syl-test-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N3-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last
+
+
+Correctly Classified Instances        1052               73.1063 %
+Incorrectly Classified Instances       387               26.8937 %
+Kappa statistic                          0.6384
+Mean absolute error                      0.1296
+Root mean squared error                  0.2549
+Coverage of cases (0.95 level)          96.3169 %
+Total Number of Instances             1439     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,809    0,202    0,692      0,809    0,746      0,590    0,884     0,823     prima
+                 0,287    0,013    0,696      0,287    0,406      0,414    0,849     0,498     antepaenultima
+                 0,589    0,044    0,750      0,589    0,660      0,600    0,889     0,741     sekunda
+                 0,878    0,029    0,815      0,878    0,846      0,823    0,982     0,896     ultima
+                 0,875    0,086    0,745      0,875    0,805      0,747    0,952     0,843     paenultima
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,720     0,026     multa
+Weighted Avg.    0,731    0,105    0,721      0,731    0,713      0,631    0,907     0,780     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   <-- classified as
+ 418   9  22  22  46   0 |   a = prima
+  59  39  17   4  17   0 |   b = antepaenultima
+  71   5 156   7  26   0 |   c = sekunda
+  20   0   0 159   2   0 |   d = ultima
+  26   1  11   2 280   0 |   e = paenultima
+  10   2   2   1   5   0 |   f = multa
