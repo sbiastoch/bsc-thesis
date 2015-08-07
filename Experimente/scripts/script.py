@@ -14,119 +14,143 @@ orderedDict = collections.OrderedDict()
 from collections import OrderedDict
 
 class Query(AffixHandler, PhonHandler, SylstructHandler, MetaHandler):
-	maxs = {}
+
 
 	# pretty names for ugly database fields
 	attributes = {
-	'no_of_syllables': 'MySylCnt',
-	'stress_pattern': 'StrsPat',
-	'stress_class': 'StrsClass',
-	'all_part_of_speech': 'class',
-	'composita_struct_all': 'REPLACE(ImmClass, \'x\', \'\')',
-	'comp_len': 'LENGTH(REPLACE(ImmClass, \'x\', \'\'))',
+		'no_of_syllables': 'MySylCnt',
+		'stress_pattern': 'StrsPat',
+		'stress_class': 'StrsClass',
+		'all_part_of_speech': 'class',
+		'composita_struct_all': 'REPLACE(ImmClass, \'x\', \'\')',
+		'comp_len': 'LENGTH(REPLACE(ImmClass, \'x\', \'\'))',
 	}
 
 	# virutal attributes and their prerequisits
 	augments = {
-	'syl_lens': ['MySylCnt', 'PhonCV', 'HeadSyl', 'Word'],
-	'syllables': ['MySylCnt', 'HeadSyl', 'Word'],
-	'syl_suffix': ['MySylCnt', 'HeadSyl', 'Word'],
-	'syl_praefix': ['Flat'],
-	'signi_praefix': ['Flat'],
-	'signi_suffix': ['Flat'],
-	'part_of_speech': ['class'],
-	'composita_struct': ['REPLACE(ImmClass, \'x\', \'\')'],
-	'sa_struct': ['ImmSA'],
-	'praefix_class': ['Flat'],
-	'praefixes': ['Word'],
-	'suffixes': ['Word'],
-	'praefixes_phoncat': ['PhonStrsDISC'],
-	'suffixes_phoncat': ['PhonStrsDISC'],
-	'suffix_class': ['Flat'],
-	'rhymes': ['MySylCnt', 'PhonCV'],
-	'cv_ratio': ['MySylCnt', 'PhonCV'],
-	'koda_len': ['MySylCnt', 'PhonCV'],
-	'onset_len': ['MySylCnt', 'PhonCV'],
-	'nucleus_len': ['MySylCnt', 'PhonCV'],
-	'comp_len': ['LENGTH(REPLACE(ImmClass, \'x\', \'\'))'],
-	'sonority': ['PhonStrsDISC', 'MySylCnt'],
-	'sonority_ratio': ['PhonStrsDISC', 'MySylCnt'],
-	'sonority_dir': ['PhonStrsDISC', 'MySylCnt'],
-	'syl_class': ['PhonStrsDISC', 'MySylCnt'],
-	'onset_class': ['PhonStrsDISC', 'MySylCnt'],
-	'koda_class': ['PhonStrsDISC', 'MySylCnt'],
-	'nucleus_class': ['PhonStrsDISC', 'MySylCnt'],
-	'syl_weights': ['PhonCV', 'PhonStrsDISC'],
-	'is_nomen': ['Word']
+		'syl_lens': ['MySylCnt', 'PhonCV', 'HeadSyl', 'Word'],
+		'syllables': ['MySylCnt', 'HeadSyl', 'Word'],
+		'syl_suffix': ['MySylCnt', 'HeadSyl', 'Word'],
+		'syl_praefix': ['Flat'],
+		'signi_praefix': ['Flat'],
+		'signi_suffix': ['Flat'],
+		'pos': ['class'],
+		'comp_struct': ['REPLACE(ImmClass, \'x\', \'\')'],
+		'sa_struct': ['ImmSA'],
+		'praefix_class': ['Flat'],
+		'praefixes': ['Word'],
+		'suffixes': ['Word'],
+		'praefixes_phoncat': ['PhonStrsDISC'],
+		'suffixes_phoncat': ['PhonStrsDISC'],
+		'suffix_class': ['Flat'],
+		'rhymes': ['MySylCnt', 'PhonCV'],
+		'syl_open': ['MySylCnt', 'PhonCV'],
+		'syl_cv': ['MySylCnt', 'PhonCV'],
+		'cv_ratio': ['MySylCnt', 'PhonCV'],
+		'koda_len': ['MySylCnt', 'PhonCV'],
+		'onset_len': ['MySylCnt', 'PhonCV'],
+		'nucleus_len': ['MySylCnt', 'PhonCV'],
+		'comp_len': ['LENGTH(REPLACE(ImmClass, \'x\', \'\'))'],
+		'sonority': ['PhonStrsDISC', 'MySylCnt'],
+		'sonority_ratio': ['PhonStrsDISC', 'MySylCnt'],
+		'sonority_dir': ['PhonStrsDISC', 'MySylCnt'],
+		'syl_phoncat': ['PhonStrsDISC', 'MySylCnt'],
+		'onset_phoncat': ['PhonStrsDISC', 'MySylCnt'],
+		'koda_phoncat': ['PhonStrsDISC', 'MySylCnt'],
+		'nucleus_phoncat': ['PhonStrsDISC', 'MySylCnt'],
+		'syl_weights': ['PhonCV', 'PhonStrsDISC', 'MySylCnt'],
+		'nomen': ['Word']
 	}
 
+
 #############################################################
-
-q = Query('lemmas2',100)
-#q.maxs.update({'MySylCnt':9})
-q.alter_by_stress_class()
-q.alter_by_multiple_stress_class()
-#q.fix_umlauts()
-q.alter_by_mysylcnt()
-"""q.setFields('sylcnt,stress_class').augment('\
-	koda_len,\
-	koda_class,\
-	nucleus_len,\
-	nucleus_class,\
-	onset_len,\
-	onset_class,\
-	syl_lens,\
-	syl_suffix,\
-	syl_praefix,\
-	praefixes,\
-	praefix_class,\
-	praefixes_classes,\
-	suffixes,\
-	suffixes_classes,\
-	suffix_class,\
-	rhymes,\
-	cv_ratio,\
-	comp_len,\
-	sonority,\
-	sonority_ratio,\
-	sonority_dir,\
-	syl_class,\
-	syl_weights,\
-	is_nomen\
-	')\
-"""
-
 
 ############ Featuresets ##################
 suffix = 'syl_suffix, signi_suffix, suffixes, suffixes_phoncat'
 praefix = 'syl_praefix, signi_praefix, praefixes, praefixes_phoncat'
-affixe = suffix+', '+praefix
 
 sonority = 'sonority, sonority_ratio, sonority_dir'
-weight = 'syl_weights'
-sonority_weight = sonority+', '+weight
+weight = 'syl_weights, syl_open'
+phoncat = 'syl_phoncat, onset_phoncat, koda_phoncat, nucleus_phoncat'
 
-sylstruct = ''
+lens =  'syl_lens, koda_len, onset_len, nucleus_len'
+cv = 'syl_cv, cv_ratio'
 
-meta = ''
+meta = 'pos, comp_struct, nomen, comp_len'
 
-
+all = suffix+', '+praefix+', '+sonority+', '+weight+', '+phoncat+', '+lens+', '+cv+', '+meta
 numeric = ''
-
 sparse = ''
 
-all = affixe +', '+ sonority_weight +', '+ sylstruct +', '+ meta
+featureset = {
+	'suffix': 	suffix,
+	'praefix': 	praefix,
+	'affix':	suffix+', '+praefix,
+	'sonority':	sonority,
+	'weights':	weight,
+	'phoncat': 	phoncat,
+	'phon': 	sonority+', '+weight+', '+phoncat,
+	'lens':		lens,
+	'cv':		cv,
+	'meta':		meta,
+
+}
 
 ############ Filters #################
+
 only_proper_classes = 'StrsClass != "multa" and StrsClass != "nulla" and StrsClass != "undef"'
+only_improper_classes = 'StrsClass = "multa" or StrsClass = "nulla" or StrsClass = "undef"'
 only_nonkomposita = 'LENGTH(REPLACE(ImmClass, \'x\', \'\'))<=1'
+only_komposita = 'LENGTH(REPLACE(ImmClass, \'x\', \'\'))>1'
 
 ###################################
 
-q.setFields('Word, stress_class').augment(sonority_weight).where('MySylCnt=3').where(only_proper_classes)
+#q = Query('lemmas2',1000000)
+#q.maxs.update({'MySylCnt':9})
+#q.alter_by_stress_class()
+#q.alter_by_multiple_stress_class()
+#q.fix_umlauts()
+#q.alter_by_mysylcnt()
+#q.setFields('Word, stress_class').augment(all).where(only_proper_classes)
+#res = q.execute()
+#res.show(2)
+#res.csv('test.csv')
+
+# alle mit vernünftigen klassen
+q = Query('lemmas2',1000000)
+q.setFields('Word, stress_class').augment(all).where(only_proper_classes)
 res = q.execute()
-res.show(4)
-#res.csv('000047-everything-10syl.csv')
+res.csv('all.csv')
+del q, res
+
+for syls in list('765432'):
+	# alle mit vernünftigen klassen
+	q = Query('lemmas2',1000000)
+	q.setFields('Word, stress_class').augment(all).where('MySylCnt='+str(syls)).where(only_proper_classes)
+	res = q.execute()
+	res.csv(str(syls)+'syl-all.csv')
+	del q, res
+
+	# alle wörter, von denen wir erwarten vernünftige regeln zu finden, da keine komposita und keine komischen multa-klassen
+	q2 = Query('lemmas2',1000000)
+	q2.setFields('Word, stress_class').augment(all).where('MySylCnt='+str(syls)).where(only_proper_classes).where(only_nonkomposita)
+	res2 = q2.execute()
+	res2.csv(str(syls)+'syl-nocomp.csv')
+	del q2, res2
+
+	# Interessant zu schauen, was die Modelle dann auf "komischen" Daten tun...vllt kommt ja was sinnvolles bei raus?
+	q1 = Query('lemmas2',1000000)
+	q1.setFields('Word, stress_class').augment(all).where('MySylCnt='+str(syls)).where(only_improper_classes)
+	res1 = q1.execute()
+	res1.csv(str(syls)+'syl-onlynoise.csv')
+	del q1, res1
+
+	# interessant für evtl komposita-only studien?
+	q3 = Query('lemmas2',1000000)
+	q3.setFields('Word, stress_class').augment(all).where('MySylCnt='+str(syls)).where(only_komposita)
+	res3 = q3.execute()
+	res3.csv(str(syls)+'syl-onlycomp.csv')
+	del q3, res3
 
 """
 

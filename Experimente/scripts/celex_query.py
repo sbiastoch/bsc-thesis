@@ -10,15 +10,16 @@ orderedDict = collections.OrderedDict()
 from collections import OrderedDict
 
 class CelexQuery:
-
-	fields = []
-	filters = []
-	table = 'lemmas'
-	limit = 1000
-	results = []
-	augmented = []
-	query = ""
-	connection = None
+	def __init__(self, table='lemmas2', limit=1000):
+		self.table = table
+		self.limit = limit
+		self.fields = []
+		self.filters = []
+		self.results = []
+		self.augmented = []
+		self.query = ""
+		self.connection = None
+		self.maxs = {}
 
 	def __alter_table(self, table, col):
 		alter = 'ALTER TABLE  `'+table+'` ADD  `'+col+'` VARCHAR(50);'
@@ -91,10 +92,6 @@ class CelexQuery:
 		]
 		self.make_update(sqls)
 		print "Umlaute gefixt\n"
-
-	def __init__(self, table='lemmas', limit=1000):
-		self.table = table
-		self.limit = limit
 
 	def table(self, table):
 		self.table = table

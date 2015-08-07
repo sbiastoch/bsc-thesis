@@ -21,6 +21,9 @@ from collections import OrderedDict
 	suffix_phoncat[1-5]		compute_suffixes_phoncat: 	Liefert die Phonetische Klasse (O/S/A/...) der letzten 1-5 Phoneme
 	suffix[1-5]				compute_suffixes: 			Liefert die letzten 1-5 Buchstbaen eines Wortes
 	praefix[1-5]			compute_praefixes: 			Liefert die ersten 1-5 Buchstaben eines Wortes
+
+	Feature work:
+	 - 
 """
 class AffixHandler(CelexQuery):
 

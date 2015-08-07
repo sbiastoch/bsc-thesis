@@ -10,6 +10,16 @@ from celex_query import CelexQuery
 orderedDict = collections.OrderedDict()
 from collections import OrderedDict
 
+"""
+	Field 			Function 					Description
+	pos 			compute_pos 		 		Grundlegendes POS-Tagging
+	comp_struct		compute_comp_struct			Struktur des Kompositums
+	nomen			compute_nomen 				Ist das Wort ein Nomen?
+	comp_len		compute_comp_len 			Anzahl der Komponenten
+
+	Future Work:
+	 - Verlgeichen welche Wortarten (POS) auf die gleiche Weise auf den Akzent wirken
+"""
 class MetaHandler(CelexQuery):
 	signi_classes = ['N',	#30k
 					 'A',	#9.8k
@@ -28,25 +38,20 @@ class MetaHandler(CelexQuery):
 							'BV',#0.7k
 							'PV',#0.7k
 							'NV',#0.7k
-						]#	'PN',#0.45k
-						#	'AV',#0.38k
-						#	'NF',#0.33k
-						#	'AA',#0.27k
-						#	'B'] #0.26k
+							'PN',#0.45k
+							'AV',#0.38k
+							'NF',#0.33k
+							'AA',#0.27k
+							'B'] #0.26k
 
-	main_ImmSAs = ['SA','SS','S','AS','SAS','SSA','SAA'] # s=stem, a=affix
+	def compute_pos(self, row):
+		return {'pos': row['class'] if row['class'] in self.signi_classes else 'X'}
 
-	def compute_part_of_speech(self, row):
-		return {'basic_pos': row['class'] if row['class'] in self.signi_classes else 'ø'}
-
-	def compute_composita_struct(self, row):
+	def compute_comp_struct(self, row):
 		return {'comp_struct': row['REPLACE(ImmClass, \'x\', \'\')'] if row['REPLACE(ImmClass, \'x\', \'\')'] in self.main_compound_strucs else 'ø'}
 
-	def compute_is_nomen(self, row):
+	def compute_nomen(self, row):
 		return {'nomen': 'T' if row['Word'][0].istitle() else 'F'}
-
-	def compute_sa_struct(self, row):
-		return {'sa_struct': row['ImmSA'] if row['ImmSA'] in self.main_ImmSAs else 'ø'}
 
 	def compute_comp_len(self, row):		
 		l = row['LENGTH(REPLACE(ImmClass, \'x\', \'\'))']
