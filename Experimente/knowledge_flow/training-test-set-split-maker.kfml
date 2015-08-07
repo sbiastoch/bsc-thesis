@@ -16,15 +16,15 @@
    <object class="java.util.Vector" name="0">
       <object class="weka.gui.beans.BeanInstance" name="0">
          <object class="int" name="id" primitive="yes">0</object>
-         <object class="int" name="x" primitive="yes">881</object>
-         <object class="int" name="y" primitive="yes">443</object>
+         <object class="int" name="x" primitive="yes">1182</object>
+         <object class="int" name="y" primitive="yes">316</object>
          <object class="java.lang.String" name="custom_name">CSVSaver</object>
          <object class="weka.gui.beans.Saver" name="bean">
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
                <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
-               <object class="java.lang.String" name="prefix"/>
+               <object class="java.lang.String" name="prefix">test</object>
                <object class="boolean" name="useRelativePath" primitive="yes">true</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-F</object>
@@ -39,12 +39,12 @@
       </object>
       <object class="weka.gui.beans.BeanInstance" name="1">
          <object class="int" name="id" primitive="yes">1</object>
-         <object class="int" name="x" primitive="yes">59</object>
-         <object class="int" name="y" primitive="yes">270</object>
+         <object class="int" name="x" primitive="yes">1143</object>
+         <object class="int" name="y" primitive="yes">52</object>
          <object class="java.lang.String" name="custom_name">CSVLoader</object>
          <object class="weka.gui.beans.Loader" name="bean">
             <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
-               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/000047-everything-8syl.csv</object>
+               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/7syl-all.csv</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-M</object>
@@ -65,34 +65,927 @@
       </object>
       <object class="weka.gui.beans.BeanInstance" name="2">
          <object class="int" name="id" primitive="yes">2</object>
-         <object class="int" name="x" primitive="yes">185</object>
-         <object class="int" name="y" primitive="yes">271</object>
-         <object class="java.lang.String" name="custom_name">ClassAssigner</object>
-         <object class="weka.gui.beans.ClassAssigner" name="bean">
-            <object class="java.lang.String" name="classColumn">last</object>
-         </object>
-      </object>
-      <object class="weka.gui.beans.BeanInstance" name="3">
-         <object class="int" name="id" primitive="yes">3</object>
-         <object class="int" name="x" primitive="yes">779</object>
-         <object class="int" name="y" primitive="yes">267</object>
+         <object class="int" name="x" primitive="yes">1151</object>
+         <object class="int" name="y" primitive="yes">217</object>
          <object class="java.lang.String" name="custom_name">TrainTestSplitMaker2</object>
          <object class="weka.gui.beans.TrainTestSplitMaker" name="bean">
             <object class="int" name="seed" primitive="yes">42</object>
             <object class="double" name="trainPercent" primitive="yes">66.0</object>
          </object>
       </object>
-      <object class="weka.gui.beans.BeanInstance" name="4">
-         <object class="int" name="id" primitive="yes">4</object>
-         <object class="int" name="x" primitive="yes">631</object>
-         <object class="int" name="y" primitive="yes">429</object>
+      <object class="weka.gui.beans.BeanInstance" name="3">
+         <object class="int" name="id" primitive="yes">3</object>
+         <object class="int" name="x" primitive="yes">1100</object>
+         <object class="int" name="y" primitive="yes">315</object>
          <object class="java.lang.String" name="custom_name">CSVSaver2</object>
          <object class="weka.gui.beans.Saver" name="bean">
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
                <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
-               <object class="java.lang.String" name="prefix"/>
+               <object class="java.lang.String" name="prefix">train</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-F</object>
+                  <object class="java.lang.String" name="1">,</object>
+                  <object class="java.lang.String" name="2">-M</object>
+                  <object class="java.lang.String" name="3">?</object>
+                  <object class="java.lang.String" name="4">-decimal</object>
+                  <object class="java.lang.String" name="5">6</object>
+               </object>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="4">
+         <object class="int" name="id" primitive="yes">4</object>
+         <object class="int" name="x" primitive="yes">1014</object>
+         <object class="int" name="y" primitive="yes">320</object>
+         <object class="java.lang.String" name="custom_name">CSVSaver3</object>
+         <object class="weka.gui.beans.Saver" name="bean">
+            <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
+            <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file"/>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="prefix">test</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">true</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-F</object>
+                  <object class="java.lang.String" name="1">,</object>
+                  <object class="java.lang.String" name="2">-M</object>
+                  <object class="java.lang.String" name="3">?</object>
+                  <object class="java.lang.String" name="4">-decimal</object>
+                  <object class="java.lang.String" name="5">6</object>
+               </object>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="5">
+         <object class="int" name="id" primitive="yes">5</object>
+         <object class="int" name="x" primitive="yes">975</object>
+         <object class="int" name="y" primitive="yes">56</object>
+         <object class="java.lang.String" name="custom_name">CSVLoader2</object>
+         <object class="weka.gui.beans.Loader" name="bean">
+            <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/6syl-all.csv</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-M</object>
+                  <object class="java.lang.String" name="1">?</object>
+                  <object class="java.lang.String" name="2">-B</object>
+                  <object class="java.lang.String" name="3">100</object>
+                  <object class="java.lang.String" name="4">-E</object>
+                  <object class="java.lang.String" name="5">&quot;,&apos;</object>
+                  <object class="java.lang.String" name="6">-F</object>
+                  <object class="java.lang.String" name="7">,</object>
+               </object>
+            </object>
+            <object class="java.beans.beancontext.BeanContextSupport" name="beanContext">
+               <object class="boolean" name="designTime" primitive="yes">true</object>
+               <object class="null" name="beanContext" null="yes"/>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="6">
+         <object class="int" name="id" primitive="yes">6</object>
+         <object class="int" name="x" primitive="yes">983</object>
+         <object class="int" name="y" primitive="yes">221</object>
+         <object class="java.lang.String" name="custom_name">TrainTestSplitMaker22</object>
+         <object class="weka.gui.beans.TrainTestSplitMaker" name="bean">
+            <object class="int" name="seed" primitive="yes">42</object>
+            <object class="double" name="trainPercent" primitive="yes">66.0</object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="7">
+         <object class="int" name="id" primitive="yes">7</object>
+         <object class="int" name="x" primitive="yes">932</object>
+         <object class="int" name="y" primitive="yes">319</object>
+         <object class="java.lang.String" name="custom_name">CSVSaver22</object>
+         <object class="weka.gui.beans.Saver" name="bean">
+            <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
+            <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file"/>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="prefix">train</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-F</object>
+                  <object class="java.lang.String" name="1">,</object>
+                  <object class="java.lang.String" name="2">-M</object>
+                  <object class="java.lang.String" name="3">?</object>
+                  <object class="java.lang.String" name="4">-decimal</object>
+                  <object class="java.lang.String" name="5">6</object>
+               </object>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="8">
+         <object class="int" name="id" primitive="yes">8</object>
+         <object class="int" name="x" primitive="yes">834</object>
+         <object class="int" name="y" primitive="yes">325</object>
+         <object class="java.lang.String" name="custom_name">CSVSaver23</object>
+         <object class="weka.gui.beans.Saver" name="bean">
+            <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
+            <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file"/>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="prefix">test</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">true</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-F</object>
+                  <object class="java.lang.String" name="1">,</object>
+                  <object class="java.lang.String" name="2">-M</object>
+                  <object class="java.lang.String" name="3">?</object>
+                  <object class="java.lang.String" name="4">-decimal</object>
+                  <object class="java.lang.String" name="5">6</object>
+               </object>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="9">
+         <object class="int" name="id" primitive="yes">9</object>
+         <object class="int" name="x" primitive="yes">795</object>
+         <object class="int" name="y" primitive="yes">61</object>
+         <object class="java.lang.String" name="custom_name">CSVLoader3</object>
+         <object class="weka.gui.beans.Loader" name="bean">
+            <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/5syl-all.csv</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-M</object>
+                  <object class="java.lang.String" name="1">?</object>
+                  <object class="java.lang.String" name="2">-B</object>
+                  <object class="java.lang.String" name="3">100</object>
+                  <object class="java.lang.String" name="4">-E</object>
+                  <object class="java.lang.String" name="5">&quot;,&apos;</object>
+                  <object class="java.lang.String" name="6">-F</object>
+                  <object class="java.lang.String" name="7">,</object>
+               </object>
+            </object>
+            <object class="java.beans.beancontext.BeanContextSupport" name="beanContext">
+               <object class="boolean" name="designTime" primitive="yes">true</object>
+               <object class="null" name="beanContext" null="yes"/>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="10">
+         <object class="int" name="id" primitive="yes">10</object>
+         <object class="int" name="x" primitive="yes">803</object>
+         <object class="int" name="y" primitive="yes">226</object>
+         <object class="java.lang.String" name="custom_name">TrainTestSplitMaker23</object>
+         <object class="weka.gui.beans.TrainTestSplitMaker" name="bean">
+            <object class="int" name="seed" primitive="yes">42</object>
+            <object class="double" name="trainPercent" primitive="yes">66.0</object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="11">
+         <object class="int" name="id" primitive="yes">11</object>
+         <object class="int" name="x" primitive="yes">752</object>
+         <object class="int" name="y" primitive="yes">324</object>
+         <object class="java.lang.String" name="custom_name">CSVSaver24</object>
+         <object class="weka.gui.beans.Saver" name="bean">
+            <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
+            <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file"/>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="prefix">train</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-F</object>
+                  <object class="java.lang.String" name="1">,</object>
+                  <object class="java.lang.String" name="2">-M</object>
+                  <object class="java.lang.String" name="3">?</object>
+                  <object class="java.lang.String" name="4">-decimal</object>
+                  <object class="java.lang.String" name="5">6</object>
+               </object>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="12">
+         <object class="int" name="id" primitive="yes">12</object>
+         <object class="int" name="x" primitive="yes">655</object>
+         <object class="int" name="y" primitive="yes">325</object>
+         <object class="java.lang.String" name="custom_name">CSVSaver25</object>
+         <object class="weka.gui.beans.Saver" name="bean">
+            <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
+            <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file"/>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="prefix">test</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">true</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-F</object>
+                  <object class="java.lang.String" name="1">,</object>
+                  <object class="java.lang.String" name="2">-M</object>
+                  <object class="java.lang.String" name="3">?</object>
+                  <object class="java.lang.String" name="4">-decimal</object>
+                  <object class="java.lang.String" name="5">6</object>
+               </object>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="13">
+         <object class="int" name="id" primitive="yes">13</object>
+         <object class="int" name="x" primitive="yes">616</object>
+         <object class="int" name="y" primitive="yes">61</object>
+         <object class="java.lang.String" name="custom_name">CSVLoader4</object>
+         <object class="weka.gui.beans.Loader" name="bean">
+            <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/4syl-all.csv</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-M</object>
+                  <object class="java.lang.String" name="1">?</object>
+                  <object class="java.lang.String" name="2">-B</object>
+                  <object class="java.lang.String" name="3">100</object>
+                  <object class="java.lang.String" name="4">-E</object>
+                  <object class="java.lang.String" name="5">&quot;,&apos;</object>
+                  <object class="java.lang.String" name="6">-F</object>
+                  <object class="java.lang.String" name="7">,</object>
+               </object>
+            </object>
+            <object class="java.beans.beancontext.BeanContextSupport" name="beanContext">
+               <object class="boolean" name="designTime" primitive="yes">true</object>
+               <object class="null" name="beanContext" null="yes"/>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="14">
+         <object class="int" name="id" primitive="yes">14</object>
+         <object class="int" name="x" primitive="yes">624</object>
+         <object class="int" name="y" primitive="yes">226</object>
+         <object class="java.lang.String" name="custom_name">TrainTestSplitMaker24</object>
+         <object class="weka.gui.beans.TrainTestSplitMaker" name="bean">
+            <object class="int" name="seed" primitive="yes">42</object>
+            <object class="double" name="trainPercent" primitive="yes">66.0</object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="15">
+         <object class="int" name="id" primitive="yes">15</object>
+         <object class="int" name="x" primitive="yes">573</object>
+         <object class="int" name="y" primitive="yes">324</object>
+         <object class="java.lang.String" name="custom_name">CSVSaver26</object>
+         <object class="weka.gui.beans.Saver" name="bean">
+            <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
+            <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file"/>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="prefix">train</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-F</object>
+                  <object class="java.lang.String" name="1">,</object>
+                  <object class="java.lang.String" name="2">-M</object>
+                  <object class="java.lang.String" name="3">?</object>
+                  <object class="java.lang.String" name="4">-decimal</object>
+                  <object class="java.lang.String" name="5">6</object>
+               </object>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="16">
+         <object class="int" name="id" primitive="yes">16</object>
+         <object class="int" name="x" primitive="yes">466</object>
+         <object class="int" name="y" primitive="yes">325</object>
+         <object class="java.lang.String" name="custom_name">CSVSaver27</object>
+         <object class="weka.gui.beans.Saver" name="bean">
+            <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
+            <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file"/>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="prefix">test</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">true</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-F</object>
+                  <object class="java.lang.String" name="1">,</object>
+                  <object class="java.lang.String" name="2">-M</object>
+                  <object class="java.lang.String" name="3">?</object>
+                  <object class="java.lang.String" name="4">-decimal</object>
+                  <object class="java.lang.String" name="5">6</object>
+               </object>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="17">
+         <object class="int" name="id" primitive="yes">17</object>
+         <object class="int" name="x" primitive="yes">427</object>
+         <object class="int" name="y" primitive="yes">61</object>
+         <object class="java.lang.String" name="custom_name">CSVLoader5</object>
+         <object class="weka.gui.beans.Loader" name="bean">
+            <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/3syl-all.csv</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-M</object>
+                  <object class="java.lang.String" name="1">?</object>
+                  <object class="java.lang.String" name="2">-B</object>
+                  <object class="java.lang.String" name="3">100</object>
+                  <object class="java.lang.String" name="4">-E</object>
+                  <object class="java.lang.String" name="5">&quot;,&apos;</object>
+                  <object class="java.lang.String" name="6">-F</object>
+                  <object class="java.lang.String" name="7">,</object>
+               </object>
+            </object>
+            <object class="java.beans.beancontext.BeanContextSupport" name="beanContext">
+               <object class="boolean" name="designTime" primitive="yes">true</object>
+               <object class="null" name="beanContext" null="yes"/>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="18">
+         <object class="int" name="id" primitive="yes">18</object>
+         <object class="int" name="x" primitive="yes">435</object>
+         <object class="int" name="y" primitive="yes">226</object>
+         <object class="java.lang.String" name="custom_name">TrainTestSplitMaker25</object>
+         <object class="weka.gui.beans.TrainTestSplitMaker" name="bean">
+            <object class="int" name="seed" primitive="yes">42</object>
+            <object class="double" name="trainPercent" primitive="yes">66.0</object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="19">
+         <object class="int" name="id" primitive="yes">19</object>
+         <object class="int" name="x" primitive="yes">384</object>
+         <object class="int" name="y" primitive="yes">324</object>
+         <object class="java.lang.String" name="custom_name">CSVSaver28</object>
+         <object class="weka.gui.beans.Saver" name="bean">
+            <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
+            <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file"/>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="prefix">train</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-F</object>
+                  <object class="java.lang.String" name="1">,</object>
+                  <object class="java.lang.String" name="2">-M</object>
+                  <object class="java.lang.String" name="3">?</object>
+                  <object class="java.lang.String" name="4">-decimal</object>
+                  <object class="java.lang.String" name="5">6</object>
+               </object>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="20">
+         <object class="int" name="id" primitive="yes">20</object>
+         <object class="int" name="x" primitive="yes">275</object>
+         <object class="int" name="y" primitive="yes">325</object>
+         <object class="java.lang.String" name="custom_name">CSVSaver29</object>
+         <object class="weka.gui.beans.Saver" name="bean">
+            <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
+            <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file"/>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="prefix">test</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">true</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-F</object>
+                  <object class="java.lang.String" name="1">,</object>
+                  <object class="java.lang.String" name="2">-M</object>
+                  <object class="java.lang.String" name="3">?</object>
+                  <object class="java.lang.String" name="4">-decimal</object>
+                  <object class="java.lang.String" name="5">6</object>
+               </object>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="21">
+         <object class="int" name="id" primitive="yes">21</object>
+         <object class="int" name="x" primitive="yes">236</object>
+         <object class="int" name="y" primitive="yes">61</object>
+         <object class="java.lang.String" name="custom_name">CSVLoader6</object>
+         <object class="weka.gui.beans.Loader" name="bean">
+            <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/2syl-all.csv</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-M</object>
+                  <object class="java.lang.String" name="1">?</object>
+                  <object class="java.lang.String" name="2">-B</object>
+                  <object class="java.lang.String" name="3">100</object>
+                  <object class="java.lang.String" name="4">-E</object>
+                  <object class="java.lang.String" name="5">&quot;,&apos;</object>
+                  <object class="java.lang.String" name="6">-F</object>
+                  <object class="java.lang.String" name="7">,</object>
+               </object>
+            </object>
+            <object class="java.beans.beancontext.BeanContextSupport" name="beanContext">
+               <object class="boolean" name="designTime" primitive="yes">true</object>
+               <object class="null" name="beanContext" null="yes"/>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="22">
+         <object class="int" name="id" primitive="yes">22</object>
+         <object class="int" name="x" primitive="yes">244</object>
+         <object class="int" name="y" primitive="yes">226</object>
+         <object class="java.lang.String" name="custom_name">TrainTestSplitMaker26</object>
+         <object class="weka.gui.beans.TrainTestSplitMaker" name="bean">
+            <object class="int" name="seed" primitive="yes">42</object>
+            <object class="double" name="trainPercent" primitive="yes">66.0</object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="23">
+         <object class="int" name="id" primitive="yes">23</object>
+         <object class="int" name="x" primitive="yes">193</object>
+         <object class="int" name="y" primitive="yes">324</object>
+         <object class="java.lang.String" name="custom_name">CSVSaver210</object>
+         <object class="weka.gui.beans.Saver" name="bean">
+            <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
+            <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file"/>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="prefix">train</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-F</object>
+                  <object class="java.lang.String" name="1">,</object>
+                  <object class="java.lang.String" name="2">-M</object>
+                  <object class="java.lang.String" name="3">?</object>
+                  <object class="java.lang.String" name="4">-decimal</object>
+                  <object class="java.lang.String" name="5">6</object>
+               </object>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="24">
+         <object class="int" name="id" primitive="yes">24</object>
+         <object class="int" name="x" primitive="yes">266</object>
+         <object class="int" name="y" primitive="yes">684</object>
+         <object class="java.lang.String" name="custom_name">CSVSaver292</object>
+         <object class="weka.gui.beans.Saver" name="bean">
+            <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
+            <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file"/>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="prefix">test</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">true</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-F</object>
+                  <object class="java.lang.String" name="1">,</object>
+                  <object class="java.lang.String" name="2">-M</object>
+                  <object class="java.lang.String" name="3">?</object>
+                  <object class="java.lang.String" name="4">-decimal</object>
+                  <object class="java.lang.String" name="5">6</object>
+               </object>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="25">
+         <object class="int" name="id" primitive="yes">25</object>
+         <object class="int" name="x" primitive="yes">227</object>
+         <object class="int" name="y" primitive="yes">420</object>
+         <object class="java.lang.String" name="custom_name">CSVLoader</object>
+         <object class="weka.gui.beans.Loader" name="bean">
+            <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/2syl-nocomp.csv</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-M</object>
+                  <object class="java.lang.String" name="1">?</object>
+                  <object class="java.lang.String" name="2">-B</object>
+                  <object class="java.lang.String" name="3">100</object>
+                  <object class="java.lang.String" name="4">-E</object>
+                  <object class="java.lang.String" name="5">&quot;,&apos;</object>
+                  <object class="java.lang.String" name="6">-F</object>
+                  <object class="java.lang.String" name="7">,</object>
+               </object>
+            </object>
+            <object class="java.beans.beancontext.BeanContextSupport" name="beanContext">
+               <object class="boolean" name="designTime" primitive="yes">true</object>
+               <object class="null" name="beanContext" null="yes"/>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="26">
+         <object class="int" name="id" primitive="yes">26</object>
+         <object class="int" name="x" primitive="yes">235</object>
+         <object class="int" name="y" primitive="yes">585</object>
+         <object class="java.lang.String" name="custom_name">TrainTestSplitMaker262</object>
+         <object class="weka.gui.beans.TrainTestSplitMaker" name="bean">
+            <object class="int" name="seed" primitive="yes">42</object>
+            <object class="double" name="trainPercent" primitive="yes">66.0</object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="27">
+         <object class="int" name="id" primitive="yes">27</object>
+         <object class="int" name="x" primitive="yes">184</object>
+         <object class="int" name="y" primitive="yes">683</object>
+         <object class="java.lang.String" name="custom_name">CSVSaver2102</object>
+         <object class="weka.gui.beans.Saver" name="bean">
+            <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
+            <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file"/>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="prefix">train</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-F</object>
+                  <object class="java.lang.String" name="1">,</object>
+                  <object class="java.lang.String" name="2">-M</object>
+                  <object class="java.lang.String" name="3">?</object>
+                  <object class="java.lang.String" name="4">-decimal</object>
+                  <object class="java.lang.String" name="5">6</object>
+               </object>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="28">
+         <object class="int" name="id" primitive="yes">28</object>
+         <object class="int" name="x" primitive="yes">456</object>
+         <object class="int" name="y" primitive="yes">675</object>
+         <object class="java.lang.String" name="custom_name">CSVSaver2922</object>
+         <object class="weka.gui.beans.Saver" name="bean">
+            <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
+            <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file"/>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="prefix">test</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">true</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-F</object>
+                  <object class="java.lang.String" name="1">,</object>
+                  <object class="java.lang.String" name="2">-M</object>
+                  <object class="java.lang.String" name="3">?</object>
+                  <object class="java.lang.String" name="4">-decimal</object>
+                  <object class="java.lang.String" name="5">6</object>
+               </object>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="29">
+         <object class="int" name="id" primitive="yes">29</object>
+         <object class="int" name="x" primitive="yes">417</object>
+         <object class="int" name="y" primitive="yes">411</object>
+         <object class="java.lang.String" name="custom_name">CSVLoader7</object>
+         <object class="weka.gui.beans.Loader" name="bean">
+            <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/3syl-nocomp.csv</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-M</object>
+                  <object class="java.lang.String" name="1">?</object>
+                  <object class="java.lang.String" name="2">-B</object>
+                  <object class="java.lang.String" name="3">100</object>
+                  <object class="java.lang.String" name="4">-E</object>
+                  <object class="java.lang.String" name="5">&quot;,&apos;</object>
+                  <object class="java.lang.String" name="6">-F</object>
+                  <object class="java.lang.String" name="7">,</object>
+               </object>
+            </object>
+            <object class="java.beans.beancontext.BeanContextSupport" name="beanContext">
+               <object class="boolean" name="designTime" primitive="yes">true</object>
+               <object class="null" name="beanContext" null="yes"/>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="30">
+         <object class="int" name="id" primitive="yes">30</object>
+         <object class="int" name="x" primitive="yes">425</object>
+         <object class="int" name="y" primitive="yes">576</object>
+         <object class="java.lang.String" name="custom_name">TrainTestSplitMaker2622</object>
+         <object class="weka.gui.beans.TrainTestSplitMaker" name="bean">
+            <object class="int" name="seed" primitive="yes">42</object>
+            <object class="double" name="trainPercent" primitive="yes">66.0</object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="31">
+         <object class="int" name="id" primitive="yes">31</object>
+         <object class="int" name="x" primitive="yes">374</object>
+         <object class="int" name="y" primitive="yes">674</object>
+         <object class="java.lang.String" name="custom_name">CSVSaver21022</object>
+         <object class="weka.gui.beans.Saver" name="bean">
+            <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
+            <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file"/>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="prefix">train</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-F</object>
+                  <object class="java.lang.String" name="1">,</object>
+                  <object class="java.lang.String" name="2">-M</object>
+                  <object class="java.lang.String" name="3">?</object>
+                  <object class="java.lang.String" name="4">-decimal</object>
+                  <object class="java.lang.String" name="5">6</object>
+               </object>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="32">
+         <object class="int" name="id" primitive="yes">32</object>
+         <object class="int" name="x" primitive="yes">644</object>
+         <object class="int" name="y" primitive="yes">680</object>
+         <object class="java.lang.String" name="custom_name">CSVSaver2923</object>
+         <object class="weka.gui.beans.Saver" name="bean">
+            <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
+            <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file"/>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="prefix">test</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">true</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-F</object>
+                  <object class="java.lang.String" name="1">,</object>
+                  <object class="java.lang.String" name="2">-M</object>
+                  <object class="java.lang.String" name="3">?</object>
+                  <object class="java.lang.String" name="4">-decimal</object>
+                  <object class="java.lang.String" name="5">6</object>
+               </object>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="33">
+         <object class="int" name="id" primitive="yes">33</object>
+         <object class="int" name="x" primitive="yes">605</object>
+         <object class="int" name="y" primitive="yes">416</object>
+         <object class="java.lang.String" name="custom_name">CSVLoader8</object>
+         <object class="weka.gui.beans.Loader" name="bean">
+            <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/4syl-nocomp.csv</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-M</object>
+                  <object class="java.lang.String" name="1">?</object>
+                  <object class="java.lang.String" name="2">-B</object>
+                  <object class="java.lang.String" name="3">100</object>
+                  <object class="java.lang.String" name="4">-E</object>
+                  <object class="java.lang.String" name="5">&quot;,&apos;</object>
+                  <object class="java.lang.String" name="6">-F</object>
+                  <object class="java.lang.String" name="7">,</object>
+               </object>
+            </object>
+            <object class="java.beans.beancontext.BeanContextSupport" name="beanContext">
+               <object class="boolean" name="designTime" primitive="yes">true</object>
+               <object class="null" name="beanContext" null="yes"/>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="34">
+         <object class="int" name="id" primitive="yes">34</object>
+         <object class="int" name="x" primitive="yes">613</object>
+         <object class="int" name="y" primitive="yes">581</object>
+         <object class="java.lang.String" name="custom_name">TrainTestSplitMaker2623</object>
+         <object class="weka.gui.beans.TrainTestSplitMaker" name="bean">
+            <object class="int" name="seed" primitive="yes">42</object>
+            <object class="double" name="trainPercent" primitive="yes">66.0</object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="35">
+         <object class="int" name="id" primitive="yes">35</object>
+         <object class="int" name="x" primitive="yes">562</object>
+         <object class="int" name="y" primitive="yes">679</object>
+         <object class="java.lang.String" name="custom_name">CSVSaver21023</object>
+         <object class="weka.gui.beans.Saver" name="bean">
+            <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
+            <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file"/>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="prefix">train</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-F</object>
+                  <object class="java.lang.String" name="1">,</object>
+                  <object class="java.lang.String" name="2">-M</object>
+                  <object class="java.lang.String" name="3">?</object>
+                  <object class="java.lang.String" name="4">-decimal</object>
+                  <object class="java.lang.String" name="5">6</object>
+               </object>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="36">
+         <object class="int" name="id" primitive="yes">36</object>
+         <object class="int" name="x" primitive="yes">827</object>
+         <object class="int" name="y" primitive="yes">680</object>
+         <object class="java.lang.String" name="custom_name">CSVSaver2924</object>
+         <object class="weka.gui.beans.Saver" name="bean">
+            <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
+            <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file"/>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="prefix">test</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">true</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-F</object>
+                  <object class="java.lang.String" name="1">,</object>
+                  <object class="java.lang.String" name="2">-M</object>
+                  <object class="java.lang.String" name="3">?</object>
+                  <object class="java.lang.String" name="4">-decimal</object>
+                  <object class="java.lang.String" name="5">6</object>
+               </object>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="37">
+         <object class="int" name="id" primitive="yes">37</object>
+         <object class="int" name="x" primitive="yes">788</object>
+         <object class="int" name="y" primitive="yes">416</object>
+         <object class="java.lang.String" name="custom_name">CSVLoader9</object>
+         <object class="weka.gui.beans.Loader" name="bean">
+            <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/5syl-nocomp.csv</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-M</object>
+                  <object class="java.lang.String" name="1">?</object>
+                  <object class="java.lang.String" name="2">-B</object>
+                  <object class="java.lang.String" name="3">100</object>
+                  <object class="java.lang.String" name="4">-E</object>
+                  <object class="java.lang.String" name="5">&quot;,&apos;</object>
+                  <object class="java.lang.String" name="6">-F</object>
+                  <object class="java.lang.String" name="7">,</object>
+               </object>
+            </object>
+            <object class="java.beans.beancontext.BeanContextSupport" name="beanContext">
+               <object class="boolean" name="designTime" primitive="yes">true</object>
+               <object class="null" name="beanContext" null="yes"/>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="38">
+         <object class="int" name="id" primitive="yes">38</object>
+         <object class="int" name="x" primitive="yes">796</object>
+         <object class="int" name="y" primitive="yes">581</object>
+         <object class="java.lang.String" name="custom_name">TrainTestSplitMaker2624</object>
+         <object class="weka.gui.beans.TrainTestSplitMaker" name="bean">
+            <object class="int" name="seed" primitive="yes">42</object>
+            <object class="double" name="trainPercent" primitive="yes">66.0</object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="39">
+         <object class="int" name="id" primitive="yes">39</object>
+         <object class="int" name="x" primitive="yes">745</object>
+         <object class="int" name="y" primitive="yes">679</object>
+         <object class="java.lang.String" name="custom_name">CSVSaver21024</object>
+         <object class="weka.gui.beans.Saver" name="bean">
+            <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
+            <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file"/>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="prefix">train</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-F</object>
+                  <object class="java.lang.String" name="1">,</object>
+                  <object class="java.lang.String" name="2">-M</object>
+                  <object class="java.lang.String" name="3">?</object>
+                  <object class="java.lang.String" name="4">-decimal</object>
+                  <object class="java.lang.String" name="5">6</object>
+               </object>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="40">
+         <object class="int" name="id" primitive="yes">40</object>
+         <object class="int" name="x" primitive="yes">1009</object>
+         <object class="int" name="y" primitive="yes">675</object>
+         <object class="java.lang.String" name="custom_name">CSVSaver2925</object>
+         <object class="weka.gui.beans.Saver" name="bean">
+            <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
+            <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file"/>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="prefix">test</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">true</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-F</object>
+                  <object class="java.lang.String" name="1">,</object>
+                  <object class="java.lang.String" name="2">-M</object>
+                  <object class="java.lang.String" name="3">?</object>
+                  <object class="java.lang.String" name="4">-decimal</object>
+                  <object class="java.lang.String" name="5">6</object>
+               </object>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="41">
+         <object class="int" name="id" primitive="yes">41</object>
+         <object class="int" name="x" primitive="yes">970</object>
+         <object class="int" name="y" primitive="yes">411</object>
+         <object class="java.lang.String" name="custom_name">CSVLoader10</object>
+         <object class="weka.gui.beans.Loader" name="bean">
+            <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/6syl-nocomp.csv</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-M</object>
+                  <object class="java.lang.String" name="1">?</object>
+                  <object class="java.lang.String" name="2">-B</object>
+                  <object class="java.lang.String" name="3">100</object>
+                  <object class="java.lang.String" name="4">-E</object>
+                  <object class="java.lang.String" name="5">&quot;,&apos;</object>
+                  <object class="java.lang.String" name="6">-F</object>
+                  <object class="java.lang.String" name="7">,</object>
+               </object>
+            </object>
+            <object class="java.beans.beancontext.BeanContextSupport" name="beanContext">
+               <object class="boolean" name="designTime" primitive="yes">true</object>
+               <object class="null" name="beanContext" null="yes"/>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="42">
+         <object class="int" name="id" primitive="yes">42</object>
+         <object class="int" name="x" primitive="yes">978</object>
+         <object class="int" name="y" primitive="yes">576</object>
+         <object class="java.lang.String" name="custom_name">TrainTestSplitMaker2625</object>
+         <object class="weka.gui.beans.TrainTestSplitMaker" name="bean">
+            <object class="int" name="seed" primitive="yes">42</object>
+            <object class="double" name="trainPercent" primitive="yes">66.0</object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="43">
+         <object class="int" name="id" primitive="yes">43</object>
+         <object class="int" name="x" primitive="yes">927</object>
+         <object class="int" name="y" primitive="yes">674</object>
+         <object class="java.lang.String" name="custom_name">CSVSaver21025</object>
+         <object class="weka.gui.beans.Saver" name="bean">
+            <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
+            <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file"/>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="prefix">train</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-F</object>
+                  <object class="java.lang.String" name="1">,</object>
+                  <object class="java.lang.String" name="2">-M</object>
+                  <object class="java.lang.String" name="3">?</object>
+                  <object class="java.lang.String" name="4">-decimal</object>
+                  <object class="java.lang.String" name="5">6</object>
+               </object>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="44">
+         <object class="int" name="id" primitive="yes">44</object>
+         <object class="int" name="x" primitive="yes">1181</object>
+         <object class="int" name="y" primitive="yes">679</object>
+         <object class="java.lang.String" name="custom_name">CSVSaver2926</object>
+         <object class="weka.gui.beans.Saver" name="bean">
+            <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
+            <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file"/>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="prefix">test</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">true</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-F</object>
+                  <object class="java.lang.String" name="1">,</object>
+                  <object class="java.lang.String" name="2">-M</object>
+                  <object class="java.lang.String" name="3">?</object>
+                  <object class="java.lang.String" name="4">-decimal</object>
+                  <object class="java.lang.String" name="5">6</object>
+               </object>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="45">
+         <object class="int" name="id" primitive="yes">45</object>
+         <object class="int" name="x" primitive="yes">1142</object>
+         <object class="int" name="y" primitive="yes">415</object>
+         <object class="java.lang.String" name="custom_name">CSVLoader11</object>
+         <object class="weka.gui.beans.Loader" name="bean">
+            <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/7syl-nocomp.csv</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object array="yes" class="java.lang.String" name="options">
+                  <object class="java.lang.String" name="0">-M</object>
+                  <object class="java.lang.String" name="1">?</object>
+                  <object class="java.lang.String" name="2">-B</object>
+                  <object class="java.lang.String" name="3">100</object>
+                  <object class="java.lang.String" name="4">-E</object>
+                  <object class="java.lang.String" name="5">&quot;,&apos;</object>
+                  <object class="java.lang.String" name="6">-F</object>
+                  <object class="java.lang.String" name="7">,</object>
+               </object>
+            </object>
+            <object class="java.beans.beancontext.BeanContextSupport" name="beanContext">
+               <object class="boolean" name="designTime" primitive="yes">true</object>
+               <object class="null" name="beanContext" null="yes"/>
+            </object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="46">
+         <object class="int" name="id" primitive="yes">46</object>
+         <object class="int" name="x" primitive="yes">1150</object>
+         <object class="int" name="y" primitive="yes">580</object>
+         <object class="java.lang.String" name="custom_name">TrainTestSplitMaker2626</object>
+         <object class="weka.gui.beans.TrainTestSplitMaker" name="bean">
+            <object class="int" name="seed" primitive="yes">42</object>
+            <object class="double" name="trainPercent" primitive="yes">66.0</object>
+         </object>
+      </object>
+      <object class="weka.gui.beans.BeanInstance" name="47">
+         <object class="int" name="id" primitive="yes">47</object>
+         <object class="int" name="x" primitive="yes">1099</object>
+         <object class="int" name="y" primitive="yes">678</object>
+         <object class="java.lang.String" name="custom_name">CSVSaver21026</object>
+         <object class="weka.gui.beans.Saver" name="bean">
+            <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
+            <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
+               <object class="java.lang.String" name="file"/>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="prefix">train</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-F</object>
@@ -108,26 +1001,218 @@
    </object>
    <object class="java.util.Vector" name="1">
       <object class="weka.gui.beans.BeanConnection" name="0">
+         <object class="int" name="source_id" primitive="yes">2</object>
+         <object class="int" name="target_id" primitive="yes">3</object>
+         <object class="java.lang.String" name="eventname">trainingSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="1">
+         <object class="int" name="source_id" primitive="yes">2</object>
+         <object class="int" name="target_id" primitive="yes">0</object>
+         <object class="java.lang.String" name="eventname">testSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="2">
          <object class="int" name="source_id" primitive="yes">1</object>
          <object class="int" name="target_id" primitive="yes">2</object>
          <object class="java.lang.String" name="eventname">dataSet</object>
          <object class="boolean" name="hidden" primitive="yes">false</object>
       </object>
-      <object class="weka.gui.beans.BeanConnection" name="1">
-         <object class="int" name="source_id" primitive="yes">3</object>
-         <object class="int" name="target_id" primitive="yes">4</object>
+      <object class="weka.gui.beans.BeanConnection" name="3">
+         <object class="int" name="source_id" primitive="yes">6</object>
+         <object class="int" name="target_id" primitive="yes">7</object>
          <object class="java.lang.String" name="eventname">trainingSet</object>
          <object class="boolean" name="hidden" primitive="yes">false</object>
       </object>
-      <object class="weka.gui.beans.BeanConnection" name="2">
-         <object class="int" name="source_id" primitive="yes">3</object>
-         <object class="int" name="target_id" primitive="yes">0</object>
+      <object class="weka.gui.beans.BeanConnection" name="4">
+         <object class="int" name="source_id" primitive="yes">6</object>
+         <object class="int" name="target_id" primitive="yes">4</object>
          <object class="java.lang.String" name="eventname">testSet</object>
          <object class="boolean" name="hidden" primitive="yes">false</object>
       </object>
-      <object class="weka.gui.beans.BeanConnection" name="3">
-         <object class="int" name="source_id" primitive="yes">2</object>
-         <object class="int" name="target_id" primitive="yes">3</object>
+      <object class="weka.gui.beans.BeanConnection" name="5">
+         <object class="int" name="source_id" primitive="yes">5</object>
+         <object class="int" name="target_id" primitive="yes">6</object>
+         <object class="java.lang.String" name="eventname">dataSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="6">
+         <object class="int" name="source_id" primitive="yes">10</object>
+         <object class="int" name="target_id" primitive="yes">11</object>
+         <object class="java.lang.String" name="eventname">trainingSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="7">
+         <object class="int" name="source_id" primitive="yes">10</object>
+         <object class="int" name="target_id" primitive="yes">8</object>
+         <object class="java.lang.String" name="eventname">testSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="8">
+         <object class="int" name="source_id" primitive="yes">9</object>
+         <object class="int" name="target_id" primitive="yes">10</object>
+         <object class="java.lang.String" name="eventname">dataSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="9">
+         <object class="int" name="source_id" primitive="yes">14</object>
+         <object class="int" name="target_id" primitive="yes">15</object>
+         <object class="java.lang.String" name="eventname">trainingSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="10">
+         <object class="int" name="source_id" primitive="yes">14</object>
+         <object class="int" name="target_id" primitive="yes">12</object>
+         <object class="java.lang.String" name="eventname">testSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="11">
+         <object class="int" name="source_id" primitive="yes">13</object>
+         <object class="int" name="target_id" primitive="yes">14</object>
+         <object class="java.lang.String" name="eventname">dataSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="12">
+         <object class="int" name="source_id" primitive="yes">18</object>
+         <object class="int" name="target_id" primitive="yes">19</object>
+         <object class="java.lang.String" name="eventname">trainingSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="13">
+         <object class="int" name="source_id" primitive="yes">18</object>
+         <object class="int" name="target_id" primitive="yes">16</object>
+         <object class="java.lang.String" name="eventname">testSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="14">
+         <object class="int" name="source_id" primitive="yes">17</object>
+         <object class="int" name="target_id" primitive="yes">18</object>
+         <object class="java.lang.String" name="eventname">dataSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="15">
+         <object class="int" name="source_id" primitive="yes">22</object>
+         <object class="int" name="target_id" primitive="yes">23</object>
+         <object class="java.lang.String" name="eventname">trainingSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="16">
+         <object class="int" name="source_id" primitive="yes">22</object>
+         <object class="int" name="target_id" primitive="yes">20</object>
+         <object class="java.lang.String" name="eventname">testSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="17">
+         <object class="int" name="source_id" primitive="yes">21</object>
+         <object class="int" name="target_id" primitive="yes">22</object>
+         <object class="java.lang.String" name="eventname">dataSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="18">
+         <object class="int" name="source_id" primitive="yes">26</object>
+         <object class="int" name="target_id" primitive="yes">27</object>
+         <object class="java.lang.String" name="eventname">trainingSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="19">
+         <object class="int" name="source_id" primitive="yes">26</object>
+         <object class="int" name="target_id" primitive="yes">24</object>
+         <object class="java.lang.String" name="eventname">testSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="20">
+         <object class="int" name="source_id" primitive="yes">25</object>
+         <object class="int" name="target_id" primitive="yes">26</object>
+         <object class="java.lang.String" name="eventname">dataSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="21">
+         <object class="int" name="source_id" primitive="yes">30</object>
+         <object class="int" name="target_id" primitive="yes">31</object>
+         <object class="java.lang.String" name="eventname">trainingSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="22">
+         <object class="int" name="source_id" primitive="yes">30</object>
+         <object class="int" name="target_id" primitive="yes">28</object>
+         <object class="java.lang.String" name="eventname">testSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="23">
+         <object class="int" name="source_id" primitive="yes">29</object>
+         <object class="int" name="target_id" primitive="yes">30</object>
+         <object class="java.lang.String" name="eventname">dataSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="24">
+         <object class="int" name="source_id" primitive="yes">34</object>
+         <object class="int" name="target_id" primitive="yes">35</object>
+         <object class="java.lang.String" name="eventname">trainingSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="25">
+         <object class="int" name="source_id" primitive="yes">34</object>
+         <object class="int" name="target_id" primitive="yes">32</object>
+         <object class="java.lang.String" name="eventname">testSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="26">
+         <object class="int" name="source_id" primitive="yes">33</object>
+         <object class="int" name="target_id" primitive="yes">34</object>
+         <object class="java.lang.String" name="eventname">dataSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="27">
+         <object class="int" name="source_id" primitive="yes">38</object>
+         <object class="int" name="target_id" primitive="yes">39</object>
+         <object class="java.lang.String" name="eventname">trainingSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="28">
+         <object class="int" name="source_id" primitive="yes">38</object>
+         <object class="int" name="target_id" primitive="yes">36</object>
+         <object class="java.lang.String" name="eventname">testSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="29">
+         <object class="int" name="source_id" primitive="yes">37</object>
+         <object class="int" name="target_id" primitive="yes">38</object>
+         <object class="java.lang.String" name="eventname">dataSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="30">
+         <object class="int" name="source_id" primitive="yes">42</object>
+         <object class="int" name="target_id" primitive="yes">43</object>
+         <object class="java.lang.String" name="eventname">trainingSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="31">
+         <object class="int" name="source_id" primitive="yes">42</object>
+         <object class="int" name="target_id" primitive="yes">40</object>
+         <object class="java.lang.String" name="eventname">testSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="32">
+         <object class="int" name="source_id" primitive="yes">41</object>
+         <object class="int" name="target_id" primitive="yes">42</object>
+         <object class="java.lang.String" name="eventname">dataSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="33">
+         <object class="int" name="source_id" primitive="yes">46</object>
+         <object class="int" name="target_id" primitive="yes">47</object>
+         <object class="java.lang.String" name="eventname">trainingSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="34">
+         <object class="int" name="source_id" primitive="yes">46</object>
+         <object class="int" name="target_id" primitive="yes">44</object>
+         <object class="java.lang.String" name="eventname">testSet</object>
+         <object class="boolean" name="hidden" primitive="yes">false</object>
+      </object>
+      <object class="weka.gui.beans.BeanConnection" name="35">
+         <object class="int" name="source_id" primitive="yes">45</object>
+         <object class="int" name="target_id" primitive="yes">46</object>
          <object class="java.lang.String" name="eventname">dataSet</object>
          <object class="boolean" name="hidden" primitive="yes">false</object>
       </object>

@@ -222,7 +222,7 @@
          <object class="java.lang.String" name="custom_name">CSVLoader</object>
          <object class="weka.gui.beans.Loader" name="bean">
             <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
-               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/000047-everything-2syl-train.csv</object>
+               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/2syl-all_training.csv</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-M</object>
@@ -277,7 +277,7 @@
             <object class="weka.filters.unsupervised.attribute.MergeInfrequentNominalValues" name="filter">
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-N</object>
-                  <object class="java.lang.String" name="1">3</object>
+                  <object class="java.lang.String" name="1">5</object>
                   <object class="java.lang.String" name="2">-R</object>
                   <object class="java.lang.String" name="3">first-last</object>
                </object>
@@ -1106,8 +1106,8 @@
       </object>
       <object class="weka.gui.beans.BeanInstance" name="56">
          <object class="int" name="id" primitive="yes">56</object>
-         <object class="int" name="x" primitive="yes">580</object>
-         <object class="int" name="y" primitive="yes">1064</object>
+         <object class="int" name="x" primitive="yes">582</object>
+         <object class="int" name="y" primitive="yes">1055</object>
          <object class="java.lang.String" name="custom_name">TrainingSetMaker</object>
          <object class="weka.gui.beans.TrainingSetMaker" name="bean">
             <object class="null" name="name" null="yes"/>
