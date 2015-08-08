@@ -1,0 +1,29 @@
+=== Classifier model ===
+
+Scheme:   J48
+Relation: 8syl-all_training-weka.filters.unsupervised.attribute.Remove-R144-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R92-139,144-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_cv.|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.)$-V-output-debug-info-do-not-check-capabilities
+
+J48 pruned tree
+------------------
+: prima (30.0/20.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 8syl-all_training-weka.filters.unsupervised.attribute.Remove-R144-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R92-139,144-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_cv.|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.)$-V-output-debug-info-do-not-check-capabilities
+
+JRIP rules:
+===========
+
+ => stress_class=prima (30.0/20.0)
+
+Number of Rules : 1
+=== Classifier model ===
+
+Scheme:   NeuralNetwork
+Relation: 8syl-all_training-weka.filters.unsupervised.attribute.Remove-R144-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R92-139,144-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_cv.|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.)$-V-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@52cb0e5e
