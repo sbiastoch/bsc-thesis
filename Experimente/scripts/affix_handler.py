@@ -13,8 +13,8 @@ from collections import OrderedDict
 
 """
 	Field					Function 					Description
-	suffix_class			compute_suffix_class: 		Liefert die Klasse des Präfixes: ø/Betont/Unbetont
-	praefix_class			compute_praefix_class: 		Liefert die Klasse des Suffixes: ø/Betont/Unbetont
+	suff_class				compute_suff_class: 		Liefert die Klasse des Präfixes: ø/Betont/Unbetont
+	prae_class				compute_prae_class: 		Liefert die Klasse des Suffixes: ø/Betont/Unbetont
 	signi_praefix			compute_signi_praefix: 		Liefert das Präfix, sofern es ein häufig auftretendes ist
 	signi_suffix			compute_signi_suffix: 		Liefert das Suffix, sofern es ein häufig auftretendes ist
 	praefix_phoncat[1-5]	compute_praefixes_phoncat: 	Liefert die Phonetische Klasse (O/S/A/...) der ersten 1-5 Phoneme
@@ -54,7 +54,7 @@ class AffixHandler(CelexQuery):
 	giegerich_suffixe = akzenttragende_suffixe + native_suffixe + nonnative_unstressed_suffixe
 
 
-	def compute_suffix_class(self, row):
+	def compute_suff_class(self, row):
 		parts = row['Flat'].split('+')
 		suffix = parts[-1]
 
@@ -70,7 +70,7 @@ class AffixHandler(CelexQuery):
 			return {'suff_class': 'ø'}
 
 	# klassifizierung der 1. silbe in betont/unbetont/gemischt
-	def compute_praefix_class(self, row):
+	def compute_prae_class(self, row):
 		parts = row['Flat'].split('+')
 		praefix = parts[0]
 

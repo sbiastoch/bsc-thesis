@@ -37,12 +37,12 @@ class Query(AffixHandler, PhonHandler, SylstructHandler, MetaHandler):
 		'pos': ['class'],
 		'comp_struct': ['REPLACE(ImmClass, \'x\', \'\')'],
 		'sa_struct': ['ImmSA'],
-		'praefix_class': ['Flat'],
+		'prae_class': ['Flat'],
 		'praefixes': ['Word'],
 		'suffixes': ['Word'],
 		'praefixes_phoncat': ['PhonStrsDISC'],
 		'suffixes_phoncat': ['PhonStrsDISC'],
-		'suffix_class': ['Flat'],
+		'suff_class': ['Flat'],
 		'rhymes': ['MySylCnt', 'PhonCV'],
 		'syl_open': ['MySylCnt', 'PhonCV'],
 		'syl_cv': ['MySylCnt', 'PhonCV'],
@@ -66,8 +66,9 @@ class Query(AffixHandler, PhonHandler, SylstructHandler, MetaHandler):
 #############################################################
 
 ############ Featuresets ##################
-suffix = 'syl_suffix, signi_suffix, suffixes, suffixes_phoncat'
-praefix = 'syl_praefix, signi_praefix, praefixes, praefixes_phoncat'
+suffix = 'syl_suffix, signi_suffix, suffixes, suffixes_phoncat, suff_class'
+praefix = 'syl_praefix, signi_praefix, praefixes, praefixes_phoncat, prae_class'
+affix = suffix +', '+ praefix
 
 sonority = 'sonority, sonority_ratio, sonority_dir'
 weight = 'syl_weights, syl_open'
@@ -75,6 +76,7 @@ phoncat = 'syl_phoncat, onset_phoncat, koda_phoncat, nucleus_phoncat'
 
 lens =  'syl_lens, koda_len, onset_len, nucleus_len'
 cv = 'syl_cv, cv_ratio'
+sylstruct = lens+', '+cv
 
 meta = 'pos, comp_struct, nomen, comp_len'
 
@@ -98,8 +100,8 @@ featureset = {
 
 ############ Filters #################
 
-only_proper_classes = 'StrsClass != "multa" and StrsClass != "nulla" and StrsClass != "undef"'
-only_improper_classes = 'StrsClass = "multa" or StrsClass = "nulla" or StrsClass = "undef"'
+only_proper_classes = '(StrsClass != "multa" and StrsClass != "nulla" and StrsClass != "undef")'
+only_improper_classes = '(StrsClass = "multa" or StrsClass = "nulla" or StrsClass = "undef")'
 only_nonkomposita = 'LENGTH(REPLACE(ImmClass, \'x\', \'\'))<=1'
 only_komposita = 'LENGTH(REPLACE(ImmClass, \'x\', \'\'))>1'
 
@@ -118,12 +120,12 @@ only_komposita = 'LENGTH(REPLACE(ImmClass, \'x\', \'\'))>1'
 
 # alle mit vernünftigen klassen
 q = Query('lemmas2',1000000)
-q.setFields('Word, stress_class').augment(all).where(only_proper_classes)
+q.setFields('SylCnt, Word, stress_class').augment(all).where(only_proper_classes)
 res = q.execute()
 res.csv('all.csv')
 del q, res
 
-for syls in list('765432'):
+for syls in list('8765432'):
 	# alle mit vernünftigen klassen
 	q = Query('lemmas2',1000000)
 	q.setFields('Word, stress_class').augment(all).where('MySylCnt='+str(syls)).where(only_proper_classes)
