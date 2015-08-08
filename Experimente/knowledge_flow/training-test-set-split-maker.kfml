@@ -23,7 +23,7 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">thesis/Experimente/csv/training/</object>
                <object class="java.lang.String" name="prefix">test</object>
                <object class="boolean" name="useRelativePath" primitive="yes">true</object>
                <object array="yes" class="java.lang.String" name="options">
@@ -44,7 +44,7 @@
          <object class="java.lang.String" name="custom_name">CSVLoader</object>
          <object class="weka.gui.beans.Loader" name="bean">
             <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
-               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/7syl-all.csv</object>
+               <object class="java.lang.String" name="file">/home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/csv/training/7syl-all.csv</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-M</object>
@@ -82,7 +82,7 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">thesis/Experimente/csv/training/</object>
                <object class="java.lang.String" name="prefix">train</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
@@ -105,7 +105,7 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">thesis/Experimente/csv/training/</object>
                <object class="java.lang.String" name="prefix">test</object>
                <object class="boolean" name="useRelativePath" primitive="yes">true</object>
                <object array="yes" class="java.lang.String" name="options">
@@ -126,7 +126,7 @@
          <object class="java.lang.String" name="custom_name">CSVLoader2</object>
          <object class="weka.gui.beans.Loader" name="bean">
             <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
-               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/6syl-all.csv</object>
+               <object class="java.lang.String" name="file">/home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/csv/training/6syl-all.csv</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-M</object>
@@ -164,7 +164,7 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">thesis/Experimente/csv/training/</object>
                <object class="java.lang.String" name="prefix">train</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
@@ -187,7 +187,7 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">thesis/Experimente/csv/training/</object>
                <object class="java.lang.String" name="prefix">test</object>
                <object class="boolean" name="useRelativePath" primitive="yes">true</object>
                <object array="yes" class="java.lang.String" name="options">
@@ -208,7 +208,7 @@
          <object class="java.lang.String" name="custom_name">CSVLoader3</object>
          <object class="weka.gui.beans.Loader" name="bean">
             <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
-               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/5syl-all.csv</object>
+               <object class="java.lang.String" name="file">/home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/csv/training/5syl-all.csv</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-M</object>
@@ -246,9 +246,9 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">thesis/Experimente/csv/training/</object>
                <object class="java.lang.String" name="prefix">train</object>
-               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">true</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-F</object>
                   <object class="java.lang.String" name="1">,</object>
@@ -269,7 +269,7 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">thesis/Experimente/csv/training/</object>
                <object class="java.lang.String" name="prefix">test</object>
                <object class="boolean" name="useRelativePath" primitive="yes">true</object>
                <object array="yes" class="java.lang.String" name="options">
@@ -290,7 +290,7 @@
          <object class="java.lang.String" name="custom_name">CSVLoader4</object>
          <object class="weka.gui.beans.Loader" name="bean">
             <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
-               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/4syl-all.csv</object>
+               <object class="java.lang.String" name="file">/home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/csv/training/4syl-all.csv</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-M</object>
@@ -328,9 +328,9 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">thesis/Experimente/csv/training/</object>
                <object class="java.lang.String" name="prefix">train</object>
-               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">true</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-F</object>
                   <object class="java.lang.String" name="1">,</object>
@@ -351,7 +351,7 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">thesis/Experimente/csv/training/</object>
                <object class="java.lang.String" name="prefix">test</object>
                <object class="boolean" name="useRelativePath" primitive="yes">true</object>
                <object array="yes" class="java.lang.String" name="options">
@@ -372,7 +372,7 @@
          <object class="java.lang.String" name="custom_name">CSVLoader5</object>
          <object class="weka.gui.beans.Loader" name="bean">
             <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
-               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/3syl-all.csv</object>
+               <object class="java.lang.String" name="file">/home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/csv/training/3syl-all.csv</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-M</object>
@@ -410,9 +410,9 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">thesis/Experimente/csv/training/</object>
                <object class="java.lang.String" name="prefix">train</object>
-               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">true</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-F</object>
                   <object class="java.lang.String" name="1">,</object>
@@ -433,7 +433,7 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">/home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/csv/training</object>
                <object class="java.lang.String" name="prefix">test</object>
                <object class="boolean" name="useRelativePath" primitive="yes">true</object>
                <object array="yes" class="java.lang.String" name="options">
@@ -454,7 +454,7 @@
          <object class="java.lang.String" name="custom_name">CSVLoader6</object>
          <object class="weka.gui.beans.Loader" name="bean">
             <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
-               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/2syl-all.csv</object>
+               <object class="java.lang.String" name="file">/home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/csv/training/2syl-all.csv</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-M</object>
@@ -492,9 +492,9 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">thesis/Experimente/csv/training/</object>
                <object class="java.lang.String" name="prefix">train</object>
-               <object class="boolean" name="useRelativePath" primitive="yes">false</object>
+               <object class="boolean" name="useRelativePath" primitive="yes">true</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-F</object>
                   <object class="java.lang.String" name="1">,</object>
@@ -515,7 +515,7 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">thesis/Experimente/csv/training/</object>
                <object class="java.lang.String" name="prefix">test</object>
                <object class="boolean" name="useRelativePath" primitive="yes">true</object>
                <object array="yes" class="java.lang.String" name="options">
@@ -536,7 +536,7 @@
          <object class="java.lang.String" name="custom_name">CSVLoader</object>
          <object class="weka.gui.beans.Loader" name="bean">
             <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
-               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/2syl-nocomp.csv</object>
+               <object class="java.lang.String" name="file">/home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/csv/training/2syl-nocomp.csv</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-M</object>
@@ -574,7 +574,7 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">thesis/Experimente/csv/training/</object>
                <object class="java.lang.String" name="prefix">train</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
@@ -597,7 +597,7 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">thesis/Experimente/csv/training/</object>
                <object class="java.lang.String" name="prefix">test</object>
                <object class="boolean" name="useRelativePath" primitive="yes">true</object>
                <object array="yes" class="java.lang.String" name="options">
@@ -618,7 +618,7 @@
          <object class="java.lang.String" name="custom_name">CSVLoader7</object>
          <object class="weka.gui.beans.Loader" name="bean">
             <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
-               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/3syl-nocomp.csv</object>
+               <object class="java.lang.String" name="file">/home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/csv/training/3syl-nocomp.csv</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-M</object>
@@ -656,7 +656,7 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">thesis/Experimente/csv/training/</object>
                <object class="java.lang.String" name="prefix">train</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
@@ -679,7 +679,7 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">thesis/Experimente/csv/training/</object>
                <object class="java.lang.String" name="prefix">test</object>
                <object class="boolean" name="useRelativePath" primitive="yes">true</object>
                <object array="yes" class="java.lang.String" name="options">
@@ -700,7 +700,7 @@
          <object class="java.lang.String" name="custom_name">CSVLoader8</object>
          <object class="weka.gui.beans.Loader" name="bean">
             <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
-               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/4syl-nocomp.csv</object>
+               <object class="java.lang.String" name="file">/home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/csv/training/4syl-nocomp.csv</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-M</object>
@@ -738,7 +738,7 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">thesis/Experimente/csv/training/</object>
                <object class="java.lang.String" name="prefix">train</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
@@ -761,7 +761,7 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">thesis/Experimente/csv/training/</object>
                <object class="java.lang.String" name="prefix">test</object>
                <object class="boolean" name="useRelativePath" primitive="yes">true</object>
                <object array="yes" class="java.lang.String" name="options">
@@ -782,7 +782,7 @@
          <object class="java.lang.String" name="custom_name">CSVLoader9</object>
          <object class="weka.gui.beans.Loader" name="bean">
             <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
-               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/5syl-nocomp.csv</object>
+               <object class="java.lang.String" name="file">/home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/csv/training/5syl-nocomp.csv</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-M</object>
@@ -820,7 +820,7 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">thesis/Experimente/csv/training/</object>
                <object class="java.lang.String" name="prefix">train</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
@@ -843,7 +843,7 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">thesis/Experimente/csv/training/</object>
                <object class="java.lang.String" name="prefix">test</object>
                <object class="boolean" name="useRelativePath" primitive="yes">true</object>
                <object array="yes" class="java.lang.String" name="options">
@@ -864,7 +864,7 @@
          <object class="java.lang.String" name="custom_name">CSVLoader10</object>
          <object class="weka.gui.beans.Loader" name="bean">
             <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
-               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/6syl-nocomp.csv</object>
+               <object class="java.lang.String" name="file">/home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/csv/training/6syl-nocomp.csv</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-M</object>
@@ -902,7 +902,7 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">thesis/Experimente/csv/training/</object>
                <object class="java.lang.String" name="prefix">train</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
@@ -925,7 +925,7 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">thesis/Experimente/csv/training/</object>
                <object class="java.lang.String" name="prefix">test</object>
                <object class="boolean" name="useRelativePath" primitive="yes">true</object>
                <object array="yes" class="java.lang.String" name="options">
@@ -946,7 +946,7 @@
          <object class="java.lang.String" name="custom_name">CSVLoader11</object>
          <object class="weka.gui.beans.Loader" name="bean">
             <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
-               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/7syl-nocomp.csv</object>
+               <object class="java.lang.String" name="file">/home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/csv/training/7syl-nocomp.csv</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-M</object>
@@ -984,7 +984,7 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">true</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/training/</object>
+               <object class="java.lang.String" name="dir">thesis/Experimente/csv/training/</object>
                <object class="java.lang.String" name="prefix">train</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
