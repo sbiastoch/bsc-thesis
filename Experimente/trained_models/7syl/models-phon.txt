@@ -1,0 +1,42 @@
+=== Classifier model ===
+
+Scheme:   J48
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-83,130-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|syl_weight.|syl_open.|syl_phoncat.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.)$-V-output-debug-info-do-not-check-capabilities
+
+J48 pruned tree
+------------------
+
+syl_weight4 = light
+|   nucleus_phoncat6 = K
+|   |   nucleus_phoncat2 = L: paenultima (37.0/10.0)
+|   |   nucleus_phoncat2 = K: prima (33.0/18.0)
+|   |   nucleus_phoncat2 = D: prima (1.0)
+|   nucleus_phoncat6 = L
+|   |   nucleus_phoncat0 = K: ultima (20.0/5.0)
+|   |   nucleus_phoncat0 = L: ultima (23.0/12.0)
+|   |   nucleus_phoncat0 = D: prima (4.0)
+|   nucleus_phoncat6 = D: sekunda (10.0/4.0)
+|   nucleus_phoncat6 = N: sekunda (1.0)
+syl_weight4 = heavy: antepaenultima (25.0/6.0)
+syl_weight4 = schwa: prima (9.0/5.0)
+
+Number of Leaves  : 	10
+
+Size of the tree : 	14
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-83,130-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|syl_weight.|syl_open.|syl_phoncat.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.)$-V-output-debug-info-do-not-check-capabilities
+
+JRIP rules:
+===========
+
+ => stress_class=prima (163.0/116.0)
+
+Number of Rules : 1
+=== Classifier model ===
+
+Scheme:   NeuralNetwork
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-83,130-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|syl_weight.|syl_open.|syl_phoncat.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.)$-V-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@7d7e1d80

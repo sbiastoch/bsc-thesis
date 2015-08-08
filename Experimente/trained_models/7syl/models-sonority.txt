@@ -1,0 +1,37 @@
+=== Classifier model ===
+
+Scheme:   J48
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-41,130-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir)$-V-output-debug-info-do-not-check-capabilities
+
+J48 pruned tree
+------------------
+
+sonority6 <= 9
+|   sonority4 <= 9: ultima (34.0/13.0)
+|   sonority4 > 9: prima (22.0/13.0)
+sonority6 > 9
+|   sonority_ratio4 <= 3
+|   |   sonority2 <= 10: antepaenultima (29.0/14.0)
+|   |   sonority2 > 10: sekunda (23.0/14.0)
+|   sonority_ratio4 > 3: paenultima (55.0/25.0)
+
+Number of Leaves  : 	5
+
+Size of the tree : 	9
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-41,130-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir)$-V-output-debug-info-do-not-check-capabilities
+
+JRIP rules:
+===========
+
+ => stress_class=prima (163.0/116.0)
+
+Number of Rules : 1
+=== Classifier model ===
+
+Scheme:   NeuralNetwork
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-41,130-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir)$-V-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@da42cfd
