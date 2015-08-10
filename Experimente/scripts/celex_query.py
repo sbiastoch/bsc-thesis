@@ -6,6 +6,7 @@ import MySQLdb.cursors
 import sys
 import re
 import collections
+import operator
 orderedDict = collections.OrderedDict()
 from collections import OrderedDict
 
@@ -232,6 +233,78 @@ class CelexQuery:
 		self.show(2, removed)
 		print "Postprocessing finished!"
 
+
+	def removeInfrequent(self, scale = 1):
+		self.setInfrequentToMissing('syl_suffix', 40*scale)
+		self.setInfrequentToMissing('suffix2', 40*scale)
+		self.setInfrequentToMissing('suffix3', 30*scale)
+		self.setInfrequentToMissing('suffix4', 30*scale)
+		self.setInfrequentToMissing('suffix5', 20*scale)
+		self.setInfrequentToMissing('suffix_phoncat2', 50*scale)
+		self.setInfrequentToMissing('suffix_phoncat3', 50*scale)
+		self.setInfrequentToMissing('suffix_phoncat4', 50*scale)
+		self.setInfrequentToMissing('suffix_phoncat5', 50*scale)
+		self.setInfrequentToMissing('syl_praefix', 20*scale)
+		self.setInfrequentToMissing('praefix2', 40*scale)
+		self.setInfrequentToMissing('praefix3', 30*scale)
+		self.setInfrequentToMissing('praefix4', 20*scale)
+		self.setInfrequentToMissing('praefix5', 20*scale)
+		self.setInfrequentToMissing('praefix_phoncat2', 30*scale)
+		self.setInfrequentToMissing('praefix_phoncat3', 30*scale)
+		self.setInfrequentToMissing('praefix_phoncat4', 30*scale)
+		self.setInfrequentToMissing('praefix_phoncat5', 30*scale)
+		self.setInfrequentToMissing('syl_phoncat0', 25*scale)
+		self.setInfrequentToMissing('syl_phoncat1', 25*scale)
+		self.setInfrequentToMissing('syl_phoncat2', 25*scale)
+		self.setInfrequentToMissing('syl_phoncat3', 25*scale)
+		self.setInfrequentToMissing('syl_phoncat4', 25*scale)
+		self.setInfrequentToMissing('syl_phoncat5', 25*scale)
+		self.setInfrequentToMissing('syl_phoncat6', 25*scale)
+		self.setInfrequentToMissing('syl_phoncat7', 25*scale)
+		self.setInfrequentToMissing('syl_cv0', 30*scale)
+		self.setInfrequentToMissing('syl_cv1', 30*scale)
+		self.setInfrequentToMissing('syl_cv2', 30*scale)
+		self.setInfrequentToMissing('syl_cv3', 30*scale)
+		self.setInfrequentToMissing('syl_cv4', 30*scale)
+		self.setInfrequentToMissing('syl_cv5', 20*scale)
+		self.setInfrequentToMissing('syl_cv6', 10*scale)
+		self.setInfrequentToMissing('syl_cv7', 5*scale)
+		self.setInfrequentToMissing('comp_struct', 30*scale)
+
+	def setInfrequentToMissing(self, name, minFreq = 50):
+		col = self._getCol(name)
+		if col == []:
+			return False
+		sparseCol = self._removeInfrequent(col, minFreq)
+		self._setCol(name,sparseCol)
+
+	def _removeInfrequent(self, ary, max=50, missing='ø'):
+		counts = dict()
+		for val in ary:
+			if str(val) in counts:
+				counts[str(val)] = counts[str(val)]+1
+			else:
+				counts[str(val)] = 1
+
+		for i,val in enumerate(ary):
+			if counts[str(val)] < max:
+				ary[i] = missing
+
+		return ary
+
+	def _getCol(self, name):
+		col = []
+		for row in self.results:
+			if name in row:
+				col.append(row[name])
+			else:
+				return []
+		return col
+
+	def _setCol(self, name, values):
+		for i, row in enumerate(self.results):
+			row[name] = values[i]
+
 	def pretty_name(self, ugly_name):
 		int_attrs = dict(map(reversed, self.attributes.items()))
 
@@ -425,3 +498,4 @@ class CelexQuery:
 		for syl in syls:
 			ret.append(syl[0])
 		return ret
+
