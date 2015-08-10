@@ -1,7 +1,7 @@
 === Classifier model ===
 
 Scheme:   J48
-Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R84-88-weka.filters.unsupervised.attribute.RemoveByName-E^(pos|comp_len|comp_struct|nomen)$-V-output-debug-info-do-not-check-capabilities
+Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R84-88-weka.filters.unsupervised.attribute.RemoveByName-E^(pos|comp_len|comp_struct|nomen)$-V-output-debug-info-do-not-check-capabilities
 
 J48 pruned tree
 ------------------
@@ -20,7 +20,7 @@ comp_len <= 1
 |   |   pos = V: prima (168.0/64.0)
 |   |   pos = ADV: antepaenultima (0.0)
 |   |   pos = X: antepaenultima (0.0)
-|   comp_struct = ø: paenultima (675.0/351.0)
+|   comp_struct = ø: paenultima (685.0/356.0)
 |   comp_struct = AV: paenultima (0.0)
 |   comp_struct = BV: paenultima (0.0)
 |   comp_struct = PV: paenultima (0.0)
@@ -49,7 +49,6 @@ comp_len <= 1
 |   comp_struct = AN: paenultima (0.0)
 |   comp_struct = PN: paenultima (0.0)
 |   comp_struct = AA: paenultima (0.0)
-|   comp_struct = B: paenultima (10.0/5.0)
 comp_len > 1
 |   comp_struct = N: prima (0.0)
 |   comp_struct = NN: prima (1645.0/277.0)
@@ -68,15 +67,14 @@ comp_len > 1
 |   comp_struct = AN: prima (167.0/80.0)
 |   comp_struct = PN: prima (73.0/7.0)
 |   comp_struct = AA: prima (39.0/5.0)
-|   comp_struct = B: prima (0.0)
 
-Number of Leaves  : 	56
+Number of Leaves  : 	54
 
-Size of the tree : 	64
+Size of the tree : 	62
 === Classifier model ===
 
 Scheme:   JRip
-Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R84-88-weka.filters.unsupervised.attribute.RemoveByName-E^(pos|comp_len|comp_struct|nomen)$-V-output-debug-info-do-not-check-capabilities
+Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R84-88-weka.filters.unsupervised.attribute.RemoveByName-E^(pos|comp_len|comp_struct|nomen)$-V-output-debug-info-do-not-check-capabilities
 
 JRIP rules:
 ===========
@@ -93,6 +91,6 @@ Number of Rules : 7
 === Classifier model ===
 
 Scheme:   NeuralNetwork
-Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R84-88-weka.filters.unsupervised.attribute.RemoveByName-E^(pos|comp_len|comp_struct|nomen)$-V-output-debug-info-do-not-check-capabilities
+Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R84-88-weka.filters.unsupervised.attribute.RemoveByName-E^(pos|comp_len|comp_struct|nomen)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@48e2859b
+weka.classifiers.functions.NeuralNetwork@237b9415
