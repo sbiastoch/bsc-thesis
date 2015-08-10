@@ -1,0 +1,51 @@
+=== Classifier model ===
+
+Scheme:   J48
+Relation: 2syl-all_training-weka.filters.unsupervised.attribute.Remove-R60-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-31,60-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir)$-V-output-debug-info-do-not-check-capabilities
+
+J48 pruned tree
+------------------
+
+sonority0 <= 11
+|   sonority_ratio1 <= 2
+|   |   sonority0 <= 7: ultima (142.0/29.0)
+|   |   sonority0 > 7
+|   |   |   sonority_ratio0 <= 2: paenultima (56.0/6.0)
+|   |   |   sonority_ratio0 > 2
+|   |   |   |   sonority_dir <= 0: paenultima (182.0/60.0)
+|   |   |   |   sonority_dir > 0
+|   |   |   |   |   sonority1 <= 11
+|   |   |   |   |   |   sonority_ratio0 <= 3: paenultima (20.0/7.0)
+|   |   |   |   |   |   sonority_ratio0 > 3: ultima (34.0/15.0)
+|   |   |   |   |   sonority1 > 11: ultima (58.0/26.0)
+|   sonority_ratio1 > 2
+|   |   sonority0 <= 7
+|   |   |   sonority1 <= 14: paenultima (900.0/238.0)
+|   |   |   sonority1 > 14: ultima (156.0/60.0)
+|   |   sonority0 > 7: paenultima (3504.0/456.0)
+sonority0 > 11: paenultima (3219.0/130.0)
+
+Number of Leaves  : 	10
+
+Size of the tree : 	19
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 2syl-all_training-weka.filters.unsupervised.attribute.Remove-R60-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-31,60-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir)$-V-output-debug-info-do-not-check-capabilities
+
+JRIP rules:
+===========
+
+(sonority0 <= 7) and (sonority_ratio1 <= 2) => stress_class=ultima (142.0/29.0)
+(sonority0 <= 10) and (sonority0 <= 7) and (sonority1 >= 15) => stress_class=ultima (156.0/60.0)
+(sonority0 <= 11) and (sonority_ratio1 <= 2) and (sonority_ratio0 >= 3) and (sonority_dir >= 1) => stress_class=ultima (112.0/54.0)
+(sonority0 <= 11) and (sonority0 <= 7) and (sonority1 >= 11) and (sonority_ratio1 <= 3) and (sonority1 >= 12) and (sonority_dir <= 3) => stress_class=ultima (50.0/18.0)
+ => stress_class=paenultima (7811.0/858.0)
+
+Number of Rules : 5
+=== Classifier model ===
+
+Scheme:   NeuralNetwork
+Relation: 2syl-all_training-weka.filters.unsupervised.attribute.Remove-R60-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-31,60-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir)$-V-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@4ad36ffc
