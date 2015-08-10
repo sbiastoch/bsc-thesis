@@ -1,0 +1,124 @@
+=== Classifier model ===
+
+Scheme:   J48
+Relation: 5syl-all_training-weka.filters.unsupervised.attribute.Remove-R102-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-37,102-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir)$-V-output-debug-info-do-not-check-capabilities
+
+J48 pruned tree
+------------------
+
+sonority4 <= 9
+|   sonority4 <= 7
+|   |   sonority0 <= 6: paenultima (20.0/11.0)
+|   |   sonority0 > 6
+|   |   |   sonority1 <= 12
+|   |   |   |   sonority2 <= 9
+|   |   |   |   |   sonority3 <= 10: paenultima (36.0/14.0)
+|   |   |   |   |   sonority3 > 10: prima (49.0/15.0)
+|   |   |   |   sonority2 > 9: prima (115.0/54.0)
+|   |   |   sonority1 > 12
+|   |   |   |   sonority0 <= 10: sekunda (23.0/10.0)
+|   |   |   |   sonority0 > 10: prima (22.0/6.0)
+|   sonority4 > 7
+|   |   sonority_ratio3 <= 3
+|   |   |   sonority0 <= 10
+|   |   |   |   sonority1 <= 10: sekunda (23.0/16.0)
+|   |   |   |   sonority1 > 10: prima (23.0/11.0)
+|   |   |   sonority0 > 10: prima (39.0/12.0)
+|   |   sonority_ratio3 > 3
+|   |   |   sonority3 <= 12: ultima (306.0/61.0)
+|   |   |   sonority3 > 12: prima (36.0/18.0)
+sonority4 > 9
+|   sonority_ratio3 <= 3
+|   |   sonority0 <= 11
+|   |   |   sonority2 <= 11
+|   |   |   |   sonority_ratio0 <= 4
+|   |   |   |   |   sonority1 <= 9
+|   |   |   |   |   |   sonority_ratio2 <= 3: sekunda (32.0/20.0)
+|   |   |   |   |   |   sonority_ratio2 > 3: paenultima (37.0/16.0)
+|   |   |   |   |   sonority1 > 9
+|   |   |   |   |   |   sonority1 <= 11: prima (116.0/53.0)
+|   |   |   |   |   |   sonority1 > 11: sekunda (89.0/44.0)
+|   |   |   |   sonority_ratio0 > 4
+|   |   |   |   |   sonority_dir <= 0: prima (191.0/67.0)
+|   |   |   |   |   sonority_dir > 0: paenultima (38.0/25.0)
+|   |   |   sonority2 > 11
+|   |   |   |   sonority_ratio2 <= 4
+|   |   |   |   |   sonority_ratio0 <= 4: sekunda (80.0/29.0)
+|   |   |   |   |   sonority_ratio0 > 4: prima (36.0/18.0)
+|   |   |   |   sonority_ratio2 > 4: antepaenultima (38.0/15.0)
+|   |   sonority0 > 11: prima (134.0/20.0)
+|   sonority_ratio3 > 3
+|   |   sonority4 <= 12
+|   |   |   sonority_ratio4 <= 4
+|   |   |   |   sonority_ratio0 <= 4
+|   |   |   |   |   sonority0 <= 11
+|   |   |   |   |   |   sonority_ratio2 <= 5
+|   |   |   |   |   |   |   sonority2 <= 10
+|   |   |   |   |   |   |   |   sonority1 <= 12
+|   |   |   |   |   |   |   |   |   sonority3 <= 10: prima (52.0/32.0)
+|   |   |   |   |   |   |   |   |   sonority3 > 10: paenultima (66.0/34.0)
+|   |   |   |   |   |   |   |   sonority1 > 12: sekunda (31.0/8.0)
+|   |   |   |   |   |   |   sonority2 > 10: sekunda (117.0/40.0)
+|   |   |   |   |   |   sonority_ratio2 > 5: paenultima (41.0/16.0)
+|   |   |   |   |   sonority0 > 11: prima (68.0/22.0)
+|   |   |   |   sonority_ratio0 > 4
+|   |   |   |   |   sonority0 <= 7: paenultima (43.0/20.0)
+|   |   |   |   |   sonority0 > 7: prima (213.0/81.0)
+|   |   |   sonority_ratio4 > 4
+|   |   |   |   sonority_ratio2 <= 4
+|   |   |   |   |   sonority3 <= 9: prima (20.0/11.0)
+|   |   |   |   |   sonority3 > 9
+|   |   |   |   |   |   sonority3 <= 11: sekunda (20.0/11.0)
+|   |   |   |   |   |   sonority3 > 11: antepaenultima (21.0/12.0)
+|   |   |   |   sonority_ratio2 > 4: antepaenultima (21.0/5.0)
+|   |   sonority4 > 12
+|   |   |   sonority3 <= 7: ultima (38.0/13.0)
+|   |   |   sonority3 > 7
+|   |   |   |   sonority_ratio4 <= 5
+|   |   |   |   |   sonority_ratio4 <= 3
+|   |   |   |   |   |   sonority2 <= 9: paenultima (21.0/14.0)
+|   |   |   |   |   |   sonority2 > 9: prima (27.0/17.0)
+|   |   |   |   |   sonority_ratio4 > 3
+|   |   |   |   |   |   sonority_ratio2 <= 3
+|   |   |   |   |   |   |   sonority4 <= 13
+|   |   |   |   |   |   |   |   sonority_dir <= 0: prima (47.0/24.0)
+|   |   |   |   |   |   |   |   sonority_dir > 0: paenultima (24.0/4.0)
+|   |   |   |   |   |   |   sonority4 > 13: prima (31.0/16.0)
+|   |   |   |   |   |   sonority_ratio2 > 3: paenultima (348.0/71.0)
+|   |   |   |   sonority_ratio4 > 5: ultima (29.0/13.0)
+
+Number of Leaves  : 	41
+
+Size of the tree : 	81
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 5syl-all_training-weka.filters.unsupervised.attribute.Remove-R102-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-37,102-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir)$-V-output-debug-info-do-not-check-capabilities
+
+JRIP rules:
+===========
+
+(sonority2 >= 14) and (sonority_ratio2 >= 5) => stress_class=antepaenultima (71.0/29.0)
+(sonority4 <= 9) and (sonority4 >= 8) and (sonority_ratio3 >= 4) and (sonority3 <= 10) and (sonority0 <= 11) => stress_class=ultima (230.0/28.0)
+(sonority4 <= 9) and (sonority4 >= 8) and (sonority_ratio3 >= 4) and (sonority3 <= 12) and (sonority4 <= 8) => stress_class=ultima (34.0/5.0)
+(sonority_ratio0 <= 4) and (sonority2 >= 10) and (sonority_ratio2 <= 4) and (sonority0 <= 11) and (sonority_ratio4 <= 3) => stress_class=sekunda (208.0/73.0)
+(sonority1 >= 12) and (sonority_ratio0 <= 4) and (sonority4 <= 12) and (sonority0 <= 11) and (sonority2 >= 10) => stress_class=sekunda (74.0/27.0)
+(sonority_ratio0 <= 4) and (sonority1 >= 12) and (sonority_ratio1 <= 5) and (sonority_ratio2 <= 3) and (sonority0 <= 11) => stress_class=sekunda (75.0/31.0)
+(sonority_ratio0 <= 4) and (sonority_ratio3 <= 3) and (sonority2 >= 12) and (sonority0 <= 11) and (sonority_ratio2 <= 4) => stress_class=sekunda (47.0/21.0)
+(sonority4 >= 13) and (sonority_ratio3 >= 4) and (sonority4 <= 13) and (sonority0 <= 10) and (sonority3 >= 8) => stress_class=paenultima (212.0/28.0)
+(sonority1 <= 9) and (sonority0 <= 10) and (sonority_ratio2 >= 5) and (sonority2 <= 10) => stress_class=paenultima (65.0/18.0)
+(sonority4 >= 13) and (sonority_ratio3 >= 4) and (sonority4 <= 13) and (sonority3 >= 8) and (sonority1 <= 9) and (sonority2 <= 11) => stress_class=paenultima (40.0/6.0)
+(sonority2 <= 9) and (sonority0 <= 10) and (sonority_ratio2 >= 4) and (sonority3 >= 8) and (sonority3 <= 10) => stress_class=paenultima (80.0/20.0)
+(sonority4 >= 13) and (sonority_ratio3 >= 4) and (sonority_ratio3 <= 4) and (sonority4 >= 15) and (sonority4 <= 15) => stress_class=paenultima (44.0/14.0)
+(sonority_ratio3 >= 4) and (sonority0 <= 9) and (sonority2 <= 9) and (sonority_dir >= 1) => stress_class=paenultima (58.0/27.0)
+(sonority4 >= 13) and (sonority4 <= 13) and (sonority3 <= 9) and (sonority3 >= 8) => stress_class=paenultima (48.0/15.0)
+(sonority1 <= 9) and (sonority0 <= 9) and (sonority_ratio4 <= 3) and (sonority_ratio3 >= 4) => stress_class=paenultima (40.0/15.0)
+ => stress_class=prima (1435.0/626.0)
+
+Number of Rules : 16
+=== Classifier model ===
+
+Scheme:   NeuralNetwork
+Relation: 5syl-all_training-weka.filters.unsupervised.attribute.Remove-R102-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-37,102-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir)$-V-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@4c632a2a

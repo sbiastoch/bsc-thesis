@@ -122,6 +122,7 @@ only_komposita = 'LENGTH(REPLACE(ImmClass, \'x\', \'\'))>1'
 q = Query('lemmas2',1000000)
 q.setFields('SylCnt, Word, stress_class').augment(all).where(only_proper_classes)
 res = q.execute()
+res.removeInfrequent()
 res.csv('all.csv')
 del q, res
 
@@ -130,6 +131,7 @@ for syls in list('8765432'):
 	q = Query('lemmas2',1000000)
 	q.setFields('Word, stress_class').augment(all).where('MySylCnt='+str(syls)).where(only_proper_classes)
 	res = q.execute()
+	res.removeInfrequent()
 	res.csv(str(syls)+'syl-all.csv')
 	del q, res
 
@@ -137,6 +139,7 @@ for syls in list('8765432'):
 	q2 = Query('lemmas2',1000000)
 	q2.setFields('Word, stress_class').augment(all).where('MySylCnt='+str(syls)).where(only_proper_classes).where(only_nonkomposita)
 	res2 = q2.execute()
+	res2.removeInfrequent()
 	res2.csv(str(syls)+'syl-nocomp.csv')
 	del q2, res2
 

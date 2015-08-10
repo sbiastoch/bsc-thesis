@@ -81,8 +81,8 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">false</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente</object>
-               <object class="java.lang.String" name="prefix">7syl-classifications.csv</object>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/classifications</object>
+               <object class="java.lang.String" name="prefix">6syl-classifications.csv</object>
                <object class="boolean" name="useRelativePath" primitive="yes">true</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-F</object>
@@ -102,7 +102,7 @@
          <object class="java.lang.String" name="custom_name">CSVLoader</object>
          <object class="weka.gui.beans.Loader" name="bean">
             <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
-               <object class="java.lang.String" name="file">/home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/csv/training/7syl-all_test.csv</object>
+               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/6syl-all_test.csv</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-M</object>
@@ -130,8 +130,8 @@
             <object class="java.util.Vector" name="inputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">7</object>
-                  <object class="int" name="x" primitive="yes">1243</object>
-                  <object class="int" name="y" primitive="yes">191</object>
+                  <object class="int" name="x" primitive="yes">1233</object>
+                  <object class="int" name="y" primitive="yes">179</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -139,7 +139,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/all-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/all-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -148,8 +148,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">16</object>
-                  <object class="int" name="x" primitive="yes">1264</object>
-                  <object class="int" name="y" primitive="yes">214</object>
+                  <object class="int" name="x" primitive="yes">1296</object>
+                  <object class="int" name="y" primitive="yes">248</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">all</object>
                      <object class="null" name="name" null="yes"/>
@@ -259,8 +259,8 @@
             <object class="java.util.Vector" name="subFlow">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">7</object>
-                  <object class="int" name="x" primitive="yes">1243</object>
-                  <object class="int" name="y" primitive="yes">191</object>
+                  <object class="int" name="x" primitive="yes">1233</object>
+                  <object class="int" name="y" primitive="yes">179</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -268,7 +268,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/all-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/all-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -277,8 +277,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">8</object>
-                  <object class="int" name="x" primitive="yes">1243</object>
-                  <object class="int" name="y" primitive="yes">191</object>
+                  <object class="int" name="x" primitive="yes">1233</object>
+                  <object class="int" name="y" primitive="yes">179</object>
                   <object class="java.lang.String" name="custom_name">JRip</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -286,7 +286,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/all-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/all-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -294,8 +294,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="2">
                   <object class="int" name="id" primitive="yes">9</object>
-                  <object class="int" name="x" primitive="yes">1243</object>
-                  <object class="int" name="y" primitive="yes">191</object>
+                  <object class="int" name="x" primitive="yes">1233</object>
+                  <object class="int" name="y" primitive="yes">179</object>
                   <object class="java.lang.String" name="custom_name">NN</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -303,7 +303,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/all-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/all-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -311,8 +311,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="3">
                   <object class="int" name="id" primitive="yes">10</object>
-                  <object class="int" name="x" primitive="yes">1243</object>
-                  <object class="int" name="y" primitive="yes">191</object>
+                  <object class="int" name="x" primitive="yes">1233</object>
+                  <object class="int" name="y" primitive="yes">179</object>
                   <object class="java.lang.String" name="custom_name">J48 error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -329,8 +329,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="4">
                   <object class="int" name="id" primitive="yes">11</object>
-                  <object class="int" name="x" primitive="yes">1243</object>
-                  <object class="int" name="y" primitive="yes">191</object>
+                  <object class="int" name="x" primitive="yes">1233</object>
+                  <object class="int" name="y" primitive="yes">179</object>
                   <object class="java.lang.String" name="custom_name">J48 class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -349,8 +349,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="5">
                   <object class="int" name="id" primitive="yes">12</object>
-                  <object class="int" name="x" primitive="yes">1243</object>
-                  <object class="int" name="y" primitive="yes">191</object>
+                  <object class="int" name="x" primitive="yes">1233</object>
+                  <object class="int" name="y" primitive="yes">179</object>
                   <object class="java.lang.String" name="custom_name">JRip error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -367,8 +367,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="6">
                   <object class="int" name="id" primitive="yes">13</object>
-                  <object class="int" name="x" primitive="yes">1243</object>
-                  <object class="int" name="y" primitive="yes">191</object>
+                  <object class="int" name="x" primitive="yes">1233</object>
+                  <object class="int" name="y" primitive="yes">179</object>
                   <object class="java.lang.String" name="custom_name">JRip class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -387,8 +387,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="7">
                   <object class="int" name="id" primitive="yes">14</object>
-                  <object class="int" name="x" primitive="yes">1243</object>
-                  <object class="int" name="y" primitive="yes">191</object>
+                  <object class="int" name="x" primitive="yes">1233</object>
+                  <object class="int" name="y" primitive="yes">179</object>
                   <object class="java.lang.String" name="custom_name">NN error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -405,8 +405,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="8">
                   <object class="int" name="id" primitive="yes">15</object>
-                  <object class="int" name="x" primitive="yes">1243</object>
-                  <object class="int" name="y" primitive="yes">191</object>
+                  <object class="int" name="x" primitive="yes">1233</object>
+                  <object class="int" name="y" primitive="yes">179</object>
                   <object class="java.lang.String" name="custom_name">NN class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -425,8 +425,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="9">
                   <object class="int" name="id" primitive="yes">16</object>
-                  <object class="int" name="x" primitive="yes">1264</object>
-                  <object class="int" name="y" primitive="yes">214</object>
+                  <object class="int" name="x" primitive="yes">1296</object>
+                  <object class="int" name="y" primitive="yes">248</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">all</object>
                      <object class="null" name="name" null="yes"/>
@@ -438,8 +438,8 @@
             <object class="java.util.Vector" name="outputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">15</object>
-                  <object class="int" name="x" primitive="yes">1243</object>
-                  <object class="int" name="y" primitive="yes">191</object>
+                  <object class="int" name="x" primitive="yes">1233</object>
+                  <object class="int" name="y" primitive="yes">179</object>
                   <object class="java.lang.String" name="custom_name">NN class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -475,8 +475,8 @@
             <object class="java.util.Vector" name="inputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">18</object>
-                  <object class="int" name="x" primitive="yes">1141</object>
-                  <object class="int" name="y" primitive="yes">139</object>
+                  <object class="int" name="x" primitive="yes">1131</object>
+                  <object class="int" name="y" primitive="yes">127</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -484,7 +484,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/praefix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/praefix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -494,7 +494,7 @@
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">27</object>
                   <object class="int" name="x" primitive="yes">1146</object>
-                  <object class="int" name="y" primitive="yes">162</object>
+                  <object class="int" name="y" primitive="yes">196</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">praefix</object>
                      <object class="null" name="name" null="yes"/>
@@ -604,8 +604,8 @@
             <object class="java.util.Vector" name="subFlow">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">18</object>
-                  <object class="int" name="x" primitive="yes">1141</object>
-                  <object class="int" name="y" primitive="yes">139</object>
+                  <object class="int" name="x" primitive="yes">1131</object>
+                  <object class="int" name="y" primitive="yes">127</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -613,7 +613,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/praefix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/praefix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -622,8 +622,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">19</object>
-                  <object class="int" name="x" primitive="yes">1141</object>
-                  <object class="int" name="y" primitive="yes">139</object>
+                  <object class="int" name="x" primitive="yes">1131</object>
+                  <object class="int" name="y" primitive="yes">127</object>
                   <object class="java.lang.String" name="custom_name">JRip</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -631,7 +631,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/praefix-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/praefix-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -639,8 +639,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="2">
                   <object class="int" name="id" primitive="yes">20</object>
-                  <object class="int" name="x" primitive="yes">1141</object>
-                  <object class="int" name="y" primitive="yes">139</object>
+                  <object class="int" name="x" primitive="yes">1131</object>
+                  <object class="int" name="y" primitive="yes">127</object>
                   <object class="java.lang.String" name="custom_name">NN</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -648,7 +648,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/praefix-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/praefix-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -656,8 +656,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="3">
                   <object class="int" name="id" primitive="yes">21</object>
-                  <object class="int" name="x" primitive="yes">1141</object>
-                  <object class="int" name="y" primitive="yes">139</object>
+                  <object class="int" name="x" primitive="yes">1131</object>
+                  <object class="int" name="y" primitive="yes">127</object>
                   <object class="java.lang.String" name="custom_name">J48 error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -674,8 +674,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="4">
                   <object class="int" name="id" primitive="yes">22</object>
-                  <object class="int" name="x" primitive="yes">1141</object>
-                  <object class="int" name="y" primitive="yes">139</object>
+                  <object class="int" name="x" primitive="yes">1131</object>
+                  <object class="int" name="y" primitive="yes">127</object>
                   <object class="java.lang.String" name="custom_name">J48 class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -694,8 +694,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="5">
                   <object class="int" name="id" primitive="yes">23</object>
-                  <object class="int" name="x" primitive="yes">1141</object>
-                  <object class="int" name="y" primitive="yes">139</object>
+                  <object class="int" name="x" primitive="yes">1131</object>
+                  <object class="int" name="y" primitive="yes">127</object>
                   <object class="java.lang.String" name="custom_name">JRip error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -712,8 +712,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="6">
                   <object class="int" name="id" primitive="yes">24</object>
-                  <object class="int" name="x" primitive="yes">1141</object>
-                  <object class="int" name="y" primitive="yes">139</object>
+                  <object class="int" name="x" primitive="yes">1131</object>
+                  <object class="int" name="y" primitive="yes">127</object>
                   <object class="java.lang.String" name="custom_name">JRip class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -732,8 +732,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="7">
                   <object class="int" name="id" primitive="yes">25</object>
-                  <object class="int" name="x" primitive="yes">1141</object>
-                  <object class="int" name="y" primitive="yes">139</object>
+                  <object class="int" name="x" primitive="yes">1131</object>
+                  <object class="int" name="y" primitive="yes">127</object>
                   <object class="java.lang.String" name="custom_name">NN error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -750,8 +750,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="8">
                   <object class="int" name="id" primitive="yes">26</object>
-                  <object class="int" name="x" primitive="yes">1141</object>
-                  <object class="int" name="y" primitive="yes">139</object>
+                  <object class="int" name="x" primitive="yes">1131</object>
+                  <object class="int" name="y" primitive="yes">127</object>
                   <object class="java.lang.String" name="custom_name">NN class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -771,7 +771,7 @@
                <object class="weka.gui.beans.BeanInstance" name="9">
                   <object class="int" name="id" primitive="yes">27</object>
                   <object class="int" name="x" primitive="yes">1146</object>
-                  <object class="int" name="y" primitive="yes">162</object>
+                  <object class="int" name="y" primitive="yes">196</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">praefix</object>
                      <object class="null" name="name" null="yes"/>
@@ -783,8 +783,8 @@
             <object class="java.util.Vector" name="outputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">26</object>
-                  <object class="int" name="x" primitive="yes">1141</object>
-                  <object class="int" name="y" primitive="yes">139</object>
+                  <object class="int" name="x" primitive="yes">1131</object>
+                  <object class="int" name="y" primitive="yes">127</object>
                   <object class="java.lang.String" name="custom_name">NN class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -820,8 +820,8 @@
             <object class="java.util.Vector" name="inputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">29</object>
-                  <object class="int" name="x" primitive="yes">1050</object>
-                  <object class="int" name="y" primitive="yes">179</object>
+                  <object class="int" name="x" primitive="yes">1040</object>
+                  <object class="int" name="y" primitive="yes">167</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses2</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -829,7 +829,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/suffix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/suffix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -838,8 +838,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">38</object>
-                  <object class="int" name="x" primitive="yes">1060</object>
-                  <object class="int" name="y" primitive="yes">202</object>
+                  <object class="int" name="x" primitive="yes">1070</object>
+                  <object class="int" name="y" primitive="yes">236</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">suffix</object>
                      <object class="null" name="name" null="yes"/>
@@ -949,8 +949,8 @@
             <object class="java.util.Vector" name="subFlow">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">29</object>
-                  <object class="int" name="x" primitive="yes">1050</object>
-                  <object class="int" name="y" primitive="yes">179</object>
+                  <object class="int" name="x" primitive="yes">1040</object>
+                  <object class="int" name="y" primitive="yes">167</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses2</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -958,7 +958,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/suffix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/suffix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -967,8 +967,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">30</object>
-                  <object class="int" name="x" primitive="yes">1050</object>
-                  <object class="int" name="y" primitive="yes">179</object>
+                  <object class="int" name="x" primitive="yes">1040</object>
+                  <object class="int" name="y" primitive="yes">167</object>
                   <object class="java.lang.String" name="custom_name">JRip2</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -976,7 +976,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/suffix-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/suffix-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -984,8 +984,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="2">
                   <object class="int" name="id" primitive="yes">31</object>
-                  <object class="int" name="x" primitive="yes">1050</object>
-                  <object class="int" name="y" primitive="yes">179</object>
+                  <object class="int" name="x" primitive="yes">1040</object>
+                  <object class="int" name="y" primitive="yes">167</object>
                   <object class="java.lang.String" name="custom_name">NN2</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -993,7 +993,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/suffix-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/suffix-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -1001,8 +1001,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="3">
                   <object class="int" name="id" primitive="yes">32</object>
-                  <object class="int" name="x" primitive="yes">1050</object>
-                  <object class="int" name="y" primitive="yes">179</object>
+                  <object class="int" name="x" primitive="yes">1040</object>
+                  <object class="int" name="y" primitive="yes">167</object>
                   <object class="java.lang.String" name="custom_name">J48 error_label2</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -1019,8 +1019,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="4">
                   <object class="int" name="id" primitive="yes">33</object>
-                  <object class="int" name="x" primitive="yes">1050</object>
-                  <object class="int" name="y" primitive="yes">179</object>
+                  <object class="int" name="x" primitive="yes">1040</object>
+                  <object class="int" name="y" primitive="yes">167</object>
                   <object class="java.lang.String" name="custom_name">J48 class_label2</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -1039,8 +1039,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="5">
                   <object class="int" name="id" primitive="yes">34</object>
-                  <object class="int" name="x" primitive="yes">1050</object>
-                  <object class="int" name="y" primitive="yes">179</object>
+                  <object class="int" name="x" primitive="yes">1040</object>
+                  <object class="int" name="y" primitive="yes">167</object>
                   <object class="java.lang.String" name="custom_name">JRip error_label2</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -1057,8 +1057,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="6">
                   <object class="int" name="id" primitive="yes">35</object>
-                  <object class="int" name="x" primitive="yes">1050</object>
-                  <object class="int" name="y" primitive="yes">179</object>
+                  <object class="int" name="x" primitive="yes">1040</object>
+                  <object class="int" name="y" primitive="yes">167</object>
                   <object class="java.lang.String" name="custom_name">JRip class_label2</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -1077,8 +1077,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="7">
                   <object class="int" name="id" primitive="yes">36</object>
-                  <object class="int" name="x" primitive="yes">1050</object>
-                  <object class="int" name="y" primitive="yes">179</object>
+                  <object class="int" name="x" primitive="yes">1040</object>
+                  <object class="int" name="y" primitive="yes">167</object>
                   <object class="java.lang.String" name="custom_name">NN error_label2</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -1095,8 +1095,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="8">
                   <object class="int" name="id" primitive="yes">37</object>
-                  <object class="int" name="x" primitive="yes">1050</object>
-                  <object class="int" name="y" primitive="yes">179</object>
+                  <object class="int" name="x" primitive="yes">1040</object>
+                  <object class="int" name="y" primitive="yes">167</object>
                   <object class="java.lang.String" name="custom_name">NN class_label2</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -1115,8 +1115,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="9">
                   <object class="int" name="id" primitive="yes">38</object>
-                  <object class="int" name="x" primitive="yes">1060</object>
-                  <object class="int" name="y" primitive="yes">202</object>
+                  <object class="int" name="x" primitive="yes">1070</object>
+                  <object class="int" name="y" primitive="yes">236</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">suffix</object>
                      <object class="null" name="name" null="yes"/>
@@ -1128,8 +1128,8 @@
             <object class="java.util.Vector" name="outputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">37</object>
-                  <object class="int" name="x" primitive="yes">1050</object>
-                  <object class="int" name="y" primitive="yes">179</object>
+                  <object class="int" name="x" primitive="yes">1040</object>
+                  <object class="int" name="y" primitive="yes">167</object>
                   <object class="java.lang.String" name="custom_name">NN class_label2</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -1165,8 +1165,8 @@
             <object class="java.util.Vector" name="inputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">40</object>
-                  <object class="int" name="x" primitive="yes">944</object>
-                  <object class="int" name="y" primitive="yes">147</object>
+                  <object class="int" name="x" primitive="yes">934</object>
+                  <object class="int" name="y" primitive="yes">135</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -1174,7 +1174,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/affix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/affix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -1183,8 +1183,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">49</object>
-                  <object class="int" name="x" primitive="yes">958</object>
-                  <object class="int" name="y" primitive="yes">170</object>
+                  <object class="int" name="x" primitive="yes">976</object>
+                  <object class="int" name="y" primitive="yes">204</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">affix</object>
                      <object class="null" name="name" null="yes"/>
@@ -1294,8 +1294,8 @@
             <object class="java.util.Vector" name="subFlow">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">40</object>
-                  <object class="int" name="x" primitive="yes">944</object>
-                  <object class="int" name="y" primitive="yes">147</object>
+                  <object class="int" name="x" primitive="yes">934</object>
+                  <object class="int" name="y" primitive="yes">135</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -1303,7 +1303,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/affix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/affix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -1312,8 +1312,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">41</object>
-                  <object class="int" name="x" primitive="yes">944</object>
-                  <object class="int" name="y" primitive="yes">147</object>
+                  <object class="int" name="x" primitive="yes">934</object>
+                  <object class="int" name="y" primitive="yes">135</object>
                   <object class="java.lang.String" name="custom_name">JRip</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -1321,7 +1321,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/affix-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/affix-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -1329,8 +1329,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="2">
                   <object class="int" name="id" primitive="yes">42</object>
-                  <object class="int" name="x" primitive="yes">944</object>
-                  <object class="int" name="y" primitive="yes">147</object>
+                  <object class="int" name="x" primitive="yes">934</object>
+                  <object class="int" name="y" primitive="yes">135</object>
                   <object class="java.lang.String" name="custom_name">NN</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -1338,7 +1338,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/affix-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/affix-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -1346,8 +1346,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="3">
                   <object class="int" name="id" primitive="yes">43</object>
-                  <object class="int" name="x" primitive="yes">944</object>
-                  <object class="int" name="y" primitive="yes">147</object>
+                  <object class="int" name="x" primitive="yes">934</object>
+                  <object class="int" name="y" primitive="yes">135</object>
                   <object class="java.lang.String" name="custom_name">J48 error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -1364,8 +1364,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="4">
                   <object class="int" name="id" primitive="yes">44</object>
-                  <object class="int" name="x" primitive="yes">944</object>
-                  <object class="int" name="y" primitive="yes">147</object>
+                  <object class="int" name="x" primitive="yes">934</object>
+                  <object class="int" name="y" primitive="yes">135</object>
                   <object class="java.lang.String" name="custom_name">J48 class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -1384,8 +1384,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="5">
                   <object class="int" name="id" primitive="yes">45</object>
-                  <object class="int" name="x" primitive="yes">944</object>
-                  <object class="int" name="y" primitive="yes">147</object>
+                  <object class="int" name="x" primitive="yes">934</object>
+                  <object class="int" name="y" primitive="yes">135</object>
                   <object class="java.lang.String" name="custom_name">JRip error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -1402,8 +1402,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="6">
                   <object class="int" name="id" primitive="yes">46</object>
-                  <object class="int" name="x" primitive="yes">944</object>
-                  <object class="int" name="y" primitive="yes">147</object>
+                  <object class="int" name="x" primitive="yes">934</object>
+                  <object class="int" name="y" primitive="yes">135</object>
                   <object class="java.lang.String" name="custom_name">JRip class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -1422,8 +1422,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="7">
                   <object class="int" name="id" primitive="yes">47</object>
-                  <object class="int" name="x" primitive="yes">944</object>
-                  <object class="int" name="y" primitive="yes">147</object>
+                  <object class="int" name="x" primitive="yes">934</object>
+                  <object class="int" name="y" primitive="yes">135</object>
                   <object class="java.lang.String" name="custom_name">NN error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -1440,8 +1440,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="8">
                   <object class="int" name="id" primitive="yes">48</object>
-                  <object class="int" name="x" primitive="yes">944</object>
-                  <object class="int" name="y" primitive="yes">147</object>
+                  <object class="int" name="x" primitive="yes">934</object>
+                  <object class="int" name="y" primitive="yes">135</object>
                   <object class="java.lang.String" name="custom_name">NN class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -1460,8 +1460,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="9">
                   <object class="int" name="id" primitive="yes">49</object>
-                  <object class="int" name="x" primitive="yes">958</object>
-                  <object class="int" name="y" primitive="yes">170</object>
+                  <object class="int" name="x" primitive="yes">976</object>
+                  <object class="int" name="y" primitive="yes">204</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">affix</object>
                      <object class="null" name="name" null="yes"/>
@@ -1473,8 +1473,8 @@
             <object class="java.util.Vector" name="outputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">48</object>
-                  <object class="int" name="x" primitive="yes">944</object>
-                  <object class="int" name="y" primitive="yes">147</object>
+                  <object class="int" name="x" primitive="yes">934</object>
+                  <object class="int" name="y" primitive="yes">135</object>
                   <object class="java.lang.String" name="custom_name">NN class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -1510,8 +1510,8 @@
             <object class="java.util.Vector" name="inputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">51</object>
-                  <object class="int" name="x" primitive="yes">843</object>
-                  <object class="int" name="y" primitive="yes">184</object>
+                  <object class="int" name="x" primitive="yes">833</object>
+                  <object class="int" name="y" primitive="yes">172</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -1519,7 +1519,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/sonority-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sonority-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -1528,8 +1528,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">60</object>
-                  <object class="int" name="x" primitive="yes">843</object>
-                  <object class="int" name="y" primitive="yes">207</object>
+                  <object class="int" name="x" primitive="yes">833</object>
+                  <object class="int" name="y" primitive="yes">241</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">sonority</object>
                      <object class="null" name="name" null="yes"/>
@@ -1639,8 +1639,8 @@
             <object class="java.util.Vector" name="subFlow">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">51</object>
-                  <object class="int" name="x" primitive="yes">843</object>
-                  <object class="int" name="y" primitive="yes">184</object>
+                  <object class="int" name="x" primitive="yes">833</object>
+                  <object class="int" name="y" primitive="yes">172</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -1648,7 +1648,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/sonority-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sonority-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -1657,8 +1657,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">52</object>
-                  <object class="int" name="x" primitive="yes">843</object>
-                  <object class="int" name="y" primitive="yes">184</object>
+                  <object class="int" name="x" primitive="yes">833</object>
+                  <object class="int" name="y" primitive="yes">172</object>
                   <object class="java.lang.String" name="custom_name">JRip</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -1666,7 +1666,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/sonority-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sonority-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -1674,8 +1674,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="2">
                   <object class="int" name="id" primitive="yes">53</object>
-                  <object class="int" name="x" primitive="yes">843</object>
-                  <object class="int" name="y" primitive="yes">184</object>
+                  <object class="int" name="x" primitive="yes">833</object>
+                  <object class="int" name="y" primitive="yes">172</object>
                   <object class="java.lang.String" name="custom_name">NN</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -1683,7 +1683,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/sonority-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sonority-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -1691,8 +1691,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="3">
                   <object class="int" name="id" primitive="yes">54</object>
-                  <object class="int" name="x" primitive="yes">843</object>
-                  <object class="int" name="y" primitive="yes">184</object>
+                  <object class="int" name="x" primitive="yes">833</object>
+                  <object class="int" name="y" primitive="yes">172</object>
                   <object class="java.lang.String" name="custom_name">J48 error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -1709,8 +1709,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="4">
                   <object class="int" name="id" primitive="yes">55</object>
-                  <object class="int" name="x" primitive="yes">843</object>
-                  <object class="int" name="y" primitive="yes">184</object>
+                  <object class="int" name="x" primitive="yes">833</object>
+                  <object class="int" name="y" primitive="yes">172</object>
                   <object class="java.lang.String" name="custom_name">J48 class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -1729,8 +1729,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="5">
                   <object class="int" name="id" primitive="yes">56</object>
-                  <object class="int" name="x" primitive="yes">843</object>
-                  <object class="int" name="y" primitive="yes">184</object>
+                  <object class="int" name="x" primitive="yes">833</object>
+                  <object class="int" name="y" primitive="yes">172</object>
                   <object class="java.lang.String" name="custom_name">JRip error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -1747,8 +1747,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="6">
                   <object class="int" name="id" primitive="yes">57</object>
-                  <object class="int" name="x" primitive="yes">843</object>
-                  <object class="int" name="y" primitive="yes">184</object>
+                  <object class="int" name="x" primitive="yes">833</object>
+                  <object class="int" name="y" primitive="yes">172</object>
                   <object class="java.lang.String" name="custom_name">JRip class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -1767,8 +1767,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="7">
                   <object class="int" name="id" primitive="yes">58</object>
-                  <object class="int" name="x" primitive="yes">843</object>
-                  <object class="int" name="y" primitive="yes">184</object>
+                  <object class="int" name="x" primitive="yes">833</object>
+                  <object class="int" name="y" primitive="yes">172</object>
                   <object class="java.lang.String" name="custom_name">NN error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -1785,8 +1785,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="8">
                   <object class="int" name="id" primitive="yes">59</object>
-                  <object class="int" name="x" primitive="yes">843</object>
-                  <object class="int" name="y" primitive="yes">184</object>
+                  <object class="int" name="x" primitive="yes">833</object>
+                  <object class="int" name="y" primitive="yes">172</object>
                   <object class="java.lang.String" name="custom_name">NN class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -1805,8 +1805,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="9">
                   <object class="int" name="id" primitive="yes">60</object>
-                  <object class="int" name="x" primitive="yes">843</object>
-                  <object class="int" name="y" primitive="yes">207</object>
+                  <object class="int" name="x" primitive="yes">833</object>
+                  <object class="int" name="y" primitive="yes">241</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">sonority</object>
                      <object class="null" name="name" null="yes"/>
@@ -1818,8 +1818,8 @@
             <object class="java.util.Vector" name="outputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">59</object>
-                  <object class="int" name="x" primitive="yes">843</object>
-                  <object class="int" name="y" primitive="yes">184</object>
+                  <object class="int" name="x" primitive="yes">833</object>
+                  <object class="int" name="y" primitive="yes">172</object>
                   <object class="java.lang.String" name="custom_name">NN class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -1855,8 +1855,8 @@
             <object class="java.util.Vector" name="inputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">62</object>
-                  <object class="int" name="x" primitive="yes">752</object>
-                  <object class="int" name="y" primitive="yes">148</object>
+                  <object class="int" name="x" primitive="yes">742</object>
+                  <object class="int" name="y" primitive="yes">136</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -1864,7 +1864,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/weight-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/weight-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -1874,7 +1874,7 @@
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">71</object>
                   <object class="int" name="x" primitive="yes">757</object>
-                  <object class="int" name="y" primitive="yes">171</object>
+                  <object class="int" name="y" primitive="yes">205</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">weight</object>
                      <object class="null" name="name" null="yes"/>
@@ -1984,8 +1984,8 @@
             <object class="java.util.Vector" name="subFlow">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">62</object>
-                  <object class="int" name="x" primitive="yes">752</object>
-                  <object class="int" name="y" primitive="yes">148</object>
+                  <object class="int" name="x" primitive="yes">742</object>
+                  <object class="int" name="y" primitive="yes">136</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -1993,7 +1993,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/weight-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/weight-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -2002,8 +2002,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">63</object>
-                  <object class="int" name="x" primitive="yes">752</object>
-                  <object class="int" name="y" primitive="yes">148</object>
+                  <object class="int" name="x" primitive="yes">742</object>
+                  <object class="int" name="y" primitive="yes">136</object>
                   <object class="java.lang.String" name="custom_name">JRip</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -2011,7 +2011,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/weight-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/weight-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -2019,8 +2019,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="2">
                   <object class="int" name="id" primitive="yes">64</object>
-                  <object class="int" name="x" primitive="yes">752</object>
-                  <object class="int" name="y" primitive="yes">148</object>
+                  <object class="int" name="x" primitive="yes">742</object>
+                  <object class="int" name="y" primitive="yes">136</object>
                   <object class="java.lang.String" name="custom_name">NN</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -2028,7 +2028,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/weight-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/weight-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -2036,8 +2036,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="3">
                   <object class="int" name="id" primitive="yes">65</object>
-                  <object class="int" name="x" primitive="yes">752</object>
-                  <object class="int" name="y" primitive="yes">148</object>
+                  <object class="int" name="x" primitive="yes">742</object>
+                  <object class="int" name="y" primitive="yes">136</object>
                   <object class="java.lang.String" name="custom_name">J48 error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -2054,8 +2054,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="4">
                   <object class="int" name="id" primitive="yes">66</object>
-                  <object class="int" name="x" primitive="yes">752</object>
-                  <object class="int" name="y" primitive="yes">148</object>
+                  <object class="int" name="x" primitive="yes">742</object>
+                  <object class="int" name="y" primitive="yes">136</object>
                   <object class="java.lang.String" name="custom_name">J48 class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -2074,8 +2074,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="5">
                   <object class="int" name="id" primitive="yes">67</object>
-                  <object class="int" name="x" primitive="yes">752</object>
-                  <object class="int" name="y" primitive="yes">148</object>
+                  <object class="int" name="x" primitive="yes">742</object>
+                  <object class="int" name="y" primitive="yes">136</object>
                   <object class="java.lang.String" name="custom_name">JRip error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -2092,8 +2092,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="6">
                   <object class="int" name="id" primitive="yes">68</object>
-                  <object class="int" name="x" primitive="yes">752</object>
-                  <object class="int" name="y" primitive="yes">148</object>
+                  <object class="int" name="x" primitive="yes">742</object>
+                  <object class="int" name="y" primitive="yes">136</object>
                   <object class="java.lang.String" name="custom_name">JRip class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -2112,8 +2112,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="7">
                   <object class="int" name="id" primitive="yes">69</object>
-                  <object class="int" name="x" primitive="yes">752</object>
-                  <object class="int" name="y" primitive="yes">148</object>
+                  <object class="int" name="x" primitive="yes">742</object>
+                  <object class="int" name="y" primitive="yes">136</object>
                   <object class="java.lang.String" name="custom_name">NN error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -2130,8 +2130,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="8">
                   <object class="int" name="id" primitive="yes">70</object>
-                  <object class="int" name="x" primitive="yes">752</object>
-                  <object class="int" name="y" primitive="yes">148</object>
+                  <object class="int" name="x" primitive="yes">742</object>
+                  <object class="int" name="y" primitive="yes">136</object>
                   <object class="java.lang.String" name="custom_name">NN class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -2151,7 +2151,7 @@
                <object class="weka.gui.beans.BeanInstance" name="9">
                   <object class="int" name="id" primitive="yes">71</object>
                   <object class="int" name="x" primitive="yes">757</object>
-                  <object class="int" name="y" primitive="yes">171</object>
+                  <object class="int" name="y" primitive="yes">205</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">weight</object>
                      <object class="null" name="name" null="yes"/>
@@ -2163,8 +2163,8 @@
             <object class="java.util.Vector" name="outputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">70</object>
-                  <object class="int" name="x" primitive="yes">752</object>
-                  <object class="int" name="y" primitive="yes">148</object>
+                  <object class="int" name="x" primitive="yes">742</object>
+                  <object class="int" name="y" primitive="yes">136</object>
                   <object class="java.lang.String" name="custom_name">NN class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -2200,8 +2200,8 @@
             <object class="java.util.Vector" name="inputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">73</object>
-                  <object class="int" name="x" primitive="yes">673</object>
-                  <object class="int" name="y" primitive="yes">206</object>
+                  <object class="int" name="x" primitive="yes">663</object>
+                  <object class="int" name="y" primitive="yes">194</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -2209,7 +2209,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/phoncat-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/phoncat-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -2218,8 +2218,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">82</object>
-                  <object class="int" name="x" primitive="yes">673</object>
-                  <object class="int" name="y" primitive="yes">206</object>
+                  <object class="int" name="x" primitive="yes">663</object>
+                  <object class="int" name="y" primitive="yes">240</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">phoncat</object>
                      <object class="null" name="name" null="yes"/>
@@ -2329,8 +2329,8 @@
             <object class="java.util.Vector" name="subFlow">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">73</object>
-                  <object class="int" name="x" primitive="yes">673</object>
-                  <object class="int" name="y" primitive="yes">206</object>
+                  <object class="int" name="x" primitive="yes">663</object>
+                  <object class="int" name="y" primitive="yes">194</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -2338,7 +2338,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/phoncat-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/phoncat-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -2347,8 +2347,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">74</object>
-                  <object class="int" name="x" primitive="yes">673</object>
-                  <object class="int" name="y" primitive="yes">206</object>
+                  <object class="int" name="x" primitive="yes">663</object>
+                  <object class="int" name="y" primitive="yes">194</object>
                   <object class="java.lang.String" name="custom_name">JRip</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -2356,7 +2356,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/phoncat-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/phoncat-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -2364,8 +2364,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="2">
                   <object class="int" name="id" primitive="yes">75</object>
-                  <object class="int" name="x" primitive="yes">673</object>
-                  <object class="int" name="y" primitive="yes">206</object>
+                  <object class="int" name="x" primitive="yes">663</object>
+                  <object class="int" name="y" primitive="yes">194</object>
                   <object class="java.lang.String" name="custom_name">NN</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -2373,7 +2373,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/phoncat-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/phoncat-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -2381,8 +2381,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="3">
                   <object class="int" name="id" primitive="yes">76</object>
-                  <object class="int" name="x" primitive="yes">673</object>
-                  <object class="int" name="y" primitive="yes">206</object>
+                  <object class="int" name="x" primitive="yes">663</object>
+                  <object class="int" name="y" primitive="yes">194</object>
                   <object class="java.lang.String" name="custom_name">J48 error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -2399,8 +2399,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="4">
                   <object class="int" name="id" primitive="yes">77</object>
-                  <object class="int" name="x" primitive="yes">673</object>
-                  <object class="int" name="y" primitive="yes">206</object>
+                  <object class="int" name="x" primitive="yes">663</object>
+                  <object class="int" name="y" primitive="yes">194</object>
                   <object class="java.lang.String" name="custom_name">J48 class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -2419,8 +2419,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="5">
                   <object class="int" name="id" primitive="yes">78</object>
-                  <object class="int" name="x" primitive="yes">673</object>
-                  <object class="int" name="y" primitive="yes">206</object>
+                  <object class="int" name="x" primitive="yes">663</object>
+                  <object class="int" name="y" primitive="yes">194</object>
                   <object class="java.lang.String" name="custom_name">JRip error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -2437,8 +2437,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="6">
                   <object class="int" name="id" primitive="yes">79</object>
-                  <object class="int" name="x" primitive="yes">673</object>
-                  <object class="int" name="y" primitive="yes">206</object>
+                  <object class="int" name="x" primitive="yes">663</object>
+                  <object class="int" name="y" primitive="yes">194</object>
                   <object class="java.lang.String" name="custom_name">JRip class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -2457,8 +2457,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="7">
                   <object class="int" name="id" primitive="yes">80</object>
-                  <object class="int" name="x" primitive="yes">673</object>
-                  <object class="int" name="y" primitive="yes">206</object>
+                  <object class="int" name="x" primitive="yes">663</object>
+                  <object class="int" name="y" primitive="yes">194</object>
                   <object class="java.lang.String" name="custom_name">NN error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -2475,8 +2475,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="8">
                   <object class="int" name="id" primitive="yes">81</object>
-                  <object class="int" name="x" primitive="yes">673</object>
-                  <object class="int" name="y" primitive="yes">206</object>
+                  <object class="int" name="x" primitive="yes">663</object>
+                  <object class="int" name="y" primitive="yes">194</object>
                   <object class="java.lang.String" name="custom_name">NN class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -2495,8 +2495,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="9">
                   <object class="int" name="id" primitive="yes">82</object>
-                  <object class="int" name="x" primitive="yes">673</object>
-                  <object class="int" name="y" primitive="yes">206</object>
+                  <object class="int" name="x" primitive="yes">663</object>
+                  <object class="int" name="y" primitive="yes">240</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">phoncat</object>
                      <object class="null" name="name" null="yes"/>
@@ -2508,8 +2508,8 @@
             <object class="java.util.Vector" name="outputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">81</object>
-                  <object class="int" name="x" primitive="yes">673</object>
-                  <object class="int" name="y" primitive="yes">206</object>
+                  <object class="int" name="x" primitive="yes">663</object>
+                  <object class="int" name="y" primitive="yes">194</object>
                   <object class="java.lang.String" name="custom_name">NN class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -2545,8 +2545,8 @@
             <object class="java.util.Vector" name="inputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">84</object>
-                  <object class="int" name="x" primitive="yes">573</object>
-                  <object class="int" name="y" primitive="yes">162</object>
+                  <object class="int" name="x" primitive="yes">563</object>
+                  <object class="int" name="y" primitive="yes">150</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -2554,7 +2554,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/phon-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/phon-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -2563,8 +2563,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">93</object>
-                  <object class="int" name="x" primitive="yes">573</object>
-                  <object class="int" name="y" primitive="yes">162</object>
+                  <object class="int" name="x" primitive="yes">585</object>
+                  <object class="int" name="y" primitive="yes">196</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">phon</object>
                      <object class="null" name="name" null="yes"/>
@@ -2674,8 +2674,8 @@
             <object class="java.util.Vector" name="subFlow">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">84</object>
-                  <object class="int" name="x" primitive="yes">573</object>
-                  <object class="int" name="y" primitive="yes">162</object>
+                  <object class="int" name="x" primitive="yes">563</object>
+                  <object class="int" name="y" primitive="yes">150</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -2683,7 +2683,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/phon-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/phon-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -2692,8 +2692,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">85</object>
-                  <object class="int" name="x" primitive="yes">573</object>
-                  <object class="int" name="y" primitive="yes">162</object>
+                  <object class="int" name="x" primitive="yes">563</object>
+                  <object class="int" name="y" primitive="yes">150</object>
                   <object class="java.lang.String" name="custom_name">JRip</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -2701,7 +2701,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/phon-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/phon-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -2709,8 +2709,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="2">
                   <object class="int" name="id" primitive="yes">86</object>
-                  <object class="int" name="x" primitive="yes">573</object>
-                  <object class="int" name="y" primitive="yes">162</object>
+                  <object class="int" name="x" primitive="yes">563</object>
+                  <object class="int" name="y" primitive="yes">150</object>
                   <object class="java.lang.String" name="custom_name">NN</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -2718,7 +2718,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/phon-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/phon-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -2726,8 +2726,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="3">
                   <object class="int" name="id" primitive="yes">87</object>
-                  <object class="int" name="x" primitive="yes">573</object>
-                  <object class="int" name="y" primitive="yes">162</object>
+                  <object class="int" name="x" primitive="yes">563</object>
+                  <object class="int" name="y" primitive="yes">150</object>
                   <object class="java.lang.String" name="custom_name">J48 error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -2744,8 +2744,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="4">
                   <object class="int" name="id" primitive="yes">88</object>
-                  <object class="int" name="x" primitive="yes">573</object>
-                  <object class="int" name="y" primitive="yes">162</object>
+                  <object class="int" name="x" primitive="yes">563</object>
+                  <object class="int" name="y" primitive="yes">150</object>
                   <object class="java.lang.String" name="custom_name">J48 class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -2764,8 +2764,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="5">
                   <object class="int" name="id" primitive="yes">89</object>
-                  <object class="int" name="x" primitive="yes">573</object>
-                  <object class="int" name="y" primitive="yes">162</object>
+                  <object class="int" name="x" primitive="yes">563</object>
+                  <object class="int" name="y" primitive="yes">150</object>
                   <object class="java.lang.String" name="custom_name">JRip error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -2782,8 +2782,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="6">
                   <object class="int" name="id" primitive="yes">90</object>
-                  <object class="int" name="x" primitive="yes">573</object>
-                  <object class="int" name="y" primitive="yes">162</object>
+                  <object class="int" name="x" primitive="yes">563</object>
+                  <object class="int" name="y" primitive="yes">150</object>
                   <object class="java.lang.String" name="custom_name">JRip class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -2802,8 +2802,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="7">
                   <object class="int" name="id" primitive="yes">91</object>
-                  <object class="int" name="x" primitive="yes">573</object>
-                  <object class="int" name="y" primitive="yes">162</object>
+                  <object class="int" name="x" primitive="yes">563</object>
+                  <object class="int" name="y" primitive="yes">150</object>
                   <object class="java.lang.String" name="custom_name">NN error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -2820,8 +2820,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="8">
                   <object class="int" name="id" primitive="yes">92</object>
-                  <object class="int" name="x" primitive="yes">573</object>
-                  <object class="int" name="y" primitive="yes">162</object>
+                  <object class="int" name="x" primitive="yes">563</object>
+                  <object class="int" name="y" primitive="yes">150</object>
                   <object class="java.lang.String" name="custom_name">NN class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -2840,8 +2840,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="9">
                   <object class="int" name="id" primitive="yes">93</object>
-                  <object class="int" name="x" primitive="yes">573</object>
-                  <object class="int" name="y" primitive="yes">162</object>
+                  <object class="int" name="x" primitive="yes">585</object>
+                  <object class="int" name="y" primitive="yes">196</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">phon</object>
                      <object class="null" name="name" null="yes"/>
@@ -2853,8 +2853,8 @@
             <object class="java.util.Vector" name="outputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">92</object>
-                  <object class="int" name="x" primitive="yes">573</object>
-                  <object class="int" name="y" primitive="yes">162</object>
+                  <object class="int" name="x" primitive="yes">563</object>
+                  <object class="int" name="y" primitive="yes">150</object>
                   <object class="java.lang.String" name="custom_name">NN class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -2890,8 +2890,8 @@
             <object class="java.util.Vector" name="inputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">95</object>
-                  <object class="int" name="x" primitive="yes">465</object>
-                  <object class="int" name="y" primitive="yes">221</object>
+                  <object class="int" name="x" primitive="yes">455</object>
+                  <object class="int" name="y" primitive="yes">209</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -2899,7 +2899,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/sylstruct-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sylstruct-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -2908,8 +2908,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">104</object>
-                  <object class="int" name="x" primitive="yes">465</object>
-                  <object class="int" name="y" primitive="yes">221</object>
+                  <object class="int" name="x" primitive="yes">451</object>
+                  <object class="int" name="y" primitive="yes">255</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">sylstruct</object>
                      <object class="null" name="name" null="yes"/>
@@ -3019,8 +3019,8 @@
             <object class="java.util.Vector" name="subFlow">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">95</object>
-                  <object class="int" name="x" primitive="yes">465</object>
-                  <object class="int" name="y" primitive="yes">221</object>
+                  <object class="int" name="x" primitive="yes">455</object>
+                  <object class="int" name="y" primitive="yes">209</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -3028,7 +3028,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/sylstruct-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sylstruct-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -3037,8 +3037,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">96</object>
-                  <object class="int" name="x" primitive="yes">465</object>
-                  <object class="int" name="y" primitive="yes">221</object>
+                  <object class="int" name="x" primitive="yes">455</object>
+                  <object class="int" name="y" primitive="yes">209</object>
                   <object class="java.lang.String" name="custom_name">JRip</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -3046,7 +3046,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/sylstruct-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sylstruct-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -3054,8 +3054,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="2">
                   <object class="int" name="id" primitive="yes">97</object>
-                  <object class="int" name="x" primitive="yes">465</object>
-                  <object class="int" name="y" primitive="yes">221</object>
+                  <object class="int" name="x" primitive="yes">455</object>
+                  <object class="int" name="y" primitive="yes">209</object>
                   <object class="java.lang.String" name="custom_name">NN</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -3063,7 +3063,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/sylstruct-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sylstruct-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -3071,8 +3071,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="3">
                   <object class="int" name="id" primitive="yes">98</object>
-                  <object class="int" name="x" primitive="yes">465</object>
-                  <object class="int" name="y" primitive="yes">221</object>
+                  <object class="int" name="x" primitive="yes">455</object>
+                  <object class="int" name="y" primitive="yes">209</object>
                   <object class="java.lang.String" name="custom_name">J48 error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -3089,8 +3089,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="4">
                   <object class="int" name="id" primitive="yes">99</object>
-                  <object class="int" name="x" primitive="yes">465</object>
-                  <object class="int" name="y" primitive="yes">221</object>
+                  <object class="int" name="x" primitive="yes">455</object>
+                  <object class="int" name="y" primitive="yes">209</object>
                   <object class="java.lang.String" name="custom_name">J48 class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -3109,8 +3109,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="5">
                   <object class="int" name="id" primitive="yes">100</object>
-                  <object class="int" name="x" primitive="yes">465</object>
-                  <object class="int" name="y" primitive="yes">221</object>
+                  <object class="int" name="x" primitive="yes">455</object>
+                  <object class="int" name="y" primitive="yes">209</object>
                   <object class="java.lang.String" name="custom_name">JRip error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -3127,8 +3127,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="6">
                   <object class="int" name="id" primitive="yes">101</object>
-                  <object class="int" name="x" primitive="yes">465</object>
-                  <object class="int" name="y" primitive="yes">221</object>
+                  <object class="int" name="x" primitive="yes">455</object>
+                  <object class="int" name="y" primitive="yes">209</object>
                   <object class="java.lang.String" name="custom_name">JRip class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -3147,8 +3147,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="7">
                   <object class="int" name="id" primitive="yes">102</object>
-                  <object class="int" name="x" primitive="yes">465</object>
-                  <object class="int" name="y" primitive="yes">221</object>
+                  <object class="int" name="x" primitive="yes">455</object>
+                  <object class="int" name="y" primitive="yes">209</object>
                   <object class="java.lang.String" name="custom_name">NN error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -3165,8 +3165,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="8">
                   <object class="int" name="id" primitive="yes">103</object>
-                  <object class="int" name="x" primitive="yes">465</object>
-                  <object class="int" name="y" primitive="yes">221</object>
+                  <object class="int" name="x" primitive="yes">455</object>
+                  <object class="int" name="y" primitive="yes">209</object>
                   <object class="java.lang.String" name="custom_name">NN class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -3185,8 +3185,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="9">
                   <object class="int" name="id" primitive="yes">104</object>
-                  <object class="int" name="x" primitive="yes">465</object>
-                  <object class="int" name="y" primitive="yes">221</object>
+                  <object class="int" name="x" primitive="yes">451</object>
+                  <object class="int" name="y" primitive="yes">255</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">sylstruct</object>
                      <object class="null" name="name" null="yes"/>
@@ -3198,8 +3198,8 @@
             <object class="java.util.Vector" name="outputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">103</object>
-                  <object class="int" name="x" primitive="yes">465</object>
-                  <object class="int" name="y" primitive="yes">221</object>
+                  <object class="int" name="x" primitive="yes">455</object>
+                  <object class="int" name="y" primitive="yes">209</object>
                   <object class="java.lang.String" name="custom_name">NN class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -3235,8 +3235,8 @@
             <object class="java.util.Vector" name="inputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">106</object>
-                  <object class="int" name="x" primitive="yes">377</object>
-                  <object class="int" name="y" primitive="yes">164</object>
+                  <object class="int" name="x" primitive="yes">367</object>
+                  <object class="int" name="y" primitive="yes">152</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -3244,7 +3244,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/meta-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/meta-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -3253,8 +3253,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">115</object>
-                  <object class="int" name="x" primitive="yes">377</object>
-                  <object class="int" name="y" primitive="yes">164</object>
+                  <object class="int" name="x" primitive="yes">389</object>
+                  <object class="int" name="y" primitive="yes">198</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">meta</object>
                      <object class="null" name="name" null="yes"/>
@@ -3364,8 +3364,8 @@
             <object class="java.util.Vector" name="subFlow">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">106</object>
-                  <object class="int" name="x" primitive="yes">377</object>
-                  <object class="int" name="y" primitive="yes">164</object>
+                  <object class="int" name="x" primitive="yes">367</object>
+                  <object class="int" name="y" primitive="yes">152</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -3373,7 +3373,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/meta-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/meta-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -3382,8 +3382,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">107</object>
-                  <object class="int" name="x" primitive="yes">377</object>
-                  <object class="int" name="y" primitive="yes">164</object>
+                  <object class="int" name="x" primitive="yes">367</object>
+                  <object class="int" name="y" primitive="yes">152</object>
                   <object class="java.lang.String" name="custom_name">JRip</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -3391,7 +3391,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/meta-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/meta-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -3399,8 +3399,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="2">
                   <object class="int" name="id" primitive="yes">108</object>
-                  <object class="int" name="x" primitive="yes">377</object>
-                  <object class="int" name="y" primitive="yes">164</object>
+                  <object class="int" name="x" primitive="yes">367</object>
+                  <object class="int" name="y" primitive="yes">152</object>
                   <object class="java.lang.String" name="custom_name">NN</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -3408,7 +3408,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/meta-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/meta-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -3416,8 +3416,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="3">
                   <object class="int" name="id" primitive="yes">109</object>
-                  <object class="int" name="x" primitive="yes">377</object>
-                  <object class="int" name="y" primitive="yes">164</object>
+                  <object class="int" name="x" primitive="yes">367</object>
+                  <object class="int" name="y" primitive="yes">152</object>
                   <object class="java.lang.String" name="custom_name">J48 error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -3434,8 +3434,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="4">
                   <object class="int" name="id" primitive="yes">110</object>
-                  <object class="int" name="x" primitive="yes">377</object>
-                  <object class="int" name="y" primitive="yes">164</object>
+                  <object class="int" name="x" primitive="yes">367</object>
+                  <object class="int" name="y" primitive="yes">152</object>
                   <object class="java.lang.String" name="custom_name">J48 class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -3454,8 +3454,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="5">
                   <object class="int" name="id" primitive="yes">111</object>
-                  <object class="int" name="x" primitive="yes">377</object>
-                  <object class="int" name="y" primitive="yes">164</object>
+                  <object class="int" name="x" primitive="yes">367</object>
+                  <object class="int" name="y" primitive="yes">152</object>
                   <object class="java.lang.String" name="custom_name">JRip error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -3472,8 +3472,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="6">
                   <object class="int" name="id" primitive="yes">112</object>
-                  <object class="int" name="x" primitive="yes">377</object>
-                  <object class="int" name="y" primitive="yes">164</object>
+                  <object class="int" name="x" primitive="yes">367</object>
+                  <object class="int" name="y" primitive="yes">152</object>
                   <object class="java.lang.String" name="custom_name">JRip class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -3492,8 +3492,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="7">
                   <object class="int" name="id" primitive="yes">113</object>
-                  <object class="int" name="x" primitive="yes">377</object>
-                  <object class="int" name="y" primitive="yes">164</object>
+                  <object class="int" name="x" primitive="yes">367</object>
+                  <object class="int" name="y" primitive="yes">152</object>
                   <object class="java.lang.String" name="custom_name">NN error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -3510,8 +3510,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="8">
                   <object class="int" name="id" primitive="yes">114</object>
-                  <object class="int" name="x" primitive="yes">377</object>
-                  <object class="int" name="y" primitive="yes">164</object>
+                  <object class="int" name="x" primitive="yes">367</object>
+                  <object class="int" name="y" primitive="yes">152</object>
                   <object class="java.lang.String" name="custom_name">NN class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -3530,8 +3530,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="9">
                   <object class="int" name="id" primitive="yes">115</object>
-                  <object class="int" name="x" primitive="yes">377</object>
-                  <object class="int" name="y" primitive="yes">164</object>
+                  <object class="int" name="x" primitive="yes">389</object>
+                  <object class="int" name="y" primitive="yes">198</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">meta</object>
                      <object class="null" name="name" null="yes"/>
@@ -3543,8 +3543,8 @@
             <object class="java.util.Vector" name="outputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">114</object>
-                  <object class="int" name="x" primitive="yes">377</object>
-                  <object class="int" name="y" primitive="yes">164</object>
+                  <object class="int" name="x" primitive="yes">367</object>
+                  <object class="int" name="y" primitive="yes">152</object>
                   <object class="java.lang.String" name="custom_name">NN class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -3580,8 +3580,8 @@
             <object class="java.util.Vector" name="inputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">117</object>
-                  <object class="int" name="x" primitive="yes">329</object>
-                  <object class="int" name="y" primitive="yes">269</object>
+                  <object class="int" name="x" primitive="yes">319</object>
+                  <object class="int" name="y" primitive="yes">257</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -3589,7 +3589,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/numeric-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/numeric-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -3598,8 +3598,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">126</object>
-                  <object class="int" name="x" primitive="yes">329</object>
-                  <object class="int" name="y" primitive="yes">269</object>
+                  <object class="int" name="x" primitive="yes">321</object>
+                  <object class="int" name="y" primitive="yes">303</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">numeric</object>
                      <object class="null" name="name" null="yes"/>
@@ -3709,8 +3709,8 @@
             <object class="java.util.Vector" name="subFlow">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">117</object>
-                  <object class="int" name="x" primitive="yes">329</object>
-                  <object class="int" name="y" primitive="yes">269</object>
+                  <object class="int" name="x" primitive="yes">319</object>
+                  <object class="int" name="y" primitive="yes">257</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -3718,7 +3718,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/numeric-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/numeric-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -3727,8 +3727,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">118</object>
-                  <object class="int" name="x" primitive="yes">329</object>
-                  <object class="int" name="y" primitive="yes">269</object>
+                  <object class="int" name="x" primitive="yes">319</object>
+                  <object class="int" name="y" primitive="yes">257</object>
                   <object class="java.lang.String" name="custom_name">JRip</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -3736,7 +3736,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/numeric-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/numeric-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -3744,8 +3744,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="2">
                   <object class="int" name="id" primitive="yes">119</object>
-                  <object class="int" name="x" primitive="yes">329</object>
-                  <object class="int" name="y" primitive="yes">269</object>
+                  <object class="int" name="x" primitive="yes">319</object>
+                  <object class="int" name="y" primitive="yes">257</object>
                   <object class="java.lang.String" name="custom_name">NN</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -3753,7 +3753,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/numeric-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/numeric-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -3761,8 +3761,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="3">
                   <object class="int" name="id" primitive="yes">120</object>
-                  <object class="int" name="x" primitive="yes">329</object>
-                  <object class="int" name="y" primitive="yes">269</object>
+                  <object class="int" name="x" primitive="yes">319</object>
+                  <object class="int" name="y" primitive="yes">257</object>
                   <object class="java.lang.String" name="custom_name">J48 error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -3779,8 +3779,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="4">
                   <object class="int" name="id" primitive="yes">121</object>
-                  <object class="int" name="x" primitive="yes">329</object>
-                  <object class="int" name="y" primitive="yes">269</object>
+                  <object class="int" name="x" primitive="yes">319</object>
+                  <object class="int" name="y" primitive="yes">257</object>
                   <object class="java.lang.String" name="custom_name">J48 class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -3799,8 +3799,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="5">
                   <object class="int" name="id" primitive="yes">122</object>
-                  <object class="int" name="x" primitive="yes">329</object>
-                  <object class="int" name="y" primitive="yes">269</object>
+                  <object class="int" name="x" primitive="yes">319</object>
+                  <object class="int" name="y" primitive="yes">257</object>
                   <object class="java.lang.String" name="custom_name">JRip error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -3817,8 +3817,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="6">
                   <object class="int" name="id" primitive="yes">123</object>
-                  <object class="int" name="x" primitive="yes">329</object>
-                  <object class="int" name="y" primitive="yes">269</object>
+                  <object class="int" name="x" primitive="yes">319</object>
+                  <object class="int" name="y" primitive="yes">257</object>
                   <object class="java.lang.String" name="custom_name">JRip class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -3837,8 +3837,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="7">
                   <object class="int" name="id" primitive="yes">124</object>
-                  <object class="int" name="x" primitive="yes">329</object>
-                  <object class="int" name="y" primitive="yes">269</object>
+                  <object class="int" name="x" primitive="yes">319</object>
+                  <object class="int" name="y" primitive="yes">257</object>
                   <object class="java.lang.String" name="custom_name">NN error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -3855,8 +3855,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="8">
                   <object class="int" name="id" primitive="yes">125</object>
-                  <object class="int" name="x" primitive="yes">329</object>
-                  <object class="int" name="y" primitive="yes">269</object>
+                  <object class="int" name="x" primitive="yes">319</object>
+                  <object class="int" name="y" primitive="yes">257</object>
                   <object class="java.lang.String" name="custom_name">NN class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -3875,8 +3875,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="9">
                   <object class="int" name="id" primitive="yes">126</object>
-                  <object class="int" name="x" primitive="yes">329</object>
-                  <object class="int" name="y" primitive="yes">269</object>
+                  <object class="int" name="x" primitive="yes">321</object>
+                  <object class="int" name="y" primitive="yes">303</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">numeric</object>
                      <object class="null" name="name" null="yes"/>
@@ -3888,8 +3888,8 @@
             <object class="java.util.Vector" name="outputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">125</object>
-                  <object class="int" name="x" primitive="yes">329</object>
-                  <object class="int" name="y" primitive="yes">269</object>
+                  <object class="int" name="x" primitive="yes">319</object>
+                  <object class="int" name="y" primitive="yes">257</object>
                   <object class="java.lang.String" name="custom_name">NN class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -3925,8 +3925,8 @@
             <object class="java.util.Vector" name="inputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">128</object>
-                  <object class="int" name="x" primitive="yes">225</object>
-                  <object class="int" name="y" primitive="yes">176</object>
+                  <object class="int" name="x" primitive="yes">215</object>
+                  <object class="int" name="y" primitive="yes">164</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -3934,7 +3934,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/sparse-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sparse-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -3944,7 +3944,7 @@
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">137</object>
                   <object class="int" name="x" primitive="yes">225</object>
-                  <object class="int" name="y" primitive="yes">176</object>
+                  <object class="int" name="y" primitive="yes">210</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">sparse</object>
                      <object class="null" name="name" null="yes"/>
@@ -4054,8 +4054,8 @@
             <object class="java.util.Vector" name="subFlow">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">128</object>
-                  <object class="int" name="x" primitive="yes">225</object>
-                  <object class="int" name="y" primitive="yes">176</object>
+                  <object class="int" name="x" primitive="yes">215</object>
+                  <object class="int" name="y" primitive="yes">164</object>
                   <object class="java.lang.String" name="custom_name">J48 guesses</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -4063,7 +4063,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/sparse-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sparse-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -4072,8 +4072,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="1">
                   <object class="int" name="id" primitive="yes">129</object>
-                  <object class="int" name="x" primitive="yes">225</object>
-                  <object class="int" name="y" primitive="yes">176</object>
+                  <object class="int" name="x" primitive="yes">215</object>
+                  <object class="int" name="y" primitive="yes">164</object>
                   <object class="java.lang.String" name="custom_name">JRip</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -4081,7 +4081,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/sparse-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sparse-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -4089,8 +4089,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="2">
                   <object class="int" name="id" primitive="yes">130</object>
-                  <object class="int" name="x" primitive="yes">225</object>
-                  <object class="int" name="y" primitive="yes">176</object>
+                  <object class="int" name="x" primitive="yes">215</object>
+                  <object class="int" name="y" primitive="yes">164</object>
                   <object class="java.lang.String" name="custom_name">NN</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.supervised.attribute.AddClassification" name="filter">
@@ -4098,7 +4098,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/home02/j/zxmjq23/weka-3-7-12/thesis/Experimente/trained_models/7syl/sparse-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sparse-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -4106,8 +4106,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="3">
                   <object class="int" name="id" primitive="yes">131</object>
-                  <object class="int" name="x" primitive="yes">225</object>
-                  <object class="int" name="y" primitive="yes">176</object>
+                  <object class="int" name="x" primitive="yes">215</object>
+                  <object class="int" name="y" primitive="yes">164</object>
                   <object class="java.lang.String" name="custom_name">J48 error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -4124,8 +4124,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="4">
                   <object class="int" name="id" primitive="yes">132</object>
-                  <object class="int" name="x" primitive="yes">225</object>
-                  <object class="int" name="y" primitive="yes">176</object>
+                  <object class="int" name="x" primitive="yes">215</object>
+                  <object class="int" name="y" primitive="yes">164</object>
                   <object class="java.lang.String" name="custom_name">J48 class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -4144,8 +4144,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="5">
                   <object class="int" name="id" primitive="yes">133</object>
-                  <object class="int" name="x" primitive="yes">225</object>
-                  <object class="int" name="y" primitive="yes">176</object>
+                  <object class="int" name="x" primitive="yes">215</object>
+                  <object class="int" name="y" primitive="yes">164</object>
                   <object class="java.lang.String" name="custom_name">JRip error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -4162,8 +4162,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="6">
                   <object class="int" name="id" primitive="yes">134</object>
-                  <object class="int" name="x" primitive="yes">225</object>
-                  <object class="int" name="y" primitive="yes">176</object>
+                  <object class="int" name="x" primitive="yes">215</object>
+                  <object class="int" name="y" primitive="yes">164</object>
                   <object class="java.lang.String" name="custom_name">JRip class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -4182,8 +4182,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="7">
                   <object class="int" name="id" primitive="yes">135</object>
-                  <object class="int" name="x" primitive="yes">225</object>
-                  <object class="int" name="y" primitive="yes">176</object>
+                  <object class="int" name="x" primitive="yes">215</object>
+                  <object class="int" name="y" primitive="yes">164</object>
                   <object class="java.lang.String" name="custom_name">NN error_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -4200,8 +4200,8 @@
                </object>
                <object class="weka.gui.beans.BeanInstance" name="8">
                   <object class="int" name="id" primitive="yes">136</object>
-                  <object class="int" name="x" primitive="yes">225</object>
-                  <object class="int" name="y" primitive="yes">176</object>
+                  <object class="int" name="x" primitive="yes">215</object>
+                  <object class="int" name="y" primitive="yes">164</object>
                   <object class="java.lang.String" name="custom_name">NN class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">
@@ -4221,7 +4221,7 @@
                <object class="weka.gui.beans.BeanInstance" name="9">
                   <object class="int" name="id" primitive="yes">137</object>
                   <object class="int" name="x" primitive="yes">225</object>
-                  <object class="int" name="y" primitive="yes">176</object>
+                  <object class="int" name="y" primitive="yes">210</object>
                   <object class="weka.gui.beans.Note" name="bean">
                      <object class="java.lang.String" name="noteText">sparse</object>
                      <object class="null" name="name" null="yes"/>
@@ -4233,8 +4233,8 @@
             <object class="java.util.Vector" name="outputs">
                <object class="weka.gui.beans.BeanInstance" name="0">
                   <object class="int" name="id" primitive="yes">136</object>
-                  <object class="int" name="x" primitive="yes">225</object>
-                  <object class="int" name="y" primitive="yes">176</object>
+                  <object class="int" name="x" primitive="yes">215</object>
+                  <object class="int" name="y" primitive="yes">164</object>
                   <object class="java.lang.String" name="custom_name">NN class_label</object>
                   <object class="weka.gui.beans.Filter" name="bean">
                      <object class="weka.filters.unsupervised.attribute.RenameAttribute" name="filter">

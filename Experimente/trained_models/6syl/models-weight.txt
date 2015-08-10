@@ -1,0 +1,52 @@
+=== Classifier model ===
+
+Scheme:   J48
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R40-51,116-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_weight.|syl_open.)$-V
+
+J48 pruned tree
+------------------
+
+syl_weight1 = light
+|   syl_weight2 = light
+|   |   syl_weight3 = light
+|   |   |   syl_weight5 = schwa: paenultima (112.0/31.0)
+|   |   |   syl_weight5 = light
+|   |   |   |   syl_open4 = o: ultima (200.0/62.0)
+|   |   |   |   syl_open4 = c: paenultima (71.0/30.0)
+|   |   |   syl_weight5 = heavy: paenultima (21.0/15.0)
+|   |   syl_weight3 = heavy: antepaenultima (31.0/4.0)
+|   |   syl_weight3 = schwa: sekunda (24.0/11.0)
+|   syl_weight2 = schwa
+|   |   syl_open0 = c
+|   |   |   syl_open1 = o: sekunda (30.0/13.0)
+|   |   |   syl_open1 = c: prima (20.0/7.0)
+|   |   syl_open0 = o: sekunda (29.0/5.0)
+|   syl_weight2 = heavy: sekunda (30.0/12.0)
+syl_weight1 = schwa: prima (120.0/13.0)
+syl_weight1 = heavy: prima (25.0/12.0)
+
+Number of Leaves  : 	12
+
+Size of the tree : 	19
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R40-51,116-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_weight.|syl_open.)$-V
+
+JRIP rules:
+===========
+
+(syl_weight3 = heavy) and (syl_weight2 = light) and (syl_weight1 = light) => stress_class=antepaenultima (31.0/4.0)
+(syl_weight2 = schwa) and (syl_weight1 = light) => stress_class=sekunda (79.0/33.0)
+(syl_weight5 = light) and (syl_open4 = o) and (syl_open3 = c) and (syl_open2 = o) and (syl_weight1 = light) => stress_class=ultima (102.0/12.0)
+(syl_weight1 = light) and (syl_weight5 = schwa) and (syl_open3 = o) and (syl_open4 = o) => stress_class=paenultima (82.0/9.0)
+(syl_weight1 = light) and (syl_open2 = o) and (syl_open5 = c) and (syl_open4 = c) and (syl_weight5 = light) => stress_class=paenultima (46.0/15.0)
+ => stress_class=prima (373.0/204.0)
+
+Number of Rules : 6
+=== Classifier model ===
+
+Scheme:   NeuralNetwork
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R40-51,116-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_weight.|syl_open.)$-V
+
+weka.classifiers.functions.NeuralNetwork@53a1bef3

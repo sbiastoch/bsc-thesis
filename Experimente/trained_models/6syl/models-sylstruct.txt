@@ -1,0 +1,80 @@
+=== Classifier model ===
+
+Scheme:   J48
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R76-111,116-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_cv.|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.)$-V-output-debug-info-do-not-check-capabilities
+
+J48 pruned tree
+------------------
+
+cv_ratio5 <= 0: ultima (153.0/37.0)
+cv_ratio5 > 0
+|   cv_ratio3 <= 0
+|   |   nucleus_len5 <= 1
+|   |   |   syl_cv3 = CVVCC_or_CCVCC: paenultima (0.0)
+|   |   |   syl_cv3 = CVV: paenultima (153.0/49.0)
+|   |   |   syl_cv3 = CVC: paenultima (0.0)
+|   |   |   syl_cv3 = VVCC: paenultima (0.0)
+|   |   |   syl_cv3 = VV: paenultima (32.0/4.0)
+|   |   |   syl_cv3 = CV: paenultima (0.0)
+|   |   |   syl_cv3 = VC: paenultima (0.0)
+|   |   |   syl_cv3 = CVVC: paenultima (0.0)
+|   |   |   syl_cv3 = VVC: antepaenultima (6.0/2.0)
+|   |   |   syl_cv3 = VCC: paenultima (0.0)
+|   |   |   syl_cv3 = CVCC: paenultima (0.0)
+|   |   |   syl_cv3 = CCVC: paenultima (0.0)
+|   |   |   syl_cv3 = CCVV: paenultima (0.0)
+|   |   nucleus_len5 > 1
+|   |   |   syl_len5 <= 3: ultima (32.0/9.0)
+|   |   |   syl_len5 > 3: prima (30.0/13.0)
+|   cv_ratio3 > 0
+|   |   nucleus_len3 <= 1
+|   |   |   nucleus_len1 <= 1
+|   |   |   |   syl_cv0 = CCCVC_or_V_or_VVCCC_or_CVCCCC_or_CCVVCC: prima (3.0)
+|   |   |   |   syl_cv0 = CVC: prima (29.0/13.0)
+|   |   |   |   syl_cv0 = VV: prima (18.0/3.0)
+|   |   |   |   syl_cv0 = CCVCC: sekunda (1.0)
+|   |   |   |   syl_cv0 = CVV: prima (31.0/12.0)
+|   |   |   |   syl_cv0 = VC: prima (18.0/2.0)
+|   |   |   |   syl_cv0 = VVC: prima (3.0)
+|   |   |   |   syl_cv0 = CCVV: sekunda (2.0)
+|   |   |   |   syl_cv0 = CCVC: prima (4.0)
+|   |   |   |   syl_cv0 = CVCC: prima (5.0/1.0)
+|   |   |   |   syl_cv0 = VCC: sekunda (1.0)
+|   |   |   |   syl_cv0 = CV: sekunda (10.0)
+|   |   |   |   syl_cv0 = CVVC: prima (6.0)
+|   |   |   |   syl_cv0 = CCVVC: prima (0.0)
+|   |   |   nucleus_len1 > 1
+|   |   |   |   cv_ratio2 <= 0: paenultima (39.0/20.0)
+|   |   |   |   cv_ratio2 > 0
+|   |   |   |   |   cv_ratio1 <= 0
+|   |   |   |   |   |   syl_len4 <= 2: sekunda (23.0/12.0)
+|   |   |   |   |   |   syl_len4 > 2: prima (26.0/7.0)
+|   |   |   |   |   cv_ratio1 > 0: sekunda (26.0/3.0)
+|   |   nucleus_len3 > 1
+|   |   |   cv_ratio2 <= 0: antepaenultima (35.0)
+|   |   |   cv_ratio2 > 0: prima (27.0/12.0)
+
+Number of Leaves  : 	36
+
+Size of the tree : 	48
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R76-111,116-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_cv.|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.)$-V-output-debug-info-do-not-check-capabilities
+
+JRIP rules:
+===========
+
+(syl_cv5 = VVC) => stress_class=ultima (119.0/15.0)
+(nucleus_len5 >= 2) and (syl_len5 <= 3) and (cv_ratio3 <= 0) and (syl_len2 <= 2) => stress_class=ultima (33.0/7.0)
+(cv_ratio3 <= 0) and (syl_cv5 = CVC) and (syl_len4 >= 3) => stress_class=paenultima (107.0/8.0)
+(syl_len5 >= 5) and (syl_cv5 = CVC) => stress_class=paenultima (34.0/9.0)
+ => stress_class=prima (420.0/235.0)
+
+Number of Rules : 5
+=== Classifier model ===
+
+Scheme:   NeuralNetwork
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R76-111,116-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_cv.|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.)$-V-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@33055eb5

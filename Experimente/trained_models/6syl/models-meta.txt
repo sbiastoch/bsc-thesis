@@ -1,0 +1,54 @@
+=== Classifier model ===
+
+Scheme:   J48
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R112-116-weka.filters.unsupervised.attribute.RemoveByName-E^(pos|comp_len|comp_struct|nomen)$-V-output-debug-info-do-not-check-capabilities
+
+J48 pruned tree
+------------------
+
+comp_len <= 1
+|   nomen = F
+|   |   pos = V: paenultima (73.0/4.0)
+|   |   pos = N: paenultima (0.0)
+|   |   pos = A: paenultima (49.0/20.0)
+|   |   pos = ADV: prima (10.0/4.0)
+|   nomen = T
+|   |   comp_struct = AA_or_BV_or_PV_or_AV: ultima (0.0)
+|   |   comp_struct = N: ultima (55.0/29.0)
+|   |   comp_struct = NN: ultima (0.0)
+|   |   comp_struct = R: ultima (85.0/7.0)
+|   |   comp_struct = NV: ultima (0.0)
+|   |   comp_struct = ø: ultima (21.0/13.0)
+|   |   comp_struct = A: ultima (60.0/37.0)
+|   |   comp_struct = AN: ultima (0.0)
+|   |   comp_struct = VN: ultima (0.0)
+|   |   comp_struct = V: paenultima (21.0/6.0)
+|   |   comp_struct = NA: ultima (0.0)
+|   |   comp_struct = PN: ultima (0.0)
+|   |   comp_struct = NF: ultima (0.0)
+|   |   comp_struct = F: paenultima (4.0/1.0)
+comp_len > 1: prima (335.0/171.0)
+
+Number of Leaves  : 	19
+
+Size of the tree : 	23
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R112-116-weka.filters.unsupervised.attribute.RemoveByName-E^(pos|comp_len|comp_struct|nomen)$-V-output-debug-info-do-not-check-capabilities
+
+JRIP rules:
+===========
+
+(comp_struct = R) and (pos = N) => stress_class=ultima (85.0/7.0)
+(comp_len <= 1) and (pos = V) => stress_class=paenultima (73.0/4.0)
+(comp_len <= 1) and (pos = A) => stress_class=paenultima (49.0/20.0)
+ => stress_class=prima (506.0/308.0)
+
+Number of Rules : 4
+=== Classifier model ===
+
+Scheme:   NeuralNetwork
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R112-116-weka.filters.unsupervised.attribute.RemoveByName-E^(pos|comp_len|comp_struct|nomen)$-V-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@6106c015

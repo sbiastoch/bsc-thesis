@@ -1,0 +1,61 @@
+=== Classifier model ===
+
+Scheme:   J48
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-39,76-99,106-111,115-116-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.|comp_len)$-V-output-debug-info-do-not-check-capabilities
+
+J48 pruned tree
+------------------
+
+cv_ratio5 <= 0
+|   comp_len <= 1: ultima (113.0/3.0)
+|   comp_len > 1: prima (40.0/17.0)
+cv_ratio5 > 0
+|   comp_len <= 1
+|   |   sonority_ratio5 <= 2: ultima (25.0/4.0)
+|   |   sonority_ratio5 > 2
+|   |   |   nucleus_len5 <= 1
+|   |   |   |   syl_len3 <= 2: paenultima (168.0/28.0)
+|   |   |   |   syl_len3 > 2: prima (37.0/21.0)
+|   |   |   nucleus_len5 > 1: prima (35.0/17.0)
+|   comp_len > 1
+|   |   nucleus_len3 <= 1
+|   |   |   sonority0 <= 7: sekunda (30.0/7.0)
+|   |   |   sonority0 > 7
+|   |   |   |   sonority_ratio5 <= 4
+|   |   |   |   |   sonority1 <= 11: prima (99.0/33.0)
+|   |   |   |   |   sonority1 > 11: sekunda (24.0/5.0)
+|   |   |   |   sonority_ratio5 > 4: prima (24.0/1.0)
+|   |   nucleus_len3 > 1
+|   |   |   koda_len3 <= 0
+|   |   |   |   nucleus_len4 <= 1: prima (23.0/8.0)
+|   |   |   |   nucleus_len4 > 1
+|   |   |   |   |   sonority2 <= 9: paenultima (20.0/10.0)
+|   |   |   |   |   sonority2 > 9: prima (20.0/7.0)
+|   |   |   koda_len3 > 0: antepaenultima (55.0/12.0)
+
+Number of Leaves  : 	14
+
+Size of the tree : 	27
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-39,76-99,106-111,115-116-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.|comp_len)$-V-output-debug-info-do-not-check-capabilities
+
+JRIP rules:
+===========
+
+(syl_len3 >= 3) and (nucleus_len3 >= 2) and (cv_ratio2 <= 0) and (sonority3 >= 8) => stress_class=antepaenultima (37.0/0.0)
+(comp_len >= 2) and (nucleus_len0 <= 1) and (nucleus_len1 >= 2) => stress_class=sekunda (71.0/27.0)
+(nucleus_len2 <= 1) and (sonority_ratio0 <= 3) and (cv_ratio1 >= 2) => stress_class=sekunda (55.0/23.0)
+(cv_ratio5 <= 0) and (comp_len <= 1) => stress_class=ultima (113.0/3.0)
+(comp_len <= 1) and (cv_ratio5 >= 2) and (nucleus_len4 >= 2) and (syl_len4 >= 3) => stress_class=paenultima (94.0/4.0)
+(cv_ratio5 >= 2) and (comp_len <= 1) and (sonority4 >= 10) => stress_class=paenultima (60.0/14.0)
+ => stress_class=prima (283.0/116.0)
+
+Number of Rules : 7
+=== Classifier model ===
+
+Scheme:   NeuralNetwork
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-39,76-99,106-111,115-116-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.|comp_len)$-V-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@6eafd0cd

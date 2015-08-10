@@ -1,0 +1,90 @@
+=== Classifier model ===
+
+Scheme:   J48
+Relation: 5syl-all_training-weka.filters.unsupervised.attribute.Remove-R102-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R98-102-weka.filters.unsupervised.attribute.RemoveByName-E^(pos|comp_len|comp_struct|nomen)$-V-output-debug-info-do-not-check-capabilities
+
+J48 pruned tree
+------------------
+
+comp_len <= 1
+|   pos = N
+|   |   comp_struct = NN: ultima (0.0)
+|   |   comp_struct = AN: ultima (0.0)
+|   |   comp_struct = F: prima (19.0/11.0)
+|   |   comp_struct = V: paenultima (110.0/58.0)
+|   |   comp_struct = R: ultima (171.0/42.0)
+|   |   comp_struct = PV: ultima (0.0)
+|   |   comp_struct = N: ultima (175.0/102.0)
+|   |   comp_struct = ø: ultima (129.0/76.0)
+|   |   comp_struct = A: prima (256.0/116.0)
+|   |   comp_struct = VN: ultima (0.0)
+|   |   comp_struct = BV: ultima (0.0)
+|   |   comp_struct = NV: ultima (0.0)
+|   |   comp_struct = AV: ultima (0.0)
+|   |   comp_struct = NF: ultima (0.0)
+|   |   comp_struct = NA: ultima (0.0)
+|   |   comp_struct = AA: ultima (0.0)
+|   |   comp_struct = PN: ultima (0.0)
+|   pos = A
+|   |   comp_struct = NN: paenultima (0.0)
+|   |   comp_struct = AN: paenultima (0.0)
+|   |   comp_struct = F: prima (28.0/12.0)
+|   |   comp_struct = V: paenultima (17.0/9.0)
+|   |   comp_struct = R: paenultima (34.0/12.0)
+|   |   comp_struct = PV: paenultima (0.0)
+|   |   comp_struct = N: paenultima (121.0/67.0)
+|   |   comp_struct = ø: paenultima (25.0/6.0)
+|   |   comp_struct = A: paenultima (87.0/46.0)
+|   |   comp_struct = VN: paenultima (0.0)
+|   |   comp_struct = BV: paenultima (0.0)
+|   |   comp_struct = NV: paenultima (0.0)
+|   |   comp_struct = AV: paenultima (0.0)
+|   |   comp_struct = NF: paenultima (0.0)
+|   |   comp_struct = NA: paenultima (0.0)
+|   |   comp_struct = AA: paenultima (0.0)
+|   |   comp_struct = PN: paenultima (0.0)
+|   pos = V: paenultima (262.0/30.0)
+|   pos = ADV: prima (22.0/11.0)
+|   pos = X: prima (1.0)
+comp_len > 1
+|   comp_struct = NN: prima (653.0/269.0)
+|   comp_struct = AN: antepaenultima (73.0/47.0)
+|   comp_struct = F: prima (0.0)
+|   comp_struct = V: prima (0.0)
+|   comp_struct = R: prima (0.0)
+|   comp_struct = PV: prima (32.0/14.0)
+|   comp_struct = N: prima (0.0)
+|   comp_struct = ø: prima (129.0/62.0)
+|   comp_struct = A: prima (0.0)
+|   comp_struct = VN: prima (55.0/11.0)
+|   comp_struct = BV: sekunda (107.0/24.0)
+|   comp_struct = NV: prima (101.0/25.0)
+|   comp_struct = AV: sekunda (12.0/6.0)
+|   comp_struct = NF: prima (44.0/11.0)
+|   comp_struct = NA: prima (75.0/33.0)
+|   comp_struct = AA: prima (12.0/4.0)
+|   comp_struct = PN: prima (11.0/1.0)
+
+Number of Leaves  : 	54
+
+Size of the tree : 	59
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 5syl-all_training-weka.filters.unsupervised.attribute.Remove-R102-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R98-102-weka.filters.unsupervised.attribute.RemoveByName-E^(pos|comp_len|comp_struct|nomen)$-V-output-debug-info-do-not-check-capabilities
+
+JRIP rules:
+===========
+
+(comp_len <= 1) and (pos = N) and (comp_struct = R) => stress_class=ultima (171.0/42.0)
+(comp_len >= 2) and (pos = V) => stress_class=sekunda (150.0/50.0)
+(pos = V) => stress_class=paenultima (262.0/30.0)
+ => stress_class=prima (2178.0/1222.0)
+
+Number of Rules : 4
+=== Classifier model ===
+
+Scheme:   NeuralNetwork
+Relation: 5syl-all_training-weka.filters.unsupervised.attribute.Remove-R102-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R98-102-weka.filters.unsupervised.attribute.RemoveByName-E^(pos|comp_len|comp_struct|nomen)$-V-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@17c338d3

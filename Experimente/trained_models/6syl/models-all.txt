@@ -1,0 +1,81 @@
+=== Classifier model ===
+
+Scheme:   J48
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-output-debug-info-do-not-check-capabilities
+
+J48 pruned tree
+------------------
+
+cv_ratio5 <= 0
+|   comp_len <= 1: ultima (113.0/3.0)
+|   comp_len > 1: prima (40.0/17.0)
+cv_ratio5 > 0
+|   prae_class = ø
+|   |   syl_weight1 = light
+|   |   |   syl_weight3 = light
+|   |   |   |   syl_weight2 = light
+|   |   |   |   |   nucleus_len5 <= 1
+|   |   |   |   |   |   comp_len <= 1
+|   |   |   |   |   |   |   suffix_phoncat4 = DKCC_or_DCCK_or_CKCD_or_CAKC_or_CDKC_or_KCDC_or_LKCD_or_CADC_or_CKAK_or_CCCL_or_LLCK_or_KCCC_or_LAKC_or_LKCK_or_CCKA_or_KCCL_or_LALC_or_LCLL_or_DCDC_or_AKCC_or_CKCA_or_KAKC_or_ALKC: paenultima (3.0/2.0)
+|   |   |   |   |   |   |   suffix_phoncat4 = LCKC: paenultima (106.0/7.0)
+|   |   |   |   |   |   |   suffix_phoncat4 = CLCK: paenultima (7.0)
+|   |   |   |   |   |   |   suffix_phoncat4 = CCKC: paenultima (39.0/3.0)
+|   |   |   |   |   |   |   suffix_phoncat4 = KCKC: antepaenultima (3.0)
+|   |   |   |   |   |   |   suffix_phoncat4 = CCDC: paenultima (0.0)
+|   |   |   |   |   |   |   suffix_phoncat4 = KCCK: paenultima (0.0)
+|   |   |   |   |   |   |   suffix_phoncat4 = CDCK: paenultima (0.0)
+|   |   |   |   |   |   |   suffix_phoncat4 = CKCC: ultima (5.0/2.0)
+|   |   |   |   |   |   |   suffix_phoncat4 = ALLC: paenultima (0.0)
+|   |   |   |   |   |   |   suffix_phoncat4 = CLCL: paenultima (0.0)
+|   |   |   |   |   |   |   suffix_phoncat4 = CLKC: antepaenultima (5.0/1.0)
+|   |   |   |   |   |   |   suffix_phoncat4 = CKCK: antepaenultima (1.0)
+|   |   |   |   |   |   |   suffix_phoncat4 = CCLC: paenultima (0.0)
+|   |   |   |   |   |   |   suffix_phoncat4 = LCLC: paenultima (0.0)
+|   |   |   |   |   |   |   suffix_phoncat4 = LCLK: paenultima (0.0)
+|   |   |   |   |   |   |   suffix_phoncat4 = DCKC: paenultima (0.0)
+|   |   |   |   |   |   |   suffix_phoncat4 = CLLC: paenultima (0.0)
+|   |   |   |   |   |   |   suffix_phoncat4 = CLCC: paenultima (0.0)
+|   |   |   |   |   |   |   suffix_phoncat4 = KCLC: paenultima (0.0)
+|   |   |   |   |   |   |   suffix_phoncat4 = CKCL: paenultima (0.0)
+|   |   |   |   |   |   comp_len > 1
+|   |   |   |   |   |   |   syl_open1 = o: antepaenultima (25.0/13.0)
+|   |   |   |   |   |   |   syl_open1 = c: sekunda (24.0/13.0)
+|   |   |   |   |   nucleus_len5 > 1
+|   |   |   |   |   |   sonority_ratio5 <= 2: ultima (23.0/2.0)
+|   |   |   |   |   |   sonority_ratio5 > 2: prima (28.0/16.0)
+|   |   |   |   syl_weight2 = schwa
+|   |   |   |   |   syl_len1 <= 2: prima (22.0/11.0)
+|   |   |   |   |   syl_len1 > 2: sekunda (24.0/5.0)
+|   |   |   |   syl_weight2 = heavy: prima (4.0/2.0)
+|   |   |   syl_weight3 = heavy: antepaenultima (29.0/3.0)
+|   |   |   syl_weight3 = schwa: sekunda (34.0/15.0)
+|   |   syl_weight1 = schwa: prima (92.0/10.0)
+|   |   syl_weight1 = heavy: prima (14.0/5.0)
+|   prae_class = noacc: sekunda (36.0/3.0)
+|   prae_class = acc: prima (36.0/1.0)
+
+Number of Leaves  : 	36
+
+Size of the tree : 	48
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-output-debug-info-do-not-check-capabilities
+
+JRIP rules:
+===========
+
+(prae_class = noacc) => stress_class=sekunda (38.0/3.0)
+(syl_weight2 = schwa) and (onset_len0 >= 1) => stress_class=sekunda (49.0/19.0)
+(suffix_phoncat2 = LC) and (comp_len <= 1) => stress_class=ultima (130.0/4.0)
+(comp_len <= 1) and (suffix_phoncat3 = CKC) and (syl_len4 >= 3) and (nucleus_phoncat3 = L) => stress_class=paenultima (99.0/5.0)
+(comp_len <= 1) and (syl_phoncat5 = CKC) and (sonority4 >= 10) => stress_class=paenultima (43.0/6.0)
+ => stress_class=prima (354.0/167.0)
+
+Number of Rules : 6
+=== Classifier model ===
+
+Scheme:   NeuralNetwork
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@33eefb85

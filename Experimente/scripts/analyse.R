@@ -428,12 +428,12 @@ pretty_name <- function(str) {
 	unlist(camel)
 }
 
-lapply(2:8, function(num_syls) {
-	data_folder = '/home/student/thesis/Experimente/csv/classifications/'
+lapply(4:8, function(num_syls) {
+	data_folder = '/home/sbiastoch/Schreibtisch/thesis/Experimente/csv/classifications/'
 	#data_folder = '~/Schreibtisch/thesis/Experimente/csv/classifications/'
-	folder = '/home/student/thesis/Experimente/evaluation/'
+	folder = '/home/sbiastoch/Schreibtisch/thesis/Experimente/evaluation/'
 	#folder = '/home/sbiastoch/Schreibtisch/thesis/Experimente/evaluation/'
-	csv = read.csv(paste(data_folder,num_syls,'syl-results.csv',sep=''), header=TRUE)
+	csv = read.csv(paste(data_folder,num_syls,'syl-classifications.csv',sep=''), header=TRUE)
 
 	results = csv[grep("error", names(csv))]
 #	colnames(results) = lapply(colnames(results), pretty_name) ### verursacht data too long
@@ -442,7 +442,9 @@ lapply(2:8, function(num_syls) {
 
 
 	# Bauen der zu vergleichenden Modelle
-	models = list('J48', 'JRip', 'NN', 'phon', 'affix', 'sylstruct', 'phon_NN|affix_J48')
+	#models = list('praefix','suffix','affix','sonority','weight','phoncat','phon','sylstruct','meta','numeric','sparse','all')
+	models = list('J48', 'JRip', 'NN')
+	#models = list('J48', 'JRip', 'NN', 'phon', 'affix', 'sylstruct', 'phon_NN|affix_J48')
 	model_sets = lapply(models, function(modelname) {
 		results[grep(modelname, names(results))]
 	})

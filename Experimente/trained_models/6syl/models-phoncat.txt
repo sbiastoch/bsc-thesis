@@ -1,0 +1,79 @@
+=== Classifier model ===
+
+Scheme:   J48
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R52-75,116-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_phoncat.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.)$-V-output-debug-info-do-not-check-capabilities
+
+J48 pruned tree
+------------------
+
+nucleus_phoncat5 = K
+|   nucleus_phoncat3 = L
+|   |   syl_phoncat3 = CDA_or_AKC_or_CLCC_or_CCKC_or_CD_or_CDC_or_D_or_CNC_or_CLA_or_CCKCC_or_CKCA_or_AKCC_or_CKA: antepaenultima (3.0/1.0)
+|   |   syl_phoncat3 = CL: paenultima (141.0/43.0)
+|   |   syl_phoncat3 = CK: paenultima (0.0)
+|   |   syl_phoncat3 = LCC: antepaenultima (22.0)
+|   |   syl_phoncat3 = L: paenultima (30.0/2.0)
+|   |   syl_phoncat3 = CKC: paenultima (0.0)
+|   |   syl_phoncat3 = KC: paenultima (0.0)
+|   |   syl_phoncat3 = CLC: antepaenultima (14.0/4.0)
+|   |   syl_phoncat3 = K: paenultima (0.0)
+|   |   syl_phoncat3 = AL: paenultima (13.0/7.0)
+|   |   syl_phoncat3 = LC: antepaenultima (6.0/2.0)
+|   |   syl_phoncat3 = KCC: paenultima (0.0)
+|   |   syl_phoncat3 = CKCC: paenultima (0.0)
+|   |   syl_phoncat3 = CCK: paenultima (0.0)
+|   |   syl_phoncat3 = CCL: prima (5.0/1.0)
+|   nucleus_phoncat3 = K
+|   |   nucleus_phoncat1 = L
+|   |   |   nucleus_phoncat2 = K: sekunda (48.0/26.0)
+|   |   |   nucleus_phoncat2 = L: paenultima (30.0/11.0)
+|   |   |   nucleus_phoncat2 = D: prima (3.0/2.0)
+|   |   nucleus_phoncat1 = K: prima (108.0/38.0)
+|   |   nucleus_phoncat1 = D: sekunda (9.0/2.0)
+|   |   nucleus_phoncat1 = N: prima (0.0)
+|   nucleus_phoncat3 = D: prima (10.0/2.0)
+|   nucleus_phoncat3 = N: antepaenultima (1.0)
+nucleus_phoncat5 = D: prima (45.0/22.0)
+nucleus_phoncat5 = L
+|   syl_phoncat4 = AK_or_CLA_or_CCCKC_or_CCCK_or_CDC_or_CCD_or_LC_or_CCCL_or_ADC_or_CCLC_or_CCKCC_or_ACKC: paenultima (1.0)
+|   syl_phoncat4 = CL: ultima (52.0/24.0)
+|   syl_phoncat4 = CKC: prima (17.0/10.0)
+|   syl_phoncat4 = CK: prima (19.0/6.0)
+|   syl_phoncat4 = KC: prima (5.0/1.0)
+|   syl_phoncat4 = CD: ultima (0.0)
+|   syl_phoncat4 = AL: ultima (114.0/12.0)
+|   syl_phoncat4 = CLC: paenultima (1.0)
+|   syl_phoncat4 = L: prima (10.0/5.0)
+|   syl_phoncat4 = CCL: antepaenultima (1.0)
+|   syl_phoncat4 = CCK: prima (4.0/2.0)
+|   syl_phoncat4 = AKC: ultima (0.0)
+|   syl_phoncat4 = CKCC: ultima (0.0)
+|   syl_phoncat4 = K: ultima (0.0)
+|   syl_phoncat4 = LCC: paenultima (1.0)
+
+Number of Leaves  : 	39
+
+Size of the tree : 	45
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R52-75,116-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_phoncat.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.)$-V-output-debug-info-do-not-check-capabilities
+
+JRIP rules:
+===========
+
+(syl_phoncat3 = LCC) => stress_class=antepaenultima (26.0/0.0)
+(nucleus_phoncat2 = K) and (nucleus_phoncat0 = K) and (onset_phoncat0 = C) and (nucleus_phoncat3 = K) => stress_class=sekunda (63.0/23.0)
+(syl_phoncat5 = LC) => stress_class=ultima (115.0/13.0)
+(nucleus_phoncat5 = L) and (syl_phoncat4 = CL) => stress_class=ultima (44.0/19.0)
+(syl_phoncat5 = CKC) and (syl_phoncat3 = CL) => stress_class=paenultima (108.0/15.0)
+(nucleus_phoncat2 = L) and (syl_phoncat5 = CKC) => stress_class=paenultima (66.0/21.0)
+ => stress_class=prima (291.0/132.0)
+
+Number of Rules : 7
+=== Classifier model ===
+
+Scheme:   NeuralNetwork
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R52-75,116-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_phoncat.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.)$-V-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@7dc5fb0b

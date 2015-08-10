@@ -1,0 +1,110 @@
+=== Classifier model ===
+
+Scheme:   J48
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R15-26,116-weka.filters.unsupervised.attribute.RemoveByName-E^(prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
+
+J48 pruned tree
+------------------
+
+praefix2 = ma_or_pa_or_im_or_sy_or_or_or_Sa_or_Br_or_As_or_Ar_or_Tu_or_Fi_or_ap_or_El_or_le_or_ni_or_Fe_or_Id_or_en_or_co_or_el_or_Ju_or_ra_or_Ru_or_Oe_or_al_or_Fa_or_Ol_or_Po_or_Kr_or_sp_or_ar_or_Im_or_Ke_or_ha_or_Or_or_ch_or_vo_or_Te_or_Do_or_Ob_or_En_or_mi_or_ko_or_Wo_or_Va_or_Gy_or_Ae_or_te_or_Ha_or_Ti_or_Il_or_Li_or_Ni_or_Sy_or_ne_or_Ir_or_ba_or_an_or_Qu_or_vi_or_Ps_or_st_or_me_or_Za_or_er_or_No_or_Pe_or_Uf_or_Av_or_Wa_or_at_or_Ei_or_ps_or_ex_or_no_or_th_or_Zi_or_Sc_or_Le_or_zu_or_Fu_or_hi_or_Af_or_Si_or_ka_or_Ut_or_ho_or_Ba_or_Ka_or_am_or_wo_or_ta_or_Mu_or_be_or_du_or_ae_or_Du_or_La_or_Ev_or_su_or_bi_or_Zo_or_ak_or_Ap_or_Ku_or_ab_or_pe_or_id_or_tu_or_Ty_or_We_or_Gr_or_Fl_or_Gu_or_Mo_or_Da_or_ke_or_Ag_or_At_or_po_or_bu_or_Op_or_sa_or_So_or_oz_or_Su_or_he_or_ac_or_my_or_Ac_or_Um_or_wi_or_Fo_or_sc_or_tr_or_so_or_Nu_or_Ad_or_qu_or_Pu_or_Lo_or_wu_or_eu_or_ir
+|   praefix_phoncat5 = DCCCK_or_CDLCL_or_CCCKC_or_CCDCK_or_LCLAL_or_KCCDA_or_CLKCA_or_KCNCK_or_CCKCK_or_CKCAC_or_CDKCC_or_LCLKC_or_CLAKC_or_KCAKC_or_CDCCK_or_CCLAL_or_CKCCD_or_DCLCK_or_LCKCL_or_LCLCL_or_KCDCC_or_AKCCC_or_KLCLC_or_CKCCA_or_CCLAK_or_KCLLC_or_ADCKC_or_KCALC_or_CLKCL_or_CCKAK_or_KCCLK_or_AKCCK_or_CCKAC_or_LCCCC_or_CLLCL_or_KCLAL_or_DCCCL_or_CDCKK_or_KCKCK_or_KCDCK_or_DCCKC_or_KCDCL_or_ALCLC_or_CKCLK_or_DCKCD_or_DCCLC_or_AKCKC_or_CLCKA_or_CLCCC_or_CCDCL_or_CLCLA_or_CKCKK_or_KCCDC_or_AKCCL_or_KCCLA_or_KCKCL_or_KCCCD_or_CCKCA_or_CKALK_or_ALCDK_or_CCDKC_or_ALCCK_or_CLLCC_or_ALCKA_or_CLCDC_or_CKCAD_or_CKACK_or_KCLCA_or_KCALK_or_CLALK_or_LALKC_or_DCKCK_or_DCKCC_or_LCLLC_or_LCKCK_or_CCLAC_or_KCCAL_or_DCCLK_or_CKDCK_or_CLALL_or_CKALC: prima (58.0/36.0)
+|   praefix_phoncat5 = CKCLC: paenultima (16.0/9.0)
+|   praefix_phoncat5 = LCKCC: prima (10.0/6.0)
+|   praefix_phoncat5 = CKCKC: prima (18.0/10.0)
+|   praefix_phoncat5 = CCKCC: prima (7.0/3.0)
+|   praefix_phoncat5 = CLCKC: prima (22.0/5.0)
+|   praefix_phoncat5 = KCCCK: paenultima (4.0/1.0)
+|   praefix_phoncat5 = CLCLK: paenultima (2.0/1.0)
+|   praefix_phoncat5 = KCCLC: paenultima (16.0/9.0)
+|   praefix_phoncat5 = KCKCC: paenultima (3.0/1.0)
+|   praefix_phoncat5 = CKCCL: paenultima (21.0/12.0)
+|   praefix_phoncat5 = KCCKC: paenultima (6.0/4.0)
+|   praefix_phoncat5 = KCLCK: paenultima (2.0/1.0)
+|   praefix_phoncat5 = CDCKC: prima (2.0)
+|   praefix_phoncat5 = KCLCL: ultima (11.0/5.0)
+|   praefix_phoncat5 = CLCLC: ultima (16.0/8.0)
+|   praefix_phoncat5 = DCLCL: paenultima (1.0)
+|   praefix_phoncat5 = CCLCL: paenultima (5.0/1.0)
+|   praefix_phoncat5 = CLKCC: prima (0.0)
+|   praefix_phoncat5 = CKCCK: prima (17.0/8.0)
+|   praefix_phoncat5 = KCCCL: paenultima (3.0/1.0)
+|   praefix_phoncat5 = CKCCC: prima (15.0/10.0)
+|   praefix_phoncat5 = CKALL: paenultima (1.0)
+|   praefix_phoncat5 = CCLCK: prima (2.0)
+|   praefix_phoncat5 = CLCLL: paenultima (1.0)
+|   praefix_phoncat5 = CKCDC: prima (1.0)
+|   praefix_phoncat5 = CCLCC: prima (1.0)
+|   praefix_phoncat5 = CLCCK: prima (2.0)
+|   praefix_phoncat5 = KCCCC: sekunda (1.0)
+|   praefix_phoncat5 = CLCCL: paenultima (6.0/4.0)
+|   praefix_phoncat5 = CCKCL: paenultima (3.0/2.0)
+|   praefix_phoncat5 = ALCKC: prima (5.0/2.0)
+praefix2 = Ue: prima (9.0)
+praefix2 = Tr: sekunda (6.0/3.0)
+praefix2 = ge: sekunda (6.0/2.0)
+praefix2 = Se: prima (8.0/5.0)
+praefix2 = Er: sekunda (5.0)
+praefix2 = Au: prima (9.0/2.0)
+praefix2 = Ne: paenultima (7.0/4.0)
+praefix2 = St: prima (14.0/5.0)
+praefix2 = Ak: ultima (7.0/2.0)
+praefix2 = In: ultima (28.0/16.0)
+praefix2 = re: paenultima (6.0/1.0)
+praefix2 = in: paenultima (8.0/4.0)
+praefix2 = Re: ultima (28.0/18.0)
+praefix2 = Al: ultima (7.0/4.0)
+praefix2 = au: paenultima (7.0/4.0)
+praefix2 = Pr: antepaenultima (17.0/9.0)
+praefix2 = Ab: prima (7.0/4.0)
+praefix2 = Ve: sekunda (17.0/4.0)
+praefix2 = Na: paenultima (8.0/6.0)
+praefix2 = Ko: ultima (26.0/14.0)
+praefix2 = De: ultima (7.0/2.0)
+praefix2 = Am: ultima (5.0/2.0)
+praefix2 = di: paenultima (6.0/1.0)
+praefix2 = Sp: paenultima (12.0/8.0)
+praefix2 = Un: prima (17.0/5.0)
+praefix2 = Vo: prima (7.0/2.0)
+praefix2 = Me: prima (5.0/3.0)
+praefix2 = Be: sekunda (10.0)
+praefix2 = Ge: sekunda (12.0/4.0)
+praefix2 = na: paenultima (5.0/3.0)
+praefix2 = un: prima (12.0)
+praefix2 = se: paenultima (5.0/1.0)
+praefix2 = Ze: prima (6.0/3.0)
+praefix2 = Ex: ultima (5.0/1.0)
+praefix2 = An: prima (10.0/5.0)
+praefix2 = Ph: ultima (5.0/2.0)
+praefix2 = pr: paenultima (10.0/5.0)
+praefix2 = Pa: ultima (8.0/4.0)
+praefix2 = ue: prima (6.0)
+praefix2 = ve: sekunda (7.0/1.0)
+praefix2 = Wi: prima (10.0/1.0)
+praefix2 = Ra: prima (8.0/3.0)
+praefix2 = de: paenultima (6.0)
+praefix2 = Zu: prima (5.0/2.0)
+praefix2 = Di: ultima (5.0/2.0)
+praefix2 = Mi: prima (6.0/3.0)
+praefix2 = Ma: ultima (5.0/3.0)
+
+Number of Leaves  : 	79
+
+Size of the tree : 	81
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R15-26,116-weka.filters.unsupervised.attribute.RemoveByName-E^(prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
+
+JRIP rules:
+===========
+
+(prae_class = noacc) => stress_class=sekunda (38.0/3.0)
+ => stress_class=prima (675.0/463.0)
+
+Number of Rules : 2
+=== Classifier model ===
+
+Scheme:   NeuralNetwork
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R15-26,116-weka.filters.unsupervised.attribute.RemoveByName-E^(prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@50041320

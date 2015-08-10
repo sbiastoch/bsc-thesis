@@ -1,0 +1,98 @@
+=== Classifier model ===
+
+Scheme:   J48
+Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R84-88-weka.filters.unsupervised.attribute.RemoveByName-E^(pos|comp_len|comp_struct|nomen)$-V-output-debug-info-do-not-check-capabilities
+
+J48 pruned tree
+------------------
+
+comp_len <= 1
+|   comp_struct = N
+|   |   pos = A: paenultima (408.0/244.0)
+|   |   pos = N: ultima (497.0/327.0)
+|   |   pos = V: paenultima (188.0/47.0)
+|   |   pos = ADV: prima (36.0/5.0)
+|   |   pos = X: paenultima (3.0/1.0)
+|   comp_struct = NN: paenultima (0.0)
+|   comp_struct = V
+|   |   pos = A: paenultima (90.0/38.0)
+|   |   pos = N: antepaenultima (477.0/285.0)
+|   |   pos = V: prima (168.0/64.0)
+|   |   pos = ADV: antepaenultima (0.0)
+|   |   pos = X: antepaenultima (0.0)
+|   comp_struct = ø: paenultima (675.0/351.0)
+|   comp_struct = AV: paenultima (0.0)
+|   comp_struct = BV: paenultima (0.0)
+|   comp_struct = PV: paenultima (0.0)
+|   comp_struct = A
+|   |   pos = A: prima (248.0/98.0)
+|   |   pos = N: prima (447.0/184.0)
+|   |   pos = V: antepaenultima (40.0/7.0)
+|   |   pos = ADV: prima (3.0/1.0)
+|   |   pos = X: prima (0.0)
+|   comp_struct = NA: paenultima (0.0)
+|   comp_struct = R
+|   |   pos = A: paenultima (113.0/43.0)
+|   |   pos = N: ultima (215.0/92.0)
+|   |   pos = V: paenultima (173.0)
+|   |   pos = ADV: paenultima (0.0)
+|   |   pos = X: paenultima (0.0)
+|   comp_struct = VN: paenultima (0.0)
+|   comp_struct = F
+|   |   pos = A: prima (130.0/21.0)
+|   |   pos = N: antepaenultima (73.0/37.0)
+|   |   pos = V: prima (0.0)
+|   |   pos = ADV: prima (5.0/1.0)
+|   |   pos = X: prima (3.0/1.0)
+|   comp_struct = NF: paenultima (0.0)
+|   comp_struct = NV: paenultima (0.0)
+|   comp_struct = AN: paenultima (0.0)
+|   comp_struct = PN: paenultima (0.0)
+|   comp_struct = AA: paenultima (0.0)
+|   comp_struct = B: paenultima (10.0/5.0)
+comp_len > 1
+|   comp_struct = N: prima (0.0)
+|   comp_struct = NN: prima (1645.0/277.0)
+|   comp_struct = V: prima (0.0)
+|   comp_struct = ø: prima (372.0/88.0)
+|   comp_struct = AV: prima (59.0/15.0)
+|   comp_struct = BV: antepaenultima (221.0/66.0)
+|   comp_struct = PV: paenultima (232.0/89.0)
+|   comp_struct = A: prima (0.0)
+|   comp_struct = NA: prima (184.0/53.0)
+|   comp_struct = R: prima (0.0)
+|   comp_struct = VN: prima (249.0/19.0)
+|   comp_struct = F: prima (0.0)
+|   comp_struct = NF: prima (90.0/9.0)
+|   comp_struct = NV: prima (184.0/19.0)
+|   comp_struct = AN: prima (167.0/80.0)
+|   comp_struct = PN: prima (73.0/7.0)
+|   comp_struct = AA: prima (39.0/5.0)
+|   comp_struct = B: prima (0.0)
+
+Number of Leaves  : 	56
+
+Size of the tree : 	64
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R84-88-weka.filters.unsupervised.attribute.RemoveByName-E^(pos|comp_len|comp_struct|nomen)$-V-output-debug-info-do-not-check-capabilities
+
+JRIP rules:
+===========
+
+(comp_len <= 1) and (pos = N) and (comp_struct = R) => stress_class=ultima (215.0/92.0)
+(comp_struct = BV) => stress_class=antepaenultima (221.0/66.0)
+(comp_len <= 1) and (nomen = F) and (comp_struct = R) => stress_class=paenultima (286.0/43.0)
+(comp_len <= 1) and (nomen = F) and (comp_len <= 0) => stress_class=paenultima (178.0/52.0)
+(comp_len <= 1) and (comp_struct = N) and (pos = V) => stress_class=paenultima (188.0/47.0)
+(comp_len <= 1) and (pos = A) and (comp_struct = V) => stress_class=paenultima (90.0/38.0)
+ => stress_class=prima (6339.0/2623.0)
+
+Number of Rules : 7
+=== Classifier model ===
+
+Scheme:   NeuralNetwork
+Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R84-88-weka.filters.unsupervised.attribute.RemoveByName-E^(pos|comp_len|comp_struct|nomen)$-V-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@48e2859b
