@@ -1,7 +1,7 @@
 === Classifier model ===
 
 Scheme:   J48
-Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R13,26-43,48-75,80-84,86-88-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|syl_weight.|syl_open.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.|comp_len|nomen|pos|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.|suff_class|prae_class)$-V-output-debug-info-do-not-check-capabilities
+Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R13,26-43,48-75,80-84,86-88-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|syl_weight.|syl_open.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.|comp_len|nomen|pos|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.|suff_class|prae_class)$-V-output-debug-info-do-not-check-capabilities
 
 J48 pruned tree
 ------------------
@@ -165,7 +165,7 @@ Size of the tree : 	153
 === Classifier model ===
 
 Scheme:   JRip
-Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R13,26-43,48-75,80-84,86-88-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|syl_weight.|syl_open.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.|comp_len|nomen|pos|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.|suff_class|prae_class)$-V-output-debug-info-do-not-check-capabilities
+Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R13,26-43,48-75,80-84,86-88-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|syl_weight.|syl_open.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.|comp_len|nomen|pos|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.|suff_class|prae_class)$-V-output-debug-info-do-not-check-capabilities
 
 JRIP rules:
 ===========
@@ -208,6 +208,6 @@ Number of Rules : 33
 === Classifier model ===
 
 Scheme:   NeuralNetwork
-Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R13,26-43,48-75,80-84,86-88-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|syl_weight.|syl_open.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.|comp_len|nomen|pos|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.|suff_class|prae_class)$-V-output-debug-info-do-not-check-capabilities
+Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R13,26-43,48-75,80-84,86-88-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|syl_weight.|syl_open.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.|comp_len|nomen|pos|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.|suff_class|prae_class)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@338ce568
+weka.classifiers.functions.NeuralNetwork@4a8f3e76

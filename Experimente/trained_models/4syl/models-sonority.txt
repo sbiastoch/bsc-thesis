@@ -1,7 +1,7 @@
 === Classifier model ===
 
 Scheme:   J48
-Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-35,88-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir)$-V-output-debug-info-do-not-check-capabilities
+Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-35,88-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir)$-V-output-debug-info-do-not-check-capabilities
 
 J48 pruned tree
 ------------------
@@ -197,7 +197,7 @@ Size of the tree : 	185
 === Classifier model ===
 
 Scheme:   JRip
-Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-35,88-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir)$-V-output-debug-info-do-not-check-capabilities
+Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-35,88-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir)$-V-output-debug-info-do-not-check-capabilities
 
 JRIP rules:
 ===========
@@ -230,6 +230,6 @@ Number of Rules : 23
 === Classifier model ===
 
 Scheme:   NeuralNetwork
-Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-35,88-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir)$-V-output-debug-info-do-not-check-capabilities
+Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-35,88-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@6d2375a3
+weka.classifiers.functions.NeuralNetwork@2f12f921
