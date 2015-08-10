@@ -1,155 +1,53 @@
 === Classifier model ===
 
 Scheme:   J48
-Relation: 5syl-all_training-weka.filters.unsupervised.attribute.Remove-R102-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-output-debug-info-do-not-check-capabilities
+Relation: 5syl-all_training-weka.filters.unsupervised.attribute.Remove-R102-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-output-debug-info-do-not-check-capabilities
 
 J48 pruned tree
 ------------------
 
-comp_len <= 1
-|   cv_ratio4 <= 0
-|   |   syl_cv4 = CVVCCC_or_VV_or_CVCCC_or_ø_or_CCCVVC_or_CCCVCC: ultima (2.0)
-|   |   syl_cv4 = CCVCC: ultima (0.0)
-|   |   syl_cv4 = CV: ultima (0.0)
-|   |   syl_cv4 = CVC: ultima (0.0)
-|   |   syl_cv4 = CVVC: ultima (0.0)
-|   |   syl_cv4 = VVC: ultima (194.0/8.0)
-|   |   syl_cv4 = CCVVC: ultima (0.0)
-|   |   syl_cv4 = VC: ultima (0.0)
-|   |   syl_cv4 = CVVCC: ultima (0.0)
-|   |   syl_cv4 = CVCC: ultima (0.0)
-|   |   syl_cv4 = CVV: ultima (43.0/2.0)
-|   |   syl_cv4 = V: antepaenultima (4.0)
-|   |   syl_cv4 = VCC: ultima (0.0)
-|   |   syl_cv4 = CCVC: ultima (0.0)
-|   |   syl_cv4 = CCVV: ultima (0.0)
-|   cv_ratio4 > 0
-|   |   nucleus_phoncat4 = N_or_ø: paenultima (0.0)
+cv_ratio4 <= 0
+|   comp_len <= 1: ultima (243.0/14.0)
+|   comp_len > 1: prima (80.0/22.0)
+cv_ratio4 > 0
+|   comp_len <= 1
 |   |   nucleus_phoncat4 = K
-|   |   |   syl_weight2 = schwa
-|   |   |   |   sonority_ratio0 <= 4
-|   |   |   |   |   syl_len4 <= 3: prima (23.0/11.0)
-|   |   |   |   |   syl_len4 > 3: sekunda (21.0/4.0)
-|   |   |   |   sonority_ratio0 > 4: prima (33.0/10.0)
-|   |   |   syl_weight2 = heavy: antepaenultima (19.0/12.0)
-|   |   |   syl_weight2 = light
-|   |   |   |   prae_class = noacc: sekunda (24.0/6.0)
-|   |   |   |   prae_class = ø
-|   |   |   |   |   syl_weight3 = heavy: prima (4.0/2.0)
-|   |   |   |   |   syl_weight3 = light
-|   |   |   |   |   |   onset_len4 <= 0: antepaenultima (46.0/18.0)
-|   |   |   |   |   |   onset_len4 > 0
+|   |   |   prae_class = noacc: sekunda (30.0/7.0)
+|   |   |   prae_class = ø
+|   |   |   |   syl_weight2 = schwa
+|   |   |   |   |   sonority_ratio0 <= 4: sekunda (35.0/14.0)
+|   |   |   |   |   sonority_ratio0 > 4: prima (30.0/10.0)
+|   |   |   |   syl_weight2 = heavy: antepaenultima (12.0/5.0)
+|   |   |   |   syl_weight2 = light
+|   |   |   |   |   onset_len4 <= 0: antepaenultima (46.0/18.0)
+|   |   |   |   |   onset_len4 > 0
+|   |   |   |   |   |   syl_weight3 = heavy: prima (4.0/2.0)
+|   |   |   |   |   |   syl_weight3 = light
 |   |   |   |   |   |   |   koda_len4 <= 1
-|   |   |   |   |   |   |   |   suffix4 = turm_or_aage_or_itet_or_ktiv_or_lige_or_otum_or_rieb_or_ahrt_or_rial_or_aess_or_ulus_or_rieg_or_dert_or_lver_or_deln_or_rben_or_adel_or_nbau_or_irma_or_hmer_or_lauf_or_ilbe_or_nika_or_edie_or_ssor_or_tial_or_sten_or_arie_or_hend_or_ruch_or_teil_or_eber_or_fnen_or_asie_or_mann_or_yphe_or_hlag_or_rten_or_htet_or_stik_or_dium_or_gbar_or_emen_or_bnis_or_alls_or_rdig_or_itur_or_voll_or_merk_or_ogel_or_nier_or_rmon_or_gnet_or_egel_or_fung_or_umpe_or_zung_or_sort_or_itiv_or_ldat_or_dbar_or_ehre_or_bium_or_rafe_or_rist_or_auen_or_iose_or_raus_or_ohle_or_hrte_or_werk_or_erer_or_lume_or_tler_or_alie_or_hese_or_rche_or_nete_or_ante_or_zeit_or_nbar_or_ecke_or_hmen_or_rtum_or_tbar_or_latz_or_stin_or_weig_or_vier_or_bund_or_etzt_or_laub_or_euse_or_lyse_or_wert_or_udig_or_eist_or_elei_or_hnis_or_reit_or_lbau_or_iaer_or_onne_or_ilen_or_szug_or_uehl_or_eral_or_nnen_or_zier_or_iebe_or_atik_or_ride_or_plex_or_apie_or_dikt_or_tase_or_aten_or_bild_or_enst_or_satz_or_frau_or_ilfe_or_glas_or_sier_or_hule_or_rank_or_tzen_or_berg_or_nger_or_olie_or_eere_or_elen_or_deck_or_feld_or_snah_or_tten_or_seum_or_plar_or_enze_or_euer_or_rett_or_fall_or_weit_or_gium_or_nser_or_sche_or_erbe_or_keln_or_ital_or_nial_or_seln_or_hler_or_gent_or_tolz_or_mung_or_ngig_or_etik_or_dend_or_agne_or_izei_or_ller_or_lbar_or_chse_or_arke_or_rfen_or_unal_or_ktur_or_rgie_or_dent_or_pfer_or_osse_or_taer_or_hter_or_orid_or_delt_or_lett_or_erde_or_iade_or_rdet_or_ypse_or_iont_or_sser_or_wand_or_inar_or_efer_or_ycin_or_raft_or_stil_or_ager_or_dame_or_ofen_or_kung_or_lber_or_uehr_or_rden_or_emse_or_tius_or_oehe_or_onie_or_rzen_or_webe_or_trag_or_lium_or_lang_or_haut_or_eler_or_tzer_or_teck_or_dukt_or_orit_or_nion_or_denz_or_hern_or_ioes_or_llte_or_digt_or_aken_or_unst_or_ruck_or_uell_or_treu_or_eche_or_arbe_or_enig_or_teur_or_fehl_or_itze_or_eich_or_hode_or_pich_or_fest_or_lter_or_toff_or_rier_or_tabe_or_akat_or_ngel_or_ufer_or_erne_or_nend_or_tell_or_uppe_or_frei_or_rant_or_olle_or_alin_or_toes_or_ater_or_arte_or_such_or_cker_or_sbar_or_zess_or_bern_or_talt_or_usel_or_elbe_or_rene_or_tale_or_orie_or_nate_or_tsch_or_thik_or_uten_or_elnd_or_erig_or_hner_or_dine_or_ssel_or_fuhr_or_lose_or_nnig_or_auna_or_gion_or_eten_or_tein_or_ndel_or_inal_or_oide_or_nden_or_ntee_or_note_or_atte_or_tige_or_uere_or_aren_or_arat_or_walt_or_ombe_or_nose_or_gnis_or_anie_or_erte_or_osis_or_oman_or_iben_or_enne_or_aere_or_tert_or_unge_or_ackt_or_aufe_or_robe_or_tage_or_rale_or_ebot_or_aben_or_eter_or_alle_or_dage_or_nlos_or_utik_or_emal_or_taat_or_zenz_or_ygot_or_ffen_or_tter_or_ikat_or_aetz_or_rken_or_ette_or_kauf_or_obie_or_biet_or_mode_or_etig_or_rena_or_nant_or_ftig_or_afie_or_drig_or_lied_or_ktor_or_eude_or_iche_or_olke_or_gang_or_itis_or_asse_or_tete_or_kurs_or_peut_or_zeug_or_form_or_atze_or_rtin_or_ebau_or_piel_or_kbar_or_rmig_or_ampe_or_cken_or_baum_or_llig_or_hase_or_aene_or_mmer_or_dnis_or_ille_or_nage_or_deal_or_axie_or_dern_or_acht_or_hnik_or_tner_or_dose_or_glos_or_inde_or_erze_or_echt_or_dere_or_atta_or_tose_or_ltig_or_iden_or_buch_or_amik_or_geld_or_huss_or_luss_or_rmie_or_etin_or_lust_or_hied_or_tier_or_echs_or_opol_or_ress_or_pium_or_rade_or_stab_or_iger_or_omie_or_tanz_or_eige_or_mend_or_kelt_or_ntur_or_nale_or_etat_or_arer_or_aech_or_nium_or_stem_or_hene_or_ilie_or_ueck_or_tone_or_eits_or_gial_or_eien_or_imus_or_ntal_or_igur_or_lrat_or_ernd_or_rius_or_thek_or_raun_or_akei_or_raut_or_eule_or_igte_or_ekar_or_sene_or_send_or_sein_or_nmal_or_plan_or_ienz_or_fund_or_erat_or_mose_or_kene_or_abet_or_ktik_or_harz_or_eier_or_ickt_or_bene_or_nweg_or_nhof_or_hage_or_anda_or_afen_or_ifen_or_tadt_or_tene_or_ular_or_tole_or_llus_or_uter_or_bahn_or_amen_or_ktie_or_graf_or_itut_or_ffer_or_itee_or_pern_or_rmel_or_onen_or_rmin_or_irge_or_psie_or_amte_or_weis_or_ning_or_hale_or_fahr_or_oben_or_lese_or_ealt_or_nern_or_renz_or_rtei_or_tern_or_mmel_or_umme_or_lien_or_bote_or_zent_or_tufe_or_omat_or_edit_or_kant_or_emie_or_otor_or_rose_or_ehne_or_inse_or_pial_or_rend_or_elde_or_enie_or_dnet_or_aeft_or_iner_or_hbar_or_nent_or_olge_or_text_or_anke_or_odul_or_ampf_or_eite_or_rtet_or_laer_or_skop_or_iode_or_ypie_or_raet_or_eckt_or_uese_or_lbum_or_appe_or_hnen_or_eles_or_fekt_or_view_or_rein_or_hsel_or_rgen_or_riat_or_haus_or_rnis_or_hsen_or_imen_or_eipe_or_lgen_or_auer_or_nett_or_likt_or_halt_or_htum_or_tekt_or_eose_or_esen_or_imme_or_este_or_chiv_or_isen_or_ingt_or_rige_or_rise_or_nzug_or_ndet_or_ntag_or_port_or_mera_or_kete_or_heln_or_abte_or_aler_or_nner_or_usik_or_ohol_or_dler_or_telt_or_uana_or_sant_or_meln
-|   |   |   |   |   |   |   |   |   nucleus_len3 <= 1: prima (21.0/10.0)
-|   |   |   |   |   |   |   |   |   nucleus_len3 > 1: paenultima (49.0/10.0)
+|   |   |   |   |   |   |   |   suffix4 = ø
+|   |   |   |   |   |   |   |   |   syl_len2 <= 2: paenultima (128.0/34.0)
+|   |   |   |   |   |   |   |   |   syl_len2 > 2: antepaenultima (46.0/28.0)
 |   |   |   |   |   |   |   |   suffix4 = lich: prima (2.0/1.0)
-|   |   |   |   |   |   |   |   suffix4 = igen: sekunda (2.0/1.0)
 |   |   |   |   |   |   |   |   suffix4 = tion: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = hten: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = iell: paenultima (0.0)
 |   |   |   |   |   |   |   |   suffix4 = eren: paenultima (227.0/1.0)
-|   |   |   |   |   |   |   |   suffix4 = agen: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = bung: paenultima (0.0)
 |   |   |   |   |   |   |   |   suffix4 = keit: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = ende: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = ibel: paenultima (5.0/2.0)
 |   |   |   |   |   |   |   |   suffix4 = isch: paenultima (111.0/8.0)
 |   |   |   |   |   |   |   |   suffix4 = smus: paenultima (49.0)
 |   |   |   |   |   |   |   |   suffix4 = gung: antepaenultima (3.0/1.0)
-|   |   |   |   |   |   |   |   suffix4 = ator: paenultima (16.0)
 |   |   |   |   |   |   |   |   suffix4 = rung: paenultima (52.0/1.0)
-|   |   |   |   |   |   |   |   suffix4 = rtig: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = slos: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = elle: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = lten: paenultima (0.0)
 |   |   |   |   |   |   |   |   suffix4 = eise: sekunda (1.0)
-|   |   |   |   |   |   |   |   suffix4 = tand: paenultima (0.0)
 |   |   |   |   |   |   |   |   suffix4 = lung: antepaenultima (2.0)
 |   |   |   |   |   |   |   |   suffix4 = heit: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = ache: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = sion: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = tigt: paenultima (0.0)
 |   |   |   |   |   |   |   |   suffix4 = tung: prima (4.0/2.0)
-|   |   |   |   |   |   |   |   suffix4 = ssen: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = aner: paenultima (10.0/1.0)
 |   |   |   |   |   |   |   |   suffix4 = ogie: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = ngen: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = ehen: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = nung: prima (1.0)
-|   |   |   |   |   |   |   |   suffix4 = htig: antepaenultima (2.0)
 |   |   |   |   |   |   |   |   suffix4 = taet: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = unde: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = phie: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = iert: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = ient: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = inie: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = ufen: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = erin: paenultima (0.0)
 |   |   |   |   |   |   |   |   suffix4 = haft: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = nist: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = erei: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = ster: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = abel: paenultima (15.0/3.0)
-|   |   |   |   |   |   |   |   suffix4 = hine: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = hrer: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = ssig: prima (1.0)
-|   |   |   |   |   |   |   |   suffix4 = loge: paenultima (7.0)
-|   |   |   |   |   |   |   |   suffix4 = gend: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = gabe: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = onal: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = hung: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = itik: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = mmen: antepaenultima (1.0)
-|   |   |   |   |   |   |   |   suffix4 = tend: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = ment: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = chte: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = iter: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = esse: paenultima (2.0)
-|   |   |   |   |   |   |   |   suffix4 = dung: prima (1.0)
-|   |   |   |   |   |   |   |   suffix4 = tive: paenultima (5.0)
-|   |   |   |   |   |   |   |   suffix4 = lage: paenultima (0.0)
 |   |   |   |   |   |   |   |   suffix4 = chen: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = ikel: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = rbar: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = ativ: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = hlen: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = nder: paenultima (1.0)
-|   |   |   |   |   |   |   |   suffix4 = ehig: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = sung: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = atur: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = rium: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = ikum: antepaenultima (6.0)
-|   |   |   |   |   |   |   |   suffix4 = eure: antepaenultima (1.0)
-|   |   |   |   |   |   |   |   suffix4 = tnis: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = list: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = icht: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = iker: antepaenultima (14.0/2.0)
-|   |   |   |   |   |   |   |   suffix4 = ttel: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = egen: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = iten: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = eben: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = rage: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = pier: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = nell: ultima (8.0/1.0)
-|   |   |   |   |   |   |   |   suffix4 = ogen: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = nese: paenultima (2.0)
-|   |   |   |   |   |   |   |   suffix4 = llen: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = cher: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = ahme: antepaenultima (3.0/1.0)
-|   |   |   |   |   |   |   |   suffix4 = ndig: prima (1.0)
-|   |   |   |   |   |   |   |   suffix4 = hren: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = beit: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = eger: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = erie: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = naer: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = trie: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = bend: paenultima (0.0)
 |   |   |   |   |   |   |   koda_len4 > 1: ultima (27.0/10.0)
-|   |   |   |   |   syl_weight3 = schwa
-|   |   |   |   |   |   sonority_ratio0 <= 4: prima (20.0/6.0)
-|   |   |   |   |   |   sonority_ratio0 > 4: antepaenultima (28.0/9.0)
-|   |   |   |   prae_class = acc: prima (24.0/6.0)
+|   |   |   |   |   |   syl_weight3 = schwa
+|   |   |   |   |   |   |   sonority_ratio0 <= 4: prima (20.0/6.0)
+|   |   |   |   |   |   |   sonority_ratio0 > 4: antepaenultima (28.0/9.0)
+|   |   |   prae_class = acc: prima (37.0/11.0)
 |   |   nucleus_phoncat4 = L
 |   |   |   syl_len3 <= 2: ultima (98.0/12.0)
 |   |   |   syl_len3 > 2: paenultima (36.0/22.0)
@@ -160,66 +58,84 @@ comp_len <= 1
 |   |   |   nucleus_phoncat3 = L: antepaenultima (20.0/10.0)
 |   |   |   nucleus_phoncat3 = D: prima (0.0)
 |   |   |   nucleus_phoncat3 = N: prima (0.0)
-comp_len > 1
-|   syl_weight1 = light
-|   |   nucleus_len2 <= 1
-|   |   |   prae_class = noacc: sekunda (37.0)
-|   |   |   prae_class = ø
-|   |   |   |   sonority0 <= 11: sekunda (321.0/95.0)
-|   |   |   |   sonority0 > 11: prima (80.0/14.0)
-|   |   |   prae_class = acc: prima (91.0/22.0)
-|   |   nucleus_len2 > 1
-|   |   |   syl_open2 = o
-|   |   |   |   syl_weight3 = heavy: paenultima (12.0)
-|   |   |   |   syl_weight3 = light
-|   |   |   |   |   syl_len2 <= 2
-|   |   |   |   |   |   syl_len0 <= 3
-|   |   |   |   |   |   |   sonority1 <= 11
-|   |   |   |   |   |   |   |   sonority_ratio0 <= 4: paenultima (26.0/8.0)
-|   |   |   |   |   |   |   |   sonority_ratio0 > 4: prima (21.0/11.0)
-|   |   |   |   |   |   |   sonority1 > 11: sekunda (24.0/7.0)
-|   |   |   |   |   |   syl_len0 > 3: prima (23.0/3.0)
-|   |   |   |   |   syl_len2 > 2: antepaenultima (26.0/16.0)
-|   |   |   |   syl_weight3 = schwa: sekunda (28.0/18.0)
-|   |   |   syl_open2 = c: antepaenultima (83.0/20.0)
-|   syl_weight1 = heavy
-|   |   sonority_dir <= -1: prima (78.0/15.0)
-|   |   sonority_dir > -1: sekunda (43.0/15.0)
-|   syl_weight1 = schwa: prima (411.0/35.0)
+|   |   nucleus_phoncat4 = N: paenultima (0.0)
+|   |   nucleus_phoncat4 = ø: paenultima (0.0)
+|   comp_len > 1
+|   |   syl_weight1 = light
+|   |   |   nucleus_len2 <= 1
+|   |   |   |   syl_len0 <= 3
+|   |   |   |   |   onset_len0 <= 0
+|   |   |   |   |   |   prae_class = noacc: sekunda (7.0)
+|   |   |   |   |   |   prae_class = ø
+|   |   |   |   |   |   |   sonority1 <= 10: sekunda (27.0/6.0)
+|   |   |   |   |   |   |   sonority1 > 10: prima (34.0/12.0)
+|   |   |   |   |   |   prae_class = acc: prima (45.0)
+|   |   |   |   |   onset_len0 > 0
+|   |   |   |   |   |   syl_phoncat0 = CK: sekunda (76.0/4.0)
+|   |   |   |   |   |   syl_phoncat0 = CKC: sekunda (68.0/15.0)
+|   |   |   |   |   |   syl_phoncat0 = L: sekunda (0.0)
+|   |   |   |   |   |   syl_phoncat0 = KC: sekunda (0.0)
+|   |   |   |   |   |   syl_phoncat0 = CCL: sekunda (10.0/5.0)
+|   |   |   |   |   |   syl_phoncat0 = CCK: sekunda (3.0)
+|   |   |   |   |   |   syl_phoncat0 = CL: sekunda (64.0/20.0)
+|   |   |   |   |   |   syl_phoncat0 = ø: sekunda (4.0)
+|   |   |   |   |   |   syl_phoncat0 = AL: sekunda (69.0/5.0)
+|   |   |   |   |   |   syl_phoncat0 = D: sekunda (0.0)
+|   |   |   |   |   |   syl_phoncat0 = CLC: prima (17.0/3.0)
+|   |   |   |   |   |   syl_phoncat0 = CD: prima (10.0)
+|   |   |   |   |   |   syl_phoncat0 = DC: sekunda (0.0)
+|   |   |   |   |   |   syl_phoncat0 = CCKCC: sekunda (0.0)
+|   |   |   |   |   |   syl_phoncat0 = K: sekunda (0.0)
+|   |   |   |   |   |   syl_phoncat0 = CKCC: sekunda (1.0)
+|   |   |   |   |   |   syl_phoncat0 = CCKC: sekunda (0.0)
+|   |   |   |   |   |   syl_phoncat0 = KCC: sekunda (0.0)
+|   |   |   |   syl_len0 > 3: prima (78.0/13.0)
+|   |   |   nucleus_len2 > 1
+|   |   |   |   syl_open2 = o
+|   |   |   |   |   syl_weight3 = heavy: paenultima (12.0)
+|   |   |   |   |   syl_weight3 = light
+|   |   |   |   |   |   sonority1 <= 11
+|   |   |   |   |   |   |   sonority0 <= 10: paenultima (38.0/19.0)
+|   |   |   |   |   |   |   sonority0 > 10: prima (30.0/10.0)
+|   |   |   |   |   |   sonority1 > 11: sekunda (28.0/12.0)
+|   |   |   |   |   syl_weight3 = schwa: antepaenultima (26.0/16.0)
+|   |   |   |   syl_open2 = c: antepaenultima (83.0/20.0)
+|   |   syl_weight1 = heavy
+|   |   |   sonority_dir <= -1: prima (69.0/13.0)
+|   |   |   sonority_dir > -1: sekunda (42.0/15.0)
+|   |   syl_weight1 = schwa: prima (383.0/32.0)
 
-Number of Leaves  : 	153
+Number of Leaves  : 	71
 
-Size of the tree : 	181
+Size of the tree : 	99
 === Classifier model ===
 
 Scheme:   JRip
-Relation: 5syl-all_training-weka.filters.unsupervised.attribute.Remove-R102-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-output-debug-info-do-not-check-capabilities
+Relation: 5syl-all_training-weka.filters.unsupervised.attribute.Remove-R102-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-output-debug-info-do-not-check-capabilities
 
 JRIP rules:
 ===========
 
-(nucleus_len2 >= 2) and (syl_open2 = c) and (nucleus_phoncat2 = L) and (syl_weight1 = light) => stress_class=antepaenultima (90.0/15.0)
-(praefix1 = U) and (praefix5 = Ueber) => stress_class=antepaenultima (36.0/13.0)
-(nucleus_phoncat4 = L) and (comp_len <= 1) and (sonority4 <= 10) => stress_class=ultima (279.0/13.0)
-(cv_ratio4 <= 0) and (comp_len <= 1) and (syl_len4 >= 2) => stress_class=ultima (32.0/2.0)
-(nucleus_phoncat4 = L) and (comp_len <= 1) and (signi_suffix = ø) => stress_class=ultima (35.0/10.0)
-(syl_weight2 = schwa) and (syl_len2 >= 3) and (sonority0 <= 10) => stress_class=sekunda (181.0/27.0)
+(syl_cv2 = CVVC) and (nucleus_phoncat2 = L) and (sonority_ratio0 <= 3) => stress_class=antepaenultima (31.0/3.0)
+(suffix1 = m) and (comp_len <= 1) => stress_class=antepaenultima (26.0/0.0)
+(sonority2 >= 14) and (syl_len1 <= 2) and (koda_phoncat2 = C) and (nucleus_len2 >= 2) => stress_class=antepaenultima (29.0/0.0)
+(nucleus_phoncat4 = L) and (comp_len <= 1) => stress_class=ultima (363.0/50.0)
+(suffix2 = ø) and (comp_struct = N) => stress_class=ultima (51.0/20.0)
+(syl_weight2 = schwa) and (cv_ratio2 >= 2) and (sonority0 <= 10) => stress_class=sekunda (176.0/26.0)
 (prae_class = noacc) => stress_class=sekunda (89.0/5.0)
-(syl_cv1 = CVVC) and (sonority_ratio0 <= 4) and (syl_len1 <= 3) => stress_class=sekunda (53.0/1.0)
+(syl_cv1 = CVVC) and (syl_len1 <= 3) => stress_class=sekunda (73.0/10.0)
 (syl_weight0 = schwa) => stress_class=sekunda (40.0/1.0)
-(syl_weight2 = schwa) and (sonority2 >= 9) and (syl_cv0 = CVC) => stress_class=sekunda (25.0/4.0)
-(comp_len >= 2) and (syl_weight1 = light) and (koda_phoncat1 = C) and (syl_len0 <= 2) and (onset_len0 >= 1) => stress_class=sekunda (38.0/7.0)
-(comp_len <= 1) and (suffix_phoncat4 = LCKC) => stress_class=paenultima (472.0/71.0)
-(comp_len <= 1) and (suffix_phoncat5 = KCCKC) and (sonority_ratio3 >= 4) => stress_class=paenultima (55.0/3.0)
-(syl_weight1 = light) and (comp_len <= 1) and (suffix_phoncat3 = LCK) => stress_class=paenultima (43.0/4.0)
-(syl_weight1 = light) and (comp_len <= 1) and (suffix_phoncat3 = CKC) and (sonority0 <= 10) => stress_class=paenultima (45.0/7.0)
-(nucleus_phoncat3 = L) and (syl_open3 = c) and (nucleus_len2 >= 2) => stress_class=paenultima (43.0/6.0)
- => stress_class=prima (1205.0/318.0)
+(comp_len >= 2) and (syl_weight1 = light) and (syl_weight4 = schwa) and (koda_phoncat1 = C) => stress_class=sekunda (63.0/29.0)
+(comp_len <= 1) and (suffix_phoncat4 = LCKC) => stress_class=paenultima (455.0/59.0)
+(syl_weight1 = light) and (comp_len <= 1) and (suffix_phoncat5 = KCCKC) => stress_class=paenultima (96.0/14.0)
+(suffix_phoncat3 = LCK) and (comp_len <= 1) => stress_class=paenultima (49.0/7.0)
+(cv_ratio2 <= 0) and (nucleus_phoncat3 = L) and (syl_open3 = c) => stress_class=paenultima (33.0/4.0)
+ => stress_class=prima (1187.0/313.0)
 
-Number of Rules : 17
+Number of Rules : 15
 === Classifier model ===
 
 Scheme:   NeuralNetwork
-Relation: 5syl-all_training-weka.filters.unsupervised.attribute.Remove-R102-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-output-debug-info-do-not-check-capabilities
+Relation: 5syl-all_training-weka.filters.unsupervised.attribute.Remove-R102-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@172b5f74
+weka.classifiers.functions.NeuralNetwork@60f520d6

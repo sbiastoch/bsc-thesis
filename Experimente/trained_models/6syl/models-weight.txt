@@ -1,7 +1,7 @@
 === Classifier model ===
 
 Scheme:   J48
-Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R40-51,116-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_weight.|syl_open.)$-V
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R40-51,116-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_weight.|syl_open.)$-V
 
 J48 pruned tree
 ------------------
@@ -31,7 +31,7 @@ Size of the tree : 	19
 === Classifier model ===
 
 Scheme:   JRip
-Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R40-51,116-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_weight.|syl_open.)$-V
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R40-51,116-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_weight.|syl_open.)$-V
 
 JRIP rules:
 ===========
@@ -47,6 +47,6 @@ Number of Rules : 6
 === Classifier model ===
 
 Scheme:   NeuralNetwork
-Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R40-51,116-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_weight.|syl_open.)$-V
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R40-51,116-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_weight.|syl_open.)$-V
 
-weka.classifiers.functions.NeuralNetwork@53a1bef3
+weka.classifiers.functions.NeuralNetwork@3702f954

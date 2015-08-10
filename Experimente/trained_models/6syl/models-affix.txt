@@ -1,85 +1,44 @@
 === Classifier model ===
 
 Scheme:   J48
-Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R2-13,15-26,116-weka.filters.unsupervised.attribute.RemoveByName-E^(suff_class|signi_suffix|suffix_phoncat.|suffix.|prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R2-13,15-26,116-weka.filters.unsupervised.attribute.RemoveByName-E^(suff_class|signi_suffix|suffix_phoncat.|suffix.|prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
 
 J48 pruned tree
 ------------------
 
-suffix5 = abine_or_gisch_or_iemen_or_aende_or_chung_or_bjekt_or_onade_or_recht_or_illus_or_meter_or_aehig_or_uecke_or_hisch_or_swerk_or_essig_or_niger_or_ander_or_stoff_or_asium_or_erina_or_sator_or_zende_or_hymne_or_aktor_or_enese_or_ndung_or_rbeit_or_euert_or_chaft_or_entum_or_etaet_or_etrug_or_trale_or_erner_or_oedie_or_einde_or_eiben_or_stion_or_nhaus_or_ssung_or_nheit_or_wusst_or_chern_or_egler_or_ommen_or_haber_or_litik_or_merei_or_eabel_or_mpfer_or_onell_or_basar_or_parat_or_didat_or_lasse_or_namik_or_chert_or_erige_or_diger_or_ilope_or_haeft_or_itung_or_oegen_or_nbude_or_onale_or_teuer_or_nsage_or_gikum_or_entin_or_apeut_or_rftig_or_rsuch_or_uerei_or_engig_or_ursus_or_alyse_or_aphie_or_lehre_or_ichen_or_maess_or_onaer_or_resse_or_rende_or_terie_or_lzeit_or_stigt_or_stern_or_inose_or_hlung_or_rlich_or_thode_or_theke_or_laden_or_lwahl_or_ittel_or_anung_or_nerin_or_dingt_or_arier_or_ritik_or_ftler_or_irche_or_terer_or_istik_or_ahren_or_karte_or_kular_or_erdig_or_egung_or_eisch_or_aette_or_ratze_or_regel_or_nerie_or_eiten_or_griff_or_summe_or_swert_or_erial_or_edner_or_erher_or_ische_or_hrung_or_tarif_or_igion_or_strie_or_phage_or_serie_or_mappe_or_sehen_or_eamte_or_itend_or_rkind_or_arium_or_niert_or_ldung_or_rkeit_or_hluss_or_abrik_or_htigt_or_hrift_or_misch_or_nahme_or_riede_or_rapie_or_chnis_or_onist_or_anone_or_lliga_or_ektiv_or_riode_or_alter_or_egend_or_fuehl_or_alist_or_tueck_or_punkt_or_wagen_or_assen_or_ehmen_or_musik_or_rbine_or_kgang_or_xikon_or_frage_or_ateur_or_buene_or_ozess_or_pfung_or_atine_or_krank_or_ianer_or_inung_or_ielle_or_lsatz_or_atter_or_ganda_or_ental_or_bruch_or_izier_or_ratur_or_ebnis_or_ssion_or_alber_or_ident_or_ltung_or_ophie_or_kheit_or_lator_or_enrat_or_agung_or_eubig_or_radio_or_iheit_or_lampe_or_stand_or_iakum_or_atung_or_sisch_or_miker_or_chule_or_vogel_or_iette_or_ktive_or_alrat_or_nabel_or_eweis_or_ckend_or_ngend_or_siert_or_eiter_or_dnung_or_izont_or_xuell_or_linie_or_enmal_or_mmung_or_ystem_or_orium_or_erenz_or_etzen_or_terin_or_dverb_or_echer_or_mular_or_rasie_or_uelle_or_motor_or_loren_or_nigen_or_firma_or_ining_or_dlung_or_chtig_or_urell_or_mando_or_sfeld_or_ziell_or_ieger_or_tzung_or_ichte_or_essor_or_rabel_or_uchen_or_giert_or_eraet_or_ftung_or_wesen_or_ative_or_rsage_or_lisch
-|   praefix_phoncat5 = DCCCK_or_CDLCL_or_CCCKC_or_CCDCK_or_LCLAL_or_KCCDA_or_CLKCA_or_KCNCK_or_CCKCK_or_CKCAC_or_CDKCC_or_LCLKC_or_CLAKC_or_KCAKC_or_CDCCK_or_CCLAL_or_CKCCD_or_DCLCK_or_LCKCL_or_LCLCL_or_KCDCC_or_AKCCC_or_KLCLC_or_CKCCA_or_CCLAK_or_KCLLC_or_ADCKC_or_KCALC_or_CLKCL_or_CCKAK_or_KCCLK_or_AKCCK_or_CCKAC_or_LCCCC_or_CLLCL_or_KCLAL_or_DCCCL_or_CDCKK_or_KCKCK_or_KCDCK_or_DCCKC_or_KCDCL_or_ALCLC_or_CKCLK_or_DCKCD_or_DCCLC_or_AKCKC_or_CLCKA_or_CLCCC_or_CCDCL_or_CLCLA_or_CKCKK_or_KCCDC_or_AKCCL_or_KCCLA_or_KCKCL_or_KCCCD_or_CCKCA_or_CKALK_or_ALCDK_or_CCDKC_or_ALCCK_or_CLLCC_or_ALCKA_or_CLCDC_or_CKCAD_or_CKACK_or_KCLCA_or_KCALK_or_CLALK_or_LALKC_or_DCKCK_or_DCKCC_or_LCLLC_or_LCKCK_or_CCLAC_or_KCCAL_or_DCCLK_or_CKDCK_or_CLALL_or_CKALC: prima (74.0/39.0)
-|   praefix_phoncat5 = CKCLC: sekunda (15.0/3.0)
-|   praefix_phoncat5 = LCKCC: prima (14.0/4.0)
-|   praefix_phoncat5 = CKCKC: sekunda (20.0/10.0)
-|   praefix_phoncat5 = CCKCC: prima (14.0/9.0)
-|   praefix_phoncat5 = CLCKC: prima (21.0/8.0)
-|   praefix_phoncat5 = KCCCK: prima (3.0/2.0)
-|   praefix_phoncat5 = CLCLK: prima (4.0/1.0)
-|   praefix_phoncat5 = KCCLC: sekunda (14.0/9.0)
-|   praefix_phoncat5 = KCKCC: prima (2.0)
-|   praefix_phoncat5 = CKCCL: sekunda (16.0/8.0)
-|   praefix_phoncat5 = KCCKC: prima (22.0/8.0)
-|   praefix_phoncat5 = KCLCK: antepaenultima (4.0/2.0)
-|   praefix_phoncat5 = CDCKC: prima (1.0)
-|   praefix_phoncat5 = KCLCL: antepaenultima (2.0/1.0)
-|   praefix_phoncat5 = CLCLC: antepaenultima (10.0/5.0)
-|   praefix_phoncat5 = DCLCL: paenultima (3.0/2.0)
-|   praefix_phoncat5 = CCLCL: paenultima (9.0/6.0)
-|   praefix_phoncat5 = CLKCC: paenultima (1.0)
-|   praefix_phoncat5 = CKCCK: antepaenultima (24.0/14.0)
-|   praefix_phoncat5 = KCCCL: prima (3.0/2.0)
-|   praefix_phoncat5 = CKCCC: prima (13.0/8.0)
-|   praefix_phoncat5 = CKALL: antepaenultima (3.0)
-|   praefix_phoncat5 = CCLCK: antepaenultima (12.0/6.0)
-|   praefix_phoncat5 = CLCLL: prima (7.0/4.0)
-|   praefix_phoncat5 = CKCDC: sekunda (6.0/3.0)
-|   praefix_phoncat5 = CCLCC: prima (2.0)
-|   praefix_phoncat5 = CLCCK: prima (4.0/1.0)
-|   praefix_phoncat5 = KCCCC: antepaenultima (2.0/1.0)
-|   praefix_phoncat5 = CLCCL: prima (3.0/1.0)
-|   praefix_phoncat5 = CCKCL: paenultima (3.0/2.0)
-|   praefix_phoncat5 = ALCKC: sekunda (4.0)
 suffix5 = ieren: paenultima (74.0/4.0)
+suffix5 = ø
+|   prae_class = ø: prima (354.0/212.0)
+|   prae_class = noacc: sekunda (29.0)
+|   prae_class = acc: prima (29.0/1.0)
 suffix5 = tisch: paenultima (16.0/1.0)
-suffix5 = igung: prima (7.0)
 suffix5 = gkeit: prima (22.0/10.0)
-suffix5 = weise: prima (10.0/6.0)
 suffix5 = erung: prima (39.0/20.0)
-suffix5 = ktion: prima (6.0/1.0)
 suffix5 = ation: ultima (103.0/4.0)
-suffix5 = logie: ultima (11.0/5.0)
-suffix5 = risch: prima (5.0/2.0)
-suffix5 = ition: ultima (5.0/1.0)
-suffix5 = chine: prima (5.0)
 suffix5 = ismus: paenultima (24.0/2.0)
-suffix5 = tlich: prima (5.0/1.0)
 suffix5 = itaet: ultima (23.0/3.0)
-suffix5 = tiert: prima (6.0/1.0)
-suffix5 = nisch: paenultima (5.0/2.0)
-suffix5 = ional: prima (5.0/2.0)
-suffix5 = hkeit: prima (7.0/3.0)
 
-Number of Leaves  : 	51
+Number of Leaves  : 	10
 
-Size of the tree : 	53
+Size of the tree : 	12
 === Classifier model ===
 
 Scheme:   JRip
-Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R2-13,15-26,116-weka.filters.unsupervised.attribute.RemoveByName-E^(suff_class|signi_suffix|suffix_phoncat.|suffix.|prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R2-13,15-26,116-weka.filters.unsupervised.attribute.RemoveByName-E^(suff_class|signi_suffix|suffix_phoncat.|suffix.|prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
 
 JRIP rules:
 ===========
 
 (prae_class = noacc) => stress_class=sekunda (38.0/3.0)
 (suffix_phoncat2 = LC) and (suffix5 = ation) => stress_class=ultima (103.0/4.0)
-(suffix_phoncat4 = LCKC) => stress_class=paenultima (155.0/50.0)
-(suffix_phoncat5 = KCCKC) => stress_class=paenultima (55.0/20.0)
- => stress_class=prima (362.0/196.0)
+(suffix_phoncat4 = LCKC) and (suffix4 = eren) and (signi_praefix = ø) => stress_class=paenultima (69.0/1.0)
+(suffix_phoncat3 = CKC) and (suffix3 = sch) => stress_class=paenultima (34.0/6.0)
+ => stress_class=prima (469.0/266.0)
 
 Number of Rules : 5
 === Classifier model ===
 
 Scheme:   NeuralNetwork
-Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R2-13,15-26,116-weka.filters.unsupervised.attribute.RemoveByName-E^(suff_class|signi_suffix|suffix_phoncat.|suffix.|prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R2-13,15-26,116-weka.filters.unsupervised.attribute.RemoveByName-E^(suff_class|signi_suffix|suffix_phoncat.|suffix.|prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@70bd5af8
+weka.classifiers.functions.NeuralNetwork@777ad87

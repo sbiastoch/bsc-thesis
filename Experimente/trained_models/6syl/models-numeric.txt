@@ -1,7 +1,7 @@
 === Classifier model ===
 
 Scheme:   J48
-Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-39,76-99,106-111,115-116-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.|comp_len)$-V-output-debug-info-do-not-check-capabilities
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-39,76-99,106-111,115-116-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.|comp_len)$-V-output-debug-info-do-not-check-capabilities
 
 J48 pruned tree
 ------------------
@@ -39,7 +39,7 @@ Size of the tree : 	27
 === Classifier model ===
 
 Scheme:   JRip
-Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-39,76-99,106-111,115-116-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.|comp_len)$-V-output-debug-info-do-not-check-capabilities
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-39,76-99,106-111,115-116-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.|comp_len)$-V-output-debug-info-do-not-check-capabilities
 
 JRIP rules:
 ===========
@@ -56,6 +56,6 @@ Number of Rules : 7
 === Classifier model ===
 
 Scheme:   NeuralNetwork
-Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-39,76-99,106-111,115-116-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.|comp_len)$-V-output-debug-info-do-not-check-capabilities
+Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-39,76-99,106-111,115-116-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.|comp_len)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@6eafd0cd
+weka.classifiers.functions.NeuralNetwork@7f4b156b

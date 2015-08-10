@@ -1,7 +1,7 @@
 === Classifier model ===
 
 Scheme:   J48
-Relation: 5syl-all_training-weka.filters.unsupervised.attribute.Remove-R102-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R68-97,102-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_cv.|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.)$-V-output-debug-info-do-not-check-capabilities
+Relation: 5syl-all_training-weka.filters.unsupervised.attribute.Remove-R102-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R68-97,102-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_cv.|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.)$-V-output-debug-info-do-not-check-capabilities
 
 J48 pruned tree
 ------------------
@@ -42,7 +42,6 @@ cv_ratio4 > 0
 |   |   |   |   |   |   koda_len1 <= 0
 |   |   |   |   |   |   |   onset_len2 <= 0: prima (32.0/15.0)
 |   |   |   |   |   |   |   onset_len2 > 0
-|   |   |   |   |   |   |   |   syl_cv0 = CCCVVC_or_CVCCC_or_V_or_CCCVV_or_VVCCC_or_CCVVCC_or_CVVCC_or_CVVCCC: sekunda (0.0)
 |   |   |   |   |   |   |   |   syl_cv0 = CV: sekunda (8.0)
 |   |   |   |   |   |   |   |   syl_cv0 = CVC: sekunda (41.0/16.0)
 |   |   |   |   |   |   |   |   syl_cv0 = VCC: sekunda (0.0)
@@ -55,9 +54,7 @@ cv_ratio4 > 0
 |   |   |   |   |   |   |   |   syl_cv0 = VVC: sekunda (0.0)
 |   |   |   |   |   |   |   |   syl_cv0 = CCVCC: sekunda (0.0)
 |   |   |   |   |   |   |   |   syl_cv0 = CVCC: sekunda (0.0)
-|   |   |   |   |   |   |   |   syl_cv0 = CVCCCC: sekunda (0.0)
-|   |   |   |   |   |   |   |   syl_cv0 = CCVVC: sekunda (0.0)
-|   |   |   |   |   |   |   |   syl_cv0 = CCCVC: sekunda (0.0)
+|   |   |   |   |   |   |   |   syl_cv0 = ø: sekunda (0.0)
 |   |   |   |   |   |   koda_len1 > 0: sekunda (73.0/10.0)
 |   |   |   |   |   syl_len2 > 3: sekunda (33.0/11.0)
 |   |   syl_len0 > 3: prima (173.0/20.0)
@@ -69,7 +66,6 @@ cv_ratio4 > 0
 |   |   |   |   |   nucleus_len3 <= 1
 |   |   |   |   |   |   koda_len3 <= 0: prima (34.0/11.0)
 |   |   |   |   |   |   koda_len3 > 0
-|   |   |   |   |   |   |   syl_cv1 = CCV_or_CVCCC_or_V: sekunda (1.0)
 |   |   |   |   |   |   |   syl_cv1 = CVVC: sekunda (1.0)
 |   |   |   |   |   |   |   syl_cv1 = CVV: paenultima (43.0/19.0)
 |   |   |   |   |   |   |   syl_cv1 = CVC: paenultima (55.0/30.0)
@@ -78,21 +74,14 @@ cv_ratio4 > 0
 |   |   |   |   |   |   |   syl_cv1 = CCVV: paenultima (2.0)
 |   |   |   |   |   |   |   syl_cv1 = VC: sekunda (6.0/2.0)
 |   |   |   |   |   |   |   syl_cv1 = VV: paenultima (3.0/1.0)
-|   |   |   |   |   |   |   syl_cv1 = VVC: paenultima (0.0)
-|   |   |   |   |   |   |   syl_cv1 = VCC: prima (1.0)
-|   |   |   |   |   |   |   syl_cv1 = CCCVV: paenultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = ø: prima (5.0/3.0)
 |   |   |   |   |   |   |   syl_cv1 = CV: prima (9.0/3.0)
 |   |   |   |   |   |   |   syl_cv1 = CVVCC: sekunda (1.0)
-|   |   |   |   |   |   |   syl_cv1 = CCVVC: prima (1.0)
-|   |   |   |   |   |   |   syl_cv1 = CCVVCC: paenultima (0.0)
-|   |   |   |   |   |   |   syl_cv1 = CCVCC: paenultima (0.0)
-|   |   |   |   |   |   |   syl_cv1 = CCCVC: paenultima (2.0)
 |   |   |   |   |   nucleus_len3 > 1: paenultima (499.0/101.0)
 |   |   |   nucleus_len4 > 1
 |   |   |   |   syl_len3 <= 2: ultima (121.0/40.0)
 |   |   |   |   syl_len3 > 2
 |   |   |   |   |   nucleus_len3 <= 1
-|   |   |   |   |   |   syl_cv0 = CCCVVC_or_CVCCC_or_V_or_CCCVV_or_VVCCC_or_CCVVCC_or_CVVCC_or_CVVCCC: prima (1.0)
 |   |   |   |   |   |   syl_cv0 = CV: sekunda (11.0)
 |   |   |   |   |   |   syl_cv0 = CVC: prima (20.0/5.0)
 |   |   |   |   |   |   syl_cv0 = VCC: sekunda (2.0/1.0)
@@ -105,21 +94,19 @@ cv_ratio4 > 0
 |   |   |   |   |   |   syl_cv0 = VVC: prima (2.0)
 |   |   |   |   |   |   syl_cv0 = CCVCC: ultima (1.0)
 |   |   |   |   |   |   syl_cv0 = CVCC: prima (0.0)
-|   |   |   |   |   |   syl_cv0 = CVCCCC: prima (1.0)
-|   |   |   |   |   |   syl_cv0 = CCVVC: prima (0.0)
-|   |   |   |   |   |   syl_cv0 = CCCVC: prima (0.0)
+|   |   |   |   |   |   syl_cv0 = ø: prima (2.0)
 |   |   |   |   |   nucleus_len3 > 1: paenultima (25.0/3.0)
 |   |   koda_len2 > 0
 |   |   |   syl_len1 <= 2: antepaenultima (75.0/14.0)
 |   |   |   syl_len1 > 2: prima (115.0/52.0)
 
-Number of Leaves  : 	76
+Number of Leaves  : 	63
 
-Size of the tree : 	107
+Size of the tree : 	94
 === Classifier model ===
 
 Scheme:   JRip
-Relation: 5syl-all_training-weka.filters.unsupervised.attribute.Remove-R102-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R68-97,102-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_cv.|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.)$-V-output-debug-info-do-not-check-capabilities
+Relation: 5syl-all_training-weka.filters.unsupervised.attribute.Remove-R102-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R68-97,102-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_cv.|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.)$-V-output-debug-info-do-not-check-capabilities
 
 JRIP rules:
 ===========
@@ -149,6 +136,6 @@ Number of Rules : 20
 === Classifier model ===
 
 Scheme:   NeuralNetwork
-Relation: 5syl-all_training-weka.filters.unsupervised.attribute.Remove-R102-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R68-97,102-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_cv.|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.)$-V-output-debug-info-do-not-check-capabilities
+Relation: 5syl-all_training-weka.filters.unsupervised.attribute.Remove-R102-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R68-97,102-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_cv.|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@57f9dbeb
+weka.classifiers.functions.NeuralNetwork@3613b819
