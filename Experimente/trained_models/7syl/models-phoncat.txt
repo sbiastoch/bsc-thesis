@@ -1,18 +1,21 @@
 === Classifier model ===
 
 Scheme:   J48
-Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R56-83,130-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_phoncat.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.)$-V-output-debug-info-do-not-check-capabilities
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R56-83,130-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_phoncat.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.)$-V-output-debug-info-do-not-check-capabilities
 
 J48 pruned tree
 ------------------
 
 nucleus_phoncat6 = K
-|   syl_phoncat4 = KC_or_CCKC_or_CDA_or_CKCC_or_CCK_or_L_or_ALCC_or_CLA_or_CD_or_CCL_or_CCCL_or_LC_or_AL_or_AKCC_or_KCC_or_AKC_or_CDC_or_AK_or_CKA: sekunda (24.0/16.0)
-|   syl_phoncat4 = CL: paenultima (36.0/14.0)
-|   syl_phoncat4 = K: paenultima (2.0)
-|   syl_phoncat4 = CK: sekunda (9.0/5.0)
-|   syl_phoncat4 = LCC: antepaenultima (14.0)
-|   syl_phoncat4 = CKC: prima (14.0/6.0)
+|   nucleus_phoncat3 = K
+|   |   nucleus_phoncat4 = L: paenultima (24.0/11.0)
+|   |   nucleus_phoncat4 = K: prima (23.0/12.0)
+|   |   nucleus_phoncat4 = D: sekunda (4.0/2.0)
+|   nucleus_phoncat3 = L
+|   |   nucleus_phoncat2 = L: paenultima (20.0/5.0)
+|   |   nucleus_phoncat2 = K: antepaenultima (24.0/11.0)
+|   |   nucleus_phoncat2 = D: paenultima (0.0)
+|   nucleus_phoncat3 = D: sekunda (4.0/2.0)
 nucleus_phoncat6 = L
 |   nucleus_phoncat0 = K: ultima (21.0/6.0)
 |   nucleus_phoncat0 = L: ultima (24.0/13.0)
@@ -20,13 +23,52 @@ nucleus_phoncat6 = L
 nucleus_phoncat6 = D: sekunda (14.0/8.0)
 nucleus_phoncat6 = N: sekunda (1.0)
 
-Number of Leaves  : 	11
+Number of Leaves  : 	12
 
-Size of the tree : 	14
+Size of the tree : 	17
 === Classifier model ===
 
 Scheme:   JRip
-Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R56-83,130-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_phoncat.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.)$-V-output-debug-info-do-not-check-capabilities
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R56-83,130-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_phoncat.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.)$-V-output-debug-info-do-not-check-capabilities
+
+JRIP rules:
+===========
+
+ => stress_class=prima (163.0/116.0)
+
+Number of Rules : 1
+=== Classifier model ===
+
+Scheme:   J48
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R56-83,130-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_phoncat.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.)$-V-output-debug-info-do-not-check-capabilities
+
+J48 pruned tree
+------------------
+
+nucleus_phoncat6 = K
+|   nucleus_phoncat3 = K
+|   |   nucleus_phoncat4 = L: paenultima (24.0/11.0)
+|   |   nucleus_phoncat4 = K: prima (23.0/12.0)
+|   |   nucleus_phoncat4 = D: sekunda (4.0/2.0)
+|   nucleus_phoncat3 = L
+|   |   nucleus_phoncat2 = L: paenultima (20.0/5.0)
+|   |   nucleus_phoncat2 = K: antepaenultima (24.0/11.0)
+|   |   nucleus_phoncat2 = D: paenultima (0.0)
+|   nucleus_phoncat3 = D: sekunda (4.0/2.0)
+nucleus_phoncat6 = L
+|   nucleus_phoncat0 = K: ultima (21.0/6.0)
+|   nucleus_phoncat0 = L: ultima (24.0/13.0)
+|   nucleus_phoncat0 = D: prima (4.0)
+nucleus_phoncat6 = D: sekunda (14.0/8.0)
+nucleus_phoncat6 = N: sekunda (1.0)
+
+Number of Leaves  : 	12
+
+Size of the tree : 	17
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R56-83,130-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_phoncat.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.)$-V-output-debug-info-do-not-check-capabilities
 
 JRIP rules:
 ===========
@@ -37,6 +79,6 @@ Number of Rules : 1
 === Classifier model ===
 
 Scheme:   NeuralNetwork
-Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R56-83,130-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_phoncat.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.)$-V-output-debug-info-do-not-check-capabilities
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R56-83,130-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_phoncat.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@2ffe10ef
+weka.classifiers.functions.NeuralNetwork@495e2981

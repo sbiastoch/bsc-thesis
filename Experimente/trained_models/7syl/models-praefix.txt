@@ -1,27 +1,50 @@
 === Classifier model ===
 
 Scheme:   J48
-Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R15-26,130-weka.filters.unsupervised.attribute.RemoveByName-E^(prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R15-26,130-weka.filters.unsupervised.attribute.RemoveByName-E^(prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
 
 J48 pruned tree
 ------------------
 
-praefix_phoncat3 = CKL_or_ALC_or_CLK_or_CLA_or_LCL_or_CDC_or_CKA_or_KCK_or_CKK_or_CCC_or_LCC_or_DCK_or_CCD_or_DCC_or_KCA_or_CLL: prima (28.0/17.0)
-praefix_phoncat3 = KCC: paenultima (33.0/20.0)
-praefix_phoncat3 = CKC: sekunda (35.0/21.0)
-praefix_phoncat3 = CCK: paenultima (8.0/5.0)
-praefix_phoncat3 = KCL: antepaenultima (5.0/2.0)
-praefix_phoncat3 = CLC: prima (35.0/20.0)
-praefix_phoncat3 = CCL: paenultima (7.0/5.0)
-praefix_phoncat3 = LCK: prima (12.0/6.0)
+praefix_phoncat2 = KC: paenultima (42.0/27.0)
+praefix_phoncat2 = CK: sekunda (39.0/23.0)
+praefix_phoncat2 = ø: prima (41.0/22.0)
+praefix_phoncat2 = CL: prima (41.0/26.0)
 
-Number of Leaves  : 	8
+Number of Leaves  : 	4
 
-Size of the tree : 	9
+Size of the tree : 	5
 === Classifier model ===
 
 Scheme:   JRip
-Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R15-26,130-weka.filters.unsupervised.attribute.RemoveByName-E^(prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R15-26,130-weka.filters.unsupervised.attribute.RemoveByName-E^(prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
+
+JRIP rules:
+===========
+
+ => stress_class=prima (163.0/116.0)
+
+Number of Rules : 1
+=== Classifier model ===
+
+Scheme:   J48
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R15-26,130-weka.filters.unsupervised.attribute.RemoveByName-E^(prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
+
+J48 pruned tree
+------------------
+
+praefix_phoncat2 = KC: paenultima (42.0/27.0)
+praefix_phoncat2 = CK: sekunda (39.0/23.0)
+praefix_phoncat2 = ø: prima (41.0/22.0)
+praefix_phoncat2 = CL: prima (41.0/26.0)
+
+Number of Leaves  : 	4
+
+Size of the tree : 	5
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R15-26,130-weka.filters.unsupervised.attribute.RemoveByName-E^(prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
 
 JRIP rules:
 ===========
@@ -32,6 +55,6 @@ Number of Rules : 1
 === Classifier model ===
 
 Scheme:   NeuralNetwork
-Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.MergeInfrequentNominalValues-N5-Rfirst-last-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R15-26,130-weka.filters.unsupervised.attribute.RemoveByName-E^(prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R15-26,130-weka.filters.unsupervised.attribute.RemoveByName-E^(prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@5bf9cc19
+weka.classifiers.functions.NeuralNetwork@f4e6730
