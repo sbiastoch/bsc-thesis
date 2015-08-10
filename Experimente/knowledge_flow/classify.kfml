@@ -81,8 +81,8 @@
             <object class="boolean" name="relationNameForFilename" primitive="yes">false</object>
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
-               <object class="java.lang.String" name="dir">/home/sbiastoch/Schreibtisch/thesis/Experimente/csv/classifications</object>
-               <object class="java.lang.String" name="prefix">4syl-classifications.csv</object>
+               <object class="java.lang.String" name="dir">/home/student/thesis/Experimente/csv/classifications</object>
+               <object class="java.lang.String" name="prefix">6syl-classifications.csv</object>
                <object class="boolean" name="useRelativePath" primitive="yes">true</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-F</object>
@@ -102,7 +102,7 @@
          <object class="java.lang.String" name="custom_name">CSVLoader</object>
          <object class="weka.gui.beans.Loader" name="bean">
             <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
-               <object class="java.lang.String" name="file">/home/sbiastoch/Schreibtisch/thesis/Experimente/csv/training/4syl-all_test.csv</object>
+               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/6syl-all_test.csv</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-M</object>
@@ -139,7 +139,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/all-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/all-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -268,7 +268,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/all-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/all-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -286,7 +286,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/all-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/all-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -303,7 +303,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/all-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/all-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -484,7 +484,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/praefix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/praefix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -613,7 +613,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/praefix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/praefix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -631,7 +631,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/praefix-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/praefix-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -648,7 +648,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/praefix-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/praefix-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -829,7 +829,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/suffix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/suffix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -958,7 +958,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/suffix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/suffix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -976,7 +976,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/suffix-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/suffix-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -993,7 +993,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/suffix-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/suffix-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -1174,7 +1174,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/affix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/affix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -1303,7 +1303,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/affix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/affix-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -1321,7 +1321,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/affix-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/affix-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -1338,7 +1338,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/affix-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/affix-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -1519,7 +1519,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/sonority-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sonority-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -1648,7 +1648,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/sonority-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sonority-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -1666,7 +1666,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/sonority-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sonority-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -1683,7 +1683,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/sonority-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sonority-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -1864,7 +1864,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/weight-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/weight-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -1993,7 +1993,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/weight-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/weight-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -2011,7 +2011,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/weight-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/weight-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -2028,7 +2028,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/weight-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/weight-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -2209,7 +2209,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/phoncat-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/phoncat-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -2338,7 +2338,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/phoncat-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/phoncat-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -2356,7 +2356,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/phoncat-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/phoncat-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -2373,7 +2373,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/phoncat-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/phoncat-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -2554,7 +2554,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/phon-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/phon-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -2683,7 +2683,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/phon-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/phon-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -2701,7 +2701,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/phon-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/phon-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -2718,7 +2718,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/phon-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/phon-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -2899,7 +2899,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/sylstruct-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sylstruct-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -3028,7 +3028,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/sylstruct-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sylstruct-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -3046,7 +3046,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/sylstruct-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sylstruct-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -3063,7 +3063,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/sylstruct-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sylstruct-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -3244,7 +3244,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/meta-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/meta-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -3373,7 +3373,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/meta-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/meta-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -3391,7 +3391,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/meta-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/meta-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -3408,7 +3408,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/meta-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/meta-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -3589,7 +3589,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/numeric-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/numeric-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -3718,7 +3718,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/numeric-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/numeric-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -3736,7 +3736,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/numeric-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/numeric-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -3753,7 +3753,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/numeric-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/numeric-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -3934,7 +3934,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/sparse-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sparse-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -4063,7 +4063,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/sparse-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sparse-J48_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-output-debug-info</object>
                            <object class="java.lang.String" name="5">-do-not-check-capabilities</object>
                         </object>
@@ -4081,7 +4081,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/sparse-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sparse-JRip_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
@@ -4098,7 +4098,7 @@
                            <object class="java.lang.String" name="0">-classification</object>
                            <object class="java.lang.String" name="1">-error</object>
                            <object class="java.lang.String" name="2">-W</object>
-                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/4syl/sparse-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
+                           <object class="java.lang.String" name="3">weka.classifiers.misc.InputMappedClassifier -I -trim -L /home/student/thesis/Experimente/trained_models/6syl/sparse-NeuralNetwork_1_1.model -W weka.classifiers.rules.ZeroR</object>
                            <object class="java.lang.String" name="4">-do-not-check-capabilities</object>
                         </object>
                      </object>
