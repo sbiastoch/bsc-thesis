@@ -1,0 +1,80 @@
+=== Classifier model ===
+
+Scheme:   J48
+Relation: 3syl-all_training-weka.filters.unsupervised.attribute.Remove-R74-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R70-74-weka.filters.unsupervised.attribute.RemoveByName-E^(pos|comp_len|comp_struct|nomen)$-V-output-debug-info-do-not-check-capabilities
+
+J48 pruned tree
+------------------
+
+comp_len <= 1
+|   comp_struct = NV: antepaenultima (0.0)
+|   comp_struct = A
+|   |   pos = N: antepaenultima (278.0/92.0)
+|   |   pos = V: paenultima (80.0/14.0)
+|   |   pos = A: antepaenultima (273.0/108.0)
+|   |   pos = ADV: antepaenultima (8.0/3.0)
+|   |   pos = X: paenultima (1.0)
+|   comp_struct = V: antepaenultima (3709.0/1711.0)
+|   comp_struct = ø
+|   |   comp_len <= 0
+|   |   |   pos = N: paenultima (744.0/438.0)
+|   |   |   pos = V: paenultima (50.0/11.0)
+|   |   |   pos = A: ultima (194.0/95.0)
+|   |   |   pos = ADV: ultima (9.0/2.0)
+|   |   |   pos = X: ultima (2.0)
+|   |   comp_len > 0: antepaenultima (57.0/11.0)
+|   comp_struct = N
+|   |   pos = N: antepaenultima (990.0/581.0)
+|   |   pos = V: paenultima (252.0/71.0)
+|   |   pos = A: antepaenultima (695.0/241.0)
+|   |   pos = ADV: antepaenultima (29.0/2.0)
+|   |   pos = X: antepaenultima (7.0/2.0)
+|   comp_struct = VN: antepaenultima (0.0)
+|   comp_struct = NN: antepaenultima (0.0)
+|   comp_struct = AA: antepaenultima (0.0)
+|   comp_struct = AV: antepaenultima (0.0)
+|   comp_struct = PV: antepaenultima (0.0)
+|   comp_struct = AN: antepaenultima (0.0)
+|   comp_struct = NA: antepaenultima (0.0)
+|   comp_struct = PN: antepaenultima (0.0)
+|   comp_struct = R
+|   |   pos = N: ultima (207.0/64.0)
+|   |   pos = V: paenultima (45.0)
+|   |   pos = A: ultima (141.0/71.0)
+|   |   pos = ADV: ultima (0.0)
+|   |   pos = X: ultima (0.0)
+|   comp_struct = F
+|   |   pos = N: paenultima (88.0/37.0)
+|   |   pos = V: paenultima (2.0)
+|   |   pos = A: antepaenultima (205.0/81.0)
+|   |   pos = ADV: antepaenultima (10.0/3.0)
+|   |   pos = X: antepaenultima (2.0)
+|   comp_struct = BV: antepaenultima (0.0)
+|   comp_struct = B: paenultima (25.0/12.0)
+|   comp_struct = NF: antepaenultima (0.0)
+comp_len > 1: antepaenultima (4712.0/321.0)
+
+Number of Leaves  : 	40
+
+Size of the tree : 	48
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 3syl-all_training-weka.filters.unsupervised.attribute.Remove-R74-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R70-74-weka.filters.unsupervised.attribute.RemoveByName-E^(pos|comp_len|comp_struct|nomen)$-V-output-debug-info-do-not-check-capabilities
+
+JRIP rules:
+===========
+
+(comp_len <= 0) and (pos = A) => stress_class=ultima (194.0/95.0)
+(comp_len <= 1) and (pos = N) and (comp_struct = R) => stress_class=ultima (207.0/64.0)
+(comp_len <= 1) and (pos = V) and (comp_struct = N) => stress_class=paenultima (252.0/71.0)
+(comp_len <= 1) and (pos = V) and (comp_struct = A) => stress_class=paenultima (80.0/14.0)
+ => stress_class=antepaenultima (12082.0/4045.0)
+
+Number of Rules : 5
+=== Classifier model ===
+
+Scheme:   NeuralNetwork
+Relation: 3syl-all_training-weka.filters.unsupervised.attribute.Remove-R74-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R70-74-weka.filters.unsupervised.attribute.RemoveByName-E^(pos|comp_len|comp_struct|nomen)$-V-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@24e052c4

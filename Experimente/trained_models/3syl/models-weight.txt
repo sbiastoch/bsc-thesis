@@ -1,0 +1,60 @@
+=== Classifier model ===
+
+Scheme:   J48
+Relation: 3syl-all_training-weka.filters.unsupervised.attribute.Remove-R74-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R34-39,74-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_weight.|syl_open.)$-V
+
+J48 pruned tree
+------------------
+
+syl_weight0 = light
+|   syl_weight1 = light
+|   |   syl_weight2 = schwa
+|   |   |   syl_open0 = c: antepaenultima (4033.0/1230.0)
+|   |   |   syl_open0 = o
+|   |   |   |   syl_open2 = c: antepaenultima (341.0/123.0)
+|   |   |   |   syl_open2 = o: paenultima (200.0/72.0)
+|   |   syl_weight2 = heavy
+|   |   |   syl_open1 = c
+|   |   |   |   syl_open0 = c: antepaenultima (203.0/106.0)
+|   |   |   |   syl_open0 = o: ultima (65.0/32.0)
+|   |   |   syl_open1 = o: ultima (227.0/47.0)
+|   |   syl_weight2 = light
+|   |   |   syl_open1 = c
+|   |   |   |   syl_open2 = c: antepaenultima (1525.0/603.0)
+|   |   |   |   syl_open2 = o: ultima (104.0/61.0)
+|   |   |   syl_open1 = o
+|   |   |   |   syl_open0 = c
+|   |   |   |   |   syl_open2 = c: antepaenultima (876.0/496.0)
+|   |   |   |   |   syl_open2 = o: ultima (67.0/37.0)
+|   |   |   |   syl_open0 = o: ultima (434.0/259.0)
+|   syl_weight1 = schwa
+|   |   syl_open2 = c: antepaenultima (2045.0/47.0)
+|   |   syl_open2 = o
+|   |   |   syl_open1 = c: antepaenultima (69.0/2.0)
+|   |   |   syl_open1 = o: ultima (194.0/24.0)
+|   syl_weight1 = heavy: antepaenultima (350.0/108.0)
+syl_weight0 = heavy: antepaenultima (1411.0/296.0)
+syl_weight0 = schwa: paenultima (671.0/1.0)
+
+Number of Leaves  : 	17
+
+Size of the tree : 	30
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 3syl-all_training-weka.filters.unsupervised.attribute.Remove-R74-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R34-39,74-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_weight.|syl_open.)$-V
+
+JRIP rules:
+===========
+
+(syl_weight2 = light) and (syl_open1 = o) and (syl_open2 = o) and (syl_weight1 = schwa) => stress_class=ultima (188.0/16.0)
+(syl_weight0 = schwa) => stress_class=paenultima (670.0/0.0)
+ => stress_class=antepaenultima (11957.0/3807.0)
+
+Number of Rules : 3
+=== Classifier model ===
+
+Scheme:   NeuralNetwork
+Relation: 3syl-all_training-weka.filters.unsupervised.attribute.Remove-R74-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R34-39,74-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_weight.|syl_open.)$-V
+
+weka.classifiers.functions.NeuralNetwork@788a50cf

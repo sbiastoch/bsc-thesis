@@ -1,0 +1,345 @@
+=== Classifier model ===
+
+Scheme:   J48
+Relation: 3syl-all_training-weka.filters.unsupervised.attribute.Remove-R74-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R52-69,74-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_cv.|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.)$-V-output-debug-info-do-not-check-capabilities
+
+J48 pruned tree
+------------------
+
+nucleus_len2 <= 1
+|   syl_len0 <= 3
+|   |   nucleus_len0 <= 1
+|   |   |   koda_len0 <= 0: paenultima (616.0)
+|   |   |   koda_len0 > 0
+|   |   |   |   koda_len2 <= 1
+|   |   |   |   |   cv_ratio0 <= 1
+|   |   |   |   |   |   syl_len0 <= 1: paenultima (58.0/13.0)
+|   |   |   |   |   |   syl_len0 > 1: antepaenultima (1296.0/434.0)
+|   |   |   |   |   cv_ratio0 > 1
+|   |   |   |   |   |   syl_cv1 = CVC
+|   |   |   |   |   |   |   onset_len0 <= 0: paenultima (70.0/9.0)
+|   |   |   |   |   |   |   onset_len0 > 0
+|   |   |   |   |   |   |   |   syl_len2 <= 3: paenultima (259.0/66.0)
+|   |   |   |   |   |   |   |   syl_len2 > 3
+|   |   |   |   |   |   |   |   |   syl_len1 <= 2: paenultima (42.0/10.0)
+|   |   |   |   |   |   |   |   |   syl_len1 > 2: antepaenultima (173.0/73.0)
+|   |   |   |   |   |   syl_cv1 = CVV: paenultima (559.0/97.0)
+|   |   |   |   |   |   syl_cv1 = CVVC: paenultima (40.0/4.0)
+|   |   |   |   |   |   syl_cv1 = CV: antepaenultima (95.0/2.0)
+|   |   |   |   |   |   syl_cv1 = CCVC: paenultima (130.0/14.0)
+|   |   |   |   |   |   syl_cv1 = CCVV: paenultima (181.0/24.0)
+|   |   |   |   |   |   syl_cv1 = VV: paenultima (10.0/2.0)
+|   |   |   |   |   |   syl_cv1 = CVCC: antepaenultima (20.0/10.0)
+|   |   |   |   |   |   syl_cv1 = CCCVV: paenultima (12.0/3.0)
+|   |   |   |   |   |   syl_cv1 = CCCVC: paenultima (10.0/2.0)
+|   |   |   |   |   |   syl_cv1 = VC: paenultima (23.0/3.0)
+|   |   |   |   |   |   syl_cv1 = CCVCC: paenultima (3.0)
+|   |   |   |   |   |   syl_cv1 = ø: paenultima (4.0/1.0)
+|   |   |   |   |   |   syl_cv1 = V: paenultima (0.0)
+|   |   |   |   |   |   syl_cv1 = VVC: paenultima (0.0)
+|   |   |   |   |   |   syl_cv1 = CCV: antepaenultima (3.0)
+|   |   |   |   |   |   syl_cv1 = CCVVC: paenultima (8.0/1.0)
+|   |   |   |   |   |   syl_cv1 = CVVCC: paenultima (2.0)
+|   |   |   |   |   |   syl_cv1 = VCC: paenultima (5.0/1.0)
+|   |   |   |   koda_len2 > 1
+|   |   |   |   |   syl_len1 <= 2
+|   |   |   |   |   |   cv_ratio0 <= 1
+|   |   |   |   |   |   |   syl_cv1 = CVC: ultima (19.0/7.0)
+|   |   |   |   |   |   |   syl_cv1 = CVV: antepaenultima (56.0/26.0)
+|   |   |   |   |   |   |   syl_cv1 = CVVC: paenultima (1.0)
+|   |   |   |   |   |   |   syl_cv1 = CV: antepaenultima (36.0/2.0)
+|   |   |   |   |   |   |   syl_cv1 = CCVC: ultima (1.0)
+|   |   |   |   |   |   |   syl_cv1 = CCVV: antepaenultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = VV: antepaenultima (2.0)
+|   |   |   |   |   |   |   syl_cv1 = CVCC: antepaenultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = CCCVV: antepaenultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = CCCVC: antepaenultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = VC: antepaenultima (8.0/4.0)
+|   |   |   |   |   |   |   syl_cv1 = CCVCC: antepaenultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = ø: antepaenultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = V: antepaenultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = VVC: antepaenultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = CCV: antepaenultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = CCVVC: antepaenultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = CVVCC: antepaenultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = VCC: antepaenultima (0.0)
+|   |   |   |   |   |   cv_ratio0 > 1
+|   |   |   |   |   |   |   syl_cv1 = CVC: ultima (28.0/10.0)
+|   |   |   |   |   |   |   syl_cv1 = CVV: ultima (64.0/15.0)
+|   |   |   |   |   |   |   syl_cv1 = CVVC: ultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = CV: antepaenultima (16.0/3.0)
+|   |   |   |   |   |   |   syl_cv1 = CCVC: ultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = CCVV: ultima (1.0)
+|   |   |   |   |   |   |   syl_cv1 = VV: paenultima (4.0/2.0)
+|   |   |   |   |   |   |   syl_cv1 = CVCC: ultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = CCCVV: ultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = CCCVC: ultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = VC: paenultima (6.0/1.0)
+|   |   |   |   |   |   |   syl_cv1 = CCVCC: ultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = ø: ultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = V: ultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = VVC: ultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = CCV: ultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = CCVVC: ultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = CVVCC: ultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = VCC: ultima (0.0)
+|   |   |   |   |   syl_len1 > 2
+|   |   |   |   |   |   koda_len0 <= 1
+|   |   |   |   |   |   |   syl_cv1 = CVC: antepaenultima (280.0/76.0)
+|   |   |   |   |   |   |   syl_cv1 = CVV
+|   |   |   |   |   |   |   |   syl_cv0 = CCVC: paenultima (2.0)
+|   |   |   |   |   |   |   |   syl_cv0 = CVVC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv0 = VC: antepaenultima (31.0/9.0)
+|   |   |   |   |   |   |   |   syl_cv0 = VV: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv0 = CVC: paenultima (22.0/10.0)
+|   |   |   |   |   |   |   |   syl_cv0 = CCVV: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv0 = CVCC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv0 = CCCVV: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv0 = CVV: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv0 = VCC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv0 = CV: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv0 = VVC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv0 = CVCCC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv0 = CCCVVC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv0 = CCVVC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv0 = CVVCC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv0 = CCVCC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv0 = ø: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv0 = CCCVC: antepaenultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = CVVC: paenultima (28.0/9.0)
+|   |   |   |   |   |   |   syl_cv1 = CV: antepaenultima (3.0)
+|   |   |   |   |   |   |   syl_cv1 = CCVC
+|   |   |   |   |   |   |   |   syl_len0 <= 2: antepaenultima (28.0/11.0)
+|   |   |   |   |   |   |   |   syl_len0 > 2: paenultima (22.0/2.0)
+|   |   |   |   |   |   |   syl_cv1 = CCVV: ultima (41.0/25.0)
+|   |   |   |   |   |   |   syl_cv1 = VV: antepaenultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = CVCC: antepaenultima (23.0/4.0)
+|   |   |   |   |   |   |   syl_cv1 = CCCVV: ultima (2.0)
+|   |   |   |   |   |   |   syl_cv1 = CCCVC: antepaenultima (1.0)
+|   |   |   |   |   |   |   syl_cv1 = VC: paenultima (1.0)
+|   |   |   |   |   |   |   syl_cv1 = CCVCC: antepaenultima (5.0)
+|   |   |   |   |   |   |   syl_cv1 = ø: antepaenultima (1.0)
+|   |   |   |   |   |   |   syl_cv1 = V: antepaenultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = VVC: antepaenultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = CCV: antepaenultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = CCVVC: paenultima (3.0)
+|   |   |   |   |   |   |   syl_cv1 = CVVCC: antepaenultima (0.0)
+|   |   |   |   |   |   |   syl_cv1 = VCC: antepaenultima (0.0)
+|   |   |   |   |   |   koda_len0 > 1: paenultima (20.0/3.0)
+|   |   nucleus_len0 > 1
+|   |   |   koda_len0 <= 0
+|   |   |   |   koda_len2 <= 1
+|   |   |   |   |   koda_len2 <= 0
+|   |   |   |   |   |   onset_len0 <= 1
+|   |   |   |   |   |   |   syl_len0 <= 2: paenultima (119.0/26.0)
+|   |   |   |   |   |   |   syl_len0 > 2: antepaenultima (46.0/13.0)
+|   |   |   |   |   |   onset_len0 > 1: paenultima (21.0/1.0)
+|   |   |   |   |   koda_len2 > 0
+|   |   |   |   |   |   cv_ratio1 <= 0
+|   |   |   |   |   |   |   syl_cv2 = CVC
+|   |   |   |   |   |   |   |   syl_len2 <= 4
+|   |   |   |   |   |   |   |   |   syl_len2 <= 3
+|   |   |   |   |   |   |   |   |   |   syl_len0 <= 2: paenultima (111.0/41.0)
+|   |   |   |   |   |   |   |   |   |   syl_len0 > 2
+|   |   |   |   |   |   |   |   |   |   |   onset_len0 <= 1: antepaenultima (57.0/18.0)
+|   |   |   |   |   |   |   |   |   |   |   onset_len0 > 1: paenultima (24.0/7.0)
+|   |   |   |   |   |   |   |   |   syl_len2 > 3: antepaenultima (30.0/12.0)
+|   |   |   |   |   |   |   |   syl_len2 > 4: paenultima (60.0/6.0)
+|   |   |   |   |   |   |   syl_cv2 = CV: paenultima (0.0)
+|   |   |   |   |   |   |   syl_cv2 = CVCC: paenultima (0.0)
+|   |   |   |   |   |   |   syl_cv2 = CVV: paenultima (0.0)
+|   |   |   |   |   |   |   syl_cv2 = CVVC: paenultima (0.0)
+|   |   |   |   |   |   |   syl_cv2 = CCVC: antepaenultima (9.0/5.0)
+|   |   |   |   |   |   |   syl_cv2 = ø: paenultima (0.0)
+|   |   |   |   |   |   |   syl_cv2 = V: paenultima (0.0)
+|   |   |   |   |   |   |   syl_cv2 = CCVVC: paenultima (0.0)
+|   |   |   |   |   |   |   syl_cv2 = CCVCC: paenultima (0.0)
+|   |   |   |   |   |   |   syl_cv2 = VC: antepaenultima (41.0/8.0)
+|   |   |   |   |   |   |   syl_cv2 = CVCCC: paenultima (0.0)
+|   |   |   |   |   |   |   syl_cv2 = CVVCC: paenultima (0.0)
+|   |   |   |   |   |   |   syl_cv2 = VVC: paenultima (0.0)
+|   |   |   |   |   |   |   syl_cv2 = VV: paenultima (0.0)
+|   |   |   |   |   |   |   syl_cv2 = CCVV: paenultima (0.0)
+|   |   |   |   |   |   |   syl_cv2 = VCC: paenultima (0.0)
+|   |   |   |   |   |   |   syl_cv2 = CCVVCC: paenultima (0.0)
+|   |   |   |   |   |   cv_ratio1 > 0
+|   |   |   |   |   |   |   koda_len1 <= 0: antepaenultima (141.0/10.0)
+|   |   |   |   |   |   |   koda_len1 > 0
+|   |   |   |   |   |   |   |   syl_cv2 = CVC
+|   |   |   |   |   |   |   |   |   syl_len2 <= 4
+|   |   |   |   |   |   |   |   |   |   cv_ratio0 <= 0: antepaenultima (269.0/68.0)
+|   |   |   |   |   |   |   |   |   |   cv_ratio0 > 0: paenultima (21.0/8.0)
+|   |   |   |   |   |   |   |   |   syl_len2 > 4: paenultima (41.0/14.0)
+|   |   |   |   |   |   |   |   syl_cv2 = CV: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv2 = CVCC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv2 = CVV: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv2 = CVVC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv2 = CCVC: antepaenultima (51.0/8.0)
+|   |   |   |   |   |   |   |   syl_cv2 = ø: antepaenultima (5.0)
+|   |   |   |   |   |   |   |   syl_cv2 = V: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv2 = CCVVC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv2 = CCVCC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv2 = VC: ultima (3.0)
+|   |   |   |   |   |   |   |   syl_cv2 = CVCCC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv2 = CVVCC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv2 = VVC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv2 = VV: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv2 = CCVV: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv2 = VCC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv2 = CCVVCC: antepaenultima (0.0)
+|   |   |   |   koda_len2 > 1
+|   |   |   |   |   cv_ratio1 <= 0: ultima (86.0/18.0)
+|   |   |   |   |   cv_ratio1 > 0
+|   |   |   |   |   |   nucleus_len1 <= 1
+|   |   |   |   |   |   |   syl_len1 <= 2
+|   |   |   |   |   |   |   |   koda_len1 <= 0: antepaenultima (25.0/4.0)
+|   |   |   |   |   |   |   |   koda_len1 > 0: ultima (30.0/13.0)
+|   |   |   |   |   |   |   syl_len1 > 2: antepaenultima (207.0/21.0)
+|   |   |   |   |   |   nucleus_len1 > 1: paenultima (24.0/11.0)
+|   |   |   koda_len0 > 0: antepaenultima (1392.0/16.0)
+|   syl_len0 > 3
+|   |   nucleus_len0 <= 1
+|   |   |   onset_len0 <= 1: antepaenultima (1180.0/101.0)
+|   |   |   onset_len0 > 1
+|   |   |   |   syl_len0 <= 4
+|   |   |   |   |   nucleus_len1 <= 1: antepaenultima (80.0/7.0)
+|   |   |   |   |   nucleus_len1 > 1: paenultima (69.0/14.0)
+|   |   |   |   syl_len0 > 4: antepaenultima (368.0/22.0)
+|   |   nucleus_len0 > 1: antepaenultima (1219.0/25.0)
+nucleus_len2 > 1
+|   cv_ratio1 <= 0
+|   |   koda_len2 <= 0
+|   |   |   syl_len2 <= 2
+|   |   |   |   koda_len0 <= 0: antepaenultima (33.0/16.0)
+|   |   |   |   koda_len0 > 0: paenultima (37.0/14.0)
+|   |   |   syl_len2 > 2: ultima (50.0/6.0)
+|   |   koda_len2 > 0
+|   |   |   syl_len0 <= 3: ultima (364.0/54.0)
+|   |   |   syl_len0 > 3
+|   |   |   |   cv_ratio0 <= 2: antepaenultima (25.0/8.0)
+|   |   |   |   cv_ratio0 > 2: ultima (28.0/11.0)
+|   cv_ratio1 > 0
+|   |   cv_ratio2 <= 0
+|   |   |   syl_len2 <= 2
+|   |   |   |   onset_len2 <= 0: antepaenultima (28.0/7.0)
+|   |   |   |   onset_len2 > 0: paenultima (46.0/18.0)
+|   |   |   syl_len2 > 2
+|   |   |   |   koda_len1 <= 0: ultima (178.0/6.0)
+|   |   |   |   koda_len1 > 0
+|   |   |   |   |   syl_len1 <= 2: ultima (32.0/9.0)
+|   |   |   |   |   syl_len1 > 2: antepaenultima (80.0/25.0)
+|   |   cv_ratio2 > 0
+|   |   |   nucleus_len1 <= 1
+|   |   |   |   koda_len1 <= 1
+|   |   |   |   |   syl_len2 <= 3
+|   |   |   |   |   |   syl_len0 <= 3
+|   |   |   |   |   |   |   syl_len1 <= 2: ultima (76.0/20.0)
+|   |   |   |   |   |   |   syl_len1 > 2
+|   |   |   |   |   |   |   |   syl_cv1 = CVC
+|   |   |   |   |   |   |   |   |   syl_len1 <= 3
+|   |   |   |   |   |   |   |   |   |   syl_len0 <= 2
+|   |   |   |   |   |   |   |   |   |   |   syl_cv0 = CCVC: ultima (0.0)
+|   |   |   |   |   |   |   |   |   |   |   syl_cv0 = CVVC: ultima (0.0)
+|   |   |   |   |   |   |   |   |   |   |   syl_cv0 = VC: ultima (36.0/19.0)
+|   |   |   |   |   |   |   |   |   |   |   syl_cv0 = VV: antepaenultima (14.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   syl_cv0 = CVC: ultima (5.0)
+|   |   |   |   |   |   |   |   |   |   |   syl_cv0 = CCVV: ultima (0.0)
+|   |   |   |   |   |   |   |   |   |   |   syl_cv0 = CVCC: ultima (0.0)
+|   |   |   |   |   |   |   |   |   |   |   syl_cv0 = CCCVV: ultima (0.0)
+|   |   |   |   |   |   |   |   |   |   |   syl_cv0 = CVV: antepaenultima (40.0/19.0)
+|   |   |   |   |   |   |   |   |   |   |   syl_cv0 = VCC: ultima (3.0)
+|   |   |   |   |   |   |   |   |   |   |   syl_cv0 = CV: ultima (0.0)
+|   |   |   |   |   |   |   |   |   |   |   syl_cv0 = VVC: ultima (0.0)
+|   |   |   |   |   |   |   |   |   |   |   syl_cv0 = CVCCC: ultima (0.0)
+|   |   |   |   |   |   |   |   |   |   |   syl_cv0 = CCCVVC: ultima (0.0)
+|   |   |   |   |   |   |   |   |   |   |   syl_cv0 = CCVVC: ultima (0.0)
+|   |   |   |   |   |   |   |   |   |   |   syl_cv0 = CVVCC: ultima (0.0)
+|   |   |   |   |   |   |   |   |   |   |   syl_cv0 = CCVCC: ultima (0.0)
+|   |   |   |   |   |   |   |   |   |   |   syl_cv0 = ø: ultima (0.0)
+|   |   |   |   |   |   |   |   |   |   |   syl_cv0 = CCCVC: ultima (0.0)
+|   |   |   |   |   |   |   |   |   |   syl_len0 > 2: antepaenultima (81.0/22.0)
+|   |   |   |   |   |   |   |   |   syl_len1 > 3: antepaenultima (31.0/12.0)
+|   |   |   |   |   |   |   |   syl_cv1 = CVV: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv1 = CVVC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv1 = CV: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv1 = CCVC: ultima (28.0/12.0)
+|   |   |   |   |   |   |   |   syl_cv1 = CCVV: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv1 = VV: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv1 = CVCC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv1 = CCCVV: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv1 = CCCVC: ultima (5.0)
+|   |   |   |   |   |   |   |   syl_cv1 = VC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv1 = CCVCC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv1 = ø: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv1 = V: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv1 = VVC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv1 = CCV: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv1 = CCVVC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv1 = CVVCC: antepaenultima (0.0)
+|   |   |   |   |   |   |   |   syl_cv1 = VCC: antepaenultima (0.0)
+|   |   |   |   |   |   syl_len0 > 3: antepaenultima (80.0/6.0)
+|   |   |   |   |   syl_len2 > 3
+|   |   |   |   |   |   syl_len0 <= 2
+|   |   |   |   |   |   |   syl_len1 <= 2
+|   |   |   |   |   |   |   |   koda_len1 <= 0: antepaenultima (56.0/2.0)
+|   |   |   |   |   |   |   |   koda_len1 > 0: ultima (31.0/8.0)
+|   |   |   |   |   |   |   syl_len1 > 2: antepaenultima (194.0/19.0)
+|   |   |   |   |   |   syl_len0 > 2: antepaenultima (667.0/34.0)
+|   |   |   |   koda_len1 > 1
+|   |   |   |   |   syl_len0 <= 3
+|   |   |   |   |   |   cv_ratio0 <= 0: antepaenultima (65.0/5.0)
+|   |   |   |   |   |   cv_ratio0 > 0
+|   |   |   |   |   |   |   koda_len0 <= 0: paenultima (21.0/1.0)
+|   |   |   |   |   |   |   koda_len0 > 0
+|   |   |   |   |   |   |   |   syl_len0 <= 2: antepaenultima (42.0/14.0)
+|   |   |   |   |   |   |   |   syl_len0 > 2: paenultima (39.0/16.0)
+|   |   |   |   |   syl_len0 > 3: antepaenultima (40.0)
+|   |   |   nucleus_len1 > 1
+|   |   |   |   koda_len1 <= 0: ultima (43.0/9.0)
+|   |   |   |   koda_len1 > 0
+|   |   |   |   |   syl_len0 <= 3
+|   |   |   |   |   |   onset_len0 <= 0: antepaenultima (61.0/18.0)
+|   |   |   |   |   |   onset_len0 > 0
+|   |   |   |   |   |   |   nucleus_len0 <= 1: paenultima (77.0/3.0)
+|   |   |   |   |   |   |   nucleus_len0 > 1: antepaenultima (33.0/18.0)
+|   |   |   |   |   syl_len0 > 3: antepaenultima (43.0/4.0)
+
+Number of Leaves  : 	225
+
+Size of the tree : 	298
+=== Classifier model ===
+
+Scheme:   JRip
+Relation: 3syl-all_training-weka.filters.unsupervised.attribute.Remove-R74-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R52-69,74-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_cv.|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.)$-V-output-debug-info-do-not-check-capabilities
+
+JRIP rules:
+===========
+
+(nucleus_len2 >= 2) and (koda_len1 <= 0) and (syl_len2 <= 3) and (syl_len2 >= 3) and (syl_cv2 = CVV) => stress_class=ultima (218.0/8.0)
+(nucleus_len2 >= 2) and (syl_cv1 = CVV) and (koda_len2 >= 1) => stress_class=ultima (396.0/72.0)
+(nucleus_len2 >= 2) and (syl_len1 <= 2) and (koda_len0 <= 0) and (syl_len2 >= 3) and (nucleus_len1 >= 2) => stress_class=ultima (16.0/2.0)
+(nucleus_len2 >= 2) and (syl_len2 <= 3) and (syl_len1 <= 2) and (koda_len2 >= 1) and (syl_len0 <= 3) => stress_class=ultima (82.0/22.0)
+(koda_len2 >= 2) and (syl_len1 <= 2) and (nucleus_len1 >= 2) and (onset_len0 >= 1) and (syl_len0 <= 3) => stress_class=ultima (151.0/46.0)
+(nucleus_len2 >= 2) and (syl_len0 <= 2) and (onset_len1 >= 2) and (syl_len1 <= 4) => stress_class=ultima (72.0/19.0)
+(nucleus_len2 >= 2) and (syl_len2 <= 3) and (cv_ratio1 >= 2) and (syl_len0 <= 2) and (syl_len1 <= 3) and (syl_len2 >= 3) => stress_class=ultima (128.0/62.0)
+(koda_len2 >= 2) and (syl_len0 <= 2) and (syl_len1 <= 2) and (koda_len1 >= 1) => stress_class=ultima (67.0/26.0)
+(nucleus_len2 >= 2) and (syl_len1 <= 2) and (cv_ratio1 >= 2) and (syl_len0 <= 3) and (syl_len2 >= 3) => stress_class=ultima (39.0/6.0)
+(koda_len2 >= 2) and (syl_len1 <= 2) and (syl_cv1 = CVC) and (syl_len2 <= 4) => stress_class=ultima (15.0/2.0)
+(nucleus_len0 <= 1) and (syl_len0 <= 3) and (koda_len0 <= 0) => stress_class=paenultima (653.0/2.0)
+(syl_len0 <= 3) and (nucleus_len0 <= 1) and (syl_cv2 = CVC) and (syl_len0 >= 3) and (koda_len1 >= 1) => stress_class=paenultima (628.0/164.0)
+(syl_len0 <= 3) and (cv_ratio0 >= 2) and (nucleus_len1 >= 2) => stress_class=paenultima (929.0/169.0)
+(syl_len0 <= 2) and (syl_len2 <= 3) and (koda_len2 <= 0) and (onset_len0 >= 1) and (syl_cv2 = CV) => stress_class=paenultima (119.0/10.0)
+(syl_len0 <= 2) and (syl_cv2 = CVC) and (syl_len2 >= 5) => stress_class=paenultima (170.0/55.0)
+(syl_len0 <= 3) and (nucleus_len0 <= 1) and (nucleus_len2 <= 1) and (syl_len0 >= 3) and (syl_len2 <= 3) and (syl_len1 >= 3) and (syl_cv1 = CVC) and (onset_len0 >= 1) and (koda_len2 <= 1) => stress_class=paenultima (22.0/3.0)
+(syl_len0 <= 2) and (syl_cv2 = CVC) and (nucleus_len1 >= 2) and (koda_len0 <= 0) and (onset_len1 <= 1) and (syl_len0 >= 2) => stress_class=paenultima (126.0/46.0)
+(syl_len0 <= 2) and (syl_len2 <= 3) and (koda_len2 <= 0) and (syl_len0 <= 1) => stress_class=paenultima (43.0/14.0)
+(syl_len0 <= 2) and (syl_len2 <= 3) and (syl_len1 <= 3) and (syl_cv2 = CVV) => stress_class=paenultima (52.0/16.0)
+ => stress_class=antepaenultima (8889.0/1351.0)
+
+Number of Rules : 20
+=== Classifier model ===
+
+Scheme:   NeuralNetwork
+Relation: 3syl-all_training-weka.filters.unsupervised.attribute.Remove-R74-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R52-69,74-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_cv.|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.)$-V-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@5de57ae2
