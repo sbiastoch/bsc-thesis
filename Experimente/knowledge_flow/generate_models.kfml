@@ -21,7 +21,7 @@
          <object class="java.lang.String" name="custom_name">CSVLoader</object>
          <object class="weka.gui.beans.Loader" name="bean">
             <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
-               <object class="java.lang.String" name="file">/home/student/thesis/Experimente/csv/training/6syl-all_training.csv</object>
+               <object class="java.lang.String" name="file">/home/sbiastoch/Schreibtisch/thesis/Experimente/csv/training/8syl-all_training.csv</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-M</object>
@@ -233,7 +233,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">suffix-</object>
-            <object class="java.io.File" name="directory">/home/student/thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -259,7 +259,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">suffix-</object>
-            <object class="java.io.File" name="directory">/home/student/thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -315,7 +315,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">suffix-</object>
-            <object class="java.io.File" name="directory">/home/student/thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -352,7 +352,7 @@
          <object class="java.lang.String" name="custom_name">TextSaver444</object>
          <object class="weka.gui.beans.TextSaver" name="bean">
             <object class="boolean" name="append" primitive="yes">true</object>
-            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/models-suffix.txt</object>
+            <object class="java.lang.String" name="filename">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/models-suffix.txt</object>
             <object class="null" name="name" null="yes"/>
             <object class="weka.gui.beans.BeanVisual" name="visual">
                <object class="null" name="name" null="yes"/>
@@ -612,7 +612,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">praefix-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -638,7 +638,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">praefix-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -694,7 +694,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">praefix-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -731,7 +731,7 @@
          <object class="java.lang.String" name="custom_name">TextSaver4442</object>
          <object class="weka.gui.beans.TextSaver" name="bean">
             <object class="boolean" name="append" primitive="yes">true</object>
-            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/models-praefix.txt</object>
+            <object class="java.lang.String" name="filename">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/models-praefix.txt</object>
             <object class="null" name="name" null="yes"/>
             <object class="weka.gui.beans.BeanVisual" name="visual">
                <object class="null" name="name" null="yes"/>
@@ -858,7 +858,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">affix-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -884,7 +884,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">affix-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -940,7 +940,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">affix-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -977,7 +977,7 @@
          <object class="java.lang.String" name="custom_name">TextSaver4443</object>
          <object class="weka.gui.beans.TextSaver" name="bean">
             <object class="boolean" name="append" primitive="yes">true</object>
-            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/models-affix.txt</object>
+            <object class="java.lang.String" name="filename">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/models-affix.txt</object>
             <object class="null" name="name" null="yes"/>
             <object class="weka.gui.beans.BeanVisual" name="visual">
                <object class="null" name="name" null="yes"/>
@@ -1104,7 +1104,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">sonority-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -1130,7 +1130,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">sonority-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -1186,7 +1186,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">sonority-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -1223,7 +1223,7 @@
          <object class="java.lang.String" name="custom_name">TextSaver4444</object>
          <object class="weka.gui.beans.TextSaver" name="bean">
             <object class="boolean" name="append" primitive="yes">true</object>
-            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/models-sonority.txt</object>
+            <object class="java.lang.String" name="filename">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/models-sonority.txt</object>
             <object class="null" name="name" null="yes"/>
             <object class="weka.gui.beans.BeanVisual" name="visual">
                <object class="null" name="name" null="yes"/>
@@ -1350,7 +1350,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">weight-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -1376,7 +1376,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">weight-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -1432,7 +1432,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">weight-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -1469,7 +1469,7 @@
          <object class="java.lang.String" name="custom_name">TextSaver4445</object>
          <object class="weka.gui.beans.TextSaver" name="bean">
             <object class="boolean" name="append" primitive="yes">true</object>
-            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/models-weight.txt</object>
+            <object class="java.lang.String" name="filename">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/models-weight.txt</object>
             <object class="null" name="name" null="yes"/>
             <object class="weka.gui.beans.BeanVisual" name="visual">
                <object class="null" name="name" null="yes"/>
@@ -1596,7 +1596,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">phoncat-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -1622,7 +1622,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">phoncat-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -1678,7 +1678,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">phoncat-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -1715,7 +1715,7 @@
          <object class="java.lang.String" name="custom_name">TextSaver4446</object>
          <object class="weka.gui.beans.TextSaver" name="bean">
             <object class="boolean" name="append" primitive="yes">true</object>
-            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/models-phoncat.txt</object>
+            <object class="java.lang.String" name="filename">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/models-phoncat.txt</object>
             <object class="null" name="name" null="yes"/>
             <object class="weka.gui.beans.BeanVisual" name="visual">
                <object class="null" name="name" null="yes"/>
@@ -1842,7 +1842,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">phon-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -1868,7 +1868,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">phon-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -1924,7 +1924,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">phon-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -1961,7 +1961,7 @@
          <object class="java.lang.String" name="custom_name">TextSaver4447</object>
          <object class="weka.gui.beans.TextSaver" name="bean">
             <object class="boolean" name="append" primitive="yes">true</object>
-            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/models-phon.txt</object>
+            <object class="java.lang.String" name="filename">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/models-phon.txt</object>
             <object class="null" name="name" null="yes"/>
             <object class="weka.gui.beans.BeanVisual" name="visual">
                <object class="null" name="name" null="yes"/>
@@ -2088,7 +2088,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">sylstruct-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -2114,7 +2114,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">sylstruct-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -2170,7 +2170,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">sylstruct-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -2207,7 +2207,7 @@
          <object class="java.lang.String" name="custom_name">TextSaver4448</object>
          <object class="weka.gui.beans.TextSaver" name="bean">
             <object class="boolean" name="append" primitive="yes">true</object>
-            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/models-sylstruct.txt</object>
+            <object class="java.lang.String" name="filename">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/models-sylstruct.txt</object>
             <object class="null" name="name" null="yes"/>
             <object class="weka.gui.beans.BeanVisual" name="visual">
                <object class="null" name="name" null="yes"/>
@@ -2334,7 +2334,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">meta-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -2360,7 +2360,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">meta-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -2416,7 +2416,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">meta-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -2453,7 +2453,7 @@
          <object class="java.lang.String" name="custom_name">TextSaver4449</object>
          <object class="weka.gui.beans.TextSaver" name="bean">
             <object class="boolean" name="append" primitive="yes">true</object>
-            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/models-meta.txt</object>
+            <object class="java.lang.String" name="filename">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/models-meta.txt</object>
             <object class="null" name="name" null="yes"/>
             <object class="weka.gui.beans.BeanVisual" name="visual">
                <object class="null" name="name" null="yes"/>
@@ -2580,7 +2580,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">sparse-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -2606,7 +2606,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">sparse-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -2662,7 +2662,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">sparse-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -2699,7 +2699,7 @@
          <object class="java.lang.String" name="custom_name">TextSaver44410</object>
          <object class="weka.gui.beans.TextSaver" name="bean">
             <object class="boolean" name="append" primitive="yes">true</object>
-            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/models-sparse.txt</object>
+            <object class="java.lang.String" name="filename">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/models-sparse.txt</object>
             <object class="null" name="name" null="yes"/>
             <object class="weka.gui.beans.BeanVisual" name="visual">
                <object class="null" name="name" null="yes"/>
@@ -2826,7 +2826,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">numeric-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -2852,7 +2852,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">numeric-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -2908,7 +2908,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">numeric-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -2945,7 +2945,7 @@
          <object class="java.lang.String" name="custom_name">TextSaver44411</object>
          <object class="weka.gui.beans.TextSaver" name="bean">
             <object class="boolean" name="append" primitive="yes">true</object>
-            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/models-numeric.txt</object>
+            <object class="java.lang.String" name="filename">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/models-numeric.txt</object>
             <object class="null" name="name" null="yes"/>
             <object class="weka.gui.beans.BeanVisual" name="visual">
                <object class="null" name="name" null="yes"/>
@@ -3072,7 +3072,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">all-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -3098,7 +3098,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">all-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -3154,7 +3154,7 @@
             <object class="int" name="incrementalSaveSchedule" primitive="yes">0</object>
             <object class="boolean" name="includeRelationName" primitive="yes">false</object>
             <object class="java.lang.String" name="prefix">all-</object>
-            <object class="java.io.File" name="directory">../../thesis/Experimente/trained_models</object>
+            <object class="java.io.File" name="directory">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models</object>
             <object class="weka.core.Tag" name="fileFormat">
                <object class="int" name="ID" primitive="yes">0</object>
                <object class="java.lang.String" name="readable"/>
@@ -3191,7 +3191,7 @@
          <object class="java.lang.String" name="custom_name">TextSaver44412</object>
          <object class="weka.gui.beans.TextSaver" name="bean">
             <object class="boolean" name="append" primitive="yes">true</object>
-            <object class="java.lang.String" name="filename">/home/student/thesis/Experimente/trained_models/models-all.txt</object>
+            <object class="java.lang.String" name="filename">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/models-all.txt</object>
             <object class="null" name="name" null="yes"/>
             <object class="weka.gui.beans.BeanVisual" name="visual">
                <object class="null" name="name" null="yes"/>

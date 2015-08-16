@@ -87,11 +87,13 @@ compare <- function(results, num_syls, folder) {
 	other_correct = lapply(correct_per_row, function(cors) {
 		length(cors[cors > 1 & cors < length(correct_per_row)])
 	})
-
 	stat = rbind(
 		unique_correct, 	common_correct,		other_correct,
 		unique_errors,		common_errors,		other_errors
 	)
+	olddimnames = dimnames(stat)
+	stat = 100*apply(stat, 2, as.numeric)/nrow(results)
+	dimnames(stat) = olddimnames
 	return(stat)
 
 }
@@ -102,8 +104,8 @@ plot_majorites <- function(results, num_syls, folder) {
 	majority_error = majority(results, error=TRUE, minority=FALSE)
 	minority_error = majority(results, error=TRUE, minority=TRUE)
 	stat = rbind(
-		majority_correct, 	minority_correct,
-		majority_error, 	minority_error
+		100*majority_correct/nrow(results), 	100*minority_correct/nrow(results),
+		100*majority_error/nrow(results), 	100*minority_error/nrow(results)
 	)
 
 	return(stat)
@@ -252,27 +254,37 @@ unique_errors <- function (results, num_syls, folder) {
 
 }
 
-basic_stats <- function(results, num_syls, folder) {
-	# sum up all corrects and errors per model
-	errors_data = results[grep("error", names(results))]
-	errors = lapply(errors_data, table)
 
-	y = matrix(unlist(errors),2,byrow=FALSE)
-	dimnames(y) <- list(c('yes','no'),names(errors_data))
-	return(y)
+addLabels <- function(y, stat) {
+	x <- 0
+	one_percent = sum(unlist(stat[,1]))/100
+	up <- FALSE
+	apply(stat, 1, function(row) {
+		row = unlist(row)
+		lbl <- paste(round(row,1),'%',sep='')
+		lbl <- unlist(lapply(1:length(row), function(i) if((row[i]/one_percent) < 2) '' else lbl[i]))
+		text(x+(.5*row), y, labels=lbl, col="black", cex=0.62)
+		x <<- x + row
+	})
 }
 
-plot_basic_stats <- function(results, num_syls, folder) {
+basic_stats <- function(results, num_syls, folder) {
+	x = apply(results,2,table)
+	return(x)
+}
+
+plot_basic_stats <- function(results, zeroR, num_syls, folder) {
 	filename = paste(folder,'total/',num_syls,'syl-basicstats.png',sep='')
 	png(filename = filename, width = 1920, height = 1080, units = "px", pointsize = 24, bg = "white")
 
 	stat = basic_stats(results, num_syls, folder)
+	stat = 100*stat/nrow(results)
 #	total_rows = sum(unlist(errors[1]))
 
 	par(las=1,
 		xpd=TRUE,
-		cex.lab=1.2,
-		cex.axis=1.2,
+		cex.lab=1,
+		cex.axis=.9,
 		cex.main=1.2,
 		mar=c(3,10,3,2),
 		oma=c(1,1,2.5,1)
@@ -280,7 +292,12 @@ plot_basic_stats <- function(results, num_syls, folder) {
 
 
 	colors = c('chartreuse2','brown2')
-	barplot(stat,horiz=TRUE, col=colors, main=paste(num_syls, 'Silben: Fehler je Modell'))
+	y <- barplot(stat,horiz=TRUE, col=colors, main=paste(num_syls, 'Silben: Fehler je Modell / n =',nrow(results)))
+	#	legend.text = TRUE, args.legend = c('error','corr')
+	addLabels(y, stat)
+	abline(v=zeroR,lty=2)
+	text(zeroR-4, max(y)+2, paste('ZeroR (',round(zeroR,1),'%)',sep=''), cex=.7)
+
 	#barplot(t(stat/total_rows),horiz=TRUE,cex.names=0.8,legend.text = TRUE, args.legend = list(x = "topright", bty = "n"), main='Errors by classifier')
 	#savePlot(paste(folder,'total/',num_syls,'syl.png',sep=''))
 	dev.off()
@@ -292,8 +309,8 @@ stats <- function(results) {
 
 voting <- function(list_of_results) {#, num_syls, folder) {
 	matrix(unlist(lapply(list_of_results, function(results) {
-		correct_voted = sum(apply(results == 'no', 1, sum) >= ncol(results)/2) / nrow(results)
-		error_voted = sum(apply(results == 'no', 1, sum) < ncol(results)/2) / nrow(results)
+		correct_voted = 100*sum(apply(results == 'no', 1, sum) >= ncol(results)/2) / nrow(results)
+		error_voted = 100*sum(apply(results == 'no', 1, sum) < ncol(results)/2) / nrow(results)
 		stat = rbind(correct_voted, error_voted)
 		stat
 	})),2,dimnames=list(c('errors','correct'),names(list_of_results)))
@@ -318,8 +335,8 @@ compute_votes <- function(rows) {
 }
 votes <- function(rows, correct_stress_class) {
 	votes = compute_votes(rows)
-	correct = sum(votes == correct_stress_class)/nrow(rows)
-	error = sum(votes != correct_stress_class)/nrow(rows)
+	correct = 100*sum(votes == correct_stress_class)/nrow(rows)
+	error = 100*sum(votes != correct_stress_class)/nrow(rows)
 	rbind(correct,error)
 }
 
@@ -328,8 +345,8 @@ evaluate_voting_models <- function(results, correct_class, models, folder, num_s
 	x = lapply(models, function(model) {
 		res = results[grep(model, names(results))]
 		spacing <<- c(spacing, c(1.1,0.4,replicate(ncol(res)-1,0)))
-		models_correct = apply(res,2,function(x) sum(x==correct_class))/nrow(results)
-		models_error = apply(res,2,function(x) sum(x!=correct_class))/nrow(results)
+		models_correct = 100*apply(res,2,function(x) sum(x==correct_class))/nrow(results)
+		models_error = 100*apply(res,2,function(x) sum(x!=correct_class))/nrow(results)
 
 		models_results = rbind(models_correct,models_error,deparse.level = 2)
 		vote_results = votes(res, correct_class)
@@ -365,18 +382,20 @@ plot_compare <- function(model_sets, num_syls, folder) {
 	par(mfrow=c(4,2),
 		las=1,
 		xpd=TRUE,
-		cex.lab=1.2,
+		cex.lab=1,
 		cex.axis=1.2,
 		cex.main=1.2,
 		mar=c(3,10,3,2),
 		oma=c(1,1,2.5,1)
 	)
-	modelset_names = names(model_sets)
 	colors = c('chartreuse1','chartreuse3','chartreuse4','brown1','brown3','brown4')
+	
+	modelset_names = names(model_sets)
 	lapply(modelset_names, function(dataset_name) {
 		stat = compare(model_sets[[dataset_name]], num_syls, folder)
 		pretty_dataset_name = gsub('\\|','-/',dataset_name)
-		barplot(stat, horiz=TRUE, col=colors, main=paste('Vergleich der ',pretty_dataset_name,'-Modelle',sep=''))
+		x = barplot(stat, horiz=TRUE, col=colors, main=paste('Vergleich der ',pretty_dataset_name,'-Modelle',sep=''))
+		addLabels(x, stat)
 	})
 
 	plot.new()
@@ -396,7 +415,7 @@ do_plot_majorites <- function(model_sets, num_syls, folder) {
 	par(mfrow=c(4,2),
 		las=1,
 		xpd=TRUE,
-		cex.lab=1.2,
+		cex.lab=1,
 		cex.axis=1.2,
 		cex.main=1.2,
 		mar=c(3,10,3,2),
@@ -408,7 +427,8 @@ do_plot_majorites <- function(model_sets, num_syls, folder) {
 	lapply(modelset_names, function(dataset_name) {
 		stat = plot_majorites(model_sets[[dataset_name]], num_syls, folder)
 		pretty_dataset_name = gsub('\\|','-/',dataset_name)
-		barplot(stat, horiz=TRUE, col=colors, main=paste('Vergleich der ',pretty_dataset_name,'-Modelle',sep=''))
+		x=barplot(stat, horiz=TRUE, col=colors, main=paste('Vergleich der ',pretty_dataset_name,'-Modelle',sep=''))
+		addLabels(x, stat)
 	})
 
 	plot.new()
@@ -428,33 +448,51 @@ pretty_name <- function(str) {
 	unlist(camel)
 }
 
-lapply(4:8, function(num_syls) {
-	data_folder = '/home/sbiastoch/Schreibtisch/thesis/Experimente/csv/classifications/'
-	#data_folder = '~/Schreibtisch/thesis/Experimente/csv/classifications/'
-	folder = '/home/sbiastoch/Schreibtisch/thesis/Experimente/evaluation/'
-	#folder = '/home/sbiastoch/Schreibtisch/thesis/Experimente/evaluation/'
+data_folder = '/home/sbiastoch/Schreibtisch/thesis/Experimente/csv/classifications/'
+#data_folder = '~/Schreibtisch/thesis/Experimente/csv/classifications/'
+folder = '/home/sbiastoch/Schreibtisch/thesis/Experimente/evaluation/'
+#folder = '/home/sbiastoch/Schreibtisch/thesis/Experimente/evaluation/'
+
+lapply(2:7, function(num_syls) {
 	csv = read.csv(paste(data_folder,num_syls,'syl-classifications.csv',sep=''), header=TRUE)
 
-	results = csv[grep("error", names(csv))]
+	results_errors_with_strs_class = apply(csv,2,function(col) col != csv[,1])
+	results_errors_with_strs_class[results_errors_with_strs_class==TRUE] <- 'yes'
+	results_errors_with_strs_class[results_errors_with_strs_class==FALSE] <- 'no'
+	results_errors = results_errors_with_strs_class[,2:ncol(results_errors_with_strs_class)]
+	colnames(results_errors) = gsub('classification','error',colnames(results_errors))
+
+
 #	colnames(results) = lapply(colnames(results), pretty_name) ### verursacht data too long
+
+	zeroR = round(100*max(table(csv[,1]))/nrow(csv),2)
+	r = matrix(
+		c(nrow(results_errors),c(round(100*stats(results_errors)[1,],2),zeroR)),
+		1, dimnames=list(num_syls,c('n',c(colnames(results_errors),'zeroR'))))
+	print(r)
+	if(num_syls==2) {
+		write.csv(r, paste(folder,'stats.csv',sep=''))
+	} else {
+		write.table(r, paste(folder,'stats.csv',sep=''),sep=",",col.names=FALSE,append=TRUE)
+	}
 
 	results_class = csv[grep("classification", names(csv))]
 
 
 	# Bauen der zu vergleichenden Modelle
 	#models = list('praefix','suffix','affix','sonority','weight','phoncat','phon','sylstruct','meta','numeric','sparse','all')
-	models = list('J48', 'JRip', 'NN')
-	#models = list('J48', 'JRip', 'NN', 'phon', 'affix', 'sylstruct', 'phon_NN|affix_J48')
+	#models = list('J48', 'JRip', 'NN')
+	models = list('J48', 'JRip', 'NN', 'phon', 'affix', 'sylstruct', 'meta')
 	model_sets = lapply(models, function(modelname) {
-		results[grep(modelname, names(results))]
+		results_errors[,grep(modelname, colnames(results_errors))]
 	})
 	names(model_sets) = models
 
 	# Fehler je Einzelmodell
-	plot_basic_stats(results, num_syls, folder)
+	plot_basic_stats(results_errors, zeroR, num_syls, folder)
 
 	#
-#	unique_errors(results, num_syls, folder) depracted?
+#	unique_errors(results_errors, num_syls, folder) depracted?
 
 	# Vergleich der error/correct: unique, common, other
 	plot_compare(model_sets, num_syls, folder)
@@ -467,10 +505,10 @@ lapply(4:8, function(num_syls) {
 
 	# Histogramm der Fehlerhäufigkeiten der Fehler eines Models 
 #	error_freq_histogram = rbind(
-#		all=error_freq(model_sets, errors=list(error_all_J48='yes')),
-#		phon=error_freq(model_sets, errors=list(error_phon_J48='yes')),
-#		affix=error_freq(model_sets, errors=list(error_affix_J48='yes')),
-#		sylstruct=error_freq(model_sets, errors=list(error_sylstruct_J48='yes'))
+#		all=error_freq(model_sets, errors=list(error_all_J48=TRUE)),
+#		phon=error_freq(model_sets, errors=list(error_phon_J48=TRUE)),
+#		affix=error_freq(model_sets, errors=list(error_affix_J48=TRUE)),
+#		sylstruct=error_freq(model_sets, errors=list(error_sylstruct_J48=TRUE))
 #	)
 #	barplot(error_freq_histogram, legend=TRUE)
 
@@ -479,7 +517,7 @@ lapply(4:8, function(num_syls) {
 #	votes = voting(model_sets)
 #	colnames(votes) = c(models)
 
-#	stat = cbind(votes, stats(results))
+#	stat = cbind(votes, stats(results_errors))
  
 #	par(las=1)
 #	par(mar=c(5,8,4,6)) 
@@ -491,3 +529,225 @@ lapply(4:8, function(num_syls) {
 #		main=paste(num_syls, 'Syllables: Errors by classifier'))
 
 })
+
+performance <- function(table) {
+	best_percent = apply(table[,3:ncol(table)],1, max)
+	best_models = apply(table[,3:ncol(table)], 1, function(table) names(which.max(table)))
+	total_performance = round(sum((apply(table[,3:ncol(table)], 1, max)*table[,2]))/sum(table[,2]),2)
+	tbl = rbind(cbind(best_models,best_percent),c('',total_performance))
+	matrix(tbl,,2, dimnames=list(c(2:(nrow(table)+1),'weighted'),c('best_model','result')))
+}
+
+main_stats = read.csv(paste(folder,'stats.csv',sep=''))
+
+models = c(
+	'',
+	'NN','J48','JRip',
+	'all','sparse','numeric','phon_','affix',
+	'praefix','suffix','phoncat','sylstruct','weight','sonority','meta'
+	)
+
+# liefert je featureset bestes kummuliertes ergebnis
+best_cum = matrix(unlist(lapply(models, function(model) {
+	p = performance(main_stats[c(1,2,grep(model,names(main_stats)))])
+	c(model,unlist(p['weighted','result']))
+}), recursive=FALSE),2)
+par(las=1,
+#	xpd=TRUE,
+	cex.lab=1,
+	cex.axis=1.2,
+	cex.main=1.2,
+	mar=c(5,3,3,3)
+)
+barplot(matrix(best_cum[2,], 1, dimnames=list('',best_cum[1,])), las=2, ylim=c(70,100), xpd=FALSE)
+title('Erkennungsraten der besten Modelle je Featureset')
+
+####
+# boxplot für anzahl der regeln bei jrip
+####
+
+
+jrip_rules_models = c(
+	'all','sparse','numeric','phon','affix',
+	'praefix','suffix','phoncat','sylstruct','weight','sonority','meta'
+	)
+
+getNumberOfRules <- function(fileName) {
+#	f = readChar(fileName, file.info(fileName)$size)
+#	phrase = 'Number of Rules : '
+#	NoR = gregexpr(pattern=phrase, f)[[1]][1] + nchar(phrase)
+#	as.numeric(strsplit(substr(f,NoR,NoR+10),'\n')[[1]][1])
+	length(getRules(fileName))+1
+}
+
+library(stringr)
+
+# ohne die letzte Regel!
+getRules <- function(fileName) {
+	f = readChar(fileName, file.info(fileName)$size)
+	phrase = 'JRIP rules:\n===========\n'
+	start = gregexpr(pattern=phrase, f)[[1]][1] + nchar(phrase)
+	start_to_end = substr(f,start,nchar(f))
+	end = gregexpr(pattern='\n =>', start_to_end)[[1]][1]
+	rules_string = str_trim(substr(f,start,start+end))
+	if(nchar(rules_string) == 0) {
+		return(NULL)
+	}
+	rules = strsplit(rules_string,'\n')[[1]]
+	rules
+}
+
+getTree <- function(fileName) {
+	f = readChar(fileName, file.info(fileName)$size)
+	phrase = 'J48 pruned tree\n------------------\n'
+	start = gregexpr(pattern=phrase, f)[[1]][1] + nchar(phrase)
+	start_to_end = substr(f,start,nchar(f))
+	end = gregexpr(pattern='\nNumber of Leaves', start_to_end)[[1]][1] - 2
+	rules_string = str_trim(substr(f,start,start+end))
+	if(nchar(rules_string) == 0) {
+		return(NULL)
+	}
+	rules = strsplit(rules_string,'\n')[[1]]
+	rules
+}
+
+# Liefert die Tiefe jeder Regel im Entscheidungsbaum
+getTreeDepths <- function(fileName) {
+	tree = getTree(fileName)
+	unlist(lapply(tree, function(branch) str_count(branch,'\\|')+1))
+}
+
+getMaxTreeDepth <- function(fileName) {
+	depths = getTreeDepths(fileName)
+	max(depths)
+}
+
+getTreeSize <- function(fileName) {
+	depths = getTreeDepths(fileName)
+	length(depths)
+}
+# boxplot der tiefe aller regeln von J48
+treedepth_stat = lapply(2:7, function(num_syls) {
+	lapply(jrip_rules_models, function(model) {
+		fileName = paste(folder,'../trained_models/',num_syls,'syl/models-',model,'.txt',sep='')
+		getTreeDepths(fileName)
+	})
+})
+# boxplot der tiefe aller regeln von J48
+treesize_stat = lapply(2:7, function(num_syls) {
+	lapply(jrip_rules_models, function(model) {
+		fileName = paste(folder,'../trained_models/',num_syls,'syl/models-',model,'.txt',sep='')
+		getTreeSize(fileName)
+	})
+})
+par(mfrow=c(3,1),
+	las=1,
+	xpd=TRUE,
+	cex.lab=1,
+	cex.axis=1.2,
+	cex.main=1.2,
+	mar=c(0,3,3,3),
+	oma=c(10,1,1,1)
+)
+boxplot(lapply(1:12, function(mi) unlist(lapply(1:6, function(i) treedepth_stat[[i]][mi]))),xaxt='n')
+
+
+boxplot(lapply(1:12, function(mi) unlist(lapply(1:6, function(i) treesize_stat[[i]][mi]))),xaxt='n')
+
+
+table = main_stats[c(1,2,grep('48',names(main_stats)),length(main_stats))]
+cum_corr = apply(table, 2, function(col) sum(col*table[['n']])/sum(table[['n']]))
+x=barplot(cum_corr[4:length(cum_corr)-1], ylim=c(60,92), las=2,xpd=FALSE)
+abline(h=cum_corr['zeroR'],lty=2)
+text(max(x)+1,cum_corr['zeroR']+1, paste('ZeroR (',round(cum_corr['zeroR'],1),'%)',sep=''), cex=.7)
+title('Erkennungsraten von J48')
+#addLabels(cum_corr[3:13],x)
+
+
+
+
+# get the most signifcant rules
+#rules = getRules('/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/models-all.txt')
+#lapply(rules, function(rule) {
+#	start = gregexpr(pattern='a (', rule)[[1]][1]
+#	substr(f,start,start+end)
+#})
+
+# ohne die letzte Regel!
+getRulesLength <- function(fileName) {
+	rules = getRules(fileName)
+	unlist(lapply(rules, function(rule) {
+		str_count(rule,' and ')+1
+	}))
+}
+
+syls = 2:6
+ruleslen_stat=lapply(syls, function(num_syls) {
+	lapply(jrip_rules_models, function(model) {
+		fileName = paste(folder,'../trained_models/',num_syls,'syl/models-',model,'.txt',sep='')
+		getRulesLength(fileName)
+	})
+})
+
+par(mfrow=c(3,1),
+	las=1,
+	xpd=TRUE,
+	cex.lab=1,
+	cex.axis=1.2,
+	cex.main=1.2,
+	mar=c(0,3,3,3),
+	oma=c(10,1,1,1)
+)
+colors = c('chartreuse1','brown1','chartreuse2','brown2','chartreuse3','brown3','chartreuse4','brown4')
+#library(vioplot)
+#lapply(seq_along(ruleslen_stat), function(stat_idx) {
+#	filename = paste(folder,'total/',num_syls,'syl-basicstats.png',sep='')
+#	png(filename = filename, width = 1920, height = 1080, units = "px", pointsize = 24, bg = "white")
+#	boxplot(ruleslen_stat[[stat_idx]],horiz=FALSE, col=rainbow(length(ruleslen_stat)), main=paste(stat_idx+1,'Silben'))
+#	dev.off()
+#})
+
+boxplot(lapply(1:12, function(mi) unlist(lapply(1:5, function(i) ruleslen_stat[[i]][mi]))),xaxt='n')
+title('Länge der von JRip generierten Regeln')
+
+
+boxplot(t(matrix(unlist(lapply(1:5,function(i) unlist(lapply(ruleslen_stat[[i]],length)))),12)),xaxt='n')
+title('Anzahl der von JRip generierten Regeln')
+
+table = main_stats[c(1,2,grep('JRip',names(main_stats)))]
+cum_corr = apply(table, 2, function(col) sum(col*table[['n']])/sum(table[['n']]))
+x=barplot(cum_corr[3:length(cum_corr)], ylim=c(65,90), las=2)
+title('Erkennungsraten von JRip')
+#addLabels(cum_corr[3:13],x)
+
+
+#plot.new()
+#title('Länge der von JRip generierten Regeln', outer=TRUE, cex.main=1.7)
+#legend('topright', title='Modelle/Featuresets', bty = "n", ncol=2,fill=rainbow(length(ruleslen_stat)), legend=jrip_rules_models)
+
+
+#write.table(ruleslen_stat, paste(folder,'length_of_rules.csv',sep=''))
+
+
+
+syls = 2:7
+rules_stat=t(matrix(unlist(lapply(syls, function(num_syls) {
+	matrix(unlist(lapply(jrip_rules_models, function(model) {
+		fileName = paste(folder,'../trained_models/',num_syls,'syl/models-',model,'.txt',sep='')
+		getNumberOfRules(fileName)
+	})),length(jrip_rules_models))
+}),recursive=FALSE),,6,dimnames=list(jrip_rules_models,2:7)))
+write.csv(rules_stat, paste(folder,'number_of_rules.csv',sep=''))
+
+# liefert die einflussreichsten rules
+r=unlist(unlist(lapply(jrip_rules_models, function(model) { lapply(syls, function(syl) {
+	fileName = paste(folder,'../trained_models/',syl,'syl/models-',model,'.txt',sep='')
+	rules = getRules(fileName)
+	lapply(rules, function(rule) {
+		start_phrase = 'a \\('
+		start = gregexpr(pattern=start_phrase, rule)[[1]][1] + nchar(start_phrase)-1
+		start_to_end = substr(rule,start,nchar(rule)-1)
+		ns = as.numeric(strsplit(start_to_end,'/')[[1]])
+		list(corr=ns[1], err=ns[2], rule=rule)
+	})
+}) }),recursive=FALSE), recursive=FALSE)

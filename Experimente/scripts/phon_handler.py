@@ -71,7 +71,7 @@ class PhonHandler(CelexQuery):
 		'N': disc_alphabet['nasale'],
 		'L': disc_alphabet['liquide'],
 		'V': disc_alphabet['approximanten']
-			+disc_alphabet['geschlossene_vokale']
+			+disc_alphabet['geschlossene_vokale'] 
 			+disc_alphabet['komische_diphtonge']
 			+disc_alphabet['offene_vokale']
 			+disc_alphabet['diphtonge'],
