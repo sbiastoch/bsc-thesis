@@ -1,0 +1,1 @@
+grep "(sonority_dir " */*.txt | awk -F'/|\\(|)' '{print 100*$(NF-1)/$(NF-2) "\t" $(NF-2) "\t" $(NF-1) "\t" $L }' | sort | less

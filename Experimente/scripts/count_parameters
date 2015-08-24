@@ -1,0 +1,3 @@
+#!/bin/bash
+PATH = /home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models
+cd PATH

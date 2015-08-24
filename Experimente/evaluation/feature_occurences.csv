@@ -1,0 +1,449 @@
+Nennungen der Features in J48:,,,,,
+,,,,,
+1912,suffix3,,,,
+1172,suffix4,,,,
+731,suffix2,,,,
+720,suffix5,,,,
+708,syl_phoncat1,,,,
+672,syl_phoncat0,,,,
+653,suffix_phoncat5,,,,
+413,praefix2,,,,
+366,syl_phoncat2,,,,
+308,praefix_phoncat5,,,,
+263,suffix_phoncat4,,,,
+244,praefix3,,,,
+244,praefix1,,,,
+223,signi_suffix,,,,
+195,syl_cv0,,,,
+188,sonority0,,,,
+186,praefix_phoncat4,,,,
+172,comp_struct,,,,
+162,pos,,,,
+159,syl_phoncat3,,,,
+159,comp_len,,,,
+156,suffix1,,,,
+146,sonority_dir,,,,
+140,syl_len0,,,,
+122,syl_cv2,,,,
+119,suffix_phoncat3,,,,
+115,syl_cv1,,,,
+106,syl_len1,,,,
+103,prae_class,,,,
+100,syl_weight1,,,,
+98,sonority_ratio0,,,,
+98,praefix_phoncat3,,,,
+94,syl_praefix,,,,
+92,sonority2,,,,
+92,sonority1,,,,
+86,sonority3,,,,
+82,syl_len2,,,,
+72,sonority_ratio1,,,,
+69,syl_weight2,,,,
+69,signi_praefix,,,,
+66,nucleus_phoncat1,,,,
+66,nomen,,,,
+64,sonority_ratio2,,,,
+58,syl_weight3,,,,
+58,onset_len0,,,,
+53,syl_cv3,,,,
+51,nucleus_phoncat2,,,,
+48,nucleus_len1,,,,
+46,sonority_ratio3,,,,
+45,nucleus_phoncat3,,,,
+42,syl_weight0,,,,
+40,syl_open2,,,,
+40,koda_len1,,,,
+39,syl_open1,,,,
+38,syl_len3,,,,
+38,koda_len2,,,,
+37,praefix4,,,,
+36,praefix5,,,,
+36,nucleus_phoncat0,,,,
+36,nucleus_len0,,,,
+35,suff_class,,,,
+30,koda_len0,,,,
+30,cv_ratio0,,,,
+28,syl_phoncat4,,,,
+28,nucleus_len2,,,,
+26,suffix_phoncat2,,,,
+24,syl_open3,,,,
+24,suffix_phoncat1,,,,
+24,nucleus_phoncat6,,,,
+24,nucleus_phoncat4,,,,
+24,cv_ratio1,,,,
+22,syl_open0,,,,
+20,onset_len4,,,,
+20,nucleus_len3,,,,
+18,sonority4,,,,
+18,onset_len1,,,,
+18,koda_len3,,,,
+16,onset_len2,,,,
+16,cv_ratio2,,,,
+14,koda_phoncat2,,,,
+12,sonority_ratio4,,,,
+12,nucleus_len4,,,,
+11,onset_phoncat0,,,,
+10,syl_len4,,,,
+10,onset_phoncat1,,,,
+10,onset_len3,,,,
+9,praefix_phoncat2,,,,
+8,syl_weight4,,,,
+8,syl_open4,,,,
+8,syl_cv5,,,,
+8,sonority_ratio5,,,,
+8,nucleus_len6,,,,
+8,nucleus_len5,,,,
+8,cv_ratio3,,,,
+7,koda_phoncat1,,,,
+6,syl_weight6,,,,
+6,koda_len4,,,,
+5,praefix_phoncat1,,,,
+4,sonority5,,,,
+3,syl_weight5,,,,
+2,syl_len5,,,,
+0,syl_suffix,,,,
+0,syl_phoncat6,,,,
+0,syl_phoncat5,,,,
+0,syl_open6,,,,
+0,syl_open5,,,,
+0,syl_len6,,,,
+0,syl_cv6,,,,
+0,syl_cv4,,,,
+0,sonority_ratio6,,,,
+0,sonority6,,,,
+0,onset_phoncat6,,,,
+0,onset_phoncat5,,,,
+0,onset_phoncat4,,,,
+0,onset_phoncat3,,,,
+0,onset_phoncat2,,,,
+0,onset_len6,,,,
+0,onset_len5,,,,
+0,nucleus_phoncat5,,,,
+0,koda_phoncat6,,,,
+0,koda_phoncat5,,,,
+0,koda_phoncat4,,,,
+0,koda_phoncat3,,,,
+0,koda_phoncat0,,,,
+0,koda_len6,,,,
+0,koda_len5,,,,
+0,cv_ratio6,,,,
+0,cv_ratio5,,,,
+0,cv_ratio4,,,,
+,,,,,
+Nennungen der Features in JRip:,,,,,
+,,,,,
+182,comp_len,,,,
+146,syl_weight1,,,,
+136,syl_len0,,,,
+134,sonority0,,,,
+87,syl_len1,,,,
+81,prae_class,,,,
+64,sonority1,,,,
+62,nucleus_phoncat2,,,,
+60,sonority_ratio0,,,,
+60,sonority2,,,,
+57,pos,,,,
+52,syl_weight2,,,,
+52,suff_class,,,,
+48,syl_len2,,,,
+47,syl_phoncat0,,,,
+46,nucleus_len2,,,,
+46,nucleus_len1,,,,
+45,onset_len0,,,,
+44,suffix_phoncat4,,,,
+44,nucleus_phoncat1,,,,
+43,sonority3,,,,
+35,syl_len3,,,,
+34,suffix_phoncat2,,,,
+34,sonority_ratio2,,,,
+30,nucleus_phoncat0,,,,
+29,suffix3,,,,
+28,suffix2,,,,
+28,sonority_ratio3,,,,
+28,nucleus_phoncat3,,,,
+27,syl_open2,,,,
+27,suffix1,,,,
+27,koda_len2,,,,
+27,cv_ratio2,,,,
+26,suffix4,,,,
+26,sonority_ratio1,,,,
+26,nucleus_len0,,,,
+25,syl_weight3,,,,
+25,sonority_dir,,,,
+24,syl_phoncat3,,,,
+23,syl_weight0,,,,
+23,syl_open1,,,,
+22,koda_len1,,,,
+21,cv_ratio0,,,,
+20,praefix_phoncat2,,,,
+20,comp_struct,,,,
+19,syl_phoncat2,,,,
+19,suffix5,,,,
+18,syl_open3,,,,
+18,sonority4,,,,
+17,syl_cv1,,,,
+17,suffix_phoncat3,,,,
+16,syl_open0,,,,
+15,syl_cv2,,,,
+15,suffix_phoncat5,,,,
+14,syl_phoncat1,,,,
+14,nucleus_len3,,,,
+14,cv_ratio1,,,,
+13,praefix2,,,,
+13,praefix1,,,,
+13,koda_phoncat2,,,,
+13,koda_phoncat1,,,,
+12,syl_len4,,,,
+12,cv_ratio3,,,,
+11,syl_weight4,,,,
+11,syl_suffix,,,,
+11,syl_cv3,,,,
+11,syl_cv0,,,,
+11,suffix_phoncat1,,,,
+11,koda_len0,,,,
+9,praefix_phoncat5,,,,
+9,onset_phoncat0,,,,
+9,nucleus_phoncat4,,,,
+8,syl_phoncat4,,,,
+8,signi_suffix,,,,
+8,koda_len3,,,,
+7,praefix_phoncat1,,,,
+7,praefix3,,,,
+7,nucleus_len4,,,,
+7,cv_ratio4,,,,
+6,syl_cv4,,,,
+6,praefix_phoncat3,,,,
+6,onset_len3,,,,
+6,onset_len2,,,,
+6,onset_len1,,,,
+5,syl_phoncat5,,,,
+5,syl_open4,,,,
+5,sonority_ratio4,,,,
+5,praefix_phoncat4,,,,
+5,onset_phoncat2,,,,
+5,nomen,,,,
+4,signi_praefix,,,,
+4,praefix4,,,,
+4,nucleus_phoncat5,,,,
+4,cv_ratio5,,,,
+3,syl_weight5,,,,
+3,sonority5,,,,
+3,koda_phoncat3,,,,
+2,syl_praefix,,,,
+2,syl_cv5,,,,
+2,praefix5,,,,
+2,onset_phoncat4,,,,
+2,onset_phoncat1,,,,
+2,onset_len4,,,,
+2,koda_len4,,,,
+1,syl_open5,,,,
+1,sonority_ratio5,,,,
+1,onset_phoncat3,,,,
+1,nucleus_len5,,,,
+1,koda_phoncat4,,,,
+1,koda_phoncat0,,,,
+0,syl_weight6,,,,
+0,syl_phoncat6,,,,
+0,syl_open6,,,,
+0,syl_len6,,,,
+0,syl_len5,,,,
+0,syl_cv6,,,,
+0,sonority_ratio6,,,,
+0,sonority6,,,,
+0,onset_phoncat6,,,,
+0,onset_phoncat5,,,,
+0,onset_len6,,,,
+0,onset_len5,,,,
+0,nucleus_phoncat6,,,,
+0,nucleus_len6,,,,
+0,koda_phoncat6,,,,
+0,koda_phoncat5,,,,
+0,koda_len6,,,,
+0,koda_len5,,,,
+0,cv_ratio6,,,,
+,,,,,
+Wichtigste JRip-Regeln:,,,,,
+,,,,,
+,,,,,
+634.0,0.0,1,3syl,numeric,(comp_len <= 1) and (sonority_ratio0 <= 3) and (syl_len0 <= 3) and (onset_len0 >= 1) and (nucleus_len0 <= 1) and (koda_len0 <= 0) => stress_class=paenultima (634.0/0.0)
+596.0,54.0,0.909396,3syl,numeric,(comp_len <= 1) and (cv_ratio0 >= 2) and (sonority0 <= 11) and (syl_len0 <= 3) and (nucleus_len1 >= 2) => stress_class=paenultima (596.0/54.0)
+557.0,55.0,0.901257,3syl,all,(nucleus_len2 >= 2) and (comp_len <= 1) and (signi_suffix = ø) and (suffix_phoncat2 = LC) and (syl_weight1 = light) => stress_class=ultima (557.0/55.0)
+490.0,43.0,0.912245,3syl,numeric,(nucleus_len2 >= 2) and (comp_len <= 1) and (syl_len1 <= 2) and (onset_len0 >= 1) and (syl_len2 >= 3) => stress_class=ultima (490.0/43.0)
+459.0,39.0,0.915033,4syl,all,(nucleus_phoncat3 = L) and (comp_len <= 1) and (syl_len2 <= 2) and (suffix_phoncat1 = C) => stress_class=ultima (459.0/39.0)
+457.0,61.0,0.866521,3syl,sparse,(nucleus_len2 >= 2) and (comp_len <= 1) and (syl_len1 <= 2) and (koda_phoncat2 = C) => stress_class=ultima (457.0/61.0)
+455.0,59.0,0.87033,5syl,all,(comp_len <= 1) and (suffix_phoncat4 = LCKC) => stress_class=paenultima (455.0/59.0)
+452.0,36.0,0.920354,4syl,sparse,(nucleus_phoncat3 = L) and (comp_len <= 1) and (syl_len2 <= 2) and (koda_phoncat3 = C) => stress_class=ultima (452.0/36.0)
+405.0,34.0,0.916049,4syl,numeric,(comp_len <= 1) and (cv_ratio2 <= 0) and (cv_ratio1 <= 0) and (onset_len0 >= 1) => stress_class=paenultima (405.0/34.0)
+398.0,22.0,0.944724,3syl,numeric,(comp_len <= 1) and (sonority0 <= 10) and (sonority0 >= 10) and (onset_len0 <= 0) and (nucleus_len0 <= 1) => stress_class=paenultima (398.0/22.0)
+382.0,86.0,0.774869,3syl,sparse,(syl_weight2 = heavy) and (syl_weight1 = light) and (comp_len <= 1) => stress_class=ultima (382.0/86.0)
+363.0,50.0,0.862259,5syl,all,(nucleus_phoncat4 = L) and (comp_len <= 1) => stress_class=ultima (363.0/50.0)
+355.0,57.0,0.839437,3syl,all,(comp_len <= 1) and (prae_class = ø) and (nucleus_phoncat1 = L) and (sonority0 <= 10) and (suffix_phoncat4 = LCKC) => stress_class=paenultima (355.0/57.0)
+322.0,98.0,0.695652,3syl,sparse,(comp_len <= 1) and (prae_class = ø) and (nucleus_phoncat1 = L) and (syl_len0 <= 3) and (onset_phoncat2 = C) and (onset_len0 >= 1) => stress_class=paenultima (322.0/98.0)
+316.0,22.0,0.93038,5syl,sparse,(nucleus_phoncat4 = L) and (comp_len <= 1) and (syl_len3 <= 2) => stress_class=ultima (316.0/22.0)
+311.0,70.0,0.77492,4syl,numeric,(syl_len0 <= 2) and (comp_len <= 1) and (sonority0 <= 8) and (sonority_ratio0 >= 6) => stress_class=paenultima (311.0/70.0)
+305.0,38.0,0.87541,4syl,numeric,(nucleus_len3 >= 2) and (syl_len2 <= 2) and (comp_len <= 1) and (syl_len3 >= 3) => stress_class=ultima (305.0/38.0)
+304.0,3.0,0.990132,3syl,numeric,(comp_len <= 1) and (cv_ratio0 >= 2) and (syl_len0 <= 3) and (sonority_ratio0 <= 3) and (sonority0 >= 11) and (sonority1 >= 12) => stress_class=paenultima (304.0/3.0)
+301.0,2.0,0.993355,4syl,all,(comp_len <= 1) and (nucleus_phoncat2 = L) and (praefix_phoncat1 = C) and (syl_suffix = ren) => stress_class=paenultima (301.0/2.0)
+286.0,43.0,0.84965,4syl,meta,(comp_len <= 1) and (nomen = F) and (comp_struct = R) => stress_class=paenultima (286.0/43.0)
+281.0,52.0,0.814947,5syl,sparse,(comp_len <= 1) and (cv_ratio4 >= 2) and (syl_weight4 = light) and (syl_weight1 = light) => stress_class=paenultima (281.0/52.0)
+281.0,0.0,1,3syl,all,(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (sonority0 <= 10) and (syl_phoncat0 = CK) and (sonority0 <= 7) and (syl_weight2 = schwa) => stress_class=paenultima (281.0/0.0)
+279.0,19.0,0.9319,3syl,sparse,(cv_ratio2 <= 0) and (syl_len2 >= 3) and (comp_len <= 1) => stress_class=ultima (279.0/19.0)
+275.0,17.0,0.938182,4syl,sparse,(comp_len <= 1) and (nucleus_phoncat2 = L) and (syl_weight1 = light) and (onset_len0 >= 1) and (sonority_dir >= 1) => stress_class=paenultima (275.0/17.0)
+269.0,22.0,0.918216,5syl,numeric,(comp_len <= 1) and (nucleus_len3 >= 2) and (sonority4 >= 13) and (syl_len4 <= 3) => stress_class=paenultima (269.0/22.0)
+252.0,71.0,0.718254,3syl,meta,(comp_len <= 1) and (pos = V) and (comp_struct = N) => stress_class=paenultima (252.0/71.0)
+246.0,3.0,0.987805,4syl,numeric,(nucleus_len3 >= 2) and (cv_ratio2 <= 0) and (sonority3 <= 9) and (koda_len3 >= 1) and (comp_len <= 1) => stress_class=ultima (246.0/3.0)
+233.0,8.0,0.965665,5syl,numeric,(cv_ratio4 <= 0) and (comp_len <= 1) and (sonority4 >= 9) => stress_class=ultima (233.0/8.0)
+230.0,2.0,0.991304,5syl,sparse,(comp_len <= 1) and (cv_ratio4 >= 2) and (pos = V) and (prae_class = ø) => stress_class=paenultima (230.0/2.0)
+224.0,10.0,0.955357,3syl,all,(syl_suffix = ø) and (comp_len <= 1) and (syl_weight2 = heavy) and (syl_weight1 = light) and (sonority0 <= 10) and (signi_praefix = ø) => stress_class=ultima (224.0/10.0)
+216.0,5.0,0.976852,3syl,numeric,(comp_len <= 1) and (cv_ratio0 >= 2) and (syl_len0 <= 3) and (sonority_ratio0 <= 3) and (sonority_dir <= 0) and (nucleus_len2 <= 1) and (koda_len2 <= 1) and (syl_len1 >= 3) => stress_class=paenultima (216.0/5.0)
+215.0,92.0,0.572093,4syl,meta,(comp_len <= 1) and (pos = N) and (comp_struct = R) => stress_class=ultima (215.0/92.0)
+210.0,26.0,0.87619,4syl,numeric,(comp_len <= 1) and (cv_ratio2 <= 0) and (onset_len0 >= 1) and (sonority3 >= 13) => stress_class=paenultima (210.0/26.0)
+210.0,20.0,0.904762,4syl,all,(comp_len <= 1) and (nucleus_phoncat2 = L) and (suffix3 = sch) => stress_class=paenultima (210.0/20.0)
+207.0,64.0,0.690821,3syl,meta,(comp_len <= 1) and (pos = N) and (comp_struct = R) => stress_class=ultima (207.0/64.0)
+195.0,20.0,0.897436,4syl,all,(nucleus_phoncat3 = L) and (comp_len <= 1) and (signi_suffix = ø) and (syl_len3 >= 3) => stress_class=ultima (195.0/20.0)
+194.0,95.0,0.510309,3syl,meta,(comp_len <= 0) and (pos = A) => stress_class=ultima (194.0/95.0)
+194.0,3.0,0.984536,3syl,sparse,(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (onset_len0 >= 1) and (syl_weight2 = schwa) and (nucleus_phoncat0 = K) and (sonority2 <= 9) => stress_class=paenultima (194.0/3.0)
+190.0,2.0,0.989474,3syl,sparse,(comp_len <= 1) and (prae_class = ø) and (nucleus_phoncat1 = L) and (sonority_dir >= 0) and (syl_weight2 = schwa) and (pos = V) and (sonority2 <= 13) => stress_class=paenultima (190.0/2.0)
+188.0,47.0,0.75,4syl,meta,(comp_len <= 1) and (comp_struct = N) and (pos = V) => stress_class=paenultima (188.0/47.0)
+187.0,48.0,0.743316,3syl,sparse,(nucleus_phoncat2 = L) and (comp_len <= 1) and (syl_weight1 = light) and (sonority_ratio2 <= 4) and (koda_phoncat2 = C) => stress_class=ultima (187.0/48.0)
+186.0,26.0,0.860215,2syl,numeric,(syl_len0 <= 3) and (nucleus_len1 >= 2) and (cv_ratio0 >= 2) and (syl_len1 >= 3) and (comp_len <= 1) and (sonority_ratio1 <= 4) => stress_class=ultima (186.0/26.0)
+185.0,33.0,0.821622,2syl,sparse,(comp_len <= 0) and (nucleus_len1 >= 2) and (syl_len1 >= 3) and (sonority0 <= 13) => stress_class=ultima (185.0/33.0)
+179.0,38.0,0.787709,6syl,sparse,(comp_len <= 1) and (cv_ratio5 >= 2) => stress_class=paenultima (179.0/38.0)
+178.0,52.0,0.707865,4syl,meta,(comp_len <= 1) and (nomen = F) and (comp_len <= 0) => stress_class=paenultima (178.0/52.0)
+177.0,17.0,0.903955,2syl,all,(syl_suffix = ø) and (syl_len0 <= 3) and (syl_weight1 = heavy) and (comp_len <= 1) and (praefix_phoncat2 = CK) => stress_class=ultima (177.0/17.0)
+177.0,11.0,0.937853,4syl,all,(syl_weight1 = light) and (syl_cv1 = CVVC) and (syl_len1 <= 3) and (syl_len0 <= 3) and (comp_len >= 2) => stress_class=antepaenultima (177.0/11.0)
+171.0,42.0,0.754386,5syl,meta,(comp_len <= 1) and (pos = N) and (comp_struct = R) => stress_class=ultima (171.0/42.0)
+165.0,27.0,0.836364,6syl,all,(comp_len <= 1) and (syl_phoncat5 = CKC) => stress_class=paenultima (165.0/27.0)
+164.0,5.0,0.969512,4syl,sparse,(cv_ratio3 <= 0) and (syl_len3 >= 3) and (comp_len <= 1) => stress_class=ultima (164.0/5.0)
+161.0,16.0,0.900621,3syl,all,(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (onset_len0 >= 1) and (syl_cv2 = CV) => stress_class=paenultima (161.0/16.0)
+159.0,6.0,0.962264,4syl,all,(comp_len <= 1) and (nucleus_phoncat2 = L) and (nucleus_phoncat1 = L) and (sonority0 <= 10) and (syl_weight3 = schwa) => stress_class=paenultima (159.0/6.0)
+157.0,13.0,0.917197,4syl,all,(comp_len <= 1) and (sonority_dir >= 1) and (prae_class = ø) and (syl_weight1 = light) and (syl_phoncat3 = CKC) and (sonority1 <= 10) and (syl_weight2 = light) => stress_class=paenultima (157.0/13.0)
+157.0,12.0,0.923567,3syl,sparse,(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (sonority0 <= 10) and (syl_len2 >= 5) and (cv_ratio2 <= 2) => stress_class=paenultima (157.0/12.0)
+150.0,50.0,0.666667,5syl,meta,(comp_len >= 2) and (pos = V) => stress_class=sekunda (150.0/50.0)
+148.0,41.0,0.722973,3syl,all,(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (onset_len0 >= 1) and (signi_suffix = ø) and (syl_len1 >= 3) and (suff_class = ø) => stress_class=paenultima (148.0/41.0)
+144.0,4.0,0.972222,4syl,sparse,(comp_len <= 1) and (nucleus_phoncat2 = L) and (syl_weight1 = light) and (prae_class = ø) and (sonority3 >= 13) and (syl_weight3 = schwa) => stress_class=paenultima (144.0/4.0)
+142.0,8.0,0.943662,6syl,sparse,(nucleus_phoncat5 = L) and (comp_len <= 1) => stress_class=ultima (142.0/8.0)
+142.0,8.0,0.943662,6syl,all,(nucleus_phoncat5 = L) and (comp_len <= 1) => stress_class=ultima (142.0/8.0)
+141.0,0.0,1,4syl,sparse,(comp_len <= 1) and (nucleus_phoncat2 = L) and (nucleus_phoncat1 = L) and (onset_len0 >= 1) and (syl_len2 >= 3) and (sonority2 <= 11) => stress_class=paenultima (141.0/0.0)
+138.0,38.0,0.724638,2syl,numeric,(comp_len <= 0) and (nucleus_len1 >= 2) and (syl_len1 >= 3) => stress_class=ultima (138.0/38.0)
+136.0,8.0,0.941176,4syl,sparse,(comp_len <= 1) and (sonority0 <= 10) and (syl_weight1 = light) and (prae_class = ø) and (sonority1 <= 10) and (syl_len1 <= 2) and (syl_weight3 = schwa) => stress_class=paenultima (136.0/8.0)
+131.0,45.0,0.656489,2syl,meta,(comp_struct = ø) and (pos = ADV) and (comp_len >= 2) => stress_class=ultima (131.0/45.0)
+130.0,27.0,0.792308,2syl,sparse,(nucleus_len1 >= 2) and (syl_len0 <= 3) and (cv_ratio0 >= 2) and (syl_open1 = c) and (comp_len <= 1) => stress_class=ultima (130.0/27.0)
+125.0,24.0,0.808,2syl,all,(suffix3 = ø) and (syl_len0 <= 3) and (nucleus_len1 >= 2) and (cv_ratio0 >= 2) and (syl_len1 >= 3) and (comp_len <= 1) => stress_class=ultima (125.0/24.0)
+123.0,24.0,0.804878,3syl,all,(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (sonority_ratio0 <= 3) and (signi_suffix = ø) and (sonority2 >= 12) => stress_class=paenultima (123.0/24.0)
+118.0,19.0,0.838983,5syl,numeric,(comp_len <= 1) and (cv_ratio4 >= 2) and (koda_len1 <= 0) and (sonority_ratio4 >= 4) => stress_class=paenultima (118.0/19.0)
+115.0,7.0,0.93913,3syl,all,(comp_len <= 1) and (prae_class = ø) and (nucleus_phoncat1 = L) and (syl_cv0 = CVC) and (syl_weight2 = schwa) and (syl_len0 <= 3) => stress_class=paenultima (115.0/7.0)
+114.0,6.0,0.947368,3syl,numeric,(comp_len <= 0) and (koda_len2 <= 0) and (cv_ratio2 >= 1) => stress_class=paenultima (114.0/6.0)
+114.0,39.0,0.657895,3syl,sparse,(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (sonority_ratio0 <= 3) and (sonority0 >= 9) => stress_class=paenultima (114.0/39.0)
+113.0,3.0,0.973451,6syl,numeric,(cv_ratio5 <= 0) and (comp_len <= 1) => stress_class=ultima (113.0/3.0)
+112.0,3.0,0.973214,4syl,sparse,(syl_weight1 = light) and (sonority1 >= 13) and (sonority0 <= 9) and (comp_len >= 2) and (pos = V) => stress_class=antepaenultima (112.0/3.0)
+110.0,45.0,0.590909,2syl,meta,(comp_len <= 0) and (pos = A) => stress_class=ultima (110.0/45.0)
+108.0,18.0,0.833333,3syl,numeric,(nucleus_len2 >= 2) and (comp_len <= 1) and (koda_len1 <= 0) and (syl_len1 >= 3) and (syl_len2 >= 3) => stress_class=ultima (108.0/18.0)
+103.0,19.0,0.815534,3syl,numeric,(comp_len <= 1) and (onset_len0 >= 1) and (cv_ratio1 <= 0) and (sonority2 >= 13) and (sonority2 <= 13) and (syl_len1 >= 3) => stress_class=paenultima (103.0/19.0)
+102.0,22.0,0.784314,3syl,numeric,(syl_len0 <= 2) and (koda_len2 <= 0) and (onset_len0 >= 1) and (onset_len2 >= 1) and (comp_len <= 1) => stress_class=paenultima (102.0/22.0)
+102.0,20.0,0.803922,4syl,all,(comp_len <= 1) and (syl_len0 <= 2) and (syl_len1 <= 3) and (sonority1 >= 11) and (comp_struct = V) and (syl_weight1 = schwa) => stress_class=paenultima (102.0/20.0)
+101.0,5.0,0.950495,3syl,numeric,(comp_len <= 1) and (cv_ratio0 >= 2) and (sonority0 <= 11) and (syl_len0 <= 3) and (sonority0 >= 10) and (koda_len1 >= 1) and (nucleus_len2 <= 1) and (sonority2 >= 12) and (sonority0 >= 11) => stress_class=paenultima (101.0/5.0)
+101.0,34.0,0.663366,2syl,numeric,(comp_len <= 0) and (cv_ratio1 >= 3) and (syl_len0 <= 3) => stress_class=ultima (101.0/34.0)
+100.0,38.0,0.62,2syl,sparse,(syl_weight1 = light) and (pos = ADV) and (comp_len >= 2) => stress_class=ultima (100.0/38.0)
+100.0,13.0,0.87,4syl,numeric,(nucleus_len1 >= 2) and (comp_len >= 2) and (syl_len0 <= 3) and (syl_len1 >= 3) and (syl_len1 <= 3) and (koda_len1 >= 1) => stress_class=antepaenultima (100.0/13.0)
+97.0,5.0,0.948454,4syl,numeric,(sonority_ratio0 <= 3) and (syl_len0 <= 3) and (nucleus_len2 <= 1) and (comp_len <= 1) and (koda_len1 >= 1) and (sonority0 >= 11) and (nucleus_len0 <= 1) => stress_class=antepaenultima (97.0/5.0)
+96.0,4.0,0.958333,3syl,numeric,(comp_len <= 0) and (nucleus_len2 >= 2) and (koda_len2 >= 1) and (sonority1 <= 10) => stress_class=ultima (96.0/4.0)
+96.0,30.0,0.6875,4syl,numeric,(comp_len <= 1) and (cv_ratio1 <= 0) and (syl_len3 <= 3) and (sonority3 <= 12) => stress_class=paenultima (96.0/30.0)
+96.0,14.0,0.854167,5syl,all,(syl_weight1 = light) and (comp_len <= 1) and (suffix_phoncat5 = KCCKC) => stress_class=paenultima (96.0/14.0)
+95.0,19.0,0.8,3syl,numeric,(koda_len2 >= 2) and (comp_len <= 1) and (syl_len1 <= 2) and (onset_len0 >= 1) and (nucleus_len0 >= 2) => stress_class=ultima (95.0/19.0)
+94.0,4.0,0.957447,6syl,numeric,(comp_len <= 1) and (cv_ratio5 >= 2) and (nucleus_len4 >= 2) and (syl_len4 >= 3) => stress_class=paenultima (94.0/4.0)
+93.0,9.0,0.903226,5syl,numeric,(nucleus_len4 >= 2) and (syl_len4 <= 3) and (comp_len <= 1) and (syl_len3 <= 2) => stress_class=ultima (93.0/9.0)
+93.0,11.0,0.88172,3syl,sparse,(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (sonority0 <= 10) and (syl_open2 = o) and (cv_ratio2 >= 1) and (pos = N) => stress_class=paenultima (93.0/11.0)
+91.0,6.0,0.934066,3syl,all,(cv_ratio2 <= 0) and (syl_len2 >= 3) and (comp_len <= 1) and (syl_weight1 = light) => stress_class=ultima (91.0/6.0)
+91.0,32.0,0.648352,4syl,numeric,(nucleus_len3 >= 2) and (syl_len3 <= 3) and (comp_len <= 1) and (syl_len2 <= 3) and (syl_len3 >= 3) => stress_class=ultima (91.0/32.0)
+91.0,27.0,0.703297,4syl,sparse,(comp_len <= 1) and (sonority0 <= 10) and (sonority_ratio3 <= 3) and (syl_weight1 = light) and (syl_weight3 = light) => stress_class=paenultima (91.0/27.0)
+91.0,14.0,0.846154,4syl,numeric,(comp_len <= 1) and (syl_len3 >= 5) and (sonority3 <= 10) and (sonority3 >= 10) => stress_class=paenultima (91.0/14.0)
+90.0,38.0,0.577778,4syl,meta,(comp_len <= 1) and (pos = A) and (comp_struct = V) => stress_class=paenultima (90.0/38.0)
+88.0,34.0,0.613636,4syl,numeric,(koda_len3 >= 2) and (comp_len <= 1) and (syl_len2 <= 2) => stress_class=ultima (88.0/34.0)
+86.0,9.0,0.895349,3syl,numeric,(nucleus_len2 >= 2) and (comp_len <= 1) and (sonority2 <= 10) and (koda_len2 >= 1) => stress_class=ultima (86.0/9.0)
+80.0,14.0,0.825,3syl,meta,(comp_len <= 1) and (pos = V) and (comp_struct = A) => stress_class=paenultima (80.0/14.0)
+77.0,1.0,0.987013,4syl,sparse,(comp_len <= 1) and (syl_len3 >= 5) and (syl_weight2 = light) and (onset_len0 >= 1) and (pos = A) and (syl_weight1 = light) => stress_class=paenultima (77.0/1.0)
+77.0,10.0,0.87013,2syl,all,(comp_struct = ø) and (suffix1 = t) and (syl_len0 <= 3) and (comp_len <= 0) => stress_class=ultima (77.0/10.0)
+76.0,10.0,0.868421,4syl,sparse,(comp_len <= 1) and (nucleus_phoncat2 = L) and (syl_weight1 = light) and (syl_open1 = o) and (sonority_ratio2 >= 5) and (sonority_ratio2 <= 5) => stress_class=paenultima (76.0/10.0)
+75.0,14.0,0.813333,4syl,sparse,(comp_len <= 1) and (syl_len0 <= 1) and (sonority_ratio3 >= 4) and (syl_len3 >= 4) => stress_class=paenultima (75.0/14.0)
+74.0,16.0,0.783784,3syl,all,(syl_suffix = ø) and (comp_len <= 1) and (syl_weight2 = heavy) and (syl_weight1 = light) and (pos = N) => stress_class=ultima (74.0/16.0)
+73.0,4.0,0.945205,6syl,meta,(comp_len <= 1) and (pos = V) => stress_class=paenultima (73.0/4.0)
+71.0,27.0,0.619718,6syl,numeric,(comp_len >= 2) and (nucleus_len0 <= 1) and (nucleus_len1 >= 2) => stress_class=sekunda (71.0/27.0)
+71.0,24.0,0.661972,3syl,numeric,(comp_len <= 1) and (nucleus_len0 <= 1) and (sonority_ratio0 >= 5) and (sonority0 <= 6) and (sonority2 <= 13) => stress_class=paenultima (71.0/24.0)
+70.0,6.0,0.914286,3syl,all,(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (sonority0 <= 10) and (suffix_phoncat5 = KCCKC) and (syl_suffix = ø) => stress_class=paenultima (70.0/6.0)
+70.0,21.0,0.7,3syl,all,(nucleus_len0 <= 1) and (sonority_ratio0 >= 5) and (syl_weight1 = light) and (sonority0 <= 10) and (comp_len <= 1) => stress_class=paenultima (70.0/21.0)
+68.0,26.0,0.617647,3syl,all,(syl_weight1 = light) and (syl_len0 <= 2) and (comp_len >= 2) and (nomen = F) => stress_class=paenultima (68.0/26.0)
+68.0,11.0,0.838235,2syl,sparse,(sonority0 <= 11) and (syl_weight1 = heavy) and (comp_len <= 1) and (cv_ratio0 >= 2) and (syl_len0 <= 3) => stress_class=ultima (68.0/11.0)
+68.0,10.0,0.852941,4syl,sparse,(comp_len <= 1) and (sonority_dir >= 1) and (prae_class = ø) and (sonority_ratio3 >= 5) and (sonority_ratio0 >= 5) and (syl_len2 >= 3) => stress_class=paenultima (68.0/10.0)
+67.0,10.0,0.850746,4syl,all,(comp_len <= 1) and (nucleus_phoncat3 = L) and (syl_suffix = bar) => stress_class=paenultima (67.0/10.0)
+65.0,9.0,0.861538,2syl,sparse,(comp_len <= 0) and (syl_weight1 = heavy) and (syl_len0 <= 3) and (sonority0 <= 13) => stress_class=ultima (65.0/9.0)
+63.0,29.0,0.539683,5syl,all,(comp_len >= 2) and (syl_weight1 = light) and (syl_weight4 = schwa) and (koda_phoncat1 = C) => stress_class=sekunda (63.0/29.0)
+63.0,2.0,0.968254,4syl,all,(comp_len <= 1) and (comp_struct = R) and (syl_len3 <= 3) => stress_class=paenultima (63.0/2.0)
+62.0,13.0,0.790323,4syl,numeric,(comp_len <= 1) and (sonority0 <= 10) and (nucleus_len2 >= 2) and (syl_len2 <= 2) and (onset_len0 >= 1) and (onset_len3 >= 1) => stress_class=paenultima (62.0/13.0)
+61.0,6.0,0.901639,5syl,numeric,(comp_len >= 2) and (nucleus_len1 >= 2) and (koda_len1 >= 1) and (syl_len1 <= 3) => stress_class=sekunda (61.0/6.0)
+60.0,9.0,0.85,4syl,sparse,(syl_weight3 = heavy) and (comp_len <= 1) and (sonority0 <= 10) and (syl_weight2 = light) => stress_class=ultima (60.0/9.0)
+60.0,14.0,0.766667,6syl,numeric,(cv_ratio5 >= 2) and (comp_len <= 1) and (sonority4 >= 10) => stress_class=paenultima (60.0/14.0)
+59.0,27.0,0.542373,5syl,numeric,(comp_len >= 2) and (nucleus_len1 >= 2) and (sonority0 <= 9) and (sonority2 >= 10) => stress_class=sekunda (59.0/27.0)
+59.0,1.0,0.983051,4syl,numeric,(syl_len0 <= 2) and (comp_len <= 1) and (onset_len0 >= 1) and (syl_len1 <= 2) and (koda_len1 >= 1) and (sonority_ratio3 <= 4) => stress_class=paenultima (59.0/1.0)
+57.0,8.0,0.859649,4syl,all,(nucleus_len1 >= 2) and (suffix5 = ø) and (onset_len3 <= 0) and (comp_len <= 1) and (pos = N) => stress_class=antepaenultima (57.0/8.0)
+57.0,7.0,0.877193,3syl,numeric,(koda_len2 >= 2) and (comp_len <= 1) and (syl_len1 <= 2) and (cv_ratio0 >= 2) and (sonority0 <= 10) => stress_class=ultima (57.0/7.0)
+57.0,3.0,0.947368,5syl,numeric,(sonority_ratio0 <= 4) and (nucleus_len2 <= 1) and (syl_len0 <= 2) and (comp_len >= 2) and (sonority1 <= 7) => stress_class=sekunda (57.0/3.0)
+57.0,2.0,0.964912,4syl,all,(comp_len <= 1) and (suffix_phoncat5 = KCCKC) and (syl_weight1 = light) and (onset_len0 >= 1) and (syl_len1 <= 2) => stress_class=paenultima (57.0/2.0)
+57.0,15.0,0.736842,3syl,numeric,(koda_len2 >= 2) and (comp_len <= 1) and (comp_len <= 0) and (syl_len1 <= 3) => stress_class=ultima (57.0/15.0)
+57.0,11.0,0.807018,4syl,all,(comp_len <= 1) and (nucleus_phoncat2 = L) and (pos = N) and (syl_phoncat1 = CL) and (sonority_ratio0 <= 5) => stress_class=paenultima (57.0/11.0)
+56.0,14.0,0.75,2syl,numeric,(sonority0 <= 11) and (koda_len1 >= 2) and (sonority1 <= 13) and (comp_len <= 1) and (cv_ratio0 >= 2) and (syl_len0 <= 3) => stress_class=ultima (56.0/14.0)
+56.0,12.0,0.785714,3syl,numeric,(comp_len <= 0) and (nucleus_len2 >= 2) and (syl_len2 >= 3) => stress_class=ultima (56.0/12.0)
+56.0,1.0,0.982143,4syl,sparse,(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (cv_ratio3 >= 2) and (koda_phoncat2 = C) and (sonority_ratio3 >= 4) and (syl_len3 <= 3) => stress_class=paenultima (56.0/1.0)
+55.0,12.0,0.781818,4syl,all,(comp_len <= 1) and (nucleus_phoncat2 = L) and (syl_weight1 = light) and (prae_class = ø) and (suffix_phoncat4 = LCKC) and (sonority_dir >= 0) => stress_class=paenultima (55.0/12.0)
+54.0,5.0,0.907407,4syl,sparse,(nucleus_len1 >= 2) and (onset_len3 <= 0) and (comp_len <= 1) and (pos = N) and (sonority2 >= 9) => stress_class=antepaenultima (54.0/5.0)
+54.0,5.0,0.907407,4syl,numeric,(nucleus_len1 >= 2) and (onset_len3 <= 0) and (comp_len <= 1) and (syl_len3 <= 2) and (sonority2 >= 9) => stress_class=antepaenultima (54.0/5.0)
+54.0,18.0,0.666667,4syl,sparse,(comp_len <= 1) and (nucleus_phoncat2 = L) and (koda_len3 <= 0) and (sonority2 <= 12) => stress_class=paenultima (54.0/18.0)
+51.0,7.0,0.862745,2syl,all,(suffix3 = ø) and (sonority_dir >= 2) and (comp_len <= 1) and (suffix_phoncat2 = LC) and (praefix2 = ø) => stress_class=ultima (51.0/7.0)
+50.0,9.0,0.82,4syl,all,(comp_len <= 1) and (sonority0 <= 10) and (prae_class = ø) and (syl_weight1 = light) and (syl_open3 = o) and (sonority1 <= 12) => stress_class=paenultima (50.0/9.0)
+50.0,8.0,0.84,4syl,sparse,(comp_len <= 1) and (nucleus_phoncat2 = L) and (sonority_ratio2 >= 5) and (sonority_ratio0 <= 4) and (cv_ratio3 >= 2) and (sonority1 >= 8) => stress_class=paenultima (50.0/8.0)
+50.0,5.0,0.9,4syl,all,(comp_len <= 1) and (comp_len <= 0) and (koda_len3 <= 0) and (sonority1 <= 10) => stress_class=paenultima (50.0/5.0)
+50.0,12.0,0.76,3syl,numeric,(koda_len2 >= 2) and (comp_len <= 1) and (sonority2 <= 11) and (sonority2 >= 10) and (sonority1 >= 9) and (sonority_ratio1 <= 4) and (syl_len2 <= 4) => stress_class=ultima (50.0/12.0)
+49.0,7.0,0.857143,5syl,all,(suffix_phoncat3 = LCK) and (comp_len <= 1) => stress_class=paenultima (49.0/7.0)
+49.0,7.0,0.857143,4syl,all,(syl_weight1 = light) and (syl_len1 >= 4) and (cv_ratio0 >= 2) and (syl_len0 <= 3) and (comp_len >= 2) => stress_class=antepaenultima (49.0/7.0)
+49.0,5.0,0.897959,5syl,numeric,(comp_len <= 1) and (syl_len4 >= 5) and (sonority0 <= 10) and (koda_len4 <= 1) => stress_class=paenultima (49.0/5.0)
+49.0,20.0,0.591837,6syl,meta,(comp_len <= 1) and (pos = A) => stress_class=paenultima (49.0/20.0)
+49.0,1.0,0.979592,4syl,all,(comp_len <= 1) and (nucleus_phoncat2 = L) and (sonority0 <= 10) and (syl_weight1 = light) and (syl_len1 <= 2) and (syl_weight3 = schwa) => stress_class=paenultima (49.0/1.0)
+48.0,4.0,0.916667,5syl,numeric,(comp_len <= 1) and (nucleus_len3 >= 2) and (onset_len4 >= 1) and (cv_ratio2 <= 0) and (sonority4 <= 10) => stress_class=paenultima (48.0/4.0)
+48.0,18.0,0.625,4syl,numeric,(comp_len <= 1) and (onset_len0 >= 1) and (syl_len0 <= 3) and (syl_len3 <= 3) and (koda_len2 >= 1) and (sonority_ratio3 >= 4) => stress_class=paenultima (48.0/18.0)
+48.0,15.0,0.6875,4syl,all,(syl_weight3 = heavy) and (comp_len <= 1) and (sonority3 >= 10) and (praefix3 = ø) => stress_class=ultima (48.0/15.0)
+47.0,7.0,0.851064,4syl,sparse,(comp_len <= 1) and (comp_len <= 0) and (syl_len1 <= 2) and (syl_open2 = c) => stress_class=paenultima (47.0/7.0)
+47.0,19.0,0.595745,2syl,sparse,(syl_weight1 = light) and (comp_len <= 0) and (syl_len1 >= 4) and (syl_len1 <= 4) and (syl_len0 <= 3) => stress_class=ultima (47.0/19.0)
+47.0,11.0,0.765957,4syl,sparse,(syl_len0 <= 2) and (syl_len1 <= 3) and (sonority1 >= 11) and (comp_len <= 1) and (syl_weight1 = schwa) and (koda_phoncat0 = C) and (suff_class = ø) => stress_class=paenultima (47.0/11.0)
+46.0,8.0,0.826087,2syl,all,(syl_suffix = ø) and (syl_len0 <= 3) and (syl_weight1 = heavy) and (comp_len <= 1) and (suffix1 = t) and (syl_len1 <= 4) and (nucleus_phoncat1 = K) => stress_class=ultima (46.0/8.0)
+46.0,7.0,0.847826,3syl,numeric,(syl_len0 <= 2) and (comp_len <= 0) and (sonority_dir >= 1) and (sonority1 >= 10) and (onset_len2 >= 1) => stress_class=paenultima (46.0/7.0)
+46.0,5.0,0.891304,5syl,numeric,(comp_len <= 1) and (syl_len4 <= 3) and (sonority4 >= 11) and (sonority3 >= 10) and (sonority2 >= 9) and (nucleus_len4 <= 1) => stress_class=paenultima (46.0/5.0)
+45.0,8.0,0.822222,3syl,all,(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (suffix3 = sch) and (nucleus_phoncat1 = L) => stress_class=paenultima (45.0/8.0)
+45.0,7.0,0.844444,4syl,sparse,(syl_weight1 = light) and (comp_len >= 2) and (syl_len0 <= 3) and (pos = V) => stress_class=antepaenultima (45.0/7.0)
+45.0,16.0,0.644444,3syl,all,(comp_struct = ø) and (sonority2 >= 14) and (comp_len <= 0) and (koda_phoncat2 = C) => stress_class=ultima (45.0/16.0)
+43.0,6.0,0.860465,4syl,sparse,(comp_len <= 1) and (nucleus_phoncat2 = L) and (nucleus_phoncat1 = L) and (syl_len3 <= 2) => stress_class=paenultima (43.0/6.0)
+40.0,13.0,0.675,4syl,sparse,(nucleus_phoncat3 = L) and (comp_len <= 1) and (sonority0 <= 10) and (syl_len3 >= 3) and (sonority2 <= 11) => stress_class=ultima (40.0/13.0)
+39.0,2.0,0.948718,4syl,sparse,(comp_len <= 1) and (nucleus_phoncat2 = L) and (nucleus_phoncat1 = L) and (sonority_ratio0 <= 3) and (nomen = F) => stress_class=paenultima (39.0/2.0)
+38.0,7.0,0.815789,5syl,sparse,(comp_len >= 2) and (syl_weight1 = light) and (koda_phoncat1 = C) and (syl_len0 <= 2) and (onset_len0 >= 1) => stress_class=sekunda (38.0/7.0)
+38.0,10.0,0.736842,5syl,sparse,(comp_len <= 1) and (nucleus_phoncat3 = L) and (onset_len4 >= 1) and (sonority_ratio2 >= 4) and (prae_class = ø) and (syl_weight4 = schwa) => stress_class=paenultima (38.0/10.0)
+37.0,8.0,0.783784,4syl,numeric,(nucleus_len3 >= 2) and (koda_len2 <= 0) and (comp_len <= 1) and (koda_len3 >= 1) => stress_class=ultima (37.0/8.0)
+37.0,2.0,0.945946,3syl,numeric,(comp_len <= 1) and (onset_len0 >= 1) and (cv_ratio1 <= 0) and (syl_len2 >= 5) and (sonority2 <= 10) => stress_class=paenultima (37.0/2.0)
+36.0,5.0,0.861111,4syl,all,(syl_weight3 = heavy) and (comp_len <= 1) and (syl_len2 <= 2) and (sonority_ratio0 <= 4) => stress_class=ultima (36.0/5.0)
+36.0,10.0,0.722222,3syl,sparse,(comp_len <= 0) and (koda_phoncat1 = C) and (syl_weight1 = light) => stress_class=paenultima (36.0/10.0)
+36.0,10.0,0.722222,2syl,sparse,(syl_weight1 = light) and (syl_len1 <= 3) and (cv_ratio1 <= 1) and (comp_len <= 1) and (syl_len1 >= 3) and (pos = N) and (cv_ratio0 >= 2) => stress_class=ultima (36.0/10.0)
+34.0,3.0,0.911765,3syl,all,(comp_len <= 0) and (syl_phoncat2 = CK) => stress_class=paenultima (34.0/3.0)
+34.0,0.0,1,5syl,sparse,(comp_len <= 1) and (syl_weight4 = schwa) and (nucleus_phoncat2 = L) and (syl_open4 = o) and (nucleus_phoncat3 = L) and (sonority4 >= 7) => stress_class=paenultima (34.0/0.0)
+33.0,2.0,0.939394,4syl,numeric,(syl_len0 <= 2) and (syl_len1 <= 3) and (comp_len <= 1) and (comp_len <= 0) and (koda_len3 <= 0) => stress_class=paenultima (33.0/2.0)
+33.0,0.0,1,3syl,all,(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (suffix_phoncat4 = LCKC) and (suffix4 = eren) => stress_class=paenultima (33.0/0.0)
+32.0,9.0,0.71875,3syl,numeric,(nucleus_len2 >= 2) and (comp_len <= 1) and (cv_ratio2 <= 0) and (syl_len2 >= 3) => stress_class=ultima (32.0/9.0)
+32.0,5.0,0.84375,4syl,numeric,(syl_len0 <= 2) and (sonority3 >= 13) and (syl_len2 >= 4) and (comp_len <= 1) and (sonority_ratio3 >= 5) => stress_class=paenultima (32.0/5.0)
+32.0,5.0,0.84375,3syl,numeric,(koda_len2 >= 2) and (comp_len <= 1) and (sonority2 <= 13) and (sonority2 >= 10) and (cv_ratio2 >= 3) and (syl_len2 <= 4) and (sonority2 >= 13) => stress_class=ultima (32.0/5.0)
+28.0,3.0,0.892857,3syl,numeric,(comp_len <= 1) and (onset_len0 >= 1) and (syl_len0 <= 3) and (sonority_ratio0 <= 3) and (sonority_dir <= 0) and (nucleus_len0 <= 1) and (sonority2 <= 10) and (sonority_ratio2 >= 3) => stress_class=paenultima (28.0/3.0)
+26.0,3.0,0.884615,4syl,numeric,(cv_ratio3 <= 0) and (syl_len3 >= 3) and (comp_len <= 1) => stress_class=ultima (26.0/3.0)
+26.0,0.0,1,5syl,all,(suffix1 = m) and (comp_len <= 1) => stress_class=antepaenultima (26.0/0.0)
+23.0,4.0,0.826087,3syl,all,(syl_suffix = ø) and (comp_len <= 1) and (suffix_phoncat2 = LC) and (syl_cv1 = CVV) => stress_class=ultima (23.0/4.0)
+23.0,1.0,0.956522,4syl,all,(comp_len <= 1) and (suffix1 = h) and (syl_weight2 = light) and (suffix5 = tisch) => stress_class=paenultima (23.0/1.0)
+18.0,5.0,0.722222,3syl,all,(syl_suffix = ø) and (comp_len <= 1) and (cv_ratio2 <= 0) and (syl_len2 >= 3) => stress_class=ultima (18.0/5.0)
+17.0,0.0,1,4syl,all,(comp_len <= 1) and (suffix1 = s) and (koda_phoncat2 = C) => stress_class=paenultima (17.0/0.0)
+16.0,0.0,1,3syl,sparse,(comp_len <= 1) and (prae_class = ø) and (nucleus_phoncat1 = L) and (syl_weight2 = schwa) and (sonority2 >= 12) and (pos = V) and (onset_len0 >= 1) => stress_class=paenultima (16.0/0.0)
+13.0,2.0,0.846154,3syl,all,(syl_suffix = ø) and (comp_len <= 1) and (syl_weight2 = heavy) and (syl_weight1 = light) and (syl_praefix = ø) => stress_class=ultima (13.0/2.0)
+8.0,0.0,1,4syl,all,(syl_cv3 = CVV) and (syl_weight2 = schwa) and (comp_len <= 1) => stress_class=ultima (8.0/0.0)
