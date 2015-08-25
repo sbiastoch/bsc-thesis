@@ -1,12 +1,17 @@
 #!/bin/bash
-if [ $# -eq 0 ]
+if [ $# -eq 1 ]
 then
-    syl='*'
-else
 	syl="$1syl"
+	files="*"
+elif [[ $# -eq 2 ]]; then
+	syl="$1syl"
+	files="$2"
+else
+	syl="*"
+	files="*"
 fi
 basepath="/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models"
-path="$basepath/$syl/*.txt"
+path="$basepath/$syl/models-$files.txt"
 result_j48=""
 result_jrip=""
 result_counts=""
@@ -15,7 +20,7 @@ for feature in "signi_suffix" "suffix1" "suffix2" "suffix3" "suffix4" "suffix5" 
 do
 	result_j48="$result_j48\n$(awk "/[^\(]$feature/" $path | wc -l)\t$feature"
 	result_jrip="$result_jrip\n$(awk "/\($feature/" $path | wc -l)\t$feature"
-	result_counts="$counts\n$(grep "($feature " $path | awk -F'/|\\(|)|:' '{print $(NF-2) "\t" $(NF-1) "\t" 1-($(NF-1)/$(NF-2)) "\t" $8 "\t" $9 "\t" $NL}')"
+	result_counts="$counts\n$(grep "($feature " $path | awk -F'/|\\(|)|:' '{print $(NF-2) "\t" $(NF-1) "\t" 1-($(NF-1)/$(NF-2)) "\t" $8 "\t" $9 "\t" $NL}')" 
 done
 
 echo -e "Nennungen der Features in J48:\n"
@@ -23,4 +28,6 @@ echo -e "$result_j48"  | sort -nr
 echo -e "Nennungen der Features in JRip:\n"
 echo -e "$result_jrip" | sort -nr
 echo -e "Wichtigste JRip-Regeln:\n"
+rep=""
 echo -e "${result_counts//$basepath/$rep}" | sort -nr
+#echo -e "$result_counts" | sort -nr

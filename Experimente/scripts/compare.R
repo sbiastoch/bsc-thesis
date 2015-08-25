@@ -328,3 +328,24 @@ function() {
 		})
 	}) }),recursive=FALSE), recursive=FALSE)
 }
+
+#models=c("all", "sparse", "numeric", "phon", "affix", "praefix", "suffix", "phoncat", "sylstruct", "weight", "sonority", "meta")
+#par(mfrow=c(3,4))
+folder = '/home/sbiastoch/Schreibtisch/thesis/Experimente/evaluation/'
+models=c("praefix", "suffix", "phoncat", "sylstruct", "weight", "sonority")
+par(mfrow=c(2,3),
+	las=1,
+	xpd=TRUE,
+	cex.lab=1,
+	cex.axis=1.2,
+	cex.main=1.2,
+	mar=c(0,3,3,3),
+	oma=c(1,1,1,1))
+lapply(models, function(model) {
+	csv = read.csv(paste(folder,'../scripts/',model,'01',sep=''),sep='\t',skip=2, col.names=c('n','attr')) # jrip
+#	csv = read.csv(paste(folder,'../scripts/',model,'00',sep=''),sep='\t',skip=2, col.names=c('n','attr')) # j48
+	x=subset(csv,csv$n>0)
+	pie(x[,1],labels=x[,2], main=model, radius=1.3)
+	title('Verwendungshäufigkeit der Features bei JRip je Featureset', outer=TRUE)
+	csv
+})
