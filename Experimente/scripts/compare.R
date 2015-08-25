@@ -203,9 +203,9 @@ plot_analyze_j48 <- function(models, main_stats) {
 	j48_cum_corr = apply(j48_stat, 2, function(col) sum(col*j48_stat[['n']])/sum(j48_stat[['n']]))
 	stat = j48_cum_corr[4:length(j48_cum_corr)-1]
 	names(stat) = pretty_name(names(stat))
-	x = barplot(stat, ylim=c(60,96), las=2,xpd=FALSE)
+	x = barplot(stat, ylim=c(84,96), las=2,xpd=FALSE)
 	abline(h=j48_cum_corr['zeroR'],lty=2)
-	text(max(x)+1,j48_cum_corr['zeroR']+1, paste('ZeroR (',round(j48_cum_corr['zeroR'],1),'%)',sep=''), cex=.7)
+	text(max(x)+1.5,j48_cum_corr['zeroR']+.3, paste('ZeroR (',round(j48_cum_corr['zeroR'],1),'%)',sep=''), cex=.7)
 	title('Erkennungsraten von J48 (%)')
 	#addLabels(j48_cum_corr[3:13],x)
 
@@ -263,9 +263,9 @@ plot_analyze_jrip <- function(models, main_stats) {
 	jrip_cum_corr = apply(jrip_stat, 2, function(col) sum(col*jrip_stat[['n']])/sum(jrip_stat[['n']]))
 	stat = jrip_cum_corr[4:length(jrip_cum_corr)-1]
 	names(stat) = pretty_name(names(stat))
-	x=barplot(stat, ylim=c(60,95), las=2)
+	x=barplot(stat, ylim=c(84,96), las=2)
 	abline(h=jrip_cum_corr['zeroR'],lty=2)
-	text(max(x)+1,jrip_cum_corr['zeroR']+1, paste('ZeroR (',round(jrip_cum_corr['zeroR'],1),'%)',sep=''), cex=.7)
+	text(max(x)+1.5,jrip_cum_corr['zeroR']+.3, paste('ZeroR (',round(jrip_cum_corr['zeroR'],1),'%)',sep=''), cex=.7)
 	title('Erkennungsraten von JRip (%)')
 	#addLabels(jrip_cum_corr[3:length(jrip_cum_corr)],x)
 
