@@ -168,7 +168,7 @@ class PhonHandler(CelexQuery):
 		for syl in cv_syls:
 			weight = "heavy" # 2=schwer
 
-			if phon_syls[i].find('@') > -1:
+			if phon_syls[i].find('@') > -1 or phon_syls[i].find('C') > -1 or phon_syls[i].find('F') > -1 or phon_syls[i].find('H') > -1 or phon_syls[i].find('P') > -1 or phon_syls[i].find('R') > -1:
 				weight = "schwa" # schwasilbe
 			elif len(syl) >= 2 and syl[-2:] == 'VC' or syl[-2:] == 'VV':
 				weight = "light" # leicht

@@ -461,7 +461,7 @@ data_folder = '/home/sbiastoch/Schreibtisch/thesis/Experimente/csv/classificatio
 folder = '/home/sbiastoch/Schreibtisch/thesis/Experimente/evaluation/'
 #folder = '/home/sbiastoch/Schreibtisch/thesis/Experimente/evaluation/'
 
-lapply(7:2, function(num_syls) {
+lapply(2:7, function(num_syls) {
 	csv = read.csv(paste(data_folder,num_syls,'syl-classifications.csv',sep=''), header=TRUE)
 
 	results_errors_with_strs_class = apply(csv,2,function(col) col != csv[,1])

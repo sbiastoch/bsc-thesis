@@ -339,13 +339,32 @@ par(mfrow=c(2,3),
 	cex.lab=1,
 	cex.axis=1.2,
 	cex.main=1.2,
-	mar=c(0,3,3,3),
+	mar=c(0,0,2,0),
 	oma=c(1,1,1,1))
-lapply(models, function(model) {
+csvs=lapply(models, function(model) {
 	csv = read.csv(paste(folder,'../scripts/',model,'01',sep=''),sep='\t',skip=2, col.names=c('n','attr')) # jrip
 #	csv = read.csv(paste(folder,'../scripts/',model,'00',sep=''),sep='\t',skip=2, col.names=c('n','attr')) # j48
 	x=subset(csv,csv$n>0)
 	pie(x[,1],labels=x[,2], main=model, radius=1.3)
-	title('Verwendungshäufigkeit der Features bei JRip je Featureset', outer=TRUE)
 	csv
 })
+title('Verwendungshäufigkeit der Features bei JRip je Featureset', outer=TRUE, cex=1.2)
+
+# Plottet alle Modelle nach Trainingsset gewichtet
+par(las=1,
+#	xpd=TRUE,
+	cex.lab=0.9,
+	cex.axis=0.9,
+	cex.main=1,
+	mar=c(8,3,3,2)
+)
+weighted_model_stats = apply(main_stats[4:length(main_stats)-1], 2, function(col) { sum(col * main_stats['n']) / sum(main_stats['n']) })
+colors = c(replicate(12,c(replicate(3,'gray65'),replicate(3,'gray90'))))
+lbls = pretty_name(names(weighted_model_stats))
+x=barplot(weighted_model_stats, ylim=c(60,100), las=2, xpd=FALSE, col=colors, names=lbls)
+zeroR = sum(main_stats['n'] * main_stats['zeroR']) / sum(main_stats['n'])
+par(xpd=TRUE)
+abline(h=zeroR,lty=2)
+text(max(x)+2,zeroR+1, paste('ZeroR (',round(zeroR,1),'%)',sep=''), cex=.8)
+addLabels(x, weighted_model_stats)
+title('Performance je Model, gewichtet über die Trainingssets (%)', cex=1.2)
