@@ -6,38 +6,38 @@ Relation: 2syl-all_training-weka.filters.unsupervised.attribute.Remove-R60-weka.
 J48 pruned tree
 ------------------
 
-comp_struct = V: paenultima (1877.0/123.0)
-comp_struct = N: paenultima (2902.0/334.0)
-comp_struct = NN: paenultima (832.0/2.0)
-comp_struct = A: paenultima (461.0/94.0)
+comp_struct = V: paenultima (1996.0/133.0)
+comp_struct = N: paenultima (3074.0/353.0)
+comp_struct = NN: paenultima (881.0/2.0)
+comp_struct = A: paenultima (492.0/102.0)
 comp_struct = ø
-|   pos = V: paenultima (25.0)
-|   pos = N: paenultima (733.0/282.0)
+|   pos = V: paenultima (28.0)
+|   pos = N: paenultima (765.0/294.0)
 |   pos = A
-|   |   comp_len <= 0: ultima (110.0/45.0)
+|   |   comp_len <= 0: ultima (117.0/49.0)
 |   |   comp_len > 0: paenultima (28.0)
 |   pos = ADV
-|   |   comp_len <= 1: paenultima (20.0/2.0)
-|   |   comp_len > 1: ultima (131.0/45.0)
-|   pos = X: paenultima (100.0/24.0)
-comp_struct = PN: paenultima (51.0/6.0)
-comp_struct = VN: paenultima (363.0)
+|   |   comp_len <= 1: paenultima (24.0/3.0)
+|   |   comp_len > 1: ultima (143.0/47.0)
+|   pos = X: paenultima (107.0/26.0)
+comp_struct = PN: paenultima (55.0/6.0)
+comp_struct = VN: paenultima (388.0)
 comp_struct = F
 |   pos = V: paenultima (0.0)
-|   pos = N: paenultima (47.0/2.0)
-|   pos = A: ultima (96.0/25.0)
-|   pos = ADV: paenultima (8.0/1.0)
+|   pos = N: paenultima (49.0/2.0)
+|   pos = A: ultima (99.0/26.0)
+|   pos = ADV: paenultima (9.0/1.0)
 |   pos = X: paenultima (2.0)
 comp_struct = AA: paenultima (22.0)
-comp_struct = AN: paenultima (183.0/2.0)
+comp_struct = AN: paenultima (191.0/2.0)
 comp_struct = R
 |   pos = V: paenultima (1.0)
-|   pos = N: ultima (57.0/21.0)
-|   pos = A: paenultima (36.0/17.0)
+|   pos = N: ultima (63.0/24.0)
+|   pos = A: paenultima (39.0/17.0)
 |   pos = ADV: ultima (0.0)
 |   pos = X: ultima (0.0)
-comp_struct = NA: paenultima (113.0)
-comp_struct = B: paenultima (73.0/10.0)
+comp_struct = NA: paenultima (116.0)
+comp_struct = B: paenultima (83.0/11.0)
 
 Number of Leaves  : 	27
 
@@ -50,14 +50,16 @@ Relation: 2syl-all_training-weka.filters.unsupervised.attribute.Remove-R60-weka.
 JRIP rules:
 ===========
 
-(comp_struct = ø) and (pos = ADV) and (comp_len >= 2) => stress_class=ultima (131.0/45.0)
-(comp_len <= 0) and (pos = A) => stress_class=ultima (110.0/45.0)
- => stress_class=paenultima (8030.0/1006.0)
+(comp_struct = ø) and (comp_len <= 0) and (pos = A) => stress_class=ultima (117.0/49.0)
+(pos = ADV) and (comp_len >= 2) and (comp_struct = ø) => stress_class=ultima (143.0/47.0)
+(comp_len <= 1) and (comp_struct = F) and (pos = A) => stress_class=ultima (99.0/26.0)
+(comp_len <= 1) and (pos = N) and (comp_struct = R) => stress_class=ultima (63.0/24.0)
+ => stress_class=paenultima (8350.0/952.0)
 
-Number of Rules : 3
+Number of Rules : 5
 === Classifier model ===
 
 Scheme:   NeuralNetwork
 Relation: 2syl-all_training-weka.filters.unsupervised.attribute.Remove-R60-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R56-60-weka.filters.unsupervised.attribute.RemoveByName-E^(pos|comp_len|comp_struct|nomen)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@22f7ae69
+weka.classifiers.functions.NeuralNetwork@7b554c78

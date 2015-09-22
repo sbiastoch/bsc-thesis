@@ -8,20 +8,20 @@ J48 pruned tree
 
 comp_len <= 1
 |   nomen = F
-|   |   pos = V: paenultima (73.0/4.0)
+|   |   pos = V: paenultima (79.0/5.0)
 |   |   pos = N: paenultima (0.0)
-|   |   pos = A: paenultima (49.0/20.0)
-|   |   pos = ADV: prima (10.0/4.0)
+|   |   pos = A: paenultima (53.0/21.0)
+|   |   pos = ADV: prima (11.0/4.0)
 |   nomen = T
-|   |   comp_struct = N: ultima (55.0/29.0)
+|   |   comp_struct = N: ultima (57.0/29.0)
 |   |   comp_struct = NN: ultima (0.0)
-|   |   comp_struct = R: ultima (85.0/7.0)
+|   |   comp_struct = R: ultima (92.0/9.0)
 |   |   comp_struct = NV: ultima (0.0)
-|   |   comp_struct = ø: paenultima (25.0/15.0)
-|   |   comp_struct = A: ultima (60.0/37.0)
+|   |   comp_struct = ø: paenultima (27.0/16.0)
+|   |   comp_struct = A: ultima (61.0/38.0)
 |   |   comp_struct = AN: ultima (0.0)
-|   |   comp_struct = V: paenultima (21.0/6.0)
-comp_len > 1: prima (335.0/171.0)
+|   |   comp_struct = V: paenultima (22.0/6.0)
+comp_len > 1: prima (355.0/177.0)
 
 Number of Leaves  : 	13
 
@@ -34,10 +34,10 @@ Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka
 JRIP rules:
 ===========
 
-(comp_struct = R) and (pos = N) => stress_class=ultima (85.0/7.0)
-(comp_len <= 1) and (pos = V) => stress_class=paenultima (73.0/4.0)
-(comp_len <= 1) and (pos = A) => stress_class=paenultima (49.0/20.0)
- => stress_class=prima (506.0/308.0)
+(comp_struct = R) and (pos = N) => stress_class=ultima (92.0/9.0)
+(comp_len <= 1) and (pos = V) => stress_class=paenultima (79.0/5.0)
+(comp_len <= 1) and (pos = A) => stress_class=paenultima (53.0/21.0)
+ => stress_class=prima (533.0/320.0)
 
 Number of Rules : 4
 === Classifier model ===
@@ -45,4 +45,4 @@ Number of Rules : 4
 Scheme:   NeuralNetwork
 Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R112-116-weka.filters.unsupervised.attribute.RemoveByName-E^(pos|comp_len|comp_struct|nomen)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@3655ec51
+weka.classifiers.functions.NeuralNetwork@2d6a5645

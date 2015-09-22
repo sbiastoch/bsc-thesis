@@ -7,53 +7,53 @@ J48 pruned tree
 ------------------
 
 prae_class = ø
-|   praefix1 = m: paenultima (8.0/3.0)
-|   praefix1 = U: prima (24.0/6.0)
-|   praefix1 = p: paenultima (21.0/7.0)
+|   praefix1 = m: paenultima (9.0/4.0)
+|   praefix1 = U: prima (25.0/7.0)
+|   praefix1 = p: paenultima (22.0/7.0)
 |   praefix1 = T: prima (16.0/8.0)
 |   praefix1 = g: sekunda (6.0/2.0)
-|   praefix1 = i: paenultima (14.0/4.0)
+|   praefix1 = i: paenultima (16.0/4.0)
 |   praefix1 = S: prima (50.0/29.0)
-|   praefix1 = E: ultima (12.0/5.0)
-|   praefix1 = s: paenultima (12.0/3.0)
-|   praefix1 = A: ultima (52.0/27.0)
-|   praefix1 = o: paenultima (2.0/1.0)
-|   praefix1 = N: paenultima (21.0/15.0)
-|   praefix1 = B: prima (5.0/3.0)
-|   praefix1 = I: ultima (37.0/20.0)
-|   praefix1 = r: paenultima (7.0/1.0)
-|   praefix1 = R: ultima (38.0/27.0)
+|   praefix1 = E: ultima (13.0/6.0)
+|   praefix1 = s: paenultima (13.0/3.0)
+|   praefix1 = A: ultima (55.0/29.0)
+|   praefix1 = o: paenultima (3.0/2.0)
+|   praefix1 = N: paenultima (23.0/16.0)
+|   praefix1 = B: prima (6.0/3.0)
+|   praefix1 = I: ultima (38.0/21.0)
+|   praefix1 = r: paenultima (8.0/1.0)
+|   praefix1 = R: ultima (41.0/29.0)
 |   praefix1 = F: prima (10.0/5.0)
 |   praefix1 = a: paenultima (20.0/5.0)
-|   praefix1 = l: prima (3.0/1.0)
-|   praefix1 = P: ultima (39.0/26.0)
-|   praefix1 = n: paenultima (9.0/5.0)
-|   praefix1 = V: ultima (11.0/6.0)
-|   praefix1 = e: paenultima (8.0/2.0)
+|   praefix1 = l: prima (4.0/1.0)
+|   praefix1 = P: ultima (41.0/27.0)
+|   praefix1 = n: paenultima (10.0/6.0)
+|   praefix1 = V: ultima (13.0/8.0)
+|   praefix1 = e: paenultima (9.0/2.0)
 |   praefix1 = c: paenultima (5.0/1.0)
-|   praefix1 = K: ultima (35.0/21.0)
+|   praefix1 = K: ultima (37.0/22.0)
 |   praefix1 = D: ultima (15.0/6.0)
 |   praefix1 = J: ultima (3.0/1.0)
 |   praefix1 = d: paenultima (12.0/1.0)
-|   praefix1 = O: prima (10.0/6.0)
-|   praefix1 = M: ultima (20.0/14.0)
-|   praefix1 = G: sekunda (17.0/9.0)
+|   praefix1 = O: prima (11.0/7.0)
+|   praefix1 = M: ultima (23.0/15.0)
+|   praefix1 = G: sekunda (18.0/10.0)
 |   praefix1 = h: paenultima (4.0/2.0)
 |   praefix1 = v: prima (5.0/1.0)
 |   praefix1 = u: prima (14.0)
 |   praefix1 = k: paenultima (8.0/3.0)
-|   praefix1 = W: prima (16.0/1.0)
-|   praefix1 = Z: prima (17.0/8.0)
+|   praefix1 = W: prima (17.0/1.0)
+|   praefix1 = Z: prima (18.0/8.0)
 |   praefix1 = t: paenultima (5.0/3.0)
 |   praefix1 = H: prima (2.0/1.0)
-|   praefix1 = L: prima (12.0/8.0)
+|   praefix1 = L: prima (13.0/9.0)
 |   praefix1 = b: paenultima (4.0)
 |   praefix1 = Q: prima (4.0/1.0)
 |   praefix1 = z: sekunda (2.0)
 |   praefix1 = w: prima (3.0)
 |   praefix1 = q: ultima (1.0)
-prae_class = noacc: sekunda (38.0/3.0)
-prae_class = acc: prima (36.0/1.0)
+prae_class = noacc: sekunda (41.0/5.0)
+prae_class = acc: prima (41.0/1.0)
 
 Number of Leaves  : 	47
 
@@ -66,8 +66,8 @@ Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka
 JRIP rules:
 ===========
 
-(prae_class = noacc) => stress_class=sekunda (38.0/3.0)
- => stress_class=prima (675.0/463.0)
+(prae_class = noacc) => stress_class=sekunda (41.0/5.0)
+ => stress_class=prima (716.0/488.0)
 
 Number of Rules : 2
 === Classifier model ===
@@ -75,4 +75,4 @@ Number of Rules : 2
 Scheme:   NeuralNetwork
 Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R15-26,116-weka.filters.unsupervised.attribute.RemoveByName-E^(prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@1fe3805d
+weka.classifiers.functions.NeuralNetwork@16b61e2c

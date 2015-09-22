@@ -26,6 +26,11 @@ JRIP rules:
 Number of Rules : 1
 === Classifier model ===
 
+Scheme:   NeuralNetwork
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R2-13,130-weka.filters.unsupervised.attribute.RemoveByName-E^(suff_class|signi_suffix|suffix_phoncat.|suffix.)$-V
+
+weka.classifiers.functions.NeuralNetwork@501ecc2=== Classifier model ===
+
 Scheme:   J48
 Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R2-13,130-weka.filters.unsupervised.attribute.RemoveByName-E^(suff_class|signi_suffix|suffix_phoncat.|suffix.)$-V
 
@@ -33,12 +38,24 @@ J48 pruned tree
 ------------------
 
 suffix5 = ieren: paenultima (15.0/1.0)
-suffix5 = ø: prima (123.0/83.0)
-suffix5 = ation: ultima (25.0/7.0)
+suffix5 = ø
+|   suffix1 = n: sekunda (8.0/4.0)
+|   suffix1 = t: sekunda (29.0/20.0)
+|   suffix1 = h: paenultima (12.0/6.0)
+|   suffix1 = e: prima (21.0/12.0)
+|   suffix1 = r: antepaenultima (12.0/7.0)
+|   suffix1 = g: prima (23.0/14.0)
+|   suffix1 = s: paenultima (5.0/1.0)
+|   suffix1 = l: ultima (9.0/6.0)
+|   suffix1 = k: antepaenultima (3.0/1.0)
+|   suffix1 = a: prima (1.0)
+|   suffix1 = i: sekunda (3.0/2.0)
+|   suffix1 = m: prima (6.0/4.0)
+suffix5 = ation: ultima (26.0/7.0)
 
-Number of Leaves  : 	3
+Number of Leaves  : 	14
 
-Size of the tree : 	4
+Size of the tree : 	16
 === Classifier model ===
 
 Scheme:   JRip
@@ -47,12 +64,13 @@ Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka
 JRIP rules:
 ===========
 
- => stress_class=prima (163.0/116.0)
+(suffix_phoncat2 = LC) => stress_class=ultima (51.0/23.0)
+ => stress_class=prima (122.0/88.0)
 
-Number of Rules : 1
+Number of Rules : 2
 === Classifier model ===
 
 Scheme:   NeuralNetwork
 Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R2-13,130-weka.filters.unsupervised.attribute.RemoveByName-E^(suff_class|signi_suffix|suffix_phoncat.|suffix.)$-V
 
-weka.classifiers.functions.NeuralNetwork@768388a7
+weka.classifiers.functions.NeuralNetwork@1eb95fbb

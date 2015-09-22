@@ -6,14 +6,14 @@ Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka
 J48 pruned tree
 ------------------
 
-suffix5 = ieren: paenultima (74.0/4.0)
-suffix5 = ø: prima (412.0/242.0)
-suffix5 = tisch: paenultima (16.0/1.0)
-suffix5 = gkeit: prima (22.0/10.0)
-suffix5 = erung: prima (39.0/20.0)
-suffix5 = ation: ultima (103.0/4.0)
-suffix5 = ismus: paenultima (24.0/2.0)
-suffix5 = itaet: ultima (23.0/3.0)
+suffix3 = ren: paenultima (82.0/7.0)
+suffix3 = ø: prima (340.0/206.0)
+suffix3 = sch: paenultima (39.0/8.0)
+suffix3 = ung: prima (81.0/35.0)
+suffix3 = eit: prima (41.0/19.0)
+suffix3 = ion: ultima (124.0/13.0)
+suffix3 = mus: paenultima (24.0/2.0)
+suffix3 = aet: ultima (26.0/4.0)
 
 Number of Leaves  : 	8
 
@@ -26,11 +26,11 @@ Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka
 JRIP rules:
 ===========
 
-(suffix_phoncat2 = LC) and (suffix5 = ation) => stress_class=ultima (103.0/4.0)
-(suffix_phoncat4 = LCLC) => stress_class=ultima (36.0/11.0)
-(suffix4 = eren) => stress_class=paenultima (74.0/4.0)
-(suffix_phoncat3 = CKC) and (suffix3 = sch) => stress_class=paenultima (34.0/6.0)
- => stress_class=prima (466.0/272.0)
+(suffix_phoncat2 = LC) and (suffix5 = ation) => stress_class=ultima (110.0/4.0)
+(suffix_phoncat4 = LCLC) => stress_class=ultima (37.0/11.0)
+(suffix_phoncat4 = LCKC) and (suffix4 = eren) => stress_class=paenultima (80.0/5.0)
+(suffix_phoncat3 = CKC) and (suffix3 = sch) => stress_class=paenultima (37.0/6.0)
+ => stress_class=prima (493.0/284.0)
 
 Number of Rules : 5
 === Classifier model ===
@@ -38,4 +38,4 @@ Number of Rules : 5
 Scheme:   NeuralNetwork
 Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R2-13,116-weka.filters.unsupervised.attribute.RemoveByName-E^(suff_class|signi_suffix|suffix_phoncat.|suffix.)$-V
 
-weka.classifiers.functions.NeuralNetwork@16735cb2
+weka.classifiers.functions.NeuralNetwork@1e8059ca

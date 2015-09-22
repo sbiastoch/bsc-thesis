@@ -11,60 +11,58 @@ cv_ratio5 <= 0
 |   syl_cv5 = CV: ultima (0.0)
 |   syl_cv5 = CVVC: ultima (0.0)
 |   syl_cv5 = CVCC: ultima (0.0)
-|   syl_cv5 = VVC: ultima (119.0/15.0)
-|   syl_cv5 = CVV: ultima (28.0/16.0)
+|   syl_cv5 = VVC: ultima (126.0/15.0)
+|   syl_cv5 = CVV: ultima (29.0/17.0)
 |   syl_cv5 = VC: ultima (0.0)
-|   syl_cv5 = ø: sekunda (6.0/3.0)
+|   syl_cv5 = ø: prima (7.0/4.0)
 cv_ratio5 > 0
 |   cv_ratio3 <= 0
 |   |   nucleus_len5 <= 1
 |   |   |   syl_len4 <= 2
-|   |   |   |   syl_cv1 = CVV: paenultima (23.0/12.0)
-|   |   |   |   syl_cv1 = CVC: prima (28.0/15.0)
+|   |   |   |   syl_cv1 = CVV: paenultima (26.0/14.0)
+|   |   |   |   syl_cv1 = CVC: prima (30.0/16.0)
 |   |   |   |   syl_cv1 = CV: prima (3.0/1.0)
 |   |   |   |   syl_cv1 = CCVC: paenultima (2.0/1.0)
 |   |   |   |   syl_cv1 = CVVC: prima (2.0/1.0)
 |   |   |   |   syl_cv1 = CVCC: prima (2.0/1.0)
 |   |   |   |   syl_cv1 = ø: sekunda (5.0/2.0)
-|   |   |   |   syl_cv1 = VC: paenultima (3.0/1.0)
+|   |   |   |   syl_cv1 = VC: paenultima (4.0/1.0)
 |   |   |   |   syl_cv1 = CCVV: ultima (2.0)
 |   |   |   syl_len4 > 2
-|   |   |   |   syl_cv3 = CVV: paenultima (93.0/9.0)
+|   |   |   |   syl_cv3 = CVV: paenultima (100.0/10.0)
 |   |   |   |   syl_cv3 = CVC: paenultima (0.0)
 |   |   |   |   syl_cv3 = VVCC: paenultima (0.0)
 |   |   |   |   syl_cv3 = VV: paenultima (22.0/1.0)
 |   |   |   |   syl_cv3 = CV: paenultima (0.0)
 |   |   |   |   syl_cv3 = VC: paenultima (0.0)
 |   |   |   |   syl_cv3 = CVVC: paenultima (0.0)
-|   |   |   |   syl_cv3 = ø: antepaenultima (6.0/2.0)
+|   |   |   |   syl_cv3 = ø: antepaenultima (7.0/3.0)
 |   |   nucleus_len5 > 1
-|   |   |   syl_len5 <= 3: ultima (32.0/9.0)
+|   |   |   syl_len5 <= 3: ultima (34.0/10.0)
 |   |   |   syl_len5 > 3: prima (30.0/13.0)
 |   cv_ratio3 > 0
 |   |   nucleus_len3 <= 1
-|   |   |   nucleus_len1 <= 1
-|   |   |   |   syl_cv0 = CVC: prima (29.0/13.0)
-|   |   |   |   syl_cv0 = VV: prima (18.0/3.0)
-|   |   |   |   syl_cv0 = ø: prima (19.0/3.0)
-|   |   |   |   syl_cv0 = CVV: prima (31.0/12.0)
-|   |   |   |   syl_cv0 = VC: prima (18.0/2.0)
-|   |   |   |   syl_cv0 = CCVV: sekunda (2.0)
-|   |   |   |   syl_cv0 = CCVC: prima (4.0)
-|   |   |   |   syl_cv0 = CV: sekunda (10.0)
-|   |   |   nucleus_len1 > 1
-|   |   |   |   cv_ratio2 <= 0: paenultima (39.0/20.0)
-|   |   |   |   cv_ratio2 > 0
-|   |   |   |   |   cv_ratio1 <= 0
-|   |   |   |   |   |   syl_len4 <= 2: sekunda (23.0/12.0)
-|   |   |   |   |   |   syl_len4 > 2: prima (26.0/7.0)
-|   |   |   |   |   cv_ratio1 > 0: sekunda (26.0/3.0)
+|   |   |   cv_ratio2 <= 0
+|   |   |   |   nucleus_len1 <= 1: prima (25.0/9.0)
+|   |   |   |   nucleus_len1 > 1: paenultima (40.0/21.0)
+|   |   |   cv_ratio2 > 0
+|   |   |   |   syl_cv0 = CVC
+|   |   |   |   |   syl_len4 <= 2: sekunda (20.0/4.0)
+|   |   |   |   |   syl_len4 > 2: prima (31.0/15.0)
+|   |   |   |   syl_cv0 = VV: prima (17.0/1.0)
+|   |   |   |   syl_cv0 = ø: prima (26.0/6.0)
+|   |   |   |   syl_cv0 = CVV: prima (33.0/13.0)
+|   |   |   |   syl_cv0 = VC: prima (39.0/14.0)
+|   |   |   |   syl_cv0 = CCVV: prima (8.0/5.0)
+|   |   |   |   syl_cv0 = CCVC: prima (5.0/1.0)
+|   |   |   |   syl_cv0 = CV: sekunda (17.0)
 |   |   nucleus_len3 > 1
-|   |   |   cv_ratio2 <= 0: antepaenultima (35.0)
-|   |   |   cv_ratio2 > 0: prima (27.0/12.0)
+|   |   |   cv_ratio2 <= 0: antepaenultima (37.0)
+|   |   |   cv_ratio2 > 0: prima (28.0/13.0)
 
-Number of Leaves  : 	41
+Number of Leaves  : 	40
 
-Size of the tree : 	56
+Size of the tree : 	54
 === Classifier model ===
 
 Scheme:   JRip
@@ -73,17 +71,16 @@ Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka
 JRIP rules:
 ===========
 
-(syl_cv3 = VVCC) => stress_class=antepaenultima (26.0/0.0)
-(syl_cv0 = CV) => stress_class=sekunda (26.0/2.0)
-(syl_cv5 = VVC) => stress_class=ultima (119.0/15.0)
-(nucleus_len5 >= 2) and (cv_ratio4 <= 0) => stress_class=ultima (59.0/28.0)
-(cv_ratio3 <= 0) and (syl_cv5 = CVC) => stress_class=paenultima (147.0/27.0)
- => stress_class=prima (336.0/169.0)
+(syl_cv5 = VVC) => stress_class=ultima (126.0/15.0)
+(nucleus_len5 >= 2) and (cv_ratio4 <= 0) and (syl_len2 <= 2) and (koda_len3 <= 0) => stress_class=ultima (30.0/5.0)
+(syl_cv5 = CVC) and (cv_ratio3 <= 0) and (syl_len4 >= 3) => stress_class=paenultima (115.0/10.0)
+(syl_len5 >= 5) and (syl_cv5 = CVC) and (syl_len3 <= 2) => stress_class=paenultima (30.0/4.0)
+ => stress_class=prima (456.0/254.0)
 
-Number of Rules : 6
+Number of Rules : 5
 === Classifier model ===
 
 Scheme:   NeuralNetwork
 Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R76-111,116-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_cv.|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@281eff37
+weka.classifiers.functions.NeuralNetwork@184012c7

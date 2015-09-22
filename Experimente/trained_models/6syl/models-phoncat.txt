@@ -8,36 +8,48 @@ J48 pruned tree
 
 nucleus_phoncat5 = K
 |   nucleus_phoncat3 = L
-|   |   syl_phoncat3 = CL: paenultima (141.0/43.0)
+|   |   syl_phoncat3 = CL: paenultima (151.0/46.0)
 |   |   syl_phoncat3 = CK: paenultima (0.0)
-|   |   syl_phoncat3 = LCC: antepaenultima (22.0)
-|   |   syl_phoncat3 = L: paenultima (30.0/2.0)
+|   |   syl_phoncat3 = LCC: antepaenultima (23.0)
+|   |   syl_phoncat3 = L: paenultima (33.0/3.0)
 |   |   syl_phoncat3 = CKC: paenultima (0.0)
 |   |   syl_phoncat3 = KC: paenultima (0.0)
-|   |   syl_phoncat3 = CLC: antepaenultima (14.0/4.0)
+|   |   syl_phoncat3 = CLC: antepaenultima (16.0/4.0)
 |   |   syl_phoncat3 = K: paenultima (0.0)
-|   |   syl_phoncat3 = AL: paenultima (13.0/7.0)
+|   |   syl_phoncat3 = AL: paenultima (14.0/8.0)
 |   |   syl_phoncat3 = ø: antepaenultima (14.0/7.0)
 |   |   syl_phoncat3 = CKCC: paenultima (0.0)
 |   nucleus_phoncat3 = K
-|   |   nucleus_phoncat1 = L
-|   |   |   nucleus_phoncat2 = K: sekunda (48.0/26.0)
-|   |   |   nucleus_phoncat2 = L: paenultima (30.0/11.0)
-|   |   |   nucleus_phoncat2 = D: prima (3.0/2.0)
-|   |   nucleus_phoncat1 = K: prima (108.0/38.0)
-|   |   nucleus_phoncat1 = D: sekunda (9.0/2.0)
-|   |   nucleus_phoncat1 = N: prima (0.0)
-|   nucleus_phoncat3 = D: prima (10.0/2.0)
+|   |   nucleus_phoncat2 = K
+|   |   |   nucleus_phoncat0 = K
+|   |   |   |   syl_phoncat1 = CL: sekunda (21.0/10.0)
+|   |   |   |   syl_phoncat1 = CKC: prima (22.0/7.0)
+|   |   |   |   syl_phoncat1 = CK: sekunda (10.0/5.0)
+|   |   |   |   syl_phoncat1 = ø: sekunda (20.0/7.0)
+|   |   |   |   syl_phoncat1 = CLC: sekunda (8.0/1.0)
+|   |   |   |   syl_phoncat1 = CKCC: prima (4.0/2.0)
+|   |   |   |   syl_phoncat1 = KC: prima (1.0)
+|   |   |   |   syl_phoncat1 = CCL: prima (2.0/1.0)
+|   |   |   |   syl_phoncat1 = AL: prima (4.0)
+|   |   |   nucleus_phoncat0 = L: prima (44.0/12.0)
+|   |   |   nucleus_phoncat0 = D: prima (11.0)
+|   |   nucleus_phoncat2 = L
+|   |   |   nucleus_phoncat1 = L: paenultima (30.0/11.0)
+|   |   |   nucleus_phoncat1 = K: prima (25.0/11.0)
+|   |   |   nucleus_phoncat1 = D: paenultima (0.0)
+|   |   |   nucleus_phoncat1 = N: paenultima (0.0)
+|   |   nucleus_phoncat2 = D: prima (8.0/3.0)
+|   nucleus_phoncat3 = D: prima (11.0/2.0)
 |   nucleus_phoncat3 = N: antepaenultima (1.0)
-nucleus_phoncat5 = D: prima (45.0/22.0)
+nucleus_phoncat5 = D: prima (47.0/23.0)
 nucleus_phoncat5 = L
-|   nucleus_phoncat4 = L: ultima (180.0/45.0)
-|   nucleus_phoncat4 = K: prima (45.0/19.0)
+|   nucleus_phoncat4 = L: ultima (189.0/46.0)
+|   nucleus_phoncat4 = K: prima (48.0/21.0)
 |   nucleus_phoncat4 = D: ultima (0.0)
 
-Number of Leaves  : 	23
+Number of Leaves  : 	33
 
-Size of the tree : 	29
+Size of the tree : 	41
 === Classifier model ===
 
 Scheme:   JRip
@@ -46,13 +58,13 @@ Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka
 JRIP rules:
 ===========
 
-(syl_phoncat3 = LCC) => stress_class=antepaenultima (26.0/0.0)
-(nucleus_phoncat2 = K) and (nucleus_phoncat0 = K) and (onset_phoncat0 = C) and (nucleus_phoncat3 = K) => stress_class=sekunda (63.0/23.0)
-(syl_phoncat5 = LC) => stress_class=ultima (115.0/13.0)
-(nucleus_phoncat5 = L) and (nucleus_phoncat4 = L) => stress_class=ultima (58.0/28.0)
-(syl_phoncat5 = CKC) and (syl_phoncat3 = CL) => stress_class=paenultima (108.0/15.0)
-(nucleus_phoncat2 = L) and (syl_phoncat5 = CKC) => stress_class=paenultima (66.0/21.0)
- => stress_class=prima (277.0/123.0)
+(syl_phoncat3 = LCC) => stress_class=antepaenultima (27.0/0.0)
+(nucleus_phoncat2 = K) and (nucleus_phoncat0 = K) and (nucleus_phoncat3 = K) and (onset_phoncat0 = C) => stress_class=sekunda (69.0/28.0)
+(nucleus_phoncat5 = L) and (syl_phoncat4 = AL) => stress_class=ultima (117.0/9.0)
+(nucleus_phoncat5 = L) and (syl_phoncat4 = CL) => stress_class=ultima (51.0/24.0)
+(syl_phoncat5 = CKC) and (syl_phoncat3 = CL) => stress_class=paenultima (116.0/16.0)
+(nucleus_phoncat2 = L) and (syl_phoncat5 = CKC) => stress_class=paenultima (73.0/25.0)
+ => stress_class=prima (304.0/136.0)
 
 Number of Rules : 7
 === Classifier model ===
@@ -60,4 +72,4 @@ Number of Rules : 7
 Scheme:   NeuralNetwork
 Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R52-75,116-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_phoncat.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@1a0628c1
+weka.classifiers.functions.NeuralNetwork@6c2be59e

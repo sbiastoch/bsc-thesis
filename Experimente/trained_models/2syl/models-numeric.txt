@@ -8,74 +8,74 @@ J48 pruned tree
 
 comp_len <= 0
 |   nucleus_len1 <= 1
-|   |   koda_len1 <= 1: paenultima (320.0/41.0)
+|   |   koda_len1 <= 1: paenultima (337.0/42.0)
 |   |   koda_len1 > 1
 |   |   |   syl_len0 <= 3
-|   |   |   |   sonority0 <= 11: ultima (92.0/16.0)
+|   |   |   |   sonority0 <= 11: ultima (98.0/18.0)
 |   |   |   |   sonority0 > 11: paenultima (20.0/7.0)
 |   |   |   syl_len0 > 3: paenultima (23.0/4.0)
 |   nucleus_len1 > 1
-|   |   syl_len1 <= 2: paenultima (62.0/11.0)
+|   |   syl_len1 <= 2: paenultima (66.0/11.0)
 |   |   syl_len1 > 2
-|   |   |   sonority0 <= 13: ultima (242.0/36.0)
-|   |   |   sonority0 > 13: paenultima (21.0/6.0)
+|   |   |   sonority0 <= 13: ultima (251.0/37.0)
+|   |   |   sonority0 > 13: paenultima (25.0/9.0)
 comp_len > 0
 |   syl_len0 <= 2
 |   |   nucleus_len1 <= 1
 |   |   |   sonority_ratio1 <= 2
-|   |   |   |   syl_len1 <= 5
-|   |   |   |   |   syl_len1 <= 3: paenultima (20.0/3.0)
-|   |   |   |   |   syl_len1 > 3
-|   |   |   |   |   |   onset_len0 <= 0: paenultima (39.0/15.0)
-|   |   |   |   |   |   onset_len0 > 0: ultima (60.0/10.0)
-|   |   |   |   syl_len1 > 5: ultima (32.0)
+|   |   |   |   syl_len1 <= 3: paenultima (20.0/3.0)
+|   |   |   |   syl_len1 > 3
+|   |   |   |   |   onset_len0 <= 0
+|   |   |   |   |   |   sonority0 <= 9: paenultima (20.0/5.0)
+|   |   |   |   |   |   sonority0 > 9: ultima (30.0/14.0)
+|   |   |   |   |   onset_len0 > 0: ultima (93.0/12.0)
 |   |   |   sonority_ratio1 > 2
-|   |   |   |   comp_len <= 1
-|   |   |   |   |   cv_ratio1 <= 2: paenultima (717.0/30.0)
+|   |   |   |   sonority_ratio0 <= 3
+|   |   |   |   |   cv_ratio1 <= 2: paenultima (243.0/27.0)
 |   |   |   |   |   cv_ratio1 > 2
-|   |   |   |   |   |   sonority0 <= 8
-|   |   |   |   |   |   |   nucleus_len0 <= 1
-|   |   |   |   |   |   |   |   koda_len0 <= 0: ultima (34.0)
-|   |   |   |   |   |   |   |   koda_len0 > 0
-|   |   |   |   |   |   |   |   |   syl_len1 <= 4: ultima (24.0/11.0)
-|   |   |   |   |   |   |   |   |   syl_len1 > 4: paenultima (24.0)
-|   |   |   |   |   |   |   nucleus_len0 > 1: paenultima (25.0/3.0)
-|   |   |   |   |   |   sonority0 > 8: paenultima (154.0/11.0)
-|   |   |   |   comp_len > 1: ultima (27.0/11.0)
+|   |   |   |   |   |   koda_len0 <= 0
+|   |   |   |   |   |   |   nucleus_len0 <= 1: ultima (35.0)
+|   |   |   |   |   |   |   nucleus_len0 > 1: paenultima (24.0/8.0)
+|   |   |   |   |   |   koda_len0 > 0: paenultima (52.0/11.0)
+|   |   |   |   sonority_ratio0 > 3: paenultima (709.0/29.0)
 |   |   nucleus_len1 > 1
-|   |   |   syl_len1 <= 2: paenultima (66.0/13.0)
+|   |   |   syl_len1 <= 2: paenultima (67.0/13.0)
 |   |   |   syl_len1 > 2
 |   |   |   |   onset_len0 <= 0
-|   |   |   |   |   sonority0 <= 10
-|   |   |   |   |   |   sonority_ratio0 <= 4: paenultima (56.0/12.0)
-|   |   |   |   |   |   sonority_ratio0 > 4: ultima (49.0/7.0)
-|   |   |   |   |   sonority0 > 10: paenultima (50.0/6.0)
-|   |   |   |   onset_len0 > 0: ultima (231.0/27.0)
+|   |   |   |   |   syl_len0 <= 1: ultima (29.0/3.0)
+|   |   |   |   |   syl_len0 > 1
+|   |   |   |   |   |   sonority0 <= 10
+|   |   |   |   |   |   |   sonority_ratio0 <= 4: paenultima (57.0/11.0)
+|   |   |   |   |   |   |   sonority_ratio0 > 4: ultima (26.0/4.0)
+|   |   |   |   |   |   sonority0 > 10: paenultima (51.0/6.0)
+|   |   |   |   onset_len0 > 0: ultima (241.0/27.0)
 |   syl_len0 > 2
 |   |   nucleus_len1 <= 1
 |   |   |   sonority_ratio1 <= 2
 |   |   |   |   comp_len <= 1
 |   |   |   |   |   sonority0 <= 11
-|   |   |   |   |   |   cv_ratio0 <= 1: paenultima (40.0/3.0)
+|   |   |   |   |   |   cv_ratio0 <= 1: paenultima (44.0/4.0)
 |   |   |   |   |   |   cv_ratio0 > 1
-|   |   |   |   |   |   |   sonority1 <= 9: paenultima (34.0/13.0)
-|   |   |   |   |   |   |   sonority1 > 9: ultima (44.0/10.0)
-|   |   |   |   |   sonority0 > 11: paenultima (91.0/9.0)
-|   |   |   |   comp_len > 1: paenultima (282.0/2.0)
-|   |   |   sonority_ratio1 > 2: paenultima (3923.0/62.0)
+|   |   |   |   |   |   |   cv_ratio1 <= 3
+|   |   |   |   |   |   |   |   sonority1 <= 10: paenultima (36.0/13.0)
+|   |   |   |   |   |   |   |   sonority1 > 10: ultima (26.0/9.0)
+|   |   |   |   |   |   |   cv_ratio1 > 3: ultima (20.0/1.0)
+|   |   |   |   |   sonority0 > 11: paenultima (95.0/9.0)
+|   |   |   |   comp_len > 1: paenultima (294.0/2.0)
+|   |   |   sonority_ratio1 > 2: paenultima (4163.0/73.0)
 |   |   nucleus_len1 > 1
 |   |   |   syl_len0 <= 3
 |   |   |   |   cv_ratio0 <= 1
-|   |   |   |   |   onset_len0 <= 1: paenultima (224.0/22.0)
-|   |   |   |   |   onset_len0 > 1: ultima (21.0/7.0)
+|   |   |   |   |   onset_len0 <= 1: paenultima (242.0/27.0)
+|   |   |   |   |   onset_len0 > 1: ultima (25.0/9.0)
 |   |   |   |   cv_ratio0 > 1
-|   |   |   |   |   syl_len1 <= 2: paenultima (33.0/4.0)
+|   |   |   |   |   syl_len1 <= 2: paenultima (38.0/4.0)
 |   |   |   |   |   syl_len1 > 2
 |   |   |   |   |   |   comp_len <= 1
-|   |   |   |   |   |   |   sonority_ratio1 <= 4: ultima (113.0/14.0)
+|   |   |   |   |   |   |   sonority_ratio1 <= 4: ultima (123.0/17.0)
 |   |   |   |   |   |   |   sonority_ratio1 > 4: paenultima (34.0/15.0)
-|   |   |   |   |   |   comp_len > 1: paenultima (34.0/6.0)
-|   |   |   syl_len0 > 3: paenultima (1010.0/39.0)
+|   |   |   |   |   |   comp_len > 1: paenultima (38.0/7.0)
+|   |   |   syl_len0 > 3: paenultima (1077.0/42.0)
 
 Number of Leaves  : 	36
 
@@ -88,22 +88,23 @@ Relation: 2syl-all_training-weka.filters.unsupervised.attribute.Remove-R60-weka.
 JRIP rules:
 ===========
 
-(syl_len0 <= 2) and (nucleus_len1 >= 2) and (onset_len0 >= 1) and (koda_len1 >= 1) => stress_class=ultima (274.0/23.0)
-(syl_len0 <= 3) and (nucleus_len1 >= 2) and (cv_ratio0 >= 2) and (syl_len1 >= 3) and (comp_len <= 1) and (sonority_ratio1 <= 4) => stress_class=ultima (186.0/26.0)
-(syl_len0 <= 2) and (koda_len1 >= 2) and (sonority_ratio1 <= 2) => stress_class=ultima (134.0/31.0)
-(comp_len <= 0) and (nucleus_len1 >= 2) and (syl_len1 >= 3) => stress_class=ultima (138.0/38.0)
-(comp_len <= 0) and (cv_ratio1 >= 3) and (syl_len0 <= 3) => stress_class=ultima (101.0/34.0)
-(syl_len0 <= 2) and (nucleus_len0 <= 1) and (koda_len0 <= 0) => stress_class=ultima (65.0/0.0)
-(syl_len0 <= 3) and (nucleus_len1 >= 2) and (syl_len1 <= 3) and (syl_len1 >= 3) and (koda_len0 <= 0) => stress_class=ultima (58.0/17.0)
-(syl_len0 <= 3) and (nucleus_len1 >= 2) and (nucleus_len0 <= 1) and (syl_len1 >= 3) and (onset_len0 >= 1) and (syl_len1 <= 3) => stress_class=ultima (33.0/13.0)
-(syl_len0 <= 3) and (nucleus_len1 >= 2) and (syl_len0 <= 2) and (sonority0 <= 10) and (sonority_ratio0 >= 5) and (syl_len1 >= 3) => stress_class=ultima (35.0/4.0)
-(sonority0 <= 11) and (koda_len1 >= 2) and (sonority1 <= 13) and (comp_len <= 1) and (cv_ratio0 >= 2) and (syl_len0 <= 3) => stress_class=ultima (56.0/14.0)
- => stress_class=paenultima (7191.0/277.0)
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (koda_len1 >= 1) and (onset_len0 >= 1) => stress_class=ultima (285.0/23.0)
+(comp_len <= 0) and (nucleus_len1 >= 2) and (syl_len1 >= 3) => stress_class=ultima (216.0/49.0)
+(syl_len0 <= 3) and (nucleus_len1 >= 2) and (cv_ratio0 >= 2) and (koda_len1 >= 1) and (comp_len <= 1) and (sonority_ratio1 <= 4) => stress_class=ultima (116.0/17.0)
+(syl_len0 <= 2) and (koda_len1 >= 2) and (sonority0 <= 7) and (sonority_dir <= 3) => stress_class=ultima (97.0/9.0)
+(comp_len <= 0) and (koda_len1 >= 2) and (sonority0 <= 11) => stress_class=ultima (85.0/23.0)
+(nucleus_len1 >= 2) and (syl_len0 <= 3) and (syl_len1 <= 3) and (syl_len1 >= 3) and (koda_len0 <= 0) => stress_class=ultima (64.0/19.0)
+(syl_len0 <= 3) and (nucleus_len1 >= 2) and (nucleus_len0 <= 1) and (syl_len1 <= 3) and (syl_len1 >= 3) and (onset_len0 >= 1) => stress_class=ultima (44.0/16.0)
+(syl_len0 <= 2) and (nucleus_len0 <= 1) and (koda_len0 <= 0) => stress_class=ultima (64.0/0.0)
+(sonority_ratio1 <= 2) and (comp_len <= 1) and (sonority_dir >= 0) and (cv_ratio0 >= 2) and (koda_len1 >= 2) and (syl_len0 <= 3) => stress_class=ultima (53.0/10.0)
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (sonority_ratio1 <= 4) and (sonority_ratio0 >= 5) and (sonority_dir >= 2) => stress_class=ultima (33.0/9.0)
+(syl_len0 <= 2) and (sonority_ratio1 <= 2) and (syl_len1 >= 4) and (syl_len1 <= 4) => stress_class=ultima (38.0/12.0)
+ => stress_class=paenultima (7677.0/320.0)
 
-Number of Rules : 11
+Number of Rules : 12
 === Classifier model ===
 
 Scheme:   NeuralNetwork
 Relation: 2syl-all_training-weka.filters.unsupervised.attribute.Remove-R60-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-31,44-51,54-55,59-60-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.|comp_len)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@3efadb0a
+weka.classifiers.functions.NeuralNetwork@3d7a8ccc

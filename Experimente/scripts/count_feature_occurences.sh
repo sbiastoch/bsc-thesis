@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# Zählt, wie oft einzelne Features in J48-Blättern und JRip-Regeln auftauchen. Sortiert außerdem die JRip Regeln absteigend nach Wörter, auf die sie zutrifft.
+# Bei Standardeinstellungen wird in allen Featuresets gezählt.
+
 if [ $# -eq 1 ]
 then
 	syl="$1syl"

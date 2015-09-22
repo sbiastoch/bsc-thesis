@@ -7,55 +7,57 @@ J48 pruned tree
 ------------------
 
 cv_ratio4 <= 0
-|   comp_len <= 1: ultima (243.0/14.0)
-|   comp_len > 1: prima (80.0/22.0)
+|   comp_len <= 1: ultima (260.0/15.0)
+|   comp_len > 1: prima (89.0/26.0)
 cv_ratio4 > 0
 |   comp_len <= 1
 |   |   nucleus_phoncat4 = K
-|   |   |   prae_class = noacc: sekunda (30.0/7.0)
+|   |   |   prae_class = noacc: sekunda (31.0/7.0)
 |   |   |   prae_class = ø
 |   |   |   |   syl_weight2 = schwa
-|   |   |   |   |   sonority_ratio0 <= 4: sekunda (35.0/14.0)
+|   |   |   |   |   sonority_ratio0 <= 4: sekunda (36.0/14.0)
 |   |   |   |   |   sonority_ratio0 > 4: prima (30.0/10.0)
 |   |   |   |   syl_weight2 = heavy: antepaenultima (12.0/5.0)
 |   |   |   |   syl_weight2 = light
-|   |   |   |   |   onset_len4 <= 0: antepaenultima (46.0/18.0)
+|   |   |   |   |   onset_len4 <= 0
+|   |   |   |   |   |   sonority4 <= 10: ultima (30.0/15.0)
+|   |   |   |   |   |   sonority4 > 10: antepaenultima (20.0)
 |   |   |   |   |   onset_len4 > 0
 |   |   |   |   |   |   syl_weight3 = heavy: prima (4.0/2.0)
 |   |   |   |   |   |   syl_weight3 = light
 |   |   |   |   |   |   |   koda_len4 <= 1
 |   |   |   |   |   |   |   |   suffix4 = ø
-|   |   |   |   |   |   |   |   |   syl_len2 <= 2: paenultima (128.0/34.0)
-|   |   |   |   |   |   |   |   |   syl_len2 > 2: antepaenultima (46.0/28.0)
+|   |   |   |   |   |   |   |   |   syl_len2 <= 2: paenultima (130.0/35.0)
+|   |   |   |   |   |   |   |   |   syl_len2 > 2: antepaenultima (48.0/30.0)
 |   |   |   |   |   |   |   |   suffix4 = lich: prima (2.0/1.0)
 |   |   |   |   |   |   |   |   suffix4 = tion: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = eren: paenultima (227.0/1.0)
+|   |   |   |   |   |   |   |   suffix4 = eren: paenultima (240.0/1.0)
 |   |   |   |   |   |   |   |   suffix4 = keit: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = isch: paenultima (111.0/8.0)
+|   |   |   |   |   |   |   |   suffix4 = isch: paenultima (122.0/10.0)
 |   |   |   |   |   |   |   |   suffix4 = smus: paenultima (49.0)
 |   |   |   |   |   |   |   |   suffix4 = gung: antepaenultima (3.0/1.0)
-|   |   |   |   |   |   |   |   suffix4 = rung: paenultima (52.0/1.0)
+|   |   |   |   |   |   |   |   suffix4 = rung: paenultima (53.0/1.0)
 |   |   |   |   |   |   |   |   suffix4 = eise: sekunda (1.0)
 |   |   |   |   |   |   |   |   suffix4 = lung: antepaenultima (2.0)
 |   |   |   |   |   |   |   |   suffix4 = heit: paenultima (0.0)
-|   |   |   |   |   |   |   |   suffix4 = tung: prima (4.0/2.0)
+|   |   |   |   |   |   |   |   suffix4 = tung: antepaenultima (5.0/3.0)
 |   |   |   |   |   |   |   |   suffix4 = ogie: paenultima (0.0)
 |   |   |   |   |   |   |   |   suffix4 = taet: paenultima (0.0)
 |   |   |   |   |   |   |   |   suffix4 = haft: paenultima (0.0)
 |   |   |   |   |   |   |   |   suffix4 = chen: paenultima (0.0)
-|   |   |   |   |   |   |   koda_len4 > 1: ultima (27.0/10.0)
+|   |   |   |   |   |   |   koda_len4 > 1: ultima (28.0/10.0)
 |   |   |   |   |   |   syl_weight3 = schwa
-|   |   |   |   |   |   |   sonority_ratio0 <= 4: prima (20.0/6.0)
-|   |   |   |   |   |   |   sonority_ratio0 > 4: antepaenultima (28.0/9.0)
-|   |   |   prae_class = acc: prima (37.0/11.0)
+|   |   |   |   |   |   |   onset_len0 <= 0: antepaenultima (32.0/10.0)
+|   |   |   |   |   |   |   onset_len0 > 0: prima (21.0/6.0)
+|   |   |   prae_class = acc: prima (39.0/11.0)
 |   |   nucleus_phoncat4 = L
-|   |   |   syl_len3 <= 2: ultima (98.0/12.0)
+|   |   |   syl_len3 <= 2: ultima (102.0/13.0)
 |   |   |   syl_len3 > 2: paenultima (36.0/22.0)
 |   |   nucleus_phoncat4 = D
 |   |   |   nucleus_phoncat3 = K
 |   |   |   |   sonority0 <= 7: sekunda (21.0/9.0)
-|   |   |   |   sonority0 > 7: prima (145.0/22.0)
-|   |   |   nucleus_phoncat3 = L: antepaenultima (20.0/10.0)
+|   |   |   |   sonority0 > 7: prima (146.0/23.0)
+|   |   |   nucleus_phoncat3 = L: antepaenultima (21.0/11.0)
 |   |   |   nucleus_phoncat3 = D: prima (0.0)
 |   |   |   nucleus_phoncat3 = N: prima (0.0)
 |   |   nucleus_phoncat4 = N: paenultima (0.0)
@@ -65,21 +67,21 @@ cv_ratio4 > 0
 |   |   |   nucleus_len2 <= 1
 |   |   |   |   syl_len0 <= 3
 |   |   |   |   |   onset_len0 <= 0
-|   |   |   |   |   |   prae_class = noacc: sekunda (7.0)
+|   |   |   |   |   |   prae_class = noacc: sekunda (8.0)
 |   |   |   |   |   |   prae_class = ø
-|   |   |   |   |   |   |   sonority1 <= 10: sekunda (27.0/6.0)
-|   |   |   |   |   |   |   sonority1 > 10: prima (34.0/12.0)
-|   |   |   |   |   |   prae_class = acc: prima (45.0)
+|   |   |   |   |   |   |   sonority1 <= 10: sekunda (28.0/6.0)
+|   |   |   |   |   |   |   sonority1 > 10: prima (36.0/12.0)
+|   |   |   |   |   |   prae_class = acc: prima (49.0)
 |   |   |   |   |   onset_len0 > 0
-|   |   |   |   |   |   syl_phoncat0 = CK: sekunda (76.0/4.0)
-|   |   |   |   |   |   syl_phoncat0 = CKC: sekunda (68.0/15.0)
+|   |   |   |   |   |   syl_phoncat0 = CK: sekunda (81.0/4.0)
+|   |   |   |   |   |   syl_phoncat0 = CKC: sekunda (73.0/16.0)
 |   |   |   |   |   |   syl_phoncat0 = L: sekunda (0.0)
 |   |   |   |   |   |   syl_phoncat0 = KC: sekunda (0.0)
-|   |   |   |   |   |   syl_phoncat0 = CCL: sekunda (10.0/5.0)
+|   |   |   |   |   |   syl_phoncat0 = CCL: sekunda (11.0/5.0)
 |   |   |   |   |   |   syl_phoncat0 = CCK: sekunda (3.0)
-|   |   |   |   |   |   syl_phoncat0 = CL: sekunda (64.0/20.0)
-|   |   |   |   |   |   syl_phoncat0 = ø: sekunda (4.0)
-|   |   |   |   |   |   syl_phoncat0 = AL: sekunda (69.0/5.0)
+|   |   |   |   |   |   syl_phoncat0 = CL: sekunda (67.0/20.0)
+|   |   |   |   |   |   syl_phoncat0 = ø: sekunda (5.0)
+|   |   |   |   |   |   syl_phoncat0 = AL: sekunda (75.0/6.0)
 |   |   |   |   |   |   syl_phoncat0 = D: sekunda (0.0)
 |   |   |   |   |   |   syl_phoncat0 = CLC: prima (17.0/3.0)
 |   |   |   |   |   |   syl_phoncat0 = CD: prima (10.0)
@@ -89,25 +91,29 @@ cv_ratio4 > 0
 |   |   |   |   |   |   syl_phoncat0 = CKCC: sekunda (1.0)
 |   |   |   |   |   |   syl_phoncat0 = CCKC: sekunda (0.0)
 |   |   |   |   |   |   syl_phoncat0 = KCC: sekunda (0.0)
-|   |   |   |   syl_len0 > 3: prima (78.0/13.0)
+|   |   |   |   syl_len0 > 3: prima (85.0/15.0)
 |   |   |   nucleus_len2 > 1
 |   |   |   |   syl_open2 = o
-|   |   |   |   |   syl_weight3 = heavy: paenultima (12.0)
+|   |   |   |   |   syl_weight3 = heavy: paenultima (13.0)
 |   |   |   |   |   syl_weight3 = light
-|   |   |   |   |   |   sonority1 <= 11
-|   |   |   |   |   |   |   sonority0 <= 10: paenultima (38.0/19.0)
-|   |   |   |   |   |   |   sonority0 > 10: prima (30.0/10.0)
-|   |   |   |   |   |   sonority1 > 11: sekunda (28.0/12.0)
+|   |   |   |   |   |   syl_len2 <= 2
+|   |   |   |   |   |   |   sonority2 <= 9
+|   |   |   |   |   |   |   |   syl_open1 = c: sekunda (21.0/11.0)
+|   |   |   |   |   |   |   |   syl_open1 = o: paenultima (39.0/14.0)
+|   |   |   |   |   |   |   sonority2 > 9: prima (21.0/8.0)
+|   |   |   |   |   |   syl_len2 > 2: antepaenultima (23.0/13.0)
 |   |   |   |   |   syl_weight3 = schwa: antepaenultima (26.0/16.0)
-|   |   |   |   syl_open2 = c: antepaenultima (83.0/20.0)
+|   |   |   |   syl_open2 = c: antepaenultima (91.0/20.0)
 |   |   syl_weight1 = heavy
-|   |   |   sonority_dir <= -1: prima (69.0/13.0)
-|   |   |   sonority_dir > -1: sekunda (42.0/15.0)
-|   |   syl_weight1 = schwa: prima (383.0/32.0)
+|   |   |   syl_len0 <= 2
+|   |   |   |   syl_open0 = o: sekunda (22.0)
+|   |   |   |   syl_open0 = c: prima (21.0/6.0)
+|   |   |   syl_len0 > 2: prima (77.0/14.0)
+|   |   syl_weight1 = schwa: prima (412.0/37.0)
 
-Number of Leaves  : 	71
+Number of Leaves  : 	74
 
-Size of the tree : 	99
+Size of the tree : 	105
 === Classifier model ===
 
 Scheme:   JRip
@@ -116,26 +122,31 @@ Relation: 5syl-all_training-weka.filters.unsupervised.attribute.Remove-R102-weka
 JRIP rules:
 ===========
 
-(syl_cv2 = CVVC) and (nucleus_phoncat2 = L) and (sonority_ratio0 <= 3) => stress_class=antepaenultima (31.0/3.0)
-(suffix1 = m) and (comp_len <= 1) => stress_class=antepaenultima (26.0/0.0)
-(sonority2 >= 14) and (syl_len1 <= 2) and (koda_phoncat2 = C) and (nucleus_len2 >= 2) => stress_class=antepaenultima (29.0/0.0)
-(nucleus_phoncat4 = L) and (comp_len <= 1) => stress_class=ultima (363.0/50.0)
-(suffix2 = ø) and (comp_struct = N) => stress_class=ultima (51.0/20.0)
-(syl_weight2 = schwa) and (cv_ratio2 >= 2) and (sonority0 <= 10) => stress_class=sekunda (176.0/26.0)
-(prae_class = noacc) => stress_class=sekunda (89.0/5.0)
-(syl_cv1 = CVVC) and (syl_len1 <= 3) => stress_class=sekunda (73.0/10.0)
-(syl_weight0 = schwa) => stress_class=sekunda (40.0/1.0)
-(comp_len >= 2) and (syl_weight1 = light) and (syl_weight4 = schwa) and (koda_phoncat1 = C) => stress_class=sekunda (63.0/29.0)
-(comp_len <= 1) and (suffix_phoncat4 = LCKC) => stress_class=paenultima (455.0/59.0)
-(syl_weight1 = light) and (comp_len <= 1) and (suffix_phoncat5 = KCCKC) => stress_class=paenultima (96.0/14.0)
-(suffix_phoncat3 = LCK) and (comp_len <= 1) => stress_class=paenultima (49.0/7.0)
-(cv_ratio2 <= 0) and (nucleus_phoncat3 = L) and (syl_open3 = c) => stress_class=paenultima (33.0/4.0)
- => stress_class=prima (1187.0/313.0)
+(syl_phoncat2 = CLC) => stress_class=antepaenultima (84.0/29.0)
+(nucleus_len2 >= 2) and (syl_open2 = c) and (syl_weight1 = light) and (nucleus_phoncat2 = L) => stress_class=antepaenultima (42.0/3.0)
+(syl_weight3 = schwa) and (onset_len0 <= 0) and (koda_phoncat1 = C) and (sonority_ratio0 <= 8) => stress_class=antepaenultima (45.0/17.0)
+(suffix_phoncat5 = LCLKC) => stress_class=antepaenultima (36.0/7.0)
+(nucleus_phoncat4 = L) and (comp_len <= 1) and (sonority4 <= 10) => stress_class=ultima (298.0/15.0)
+(nucleus_phoncat4 = L) and (comp_len <= 1) and (syl_len3 <= 3) => stress_class=ultima (66.0/18.0)
+(suffix2 = ø) and (comp_len <= 1) and (sonority4 >= 13) and (sonority4 <= 14) => stress_class=ultima (34.0/5.0)
+(syl_weight2 = schwa) and (syl_len2 >= 3) and (syl_open0 = o) and (sonority_ratio0 <= 4) => stress_class=sekunda (105.0/3.0)
+(prae_class = noacc) => stress_class=sekunda (96.0/5.0)
+(syl_weight2 = schwa) and (syl_weight1 = light) and (sonority0 <= 10) and (suffix2 = en) => stress_class=sekunda (49.0/5.0)
+(syl_cv1 = CVVC) and (syl_len1 <= 3) and (praefix_phoncat1 = C) => stress_class=sekunda (50.0/2.0)
+(syl_phoncat0 = CK) and (syl_weight0 = schwa) => stress_class=sekunda (36.0/1.0)
+(syl_weight2 = schwa) and (sonority2 >= 9) and (syl_cv0 = CVC) => stress_class=sekunda (50.0/8.0)
+(comp_len >= 2) and (syl_weight1 = light) and (syl_len0 <= 2) and (koda_phoncat1 = C) and (syl_weight4 = schwa) and (prae_class = ø) => stress_class=sekunda (29.0/1.0)
+(comp_len <= 1) and (suffix_phoncat4 = LCKC) and (sonority4 >= 13) and (prae_class = ø) => stress_class=paenultima (341.0/5.0)
+(comp_len <= 1) and (syl_weight1 = light) and (nucleus_phoncat2 = L) => stress_class=paenultima (230.0/65.0)
+(syl_weight1 = light) and (comp_len <= 1) and (suffix_phoncat5 = KCCKC) => stress_class=paenultima (43.0/7.0)
+(nucleus_phoncat3 = L) and (syl_open1 = o) and (sonority2 <= 9) and (sonority0 <= 10) => stress_class=paenultima (49.0/11.0)
+(nucleus_phoncat2 = L) and (nucleus_len3 >= 2) and (syl_open3 = c) => stress_class=paenultima (21.0/7.0)
+ => stress_class=prima (1224.0/278.0)
 
-Number of Rules : 15
+Number of Rules : 20
 === Classifier model ===
 
 Scheme:   NeuralNetwork
 Relation: 5syl-all_training-weka.filters.unsupervised.attribute.Remove-R102-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@60f520d6
+weka.classifiers.functions.NeuralNetwork@7346e036

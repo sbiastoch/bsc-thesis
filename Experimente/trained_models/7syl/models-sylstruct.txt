@@ -31,6 +31,11 @@ JRIP rules:
 Number of Rules : 1
 === Classifier model ===
 
+Scheme:   NeuralNetwork
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R84-125,130-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_cv.|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.)$-V-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@102c0c9d=== Classifier model ===
+
 Scheme:   J48
 Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R84-125,130-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_cv.|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.)$-V-output-debug-info-do-not-check-capabilities
 
@@ -39,12 +44,12 @@ J48 pruned tree
 
 koda_len4 <= 1
 |   nucleus_len6 <= 1
-|   |   syl_len1 <= 2: paenultima (38.0/14.0)
-|   |   syl_len1 > 2: prima (42.0/20.0)
+|   |   syl_len1 <= 2: paenultima (39.0/14.0)
+|   |   syl_len1 > 2: prima (46.0/22.0)
 |   nucleus_len6 > 1
-|   |   cv_ratio3 <= 0: ultima (29.0/9.0)
+|   |   cv_ratio3 <= 0: ultima (32.0/10.0)
 |   |   cv_ratio3 > 0: prima (29.0/16.0)
-koda_len4 > 1: antepaenultima (25.0/6.0)
+koda_len4 > 1: antepaenultima (27.0/6.0)
 
 Number of Leaves  : 	5
 
@@ -57,12 +62,13 @@ Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka
 JRIP rules:
 ===========
 
- => stress_class=prima (163.0/116.0)
+(syl_cv6 = CVC) and (syl_len4 <= 2) => stress_class=paenultima (37.0/9.0)
+ => stress_class=prima (136.0/90.0)
 
-Number of Rules : 1
+Number of Rules : 2
 === Classifier model ===
 
 Scheme:   NeuralNetwork
 Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R84-125,130-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_cv.|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@7804d3a1
+weka.classifiers.functions.NeuralNetwork@59403ef8

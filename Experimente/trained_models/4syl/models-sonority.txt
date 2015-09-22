@@ -6,194 +6,210 @@ Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.
 J48 pruned tree
 ------------------
 
-sonority0 <= 11
+sonority0 <= 10
 |   sonority1 <= 12
 |   |   sonority_ratio1 <= 3
-|   |   |   sonority_ratio0 <= 3
-|   |   |   |   sonority_ratio0 <= 2: prima (168.0/50.0)
-|   |   |   |   sonority_ratio0 > 2
+|   |   |   sonority_ratio0 <= 7
+|   |   |   |   sonority3 <= 7
+|   |   |   |   |   sonority1 <= 8
+|   |   |   |   |   |   sonority_ratio2 <= 4: prima (40.0/20.0)
+|   |   |   |   |   |   sonority_ratio2 > 4: paenultima (33.0/11.0)
+|   |   |   |   |   sonority1 > 8: prima (166.0/26.0)
+|   |   |   |   sonority3 > 7
 |   |   |   |   |   sonority3 <= 9
-|   |   |   |   |   |   sonority3 <= 7: prima (141.0/35.0)
-|   |   |   |   |   |   sonority3 > 7
-|   |   |   |   |   |   |   sonority_ratio2 <= 3: prima (48.0/26.0)
-|   |   |   |   |   |   |   sonority_ratio2 > 3: ultima (79.0/36.0)
+|   |   |   |   |   |   sonority2 <= 12
+|   |   |   |   |   |   |   sonority_ratio2 <= 3
+|   |   |   |   |   |   |   |   sonority0 <= 8: prima (32.0/18.0)
+|   |   |   |   |   |   |   |   sonority0 > 8: ultima (31.0/18.0)
+|   |   |   |   |   |   |   sonority_ratio2 > 3: ultima (123.0/37.0)
+|   |   |   |   |   |   sonority2 > 12: prima (24.0/9.0)
 |   |   |   |   |   sonority3 > 9
 |   |   |   |   |   |   sonority_ratio3 <= 4
-|   |   |   |   |   |   |   sonority_ratio1 <= 2: antepaenultima (90.0/40.0)
-|   |   |   |   |   |   |   sonority_ratio1 > 2
-|   |   |   |   |   |   |   |   sonority3 <= 12
-|   |   |   |   |   |   |   |   |   sonority_ratio3 <= 3: prima (285.0/121.0)
-|   |   |   |   |   |   |   |   |   sonority_ratio3 > 3
-|   |   |   |   |   |   |   |   |   |   sonority0 <= 10
-|   |   |   |   |   |   |   |   |   |   |   sonority2 <= 10: antepaenultima (50.0/22.0)
-|   |   |   |   |   |   |   |   |   |   |   sonority2 > 10: prima (42.0/15.0)
-|   |   |   |   |   |   |   |   |   |   sonority0 > 10
-|   |   |   |   |   |   |   |   |   |   |   sonority1 <= 10
-|   |   |   |   |   |   |   |   |   |   |   |   sonority2 <= 11: prima (23.0/7.0)
-|   |   |   |   |   |   |   |   |   |   |   |   sonority2 > 11: antepaenultima (20.0/9.0)
-|   |   |   |   |   |   |   |   |   |   |   sonority1 > 10: antepaenultima (20.0/6.0)
-|   |   |   |   |   |   |   |   sonority3 > 12
-|   |   |   |   |   |   |   |   |   sonority_ratio2 <= 3: prima (83.0/32.0)
-|   |   |   |   |   |   |   |   |   sonority_ratio2 > 3
-|   |   |   |   |   |   |   |   |   |   sonority_ratio3 <= 3: prima (20.0/9.0)
-|   |   |   |   |   |   |   |   |   |   sonority_ratio3 > 3: paenultima (111.0/39.0)
+|   |   |   |   |   |   |   sonority0 <= 6
+|   |   |   |   |   |   |   |   sonority1 <= 8: paenultima (53.0/18.0)
+|   |   |   |   |   |   |   |   sonority1 > 8
+|   |   |   |   |   |   |   |   |   sonority_ratio3 <= 3: prima (46.0/24.0)
+|   |   |   |   |   |   |   |   |   sonority_ratio3 > 3: paenultima (33.0/15.0)
+|   |   |   |   |   |   |   sonority0 > 6
+|   |   |   |   |   |   |   |   sonority_ratio2 <= 3: prima (411.0/136.0)
+|   |   |   |   |   |   |   |   sonority_ratio2 > 3
+|   |   |   |   |   |   |   |   |   sonority3 <= 12
+|   |   |   |   |   |   |   |   |   |   sonority1 <= 7
+|   |   |   |   |   |   |   |   |   |   |   sonority2 <= 12
+|   |   |   |   |   |   |   |   |   |   |   |   sonority0 <= 9: prima (69.0/42.0)
+|   |   |   |   |   |   |   |   |   |   |   |   sonority0 > 9: paenultima (23.0/9.0)
+|   |   |   |   |   |   |   |   |   |   |   sonority2 > 12
+|   |   |   |   |   |   |   |   |   |   |   |   sonority3 <= 11: paenultima (26.0/10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   sonority3 > 11: prima (21.0/11.0)
+|   |   |   |   |   |   |   |   |   |   sonority1 > 7
+|   |   |   |   |   |   |   |   |   |   |   sonority0 <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   sonority_ratio2 <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   sonority2 <= 10: antepaenultima (43.0/15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   sonority2 > 10: prima (24.0/11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   sonority_ratio2 > 4: prima (40.0/13.0)
+|   |   |   |   |   |   |   |   |   |   |   sonority0 > 7: prima (161.0/52.0)
+|   |   |   |   |   |   |   |   |   sonority3 > 12
+|   |   |   |   |   |   |   |   |   |   sonority_ratio3 <= 3: prima (31.0/19.0)
+|   |   |   |   |   |   |   |   |   |   sonority_ratio3 > 3: paenultima (164.0/56.0)
 |   |   |   |   |   |   sonority_ratio3 > 4
 |   |   |   |   |   |   |   sonority_ratio3 <= 5
-|   |   |   |   |   |   |   |   sonority_ratio2 <= 3
-|   |   |   |   |   |   |   |   |   sonority0 <= 8: prima (30.0/13.0)
-|   |   |   |   |   |   |   |   |   sonority0 > 8: antepaenultima (30.0/11.0)
-|   |   |   |   |   |   |   |   sonority_ratio2 > 3
-|   |   |   |   |   |   |   |   |   sonority3 <= 13: prima (21.0/10.0)
-|   |   |   |   |   |   |   |   |   sonority3 > 13: paenultima (25.0/12.0)
-|   |   |   |   |   |   |   sonority_ratio3 > 5: ultima (21.0/9.0)
-|   |   |   sonority_ratio0 > 3
-|   |   |   |   sonority0 <= 8
-|   |   |   |   |   sonority1 <= 10
-|   |   |   |   |   |   sonority1 <= 8
-|   |   |   |   |   |   |   sonority2 <= 11
-|   |   |   |   |   |   |   |   sonority_dir <= 1: ultima (40.0/20.0)
-|   |   |   |   |   |   |   |   sonority_dir > 1: paenultima (32.0/15.0)
-|   |   |   |   |   |   |   sonority2 > 11: paenultima (25.0/4.0)
-|   |   |   |   |   |   sonority1 > 8: prima (43.0/28.0)
-|   |   |   |   |   sonority1 > 10
-|   |   |   |   |   |   sonority0 <= 7
-|   |   |   |   |   |   |   sonority_ratio3 <= 3: prima (26.0/11.0)
-|   |   |   |   |   |   |   sonority_ratio3 > 3: paenultima (36.0/20.0)
-|   |   |   |   |   |   sonority0 > 7
-|   |   |   |   |   |   |   sonority3 <= 9: prima (26.0/11.0)
-|   |   |   |   |   |   |   sonority3 > 9: paenultima (246.0/85.0)
-|   |   |   |   sonority0 > 8
+|   |   |   |   |   |   |   |   sonority1 <= 7
+|   |   |   |   |   |   |   |   |   sonority2 <= 9: ultima (23.0/14.0)
+|   |   |   |   |   |   |   |   |   sonority2 > 9: paenultima (33.0/18.0)
+|   |   |   |   |   |   |   |   sonority1 > 7
+|   |   |   |   |   |   |   |   |   sonority3 <= 10: prima (43.0/10.0)
+|   |   |   |   |   |   |   |   |   sonority3 > 10
+|   |   |   |   |   |   |   |   |   |   sonority2 <= 8: prima (33.0/10.0)
+|   |   |   |   |   |   |   |   |   |   sonority2 > 8: paenultima (45.0/29.0)
+|   |   |   |   |   |   |   sonority_ratio3 > 5: ultima (38.0/14.0)
+|   |   |   sonority_ratio0 > 7
+|   |   |   |   sonority1 <= 7: ultima (43.0/25.0)
+|   |   |   |   sonority1 > 7
+|   |   |   |   |   sonority0 <= 9
+|   |   |   |   |   |   sonority3 <= 9: prima (29.0/12.0)
+|   |   |   |   |   |   sonority3 > 9: paenultima (262.0/89.0)
+|   |   |   |   |   sonority0 > 9: prima (55.0/3.0)
+|   |   sonority_ratio1 > 3
+|   |   |   sonority_ratio3 <= 4
+|   |   |   |   sonority_ratio3 <= 2
+|   |   |   |   |   sonority_ratio2 <= 5
+|   |   |   |   |   |   sonority2 <= 9: ultima (40.0/19.0)
+|   |   |   |   |   |   sonority2 > 9: antepaenultima (40.0/24.0)
+|   |   |   |   |   sonority_ratio2 > 5: ultima (22.0/2.0)
+|   |   |   |   sonority_ratio3 > 2
+|   |   |   |   |   sonority3 <= 9
+|   |   |   |   |   |   sonority3 <= 8
+|   |   |   |   |   |   |   sonority1 <= 11: paenultima (78.0/17.0)
+|   |   |   |   |   |   |   sonority1 > 11: prima (39.0/18.0)
+|   |   |   |   |   |   sonority3 > 8
+|   |   |   |   |   |   |   sonority2 <= 8: paenultima (26.0/15.0)
+|   |   |   |   |   |   |   sonority2 > 8: ultima (84.0/28.0)
+|   |   |   |   |   sonority3 > 9
+|   |   |   |   |   |   sonority2 <= 7
+|   |   |   |   |   |   |   sonority2 <= 6: ultima (36.0/15.0)
+|   |   |   |   |   |   |   sonority2 > 6
+|   |   |   |   |   |   |   |   sonority1 <= 10: ultima (47.0/32.0)
+|   |   |   |   |   |   |   |   sonority1 > 10: prima (21.0/9.0)
+|   |   |   |   |   |   sonority2 > 7
+|   |   |   |   |   |   |   sonority3 <= 12
+|   |   |   |   |   |   |   |   sonority1 <= 9: paenultima (173.0/68.0)
+|   |   |   |   |   |   |   |   sonority1 > 9
+|   |   |   |   |   |   |   |   |   sonority0 <= 9
+|   |   |   |   |   |   |   |   |   |   sonority0 <= 7
+|   |   |   |   |   |   |   |   |   |   |   sonority_ratio3 <= 3: paenultima (74.0/38.0)
+|   |   |   |   |   |   |   |   |   |   |   sonority_ratio3 > 3: antepaenultima (28.0/16.0)
+|   |   |   |   |   |   |   |   |   |   sonority0 > 7: prima (67.0/30.0)
+|   |   |   |   |   |   |   |   |   sonority0 > 9: antepaenultima (42.0/20.0)
+|   |   |   |   |   |   |   sonority3 > 12
+|   |   |   |   |   |   |   |   sonority_ratio2 <= 3: prima (39.0/23.0)
+|   |   |   |   |   |   |   |   sonority_ratio2 > 3: paenultima (241.0/58.0)
+|   |   |   sonority_ratio3 > 4
+|   |   |   |   sonority_ratio3 <= 5
+|   |   |   |   |   sonority_ratio2 <= 3
+|   |   |   |   |   |   sonority3 <= 13: ultima (21.0/11.0)
+|   |   |   |   |   |   sonority3 > 13: antepaenultima (51.0/30.0)
+|   |   |   |   |   sonority_ratio2 > 3
+|   |   |   |   |   |   sonority_ratio2 <= 4
+|   |   |   |   |   |   |   sonority_ratio0 <= 3: paenultima (35.0/19.0)
+|   |   |   |   |   |   |   sonority_ratio0 > 3: ultima (30.0/18.0)
+|   |   |   |   |   |   sonority_ratio2 > 4: paenultima (49.0/28.0)
+|   |   |   |   sonority_ratio3 > 5: ultima (56.0/23.0)
+|   sonority1 > 12
+|   |   sonority_ratio0 <= 5
+|   |   |   sonority_ratio1 <= 4
+|   |   |   |   sonority1 <= 14
 |   |   |   |   |   sonority3 <= 12
-|   |   |   |   |   |   sonority_ratio3 <= 3: prima (679.0/169.0)
-|   |   |   |   |   |   sonority_ratio3 > 3
-|   |   |   |   |   |   |   sonority3 <= 9
-|   |   |   |   |   |   |   |   sonority2 <= 8: prima (24.0/14.0)
-|   |   |   |   |   |   |   |   sonority2 > 8
-|   |   |   |   |   |   |   |   |   sonority2 <= 10: ultima (52.0/12.0)
-|   |   |   |   |   |   |   |   |   sonority2 > 10: prima (27.0/12.0)
-|   |   |   |   |   |   |   sonority3 > 9
-|   |   |   |   |   |   |   |   sonority_ratio3 <= 4: prima (198.0/60.0)
-|   |   |   |   |   |   |   |   sonority_ratio3 > 4
-|   |   |   |   |   |   |   |   |   sonority3 <= 10: prima (41.0/14.0)
-|   |   |   |   |   |   |   |   |   sonority3 > 10: ultima (20.0/9.0)
+|   |   |   |   |   |   sonority3 <= 7: prima (53.0/17.0)
+|   |   |   |   |   |   sonority3 > 7
+|   |   |   |   |   |   |   sonority_ratio1 <= 3
+|   |   |   |   |   |   |   |   sonority0 <= 7: antepaenultima (25.0/7.0)
+|   |   |   |   |   |   |   |   sonority0 > 7: prima (29.0/11.0)
+|   |   |   |   |   |   |   sonority_ratio1 > 3
+|   |   |   |   |   |   |   |   sonority_ratio0 <= 3
+|   |   |   |   |   |   |   |   |   sonority_ratio2 <= 4: antepaenultima (73.0/35.0)
+|   |   |   |   |   |   |   |   |   sonority_ratio2 > 4: prima (27.0/9.0)
+|   |   |   |   |   |   |   |   sonority_ratio0 > 3: antepaenultima (110.0/32.0)
 |   |   |   |   |   sonority3 > 12
 |   |   |   |   |   |   sonority_ratio2 <= 3
-|   |   |   |   |   |   |   sonority2 <= 7: prima (85.0/22.0)
-|   |   |   |   |   |   |   sonority2 > 7
-|   |   |   |   |   |   |   |   sonority_ratio3 <= 4: prima (88.0/24.0)
-|   |   |   |   |   |   |   |   sonority_ratio3 > 4: paenultima (30.0/12.0)
-|   |   |   |   |   |   sonority_ratio2 > 3
-|   |   |   |   |   |   |   sonority0 <= 10: paenultima (94.0/39.0)
-|   |   |   |   |   |   |   sonority0 > 10
-|   |   |   |   |   |   |   |   sonority2 <= 10: prima (60.0/20.0)
-|   |   |   |   |   |   |   |   sonority2 > 10: paenultima (77.0/31.0)
-|   |   sonority_ratio1 > 3
-|   |   |   sonority0 <= 10
-|   |   |   |   sonority_ratio3 <= 4
-|   |   |   |   |   sonority_ratio3 <= 2
-|   |   |   |   |   |   sonority3 <= 8: ultima (54.0/16.0)
-|   |   |   |   |   |   sonority3 > 8: prima (43.0/29.0)
-|   |   |   |   |   sonority_ratio3 > 2
-|   |   |   |   |   |   sonority3 <= 9
-|   |   |   |   |   |   |   sonority3 <= 8
-|   |   |   |   |   |   |   |   sonority1 <= 11: paenultima (74.0/15.0)
-|   |   |   |   |   |   |   |   sonority1 > 11: prima (35.0/14.0)
-|   |   |   |   |   |   |   sonority3 > 8
-|   |   |   |   |   |   |   |   sonority2 <= 8: paenultima (26.0/15.0)
-|   |   |   |   |   |   |   |   sonority2 > 8: ultima (78.0/26.0)
-|   |   |   |   |   |   sonority3 > 9
-|   |   |   |   |   |   |   sonority2 <= 7
-|   |   |   |   |   |   |   |   sonority2 <= 6: ultima (34.0/15.0)
-|   |   |   |   |   |   |   |   sonority2 > 6
-|   |   |   |   |   |   |   |   |   sonority1 <= 9: ultima (31.0/22.0)
-|   |   |   |   |   |   |   |   |   sonority1 > 9: prima (32.0/17.0)
-|   |   |   |   |   |   |   sonority2 > 7
-|   |   |   |   |   |   |   |   sonority3 <= 12
-|   |   |   |   |   |   |   |   |   sonority1 <= 10: paenultima (235.0/105.0)
-|   |   |   |   |   |   |   |   |   sonority1 > 10
-|   |   |   |   |   |   |   |   |   |   sonority_ratio1 <= 5
-|   |   |   |   |   |   |   |   |   |   |   sonority0 <= 9
-|   |   |   |   |   |   |   |   |   |   |   |   sonority0 <= 7: antepaenultima (41.0/20.0)
-|   |   |   |   |   |   |   |   |   |   |   |   sonority0 > 7: prima (26.0/8.0)
-|   |   |   |   |   |   |   |   |   |   |   sonority0 > 9: antepaenultima (27.0/9.0)
-|   |   |   |   |   |   |   |   |   |   sonority_ratio1 > 5: paenultima (29.0/14.0)
-|   |   |   |   |   |   |   |   sonority3 > 12
-|   |   |   |   |   |   |   |   |   sonority_ratio2 <= 3: prima (39.0/23.0)
-|   |   |   |   |   |   |   |   |   sonority_ratio2 > 3: paenultima (231.0/57.0)
-|   |   |   |   sonority_ratio3 > 4
-|   |   |   |   |   sonority_ratio3 <= 5
-|   |   |   |   |   |   sonority3 <= 10: paenultima (40.0/22.0)
-|   |   |   |   |   |   sonority3 > 10
-|   |   |   |   |   |   |   sonority3 <= 13: ultima (34.0/17.0)
-|   |   |   |   |   |   |   sonority3 > 13
-|   |   |   |   |   |   |   |   sonority2 <= 7: antepaenultima (42.0/23.0)
-|   |   |   |   |   |   |   |   sonority2 > 7: paenultima (60.0/32.0)
-|   |   |   |   |   sonority_ratio3 > 5: ultima (52.0/21.0)
-|   |   |   sonority0 > 10
-|   |   |   |   sonority_ratio0 <= 4
-|   |   |   |   |   sonority_ratio2 <= 3
-|   |   |   |   |   |   sonority3 <= 14
-|   |   |   |   |   |   |   sonority2 <= 9: prima (27.0/15.0)
-|   |   |   |   |   |   |   sonority2 > 9: antepaenultima (45.0/19.0)
-|   |   |   |   |   |   sonority3 > 14: antepaenultima (22.0/1.0)
-|   |   |   |   |   sonority_ratio2 > 3
-|   |   |   |   |   |   sonority3 <= 9: prima (33.0/21.0)
-|   |   |   |   |   |   sonority3 > 9
-|   |   |   |   |   |   |   sonority3 <= 12: antepaenultima (73.0/33.0)
-|   |   |   |   |   |   |   sonority3 > 12: paenultima (61.0/24.0)
-|   |   |   |   sonority_ratio0 > 4
-|   |   |   |   |   sonority_ratio3 <= 3: prima (92.0/23.0)
-|   |   |   |   |   sonority_ratio3 > 3
-|   |   |   |   |   |   sonority1 <= 11
-|   |   |   |   |   |   |   sonority2 <= 7: prima (20.0/5.0)
-|   |   |   |   |   |   |   sonority2 > 7
-|   |   |   |   |   |   |   |   sonority3 <= 12: prima (25.0/7.0)
-|   |   |   |   |   |   |   |   sonority3 > 12: paenultima (68.0/25.0)
-|   |   |   |   |   |   sonority1 > 11: prima (26.0/9.0)
-|   sonority1 > 12
-|   |   sonority_ratio0 <= 4
-|   |   |   sonority3 <= 9
-|   |   |   |   sonority3 <= 7: prima (86.0/31.0)
-|   |   |   |   sonority3 > 7
-|   |   |   |   |   sonority_ratio2 <= 3: antepaenultima (29.0/8.0)
-|   |   |   |   |   sonority_ratio2 > 3: ultima (37.0/20.0)
-|   |   |   sonority3 > 9
-|   |   |   |   sonority_ratio0 <= 2: prima (40.0/16.0)
-|   |   |   |   sonority_ratio0 > 2
-|   |   |   |   |   sonority3 <= 12
-|   |   |   |   |   |   sonority_ratio1 <= 4
-|   |   |   |   |   |   |   sonority1 <= 14: antepaenultima (224.0/85.0)
-|   |   |   |   |   |   |   sonority1 > 14: prima (31.0/10.0)
-|   |   |   |   |   |   sonority_ratio1 > 4: antepaenultima (91.0/20.0)
-|   |   |   |   |   sonority3 > 12
-|   |   |   |   |   |   sonority_ratio2 <= 3: antepaenultima (83.0/31.0)
-|   |   |   |   |   |   sonority_ratio2 > 3
-|   |   |   |   |   |   |   sonority3 <= 13: paenultima (38.0/12.0)
-|   |   |   |   |   |   |   sonority3 > 13: antepaenultima (33.0/17.0)
-|   |   sonority_ratio0 > 4
-|   |   |   sonority0 <= 10
-|   |   |   |   sonority_ratio1 <= 4
-|   |   |   |   |   sonority_ratio0 <= 5: antepaenultima (33.0/15.0)
-|   |   |   |   |   sonority_ratio0 > 5: prima (57.0/35.0)
-|   |   |   |   sonority_ratio1 > 4: antepaenultima (28.0/7.0)
-|   |   |   sonority0 > 10: prima (153.0/34.0)
-sonority0 > 11
-|   sonority_ratio3 <= 2
-|   |   sonority3 <= 8
-|   |   |   sonority_ratio1 <= 3: prima (20.0/6.0)
-|   |   |   sonority_ratio1 > 3: ultima (24.0/7.0)
-|   |   sonority3 > 8: prima (71.0/5.0)
-|   sonority_ratio3 > 2
-|   |   sonority3 <= 12: prima (1041.0/168.0)
+|   |   |   |   |   |   |   sonority_ratio0 <= 3: prima (22.0/10.0)
+|   |   |   |   |   |   |   sonority_ratio0 > 3: antepaenultima (21.0/7.0)
+|   |   |   |   |   |   sonority_ratio2 > 3: paenultima (52.0/25.0)
+|   |   |   |   sonority1 > 14: prima (63.0/24.0)
+|   |   |   sonority_ratio1 > 4
+|   |   |   |   sonority0 <= 7: antepaenultima (104.0/17.0)
+|   |   |   |   sonority0 > 7
+|   |   |   |   |   sonority1 <= 15: prima (40.0/22.0)
+|   |   |   |   |   sonority1 > 15: antepaenultima (20.0/3.0)
+|   |   sonority_ratio0 > 5
+|   |   |   sonority_ratio1 <= 4: prima (60.0/37.0)
+|   |   |   sonority_ratio1 > 4: antepaenultima (21.0/5.0)
+sonority0 > 10
+|   sonority_ratio0 <= 3
+|   |   sonority0 <= 11
+|   |   |   sonority_ratio0 <= 2: prima (69.0/5.0)
+|   |   |   sonority_ratio0 > 2
+|   |   |   |   sonority3 <= 9
+|   |   |   |   |   sonority3 <= 7: prima (68.0/24.0)
+|   |   |   |   |   sonority3 > 7
+|   |   |   |   |   |   sonority_ratio2 <= 3: prima (21.0/10.0)
+|   |   |   |   |   |   sonority_ratio2 > 3: ultima (46.0/20.0)
+|   |   |   |   sonority3 > 9
+|   |   |   |   |   sonority1 <= 11
+|   |   |   |   |   |   sonority_ratio1 <= 3
+|   |   |   |   |   |   |   sonority_ratio1 <= 2: antepaenultima (45.0/18.0)
+|   |   |   |   |   |   |   sonority_ratio1 > 2
+|   |   |   |   |   |   |   |   sonority_dir <= -1: prima (32.0/7.0)
+|   |   |   |   |   |   |   |   sonority_dir > -1
+|   |   |   |   |   |   |   |   |   sonority_ratio3 <= 4
+|   |   |   |   |   |   |   |   |   |   sonority3 <= 12
+|   |   |   |   |   |   |   |   |   |   |   sonority_ratio3 <= 3: prima (57.0/22.0)
+|   |   |   |   |   |   |   |   |   |   |   sonority_ratio3 > 3
+|   |   |   |   |   |   |   |   |   |   |   |   sonority2 <= 10: antepaenultima (23.0/8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   sonority2 > 10: prima (38.0/16.0)
+|   |   |   |   |   |   |   |   |   |   sonority3 > 12
+|   |   |   |   |   |   |   |   |   |   |   sonority_ratio2 <= 3: prima (33.0/13.0)
+|   |   |   |   |   |   |   |   |   |   |   sonority_ratio2 > 3: paenultima (41.0/17.0)
+|   |   |   |   |   |   |   |   |   sonority_ratio3 > 4: antepaenultima (30.0/15.0)
+|   |   |   |   |   |   sonority_ratio1 > 3
+|   |   |   |   |   |   |   sonority_ratio2 <= 3: antepaenultima (70.0/29.0)
+|   |   |   |   |   |   |   sonority_ratio2 > 3
+|   |   |   |   |   |   |   |   sonority_ratio1 <= 4: paenultima (61.0/25.0)
+|   |   |   |   |   |   |   |   sonority_ratio1 > 4
+|   |   |   |   |   |   |   |   |   sonority3 <= 12: antepaenultima (27.0/5.0)
+|   |   |   |   |   |   |   |   |   sonority3 > 12: paenultima (26.0/11.0)
+|   |   |   |   |   sonority1 > 11: antepaenultima (164.0/51.0)
+|   |   sonority0 > 11: prima (509.0/80.0)
+|   sonority_ratio0 > 3
+|   |   sonority3 <= 12
+|   |   |   sonority_ratio3 <= 2
+|   |   |   |   sonority_ratio2 <= 3: prima (73.0/14.0)
+|   |   |   |   sonority_ratio2 > 3
+|   |   |   |   |   sonority2 <= 12
+|   |   |   |   |   |   sonority3 <= 8: ultima (33.0/10.0)
+|   |   |   |   |   |   sonority3 > 8: prima (30.0/3.0)
+|   |   |   |   |   sonority2 > 12: prima (27.0/1.0)
+|   |   |   sonority_ratio3 > 2: prima (1482.0/312.0)
 |   |   sonority3 > 12
-|   |   |   sonority3 <= 13
-|   |   |   |   sonority_ratio2 <= 4: prima (139.0/28.0)
-|   |   |   |   sonority_ratio2 > 4: paenultima (42.0/19.0)
-|   |   |   sonority3 > 13: prima (206.0/43.0)
+|   |   |   sonority2 <= 7: prima (179.0/44.0)
+|   |   |   sonority2 > 7
+|   |   |   |   sonority0 <= 12
+|   |   |   |   |   sonority_ratio3 <= 4
+|   |   |   |   |   |   sonority3 <= 13
+|   |   |   |   |   |   |   sonority_ratio2 <= 5
+|   |   |   |   |   |   |   |   sonority_ratio1 <= 4: prima (149.0/58.0)
+|   |   |   |   |   |   |   |   sonority_ratio1 > 4: paenultima (42.0/16.0)
+|   |   |   |   |   |   |   sonority_ratio2 > 5: paenultima (28.0/8.0)
+|   |   |   |   |   |   sonority3 > 13: prima (83.0/15.0)
+|   |   |   |   |   sonority_ratio3 > 4
+|   |   |   |   |   |   sonority_ratio2 <= 3: paenultima (37.0/14.0)
+|   |   |   |   |   |   sonority_ratio2 > 3
+|   |   |   |   |   |   |   sonority2 <= 10: prima (25.0/13.0)
+|   |   |   |   |   |   |   sonority2 > 10: paenultima (47.0/17.0)
+|   |   |   |   sonority0 > 12: prima (121.0/24.0)
 
-Number of Leaves  : 	93
+Number of Leaves  : 	101
 
-Size of the tree : 	185
+Size of the tree : 	201
 === Classifier model ===
 
 Scheme:   JRip
@@ -202,34 +218,33 @@ Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.
 JRIP rules:
 ===========
 
-(sonority3 <= 9) and (sonority3 >= 8) and (sonority_ratio2 >= 4) and (sonority2 <= 10) => stress_class=ultima (312.0/112.0)
-(sonority_ratio3 >= 5) and (sonority_ratio3 >= 6) and (sonority3 >= 12) and (sonority2 <= 10) and (sonority_ratio1 <= 5) => stress_class=ultima (86.0/14.0)
-(sonority1 <= 9) and (sonority0 <= 10) and (sonority2 <= 10) and (sonority_ratio2 >= 5) and (sonority_dir >= 1) => stress_class=ultima (74.0/33.0)
-(sonority_ratio3 <= 2) and (sonority_ratio2 >= 5) and (sonority3 <= 8) => stress_class=ultima (67.0/15.0)
-(sonority_ratio0 <= 3) and (sonority1 >= 12) and (sonority0 <= 11) and (sonority0 >= 11) => stress_class=antepaenultima (189.0/77.0)
-(sonority1 >= 12) and (sonority0 <= 10) and (sonority1 >= 13) and (sonority_ratio1 >= 5) and (sonority0 <= 7) => stress_class=antepaenultima (111.0/18.0)
-(sonority_ratio0 <= 3) and (sonority0 <= 11) and (sonority_ratio0 >= 3) and (sonority_ratio2 <= 3) and (sonority3 >= 14) and (sonority0 >= 11) => stress_class=antepaenultima (54.0/14.0)
-(sonority1 >= 12) and (sonority0 <= 10) and (sonority1 >= 13) and (sonority0 >= 9) and (sonority_ratio0 >= 4) and (sonority3 >= 8) and (sonority_ratio1 >= 4) => stress_class=antepaenultima (164.0/53.0)
-(sonority_ratio0 <= 3) and (sonority0 <= 11) and (sonority_ratio0 >= 3) and (sonority1 >= 11) and (sonority1 >= 13) and (sonority3 >= 9) and (sonority3 <= 11) and (sonority_ratio2 <= 4) and (sonority1 <= 14) => stress_class=antepaenultima (56.0/19.0)
-(sonority_ratio0 <= 3) and (sonority0 <= 7) and (sonority3 <= 12) and (sonority3 >= 12) and (sonority2 <= 13) => stress_class=antepaenultima (132.0/60.0)
-(sonority_ratio0 <= 3) and (sonority0 <= 11) and (sonority_ratio0 >= 3) and (sonority1 >= 11) and (sonority_ratio1 >= 5) and (sonority1 <= 11) and (sonority3 <= 12) => stress_class=antepaenultima (69.0/27.0)
-(sonority_ratio0 <= 3) and (sonority0 <= 11) and (sonority_ratio1 <= 2) and (sonority1 >= 9) => stress_class=antepaenultima (53.0/23.0)
-(sonority_ratio0 <= 3) and (sonority0 <= 11) and (sonority_ratio2 <= 4) and (sonority2 >= 10) and (sonority_ratio0 >= 3) and (sonority0 >= 11) and (sonority3 >= 12) => stress_class=antepaenultima (75.0/33.0)
-(sonority_dir >= 1) and (sonority_ratio2 >= 4) and (sonority3 >= 13) and (sonority3 <= 13) => stress_class=paenultima (409.0/102.0)
-(sonority0 <= 10) and (sonority_ratio2 >= 4) and (sonority3 >= 13) and (sonority3 <= 13) => stress_class=paenultima (55.0/14.0)
-(sonority_dir >= 0) and (sonority_ratio0 >= 6) and (sonority0 <= 8) and (sonority0 >= 8) and (sonority_ratio1 <= 3) => stress_class=paenultima (261.0/96.0)
-(sonority1 <= 9) and (sonority0 <= 10) and (sonority_ratio2 >= 4) and (sonority_ratio2 >= 5) and (sonority_ratio1 >= 4) => stress_class=paenultima (120.0/42.0)
-(sonority_dir >= 0) and (sonority_ratio1 >= 4) and (sonority1 <= 11) and (sonority3 <= 10) and (sonority_ratio3 <= 3) => stress_class=paenultima (161.0/71.0)
-(sonority_dir >= 0) and (sonority_ratio2 >= 4) and (sonority_ratio3 >= 4) and (sonority3 >= 13) and (sonority3 <= 13) and (sonority_ratio1 >= 4) and (sonority1 <= 11) and (sonority2 >= 8) => stress_class=paenultima (63.0/12.0)
-(sonority_dir >= 1) and (sonority_ratio2 >= 4) and (sonority_ratio3 >= 5) and (sonority2 >= 13) => stress_class=paenultima (40.0/5.0)
-(sonority1 <= 9) and (sonority0 <= 10) and (sonority_ratio0 >= 4) and (sonority3 <= 7) => stress_class=paenultima (57.0/23.0)
-(sonority1 <= 9) and (sonority0 <= 10) and (sonority0 <= 6) => stress_class=paenultima (68.0/31.0)
- => stress_class=prima (4841.0/1585.0)
+(sonority3 <= 9) and (sonority3 >= 8) and (sonority_ratio2 >= 4) and (sonority2 <= 10) => stress_class=ultima (331.0/119.0)
+(sonority2 <= 9) and (sonority_ratio3 >= 5) and (sonority_ratio3 >= 6) and (sonority3 >= 12) => stress_class=ultima (94.0/21.0)
+(sonority1 <= 9) and (sonority0 <= 10) and (sonority2 <= 10) and (sonority_ratio2 >= 5) and (sonority_dir >= 1) => stress_class=ultima (81.0/36.0)
+(sonority_ratio1 >= 4) and (sonority_ratio3 <= 2) and (sonority3 <= 8) and (sonority_ratio2 >= 5) and (sonority0 >= 9) => stress_class=ultima (27.0/0.0)
+(sonority1 >= 12) and (sonority_ratio0 <= 4) and (sonority0 <= 11) and (sonority1 >= 14) and (sonority_ratio1 >= 5) and (sonority0 <= 7) and (sonority1 >= 15) => stress_class=antepaenultima (71.0/5.0)
+(sonority1 >= 12) and (sonority_ratio0 <= 4) and (sonority0 <= 11) and (sonority0 >= 11) => stress_class=antepaenultima (201.0/79.0)
+(sonority1 >= 12) and (sonority0 <= 10) and (sonority1 >= 13) and (sonority_ratio2 <= 3) and (sonority_ratio0 >= 4) and (sonority_dir <= 0) and (sonority3 >= 9) and (sonority_ratio1 >= 4) => stress_class=antepaenultima (78.0/17.0)
+(sonority_ratio0 <= 3) and (sonority0 <= 7) and (sonority1 >= 13) and (sonority_ratio2 <= 4) => stress_class=antepaenultima (139.0/65.0)
+(sonority_ratio0 <= 3) and (sonority0 <= 11) and (sonority_ratio0 >= 3) and (sonority_ratio2 <= 4) and (sonority0 >= 11) and (sonority_dir >= 1) => stress_class=antepaenultima (75.0/27.0)
+(sonority_ratio0 <= 3) and (sonority0 <= 11) and (sonority3 <= 12) and (sonority_ratio0 >= 3) and (sonority3 >= 12) and (sonority0 >= 11) => stress_class=antepaenultima (98.0/43.0)
+(sonority1 >= 12) and (sonority0 <= 10) and (sonority0 >= 9) and (sonority1 >= 13) and (sonority_ratio0 >= 4) and (sonority_ratio1 >= 4) and (sonority2 >= 11) => stress_class=antepaenultima (68.0/24.0)
+(sonority0 <= 7) and (sonority3 <= 12) and (sonority3 >= 12) and (sonority0 >= 7) and (sonority2 <= 13) => stress_class=antepaenultima (124.0/58.0)
+(sonority_dir >= 1) and (sonority_ratio2 >= 4) and (sonority3 >= 13) and (sonority3 <= 13) => stress_class=paenultima (425.0/106.0)
+(sonority0 <= 10) and (sonority_ratio2 >= 4) and (sonority1 <= 9) and (sonority_ratio2 >= 5) => stress_class=paenultima (296.0/132.0)
+(sonority_dir >= 0) and (sonority_ratio0 >= 8) and (sonority0 <= 8) => stress_class=paenultima (304.0/121.0)
+(sonority_ratio2 >= 4) and (sonority3 >= 13) and (sonority3 <= 13) => stress_class=paenultima (318.0/140.0)
+(sonority0 <= 11) and (sonority_ratio1 >= 4) and (sonority1 <= 11) and (sonority3 <= 10) and (sonority0 <= 10) and (sonority3 <= 7) and (sonority_ratio3 <= 3) => stress_class=paenultima (57.0/14.0)
+(sonority_dir >= 0) and (sonority_ratio1 >= 4) and (sonority1 <= 10) and (sonority3 <= 10) and (sonority_ratio2 >= 4) => stress_class=paenultima (110.0/47.0)
+(sonority_dir >= 1) and (sonority_ratio2 >= 4) and (sonority_ratio3 >= 5) and (sonority2 >= 13) => stress_class=paenultima (35.0/6.0)
+(sonority_dir >= 1) and (sonority_ratio0 >= 5) and (sonority2 >= 11) and (sonority3 >= 15) => stress_class=paenultima (62.0/26.0)
+(sonority0 <= 11) and (sonority1 <= 9) and (sonority0 <= 10) and (sonority0 <= 6) and (sonority_ratio3 <= 4) => stress_class=paenultima (61.0/24.0)
+ => stress_class=prima (4918.0/1616.0)
 
-Number of Rules : 23
+Number of Rules : 22
 === Classifier model ===
 
 Scheme:   NeuralNetwork
 Relation: 4syl-all_training-weka.filters.unsupervised.attribute.Remove-R88-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-35,88-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@2f12f921
+weka.classifiers.functions.NeuralNetwork@4b1262ce

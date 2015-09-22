@@ -27,16 +27,21 @@ JRIP rules:
 Number of Rules : 1
 === Classifier model ===
 
+Scheme:   NeuralNetwork
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R15-26,130-weka.filters.unsupervised.attribute.RemoveByName-E^(prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@125584f=== Classifier model ===
+
 Scheme:   J48
 Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R15-26,130-weka.filters.unsupervised.attribute.RemoveByName-E^(prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
 
 J48 pruned tree
 ------------------
 
-praefix_phoncat2 = KC: paenultima (42.0/27.0)
-praefix_phoncat2 = CK: sekunda (39.0/23.0)
-praefix_phoncat2 = ø: prima (41.0/22.0)
-praefix_phoncat2 = CL: prima (41.0/26.0)
+praefix_phoncat3 = KCC: paenultima (34.0/21.0)
+praefix_phoncat3 = ø: prima (65.0/42.0)
+praefix_phoncat3 = CKC: sekunda (38.0/23.0)
+praefix_phoncat3 = CLC: prima (36.0/21.0)
 
 Number of Leaves  : 	4
 
@@ -49,7 +54,7 @@ Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka
 JRIP rules:
 ===========
 
- => stress_class=prima (163.0/116.0)
+ => stress_class=prima (173.0/124.0)
 
 Number of Rules : 1
 === Classifier model ===
@@ -57,4 +62,4 @@ Number of Rules : 1
 Scheme:   NeuralNetwork
 Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R15-26,130-weka.filters.unsupervised.attribute.RemoveByName-E^(prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@f4e6730
+weka.classifiers.functions.NeuralNetwork@687cd319

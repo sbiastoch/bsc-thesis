@@ -33,6 +33,11 @@ JRIP rules:
 Number of Rules : 1
 === Classifier model ===
 
+Scheme:   NeuralNetwork
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R2-13,15-26,130-weka.filters.unsupervised.attribute.RemoveByName-E^(suff_class|signi_suffix|suffix_phoncat.|suffix.|prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@49530da3=== Classifier model ===
+
 Scheme:   J48
 Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R2-13,15-26,130-weka.filters.unsupervised.attribute.RemoveByName-E^(suff_class|signi_suffix|suffix_phoncat.|suffix.|prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
 
@@ -41,18 +46,23 @@ J48 pruned tree
 
 suffix5 = ieren: paenultima (15.0/1.0)
 suffix5 = ø
-|   praefix_phoncat3 = KCC: paenultima (24.0/15.0)
-|   praefix_phoncat3 = ø
-|   |   suffix_phoncat2 = KC: paenultima (20.0/12.0)
-|   |   suffix_phoncat2 = LC: prima (6.0/3.0)
-|   |   suffix_phoncat2 = ø: prima (21.0/11.0)
-|   praefix_phoncat3 = CKC: sekunda (27.0/14.0)
-|   praefix_phoncat3 = CLC: prima (25.0/13.0)
-suffix5 = ation: ultima (25.0/7.0)
+|   suffix1 = n: sekunda (8.0/4.0)
+|   suffix1 = t: sekunda (29.0/20.0)
+|   suffix1 = h: paenultima (12.0/6.0)
+|   suffix1 = e: prima (21.0/12.0)
+|   suffix1 = r: antepaenultima (12.0/7.0)
+|   suffix1 = g: prima (23.0/14.0)
+|   suffix1 = s: paenultima (5.0/1.0)
+|   suffix1 = l: ultima (9.0/6.0)
+|   suffix1 = k: antepaenultima (3.0/1.0)
+|   suffix1 = a: prima (1.0)
+|   suffix1 = i: sekunda (3.0/2.0)
+|   suffix1 = m: prima (6.0/4.0)
+suffix5 = ation: ultima (26.0/7.0)
 
-Number of Leaves  : 	8
+Number of Leaves  : 	14
 
-Size of the tree : 	11
+Size of the tree : 	16
 === Classifier model ===
 
 Scheme:   JRip
@@ -61,7 +71,7 @@ Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka
 JRIP rules:
 ===========
 
- => stress_class=prima (163.0/116.0)
+ => stress_class=prima (173.0/124.0)
 
 Number of Rules : 1
 === Classifier model ===
@@ -69,4 +79,4 @@ Number of Rules : 1
 Scheme:   NeuralNetwork
 Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R2-13,15-26,130-weka.filters.unsupervised.attribute.RemoveByName-E^(suff_class|signi_suffix|suffix_phoncat.|suffix.|prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@214bfebc
+weka.classifiers.functions.NeuralNetwork@2ee6b7ac

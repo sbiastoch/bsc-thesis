@@ -8,14 +8,16 @@ J48 pruned tree
 
 syl_weight0 = light
 |   comp_len <= 0
-|   |   syl_weight1 = schwa: paenultima (153.0)
+|   |   syl_weight1 = schwa: paenultima (162.0)
 |   |   syl_weight1 = light
 |   |   |   cv_ratio1 <= 1
-|   |   |   |   syl_len1 <= 2: paenultima (62.0/11.0)
-|   |   |   |   syl_len1 > 2: ultima (243.0/40.0)
-|   |   |   cv_ratio1 > 1: paenultima (166.0/35.0)
+|   |   |   |   syl_len1 <= 2: paenultima (67.0/11.0)
+|   |   |   |   syl_len1 > 2: ultima (255.0/42.0)
+|   |   |   cv_ratio1 > 1
+|   |   |   |   sonority1 <= 9: ultima (20.0/9.0)
+|   |   |   |   sonority1 > 9: paenultima (154.0/25.0)
 |   |   syl_weight1 = heavy
-|   |   |   sonority0 <= 11: ultima (87.0/12.0)
+|   |   |   sonority0 <= 11: ultima (92.0/13.0)
 |   |   |   sonority0 > 11: paenultima (24.0/9.0)
 |   |   syl_weight1 = ø: paenultima (0.0)
 |   comp_len > 0
@@ -23,70 +25,70 @@ syl_weight0 = light
 |   |   |   sonority_ratio1 <= 2
 |   |   |   |   comp_len <= 1
 |   |   |   |   |   prae_class = ø
-|   |   |   |   |   |   syl_weight1 = schwa: paenultima (49.0)
-|   |   |   |   |   |   syl_weight1 = light: paenultima (47.0/14.0)
+|   |   |   |   |   |   syl_weight1 = schwa: paenultima (53.0)
+|   |   |   |   |   |   syl_weight1 = light: paenultima (49.0/14.0)
 |   |   |   |   |   |   syl_weight1 = heavy
-|   |   |   |   |   |   |   syl_len0 <= 3: ultima (105.0/32.0)
-|   |   |   |   |   |   |   syl_len0 > 3: paenultima (43.0/6.0)
+|   |   |   |   |   |   |   syl_len0 <= 3: ultima (112.0/34.0)
+|   |   |   |   |   |   |   syl_len0 > 3: paenultima (45.0/6.0)
 |   |   |   |   |   |   syl_weight1 = ø: ultima (1.0)
-|   |   |   |   |   prae_class = acc: paenultima (29.0)
-|   |   |   |   |   prae_class = noacc: ultima (6.0)
-|   |   |   |   comp_len > 1: paenultima (194.0/5.0)
+|   |   |   |   |   prae_class = acc: paenultima (31.0)
+|   |   |   |   |   prae_class = noacc: ultima (7.0)
+|   |   |   |   comp_len > 1: paenultima (204.0/5.0)
 |   |   |   sonority_ratio1 > 2
 |   |   |   |   prae_class = ø
-|   |   |   |   |   syl_weight1 = schwa: paenultima (2926.0)
+|   |   |   |   |   syl_weight1 = schwa: paenultima (3100.0)
 |   |   |   |   |   syl_weight1 = light
 |   |   |   |   |   |   pos = V: paenultima (0.0)
-|   |   |   |   |   |   pos = N: paenultima (551.0/19.0)
-|   |   |   |   |   |   pos = A: paenultima (470.0/3.0)
-|   |   |   |   |   |   pos = ADV: ultima (34.0/13.0)
+|   |   |   |   |   |   pos = N: paenultima (594.0/22.0)
+|   |   |   |   |   |   pos = A: paenultima (501.0/3.0)
+|   |   |   |   |   |   pos = ADV: ultima (36.0/13.0)
 |   |   |   |   |   |   pos = X: paenultima (12.0/2.0)
 |   |   |   |   |   syl_weight1 = heavy
 |   |   |   |   |   |   comp_len <= 1
 |   |   |   |   |   |   |   syl_len1 <= 4
-|   |   |   |   |   |   |   |   sonority_ratio0 <= 3: ultima (32.0/8.0)
-|   |   |   |   |   |   |   |   sonority_ratio0 > 3: paenultima (41.0/13.0)
-|   |   |   |   |   |   |   syl_len1 > 4: paenultima (33.0/4.0)
-|   |   |   |   |   |   comp_len > 1: paenultima (244.0/6.0)
+|   |   |   |   |   |   |   |   sonority_ratio0 <= 3: ultima (34.0/8.0)
+|   |   |   |   |   |   |   |   sonority_ratio0 > 3: paenultima (42.0/13.0)
+|   |   |   |   |   |   |   syl_len1 > 4: paenultima (35.0/4.0)
+|   |   |   |   |   |   comp_len > 1: paenultima (256.0/6.0)
 |   |   |   |   |   syl_weight1 = ø: paenultima (0.0)
-|   |   |   |   prae_class = acc: paenultima (153.0/7.0)
-|   |   |   |   prae_class = noacc: ultima (10.0)
+|   |   |   |   prae_class = acc: paenultima (163.0/7.0)
+|   |   |   |   prae_class = noacc: ultima (14.0)
 |   |   nucleus_len1 > 1
 |   |   |   syl_len0 <= 3
 |   |   |   |   prae_class = ø
-|   |   |   |   |   syl_len1 <= 2: paenultima (116.0/18.0)
+|   |   |   |   |   syl_len1 <= 2: paenultima (126.0/20.0)
 |   |   |   |   |   syl_len1 > 2
 |   |   |   |   |   |   comp_len <= 1
 |   |   |   |   |   |   |   onset_len0 <= 1
 |   |   |   |   |   |   |   |   cv_ratio0 <= 1
 |   |   |   |   |   |   |   |   |   syl_len0 <= 2
-|   |   |   |   |   |   |   |   |   |   sonority0 <= 10: ultima (109.0/19.0)
-|   |   |   |   |   |   |   |   |   |   sonority0 > 10: paenultima (48.0/13.0)
-|   |   |   |   |   |   |   |   |   syl_len0 > 2: paenultima (57.0/7.0)
-|   |   |   |   |   |   |   |   cv_ratio0 > 1: ultima (143.0/28.0)
-|   |   |   |   |   |   |   onset_len0 > 1: ultima (28.0/1.0)
+|   |   |   |   |   |   |   |   |   |   sonority0 <= 10: ultima (114.0/19.0)
+|   |   |   |   |   |   |   |   |   |   sonority0 > 10: paenultima (50.0/15.0)
+|   |   |   |   |   |   |   |   |   syl_len0 > 2: paenultima (59.0/7.0)
+|   |   |   |   |   |   |   |   cv_ratio0 > 1: ultima (152.0/31.0)
+|   |   |   |   |   |   |   onset_len0 > 1: ultima (31.0/2.0)
 |   |   |   |   |   |   comp_len > 1
 |   |   |   |   |   |   |   nomen = F
-|   |   |   |   |   |   |   |   syl_len1 <= 3: ultima (22.0/3.0)
-|   |   |   |   |   |   |   |   syl_len1 > 3: paenultima (32.0/14.0)
-|   |   |   |   |   |   |   nomen = T: paenultima (80.0)
+|   |   |   |   |   |   |   |   sonority0 <= 9: ultima (20.0/1.0)
+|   |   |   |   |   |   |   |   sonority0 > 9: paenultima (41.0/19.0)
+|   |   |   |   |   |   |   nomen = T: paenultima (86.0)
 |   |   |   |   prae_class = acc
-|   |   |   |   |   nomen = F: ultima (35.0/15.0)
-|   |   |   |   |   nomen = T: paenultima (105.0/3.0)
-|   |   |   |   prae_class = noacc: ultima (26.0)
-|   |   |   syl_len0 > 3: paenultima (667.0/31.0)
-syl_weight0 = schwa: ultima (184.0)
+|   |   |   |   |   nomen = F: ultima (38.0/16.0)
+|   |   |   |   |   nomen = T: paenultima (111.0/3.0)
+|   |   |   |   prae_class = noacc: ultima (27.0)
+|   |   |   syl_len0 > 3: paenultima (700.0/32.0)
+syl_weight0 = schwa: ultima (193.0)
 syl_weight0 = heavy
 |   syl_len0 <= 3
 |   |   comp_len <= 1
-|   |   |   sonority_dir <= 1: paenultima (25.0/9.0)
+|   |   |   sonority_dir <= 1: paenultima (27.0/9.0)
 |   |   |   sonority_dir > 1: ultima (22.0/7.0)
-|   |   comp_len > 1: paenultima (36.0/3.0)
-|   syl_len0 > 3: paenultima (821.0/16.0)
+|   |   comp_len > 1: paenultima (37.0/3.0)
+|   syl_len0 > 3: paenultima (875.0/20.0)
 
-Number of Leaves  : 	46
+Number of Leaves  : 	47
 
-Size of the tree : 	78
+Size of the tree : 	80
 === Classifier model ===
 
 Scheme:   JRip
@@ -95,24 +97,21 @@ Relation: 2syl-all_training-weka.filters.unsupervised.attribute.Remove-R60-weka.
 JRIP rules:
 ===========
 
-(syl_len0 <= 2) and (nucleus_len1 >= 2) and (syl_open1 = c) and (onset_len0 >= 1) => stress_class=ultima (274.0/23.0)
-(comp_len <= 0) and (nucleus_len1 >= 2) and (syl_len1 >= 3) and (sonority0 <= 13) => stress_class=ultima (185.0/33.0)
-(syl_len0 <= 2) and (syl_weight1 = heavy) and (sonority0 <= 7) => stress_class=ultima (152.0/23.0)
-(nucleus_len1 >= 2) and (syl_len0 <= 3) and (cv_ratio0 >= 2) and (syl_open1 = c) and (comp_len <= 1) => stress_class=ultima (130.0/27.0)
-(syl_len0 <= 2) and (nucleus_len1 >= 2) and (sonority0 <= 10) and (syl_len1 >= 3) and (prae_class = ø) => stress_class=ultima (82.0/20.0)
-(comp_len <= 0) and (syl_weight1 = heavy) and (syl_len0 <= 3) and (sonority0 <= 13) => stress_class=ultima (65.0/9.0)
-(sonority0 <= 11) and (syl_weight1 = heavy) and (comp_len <= 1) and (cv_ratio0 >= 2) and (syl_len0 <= 3) => stress_class=ultima (68.0/11.0)
-(syl_len0 <= 2) and (syl_weight1 = heavy) and (sonority0 <= 10) => stress_class=ultima (46.0/22.0)
-(syl_weight1 = light) and (pos = ADV) and (comp_len >= 2) => stress_class=ultima (100.0/38.0)
-(syl_weight1 = light) and (syl_weight0 = schwa) => stress_class=ultima (36.0/0.0)
-(syl_weight1 = light) and (comp_len <= 0) and (syl_len1 >= 4) and (syl_len1 <= 4) and (syl_len0 <= 3) => stress_class=ultima (47.0/19.0)
-(syl_weight1 = light) and (syl_len1 <= 3) and (cv_ratio1 <= 1) and (comp_len <= 1) and (syl_len1 >= 3) and (pos = N) and (cv_ratio0 >= 2) => stress_class=ultima (36.0/10.0)
- => stress_class=paenultima (7050.0/171.0)
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (onset_len0 >= 1) and (syl_open1 = c) => stress_class=ultima (285.0/23.0)
+(syl_len0 <= 2) and (syl_weight1 = heavy) and (sonority0 <= 8) => stress_class=ultima (168.0/27.0)
+(nucleus_len1 >= 2) and (syl_len0 <= 3) and (cv_ratio0 >= 2) and (syl_len1 >= 3) and (comp_len <= 1) => stress_class=ultima (264.0/57.0)
+(comp_len <= 0) and (nucleus_len1 >= 2) and (syl_len1 >= 3) => stress_class=ultima (120.0/33.0)
+(syl_len0 <= 3) and (syl_weight1 = heavy) and (cv_ratio0 >= 2) and (comp_len <= 1) => stress_class=ultima (106.0/20.0)
+(syl_len0 <= 2) and (syl_weight1 = light) and (syl_weight0 = schwa) => stress_class=ultima (41.0/0.0)
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (prae_class = ø) and (syl_len1 >= 3) and (sonority0 <= 10) => stress_class=ultima (74.0/15.0)
+(pos = ADV) and (comp_len >= 2) => stress_class=ultima (125.0/51.0)
+(comp_len <= 0) and (syl_len1 >= 4) and (syl_weight1 = heavy) and (syl_len0 <= 3) => stress_class=ultima (35.0/6.0)
+ => stress_class=paenultima (7554.0/242.0)
 
-Number of Rules : 13
+Number of Rules : 10
 === Classifier model ===
 
 Scheme:   NeuralNetwork
 Relation: 2syl-all_training-weka.filters.unsupervised.attribute.Remove-R60-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R13,26-35,38-51,54-56,58-60-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|syl_weight.|syl_open.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.|comp_len|nomen|pos|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.|suff_class|prae_class)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@7de42608
+weka.classifiers.functions.NeuralNetwork@4b3a2c60

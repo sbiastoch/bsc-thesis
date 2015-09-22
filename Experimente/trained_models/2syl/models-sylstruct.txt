@@ -8,16 +8,16 @@ J48 pruned tree
 
 nucleus_len1 <= 1
 |   syl_len0 <= 2
-|   |   syl_cv0 = CVC: paenultima (254.0/26.0)
+|   |   syl_cv0 = CVC: paenultima (267.0/29.0)
 |   |   syl_cv0 = CCVC: paenultima (0.0)
-|   |   syl_cv0 = CVV: paenultima (543.0/67.0)
-|   |   syl_cv0 = CV: ultima (101.0)
-|   |   syl_cv0 = CVVC: paenultima (4.0)
+|   |   syl_cv0 = CVV: paenultima (576.0/69.0)
+|   |   syl_cv0 = CV: ultima (105.0)
+|   |   syl_cv0 = CVVC: paenultima (5.0)
 |   |   syl_cv0 = CVCC: paenultima (0.0)
 |   |   syl_cv0 = CCVV: paenultima (1.0)
-|   |   syl_cv0 = VV: paenultima (113.0/5.0)
-|   |   syl_cv0 = VC: paenultima (262.0/65.0)
-|   |   syl_cv0 = VVC: paenultima (28.0)
+|   |   syl_cv0 = VV: paenultima (121.0/5.0)
+|   |   syl_cv0 = VC: paenultima (279.0/68.0)
+|   |   syl_cv0 = VVC: paenultima (30.0)
 |   |   syl_cv0 = CCCVV: paenultima (0.0)
 |   |   syl_cv0 = CCVVC: paenultima (0.0)
 |   |   syl_cv0 = CCVCC: paenultima (0.0)
@@ -27,37 +27,37 @@ nucleus_len1 <= 1
 |   |   syl_cv0 = VCC: ultima (7.0)
 |   |   syl_cv0 = CVCCC: paenultima (0.0)
 |   |   syl_cv0 = ø: paenultima (0.0)
-|   syl_len0 > 2: paenultima (4712.0/187.0)
+|   syl_len0 > 2: paenultima (4991.0/202.0)
 nucleus_len1 > 1
 |   syl_len0 <= 3
-|   |   syl_len1 <= 2: paenultima (171.0/30.0)
+|   |   syl_len1 <= 2: paenultima (185.0/32.0)
 |   |   syl_len1 > 2
-|   |   |   syl_cv0 = CVC: ultima (282.0/60.0)
-|   |   |   syl_cv0 = CCVC: ultima (25.0)
+|   |   |   syl_cv0 = CVC: ultima (298.0/65.0)
+|   |   |   syl_cv0 = CCVC: ultima (27.0)
 |   |   |   syl_cv0 = CVV
-|   |   |   |   syl_len0 <= 2: ultima (150.0/25.0)
+|   |   |   |   syl_len0 <= 2: ultima (154.0/25.0)
 |   |   |   |   syl_len0 > 2
-|   |   |   |   |   syl_len1 <= 3: ultima (31.0/13.0)
-|   |   |   |   |   syl_len1 > 3: paenultima (41.0/5.0)
-|   |   |   syl_cv0 = CV: ultima (82.0)
-|   |   |   syl_cv0 = CVVC: paenultima (106.0/11.0)
+|   |   |   |   |   syl_len1 <= 3: ultima (33.0/14.0)
+|   |   |   |   |   syl_len1 > 3: paenultima (42.0/5.0)
+|   |   |   syl_cv0 = CV: ultima (87.0)
+|   |   |   syl_cv0 = CVVC: paenultima (115.0/14.0)
 |   |   |   syl_cv0 = CVCC: ultima (7.0/3.0)
-|   |   |   syl_cv0 = CCVV: ultima (31.0/1.0)
-|   |   |   syl_cv0 = VV: ultima (21.0/4.0)
+|   |   |   syl_cv0 = CCVV: ultima (34.0/2.0)
+|   |   |   syl_cv0 = VV: ultima (23.0/4.0)
 |   |   |   syl_cv0 = VC
-|   |   |   |   syl_len0 <= 1: ultima (22.0/2.0)
-|   |   |   |   syl_len0 > 1: paenultima (138.0/44.0)
-|   |   |   syl_cv0 = VVC: paenultima (54.0/3.0)
+|   |   |   |   syl_len0 <= 1: ultima (25.0/2.0)
+|   |   |   |   syl_len0 > 1: paenultima (143.0/46.0)
+|   |   |   syl_cv0 = VVC: paenultima (59.0/4.0)
 |   |   |   syl_cv0 = CCCVV: ultima (0.0)
 |   |   |   syl_cv0 = CCVVC: paenultima (1.0)
 |   |   |   syl_cv0 = CCVCC: ultima (0.0)
 |   |   |   syl_cv0 = CCCVVC: ultima (0.0)
 |   |   |   syl_cv0 = CVVCC: ultima (0.0)
 |   |   |   syl_cv0 = CCCVC: ultima (0.0)
-|   |   |   syl_cv0 = VCC: paenultima (24.0/5.0)
+|   |   |   syl_cv0 = VCC: paenultima (25.0/5.0)
 |   |   |   syl_cv0 = CVCCC: ultima (0.0)
-|   |   |   syl_cv0 = ø: paenultima (5.0/1.0)
-|   syl_len0 > 3: paenultima (1055.0/57.0)
+|   |   |   syl_cv0 = ø: paenultima (6.0/2.0)
+|   syl_len0 > 3: paenultima (1126.0/62.0)
 
 Number of Leaves  : 	44
 
@@ -70,19 +70,20 @@ Relation: 2syl-all_training-weka.filters.unsupervised.attribute.Remove-R60-weka.
 JRIP rules:
 ===========
 
-(syl_len0 <= 2) and (nucleus_len1 >= 2) and (onset_len0 >= 1) and (syl_len1 >= 3) => stress_class=ultima (306.0/32.0)
-(syl_len0 <= 3) and (nucleus_len1 >= 2) and (cv_ratio0 >= 2) and (syl_len1 >= 3) and (onset_len0 >= 1) => stress_class=ultima (244.0/56.0)
-(syl_len0 <= 2) and (syl_cv0 = CV) => stress_class=ultima (102.0/0.0)
-(syl_len0 <= 2) and (koda_len1 >= 2) and (syl_len1 <= 4) and (nucleus_len0 <= 1) => stress_class=ultima (92.0/38.0)
-(syl_len0 <= 3) and (nucleus_len1 >= 2) and (koda_len0 <= 0) and (syl_cv1 = CVVC) => stress_class=ultima (82.0/30.0)
-(koda_len1 >= 2) and (syl_len0 <= 3) and (cv_ratio1 >= 4) and (cv_ratio0 >= 2) => stress_class=ultima (40.0/10.0)
-(syl_len0 <= 2) and (nucleus_len1 >= 2) and (koda_len1 >= 1) and (syl_len1 <= 3) => stress_class=ultima (65.0/24.0)
- => stress_class=paenultima (7340.0/416.0)
+(nucleus_len1 >= 2) and (syl_len0 <= 3) and (syl_len1 >= 3) and (koda_len0 <= 0) and (syl_len0 <= 2) => stress_class=ultima (265.0/29.0)
+(syl_len0 <= 3) and (nucleus_len1 >= 2) and (cv_ratio0 >= 2) and (syl_len1 >= 3) and (koda_len0 <= 1) => stress_class=ultima (325.0/65.0)
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (koda_len1 >= 1) and (koda_len0 <= 0) => stress_class=ultima (9.0/0.0)
+(syl_len0 <= 2) and (syl_cv0 = CV) => stress_class=ultima (106.0/0.0)
+(syl_len0 <= 2) and (koda_len1 >= 2) and (syl_len1 <= 4) and (nucleus_len0 <= 1) => stress_class=ultima (97.0/40.0)
+(syl_len0 <= 3) and (nucleus_len1 >= 2) and (syl_len1 >= 3) and (syl_len1 <= 3) and (koda_len0 <= 0) => stress_class=ultima (62.0/16.0)
+(syl_len0 <= 3) and (syl_len1 >= 4) and (koda_len1 >= 2) and (cv_ratio1 >= 4) and (cv_ratio0 >= 2) => stress_class=ultima (43.0/11.0)
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (syl_len0 <= 1) => stress_class=ultima (34.0/9.0)
+ => stress_class=paenultima (7831.0/457.0)
 
-Number of Rules : 8
+Number of Rules : 9
 === Classifier model ===
 
 Scheme:   NeuralNetwork
 Relation: 2syl-all_training-weka.filters.unsupervised.attribute.Remove-R60-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R44-55,60-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_cv.|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@35c4a1e8
+weka.classifiers.functions.NeuralNetwork@7ef18a04

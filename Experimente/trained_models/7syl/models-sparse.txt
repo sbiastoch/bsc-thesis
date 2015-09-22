@@ -34,6 +34,11 @@ JRIP rules:
 Number of Rules : 1
 === Classifier model ===
 
+Scheme:   NeuralNetwork
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R13,26-55,63-111,119-126,128-130-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|syl_weight.|syl_open.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.|comp_len|nomen|pos|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.|suff_class|prae_class)$-V-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@3a2b405f=== Classifier model ===
+
 Scheme:   J48
 Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R13,26-55,63-111,119-126,128-130-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|syl_weight.|syl_open.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.|comp_len|nomen|pos|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.|suff_class|prae_class)$-V-output-debug-info-do-not-check-capabilities
 
@@ -41,15 +46,15 @@ J48 pruned tree
 ------------------
 
 comp_len <= 1
-|   nucleus_phoncat6 = K: paenultima (33.0/5.0)
-|   nucleus_phoncat6 = L: ultima (27.0/1.0)
+|   nucleus_phoncat6 = K: paenultima (34.0/5.0)
+|   nucleus_phoncat6 = L: ultima (29.0/1.0)
 |   nucleus_phoncat6 = D: sekunda (5.0/1.0)
 |   nucleus_phoncat6 = N: paenultima (0.0)
 comp_len > 1
-|   onset_len4 <= 0: antepaenultima (26.0/6.0)
+|   onset_len4 <= 0: antepaenultima (28.0/6.0)
 |   onset_len4 > 0
-|   |   syl_weight1 = light: sekunda (38.0/20.0)
-|   |   syl_weight1 = schwa: prima (29.0/3.0)
+|   |   syl_weight1 = light: sekunda (41.0/21.0)
+|   |   syl_weight1 = schwa: prima (31.0/3.0)
 |   |   syl_weight1 = heavy: prima (5.0/1.0)
 
 Number of Leaves  : 	8
@@ -63,12 +68,13 @@ Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka
 JRIP rules:
 ===========
 
- => stress_class=prima (163.0/116.0)
+(cv_ratio6 >= 2) and (comp_len <= 1) => stress_class=paenultima (32.0/4.0)
+ => stress_class=prima (141.0/94.0)
 
-Number of Rules : 1
+Number of Rules : 2
 === Classifier model ===
 
 Scheme:   NeuralNetwork
 Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R13,26-55,63-111,119-126,128-130-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|syl_weight.|syl_open.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.|comp_len|nomen|pos|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.|suff_class|prae_class)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@78c4c613
+weka.classifiers.functions.NeuralNetwork@70e172ab

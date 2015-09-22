@@ -8,63 +8,61 @@ J48 pruned tree
 
 syl_weight1 = light
 |   syl_weight2 = schwa
-|   |   syl_open0 = o: sekunda (158.0/26.0)
+|   |   syl_open0 = o: sekunda (168.0/27.0)
 |   |   syl_open0 = c
-|   |   |   syl_weight4 = heavy: prima (17.0/7.0)
+|   |   |   syl_weight4 = heavy: prima (18.0/8.0)
 |   |   |   syl_weight4 = schwa
-|   |   |   |   syl_open2 = o: prima (36.0/16.0)
-|   |   |   |   syl_open2 = c: sekunda (90.0/33.0)
-|   |   |   syl_weight4 = light: prima (97.0/39.0)
+|   |   |   |   syl_open2 = o: prima (38.0/16.0)
+|   |   |   |   syl_open2 = c: sekunda (94.0/33.0)
+|   |   |   syl_weight4 = light: prima (103.0/42.0)
 |   |   |   syl_weight4 = ø: prima (0.0)
 |   syl_weight2 = heavy
-|   |   syl_open1 = c
-|   |   |   syl_open3 = c: prima (37.0/20.0)
-|   |   |   syl_open3 = o: sekunda (26.0/10.0)
+|   |   syl_open1 = c: sekunda (69.0/35.0)
 |   |   syl_open1 = o
-|   |   |   syl_open3 = c: sekunda (22.0/13.0)
-|   |   |   syl_open3 = o: antepaenultima (20.0/8.0)
+|   |   |   syl_open3 = c: sekunda (24.0/14.0)
+|   |   |   syl_open3 = o: antepaenultima (21.0/9.0)
 |   syl_weight2 = light
-|   |   syl_weight3 = heavy: paenultima (32.0/15.0)
-|   |   syl_weight3 = light
-|   |   |   syl_weight4 = heavy: ultima (57.0/32.0)
-|   |   |   syl_weight4 = schwa
-|   |   |   |   syl_open3 = c
-|   |   |   |   |   syl_open1 = c: sekunda (47.0/18.0)
-|   |   |   |   |   syl_open1 = o: antepaenultima (27.0/16.0)
-|   |   |   |   syl_open3 = o: paenultima (418.0/122.0)
-|   |   |   syl_weight4 = light
-|   |   |   |   syl_weight0 = schwa: sekunda (14.0)
-|   |   |   |   syl_weight0 = light
+|   |   syl_weight0 = schwa: sekunda (22.0/1.0)
+|   |   syl_weight0 = light
+|   |   |   syl_weight3 = heavy: paenultima (30.0/12.0)
+|   |   |   syl_weight3 = light
+|   |   |   |   syl_weight4 = heavy: ultima (55.0/31.0)
+|   |   |   |   syl_weight4 = schwa
+|   |   |   |   |   syl_open3 = c
+|   |   |   |   |   |   syl_open1 = c: sekunda (42.0/16.0)
+|   |   |   |   |   |   syl_open1 = o: antepaenultima (27.0/16.0)
+|   |   |   |   |   syl_open3 = o: paenultima (426.0/124.0)
+|   |   |   |   syl_weight4 = light
 |   |   |   |   |   syl_open3 = c
 |   |   |   |   |   |   syl_open4 = c
-|   |   |   |   |   |   |   syl_open2 = o: paenultima (92.0/32.0)
+|   |   |   |   |   |   |   syl_open2 = o: paenultima (96.0/33.0)
 |   |   |   |   |   |   |   syl_open2 = c
-|   |   |   |   |   |   |   |   syl_open1 = c: prima (58.0/35.0)
-|   |   |   |   |   |   |   |   syl_open1 = o: paenultima (44.0/23.0)
-|   |   |   |   |   |   syl_open4 = o: ultima (23.0/9.0)
+|   |   |   |   |   |   |   |   syl_open1 = c: prima (60.0/37.0)
+|   |   |   |   |   |   |   |   syl_open1 = o: paenultima (45.0/24.0)
+|   |   |   |   |   |   syl_open4 = o: ultima (24.0/10.0)
 |   |   |   |   |   |   syl_open4 = ø: paenultima (0.0)
 |   |   |   |   |   syl_open3 = o
 |   |   |   |   |   |   syl_open2 = o
 |   |   |   |   |   |   |   syl_open4 = c
-|   |   |   |   |   |   |   |   syl_open1 = c: ultima (107.0/65.0)
-|   |   |   |   |   |   |   |   syl_open1 = o: paenultima (177.0/98.0)
-|   |   |   |   |   |   |   syl_open4 = o: ultima (28.0/4.0)
+|   |   |   |   |   |   |   |   syl_open1 = c: ultima (112.0/70.0)
+|   |   |   |   |   |   |   |   syl_open1 = o: paenultima (185.0/104.0)
+|   |   |   |   |   |   |   syl_open4 = o: ultima (32.0/6.0)
 |   |   |   |   |   |   |   syl_open4 = ø: ultima (0.0)
-|   |   |   |   |   |   syl_open2 = c: ultima (213.0/63.0)
-|   |   |   |   syl_weight0 = heavy: prima (39.0/22.0)
-|   |   |   syl_weight4 = ø: ultima (1.0)
-|   |   syl_weight3 = schwa
-|   |   |   syl_open3 = c: antepaenultima (50.0/28.0)
-|   |   |   syl_open3 = o: prima (42.0/20.0)
+|   |   |   |   |   |   syl_open2 = c: ultima (230.0/67.0)
+|   |   |   |   syl_weight4 = ø: ultima (1.0)
+|   |   |   syl_weight3 = schwa
+|   |   |   |   syl_open3 = c: antepaenultima (47.0/24.0)
+|   |   |   |   syl_open3 = o: prima (38.0/22.0)
+|   |   syl_weight0 = heavy: prima (84.0/38.0)
 syl_weight1 = heavy
-|   syl_weight0 = schwa: sekunda (20.0)
-|   syl_weight0 = light: prima (118.0/33.0)
-|   syl_weight0 = heavy: prima (17.0/6.0)
-syl_weight1 = schwa: prima (634.0/120.0)
+|   syl_weight0 = schwa: sekunda (21.0)
+|   syl_weight0 = light: prima (127.0/34.0)
+|   syl_weight0 = heavy: prima (18.0/7.0)
+syl_weight1 = schwa: prima (671.0/129.0)
 
-Number of Leaves  : 	34
+Number of Leaves  : 	33
 
-Size of the tree : 	56
+Size of the tree : 	54
 === Classifier model ===
 
 Scheme:   JRip
@@ -73,19 +71,20 @@ Relation: 5syl-all_training-weka.filters.unsupervised.attribute.Remove-R102-weka
 JRIP rules:
 ===========
 
-(syl_weight4 = light) and (syl_open3 = o) and (syl_weight1 = light) and (syl_weight2 = light) and (syl_open2 = c) and (syl_weight3 = light) => stress_class=ultima (222.0/67.0)
-(syl_open2 = o) and (syl_weight4 = light) and (syl_open3 = o) and (syl_weight1 = light) and (syl_open4 = o) => stress_class=ultima (35.0/9.0)
-(syl_weight2 = schwa) and (syl_open2 = c) and (syl_open0 = o) => stress_class=sekunda (124.0/17.0)
-(syl_weight2 = schwa) and (syl_weight1 = light) and (syl_weight4 = schwa) => stress_class=sekunda (145.0/58.0)
-(syl_weight0 = schwa) => stress_class=sekunda (56.0/1.0)
-(syl_open2 = c) and (syl_weight1 = light) and (syl_open1 = c) and (syl_weight4 = schwa) and (syl_open3 = c) => stress_class=sekunda (46.0/20.0)
-(syl_weight1 = light) and (syl_open2 = o) and (syl_weight4 = schwa) => stress_class=paenultima (322.0/65.0)
- => stress_class=prima (1811.0/938.0)
+(syl_weight4 = light) and (syl_open3 = o) and (syl_open1 = o) and (syl_open2 = c) and (syl_weight3 = light) and (syl_weight2 = light) => stress_class=ultima (168.0/46.0)
+(syl_weight4 = light) and (syl_open3 = o) and (syl_weight1 = light) and (syl_weight2 = light) and (syl_open4 = o) and (syl_weight0 = light) => stress_class=ultima (41.0/9.0)
+(syl_weight4 = light) and (syl_open3 = o) and (syl_weight1 = light) and (syl_weight2 = light) and (syl_open2 = c) and (syl_weight3 = light) => stress_class=ultima (84.0/31.0)
+(syl_weight2 = schwa) and (syl_open2 = c) and (syl_open0 = o) => stress_class=sekunda (132.0/18.0)
+(syl_weight2 = schwa) and (syl_weight1 = light) and (syl_weight4 = schwa) => stress_class=sekunda (152.0/60.0)
+(syl_weight0 = schwa) => stress_class=sekunda (60.0/1.0)
+(syl_open2 = c) and (syl_weight1 = light) and (syl_open1 = c) and (syl_weight4 = schwa) and (syl_open3 = c) => stress_class=sekunda (48.0/21.0)
+(syl_weight1 = light) and (syl_weight4 = schwa) and (syl_open2 = o) and (syl_open3 = o) => stress_class=paenultima (324.0/57.0)
+ => stress_class=prima (1919.0/992.0)
 
-Number of Rules : 8
+Number of Rules : 9
 === Classifier model ===
 
 Scheme:   NeuralNetwork
 Relation: 5syl-all_training-weka.filters.unsupervised.attribute.Remove-R102-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R38-47,102-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_weight.|syl_open.)$-V
 
-weka.classifiers.functions.NeuralNetwork@1ef6f61c
+weka.classifiers.functions.NeuralNetwork@2dfd6bf8

@@ -6,9 +6,9 @@ Relation: 2syl-all_training-weka.filters.unsupervised.attribute.Remove-R60-weka.
 J48 pruned tree
 ------------------
 
-syl_weight0 = light: paenultima (7183.0/930.0)
-syl_weight0 = schwa: ultima (184.0)
-syl_weight0 = heavy: paenultima (904.0/43.0)
+syl_weight0 = light: paenultima (7618.0/988.0)
+syl_weight0 = schwa: ultima (193.0)
+syl_weight0 = heavy: paenultima (961.0/47.0)
 
 Number of Leaves  : 	3
 
@@ -21,8 +21,8 @@ Relation: 2syl-all_training-weka.filters.unsupervised.attribute.Remove-R60-weka.
 JRIP rules:
 ===========
 
-(syl_weight0 = schwa) => stress_class=ultima (184.0/0.0)
- => stress_class=paenultima (8087.0/973.0)
+(syl_weight0 = schwa) => stress_class=ultima (193.0/0.0)
+ => stress_class=paenultima (8579.0/1035.0)
 
 Number of Rules : 2
 === Classifier model ===
@@ -30,4 +30,4 @@ Number of Rules : 2
 Scheme:   NeuralNetwork
 Relation: 2syl-all_training-weka.filters.unsupervised.attribute.Remove-R60-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R32-35,60-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_weight.|syl_open.)$-V
 
-weka.classifiers.functions.NeuralNetwork@179fe454
+weka.classifiers.functions.NeuralNetwork@787f1da3

@@ -27,6 +27,11 @@ JRIP rules:
 Number of Rules : 1
 === Classifier model ===
 
+Scheme:   NeuralNetwork
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R126-130-weka.filters.unsupervised.attribute.RemoveByName-E^(pos|comp_len|comp_struct|nomen)$-V-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@52aa880e=== Classifier model ===
+
 Scheme:   J48
 Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R126-130-weka.filters.unsupervised.attribute.RemoveByName-E^(pos|comp_len|comp_struct|nomen)$-V-output-debug-info-do-not-check-capabilities
 
@@ -34,9 +39,9 @@ J48 pruned tree
 ------------------
 
 comp_len <= 1
-|   nomen = F: paenultima (23.0/5.0)
-|   nomen = T: ultima (42.0/18.0)
-comp_len > 1: prima (98.0/55.0)
+|   nomen = F: paenultima (24.0/5.0)
+|   nomen = T: ultima (44.0/18.0)
+comp_len > 1: prima (105.0/60.0)
 
 Number of Leaves  : 	3
 
@@ -49,7 +54,7 @@ Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka
 JRIP rules:
 ===========
 
- => stress_class=prima (163.0/116.0)
+ => stress_class=prima (173.0/124.0)
 
 Number of Rules : 1
 === Classifier model ===
@@ -57,4 +62,4 @@ Number of Rules : 1
 Scheme:   NeuralNetwork
 Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R126-130-weka.filters.unsupervised.attribute.RemoveByName-E^(pos|comp_len|comp_struct|nomen)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@462ee6a5
+weka.classifiers.functions.NeuralNetwork@37a812

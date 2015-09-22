@@ -21,7 +21,7 @@
          <object class="java.lang.String" name="custom_name">CSVLoader</object>
          <object class="weka.gui.beans.Loader" name="bean">
             <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
-               <object class="java.lang.String" name="file">/home/sbiastoch/Schreibtisch/thesis/Experimente/csv/training/8syl-all_training.csv</object>
+               <object class="java.lang.String" name="file">/home/sbiastoch/Schreibtisch/thesis/Experimente/csv/training/2syl-all_training.csv</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-M</object>

@@ -36,6 +36,11 @@ JRIP rules:
 Number of Rules : 1
 === Classifier model ===
 
+Scheme:   NeuralNetwork
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-83,130-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|syl_weight.|syl_open.|syl_phoncat.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.)$-V-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@4bbf3597=== Classifier model ===
+
 Scheme:   J48
 Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-83,130-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|syl_weight.|syl_open.|syl_phoncat.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.)$-V-output-debug-info-do-not-check-capabilities
 
@@ -44,21 +49,20 @@ J48 pruned tree
 
 syl_weight4 = light
 |   nucleus_phoncat6 = K
-|   |   nucleus_phoncat2 = L: paenultima (37.0/10.0)
-|   |   nucleus_phoncat2 = K: prima (33.0/18.0)
+|   |   nucleus_phoncat2 = L: paenultima (39.0/11.0)
+|   |   nucleus_phoncat2 = K: prima (35.0/20.0)
 |   |   nucleus_phoncat2 = D: prima (1.0)
 |   nucleus_phoncat6 = L
-|   |   nucleus_phoncat0 = K: ultima (20.0/5.0)
-|   |   nucleus_phoncat0 = L: ultima (23.0/12.0)
-|   |   nucleus_phoncat0 = D: prima (4.0)
+|   |   sonority_ratio1 <= 3: prima (28.0/13.0)
+|   |   sonority_ratio1 > 3: ultima (22.0/6.0)
 |   nucleus_phoncat6 = D: sekunda (10.0/4.0)
 |   nucleus_phoncat6 = N: sekunda (1.0)
-syl_weight4 = heavy: antepaenultima (25.0/6.0)
-syl_weight4 = schwa: prima (9.0/5.0)
+syl_weight4 = heavy: antepaenultima (27.0/6.0)
+syl_weight4 = schwa: prima (10.0/5.0)
 
-Number of Leaves  : 	10
+Number of Leaves  : 	9
 
-Size of the tree : 	14
+Size of the tree : 	13
 === Classifier model ===
 
 Scheme:   JRip
@@ -67,12 +71,13 @@ Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka
 JRIP rules:
 ===========
 
- => stress_class=prima (163.0/116.0)
+(nucleus_phoncat6 = L) => stress_class=ultima (53.0/25.0)
+ => stress_class=prima (120.0/88.0)
 
-Number of Rules : 1
+Number of Rules : 2
 === Classifier model ===
 
 Scheme:   NeuralNetwork
 Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-83,130-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|syl_weight.|syl_open.|syl_phoncat.|onset_phoncat.|nucleus_phoncat.|koda_phoncat.)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@4760b12a
+weka.classifiers.functions.NeuralNetwork@6752ee8f

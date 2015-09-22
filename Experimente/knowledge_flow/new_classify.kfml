@@ -21,7 +21,7 @@
          <object class="java.lang.String" name="custom_name">CSVLoader</object>
          <object class="weka.gui.beans.Loader" name="bean">
             <object class="weka.core.converters.CSVLoader" name="wrappedAlgorithm">
-               <object class="java.lang.String" name="file">/home/sbiastoch/Schreibtisch/thesis/Experimente/csv/training/8syl-all_training.csv</object>
+               <object class="java.lang.String" name="file">/home/sbiastoch/Schreibtisch/thesis/Experimente/csv/training/2syl-all_test.csv</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-M</object>
@@ -75,7 +75,7 @@
             <object class="weka.core.converters.CSVSaver" name="wrappedAlgorithm">
                <object class="java.lang.String" name="file"/>
                <object class="java.lang.String" name="dir">/home/sbiastoch/Schreibtisch/thesis/Experimente/csv/classifications</object>
-               <object class="java.lang.String" name="prefix">8syl-classifications.csv</object>
+               <object class="java.lang.String" name="prefix">2syl-classifications.csv</object>
                <object class="boolean" name="useRelativePath" primitive="yes">false</object>
                <object array="yes" class="java.lang.String" name="options">
                   <object class="java.lang.String" name="0">-F</object>
@@ -121,7 +121,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/all-NeuralNetwork_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/all-NeuralNetwork_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="5">
@@ -191,7 +191,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/all-JRip_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/all-JRip_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="9">
@@ -269,7 +269,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/all-J48_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/all-J48_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="14">
@@ -305,7 +305,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/numeric-NeuralNetwork_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/numeric-NeuralNetwork_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="15">
@@ -359,7 +359,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/numeric-JRip_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/numeric-JRip_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="18">
@@ -437,7 +437,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/numeric-J48_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/numeric-J48_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="23">
@@ -473,7 +473,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/sparse-NeuralNetwork_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/sparse-NeuralNetwork_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="24">
@@ -527,7 +527,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/sparse-JRip_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/sparse-JRip_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="27">
@@ -605,7 +605,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/sparse-J48_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/sparse-J48_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="32">
@@ -784,7 +784,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/suffix-NeuralNetwork_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/suffix-NeuralNetwork_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="42">
@@ -838,7 +838,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/suffix-JRip_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/suffix-JRip_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="45">
@@ -916,7 +916,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/suffix-J48_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/suffix-J48_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="50">
@@ -952,7 +952,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/praefix-NeuralNetwork_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/praefix-NeuralNetwork_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="51">
@@ -1006,7 +1006,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/praefix-JRip_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/praefix-JRip_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="54">
@@ -1084,7 +1084,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/praefix-J48_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/praefix-J48_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="59">
@@ -1120,7 +1120,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/affix-NeuralNetwork_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/affix-NeuralNetwork_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="60">
@@ -1174,7 +1174,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/affix-JRip_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/affix-JRip_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="63">
@@ -1252,7 +1252,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/affix-J48_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/affix-J48_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="68">
@@ -1432,7 +1432,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/sonority-NeuralNetwork_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/sonority-NeuralNetwork_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="78">
@@ -1486,7 +1486,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/sonority-JRip_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/sonority-JRip_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="81">
@@ -1564,7 +1564,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/sonority-J48_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/sonority-J48_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="86">
@@ -1600,7 +1600,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/weight-NeuralNetwork_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/weight-NeuralNetwork_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="87">
@@ -1654,7 +1654,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/weight-JRip_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/weight-JRip_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="90">
@@ -1732,7 +1732,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/weight-J48_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/weight-J48_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="95">
@@ -1768,7 +1768,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/phoncat-NeuralNetwork_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/phoncat-NeuralNetwork_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="96">
@@ -1822,7 +1822,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/phoncat-JRip_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/phoncat-JRip_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="99">
@@ -1900,7 +1900,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/phoncat-J48_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/phoncat-J48_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="104">
@@ -2080,7 +2080,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/phon-NeuralNetwork_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/phon-NeuralNetwork_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="114">
@@ -2134,7 +2134,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/phon-JRip_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/phon-JRip_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="117">
@@ -2212,7 +2212,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/phon-J48_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/phon-J48_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="122">
@@ -2248,7 +2248,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/sylstruct-NeuralNetwork_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/sylstruct-NeuralNetwork_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="123">
@@ -2302,7 +2302,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/sylstruct-JRip_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/sylstruct-JRip_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="126">
@@ -2380,7 +2380,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/sylstruct-J48_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/sylstruct-J48_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="131">
@@ -2416,7 +2416,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/meta-NeuralNetwork_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/meta-NeuralNetwork_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="132">
@@ -2470,7 +2470,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/meta-JRip_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/meta-JRip_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="135">
@@ -2548,7 +2548,7 @@
             <object class="int" name="executionSlots" primitive="yes">2</object>
             <object class="boolean" name="updateIncrementalClassifier" primitive="yes">true</object>
             <object class="boolean" name="resetIncrementalClassifier" primitive="yes">false</object>
-            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/8syl/meta-J48_1_1.model</object>
+            <object class="java.lang.String" name="loadClassifierFileName">/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/meta-J48_1_1.model</object>
          </object>
       </object>
       <object class="weka.gui.beans.BeanInstance" name="140">

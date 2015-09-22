@@ -31,6 +31,11 @@ JRIP rules:
 Number of Rules : 1
 === Classifier model ===
 
+Scheme:   NeuralNetwork
+Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-41,84-111,119-125,129-130-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.|comp_len)$-V-output-debug-info-do-not-check-capabilities
+
+weka.classifiers.functions.NeuralNetwork@4c8e980c=== Classifier model ===
+
 Scheme:   J48
 Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-41,84-111,119-125,129-130-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.|comp_len)$-V-output-debug-info-do-not-check-capabilities
 
@@ -38,13 +43,13 @@ J48 pruned tree
 ------------------
 
 comp_len <= 1
-|   nucleus_len6 <= 1: paenultima (33.0/5.0)
-|   nucleus_len6 > 1: ultima (32.0/6.0)
+|   nucleus_len6 <= 1: paenultima (34.0/5.0)
+|   nucleus_len6 > 1: ultima (34.0/6.0)
 comp_len > 1
-|   onset_len4 <= 0: antepaenultima (26.0/6.0)
+|   onset_len4 <= 0: antepaenultima (28.0/6.0)
 |   onset_len4 > 0
-|   |   syl_len1 <= 2: sekunda (22.0/12.0)
-|   |   syl_len1 > 2: prima (50.0/14.0)
+|   |   cv_ratio1 <= 1: sekunda (33.0/17.0)
+|   |   cv_ratio1 > 1: prima (44.0/10.0)
 
 Number of Leaves  : 	5
 
@@ -57,12 +62,13 @@ Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka
 JRIP rules:
 ===========
 
- => stress_class=prima (163.0/116.0)
+(cv_ratio6 >= 2) and (comp_len <= 1) => stress_class=paenultima (32.0/4.0)
+ => stress_class=prima (141.0/94.0)
 
-Number of Rules : 1
+Number of Rules : 2
 === Classifier model ===
 
 Scheme:   NeuralNetwork
 Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-41,84-111,119-125,129-130-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir|cv_ratio.|syl_len.|onset_len.|nucleus_len.|koda_len.|comp_len)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@4f7f108e
+weka.classifiers.functions.NeuralNetwork@13c23588

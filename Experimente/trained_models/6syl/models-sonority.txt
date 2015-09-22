@@ -8,32 +8,36 @@ J48 pruned tree
 
 sonority5 <= 9
 |   sonority5 <= 7
-|   |   sonority2 <= 10: antepaenultima (35.0/24.0)
-|   |   sonority2 > 10: prima (25.0/11.0)
+|   |   sonority2 <= 10: antepaenultima (36.0/25.0)
+|   |   sonority2 > 10: prima (29.0/11.0)
 |   sonority5 > 7
-|   |   sonority_ratio2 <= 3
-|   |   |   sonority2 <= 9: ultima (25.0/8.0)
-|   |   |   sonority2 > 9: prima (25.0/10.0)
-|   |   sonority_ratio2 > 3: ultima (141.0/31.0)
+|   |   sonority_ratio4 <= 3: prima (20.0/12.0)
+|   |   sonority_ratio4 > 3: ultima (181.0/40.0)
 sonority5 > 9
 |   sonority_ratio3 <= 5
-|   |   sonority3 <= 9
-|   |   |   sonority4 <= 7: prima (34.0/16.0)
-|   |   |   sonority4 > 7
-|   |   |   |   sonority_ratio3 <= 3: prima (55.0/29.0)
-|   |   |   |   sonority_ratio3 > 3: paenultima (75.0/24.0)
-|   |   sonority3 > 9
-|   |   |   sonority0 <= 7: sekunda (39.0/15.0)
-|   |   |   sonority0 > 7
-|   |   |   |   sonority_ratio2 <= 3: prima (70.0/28.0)
-|   |   |   |   sonority_ratio2 > 3
-|   |   |   |   |   sonority_ratio1 <= 3: prima (50.0/25.0)
-|   |   |   |   |   sonority_ratio1 > 3: antepaenultima (33.0/16.0)
-|   sonority_ratio3 > 5: paenultima (106.0/25.0)
+|   |   sonority4 <= 6: ultima (20.0/10.0)
+|   |   sonority4 > 6
+|   |   |   sonority3 <= 9
+|   |   |   |   sonority_ratio3 <= 3: prima (63.0/32.0)
+|   |   |   |   sonority_ratio3 > 3
+|   |   |   |   |   sonority_ratio5 <= 4: paenultima (72.0/23.0)
+|   |   |   |   |   sonority_ratio5 > 4: prima (20.0/8.0)
+|   |   |   sonority3 > 9
+|   |   |   |   sonority0 <= 7: sekunda (41.0/17.0)
+|   |   |   |   sonority0 > 7
+|   |   |   |   |   sonority_ratio5 <= 4
+|   |   |   |   |   |   sonority_ratio2 <= 3: prima (65.0/29.0)
+|   |   |   |   |   |   sonority_ratio2 > 3
+|   |   |   |   |   |   |   sonority5 <= 12
+|   |   |   |   |   |   |   |   sonority4 <= 11: antepaenultima (27.0/16.0)
+|   |   |   |   |   |   |   |   sonority4 > 11: prima (22.0/10.0)
+|   |   |   |   |   |   |   sonority5 > 12: antepaenultima (25.0/14.0)
+|   |   |   |   |   sonority_ratio5 > 4: prima (20.0/5.0)
+|   sonority_ratio3 > 5: paenultima (116.0/29.0)
 
-Number of Leaves  : 	13
+Number of Leaves  : 	15
 
-Size of the tree : 	25
+Size of the tree : 	29
 === Classifier model ===
 
 Scheme:   JRip
@@ -42,17 +46,18 @@ Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka
 JRIP rules:
 ===========
 
-(sonority1 >= 13) and (sonority_ratio5 <= 3) => stress_class=sekunda (30.0/5.0)
-(sonority5 <= 9) and (sonority5 >= 8) => stress_class=ultima (190.0/55.0)
-(sonority_ratio3 >= 6) and (sonority1 <= 10) and (sonority_ratio4 >= 4) and (sonority0 <= 12) => stress_class=paenultima (65.0/1.0)
-(sonority_ratio3 >= 4) and (sonority2 <= 9) and (sonority4 >= 9) and (sonority5 >= 13) => stress_class=paenultima (45.0/12.0)
-(sonority_ratio4 >= 4) and (sonority3 <= 9) and (sonority_ratio4 <= 4) and (sonority1 <= 10) => stress_class=paenultima (31.0/8.0)
- => stress_class=prima (352.0/190.0)
+(sonority3 >= 10) and (sonority_ratio2 >= 4) and (sonority_ratio5 <= 3) and (sonority2 <= 10) => stress_class=antepaenultima (54.0/24.0)
+(sonority2 >= 10) and (sonority_ratio0 <= 3) and (sonority4 >= 10) => stress_class=sekunda (63.0/31.0)
+(sonority5 <= 9) and (sonority5 >= 8) and (sonority_ratio2 >= 4) and (sonority_ratio4 >= 4) => stress_class=ultima (127.0/18.0)
+(sonority5 <= 9) and (sonority5 >= 8) and (sonority2 <= 9) and (sonority_ratio4 >= 4) => stress_class=ultima (23.0/6.0)
+(sonority_ratio3 >= 6) => stress_class=paenultima (113.0/27.0)
+(sonority_ratio3 >= 4) and (sonority4 >= 9) and (sonority5 >= 13) and (sonority5 <= 13) => stress_class=paenultima (42.0/6.0)
+ => stress_class=prima (335.0/171.0)
 
-Number of Rules : 6
+Number of Rules : 7
 === Classifier model ===
 
 Scheme:   NeuralNetwork
 Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R27-39,116-weka.filters.unsupervised.attribute.RemoveByName-E^(sonority.|sonority_ratio.|sonority_dir)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@9e9c0f9
+weka.classifiers.functions.NeuralNetwork@3ef2bb4c

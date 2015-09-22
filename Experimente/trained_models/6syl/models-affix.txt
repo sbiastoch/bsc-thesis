@@ -6,17 +6,17 @@ Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka
 J48 pruned tree
 ------------------
 
-suffix5 = ieren: paenultima (74.0/4.0)
+suffix5 = ieren: paenultima (80.0/5.0)
 suffix5 = ø
-|   prae_class = ø: prima (354.0/212.0)
-|   prae_class = noacc: sekunda (29.0)
-|   prae_class = acc: prima (29.0/1.0)
-suffix5 = tisch: paenultima (16.0/1.0)
-suffix5 = gkeit: prima (22.0/10.0)
-suffix5 = erung: prima (39.0/20.0)
-suffix5 = ation: ultima (103.0/4.0)
+|   prae_class = ø: prima (376.0/223.0)
+|   prae_class = noacc: sekunda (30.0)
+|   prae_class = acc: prima (32.0/1.0)
+suffix5 = tisch: paenultima (18.0/1.0)
+suffix5 = gkeit: prima (23.0/10.0)
+suffix5 = erung: prima (40.0/21.0)
+suffix5 = ation: ultima (110.0/4.0)
 suffix5 = ismus: paenultima (24.0/2.0)
-suffix5 = itaet: ultima (23.0/3.0)
+suffix5 = itaet: ultima (24.0/3.0)
 
 Number of Leaves  : 	10
 
@@ -29,11 +29,11 @@ Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka
 JRIP rules:
 ===========
 
-(prae_class = noacc) => stress_class=sekunda (38.0/3.0)
-(suffix_phoncat2 = LC) and (suffix5 = ation) => stress_class=ultima (103.0/4.0)
-(suffix_phoncat4 = LCKC) and (suffix4 = eren) and (signi_praefix = ø) => stress_class=paenultima (69.0/1.0)
-(suffix_phoncat3 = CKC) and (suffix3 = sch) => stress_class=paenultima (34.0/6.0)
- => stress_class=prima (469.0/266.0)
+(prae_class = noacc) => stress_class=sekunda (41.0/5.0)
+(suffix_phoncat2 = LC) and (suffix5 = ation) => stress_class=ultima (110.0/4.0)
+(suffix4 = eren) and (signi_praefix = ø) => stress_class=paenultima (72.0/1.0)
+(suffix_phoncat3 = CKC) and (suffix3 = sch) => stress_class=paenultima (37.0/6.0)
+ => stress_class=prima (497.0/278.0)
 
 Number of Rules : 5
 === Classifier model ===
@@ -41,4 +41,4 @@ Number of Rules : 5
 Scheme:   NeuralNetwork
 Relation: 6syl-all_training-weka.filters.unsupervised.attribute.Remove-R116-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R2-13,15-26,116-weka.filters.unsupervised.attribute.RemoveByName-E^(suff_class|signi_suffix|suffix_phoncat.|suffix.|prae_class|signi_praefix|praefix_phoncat.|praefix.)$-V-output-debug-info-do-not-check-capabilities
 
-weka.classifiers.functions.NeuralNetwork@777ad87
+weka.classifiers.functions.NeuralNetwork@51b6f96c
