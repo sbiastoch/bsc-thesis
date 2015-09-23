@@ -24,7 +24,7 @@ for feature in "signi_suffix" "suffix1" "suffix2" "suffix3" "suffix4" "suffix5" 
 do
 	result_j48="$result_j48\n$(awk "/[^\(]$feature/" $path | wc -l)\t$feature"
 	result_jrip="$result_jrip\n$(awk "/\($feature/" $path | wc -l)\t$feature"
-	result_counts="$counts\n$(grep "($feature " $path | awk -F'/|\\(|)|:' '{print $(NF-2) "\t" $(NF-1) "\t" 1-($(NF-1)/$(NF-2)) "\t" $8 "\t" $9 "\t" $NL}')" 
+	result_counts="$result_counts\n$(grep "($feature " $path | awk -F'/|\\(|)|:' '{print $(NF-2) "\t" $(NF-1) "\t" 1-($(NF-1)/$(NF-2)) "\t" $8 "\t" $9 "\t" $NL}')" 
 done
 
 echo -e "Nennungen der Features in J48:\n"

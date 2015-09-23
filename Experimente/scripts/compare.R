@@ -142,8 +142,36 @@ getTree <- function(fileName) {
 
 # Liefert die Tiefe jeder Regel im Entscheidungsbaum
 getTreeDepths <- function(fileName) {
-	tree = getTree(fileName)
-	unlist(lapply(tree, function(branch) str_count(branch,'\\|')+1))
+	leaves = getTreeLeafs(fileName)
+#	leaves = tree[sapply(tree, function(x) length(x) == 2)]
+	unlist(lapply(leaves, function(branch) str_count(branch,'\\|')+1))
+}
+
+getTreeLeafs <- function(fileName) {
+	t = getTree(fileName)
+	t[unlist(lapply(t, function(l) grepl(')', l)))]
+}
+
+getTreeLeafsNumbers <- function(fileName) {
+	rules = getTreeLeafs(fileName)
+	lapply(rules, function(line) {
+		str = gsub('^.* |\\(|\\)','',line)
+		as.numeric(strsplit(str,'/')[[1]])
+	})
+}
+
+getTreeLeafsPercentage <- function(fileName) {
+	numbers = getTreeLeafsNumbers(fileName)
+	unlist(lapply(numbers, function(numbers) {
+		if(length(numbers)==1) 100 else 100*numbers[1]/sum(numbers)
+	}))
+}
+
+getTreeLeafsWordcount <- function(fileName) {
+	numbers = getTreeLeafsNumbers(fileName)
+	unlist(lapply(numbers, function(numbers) {
+		if(length(numbers)==1) numbers else sum(numbers)
+	}))
 }
 
 getMaxTreeDepth <- function(fileName) {
@@ -163,6 +191,22 @@ getRulesLength <- function(fileName) {
 		str_count(rule,' and ')+1
 	}))
 }
+
+plotTreeRules <- function(fileName) {
+	percent = getTreeLeafsPercentage(fileName)
+	counts = getTreeLeafsWordcount(fileName)
+	depths = getTreeDepths(fileName)
+	plot(x=depths, y=percent, cex=log(counts, base=1.6), pty=16)
+}
+
+
+
+# get the most signifcant rules
+#rules = getRules('/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/models-all.txt')
+#lapply(rules, function(rule) {
+#	start = gregexpr(pattern='a (', rule)[[1]][1]
+#	substr(f,start,start+end)
+#})
 
 ####
 # boxplot für anzahl der regeln bei jrip
@@ -187,48 +231,41 @@ plot_analyze_j48 <- function(models, main_stats) {
 			getTreeSize(fileName)
 		})
 	})
+
 	par(mfrow=c(3,1),
 		las=1,
 		xpd=TRUE,
-		cex.lab=1,
+		cex.lab=1.2,
 		cex.axis=1.2,
 		cex.main=1.2,
-		mar=c(0,3,3,3),
-		oma=c(7.5,1,1,1)
+		mar=c(1.5,4.5,.3,3),
+		oma=c(6,0,0,0)
 	)
 
-	boxplot(lapply(1:12, function(mi) unlist(lapply(1:6, function(i) treedepth_stat[[i]][mi]))),xaxt='n')
+	boxplot(lapply(1:12, function(mi) unlist(lapply(1:6, function(i) treedepth_stat[[i]][mi]))),xaxt='n', ylab='Tiefe der Blätter')
 #	print(treedepth_stat)
-	title('Tiefe der Blätter des J48-Decision-Trees')
+#	title('Tiefe der Blätter des J48-Decision-Trees')
 
 	leaves_stat = lapply(1:12, function(mi) unlist(lapply(1:6, function(i) treesize_stat[[i]][mi])))
 #	print(treesize_stat)
-	boxplot(leaves_stat,xaxt='n')
-	title('Anzahl der Blätter des J48-Decision-Trees')
+	boxplot(leaves_stat,xaxt='n', ylab='Anzahl der Blätter')
+#	title('Anzahl der Blätter des J48-Decision-Trees')
 
 
 	j48_stat = main_stats[c(1,2,grep('48',names(main_stats)),length(main_stats))]
 	j48_cum_corr = apply(j48_stat, 2, function(col) sum(col*j48_stat[['n']])/sum(j48_stat[['n']]))
 	stat = j48_cum_corr[4:length(j48_cum_corr)-1]
 	names(stat) = pretty_name(names(stat))
-	x = barplot(stat, ylim=c(60,91), las=2,xpd=FALSE)
+	x = barplot(stat, ylim=c(60,91), las=2,xpd=FALSE, ylab='Prozent korrekt')
 	abline(h=j48_cum_corr['zeroR'],lty=2)
 	text(max(x)+1.5,j48_cum_corr['zeroR']+.3, paste('ZeroR (',round(j48_cum_corr['zeroR'],1),'%)',sep=''), cex=.7)
-	title('Erkennungsraten von J48 (%)')
-	addLabels(x, j48_cum_corr[3:14])
+	#title('Erkennungsraten von J48 (%)')
+	addLabels(x, j48_cum_corr[3:14], yplus=-1.4)
+
+
 
 	dev.off()
 }
-
-
-
-
-# get the most signifcant rules
-#rules = getRules('/home/sbiastoch/Schreibtisch/thesis/Experimente/trained_models/2syl/models-all.txt')
-#lapply(rules, function(rule) {
-#	start = gregexpr(pattern='a (', rule)[[1]][1]
-#	substr(f,start,start+end)
-#})
 
 plot_analyze_jrip <- function(models, main_stats) {
 	filename = paste(folder,'algorithms/JRip.png',sep='')
@@ -245,11 +282,11 @@ plot_analyze_jrip <- function(models, main_stats) {
 	par(mfrow=c(3,1),
 		las=1,
 		xpd=TRUE,
-		cex.lab=1,
+		cex.lab=1.2,
 		cex.axis=1.2,
 		cex.main=1.2,
-		mar=c(0,3,3,3),
-		oma=c(7.5,1,1,1)
+		mar=c(1.5,4.5,.3,3),
+		oma=c(6,0,0,0)
 	)
 	colors = c('chartreuse1','brown1','chartreuse2','brown2','chartreuse3','brown3','chartreuse4','brown4')
 	#library(vioplot)
@@ -260,25 +297,26 @@ plot_analyze_jrip <- function(models, main_stats) {
 	#	dev.off()
 	#})
 
-	boxplot(lapply(1:12, function(mi) unlist(lapply(1:5, function(i) ruleslen_stat[[i]][mi]))),xaxt='n')
-	title('Länge der von JRip generierten Regeln')
+	boxplot(lapply(1:12, function(mi) unlist(lapply(1:5, function(i) ruleslen_stat[[i]][mi]))),xaxt='n', ylab='Regellänge')
+	#title('Länge der von JRip generierten Regeln')
 
 
-	boxplot(t(matrix(unlist(lapply(1:5,function(i) unlist(lapply(ruleslen_stat[[i]],length)))),12)),xaxt='n')
-	title('Anzahl der von JRip generierten Regeln')
+	boxplot(t(matrix(unlist(lapply(1:5,function(i) unlist(lapply(ruleslen_stat[[i]],length)))),12)),xaxt='n', ylab='Regelnanzahl')
+	#title('Anzahl der von JRip generierten Regeln')
 
 	jrip_stat = main_stats[c(1,2,grep('JRip',names(main_stats)),length(main_stats))]
 	jrip_cum_corr = apply(jrip_stat, 2, function(col) sum(col*jrip_stat[['n']])/sum(jrip_stat[['n']]))
 	stat = jrip_cum_corr[4:length(jrip_cum_corr)-1]
 	names(stat) = pretty_name(names(stat))
-	x=barplot(stat, ylim=c(60,91), las=2)
+	x=barplot(stat, ylim=c(60,91), las=2, ylab='Prozent korrekt', xpd=FALSE)
 	abline(h=jrip_cum_corr['zeroR'],lty=2)
 	text(max(x)+1.5,jrip_cum_corr['zeroR']+.3, paste('ZeroR (',round(jrip_cum_corr['zeroR'],1),'%)',sep=''), cex=.7)
-	title('Erkennungsraten von JRip (%)')
-	addLabels(x, jrip_cum_corr[3:(length(jrip_cum_corr)-1)])
+	#title('Erkennungsraten von JRip (%)')
+	addLabels(x, jrip_cum_corr[3:(length(jrip_cum_corr)-1)], yplus=-1.4)
 
 	dev.off()
 }
+
 
 main_stats = read.csv(paste(folder,'stats.csv',sep=''))
 
@@ -306,9 +344,9 @@ plot_overview_stat(getStatSubset('NN'), 'Erkennungsraten aller NN (%)', colors, 
 plot_overview_stat(getStatSubset('JRip'), 'Erkennungsraten aller JRip (%)', colors, 'JRip.png')
 plot_overview_stat(getStatSubset('48'), 'Erkennungsraten aller J48 (%)', colors, 'J48.png')
 
-
 plot_analyze_jrip(models, main_stats)
 plot_analyze_j48(models, main_stats)
+
 
 
 
@@ -532,56 +570,92 @@ function() {
 }()
 
 # Plottet die Breite des Baumes und Erkennungsrate vs MinWords (J48)
-folder = "/home/sbiastoch/Schreibtisch/thesis/Experimente/evaluation/"
-filename = paste(folder,'j48_min_leaves.png',sep='')
-png(filename = filename, width = 1000, height = 1000, units = "px", bg = "white", pointsize = 30)
-j48_rules_plot = function(syls, colors) {
-	j48_rules_stats = read.csv(paste(folder,'j48_experiment.csv',sep=''))
-	w = subset(j48_rules_stats, syl==syls)
-	steps = c(2,5,10,15,20,30,50,100)
-	plot(steps,w[,'Percent_correct'], type='l', xlab='Minimale Anzahl an Wörter pro Blatt', ylab='Korrekt (%)', axes=0, ylim=c(83,96), col=colors, lwd=3)
-	axis(1, at=steps, las=1)
-	axis(2, at=c(83,85,87,89,91,93,95,97), las=1)
+function() {
+	folder = "/home/sbiastoch/Schreibtisch/thesis/Experimente/evaluation/"
+	filename = paste(folder,'j48_min_leaves.png',sep='')
+	png(filename = filename, width = 1000, height = 1000, units = "px", bg = "white", pointsize = 30)
+	j48_rules_plot = function(syls, colors) {
+		j48_rules_stats = read.csv(paste(folder,'j48_experiment.csv',sep=''))
+		w = subset(j48_rules_stats, syl==syls)
+		steps = c(2,5,10,15,20,30,50,100)
+		plot(steps,w[,'Percent_correct'], type='l', xlab='Minimale Anzahl an Wörter pro Blatt', ylab='Korrekt (%)', axes=0, ylim=c(83,96), col=colors, lwd=3)
+		axis(1, at=steps, las=1)
+		axis(2, at=c(83,85,87,89,91,93,95,97), las=1)
+		par(new=T)
+		plot(steps,w[,'measureNumLeaves'], axes=0, type='l', ylim=c(0,1500), xlab='', ylab='', lty=3, col=colors, lwd=3)
+		axis(4, col.lab='darkgray', at=c(0,300,600,900,1200,1500), las=1)
+		mtext("Anzahl Blätter", side=4, line=3)
+		#par(new=F)
+	}
+	par(mar=c(4,4,.1,4))
+	j48_rules_plot(2, 'red')
 	par(new=T)
-	plot(steps,w[,'measureNumLeaves'], axes=0, type='l', ylim=c(0,1500), xlab='', ylab='', lty=3, col=colors, lwd=3)
-	axis(4, col.lab='darkgray', at=c(0,300,600,900,1200,1500), las=1)
-	mtext("Anzahl Blätter", side=4, line=3)
-	#par(new=F)
+	j48_rules_plot(3, 'green')
+	par(new=T)
+	j48_rules_plot(4, 'blue')
+	abline(v=20, lty=2)
+	legend('topright', col=c('red', 'green', 'blue'), c('2 Silben', '3 Silben', '4 Silben'), lty=c(1, 1, 1), lwd=3)
+	dev.off()
 }
-par(mar=c(4,4,.1,4))
-j48_rules_plot(2, 'red')
-par(new=T)
-j48_rules_plot(3, 'green')
-par(new=T)
-j48_rules_plot(4, 'blue')
-abline(v=20, lty=2)
-legend('topright', col=c('red', 'green', 'blue'), c('2 Silben', '3 Silben', '4 Silben'), lty=c(1, 1, 1), lwd=3)
-dev.off()
-
 
 # Plottet die Breite des Baumes und Erkennungsrate vs MinWords (JRip)
-filename = paste(folder,'jrip_min_leaves.png',sep='')
-png(filename = filename, width = 1000, height = 1000, units = "px", bg = "white", pointsize = 30)
-jrip_rules_plot = function(syls, colors) {
-	jrips_stats = read.csv(paste(folder,'jrip_experiment_NoR.csv',sep=''))
-	w = subset(jrips_stats, syl==syls)
-	steps = c(2,5,10,15,20,30,50,100)
-	plot(steps,w[,'measureNumRules'], axes=0, type='l', xlab='', ylab='', ylim=c(0,60), lty=3, col=colors, lwd=3)
-	axis(4, col.lab='darkgray', at=c(0,10,20,30,40,50,60), las=1)
-	mtext("Anzahl Regeln", side=4, line=3)
+function() {
+	filename = paste(folder,'jrip_min_leaves.png',sep='')
+	png(filename = filename, width = 1000, height = 1000, units = "px", bg = "white", pointsize = 30)
+	jrip_rules_plot = function(syls, colors) {
+		jrips_stats = read.csv(paste(folder,'jrip_experiment_NoR.csv',sep=''))
+		w = subset(jrips_stats, syl==syls)
+		steps = c(2,5,10,15,20,30,50,100)
+		plot(steps,w[,'measureNumRules'], axes=0, type='l', xlab='', ylab='', ylim=c(0,60), lty=3, col=colors, lwd=3)
+		axis(4, col.lab='darkgray', at=c(0,10,20,30,40,50,60), las=1)
+		mtext("Anzahl Regeln", side=4, line=3)
+		par(new=T)
+		plot(steps,w[,'Percent_correct'], type='l', xlab='Minimale Anzahl an Wörter pro Regel', ylab='Korrekt (%)', axes=0, ylim=c(75,100), col=colors, lwd=3)
+		axis(1, at=steps, las=1)
+		axis(2, at=c(75,80,85,90,95,100), las=1)
+		#par(new=F)
+	}
+	par(mar=c(4,4,.1,4))
+	jrip_rules_plot(2, 'red')
 	par(new=T)
-	plot(steps,w[,'Percent_correct'], type='l', xlab='Minimale Anzahl an Wörter pro Regel', ylab='Korrekt (%)', axes=0, ylim=c(75,100), col=colors, lwd=3)
-	axis(1, at=steps, las=1)
-	axis(2, at=c(75,80,85,90,95,100), las=1)
-	#par(new=F)
+	jrip_rules_plot(3, 'green')
+	par(new=T)
+	jrip_rules_plot(4, 'blue')
+	abline(v=20, lty=2)
+	legend('topright', col=c('red', 'green', 'blue'), c('2 Silben', '3 Silben', '4 Silben'), lty=c(1, 1, 1), lwd=3)
+	#legend(50, 100, c('Korrekt', '#Regeln'), lty=c(1,3), lwd=3, bty='n')
+	dev.off()
 }
-par(mar=c(4,4,.1,4))
-jrip_rules_plot(2, 'red')
-par(new=T)
-jrip_rules_plot(3, 'green')
-par(new=T)
-jrip_rules_plot(4, 'blue')
-abline(v=20, lty=2)
-legend('topright', col=c('red', 'green', 'blue'), c('2 Silben', '3 Silben', '4 Silben'), lty=c(1, 1, 1), lwd=3)
-#legend(50, 100, c('Korrekt', '#Regeln'), lty=c(1,3), lwd=3, bty='n')
-dev.off()
+
+
+# Plottet alle Blätter aller Modelle mit ihrer individuellen Erkennungsrate, der Tiefe des Blattes als Punktgröße und die Anzahl betroffenr Wörter
+function() {
+	depths = lapply(2:7, function(num_syls) {
+		lapply(models, function(model) {
+			fileName = paste(folder,'../trained_models/',num_syls,'syl/models-',model,'.txt',sep='')
+			getTreeDepths(fileName)
+		})
+	})
+	counts = lapply(2:7, function(num_syls) {
+		lapply(models, function(model) {
+			fileName = paste(folder,'../trained_models/',num_syls,'syl/models-',model,'.txt',sep='')
+			getTreeLeafsWordcount(fileName)
+		})
+	})
+	percent = lapply(2:7, function(num_syls) {
+		lapply(models, function(model) {
+			fileName = paste(folder,'../trained_models/',num_syls,'syl/models-',model,'.txt',sep='')
+			getTreeLeafsPercentage(fileName)
+		})
+	})
+	depths_all_syls = lapply(1:12, function(fs) unlist(lapply(1:6, function(syl) depths[[syl]][[fs]])))
+	counts_all_syls = lapply(1:12, function(fs) unlist(lapply(1:6, function(syl) counts[[syl]][[fs]])))
+	percent_all_syls = lapply(1:12, function(fs) unlist(lapply(1:6, function(syl) percent[[syl]][[fs]])))
+	par(mar=c(4,4,.1,.1))
+	layout(matrix(c(1,1,1,2), 1, byrow = TRUE))
+	plot(x=counts_all_syls[[1]], y=percent_all_syls[[1]], xlim=c(0,950), cex=log((depths_all_syls[[1]]**2),base=4))
+	lapply(2:12, function(n) points(x=counts_all_syls[[n]], y=percent_all_syls[[n]], xlim=c(0,950), cex=log((depths_all_syls[[1]]**2),base=4)/2))
+	par(mar=c(4,1,.1,.1))
+	plot(x=counts_all_syls[[1]], y=percent_all_syls[[1]], xlim=c(950,4000), yaxt='n', ylab='', cex=log((depths_all_syls[[1]]**2),base=4))
+	lapply(2:12, function(n) points(x=counts_all_syls[[n]], y=percent_all_syls[[n]], xlim=c(950,4000), yaxt='n', ylab='', cex=log((depths_all_syls[[1]]**2),base=4)/2))
+}
