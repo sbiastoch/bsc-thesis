@@ -37,11 +37,11 @@ performance <- function(table) {
 #perf = performance(main_stats[c(1,2,grep('_',names(main_stats)))])
 #barplot(as.numeric(perf[,'result']), names=c(perf[1:6,'best_model'],'weighted'), las=1,horiz=TRUE)
 
-addLabels <- function(x, stat, vertical=FALSE, cex=0.9) {
+addLabels <- function(x, stat, vertical=FALSE, cex=0.9, yplus = 0, praefix='', suffix='') {
 	srt = 90 * vertical
 	stat = as.numeric(stat)
 	lbl <- paste(round(stat,1),'%',sep='')
-	text(x, stat+.3++2*cex+(srt/90), labels=lbl, col="black", cex=cex, srt=srt)
+	text(x, stat+.3++2*cex+(srt/90)+yplus, labels=paste(praefix, lbl, suffix, sep=''), col="black", cex=cex, srt=srt)
 }
 
 plot_bestmodels_stat <- function(models, main_stats) {
@@ -60,15 +60,21 @@ plot_bestmodels_stat <- function(models, main_stats) {
 		cex.lab=0.9,
 		cex.axis=0.9,
 		cex.main=1,
-		mar=c(5,3,3,4)
+		mar=c(4,4,1,4)
 	)
-	stat = matrix(cummulativ_best_stat[2,], 1, dimnames=list('',cummulativ_best_stat[1,]))
-	x=barplot(stat, las=2, ylim=c(60,100), xpd=FALSE)
+	bag = matrix(cummulativ_best_stat[2,], 1, dimnames=list('',cummulativ_best_stat[1,]))
+	weighted_model_stats = apply(main_stats[4:length(main_stats)-1], 2, function(col) { sum(col * main_stats['n']) / sum(main_stats['n']) })
+	unbag = apply(matrix(weighted_model_stats,3),2,max)
+	stat = rbind(unbag, as.numeric(bag)- unbag)
+	colnames(stat) = colnames(bag)
+	x=barplot(stat, las=2, ylim=c(60,95), xpd=FALSE, ylab='Korrekt (%)', col=c('gray', 'green'))
 	par(xpd=TRUE)
 	abline(h=zeroR,lty=2)
 	text(max(x)+1.5,zeroR+1, paste('ZeroR (',round(zeroR,1),'%)',sep=''), cex=.8)
-	addLabels(x, stat)
-	title('Akkumulierte Erkennungsraten der besten Algorithmen je Featureset (%)')
+	addLabels(x, as.numeric(stat[2,]), yplus=as.numeric(stat[1,])-.75, praefix='+', cex=.6)
+	addLabels(x, as.numeric(stat[1,]), yplus=-2.25, cex=.6)
+	addLabels(x, as.numeric(stat[1,]) + as.numeric(stat[2,]), yplus=.75, cex=.8)
+	#title('Akkumulierte Erkennungsraten der besten Algorithmen je Featureset (%)')
 	dev.off()
 }
 
@@ -284,8 +290,10 @@ main_stats = read.csv(paste(folder,'stats.csv',sep=''))
 #	)
 
 models = c(
-	'all','sparse','numeric','phon','affix',
-	'praefix','suffix','phoncat','sylstruct','weight','sonority','meta'
+	'all','numeric','sparse',
+	'suffix','praefix', 'affix', 
+	'sonority', 'weight', 'phoncat', 'phon',
+	'sylstruct','meta'
 )
 
 plot_bestmodels_stat(models, main_stats)
@@ -374,12 +382,12 @@ function() {
 			cex.lab=.7,
 			cex.axis=.85,
 			cex.main=1,
-			mar=c(5.5,2.3,.7,2)
+			mar=c(5.5,4,.7,2)
 		)
 	weighted_model_stats = apply(main_stats[4:length(main_stats)-1], 2, function(col) { sum(col * main_stats['n']) / sum(main_stats['n']) })
 	colors = c(replicate(12,c(replicate(3,'gray65'),replicate(3,'gray90'))))
 	lbls = pretty_name(names(weighted_model_stats))
-	x=barplot(weighted_model_stats, ylim=c(60,100), las=2, xpd=FALSE, col=colors, names=lbls)
+	x=barplot(weighted_model_stats, ylim=c(60,100), las=2, xpd=FALSE, col=colors, names=lbls, ylab='Korrekt (%)')
 	zeroR = sum(main_stats['n'] * main_stats['zeroR']) / sum(main_stats['n'])
 	par(xpd=TRUE)
 	abline(h=zeroR,lty=2)
@@ -466,7 +474,7 @@ function() {
 }
 
 
-# FIXME: Ergebnis/Anzahl Werte
+# Ergebnis/Anzahl Werte
 function() {
 	folder = "/home/sbiastoch/Schreibtisch/thesis/Experimente/evaluation/"
 	filename = paste(folder,'counts_vs_performance.png',sep='')
@@ -523,32 +531,35 @@ function() {
 	dev.off()
 }()
 
+# Plottet die Breite des Baumes und Erkennungsrate vs MinWords (J48)
+folder = "/home/sbiastoch/Schreibtisch/thesis/Experimente/evaluation/"
 filename = paste(folder,'j48_min_leaves.png',sep='')
 png(filename = filename, width = 1000, height = 1000, units = "px", bg = "white", pointsize = 30)
 j48_rules_plot = function(syls, colors) {
 	j48_rules_stats = read.csv(paste(folder,'j48_experiment.csv',sep=''))
 	w = subset(j48_rules_stats, syl==syls)
 	steps = c(2,5,10,15,20,30,50,100)
-	plot(steps,w[,'measureNumLeaves'], axes=0, type='l', xlab='', ylab='', ylim=c(0,1500), lty=3, col=colors, lwd=3)
-	axis(4, col.lab='darkgray', at=c(0,300,600,900,1200,1500), las=1)
-	par(new=T)
-	plot(steps,w[,'Percent_correct'], type='l', xlab='', ylab='', axes=0, ylim=c(83,96), col=colors, lwd=3)
+	plot(steps,w[,'Percent_correct'], type='l', xlab='Minimale Anzahl an Wörter pro Blatt', ylab='Korrekt (%)', axes=0, ylim=c(83,96), col=colors, lwd=3)
 	axis(1, at=steps, las=1)
 	axis(2, at=c(83,85,87,89,91,93,95,97), las=1)
+	par(new=T)
+	plot(steps,w[,'measureNumLeaves'], axes=0, type='l', ylim=c(0,1500), xlab='', ylab='', lty=3, col=colors, lwd=3)
+	axis(4, col.lab='darkgray', at=c(0,300,600,900,1200,1500), las=1)
+	mtext("Anzahl Blätter", side=4, line=3)
 	#par(new=F)
 }
-par(mar=c(2,2.5,.1,3))
+par(mar=c(4,4,.1,4))
 j48_rules_plot(2, 'red')
 par(new=T)
 j48_rules_plot(3, 'green')
 par(new=T)
 j48_rules_plot(4, 'blue')
 abline(v=20, lty=2)
+legend('topright', col=c('red', 'green', 'blue'), c('2 Silben', '3 Silben', '4 Silben'), lty=c(1, 1, 1), lwd=3)
 dev.off()
 
 
-
-folder = "/home/sbiastoch/Schreibtisch/thesis/Experimente/evaluation/"
+# Plottet die Breite des Baumes und Erkennungsrate vs MinWords (JRip)
 filename = paste(folder,'jrip_min_leaves.png',sep='')
 png(filename = filename, width = 1000, height = 1000, units = "px", bg = "white", pointsize = 30)
 jrip_rules_plot = function(syls, colors) {
@@ -557,17 +568,20 @@ jrip_rules_plot = function(syls, colors) {
 	steps = c(2,5,10,15,20,30,50,100)
 	plot(steps,w[,'measureNumRules'], axes=0, type='l', xlab='', ylab='', ylim=c(0,60), lty=3, col=colors, lwd=3)
 	axis(4, col.lab='darkgray', at=c(0,10,20,30,40,50,60), las=1)
+	mtext("Anzahl Regeln", side=4, line=3)
 	par(new=T)
-	plot(steps,w[,'Percent_correct'], type='l', xlab='', ylab='', axes=0, ylim=c(75,100), col=colors, lwd=3)
+	plot(steps,w[,'Percent_correct'], type='l', xlab='Minimale Anzahl an Wörter pro Regel', ylab='Korrekt (%)', axes=0, ylim=c(75,100), col=colors, lwd=3)
 	axis(1, at=steps, las=1)
 	axis(2, at=c(75,80,85,90,95,100), las=1)
 	#par(new=F)
 }
-par(mar=c(2,2.5,.1,3))
+par(mar=c(4,4,.1,4))
 jrip_rules_plot(2, 'red')
 par(new=T)
 jrip_rules_plot(3, 'green')
 par(new=T)
 jrip_rules_plot(4, 'blue')
 abline(v=20, lty=2)
+legend('topright', col=c('red', 'green', 'blue'), c('2 Silben', '3 Silben', '4 Silben'), lty=c(1, 1, 1), lwd=3)
+#legend(50, 100, c('Korrekt', '#Regeln'), lty=c(1,3), lwd=3, bty='n')
 dev.off()
