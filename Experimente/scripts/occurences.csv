@@ -1,0 +1,1001 @@
+					
+					
+1993	suffix3				
+1172	suffix4				
+1036	suffix2				
+786	syl_phoncat1				
+750	syl_phoncat0				
+720	suffix5				
+676	suffix_phoncat5				
+474	praefix2				
+404	syl_phoncat2				
+333	suffix1				
+308	praefix_phoncat5				
+291	suffix_phoncat4				
+244	praefix1				
+220	signi_suffix				
+213	syl_phoncat3				
+197	syl_cv0				
+196	sonority0				
+186	praefix_phoncat4				
+170	comp_struct				
+169	praefix3				
+156	syl_len0				
+155	pos				
+153	comp_len				
+140	sonority_dir				
+138	suffix_phoncat3				
+133	syl_cv2				
+115	syl_cv1				
+108	syl_len1				
+106	sonority2				
+106	sonority1				
+100	syl_weight1				
+99	prae_class				
+98	sonority_ratio0				
+94	praefix_phoncat3				
+90	sonority_ratio1				
+80	sonority_ratio2				
+78	syl_len2				
+75	syl_weight2				
+68	sonority3				
+65	signi_praefix				
+64	onset_len0				
+62	syl_weight3				
+62	nucleus_phoncat1				
+60	nomen				
+55	nucleus_phoncat2				
+53	syl_cv3				
+52	nucleus_len1				
+50	koda_len1				
+49	nucleus_phoncat3				
+48	sonority_ratio3				
+44	nucleus_phoncat0				
+40	syl_len3				
+39	syl_weight0				
+38	syl_open2				
+37	syl_open1				
+37	praefix4				
+36	suff_class				
+36	nucleus_len0				
+36	koda_len2				
+32	koda_len0				
+30	syl_open0				
+30	suffix_phoncat1				
+30	cv_ratio0				
+28	syl_phoncat4				
+28	sonority4				
+26	nucleus_len2				
+26	cv_ratio1				
+24	nucleus_phoncat6				
+24	cv_ratio2				
+22	syl_open3				
+22	koda_len3				
+21	nucleus_phoncat4				
+20	onset_len4				
+18	praefix5				
+18	onset_len1				
+18	nucleus_len3				
+15	onset_phoncat1				
+14	syl_len4				
+14	suffix_phoncat2				
+14	sonority_ratio4				
+14	nucleus_len4				
+12	sonority_ratio5				
+12	onset_len3				
+12	onset_len2				
+10	syl_open4				
+10	cv_ratio3				
+9	praefix_phoncat2				
+8	syl_weight4				
+8	syl_cv5				
+8	nucleus_len6				
+8	nucleus_len5				
+8	koda_phoncat1				
+7	koda_phoncat2				
+6	syl_weight6				
+6	sonority5				
+6	koda_len4				
+5	praefix_phoncat1				
+5	onset_phoncat0				
+4	syl_len5				
+3	syl_weight5				
+3	nucleus_phoncat5				
+0	syl_phoncat6				
+0	syl_phoncat5				
+0	syl_open6				
+0	syl_open5				
+0	syl_len6				
+0	syl_cv6				
+0	syl_cv4				
+0	sonority_ratio6				
+0	sonority6				
+0	onset_phoncat6				
+0	onset_phoncat5				
+0	onset_phoncat4				
+0	onset_phoncat3				
+0	onset_phoncat2				
+0	onset_len6				
+0	onset_len5				
+0	koda_phoncat6				
+0	koda_phoncat5				
+0	koda_phoncat4				
+0	koda_phoncat3				
+0	koda_phoncat0				
+0	koda_len6				
+0	koda_len5				
+0	cv_ratio6				
+0	cv_ratio5				
+0	cv_ratio4				
+					
+					
+					
+186	comp_len				
+140	syl_weight1				
+129	sonority0				
+128	syl_len0				
+88	prae_class				
+77	syl_len1				
+67	pos				
+66	sonority2				
+65	nucleus_phoncat2				
+60	syl_len2				
+59	sonority_ratio0				
+51	syl_weight2				
+51	sonority1				
+50	syl_phoncat0				
+47	suff_class				
+47	nucleus_len2				
+45	suffix_phoncat4				
+44	sonority_ratio2				
+44	nucleus_phoncat1				
+42	sonority3				
+39	onset_len0				
+38	nucleus_phoncat0				
+37	suffix_phoncat2				
+35	syl_len3				
+31	suffix1				
+29	suffix3				
+29	nucleus_phoncat3				
+28	sonority_ratio1				
+27	syl_open1				
+26	syl_open2				
+26	sonority_dir				
+26	cv_ratio2				
+25	syl_weight3				
+25	syl_weight0				
+25	syl_phoncat3				
+25	suffix4				
+23	suffix5				
+23	koda_len1				
+23	cv_ratio0				
+23	comp_struct				
+22	syl_open0				
+21	sonority_ratio3				
+20	syl_open3				
+20	suffix_phoncat5				
+20	suffix2				
+20	sonority4				
+20	praefix_phoncat2				
+20	koda_phoncat1				
+20	koda_len2				
+19	syl_phoncat1				
+19	praefix2				
+18	koda_phoncat2				
+17	nucleus_len3				
+16	syl_phoncat2				
+16	nucleus_len0				
+15	syl_weight4				
+15	koda_len0				
+14	suffix_phoncat3				
+13	syl_cv1				
+13	cv_ratio1				
+12	syl_phoncat4				
+12	syl_len4				
+12	syl_cv0				
+12	praefix1				
+11	syl_cv3				
+11	signi_suffix				
+11	nucleus_phoncat4				
+11	cv_ratio3				
+10	syl_cv2				
+9	suffix_phoncat1				
+9	koda_len3				
+8	praefix_phoncat5				
+8	praefix_phoncat3				
+8	praefix_phoncat1				
+8	praefix3				
+8	onset_phoncat0				
+7	sonority_ratio4				
+7	cv_ratio4				
+6	praefix_phoncat4				
+5	syl_phoncat5				
+5	onset_phoncat3				
+5	onset_len3				
+5	nucleus_len4				
+4	syl_open4				
+4	syl_cv4				
+4	sonority5				
+4	praefix5				
+4	onset_phoncat2				
+4	onset_phoncat1				
+4	onset_len4				
+4	onset_len2				
+4	onset_len1				
+4	nucleus_phoncat5				
+4	nomen				
+4	koda_phoncat3				
+4	koda_phoncat0				
+3	syl_cv5				
+3	signi_praefix				
+3	praefix4				
+3	cv_ratio5				
+2	nucleus_phoncat6				
+2	cv_ratio6				
+1	syl_open5				
+1	syl_len5				
+1	syl_cv6				
+1	sonority_ratio5				
+1	sonority6				
+1	nucleus_len5				
+1	koda_len4				
+0	syl_weight6				
+0	nucleus_len6				
+					
+(prae_class = noacc) => stress_class=paenultima (1562.0/1.0)	1562.0	1.0	0.99936	3syl	models-praefix.txt
+(prae_class = noacc) => stress_class=paenultima (1561.0/1.0)	1561.0	1.0	0.999359	3syl	models-affix.txt
+(prae_class = noacc) => stress_class=paenultima (1560.0/1.0)	1560.0	1.0	0.999359	3syl	models-all.txt
+(prae_class = noacc) => stress_class=paenultima (1559.0/1.0)	1559.0	1.0	0.999359	3syl	models-sparse.txt
+(nucleus_phoncat0 = K) and (syl_phoncat0 = CK) and (nucleus_phoncat2 = K) => stress_class=paenultima (1137.0/271.0)	1137.0	271.0	0.761653	3syl	models-phoncat.txt
+(nucleus_phoncat0 = K) and (syl_phoncat2 = CKC) and (syl_phoncat0 = CKC) => stress_class=paenultima (1069.0/388.0)	1069.0	388.0	0.637044	3syl	models-phoncat.txt
+(syl_cv0 = CVC) and (nucleus_len1 >= 2) and (syl_len0 <= 3) => stress_class=paenultima (896.0/175.0)	896.0	175.0	0.804688	3syl	models-sylstruct.txt
+(nucleus_phoncat0 = K) and (syl_weight1 = light) and (sonority0 <= 11) and (sonority0 >= 10) and (syl_phoncat0 = CKC) and (sonority0 >= 11) => stress_class=paenultima (877.0/95.0)	877.0	95.0	0.891676	3syl	models-phon.txt
+(sonority0 <= 11) and (sonority_ratio0 <= 3) and (sonority_ratio0 >= 3) and (sonority0 >= 11) and (sonority1 >= 11) and (sonority2 >= 10) => stress_class=paenultima (738.0/217.0)	738.0	217.0	0.705962	3syl	models-sonority.txt
+(comp_len <= 1) and (cv_ratio0 >= 2) and (syl_len0 <= 3) and (sonority_ratio0 <= 3) and (nucleus_len1 >= 2) => stress_class=paenultima (729.0/45.0)	729.0	45.0	0.938272	3syl	models-numeric.txt
+(syl_weight0 = schwa) => stress_class=paenultima (721.0/0.0)	721.0	0.0	1	3syl	models-weight.txt
+(nucleus_phoncat0 = K) and (syl_open0 = o) => stress_class=paenultima (716.0/0.0)	716.0	0.0	1	3syl	models-phon.txt
+(nucleus_len0 <= 1) and (syl_len0 <= 3) and (syl_cv0 = CV) => stress_class=paenultima (713.0/0.0)	713.0	0.0	1	3syl	models-sylstruct.txt
+(comp_len <= 1) and (sonority_ratio0 <= 3) and (koda_len0 <= 0) and (nucleus_len0 <= 1) => stress_class=paenultima (664.0/0.0)	664.0	0.0	1	3syl	models-numeric.txt
+(comp_len <= 1) and (nucleus_len2 >= 2) and (cv_ratio1 <= 0) => stress_class=paenultima (647.0/83.0)	647.0	83.0	0.871716	4syl	models-numeric.txt
+(syl_len0 <= 3) and (nucleus_len0 <= 1) and (syl_cv2 = CVC) and (syl_len0 >= 3) and (koda_len1 >= 1) => stress_class=paenultima (637.0/174.0)	637.0	174.0	0.726845	3syl	models-sylstruct.txt
+(nucleus_phoncat3 = L) and (nucleus_phoncat2 = L) => stress_class=paenultima (610.0/167.0)	610.0	167.0	0.72623	5syl	models-phoncat.txt
+(nucleus_len2 >= 2) and (comp_len <= 1) and (signi_suffix = ø) and (suffix_phoncat2 = LC) and (syl_weight1 = light) => stress_class=ultima (595.0/56.0)	595.0	56.0	0.905882	3syl	models-all.txt
+(nucleus_phoncat2 = L) and (nucleus_phoncat1 = L) and (syl_phoncat3 = CKC) => stress_class=paenultima (558.0/71.0)	558.0	71.0	0.87276	4syl	models-phoncat.txt
+(sonority0 <= 11) and (sonority_ratio0 <= 3) and (sonority_ratio0 >= 3) and (sonority_ratio2 >= 4) and (sonority_dir <= 1) and (sonority1 >= 8) => stress_class=paenultima (544.0/204.0)	544.0	204.0	625	3syl	models-sonority.txt
+(nucleus_len2 >= 2) and (comp_len <= 1) and (syl_len1 <= 2) and (onset_len0 >= 1) and (syl_len2 >= 3) => stress_class=ultima (516.0/44.0)	516.0	44.0	0.914729	3syl	models-sparse.txt
+(nucleus_len2 >= 2) and (comp_len <= 1) and (syl_len1 <= 2) and (onset_len0 >= 1) and (syl_len2 >= 3) => stress_class=ultima (516.0/44.0)	516.0	44.0	0.914729	3syl	models-numeric.txt
+(nucleus_phoncat3 = L) and (comp_len <= 1) and (signi_suffix = ø) and (syl_len3 >= 3) => stress_class=ultima (498.0/56.0)	498.0	56.0	0.88755	4syl	models-all.txt
+(syl_weight1 = light) and (nucleus_phoncat2 = L) and (syl_phoncat4 = CKC) => stress_class=paenultima (490.0/86.0)	490.0	86.0	0.82449	5syl	models-phon.txt
+(suffix_phoncat4 = LCKC) and (suffix4 = eren) => stress_class=paenultima (477.0/50.0)	477.0	50.0	0.895178	4syl	models-suffix.txt
+(nucleus_phoncat3 = L) and (comp_len <= 1) and (syl_len2 <= 2) and (koda_phoncat3 = C) => stress_class=ultima (477.0/38.0)	477.0	38.0	0.920335	4syl	models-sparse.txt
+(nucleus_phoncat1 = L) and (nucleus_phoncat2 = L) and (onset_phoncat3 = C) and (syl_open1 = o) => stress_class=paenultima (463.0/77.0)	463.0	77.0	0.833693	4syl	models-phon.txt
+(syl_weight1 = light) and (nucleus_phoncat2 = L) and (sonority0 <= 10) and (sonority3 >= 13) => stress_class=paenultima (454.0/44.0)	454.0	44.0	0.903084	4syl	models-phon.txt
+(comp_len <= 1) and (sonority0 <= 10) and (sonority0 >= 10) and (onset_len0 <= 0) and (nucleus_len0 <= 1) => stress_class=paenultima (450.0/23.0)	450.0	23.0	0.948889	3syl	models-numeric.txt
+(sonority_ratio0 <= 4) and (sonority2 >= 10) and (sonority_ratio2 <= 4) and (sonority0 <= 11) => stress_class=sekunda (447.0/197.0)	447.0	197.0	0.559284	5syl	models-sonority.txt
+(comp_len <= 1) and (cv_ratio0 >= 2) and (sonority0 <= 11) and (sonority0 >= 11) and (koda_len1 >= 1) and (nucleus_len2 <= 1) and (syl_len0 <= 3) and (sonority_ratio0 <= 3) => stress_class=paenultima (435.0/12.0)	435.0	12.0	0.972414	3syl	models-numeric.txt
+(nucleus_len2 >= 2) and (syl_cv1 = CVV) and (koda_len2 >= 1) => stress_class=ultima (428.0/80.0)	428.0	80.0	0.813084	3syl	models-sylstruct.txt
+(suffix_phoncat4 = LCKC) and (suffix5 = ieren) and (prae_class = ø) => stress_class=paenultima (426.0/4.0)	426.0	4.0	0.99061	4syl	models-affix.txt
+(sonority_dir >= 1) and (sonority_ratio2 >= 4) and (sonority3 >= 13) and (sonority3 <= 13) => stress_class=paenultima (425.0/106.0)	425.0	106.0	0.750588	4syl	models-sonority.txt
+(syl_weight3 = light) and (syl_open2 = o) and (syl_weight2 = light) and (syl_weight1 = light) and (syl_open0 = o) => stress_class=ultima (416.0/207.0)	416.0	207.0	0.502404	4syl	models-weight.txt
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (onset_len0 >= 1) and (onset_len2 >= 1) => stress_class=paenultima (412.0/113.0)	412.0	113.0	0.725728	3syl	models-numeric.txt
+(comp_len <= 1) and (sonority0 <= 10) and (nucleus_phoncat2 = L) and (syl_weight1 = light) and (sonority1 <= 10) and (onset_phoncat3 = C) => stress_class=paenultima (398.0/37.0)	398.0	37.0	0.907035	4syl	models-all.txt
+(prae_class = noacc) => stress_class=antepaenultima (392.0/2.0)	392.0	2.0	0.994898	4syl	models-sparse.txt
+(prae_class = noacc) => stress_class=antepaenultima (392.0/2.0)	392.0	2.0	0.994898	4syl	models-praefix.txt
+(prae_class = noacc) => stress_class=antepaenultima (392.0/2.0)	392.0	2.0	0.994898	4syl	models-all.txt
+(prae_class = noacc) => stress_class=antepaenultima (390.0/2.0)	390.0	2.0	0.994872	4syl	models-affix.txt
+(syl_suffix = ø) and (comp_len <= 1) and (syl_weight2 = heavy) and (syl_weight1 = light) => stress_class=ultima (382.0/74.0)	382.0	74.0	0.806283	3syl	models-all.txt
+(sonority0 <= 11) and (syl_weight1 = light) and (syl_open0 = o) and (syl_phoncat0 = CL) and (onset_phoncat2 = C) and (nucleus_phoncat2 = K) => stress_class=paenultima (378.0/103.0)	378.0	103.0	0.727513	3syl	models-phon.txt
+(sonority0 <= 10) and (syl_weight1 = light) and (sonority0 >= 10) and (nucleus_phoncat0 = K) and (sonority_ratio0 >= 5) => stress_class=paenultima (370.0/31.0)	370.0	31.0	0.916216	3syl	models-phon.txt
+(syl_len0 <= 2) and (nucleus_len2 >= 2) and (nucleus_len1 >= 2) and (syl_cv3 = CVC) and (syl_len1 <= 3) => stress_class=paenultima (364.0/39.0)	364.0	39.0	0.892857	4syl	models-sylstruct.txt
+(nucleus_phoncat2 = L) and (syl_phoncat1 = CL) and (koda_phoncat2 = C) => stress_class=ultima (359.0/60.0)	359.0	60.0	0.832869	3syl	models-phoncat.txt
+(comp_len <= 1) and (sonority0 <= 10) and (syl_weight1 = light) and (prae_class = ø) and (syl_weight3 = schwa) => stress_class=paenultima (359.0/50.0)	359.0	50.0	0.860724	4syl	models-sparse.txt
+(syl_phoncat0 = L) and (syl_phoncat1 = CKC) => stress_class=paenultima (342.0/150.0)	342.0	150.0	0.561404	4syl	models-phoncat.txt
+(comp_len <= 1) and (suffix_phoncat4 = LCKC) and (sonority4 >= 13) and (prae_class = ø) => stress_class=paenultima (341.0/5.0)	341.0	5.0	0.985337	5syl	models-all.txt
+(nucleus_phoncat1 = L) and (sonority0 <= 11) and (nucleus_phoncat0 = K) and (sonority_ratio0 >= 3) and (syl_open1 = c) => stress_class=ultima (339.0/120.0)	339.0	120.0	0.646018	2syl	models-phon.txt
+(sonority3 <= 9) and (sonority3 >= 8) and (sonority_ratio2 >= 4) and (sonority2 <= 10) => stress_class=ultima (331.0/119.0)	331.0	119.0	0.640483	4syl	models-sonority.txt
+(comp_len <= 1) and (nucleus_phoncat2 = L) and (onset_len0 >= 1) and (pos = V) => stress_class=paenultima (328.0/8.0)	328.0	8.0	0.97561	4syl	models-sparse.txt
+(nucleus_len3 >= 2) and (syl_len2 <= 2) and (comp_len <= 1) and (syl_len3 >= 3) => stress_class=ultima (328.0/40.0)	328.0	40.0	0.878049	4syl	models-numeric.txt
+(nucleus_phoncat3 = L) and (syl_open1 = o) and (sonority2 <= 11) and (syl_weight2 = light) => stress_class=ultima (326.0/78.0)	326.0	78.0	0.760736	4syl	models-phon.txt
+(syl_len0 <= 3) and (nucleus_len1 >= 2) and (cv_ratio0 >= 2) and (syl_len1 >= 3) and (koda_len0 <= 1) => stress_class=ultima (325.0/65.0)	325.0	65.0	0.8	2syl	models-sylstruct.txt
+(syl_weight1 = light) and (syl_weight4 = schwa) and (syl_open2 = o) and (syl_open3 = o) => stress_class=paenultima (324.0/57.0)	324.0	57.0	0.824074	5syl	models-weight.txt
+(comp_len <= 1) and (nucleus_phoncat2 = L) and (onset_len0 >= 1) and (syl_suffix = ren) => stress_class=paenultima (321.0/2.0)	321.0	2.0	0.993769	4syl	models-all.txt
+(sonority_ratio2 >= 4) and (sonority3 >= 13) and (sonority3 <= 13) => stress_class=paenultima (318.0/140.0)	318.0	140.0	0.559748	4syl	models-sonority.txt
+(nucleus_phoncat1 = L) and (koda_phoncat1 = C) => stress_class=antepaenultima (316.0/101.0)	316.0	101.0	0.68038	4syl	models-phoncat.txt
+(nucleus_phoncat1 = L) and (syl_open0 = o) and (syl_open1 = c) => stress_class=ultima (310.0/68.0)	310.0	68.0	0.780645	2syl	models-phon.txt
+(nucleus_phoncat4 = L) and (comp_len <= 1) and (pos = N) => stress_class=ultima (309.0/17.0)	309.0	17.0	0.944984	5syl	models-sparse.txt
+(suffix_phoncat2 = LC) and (suffix_phoncat4 = LCLC) and (signi_suffix = ø) => stress_class=ultima (304.0/50.0)	304.0	50.0	0.835526	3syl	models-suffix.txt
+(sonority_dir >= 0) and (sonority_ratio0 >= 8) and (sonority0 <= 8) => stress_class=paenultima (304.0/121.0)	304.0	121.0	0.601974	4syl	models-sonority.txt
+(praefix_phoncat2 = CK) and (praefix_phoncat5 = CKCLC) => stress_class=paenultima (303.0/83.0)	303.0	83.0	0.726073	3syl	models-praefix.txt
+(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (sonority0 <= 10) and (onset_phoncat2 = C) and (cv_ratio1 <= 1) => stress_class=paenultima (302.0/80.0)	302.0	80.0	0.735099	3syl	models-all.txt
+(comp_len <= 1) and (nomen = F) and (comp_struct = R) => stress_class=paenultima (299.0/44.0)	299.0	44.0	0.852843	4syl	models-meta.txt
+(nucleus_phoncat4 = L) and (sonority4 <= 9) and (syl_open3 = o) => stress_class=ultima (299.0/34.0)	299.0	34.0	0.886288	5syl	models-phon.txt
+(nucleus_phoncat4 = L) and (comp_len <= 1) and (sonority4 <= 10) => stress_class=ultima (298.0/15.0)	298.0	15.0	0.949664	5syl	models-all.txt
+(sonority0 <= 10) and (sonority_ratio2 >= 4) and (sonority1 <= 9) and (sonority_ratio2 >= 5) => stress_class=paenultima (296.0/132.0)	296.0	132.0	0.554054	4syl	models-sonority.txt
+(suffix3 = ø) and (syl_len0 <= 3) and (nucleus_len1 >= 2) and (syl_len1 >= 3) and (comp_len <= 1) and (praefix_phoncat1 = C) => stress_class=ultima (295.0/70.0)	295.0	70.0	0.762712	2syl	models-all.txt
+(sonority0 <= 11) and (sonority_ratio0 <= 4) and (sonority_ratio0 >= 3) and (sonority_ratio0 <= 3) and (sonority0 >= 11) and (sonority_ratio2 >= 3) and (sonority2 <= 12) and (sonority2 >= 10) and (sonority_ratio2 <= 4) => stress_class=paenultima (292.0/132.0)	292.0	132.0	0.547945	3syl	models-sonority.txt
+(sonority0 <= 10) and (sonority0 >= 10) and (sonority_ratio0 >= 5) and (sonority_ratio1 >= 4) and (sonority_ratio0 <= 5) => stress_class=paenultima (287.0/80.0)	287.0	80.0	0.721254	3syl	models-sonority.txt
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (onset_len0 >= 1) and (syl_open1 = c) => stress_class=ultima (285.0/23.0)	285.0	23.0	0.919298	2syl	models-sparse.txt
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (koda_len1 >= 1) and (onset_len0 >= 1) => stress_class=ultima (285.0/23.0)	285.0	23.0	0.919298	2syl	models-numeric.txt
+(nucleus_len3 >= 2) and (syl_len2 <= 2) and (syl_len3 <= 3) and (syl_len3 >= 3) and (koda_len1 <= 0) => stress_class=ultima (283.0/44.0)	283.0	44.0	0.844523	4syl	models-sylstruct.txt
+(syl_len0 <= 2) and (syl_len1 <= 3) and (syl_len0 <= 1) and (sonority_ratio0 >= 8) and (koda_len3 >= 1) => stress_class=paenultima (279.0/101.0)	279.0	101.0	0.637993	4syl	models-numeric.txt
+(comp_len <= 1) and (pos = V) => stress_class=paenultima (277.0/32.0)	277.0	32.0	0.884477	5syl	models-meta.txt
+(nucleus_phoncat0 = K) and (nucleus_phoncat2 = K) and (onset_phoncat0 = C) and (syl_phoncat2 = CK) and (syl_phoncat3 = CKC) => stress_class=antepaenultima (276.0/98.0)	276.0	98.0	0.644928	4syl	models-phoncat.txt
+(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (sonority0 <= 10) and (syl_phoncat0 = CK) and (syl_open0 = o) => stress_class=paenultima (276.0/0.0)	276.0	0.0	1	3syl	models-all.txt
+(sonority4 <= 9) and (sonority4 >= 8) and (sonority_ratio3 >= 4) and (sonority3 <= 10) => stress_class=ultima (275.0/45.0)	275.0	45.0	0.836364	5syl	models-sonority.txt
+(nucleus_phoncat3 = L) and (syl_phoncat2 = CL) => stress_class=ultima (274.0/98.0)	274.0	98.0	0.642336	4syl	models-phoncat.txt
+(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (sonority0 <= 10) and (syl_weight0 = schwa) => stress_class=paenultima (274.0/0.0)	274.0	0.0	1	3syl	models-sparse.txt
+(sonority0 <= 10) and (sonority0 <= 7) and (sonority1 >= 12) and (sonority1 >= 14) => stress_class=paenultima (271.0/96.0)	271.0	96.0	0.645756	3syl	models-sonority.txt
+(suffix_phoncat4 = LCKC) and (suffix5 = ieren) => stress_class=paenultima (269.0/24.0)	269.0	24.0	0.910781	5syl	models-suffix.txt
+(comp_len <= 1) and (pos = V) and (comp_struct = N) => stress_class=paenultima (268.0/76.0)	268.0	76.0	0.716418	3syl	models-meta.txt
+(sonority0 <= 10) and (sonority0 >= 10) and (sonority2 <= 10) and (sonority2 >= 10) => stress_class=paenultima (268.0/120.0)	268.0	120.0	0.552239	3syl	models-sonority.txt
+(sonority_ratio2 >= 6) and (sonority2 >= 14) => stress_class=ultima (267.0/48.0)	267.0	48.0	0.820225	3syl	models-sonority.txt
+(syl_weight1 = heavy) and (sonority0 <= 11) and (sonority_ratio0 >= 3) and (nucleus_phoncat0 = K) => stress_class=ultima (267.0/107.0)	267.0	107.0	0.599251	2syl	models-phon.txt
+(nucleus_phoncat3 = L) and (nucleus_phoncat2 = L) and (sonority3 <= 9) and (koda_phoncat3 = C) and (sonority2 <= 12) => stress_class=ultima (266.0/11.0)	266.0	11.0	0.958647	4syl	models-phon.txt
+(nucleus_len1 >= 2) and (syl_len0 <= 3) and (syl_len1 >= 3) and (koda_len0 <= 0) and (syl_len0 <= 2) => stress_class=ultima (265.0/29.0)	265.0	29.0	0.890566	2syl	models-sylstruct.txt
+(syl_weight3 = light) and (syl_open3 = o) => stress_class=ultima (265.0/114.0)	265.0	114.0	0.569811	4syl	models-weight.txt
+(nucleus_len1 >= 2) and (syl_len0 <= 3) and (cv_ratio0 >= 2) and (syl_len1 >= 3) and (comp_len <= 1) => stress_class=ultima (264.0/57.0)	264.0	57.0	0.784091	2syl	models-sparse.txt
+(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (onset_len0 >= 1) and (syl_weight2 = schwa) and (suffix_phoncat2 = CK) => stress_class=paenultima (264.0/19.0)	264.0	19.0	0.92803	3syl	models-all.txt
+(praefix_phoncat2 = CK) and (praefix_phoncat4 = CKCL) => stress_class=paenultima (256.0/37.0)	256.0	37.0	0.855469	3syl	models-affix.txt
+(nucleus_len3 >= 2) and (cv_ratio2 <= 0) and (sonority3 <= 9) and (comp_len <= 1) and (koda_len3 >= 1) => stress_class=ultima (255.0/3.0)	255.0	3.0	0.988235	4syl	models-numeric.txt
+(syl_cv0 = CV) => stress_class=antepaenultima (255.0/1.0)	255.0	1.0	0.996078	4syl	models-sylstruct.txt
+(comp_len <= 1) and (nucleus_phoncat3 = L) and (sonority4 >= 13) and (prae_class = ø) and (syl_weight4 = schwa) => stress_class=paenultima (254.0/2.0)	254.0	2.0	0.992126	5syl	models-sparse.txt
+(cv_ratio4 <= 0) and (comp_len <= 1) and (sonority4 >= 9) => stress_class=ultima (251.0/9.0)	251.0	9.0	0.964143	5syl	models-numeric.txt
+(syl_weight2 = heavy) and (syl_weight1 = light) and (syl_open1 = o) => stress_class=ultima (249.0/54.0)	249.0	54.0	0.783133	3syl	models-phon.txt
+(cv_ratio2 <= 0) and (nucleus_len3 >= 2) and (syl_len2 <= 2) and (onset_len4 >= 1) => stress_class=paenultima (247.0/73.0)	247.0	73.0	0.704453	5syl	models-sylstruct.txt
+(sonority0 <= 10) and (sonority0 <= 7) and (sonority_ratio1 >= 4) and (sonority2 <= 13) and (sonority_ratio2 >= 4) => stress_class=paenultima (247.0/104.0)	247.0	104.0	0.578947	3syl	models-sonority.txt
+(nucleus_len2 >= 2) and (syl_len2 <= 3) and (syl_len1 <= 3) and (syl_len0 <= 2) and (syl_len2 >= 3) => stress_class=ultima (246.0/107.0)	246.0	107.0	0.565041	3syl	models-sylstruct.txt
+(suffix_phoncat4 = LCKC) and (suffix4 = eren) and (prae_class = ø) => stress_class=paenultima (242.0/2.0)	242.0	2.0	0.991736	5syl	models-affix.txt
+(suffix_phoncat2 = LC) and (suffix_phoncat4 = LCLC) => stress_class=ultima (240.0/61.0)	240.0	61.0	0.745833	4syl	models-suffix.txt
+(suffix_phoncat2 = LC) and (suffix_phoncat4 = LCLC) => stress_class=ultima (240.0/61.0)	240.0	61.0	0.745833	4syl	models-affix.txt
+(syl_weight1 = light) and (syl_open1 = c) and (syl_weight3 = schwa) and (syl_open2 = c) and (syl_open3 = c) and (syl_weight0 = light) => stress_class=antepaenultima (239.0/99.0)	239.0	99.0	0.585774	4syl	models-weight.txt
+(syl_weight1 = light) and (syl_weight3 = schwa) and (syl_open1 = o) and (syl_open2 = o) and (syl_open3 = c) and (syl_weight2 = light) => stress_class=paenultima (236.0/52.0)	236.0	52.0	0.779661	4syl	models-weight.txt
+(comp_struct = BV) => stress_class=antepaenultima (233.0/72.0)	233.0	72.0	0.690987	4syl	models-meta.txt
+(cv_ratio2 <= 0) and (syl_len2 >= 3) and (comp_len <= 1) and (syl_open1 = o) => stress_class=ultima (233.0/5.0)	233.0	5.0	0.978541	3syl	models-all.txt
+(nucleus_len2 >= 2) and (koda_len1 <= 0) and (syl_len2 <= 3) and (syl_len2 >= 3) and (syl_cv2 = CVV) => stress_class=ultima (231.0/9.0)	231.0	9.0	0.961039	3syl	models-sylstruct.txt
+(comp_len <= 1) and (syl_weight1 = light) and (nucleus_phoncat2 = L) => stress_class=paenultima (230.0/65.0)	230.0	65.0	0.717391	5syl	models-all.txt
+(koda_len2 >= 2) and (comp_len <= 1) and (syl_len1 <= 2) and (onset_len0 >= 1) => stress_class=ultima (229.0/84.0)	229.0	84.0	0.633188	3syl	models-numeric.txt
+(suffix3 = ø) and (suffix1 = t) and (suffix_phoncat2 = CC) => stress_class=ultima (229.0/105.0)	229.0	105.0	0.541485	2syl	models-suffix.txt
+(syl_weight1 = light) and (syl_weight2 = light) and (syl_open0 = o) and (syl_weight3 = schwa) and (syl_open2 = o) => stress_class=paenultima (226.0/88.0)	226.0	88.0	0.610619	4syl	models-weight.txt
+(cv_ratio4 <= 0) and (koda_len4 >= 1) => stress_class=ultima (226.0/27.0)	226.0	27.0	0.880531	5syl	models-sylstruct.txt
+(suffix_phoncat2 = LC) and (suffix_phoncat3 = LLC) => stress_class=ultima (225.0/26.0)	225.0	26.0	0.884444	5syl	models-suffix.txt
+(comp_len <= 1) and (nucleus_phoncat2 = L) and (onset_len0 >= 1) and (syl_weight1 = light) and (onset_phoncat3 = C) and (prae_class = ø) => stress_class=paenultima (224.0/40.0)	224.0	40.0	0.821429	4syl	models-sparse.txt
+(nucleus_phoncat0 = K) and (syl_phoncat0 = KCC) and (nucleus_phoncat2 = K) => stress_class=paenultima (224.0/39.0)	224.0	39.0	0.825893	3syl	models-phoncat.txt
+(suffix_phoncat2 = LC) and (suffix_phoncat3 = LLC) => stress_class=ultima (224.0/25.0)	224.0	25.0	0.888393	5syl	models-affix.txt
+(comp_len <= 1) and (pos = N) and (comp_struct = R) => stress_class=ultima (223.0/95.0)	223.0	95.0	0.573991	4syl	models-meta.txt
+(suffix3 = ø) and (suffix_phoncat5 = KCCLC) => stress_class=ultima (222.0/88.0)	222.0	88.0	0.603604	2syl	models-suffix.txt
+(comp_len <= 1) and (sonority0 <= 10) and (prae_class = ø) and (syl_weight1 = light) and (cv_ratio3 >= 2) => stress_class=paenultima (222.0/50.0)	222.0	50.0	0.774775	4syl	models-sparse.txt
+(syl_cv1 = CVVC) and (syl_len1 <= 3) and (syl_len0 <= 3) => stress_class=antepaenultima (222.0/30.0)	222.0	30.0	0.864865	4syl	models-sylstruct.txt
+(syl_weight1 = light) and (syl_phoncat1 = CLC) => stress_class=antepaenultima (221.0/73.0)	221.0	73.0	0.669683	4syl	models-phon.txt
+(comp_len <= 1) and (nucleus_len3 >= 2) and (sonority4 >= 13) and (sonority_ratio3 <= 4) and (sonority2 >= 9) => stress_class=paenultima (220.0/8.0)	220.0	8.0	0.963636	5syl	models-numeric.txt
+(comp_len <= 1) and (pos = N) and (comp_struct = R) => stress_class=ultima (220.0/70.0)	220.0	70.0	0.681818	3syl	models-meta.txt
+(syl_weight2 = heavy) and (syl_weight1 = light) and (comp_len <= 1) and (pos = N) and (syl_len2 <= 4) => stress_class=ultima (220.0/17.0)	220.0	17.0	0.922727	3syl	models-sparse.txt
+(suffix_phoncat4 = LCKC) and (suffix4 = eren) => stress_class=paenultima (219.0/20.0)	219.0	20.0	0.908676	3syl	models-suffix.txt
+(nucleus_phoncat2 = L) and (syl_weight1 = light) and (sonority1 <= 12) and (nucleus_phoncat0 = K) and (syl_weight0 = light) and (koda_phoncat2 = C) => stress_class=ultima (218.0/72.0)	218.0	72.0	0.669725	3syl	models-phon.txt
+(cv_ratio2 <= 0) and (syl_cv4 = CVC) and (syl_len1 <= 2) and (syl_len3 >= 3) => stress_class=paenultima (218.0/20.0)	218.0	20.0	0.908257	5syl	models-sylstruct.txt
+(syl_weight1 = light) and (syl_weight0 = schwa) => stress_class=antepaenultima (218.0/1.0)	218.0	1.0	0.995413	4syl	models-phon.txt
+(comp_len <= 0) and (nucleus_len1 >= 2) and (syl_len1 >= 3) => stress_class=ultima (216.0/49.0)	216.0	49.0	0.773148	2syl	models-numeric.txt
+(suffix4 = isch) and (suffix_phoncat4 = LCKC) => stress_class=paenultima (215.0/24.0)	215.0	24.0	0.888372	4syl	models-suffix.txt
+(suffix4 = isch) and (suffix_phoncat4 = LCKC) => stress_class=paenultima (215.0/24.0)	215.0	24.0	0.888372	4syl	models-affix.txt
+(syl_len0 <= 2) and (syl_len1 <= 3) and (syl_len0 <= 1) and (syl_len2 >= 3) => stress_class=paenultima (214.0/87.0)	214.0	87.0	0.593458	4syl	models-sylstruct.txt
+(syl_phoncat2 = CD) => stress_class=ultima (214.0/33.0)	214.0	33.0	0.845794	3syl	models-phoncat.txt
+(syl_weight1 = light) and (syl_phoncat0 = CKC) and (sonority0 >= 11) and (sonority0 <= 11) and (nucleus_phoncat2 = K) => stress_class=antepaenultima (213.0/20.0)	213.0	20.0	0.906103	4syl	models-phon.txt
+(suffix4 = ø) and (suffix2 = en) => stress_class=sekunda (212.0/91.0)	212.0	91.0	0.570755	5syl	models-suffix.txt
+(comp_len <= 1) and (sonority0 <= 10) and (syl_weight1 = light) and (syl_weight4 = light) and (cv_ratio4 >= 2) => stress_class=paenultima (212.0/24.0)	212.0	24.0	0.886792	5syl	models-sparse.txt
+(syl_weight1 = light) and (syl_weight0 = schwa) => stress_class=antepaenultima (212.0/1.0)	212.0	1.0	0.995283	4syl	models-weight.txt
+(nucleus_phoncat2 = L) and (syl_weight1 = light) and (syl_open1 = o) and (koda_phoncat2 = C) and (sonority2 <= 12) => stress_class=ultima (210.0/21.0)	210.0	21.0	0.9	3syl	models-phon.txt
+(comp_len <= 0) and (pos = A) => stress_class=ultima (209.0/101.0)	209.0	101.0	0.516746	3syl	models-meta.txt
+(suffix1 = t) and (praefix_phoncat3 = CKC) and (suffix3 = ø) => stress_class=ultima (206.0/82.0)	206.0	82.0	0.601942	2syl	models-affix.txt
+(praefix1 = u) and (praefix5 = ueber) => stress_class=paenultima (206.0/75.0)	206.0	75.0	0.635922	4syl	models-praefix.txt
+(suffix_phoncat2 = LC) and (suffix_phoncat3 = LLC) => stress_class=ultima (206.0/11.0)	206.0	11.0	0.946602	4syl	models-suffix.txt
+(nucleus_phoncat3 = L) and (nucleus_phoncat2 = L) and (syl_phoncat3 = LC) => stress_class=ultima (206.0/11.0)	206.0	11.0	0.946602	4syl	models-phoncat.txt
+(suffix_phoncat2 = LC) and (suffix_phoncat3 = LLC) => stress_class=ultima (206.0/11.0)	206.0	11.0	0.946602	4syl	models-affix.txt
+(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (onset_len0 >= 1) and (syl_weight2 = schwa) and (sonority_ratio0 <= 3) => stress_class=paenultima (205.0/28.0)	205.0	28.0	0.863415	3syl	models-sparse.txt
+(comp_len <= 1) and (prae_class = ø) and (nucleus_phoncat1 = L) and (syl_weight2 = schwa) and (comp_len <= 0) => stress_class=paenultima (205.0/20.0)	205.0	20.0	0.902439	3syl	models-sparse.txt
+(nucleus_len3 >= 2) and (cv_ratio2 <= 0) and (syl_cv3 = VVC) => stress_class=ultima (204.0/10.0)	204.0	10.0	0.95098	4syl	models-sylstruct.txt
+(sonority4 >= 13) and (sonority_ratio3 >= 4) and (sonority4 <= 13) and (sonority0 <= 10) => stress_class=paenultima (203.0/20.0)	203.0	20.0	0.901478	5syl	models-sonority.txt
+(nucleus_phoncat4 = L) and (syl_phoncat3 = AL) => stress_class=ultima (203.0/17.0)	203.0	17.0	0.916256	5syl	models-phoncat.txt
+(sonority1 >= 12) and (sonority_ratio0 <= 4) and (sonority0 <= 11) and (sonority0 >= 11) => stress_class=antepaenultima (201.0/79.0)	201.0	79.0	0.606965	4syl	models-sonority.txt
+(syl_weight2 = light) and (syl_open1 = o) and (syl_open2 = o) and (syl_weight1 = schwa) => stress_class=ultima (201.0/17.0)	201.0	17.0	0.915423	3syl	models-weight.txt
+(suffix3 = ø) and (suffix_phoncat5 = KCCLC) => stress_class=ultima (200.0/80.0)	200.0	80.0	0.6	2syl	models-affix.txt
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (suffix_phoncat2 = LC) and (praefix_phoncat1 = C) => stress_class=ultima (199.0/8.0)	199.0	8.0	0.959799	2syl	models-all.txt
+(nucleus_phoncat3 = L) and (comp_len <= 1) and (syl_len2 <= 2) and (suffix_phoncat3 = LLC) => stress_class=ultima (198.0/6.0)	198.0	6.0	0.969697	4syl	models-all.txt
+(comp_len <= 1) and (comp_struct = N) and (pos = V) => stress_class=paenultima (193.0/49.0)	193.0	49.0	0.746114	4syl	models-meta.txt
+(syl_weight0 = schwa) => stress_class=ultima (193.0/0.0)	193.0	0.0	1	2syl	models-weight.txt
+(nucleus_phoncat1 = L) and (syl_phoncat0 = CKC) and (koda_phoncat1 = C) => stress_class=ultima (192.0/85.0)	192.0	85.0	0.557292	2syl	models-phoncat.txt
+(comp_len <= 1) and (nomen = F) and (comp_len <= 0) => stress_class=paenultima (191.0/59.0)	191.0	59.0	0.691099	4syl	models-meta.txt
+(syl_weight2 = schwa) and (sonority2 >= 10) and (sonority0 <= 10) => stress_class=sekunda (189.0/28.0)	189.0	28.0	0.851852	5syl	models-phon.txt
+(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (sonority0 <= 10) and (syl_open2 = o) and (cv_ratio2 >= 1) and (pos = N) => stress_class=paenultima (189.0/10.0)	189.0	10.0	0.94709	3syl	models-sparse.txt
+(sonority_ratio2 >= 6) and (syl_phoncat2 = CD) => stress_class=ultima (188.0/9.0)	188.0	9.0	0.952128	3syl	models-phon.txt
+(syl_len0 <= 2) and (syl_cv2 = CVC) and (syl_len2 >= 5) => stress_class=paenultima (187.0/58.0)	187.0	58.0	0.68984	3syl	models-sylstruct.txt
+(suffix_phoncat3 = KCD) => stress_class=ultima (187.0/11.0)	187.0	11.0	0.941176	3syl	models-affix.txt
+(cv_ratio2 <= 0) and (syl_cv3 = CVC) and (syl_len2 >= 3) and (syl_cv0 = CVC) => stress_class=paenultima (186.0/57.0)	186.0	57.0	0.693548	4syl	models-sylstruct.txt
+(sonority_ratio0 <= 3) and (nucleus_len2 <= 1) and (syl_len0 <= 3) and (nucleus_len0 <= 1) and (syl_len2 >= 3) => stress_class=sekunda (186.0/54.0)	186.0	54.0	0.709677	5syl	models-numeric.txt
+(nucleus_phoncat1 = L) and (syl_phoncat0 = CK) => stress_class=ultima (186.0/39.0)	186.0	39.0	0.790323	2syl	models-phoncat.txt
+(suffix1 = t) and (suffix2 = nt) => stress_class=ultima (185.0/50.0)	185.0	50.0	0.72973	3syl	models-suffix.txt
+(comp_len <= 1) and (syl_phoncat5 = CKC) => stress_class=paenultima (184.0/34.0)	184.0	34.0	0.815217	6syl	models-all.txt
+(praefix1 = u) and (praefix5 = ueber) and (suff_class = ø) => stress_class=paenultima (182.0/54.0)	182.0	54.0	0.703297	4syl	models-affix.txt
+(suffix_phoncat3 = KCD) and (signi_suffix = ø) and (suffix1 = i) => stress_class=ultima (181.0/5.0)	181.0	5.0	0.972376	3syl	models-suffix.txt
+(comp_len <= 1) and (pos = N) and (comp_struct = R) => stress_class=ultima (181.0/43.0)	181.0	43.0	0.762431	5syl	models-meta.txt
+(syl_len0 <= 2) and (syl_len2 <= 3) and (koda_len2 <= 0) and (onset_len0 >= 1) => stress_class=paenultima (180.0/39.0)	180.0	39.0	0.783333	3syl	models-sylstruct.txt
+(comp_len <= 1) and (prae_class = ø) and (nucleus_phoncat1 = L) and (syl_weight2 = schwa) and (suffix4 = eren) => stress_class=paenultima (179.0/0.0)	179.0	0.0	1	3syl	models-all.txt
+(cv_ratio2 >= 2) and (onset_len0 >= 1) and (syl_len0 <= 2) and (syl_len2 >= 3) and (syl_cv2 = CVC) => stress_class=sekunda (178.0/46.0)	178.0	46.0	0.741573	5syl	models-sylstruct.txt
+(suffix_phoncat2 = KC) and (suffix_phoncat4 = LCKC) and (suffix1 = h) => stress_class=paenultima (178.0/18.0)	178.0	18.0	0.898876	3syl	models-suffix.txt
+(comp_len <= 1) and (nucleus_len2 >= 2) and (sonority3 >= 13) and (onset_len0 >= 1) and (sonority_ratio2 >= 4) and (syl_len3 <= 3) => stress_class=paenultima (178.0/13.0)	178.0	13.0	0.926966	4syl	models-numeric.txt
+(cv_ratio3 <= 0) and (syl_len3 >= 3) and (comp_len <= 1) => stress_class=ultima (177.0/5.0)	177.0	5.0	0.971751	4syl	models-sparse.txt
+(suffix_phoncat2 = LC) and (suffix_phoncat4 = LCLC) and (praefix3 = ø) => stress_class=ultima (177.0/36.0)	177.0	36.0	0.79661	3syl	models-affix.txt
+(sonority0 <= 11) and (syl_weight1 = light) and (nucleus_phoncat0 = K) and (sonority0 >= 10) and (sonority_ratio0 >= 3) and (sonority_ratio0 <= 3) and (syl_phoncat0 = KCC) and (sonority0 <= 10) => stress_class=paenultima (177.0/3.0)	177.0	3.0	0.983051	3syl	models-phon.txt
+(nucleus_len0 <= 1) and (koda_len0 <= 0) => stress_class=antepaenultima (176.0/3.0)	176.0	3.0	0.982955	4syl	models-numeric.txt
+(comp_len <= 1) and (prae_class = ø) and (nucleus_phoncat1 = L) and (syl_len2 >= 5) and (sonority2 <= 13) => stress_class=paenultima (175.0/16.0)	175.0	16.0	0.908571	3syl	models-sparse.txt
+(comp_len <= 1) and (syl_len4 <= 3) and (sonority4 >= 12) and (sonority4 <= 13) => stress_class=paenultima (173.0/24.0)	173.0	24.0	0.861272	5syl	models-numeric.txt
+(nucleus_phoncat1 = L) and (syl_phoncat0 = CL) and (syl_phoncat2 = CKC) => stress_class=paenultima (172.0/44.0)	172.0	44.0	0.744186	3syl	models-phoncat.txt
+(syl_phoncat0 = L) and (syl_weight3 = schwa) and (syl_open3 = c) and (sonority0 >= 8) => stress_class=paenultima (171.0/63.0)	171.0	63.0	0.631579	4syl	models-phon.txt
+(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (cv_ratio0 >= 2) and (nomen = F) and (suff_class = ø) => stress_class=paenultima (170.0/20.0)	170.0	20.0	0.882353	3syl	models-all.txt
+(nucleus_len1 >= 2) and (syl_len1 >= 3) and (onset_len0 >= 1) and (syl_len0 <= 3) and (koda_len1 >= 1) and (nucleus_len0 <= 1) and (sonority_ratio0 <= 3) => stress_class=antepaenultima (169.0/1.0)	169.0	1.0	0.994083	4syl	models-numeric.txt
+(syl_weight4 = light) and (syl_open3 = o) and (syl_open1 = o) and (syl_open2 = c) and (syl_weight3 = light) and (syl_weight2 = light) => stress_class=ultima (168.0/46.0)	168.0	46.0	0.72619	5syl	models-weight.txt
+(syl_len0 <= 2) and (syl_weight1 = heavy) and (sonority0 <= 8) => stress_class=ultima (168.0/27.0)	168.0	27.0	0.839286	2syl	models-sparse.txt
+(comp_len <= 1) and (nucleus_phoncat2 = L) and (cv_ratio1 <= 0) and (syl_len3 >= 4) => stress_class=paenultima (167.0/13.0)	167.0	13.0	0.922156	4syl	models-sparse.txt
+(nucleus_phoncat4 = L) and (syl_phoncat3 = CL) => stress_class=ultima (166.0/56.0)	166.0	56.0	0.662651	5syl	models-phoncat.txt
+(comp_len <= 1) and (cv_ratio5 >= 2) and (syl_len3 <= 2) => stress_class=paenultima (166.0/24.0)	166.0	24.0	0.855422	6syl	models-numeric.txt
+(suffix2 = ie) and (suffix_phoncat1 = L) => stress_class=ultima (164.0/14.0)	164.0	14.0	0.914634	4syl	models-suffix.txt
+(suffix2 = ie) and (suffix_phoncat1 = L) => stress_class=ultima (164.0/14.0)	164.0	14.0	0.914634	4syl	models-affix.txt
+(sonority0 <= 7) and (sonority1 >= 12) and (sonority1 >= 15) => stress_class=ultima (163.0/64.0)	163.0	64.0	0.607362	2syl	models-sonority.txt
+(comp_len >= 2) and (pos = V) => stress_class=sekunda (163.0/55.0)	163.0	55.0	0.662577	5syl	models-meta.txt
+(syl_len0 <= 2) and (syl_len0 <= 1) and (pos = V) => stress_class=paenultima (163.0/51.0)	163.0	51.0	0.687117	4syl	models-sparse.txt
+(syl_len0 <= 2) and (syl_len0 <= 1) and (pos = V) => stress_class=paenultima (163.0/51.0)	163.0	51.0	0.687117	4syl	models-all.txt
+(suffix1 = t) and (suffix2 = nt) and (praefix4 = ø) => stress_class=ultima (163.0/28.0)	163.0	28.0	0.828221	3syl	models-affix.txt
+(nucleus_phoncat2 = K) and (syl_phoncat0 = CK) => stress_class=sekunda (162.0/58.0)	162.0	58.0	0.641975	5syl	models-phoncat.txt
+(syl_len0 <= 2) and (onset_len0 >= 1) and (syl_weight1 = light) and (prae_class = ø) and (onset_phoncat2 = C) and (cv_ratio1 <= 1) => stress_class=paenultima (162.0/44.0)	162.0	44.0	0.728395	3syl	models-sparse.txt
+(suffix4 = isch) => stress_class=paenultima (161.0/39.0)	161.0	39.0	0.757764	5syl	models-affix.txt
+(suffix4 = isch) and (suffix_phoncat4 = LCKC) => stress_class=paenultima (158.0/16.0)	158.0	16.0	0.898734	3syl	models-affix.txt
+(sonority0 <= 10) and (sonority0 >= 10) and (sonority_ratio2 >= 4) and (sonority2 <= 13) and (sonority_ratio2 <= 4) => stress_class=paenultima (154.0/66.0)	154.0	66.0	0.571429	3syl	models-sonority.txt
+(comp_len <= 1) and (nucleus_phoncat2 = L) and (syl_weight1 = light) and (onset_len0 >= 1) and (suffix_phoncat4 = LCKC) => stress_class=paenultima (154.0/27.0)	154.0	27.0	0.824675	4syl	models-all.txt
+(nucleus_len2 >= 2) and (comp_len <= 1) and (syl_len1 <= 2) and (koda_len2 >= 1) and (nucleus_len1 >= 2) => stress_class=ultima (154.0/25.0)	154.0	25.0	0.837662	3syl	models-numeric.txt
+(praefix1 = p) => stress_class=paenultima (153.0/42.0)	153.0	42.0	0.72549	4syl	models-praefix.txt
+(suffix_phoncat4 = LCKC) and (prae_class = ø) and (suffix4 = eren) => stress_class=paenultima (153.0/0.0)	153.0	0.0	1	3syl	models-affix.txt
+(syl_weight2 = schwa) and (syl_weight1 = light) and (syl_weight4 = schwa) => stress_class=sekunda (152.0/60.0)	152.0	60.0	0.605263	5syl	models-weight.txt
+(syl_len0 <= 2) and (nucleus_len2 >= 2) and (syl_cv1 = CVC) and (syl_cv3 = CVC) and (syl_cv2 = CVV) and (syl_len2 >= 3) and (syl_len2 <= 3) => stress_class=paenultima (152.0/51.0)	152.0	51.0	0.664474	4syl	models-sylstruct.txt
+(nucleus_phoncat5 = L) and (comp_len <= 1) => stress_class=ultima (150.0/8.0)	150.0	8.0	0.946667	6syl	models-sparse.txt
+(syl_weight1 = light) and (sonority1 >= 13) and (sonority0 <= 9) and (onset_len0 >= 1) and (comp_len >= 2) and (syl_weight3 = schwa) => stress_class=antepaenultima (149.0/6.0)	149.0	6.0	0.959732	4syl	models-sparse.txt
+(sonority0 <= 7) and (sonority_ratio1 <= 2) => stress_class=ultima (148.0/30.0)	148.0	30.0	0.797297	2syl	models-sonority.txt
+(nucleus_phoncat2 = L) and (syl_phoncat3 = CKC) and (syl_phoncat2 = CL) and (syl_phoncat0 = CL) => stress_class=paenultima (146.0/58.0)	146.0	58.0	0.60274	4syl	models-phoncat.txt
+(nucleus_phoncat1 = L) and (sonority0 <= 10) and (syl_phoncat0 = CK) => stress_class=paenultima (146.0/13.0)	146.0	13.0	0.910959	3syl	models-phon.txt
+(suffix1 = n) and (suffix_phoncat2 = CC) and (suffix_phoncat5 = KCKCC) => stress_class=paenultima (145.0/68.0)	145.0	68.0	0.531034	3syl	models-suffix.txt
+(syl_len0 <= 3) and (cv_ratio0 >= 2) and (nucleus_len1 >= 2) => stress_class=paenultima (145.0/23.0)	145.0	23.0	0.841379	3syl	models-sylstruct.txt
+(pos = ADV) and (comp_len >= 2) and (comp_struct = ø) => stress_class=ultima (143.0/47.0)	143.0	47.0	0.671329	2syl	models-meta.txt
+(nucleus_phoncat2 = L) and (comp_len <= 1) and (syl_weight1 = light) and (sonority_ratio2 <= 4) and (koda_phoncat2 = C) and (sonority2 <= 10) => stress_class=ultima (143.0/10.0)	143.0	10.0	0.93007	3syl	models-sparse.txt
+(praefix_phoncat2 = KC) and (praefix1 = a) and (signi_praefix = ø) => stress_class=paenultima (141.0/47.0)	141.0	47.0	0.666667	4syl	models-praefix.txt
+(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (sonority0 <= 10) and (cv_ratio2 >= 2) and (syl_len0 <= 3) and (koda_phoncat1 = C) and (sonority2 <= 12) => stress_class=paenultima (141.0/25.0)	141.0	25.0	0.822695	3syl	models-sparse.txt
+(sonority0 <= 10) and (sonority0 <= 7) and (sonority2 <= 7) => stress_class=paenultima (140.0/31.0)	140.0	31.0	0.778571	3syl	models-sonority.txt
+(sonority_ratio0 <= 3) and (sonority0 <= 7) and (sonority1 >= 13) and (sonority_ratio2 <= 4) => stress_class=antepaenultima (139.0/65.0)	139.0	65.0	0.532374	4syl	models-sonority.txt
+(syl_len0 <= 2) and (nucleus_len2 >= 2) and (nucleus_len1 >= 2) and (syl_len1 <= 3) and (cv_ratio3 <= 1) => stress_class=paenultima (139.0/28.0)	139.0	28.0	0.798561	4syl	models-sylstruct.txt
+(nucleus_phoncat3 = L) and (nucleus_phoncat1 = L) and (syl_phoncat0 = CL) => stress_class=ultima (139.0/25.0)	139.0	25.0	0.820144	4syl	models-phoncat.txt
+(syl_weight1 = light) and (syl_weight2 = light) and (syl_open1 = o) and (syl_open3 = o) and (syl_weight0 = light) => stress_class=paenultima (137.0/47.0)	137.0	47.0	0.656934	4syl	models-weight.txt
+(suffix3 = ø) and (suffix_phoncat2 = LC) and (suffix_phoncat4 = LCLC) => stress_class=ultima (137.0/23.0)	137.0	23.0	0.832117	2syl	models-suffix.txt
+(suffix3 = ø) and (suffix_phoncat2 = LC) and (suffix_phoncat4 = LCLC) => stress_class=ultima (137.0/23.0)	137.0	23.0	0.832117	2syl	models-affix.txt
+(suffix_phoncat2 = LC) and (comp_len <= 1) and (signi_suffix = ø) => stress_class=ultima (137.0/2.0)	137.0	2.0	0.985401	6syl	models-all.txt
+(syl_weight5 = light) and (syl_open4 = o) and (syl_weight1 = light) and (syl_open3 = c) => stress_class=ultima (136.0/27.0)	136.0	27.0	0.801471	6syl	models-weight.txt
+(syl_len0 <= 2) and (prae_class = ø) and (syl_weight1 = light) and (sonority0 <= 10) and (koda_phoncat1 = C) and (syl_suffix = ø) => stress_class=paenultima (134.0/22.0)	134.0	22.0	0.835821	3syl	models-all.txt
+(sonority0 <= 10) and (sonority_ratio3 >= 4) and (sonority_ratio2 >= 4) and (sonority2 <= 9) => stress_class=paenultima (133.0/48.0)	133.0	48.0	0.639098	5syl	models-sonority.txt
+(comp_struct = ø) and (suffix1 = t) and (comp_len <= 0) => stress_class=ultima (133.0/18.0)	133.0	18.0	0.864662	2syl	models-all.txt
+(syl_weight2 = schwa) and (syl_open2 = c) and (syl_open0 = o) => stress_class=sekunda (132.0/18.0)	132.0	18.0	0.863636	5syl	models-weight.txt
+(comp_len <= 1) and (sonority0 <= 10) and (syl_weight1 = light) and (prae_class = ø) and (suffix_phoncat5 = KCCKC) => stress_class=paenultima (131.0/10.0)	131.0	10.0	0.923664	4syl	models-all.txt
+(sonority0 <= 10) and (sonority0 <= 7) and (sonority_ratio2 >= 3) and (sonority2 <= 11) and (sonority1 >= 12) => stress_class=paenultima (130.0/64.0)	130.0	64.0	0.507692	3syl	models-sonority.txt
+(syl_weight1 = light) and (syl_cv1 = CVVC) and (praefix_phoncat3 = CKC) and (syl_len0 <= 3) => stress_class=antepaenultima (130.0/5.0)	130.0	5.0	0.961538	4syl	models-all.txt
+(praefix_phoncat2 = CK) and (praefix2 = Ge) => stress_class=paenultima (129.0/2.0)	129.0	2.0	0.984496	3syl	models-praefix.txt
+(syl_weight1 = light) and (syl_weight3 = schwa) and (syl_open1 = o) and (syl_open2 = o) and (syl_open0 = o) and (syl_open3 = c) => stress_class=paenultima (128.0/14.0)	128.0	14.0	0.890625	4syl	models-weight.txt
+(sonority0 <= 10) and (sonority0 <= 7) and (sonority_dir <= 2) and (sonority_ratio2 >= 3) and (sonority_ratio1 >= 5) => stress_class=paenultima (127.0/60.0)	127.0	60.0	0.527559	3syl	models-sonority.txt
+(nucleus_phoncat1 = L) and (syl_phoncat0 = CL) and (koda_phoncat1 = C) => stress_class=ultima (127.0/25.0)	127.0	25.0	0.80315	2syl	models-phoncat.txt
+(praefix_phoncat2 = CK) and (praefix2 = Ge) => stress_class=paenultima (127.0/2.0)	127.0	2.0	0.984252	3syl	models-affix.txt
+(nucleus_len2 >= 2) and (comp_len <= 1) and (comp_len <= 0) and (syl_len2 >= 3) => stress_class=ultima (127.0/19.0)	127.0	19.0	0.850394	3syl	models-numeric.txt
+(sonority5 <= 9) and (sonority5 >= 8) and (sonority_ratio2 >= 4) and (sonority_ratio4 >= 4) => stress_class=ultima (127.0/18.0)	127.0	18.0	0.858268	6syl	models-sonority.txt
+(syl_cv5 = VVC) => stress_class=ultima (126.0/15.0)	126.0	15.0	0.880952	6syl	models-sylstruct.txt
+(syl_phoncat0 = KC) and (koda_phoncat1 = C) and (sonority0 >= 11) and (syl_phoncat3 = CKC) and (sonority3 >= 12) => stress_class=paenultima (125.0/51.0)	125.0	51.0	592	4syl	models-phon.txt
+(pos = ADV) and (comp_len >= 2) => stress_class=ultima (125.0/51.0)	125.0	51.0	592	2syl	models-sparse.txt
+(sonority0 <= 7) and (sonority3 <= 12) and (sonority3 >= 12) and (sonority0 >= 7) and (sonority2 <= 13) => stress_class=antepaenultima (124.0/58.0)	124.0	58.0	0.532258	4syl	models-sonority.txt
+(nucleus_phoncat2 = L) and (nucleus_phoncat1 = L) and (syl_phoncat3 = CK) => stress_class=paenultima (124.0/24.0)	124.0	24.0	0.806452	4syl	models-phoncat.txt
+(sonority0 <= 7) and (syl_weight0 = schwa) => stress_class=ultima (124.0/0.0)	124.0	0.0	1	2syl	models-phon.txt
+(syl_weight1 = light) and (comp_struct = BV) => stress_class=antepaenultima (122.0/3.0)	122.0	3.0	0.97541	4syl	models-all.txt
+(suffix3 = ø) and (suffix_phoncat2 = LC) and (suffix_phoncat4 = KCLC) => stress_class=ultima (121.0/9.0)	121.0	9.0	0.92562	2syl	models-suffix.txt
+(suffix3 = ø) and (suffix_phoncat2 = LC) and (suffix_phoncat4 = KCLC) => stress_class=ultima (121.0/9.0)	121.0	9.0	0.92562	2syl	models-affix.txt
+(suffix_phoncat4 = LCLC) => stress_class=ultima (121.0/40.0)	121.0	40.0	0.669421	5syl	models-affix.txt
+(sonority_ratio0 <= 3) and (syl_len0 <= 3) and (nucleus_len2 <= 1) and (comp_len <= 1) and (syl_len1 >= 3) and (sonority0 >= 11) and (nucleus_len0 <= 1) => stress_class=antepaenultima (121.0/2.0)	121.0	2.0	0.983471	4syl	models-numeric.txt
+(nucleus_phoncat2 = L) and (syl_weight1 = light) and (sonority2 <= 10) and (sonority_dir >= 0) => stress_class=ultima (120.0/36.0)	120.0	36.0	0.7	3syl	models-phon.txt
+(comp_len <= 0) and (nucleus_len1 >= 2) and (syl_len1 >= 3) => stress_class=ultima (120.0/33.0)	120.0	33.0	725	2syl	models-sparse.txt
+(cv_ratio5 <= 0) and (comp_len <= 1) => stress_class=ultima (120.0/3.0)	120.0	3.0	975	6syl	models-numeric.txt
+(nucleus_len2 <= 1) and (nucleus_len1 >= 2) and (cv_ratio0 >= 2) and (syl_len0 <= 3) => stress_class=sekunda (119.0/33.0)	119.0	33.0	0.722689	5syl	models-sylstruct.txt
+(sonority0 <= 11) and (sonority_ratio1 <= 2) and (sonority_ratio0 >= 3) and (sonority_dir >= 1) => stress_class=ultima (118.0/57.0)	118.0	57.0	0.516949	2syl	models-sonority.txt
+(syl_len0 <= 2) and (syl_cv2 = CVC) and (syl_len1 <= 3) and (onset_len0 >= 1) and (nucleus_len1 >= 2) and (onset_len1 <= 1) => stress_class=paenultima (118.0/41.0)	118.0	41.0	0.652542	3syl	models-sylstruct.txt
+(nucleus_phoncat5 = L) and (syl_phoncat4 = AL) => stress_class=ultima (117.0/9.0)	117.0	9.0	0.923077	6syl	models-phoncat.txt
+(syl_weight1 = light) and (syl_weight2 = light) and (syl_open1 = o) and (syl_weight3 = light) and (syl_open0 = o) => stress_class=paenultima (117.0/58.0)	117.0	58.0	0.504274	4syl	models-weight.txt
+(sonority0 <= 10) and (sonority1 <= 9) and (sonority_ratio0 >= 4) and (sonority0 <= 6) => stress_class=ultima (117.0/54.0)	117.0	54.0	0.538462	3syl	models-sonority.txt
+(comp_struct = ø) and (comp_len <= 0) and (pos = A) => stress_class=ultima (117.0/49.0)	117.0	49.0	0.581197	2syl	models-meta.txt
+(syl_len0 <= 3) and (nucleus_len1 >= 2) and (cv_ratio0 >= 2) and (koda_len1 >= 1) and (comp_len <= 1) and (sonority_ratio1 <= 4) => stress_class=ultima (116.0/17.0)	116.0	17.0	0.853448	2syl	models-numeric.txt
+(syl_phoncat5 = CKC) and (syl_phoncat3 = CL) => stress_class=paenultima (116.0/16.0)	116.0	16.0	0.862069	6syl	models-phoncat.txt
+(syl_phoncat5 = CKC) and (syl_phoncat3 = CL) => stress_class=paenultima (115.0/16.0)	115.0	16.0	0.86087	6syl	models-phon.txt
+(syl_cv5 = CVC) and (cv_ratio3 <= 0) and (syl_len4 >= 3) => stress_class=paenultima (115.0/10.0)	115.0	10.0	0.913043	6syl	models-sylstruct.txt
+(syl_len0 <= 2) and (syl_len1 <= 3) and (nucleus_len2 >= 2) and (koda_len1 >= 1) and (koda_len0 >= 1) and (syl_len2 >= 3) and (syl_len3 >= 3) => stress_class=paenultima (114.0/53.0)	114.0	53.0	0.535088	4syl	models-sylstruct.txt
+(syl_cv3 = CVV) and (syl_len3 >= 3) => stress_class=ultima (114.0/23.0)	114.0	23.0	0.798246	4syl	models-sylstruct.txt
+(suffix_phoncat2 = LC) and (suffix_phoncat4 = LCLC) and (praefix2 = ø) => stress_class=ultima (113.0/9.0)	113.0	9.0	0.920354	3syl	models-affix.txt
+(suffix1 = t) and (suffix4 = ø) and (praefix2 = ø) and (suffix_phoncat2 = CC) => stress_class=ultima (113.0/50.0)	113.0	50.0	0.557522	2syl	models-affix.txt
+(sonority0 <= 11) and (sonority_ratio0 <= 3) and (sonority_ratio0 >= 3) and (sonority0 >= 11) and (sonority_ratio2 >= 3) and (sonority_ratio2 <= 4) and (sonority2 >= 14) => stress_class=paenultima (113.0/43.0)	113.0	43.0	0.619469	3syl	models-sonority.txt
+(syl_weight1 = light) and (syl_weight2 = schwa) and (sonority0 <= 10) and (prae_class = ø) => stress_class=antepaenultima (113.0/37.0)	113.0	37.0	0.672566	4syl	models-sparse.txt
+(sonority_ratio3 >= 6) => stress_class=paenultima (113.0/27.0)	113.0	27.0	0.761062	6syl	models-sonority.txt
+(nucleus_phoncat3 = L) and (syl_phoncat1 = CL) and (onset_phoncat3 = C) => stress_class=ultima (112.0/43.0)	112.0	43.0	0.616071	4syl	models-phoncat.txt
+(syl_len0 <= 2) and (sonority_ratio0 >= 5) and (comp_len <= 1) and (koda_len2 <= 1) and (sonority0 <= 8) and (nucleus_len2 <= 1) => stress_class=paenultima (111.0/44.0)	111.0	44.0	0.603604	3syl	models-numeric.txt
+(comp_len <= 1) and (koda_len3 <= 0) and (syl_len1 <= 2) => stress_class=paenultima (111.0/33.0)	111.0	33.0	0.702703	4syl	models-all.txt
+(syl_weight1 = light) and (syl_weight2 = schwa) and (sonority0 <= 10) and (syl_open2 = c) => stress_class=antepaenultima (111.0/30.0)	111.0	30.0	0.72973	4syl	models-phon.txt
+(praefix_phoncat3 = ALC) => stress_class=sekunda (111.0/22.0)	111.0	22.0	0.801802	5syl	models-praefix.txt
+(syl_len0 <= 2) and (syl_len1 <= 3) and (sonority1 >= 11) and (koda_len0 >= 1) and (sonority0 >= 11) and (cv_ratio3 >= 2) and (syl_len2 >= 3) => stress_class=paenultima (110.0/51.0)	110.0	51.0	0.536364	4syl	models-numeric.txt
+(sonority_dir >= 0) and (sonority_ratio1 >= 4) and (sonority1 <= 10) and (sonority3 <= 10) and (sonority_ratio2 >= 4) => stress_class=paenultima (110.0/47.0)	110.0	47.0	0.572727	4syl	models-sonority.txt
+(suffix_phoncat2 = LC) and (suffix5 = ation) => stress_class=ultima (110.0/4.0)	110.0	4.0	0.963636	6syl	models-suffix.txt
+(suffix_phoncat2 = LC) and (suffix5 = ation) => stress_class=ultima (110.0/4.0)	110.0	4.0	0.963636	6syl	models-affix.txt
+(praefix2 = ø) and (praefix_phoncat5 = CKCCL) => stress_class=paenultima (109.0/54.0)	109.0	54.0	0.504587	4syl	models-praefix.txt
+(nucleus_phoncat0 = K) and (koda_phoncat0 = C) and (nucleus_phoncat2 = K) and (syl_phoncat0 = CKC) and (koda_phoncat2 = C) => stress_class=paenultima (109.0/38.0)	109.0	38.0	0.651376	3syl	models-phoncat.txt
+(praefix_phoncat4 = CLCL) and (praefix_phoncat5 = CLCLC) => stress_class=ultima (109.0/30.0)	109.0	30.0	0.724771	2syl	models-praefix.txt
+(syl_len0 <= 2) and (syl_weight1 = heavy) and (syl_phoncat0 = CK) => stress_class=ultima (109.0/2.0)	109.0	2.0	0.981651	2syl	models-all.txt
+(syl_len3 <= 2) and (nucleus_len4 >= 2) and (comp_len <= 1) => stress_class=ultima (109.0/18.0)	109.0	18.0	0.834862	5syl	models-numeric.txt
+(suffix_phoncat4 = KCKC) and (suffix5 = erung) => stress_class=antepaenultima (108.0/50.0)	108.0	50.0	0.537037	4syl	models-suffix.txt
+(nucleus_phoncat3 = L) and (syl_weight2 = light) and (syl_weight1 = light) and (nucleus_phoncat1 = K) and (sonority0 <= 10) => stress_class=ultima (108.0/38.0)	108.0	38.0	0.648148	4syl	models-phon.txt
+(comp_len <= 0) and (koda_len2 <= 0) and (cv_ratio2 >= 1) => stress_class=paenultima (107.0/6.0)	107.0	6.0	0.943925	3syl	models-numeric.txt
+(syl_weight1 = light) and (syl_weight2 = schwa) and (syl_open2 = c) and (syl_weight3 = light) and (syl_weight0 = light) => stress_class=antepaenultima (107.0/40.0)	107.0	40.0	0.626168	4syl	models-weight.txt
+(comp_len <= 1) and (sonority0 <= 10) and (syl_len3 >= 5) and (syl_len2 <= 2) => stress_class=paenultima (107.0/14.0)	107.0	14.0	0.869159	4syl	models-numeric.txt
+(praefix_phoncat3 = CKC) and (praefix_phoncat5 = CKCLC) => stress_class=ultima (106.0/7.0)	106.0	7.0	0.933962	2syl	models-praefix.txt
+(syl_len0 <= 3) and (syl_weight1 = heavy) and (cv_ratio0 >= 2) and (comp_len <= 1) => stress_class=ultima (106.0/20.0)	106.0	20.0	0.811321	2syl	models-sparse.txt
+(nucleus_phoncat0 = K) and (koda_phoncat0 = C) and (syl_phoncat0 = AKC) => stress_class=paenultima (106.0/17.0)	106.0	17.0	0.839623	3syl	models-phoncat.txt
+(syl_len0 <= 2) and (syl_cv0 = CV) => stress_class=ultima (106.0/0.0)	106.0	0.0	1	2syl	models-sylstruct.txt
+(syl_weight2 = schwa) and (syl_len2 >= 3) and (syl_open0 = o) and (sonority_ratio0 <= 4) => stress_class=sekunda (105.0/3.0)	105.0	3.0	0.971429	5syl	models-all.txt
+(cv_ratio1 <= 0) and (syl_cv4 = CVC) and (nucleus_len2 >= 2) => stress_class=paenultima (105.0/23.0)	105.0	23.0	0.780952	5syl	models-sylstruct.txt
+(suffix_phoncat4 = LCKC) and (suffix1 = h) => stress_class=paenultima (105.0/22.0)	105.0	22.0	0.790476	5syl	models-suffix.txt
+(praefix_phoncat2 = AL) => stress_class=sekunda (105.0/17.0)	105.0	17.0	0.838095	5syl	models-affix.txt
+(nucleus_phoncat0 = K) and (nucleus_phoncat1 = L) and (syl_weight0 = light) and (sonority0 >= 10) and (sonority_ratio0 <= 3) and (sonority2 >= 13) => stress_class=paenultima (105.0/14.0)	105.0	14.0	0.866667	3syl	models-phon.txt
+(syl_weight2 = schwa) and (sonority2 >= 10) and (sonority0 <= 9) and (syl_open0 = o) => stress_class=sekunda (103.0/3.0)	103.0	3.0	0.970874	5syl	models-sparse.txt
+(syl_phoncat5 = LC) and (syl_phoncat3 = CK) => stress_class=ultima (100.0/3.0)	100.0	3.0	0.97	6syl	models-phon.txt
+(syl_len0 <= 2) and (nucleus_len2 >= 2) and (syl_cv1 = CVC) and (syl_len1 <= 2) => stress_class=paenultima (100.0/16.0)	100.0	16.0	0.84	4syl	models-sylstruct.txt
+(syl_weight2 = schwa) and (syl_len2 >= 3) and (sonority0 <= 11) and (onset_len0 >= 1) and (sonority_ratio0 >= 3) => stress_class=antepaenultima (100.0/13.0)	100.0	13.0	0.87	4syl	models-all.txt
+(prae_class = noacc) => stress_class=sekunda (99.0/7.0)	99.0	7.0	0.929293	5syl	models-praefix.txt
+(comp_len <= 1) and (comp_struct = F) and (pos = A) => stress_class=ultima (99.0/26.0)	99.0	26.0	0.737374	2syl	models-meta.txt
+(nucleus_len4 >= 2) and (cv_ratio3 <= 0) and (syl_len0 <= 2) and (syl_len4 <= 3) => stress_class=ultima (99.0/22.0)	99.0	22.0	0.777778	5syl	models-sylstruct.txt
+(prae_class = noacc) => stress_class=sekunda (98.0/7.0)	98.0	7.0	0.928571	5syl	models-affix.txt
+(sonority_ratio0 <= 3) and (sonority0 <= 11) and (sonority3 <= 12) and (sonority_ratio0 >= 3) and (sonority3 >= 12) and (sonority0 >= 11) => stress_class=antepaenultima (98.0/43.0)	98.0	43.0	0.561224	4syl	models-sonority.txt
+(syl_weight1 = light) and (syl_weight5 = schwa) and (syl_open3 = o) => stress_class=paenultima (98.0/18.0)	98.0	18.0	0.816327	6syl	models-weight.txt
+(syl_len0 <= 2) and (koda_len1 >= 2) and (sonority0 <= 7) and (sonority_dir <= 3) => stress_class=ultima (97.0/9.0)	97.0	9.0	0.907216	2syl	models-numeric.txt
+(syl_len0 <= 2) and (koda_len1 >= 2) and (syl_len1 <= 4) and (nucleus_len0 <= 1) => stress_class=ultima (97.0/40.0)	97.0	40.0	0.587629	2syl	models-sylstruct.txt
+(syl_len0 <= 2) and (syl_weight1 = light) and (sonority_ratio0 >= 5) and (sonority0 <= 10) and (nucleus_phoncat0 = K) => stress_class=paenultima (97.0/37.0)	97.0	37.0	0.618557	3syl	models-sparse.txt
+(syl_len1 <= 2) and (syl_len0 <= 3) and (onset_len0 >= 1) and (nucleus_len1 >= 2) and (nucleus_len2 >= 2) => stress_class=paenultima (97.0/36.0)	97.0	36.0	0.628866	4syl	models-sylstruct.txt
+(prae_class = noacc) => stress_class=sekunda (96.0/5.0)	96.0	5.0	0.947917	5syl	models-sparse.txt
+(prae_class = noacc) => stress_class=sekunda (96.0/5.0)	96.0	5.0	0.947917	5syl	models-all.txt
+(praefix_phoncat5 = CKCLC) and (suffix4 = ø) => stress_class=antepaenultima (96.0/40.0)	96.0	40.0	0.583333	4syl	models-affix.txt
+(syl_weight3 = heavy) and (syl_weight2 = light) and (syl_weight1 = light) and (sonority2 <= 10) => stress_class=ultima (96.0/36.0)	96.0	36.0	625	4syl	models-phon.txt
+(comp_struct = ø) and (pos = ADV) and (koda_phoncat1 = C) => stress_class=ultima (96.0/32.0)	96.0	32.0	0.666667	2syl	models-all.txt
+(praefix1 = a) and (prae_class = ø) => stress_class=paenultima (96.0/24.0)	96.0	24.0	0.75	5syl	models-praefix.txt
+(nucleus_phoncat2 = K) and (syl_phoncat0 = AL) => stress_class=sekunda (96.0/11.0)	96.0	11.0	0.885417	5syl	models-phoncat.txt
+(sonority2 <= 9) and (sonority_ratio3 >= 5) and (sonority_ratio3 >= 6) and (sonority3 >= 12) => stress_class=ultima (94.0/21.0)	94.0	21.0	0.776596	4syl	models-sonority.txt
+(comp_len <= 1) and (cv_ratio2 <= 0) and (sonority0 <= 10) and (sonority3 >= 13) and (sonority2 >= 8) => stress_class=paenultima (94.0/21.0)	94.0	21.0	0.776596	4syl	models-numeric.txt
+(koda_len3 >= 2) and (comp_len <= 1) and (syl_len2 <= 2) => stress_class=ultima (93.0/36.0)	93.0	36.0	0.612903	4syl	models-numeric.txt
+(comp_struct = R) and (pos = N) => stress_class=ultima (92.0/9.0)	92.0	9.0	0.902174	6syl	models-meta.txt
+(syl_len0 <= 2) and (comp_len <= 1) and (syl_len1 <= 3) and (koda_len1 >= 1) and (syl_len2 >= 4) and (sonority3 >= 13) => stress_class=paenultima (92.0/28.0)	92.0	28.0	0.695652	4syl	models-numeric.txt
+(suffix_phoncat5 = LCLCK) => stress_class=paenultima (92.0/10.0)	92.0	10.0	0.891304	4syl	models-suffix.txt
+(syl_weight1 = light) and (sonority0 <= 10) and (sonority_ratio0 >= 5) and (nucleus_phoncat0 = K) => stress_class=paenultima (91.0/23.0)	91.0	23.0	0.747253	3syl	models-phon.txt
+(cv_ratio2 <= 0) and (nucleus_len3 >= 2) and (comp_len <= 1) and (sonority3 >= 10) and (onset_len4 >= 1) => stress_class=paenultima (91.0/16.0)	91.0	16.0	0.824176	5syl	models-numeric.txt
+(comp_len <= 1) and (syl_len0 <= 2) and (koda_phoncat1 = C) and (syl_len3 >= 4) and (syl_weight1 = schwa) and (pos = N) => stress_class=paenultima (91.0/16.0)	91.0	16.0	0.824176	4syl	models-sparse.txt
+(nucleus_phoncat2 = L) and (syl_weight1 = light) and (sonority1 <= 12) and (syl_phoncat2 = CLC) and (syl_weight0 = light) and (syl_open0 = o) => stress_class=ultima (91.0/12.0)	91.0	12.0	0.868132	3syl	models-phon.txt
+(syl_weight1 = light) and (syl_weight0 = schwa) => stress_class=antepaenultima (91.0/1.0)	91.0	1.0	0.989011	4syl	models-sparse.txt
+(sonority1 >= 12) and (koda_len0 <= 0) and (sonority_ratio0 <= 4) and (syl_len1 >= 4) and (sonority1 <= 13) => stress_class=antepaenultima (90.0/7.0)	90.0	7.0	0.922222	4syl	models-numeric.txt
+(syl_len0 <= 2) and (syl_len0 <= 1) and (syl_cv3 = CVC) and (syl_len2 <= 3) and (syl_len3 >= 4) => stress_class=paenultima (90.0/22.0)	90.0	22.0	0.755556	4syl	models-sylstruct.txt
+(praefix_phoncat2 = KC) and (praefix2 = un) and (praefix5 = unter) => stress_class=paenultima (89.0/42.0)	89.0	42.0	0.52809	4syl	models-praefix.txt
+(nucleus_phoncat2 = L) and (comp_len <= 1) and (syl_weight1 = light) and (cv_ratio1 >= 2) and (sonority_ratio2 <= 4) and (syl_len2 >= 3) => stress_class=ultima (89.0/18.0)	89.0	18.0	0.797753	3syl	models-sparse.txt
+(suffix_phoncat2 = LC) and (suffix_phoncat3 = LLC) => stress_class=ultima (89.0/14.0)	89.0	14.0	0.842697	3syl	models-suffix.txt
+(suffix_phoncat2 = LC) and (suffix_phoncat3 = LLC) => stress_class=ultima (89.0/14.0)	89.0	14.0	0.842697	3syl	models-affix.txt
+(nucleus_len2 >= 2) and (comp_len <= 1) and (sonority1 <= 9) and (pos = N) and (syl_len2 >= 3) => stress_class=ultima (89.0/13.0)	89.0	13.0	0.853933	3syl	models-sparse.txt
+(nucleus_phoncat0 = K) and (syl_weight1 = light) and (syl_weight0 = light) and (onset_phoncat0 = C) and (syl_phoncat0 = CK) => stress_class=paenultima (88.0/31.0)	88.0	31.0	0.647727	3syl	models-phon.txt
+(suffix3 = ø) and (syl_len0 <= 2) and (nucleus_len1 >= 2) and (syl_len1 >= 3) and (prae_class = ø) and (sonority0 <= 10) => stress_class=ultima (88.0/16.0)	88.0	16.0	0.818182	2syl	models-all.txt
+(syl_len1 >= 4) and (syl_cv0 = CVC) and (nucleus_len1 >= 2) and (syl_len0 <= 3) => stress_class=antepaenultima (88.0/11.0)	88.0	11.0	875	4syl	models-sylstruct.txt
+(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (sonority_ratio0 <= 4) and (cv_ratio0 >= 2) and (cv_ratio2 >= 2) and (syl_len1 >= 3) => stress_class=paenultima (87.0/22.0)	87.0	22.0	0.747126	3syl	models-sparse.txt
+(praefix1 = I) => stress_class=ultima (86.0/40.0)	86.0	40.0	0.534884	5syl	models-praefix.txt
+(comp_len <= 1) and (pos = V) and (comp_struct = A) => stress_class=paenultima (86.0/15.0)	86.0	15.0	0.825581	3syl	models-meta.txt
+(syl_phoncat0 = CK) and (nucleus_phoncat1 = D) => stress_class=antepaenultima (86.0/1.0)	86.0	1.0	0.988372	4syl	models-phoncat.txt
+(comp_len <= 0) and (koda_len1 >= 2) and (sonority0 <= 11) => stress_class=ultima (85.0/23.0)	85.0	23.0	0.729412	2syl	models-numeric.txt
+(koda_len2 >= 2) and (syl_len1 <= 2) and (nucleus_len1 >= 2) and (koda_len0 <= 0) and (nucleus_len0 >= 2) => stress_class=ultima (85.0/14.0)	85.0	14.0	0.835294	3syl	models-sylstruct.txt
+(nucleus_len1 >= 2) and (syl_phoncat1 = CLC) and (comp_len >= 2) and (syl_len0 <= 3) and (prae_class = ø) => stress_class=antepaenultima (85.0/11.0)	85.0	11.0	0.870588	4syl	models-all.txt
+(syl_weight2 = schwa) and (syl_weight1 = light) => stress_class=sekunda (84.0/38.0)	84.0	38.0	0.547619	6syl	models-weight.txt
+(syl_weight4 = light) and (syl_open3 = o) and (syl_weight1 = light) and (syl_weight2 = light) and (syl_open2 = c) and (syl_weight3 = light) => stress_class=ultima (84.0/31.0)	84.0	31.0	0.630952	5syl	models-weight.txt
+(syl_phoncat2 = CLC) => stress_class=antepaenultima (84.0/29.0)	84.0	29.0	0.654762	5syl	models-phoncat.txt
+(syl_phoncat2 = CLC) => stress_class=antepaenultima (84.0/29.0)	84.0	29.0	0.654762	5syl	models-all.txt
+(syl_weight1 = light) and (syl_weight0 = schwa) => stress_class=antepaenultima (84.0/1.0)	84.0	1.0	0.988095	4syl	models-all.txt
+(nucleus_phoncat0 = K) and (syl_weight1 = light) and (syl_weight0 = light) and (sonority0 >= 10) and (sonority0 <= 11) and (syl_phoncat0 = AKC) => stress_class=paenultima (83.0/6.0)	83.0	6.0	0.927711	3syl	models-phon.txt
+(comp_len <= 1) and (syl_len0 <= 2) and (comp_struct = V) and (prae_class = ø) and (syl_weight3 = light) and (syl_len2 >= 3) and (sonority_ratio0 >= 5) => stress_class=paenultima (83.0/3.0)	83.0	3.0	0.963855	4syl	models-all.txt
+(syl_weight3 = heavy) and (comp_len <= 1) and (syl_len2 <= 2) => stress_class=ultima (83.0/24.0)	83.0	24.0	0.710843	4syl	models-sparse.txt
+(syl_weight1 = light) and (nucleus_phoncat3 = K) and (syl_phoncat1 = CK) and (sonority0 <= 10) => stress_class=paenultima (82.0/24.0)	82.0	24.0	0.707317	4syl	models-phon.txt
+(comp_len <= 1) and (nucleus_phoncat2 = L) => stress_class=paenultima (82.0/23.0)	82.0	23.0	0.719512	6syl	models-sparse.txt
+(sonority1 <= 9) and (sonority0 <= 10) and (sonority2 <= 10) and (sonority_ratio2 >= 5) and (sonority_dir >= 1) => stress_class=ultima (81.0/36.0)	81.0	36.0	0.555556	4syl	models-sonority.txt
+(syl_len0 <= 2) and (comp_struct = PV) => stress_class=paenultima (81.0/34.0)	81.0	34.0	0.580247	4syl	models-all.txt
+(syl_phoncat4 = CKC) and (nucleus_phoncat2 = L) and (koda_phoncat3 = C) => stress_class=paenultima (81.0/29.0)	81.0	29.0	0.641975	5syl	models-phoncat.txt
+(suffix_phoncat4 = LCKC) and (suffix4 = eren) => stress_class=paenultima (80.0/5.0)	80.0	5.0	0.9375	6syl	models-suffix.txt
+(syl_weight2 = heavy) and (syl_weight1 = light) and (nucleus_phoncat1 = K) and (sonority0 <= 10) => stress_class=ultima (80.0/35.0)	80.0	35.0	0.5625	3syl	models-phon.txt
+(syl_len0 <= 2) and (syl_len1 <= 3) and (syl_cv3 = CVC) and (syl_len3 >= 5) => stress_class=paenultima (80.0/31.0)	80.0	31.0	0.6125	4syl	models-sylstruct.txt
+(comp_len <= 1) and (pos = V) => stress_class=paenultima (79.0/5.0)	79.0	5.0	0.936709	6syl	models-meta.txt
+(suffix5 = tisch) => stress_class=paenultima (79.0/5.0)	79.0	5.0	0.936709	4syl	models-suffix.txt
+(suffix4 = isch) and (suffix5 = tisch) => stress_class=paenultima (79.0/5.0)	79.0	5.0	0.936709	4syl	models-affix.txt
+(nucleus_phoncat0 = K) and (nucleus_phoncat2 = K) and (onset_phoncat0 = C) and (onset_phoncat1 = CC) => stress_class=antepaenultima (79.0/28.0)	79.0	28.0	0.64557	4syl	models-phoncat.txt
+(cv_ratio2 >= 2) and (sonority_ratio0 <= 4) and (sonority2 >= 12) and (koda_len0 <= 0) and (syl_len1 >= 3) and (syl_len2 <= 4) => stress_class=sekunda (79.0/2.0)	79.0	2.0	0.974684	5syl	models-numeric.txt
+(nucleus_len1 >= 2) and (syl_len1 >= 3) and (cv_ratio0 >= 2) and (syl_len0 <= 3) and (comp_len >= 2) and (sonority_ratio1 >= 4) => stress_class=antepaenultima (79.0/10.0)	79.0	10.0	0.873418	4syl	models-numeric.txt
+(suffix_phoncat5 = LCLCK) => stress_class=paenultima (78.0/8.0)	78.0	8.0	0.897436	4syl	models-affix.txt
+(nucleus_phoncat2 = L) and (syl_open2 = o) and (sonority1 <= 10) and (sonority2 >= 9) and (sonority2 <= 12) => stress_class=ultima (78.0/32.0)	78.0	32.0	0.589744	3syl	models-phon.txt
+(sonority2 >= 14) and (sonority_ratio2 >= 5) => stress_class=antepaenultima (78.0/31.0)	78.0	31.0	0.602564	5syl	models-sonority.txt
+(sonority1 >= 12) and (sonority0 <= 10) and (sonority1 >= 13) and (sonority_ratio2 <= 3) and (sonority_ratio0 >= 4) and (sonority_dir <= 0) and (sonority3 >= 9) and (sonority_ratio1 >= 4) => stress_class=antepaenultima (78.0/17.0)	78.0	17.0	0.782051	4syl	models-sonority.txt
+(syl_weight2 = schwa) and (syl_weight1 = light) and (cv_ratio0 >= 2) and (syl_len0 <= 3) => stress_class=sekunda (77.0/8.0)	77.0	8.0	0.896104	5syl	models-sparse.txt
+(nucleus_phoncat0 = K) and (nucleus_phoncat1 = L) and (syl_phoncat0 = CCK) => stress_class=paenultima (77.0/10.0)	77.0	10.0	0.87013	3syl	models-phoncat.txt
+(praefix2 = ko) => stress_class=paenultima (76.0/22.0)	76.0	22.0	0.710526	4syl	models-praefix.txt
+(prae_class = noacc) => stress_class=ultima (76.0/0.0)	76.0	0.0	1	2syl	models-praefix.txt
+(syl_len0 <= 2) and (syl_len1 <= 3) and (nucleus_phoncat0 = K) and (koda_phoncat1 = C) and (sonority0 >= 11) and (pos = V) => stress_class=paenultima (75.0/27.0)	75.0	27.0	0.64	4syl	models-sparse.txt
+(sonority_ratio0 <= 3) and (sonority0 <= 11) and (sonority_ratio0 >= 3) and (sonority_ratio2 <= 4) and (sonority0 >= 11) and (sonority_dir >= 1) => stress_class=antepaenultima (75.0/27.0)	75.0	27.0	0.64	4syl	models-sonority.txt
+(suffix4 = ø) and (suffix1 = t) and (suffix3 = ist) => stress_class=ultima (74.0/8.0)	74.0	8.0	0.891892	3syl	models-suffix.txt
+(sonority0 <= 10) and (sonority1 <= 10) and (sonority_ratio1 >= 4) and (sonority_ratio0 >= 4) and (sonority1 <= 9) and (sonority2 >= 14) => stress_class=ultima (74.0/35.0)	74.0	35.0	0.527027	3syl	models-sonority.txt
+(syl_weight2 = schwa) and (sonority0 <= 10) and (sonority2 >= 9) => stress_class=antepaenultima (74.0/34.0)	74.0	34.0	0.540541	4syl	models-all.txt
+(suffix3 = ø) and (suffix2 = ie) and (suffix_phoncat1 = L) => stress_class=ultima (74.0/2.0)	74.0	2.0	0.972973	3syl	models-suffix.txt
+(suffix3 = ø) and (suffix2 = ie) and (suffix_phoncat1 = L) => stress_class=ultima (74.0/2.0)	74.0	2.0	0.972973	3syl	models-affix.txt
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (prae_class = ø) and (syl_len1 >= 3) and (sonority0 <= 10) => stress_class=ultima (74.0/15.0)	74.0	15.0	0.797297	2syl	models-sparse.txt
+(syl_len0 <= 2) and (comp_len <= 1) and (koda_len3 <= 0) and (syl_len1 <= 2) => stress_class=paenultima (74.0/13.0)	74.0	13.0	0.824324	4syl	models-numeric.txt
+(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (sonority0 <= 10) and (syl_cv2 = CV) and (pos = N) => stress_class=paenultima (73.0/6.0)	73.0	6.0	0.917808	3syl	models-all.txt
+(praefix1 = i) => stress_class=paenultima (73.0/33.0)	73.0	33.0	0.547945	5syl	models-praefix.txt
+(nucleus_phoncat2 = L) and (syl_phoncat5 = CKC) => stress_class=paenultima (73.0/25.0)	73.0	25.0	0.657534	6syl	models-phoncat.txt
+(praefix4 = Uebe) => stress_class=paenultima (73.0/24.0)	73.0	24.0	0.671233	4syl	models-praefix.txt
+(syl_len0 <= 2) and (syl_len2 <= 3) and (syl_cv1 = CVC) and (onset_len0 >= 1) and (syl_cv2 = CVC) and (syl_len1 >= 3) => stress_class=paenultima (72.0/29.0)	72.0	29.0	0.597222	3syl	models-sylstruct.txt
+(nucleus_len3 >= 2) and (syl_len3 <= 3) and (syl_len2 <= 2) and (syl_len0 <= 2) and (syl_cv1 = CVC) and (syl_len3 >= 3) => stress_class=ultima (72.0/15.0)	72.0	15.0	0.791667	4syl	models-sylstruct.txt
+(syl_suffix = ø) and (comp_len <= 1) and (syl_weight3 = heavy) and (pos = N) and (syl_len3 <= 4) => stress_class=ultima (72.0/12.0)	72.0	12.0	0.833333	4syl	models-all.txt
+(suffix4 = eren) and (signi_praefix = ø) => stress_class=paenultima (72.0/1.0)	72.0	1.0	0.986111	6syl	models-affix.txt
+(syl_weight1 = light) and (syl_len1 >= 3) and (comp_len >= 2) and (syl_len0 <= 3) and (cv_ratio0 >= 2) and (nucleus_len1 >= 2) and (sonority1 >= 8) and (onset_len2 >= 1) => stress_class=antepaenultima (71.0/6.0)	71.0	6.0	0.915493	4syl	models-sparse.txt
+(sonority1 >= 12) and (sonority_ratio0 <= 4) and (sonority0 <= 11) and (sonority1 >= 14) and (sonority_ratio1 >= 5) and (sonority0 <= 7) and (sonority1 >= 15) => stress_class=antepaenultima (71.0/5.0)	71.0	5.0	0.929577	4syl	models-sonority.txt
+(nucleus_phoncat0 = K) and (koda_phoncat0 = C) and (nucleus_phoncat1 = L) and (koda_phoncat2 = C) and (syl_phoncat0 = CKC) => stress_class=paenultima (71.0/27.0)	71.0	27.0	0.619718	3syl	models-phoncat.txt
+(sonority0 <= 10) and (sonority0 <= 7) and (sonority_dir <= 2) and (sonority_ratio2 >= 3) and (sonority_ratio1 <= 2) => stress_class=paenultima (71.0/25.0)	71.0	25.0	0.647887	3syl	models-sonority.txt
+(signi_suffix = bar) => stress_class=paenultima (71.0/16.0)	71.0	16.0	0.774648	4syl	models-suffix.txt
+(syl_weight1 = light) and (syl_weight2 = light) and (syl_open1 = o) and (nucleus_phoncat3 = K) and (koda_phoncat2 = C) and (sonority2 <= 10) => stress_class=paenultima (71.0/16.0)	71.0	16.0	0.774648	4syl	models-phon.txt
+(suffix_phoncat4 = LCKC) and (suffix5 = erung) => stress_class=paenultima (71.0/11.0)	71.0	11.0	0.84507	4syl	models-suffix.txt
+(comp_len <= 1) and (nucleus_len2 >= 2) and (sonority3 >= 13) and (cv_ratio0 >= 1) and (cv_ratio2 <= 0) => stress_class=paenultima (70.0/24.0)	70.0	24.0	0.657143	4syl	models-numeric.txt
+(comp_len >= 2) and (nucleus_len0 <= 1) and (sonority_ratio0 <= 3) and (syl_len0 <= 3) => stress_class=sekunda (70.0/21.0)	70.0	21.0	0.7	6syl	models-numeric.txt
+(suffix_phoncat2 = LC) and (suffix1 = v) => stress_class=ultima (70.0/13.0)	70.0	13.0	0.814286	3syl	models-affix.txt
+(suffix3 = mus) => stress_class=paenultima (70.0/1.0)	70.0	1.0	0.985714	4syl	models-suffix.txt
+(suffix3 = mus) => stress_class=paenultima (70.0/1.0)	70.0	1.0	0.985714	4syl	models-affix.txt
+(comp_len <= 1) and (pos = V) and (prae_class = ø) => stress_class=paenultima (70.0/0.0)	70.0	0.0	1	6syl	models-sparse.txt
+(nucleus_len2 >= 2) and (syl_cv1 = CVV) and (syl_cv3 = CVC) and (onset_len0 >= 2) and (syl_len0 <= 5) => stress_class=paenultima (69.0/4.0)	69.0	4.0	0.942029	4syl	models-sylstruct.txt
+(nucleus_phoncat2 = K) and (nucleus_phoncat0 = K) and (nucleus_phoncat3 = K) and (onset_phoncat0 = C) => stress_class=sekunda (69.0/28.0)	69.0	28.0	0.594203	6syl	models-phoncat.txt
+(suffix_phoncat2 = LC) and (suffix1 = v) => stress_class=ultima (69.0/12.0)	69.0	12.0	0.826087	3syl	models-suffix.txt
+(suffix_phoncat4 = KCKC) and (suffix4 = igen) => stress_class=antepaenultima (69.0/10.0)	69.0	10.0	0.855072	4syl	models-suffix.txt
+(praefix2 = Ge) and (praefix_phoncat2 = CK) => stress_class=ultima (68.0/6.0)	68.0	6.0	0.911765	2syl	models-praefix.txt
+(sonority1 >= 12) and (sonority0 <= 10) and (sonority0 >= 9) and (sonority1 >= 13) and (sonority_ratio0 >= 4) and (sonority_ratio1 >= 4) and (sonority2 >= 11) => stress_class=antepaenultima (68.0/24.0)	68.0	24.0	0.647059	4syl	models-sonority.txt
+(sonority1 <= 9) and (sonority0 <= 10) and (sonority2 <= 10) and (sonority_ratio2 >= 4) => stress_class=paenultima (68.0/22.0)	68.0	22.0	0.676471	5syl	models-sonority.txt
+(suffix_phoncat4 = LCKC) and (suffix5 = erung) => stress_class=paenultima (68.0/15.0)	68.0	15.0	0.779412	5syl	models-suffix.txt
+(nucleus_len1 >= 2) and (onset_len3 <= 0) and (syl_len3 <= 2) and (syl_len0 <= 3) => stress_class=antepaenultima (68.0/14.0)	68.0	14.0	0.794118	4syl	models-sylstruct.txt
+(sonority1 <= 9) and (sonority_ratio3 >= 4) and (sonority0 <= 9) => stress_class=paenultima (67.0/32.0)	67.0	32.0	0.522388	5syl	models-sonority.txt
+(syl_weight1 = light) and (syl_open0 = o) and (syl_open2 = o) and (sonority0 <= 9) => stress_class=paenultima (67.0/27.0)	67.0	27.0	0.597015	3syl	models-phon.txt
+(praefix_phoncat1 = K) and (praefix5 = unter) and (suffix1 = n) => stress_class=paenultima (67.0/24.0)	67.0	24.0	0.641791	4syl	models-affix.txt
+(nucleus_len1 >= 2) and (nucleus_len2 <= 1) and (nucleus_len0 <= 1) and (syl_len2 <= 2) and (comp_len <= 1) and (syl_len3 <= 5) and (onset_len2 >= 1) => stress_class=antepaenultima (67.0/19.0)	67.0	19.0	0.716418	4syl	models-numeric.txt
+(koda_len2 >= 2) and (syl_len1 <= 2) and (syl_cv1 = CVV) and (cv_ratio0 >= 2) and (syl_len0 <= 3) => stress_class=ultima (67.0/16.0)	67.0	16.0	0.761194	3syl	models-sylstruct.txt
+(suffix_phoncat4 = LCKC) and (suffix5 = erung) => stress_class=paenultima (67.0/15.0)	67.0	15.0	0.776119	5syl	models-affix.txt
+(syl_len0 <= 2) and (comp_len <= 1) and (nucleus_phoncat3 = L) and (sonority_ratio3 >= 5) => stress_class=paenultima (67.0/12.0)	67.0	12.0	0.820896	4syl	models-sparse.txt
+(comp_len <= 1) and (comp_len <= 0) and (syl_len1 <= 2) and (nucleus_len3 <= 1) and (sonority_ratio3 >= 3) => stress_class=paenultima (67.0/11.0)	67.0	11.0	0.835821	4syl	models-numeric.txt
+(comp_len <= 1) and (onset_len0 >= 1) and (cv_ratio1 <= 0) and (onset_len0 >= 2) and (sonority2 >= 13) => stress_class=paenultima (66.0/9.0)	66.0	9.0	0.863636	3syl	models-numeric.txt
+(comp_len <= 1) and (syl_len2 <= 2) and (koda_len1 <= 0) and (syl_len4 >= 5) => stress_class=paenultima (66.0/6.0)	66.0	6.0	0.909091	5syl	models-numeric.txt
+(sonority1 >= 13) and (syl_phoncat1 = CDC) and (sonority0 <= 9) => stress_class=antepaenultima (66.0/2.0)	66.0	2.0	0.969697	4syl	models-phon.txt
+(nucleus_phoncat4 = L) and (comp_len <= 1) and (syl_len3 <= 3) => stress_class=ultima (66.0/18.0)	66.0	18.0	0.727273	5syl	models-all.txt
+(koda_len2 >= 2) and (comp_len <= 1) and (syl_len1 <= 2) and (sonority0 <= 10) and (sonority_ratio0 >= 5) => stress_class=ultima (65.0/7.0)	65.0	7.0	0.892308	3syl	models-numeric.txt
+(suffix_phoncat4 = LCKC) and (suffix5 = erung) and (prae_class = ø) => stress_class=paenultima (65.0/5.0)	65.0	5.0	0.923077	4syl	models-affix.txt
+(comp_len >= 2) and (syl_weight1 = light) and (koda_phoncat1 = C) and (nucleus_len1 >= 2) => stress_class=sekunda (65.0/16.0)	65.0	16.0	0.753846	5syl	models-sparse.txt
+(sonority4 >= 13) and (sonority_ratio3 >= 4) and (sonority4 <= 13) and (sonority3 <= 9) => stress_class=paenultima (65.0/13.0)	65.0	13.0	0.8	5syl	models-sonority.txt
+(syl_suffix = ø) and (syl_len0 <= 3) and (suffix1 = t) and (comp_len <= 1) and (sonority_ratio0 <= 3) and (cv_ratio0 >= 2) => stress_class=ultima (65.0/10.0)	65.0	10.0	0.846154	2syl	models-all.txt
+(nucleus_len1 >= 2) and (syl_len1 >= 3) and (syl_len0 <= 3) and (comp_len >= 2) and (syl_len1 <= 3) and (cv_ratio1 >= 1) and (koda_len1 >= 1) => stress_class=antepaenultima (64.0/7.0)	64.0	7.0	0.890625	4syl	models-numeric.txt
+(comp_len >= 2) and (nucleus_len1 >= 2) and (koda_len1 >= 1) and (syl_len1 <= 3) => stress_class=sekunda (64.0/6.0)	64.0	6.0	0.90625	5syl	models-numeric.txt
+(suffix4 = ø) and (suffix_phoncat2 = LC) and (signi_suffix = ø) and (suffix_phoncat5 = LCCLC) => stress_class=ultima (64.0/22.0)	64.0	22.0	0.65625	3syl	models-affix.txt
+(nucleus_len1 >= 2) and (syl_len0 <= 3) and (syl_len1 <= 3) and (syl_len1 >= 3) and (koda_len0 <= 0) => stress_class=ultima (64.0/19.0)	64.0	19.0	0.703125	2syl	models-numeric.txt
+(syl_weight0 = schwa) => stress_class=sekunda (64.0/1.0)	64.0	1.0	0.984375	5syl	models-phon.txt
+(syl_len0 <= 2) and (nucleus_len0 <= 1) and (koda_len0 <= 0) => stress_class=ultima (64.0/0.0)	64.0	0.0	1	2syl	models-numeric.txt
+(sonority2 >= 10) and (sonority_ratio0 <= 3) and (sonority4 >= 10) => stress_class=sekunda (63.0/31.0)	63.0	31.0	0.507937	6syl	models-sonority.txt
+(praefix2 = ø) and (praefix_phoncat4 = CKCL) => stress_class=paenultima (63.0/25.0)	63.0	25.0	0.603175	4syl	models-praefix.txt
+(comp_len <= 1) and (pos = N) and (comp_struct = R) => stress_class=ultima (63.0/24.0)	63.0	24.0	0.619048	2syl	models-meta.txt
+(syl_len2 >= 3) and (cv_ratio2 <= 1) and (koda_len2 >= 1) and (sonority_ratio2 <= 3) => stress_class=antepaenultima (63.0/21.0)	63.0	21.0	0.666667	5syl	models-numeric.txt
+(praefix_phoncat2 = CK) and (praefix_phoncat4 = CKCD) => stress_class=antepaenultima (63.0/2.0)	63.0	2.0	0.968254	4syl	models-praefix.txt
+(syl_len0 <= 2) and (comp_len <= 1) and (suffix_phoncat4 = LCKC) and (sonority3 >= 13) and (prae_class = ø) and (suffix4 = eren) => stress_class=paenultima (63.0/0.0)	63.0	0.0	1	4syl	models-all.txt
+(prae_class = ø) and (suffix_phoncat1 = K) and (suffix_phoncat5 = LCLCK) => stress_class=paenultima (62.0/7.0)	62.0	7.0	0.887097	3syl	models-affix.txt
+(cv_ratio3 <= 0) and (syl_len3 >= 3) and (comp_len <= 1) => stress_class=ultima (62.0/5.0)	62.0	5.0	0.919355	4syl	models-numeric.txt
+(sonority_dir >= 1) and (sonority_ratio0 >= 5) and (sonority2 >= 11) and (sonority3 >= 15) => stress_class=paenultima (62.0/26.0)	62.0	26.0	0.580645	4syl	models-sonority.txt
+(suffix_phoncat2 = KC) and (suffix3 = ung) and (suffix5 = ø) and (suffix_phoncat4 = KCKC) => stress_class=paenultima (62.0/22.0)	62.0	22.0	0.645161	3syl	models-suffix.txt
+(praefix_phoncat2 = CK) and (praefix2 = ge) => stress_class=paenultima (62.0/2.0)	62.0	2.0	0.967742	3syl	models-affix.txt
+(syl_len0 <= 3) and (nucleus_len1 >= 2) and (syl_len1 >= 3) and (syl_len1 <= 3) and (koda_len0 <= 0) => stress_class=ultima (62.0/16.0)	62.0	16.0	0.741935	2syl	models-sylstruct.txt
+(syl_phoncat1 = CLC) => stress_class=sekunda (62.0/13.0)	62.0	13.0	0.790323	5syl	models-phoncat.txt
+(nucleus_phoncat1 = L) and (syl_open0 = o) and (syl_phoncat0 = CCL) and (onset_phoncat2 = C) => stress_class=paenultima (62.0/13.0)	62.0	13.0	0.790323	3syl	models-phon.txt
+(suffix_phoncat2 = LC) and (suffix4 = taet) => stress_class=ultima (61.0/6.0)	61.0	6.0	0.901639	5syl	models-suffix.txt
+(nucleus_len4 >= 2) and (syl_len4 <= 3) and (nucleus_len2 >= 2) and (syl_len3 <= 2) => stress_class=ultima (61.0/27.0)	61.0	27.0	0.557377	5syl	models-sylstruct.txt
+(sonority0 <= 11) and (sonority1 <= 9) and (sonority0 <= 10) and (sonority0 <= 6) and (sonority_ratio3 <= 4) => stress_class=paenultima (61.0/24.0)	61.0	24.0	0.606557	4syl	models-sonority.txt
+(praefix_phoncat2 = CK) and (praefix2 = Ge) => stress_class=antepaenultima (61.0/2.0)	61.0	2.0	0.967213	4syl	models-affix.txt
+(suffix_phoncat5 = ø) and (suffix_phoncat1 = L) and (suffix2 = ie) => stress_class=ultima (61.0/18.0)	61.0	18.0	0.704918	5syl	models-suffix.txt
+(suffix_phoncat1 = L) and (suffix2 = ie) => stress_class=ultima (61.0/18.0)	61.0	18.0	0.704918	5syl	models-affix.txt
+(syl_weight1 = light) and (sonority1 >= 13) and (sonority0 <= 10) and (koda_phoncat1 = C) and (onset_phoncat0 = A) => stress_class=antepaenultima (61.0/1.0)	61.0	1.0	0.983607	4syl	models-phon.txt
+(nucleus_len1 >= 2) and (syl_len1 >= 3) and (cv_ratio0 >= 2) and (syl_len0 <= 3) and (syl_len0 >= 3) and (onset_len1 <= 1) and (onset_len2 >= 1) => stress_class=antepaenultima (61.0/10.0)	61.0	10.0	0.836066	4syl	models-sylstruct.txt
+(suffix4 = ø) and (suffix1 = t) and (suff_class = acc) => stress_class=ultima (61.0/0.0)	61.0	0.0	1	3syl	models-affix.txt
+(syl_weight2 = heavy) and (syl_weight1 = light) and (syl_phoncat1 = CK) => stress_class=ultima (60.0/9.0)	60.0	9.0	0.85	3syl	models-phon.txt
+(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (onset_len0 >= 1) and (signi_suffix = ø) and (koda_phoncat1 = C) and (pos = N) => stress_class=paenultima (60.0/8.0)	60.0	8.0	0.866667	3syl	models-all.txt
+(suffix1 = t) and (suffix4 = ø) and (suffix2 = nt) => stress_class=ultima (60.0/4.0)	60.0	4.0	0.933333	2syl	models-affix.txt
+(nucleus_phoncat2 = L) and (syl_phoncat0 = K) => stress_class=ultima (60.0/21.0)	60.0	21.0	0.65	3syl	models-phoncat.txt
+(syl_len1 >= 4) and (sonority0 <= 9) and (koda_len0 <= 0) => stress_class=sekunda (60.0/12.0)	60.0	12.0	0.8	5syl	models-numeric.txt
+(syl_weight0 = schwa) => stress_class=sekunda (60.0/1.0)	60.0	1.0	0.983333	5syl	models-weight.txt
+(nucleus_len1 >= 2) and (onset_len3 <= 0) and (comp_len <= 1) and (syl_len3 <= 2) and (sonority2 >= 9) => stress_class=antepaenultima (59.0/5.0)	59.0	5.0	0.915254	4syl	models-numeric.txt
+(nucleus_len2 >= 2) and (koda_len2 >= 1) and (syl_len1 <= 2) => stress_class=antepaenultima (59.0/14.0)	59.0	14.0	0.762712	5syl	models-sylstruct.txt
+(syl_suffix = ø) and (syl_len0 <= 2) and (suffix1 = t) and (onset_len0 >= 1) => stress_class=ultima (59.0/13.0)	59.0	13.0	0.779661	2syl	models-all.txt
+(syl_len2 >= 3) and (nucleus_phoncat2 = L) and (syl_open2 = c) and (syl_weight1 = light) => stress_class=antepaenultima (59.0/12.0)	59.0	12.0	0.79661	5syl	models-sparse.txt
+(comp_len <= 1) and (nucleus_phoncat3 = L) and (syl_open4 = o) => stress_class=paenultima (59.0/11.0)	59.0	11.0	0.813559	5syl	models-sparse.txt
+(nucleus_len2 >= 2) and (syl_len1 <= 2) and (cv_ratio1 >= 2) and (syl_len0 <= 3) and (syl_len2 >= 3) => stress_class=ultima (58.0/8.0)	58.0	8.0	0.862069	3syl	models-sylstruct.txt
+(nucleus_len2 >= 2) and (comp_len <= 1) and (sonority2 <= 10) and (koda_len2 >= 1) and (sonority1 >= 8) => stress_class=ultima (58.0/7.0)	58.0	7.0	0.87931	3syl	models-numeric.txt
+(syl_weight1 = light) and (sonority0 <= 10) and (sonority1 <= 9) and (syl_phoncat3 = CKC) and (syl_phoncat2 = CKC) and (syl_weight3 = light) => stress_class=paenultima (58.0/3.0)	58.0	3.0	0.948276	4syl	models-phon.txt
+(praefix_phoncat1 = K) and (praefix2 = ø) and (praefix1 = A) and (praefix_phoncat5 = ø) => stress_class=ultima (58.0/24.0)	58.0	24.0	0.586207	2syl	models-praefix.txt
+(sonority0 <= 10) and (sonority1 <= 10) and (sonority_ratio1 >= 4) and (sonority_ratio2 <= 2) => stress_class=ultima (58.0/23.0)	58.0	23.0	0.603448	3syl	models-sonority.txt
+(praefix4 = ø) and (suffix5 = ø) and (suffix2 = um) => stress_class=antepaenultima (58.0/21.0)	58.0	21.0	0.637931	4syl	models-affix.txt
+(praefix2 = ø) and (praefix1 = p) => stress_class=paenultima (58.0/20.0)	58.0	20.0	0.655172	5syl	models-praefix.txt
+(suffix3 = ø) and (suffix_phoncat2 = LC) and (suffix_phoncat5 = LCCLC) => stress_class=ultima (58.0/20.0)	58.0	20.0	0.655172	3syl	models-suffix.txt
+(comp_len <= 1) and (nucleus_len3 <= 1) and (prae_class = ø) and (syl_weight1 = light) and (syl_weight2 = light) and (syl_len1 <= 2) and (syl_open2 = c) => stress_class=paenultima (58.0/18.0)	58.0	18.0	0.689655	4syl	models-sparse.txt
+(comp_len <= 1) and (pos = V) and (comp_struct = ø) => stress_class=paenultima (58.0/12.0)	58.0	12.0	0.793103	3syl	models-meta.txt
+(syl_cv0 = CV) => stress_class=sekunda (58.0/1.0)	58.0	1.0	0.982759	5syl	models-sylstruct.txt
+(nucleus_len1 >= 2) and (koda_phoncat1 = C) and (onset_phoncat1 = C) and (sonority0 <= 10) and (sonority1 >= 13) and (syl_len0 <= 2) and (prae_class = ø) => stress_class=antepaenultima (58.0/0.0)	58.0	0.0	1	4syl	models-sparse.txt
+(syl_len0 <= 2) and (syl_phoncat0 = CK) and (syl_open0 = o) => stress_class=paenultima (58.0/0.0)	58.0	0.0	1	3syl	models-all.txt
+(nucleus_len1 >= 2) and (pos = N) and (onset_len3 <= 0) and (comp_len <= 1) and (sonority2 >= 9) => stress_class=antepaenultima (57.0/4.0)	57.0	4.0	0.929825	4syl	models-sparse.txt
+(nucleus_len1 >= 2) and (suffix5 = ø) and (onset_len3 <= 0) and (comp_len <= 1) and (pos = N) and (sonority2 >= 9) => stress_class=antepaenultima (57.0/4.0)	57.0	4.0	0.929825	4syl	models-all.txt
+(praefix3 = ø) and (suffix_phoncat2 = CL) and (suffix1 = a) => stress_class=paenultima (57.0/20.0)	57.0	20.0	0.649123	3syl	models-affix.txt
+(comp_len <= 1) and (nucleus_len2 >= 2) and (syl_len2 <= 2) and (koda_len3 <= 0) => stress_class=paenultima (57.0/18.0)	57.0	18.0	0.684211	4syl	models-numeric.txt
+(praefix3 = ø) and (suffix_phoncat5 = KCCKC) and (suffix3 = sch) => stress_class=paenultima (57.0/15.0)	57.0	15.0	0.736842	3syl	models-affix.txt
+(prae_class = ø) and (praefix_phoncat5 = CKCCL) and (suffix1 = e) => stress_class=paenultima (57.0/15.0)	57.0	15.0	0.736842	3syl	models-affix.txt
+(sonority0 <= 11) and (sonority_ratio1 >= 4) and (sonority1 <= 11) and (sonority3 <= 10) and (sonority0 <= 10) and (sonority3 <= 7) and (sonority_ratio3 <= 3) => stress_class=paenultima (57.0/14.0)	57.0	14.0	0.754386	4syl	models-sonority.txt
+(syl_phoncat1 = CLC) => stress_class=sekunda (57.0/13.0)	57.0	13.0	0.77193	5syl	models-phon.txt
+(syl_weight1 = light) and (syl_len1 >= 3) and (comp_len >= 2) and (nucleus_phoncat1 = L) and (syl_open0 = o) => stress_class=antepaenultima (56.0/16.0)	56.0	16.0	0.714286	4syl	models-sparse.txt
+(nucleus_phoncat5 = L) and (sonority5 <= 9) and (syl_weight1 = light) => stress_class=ultima (56.0/12.0)	56.0	12.0	0.785714	6syl	models-phon.txt
+(syl_len1 >= 4) and (syl_cv0 = CVV) and (syl_cv1 = CVC) and (syl_len0 <= 2) => stress_class=antepaenultima (56.0/10.0)	56.0	10.0	0.821429	4syl	models-sylstruct.txt
+(comp_len <= 1) and (suffix1 = r) and (syl_weight3 = light) => stress_class=paenultima (56.0/10.0)	56.0	10.0	0.821429	4syl	models-all.txt
+(syl_weight1 = light) and (nucleus_phoncat2 = L) and (sonority_dir >= 0) and (syl_phoncat3 = CKC) and (syl_open0 = o) => stress_class=paenultima (55.0/9.0)	55.0	9.0	0.836364	4syl	models-phon.txt
+(suffix5 = nheit) => stress_class=antepaenultima (55.0/8.0)	55.0	8.0	0.854545	4syl	models-suffix.txt
+(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (suffix3 = sch) and (syl_praefix = ø) => stress_class=paenultima (55.0/8.0)	55.0	8.0	0.854545	3syl	models-all.txt
+(suffix1 = t) and (suffix2 = nt) => stress_class=ultima (55.0/3.0)	55.0	3.0	0.945455	2syl	models-suffix.txt
+(nucleus_len3 >= 2) and (syl_len2 <= 2) and (nucleus_len2 >= 2) and (koda_len3 >= 1) and (syl_len0 <= 3) and (koda_len2 <= 0) => stress_class=ultima (55.0/17.0)	55.0	17.0	0.690909	4syl	models-sylstruct.txt
+(praefix_phoncat2 = CK) and (praefix2 = Ge) => stress_class=antepaenultima (54.0/3.0)	54.0	3.0	0.944444	4syl	models-praefix.txt
+(sonority3 >= 10) and (sonority_ratio2 >= 4) and (sonority_ratio5 <= 3) and (sonority2 <= 10) => stress_class=antepaenultima (54.0/24.0)	54.0	24.0	0.555556	6syl	models-sonority.txt
+(nucleus_len0 <= 1) and (nucleus_len2 <= 1) and (syl_len0 <= 3) and (syl_len3 >= 4) and (cv_ratio0 >= 2) and (syl_len2 >= 3) and (cv_ratio3 <= 1) => stress_class=antepaenultima (54.0/23.0)	54.0	23.0	0.574074	4syl	models-sylstruct.txt
+(prae_class = ø) and (praefix_phoncat1 = K) and (praefix_phoncat3 = KCK) and (praefix1 = u) => stress_class=paenultima (54.0/22.0)	54.0	22.0	0.592593	4syl	models-praefix.txt
+(sonority0 <= 11) and (sonority0 <= 7) and (sonority1 >= 12) and (sonority_ratio1 <= 3) and (sonority1 <= 13) => stress_class=ultima (54.0/20.0)	54.0	20.0	0.62963	2syl	models-sonority.txt
+(syl_len0 <= 2) and (syl_len1 <= 3) and (koda_len1 >= 1) and (syl_len1 <= 2) and (syl_len3 <= 3) => stress_class=paenultima (54.0/18.0)	54.0	18.0	0.666667	4syl	models-sylstruct.txt
+(sonority_dir >= 0) and (sonority_ratio0 >= 5) and (sonority0 <= 8) and (sonority3 <= 10) and (syl_weight1 = light) => stress_class=paenultima (54.0/13.0)	54.0	13.0	0.759259	4syl	models-phon.txt
+(syl_weight1 = light) and (syl_weight2 = schwa) and (syl_open2 = c) and (syl_open0 = o) => stress_class=antepaenultima (54.0/12.0)	54.0	12.0	0.777778	4syl	models-weight.txt
+(syl_weight2 = schwa) and (syl_open2 = c) and (sonority0 <= 11) and (cv_ratio0 >= 2) and (sonority_ratio0 >= 3) => stress_class=antepaenultima (53.0/3.0)	53.0	3.0	0.943396	4syl	models-sparse.txt
+(nucleus_phoncat6 = L) => stress_class=ultima (53.0/25.0)	53.0	25.0	0.528302	7syl	models-phon.txt
+(nucleus_phoncat6 = L) => stress_class=ultima (53.0/25.0)	53.0	25.0	0.528302	7syl	models-phoncat.txt
+(sonority_ratio4 >= 5) and (nucleus_phoncat4 = L) and (syl_open3 = o) => stress_class=ultima (53.0/25.0)	53.0	25.0	0.528302	5syl	models-phon.txt
+(suffix5 = ø) and (suffix_phoncat3 = LCK) and (suffix_phoncat5 = KCLCK) => stress_class=paenultima (53.0/23.0)	53.0	23.0	0.566038	4syl	models-affix.txt
+(comp_len <= 1) and (pos = A) => stress_class=paenultima (53.0/21.0)	53.0	21.0	0.603774	6syl	models-meta.txt
+(sonority1 >= 12) and (syl_weight1 = heavy) and (sonority1 <= 12) and (koda_phoncat1 = CC) => stress_class=antepaenultima (53.0/16.0)	53.0	16.0	0.698113	4syl	models-phon.txt
+(sonority2 >= 13) and (nucleus_phoncat2 = L) and (syl_open2 = c) => stress_class=antepaenultima (53.0/12.0)	53.0	12.0	0.773585	5syl	models-phon.txt
+(sonority_ratio1 <= 2) and (comp_len <= 1) and (sonority_dir >= 0) and (cv_ratio0 >= 2) and (koda_len1 >= 2) and (syl_len0 <= 3) => stress_class=ultima (53.0/10.0)	53.0	10.0	0.811321	2syl	models-numeric.txt
+(syl_len1 <= 2) and (syl_len0 <= 3) and (syl_len3 <= 2) and (syl_cv1 = CVV) => stress_class=paenultima (52.0/7.0)	52.0	7.0	0.865385	4syl	models-sylstruct.txt
+(nucleus_phoncat2 = L) and (nucleus_phoncat0 = K) and (syl_phoncat3 = CKC) and (syl_phoncat0 = K) => stress_class=paenultima (52.0/15.0)	52.0	15.0	0.711538	4syl	models-phoncat.txt
+(nucleus_phoncat3 = L) and (syl_open1 = o) and (syl_phoncat4 = CKC) and (sonority4 >= 13) => stress_class=paenultima (52.0/11.0)	52.0	11.0	0.788462	5syl	models-phon.txt
+(syl_phoncat0 = KC) and (sonority3 >= 13) and (syl_phoncat3 = CLC) and (sonority3 >= 15) => stress_class=paenultima (52.0/11.0)	52.0	11.0	0.788462	4syl	models-phon.txt
+(nucleus_len2 >= 2) and (comp_len <= 1) and (syl_open1 = o) and (syl_len2 >= 3) and (pos = N) and (sonority_ratio2 >= 4) and (nucleus_phoncat1 = L) and (sonority0 <= 9) => stress_class=ultima (52.0/1.0)	52.0	1.0	0.980769	3syl	models-sparse.txt
+(praefix_phoncat2 = CK) and (praefix3 = her) and (suffix1 = n) => stress_class=antepaenultima (52.0/0.0)	52.0	0.0	1	4syl	models-affix.txt
+(syl_weight1 = heavy) and (comp_len <= 1) and (syl_len0 <= 3) and (syl_praefix = ø) and (nucleus_phoncat0 = K) and (sonority0 <= 11) => stress_class=ultima (51.0/8.0)	51.0	8.0	0.843137	2syl	models-all.txt
+(nucleus_len1 >= 2) and (koda_len1 >= 1) and (koda_len0 <= 0) and (sonority_dir >= 0) and (sonority1 >= 10) => stress_class=antepaenultima (51.0/5.0)	51.0	5.0	0.901961	4syl	models-numeric.txt
+(nucleus_phoncat3 = L) and (syl_open3 = c) and (sonority_ratio2 >= 4) => stress_class=antepaenultima (51.0/3.0)	51.0	3.0	0.941176	6syl	models-sparse.txt
+(nucleus_phoncat5 = L) and (syl_phoncat4 = CL) => stress_class=ultima (51.0/24.0)	51.0	24.0	0.529412	6syl	models-phoncat.txt
+(suffix_phoncat2 = LC) => stress_class=ultima (51.0/23.0)	51.0	23.0	0.54902	7syl	models-suffix.txt
+(suffix4 = smus) => stress_class=paenultima (51.0/2.0)	51.0	2.0	0.960784	5syl	models-suffix.txt
+(suffix4 = smus) => stress_class=paenultima (51.0/2.0)	51.0	2.0	0.960784	5syl	models-affix.txt
+(syl_weight2 = schwa) and (sonority2 >= 9) and (syl_cv0 = CVC) => stress_class=sekunda (50.0/8.0)	50.0	8.0	0.84	5syl	models-all.txt
+(syl_weight2 = heavy) and (comp_len <= 1) and (syl_weight1 = light) and (syl_len1 <= 2) and (onset_len0 >= 1) => stress_class=ultima (50.0/3.0)	50.0	3.0	0.94	3syl	models-sparse.txt
+(nucleus_phoncat2 = L) => stress_class=paenultima (50.0/22.0)	50.0	22.0	0.56	7syl	models-phoncat.txt
+(syl_cv1 = CVVC) and (syl_len1 <= 3) and (praefix_phoncat1 = C) => stress_class=sekunda (50.0/2.0)	50.0	2.0	0.96	5syl	models-all.txt
+(comp_len <= 1) and (prae_class = ø) and (nucleus_phoncat1 = L) and (pos = V) and (sonority_ratio2 >= 4) => stress_class=paenultima (50.0/2.0)	50.0	2.0	0.96	3syl	models-sparse.txt
+(syl_len0 <= 1) and (syl_weight1 = schwa) and (syl_weight2 = light) and (sonority1 >= 11) => stress_class=antepaenultima (50.0/18.0)	50.0	18.0	0.64	5syl	models-sparse.txt
+(praefix1 = k) => stress_class=paenultima (50.0/18.0)	50.0	18.0	0.64	5syl	models-praefix.txt
+(syl_weight1 = light) and (syl_phoncat3 = KC) and (syl_phoncat1 = CL) => stress_class=antepaenultima (50.0/16.0)	50.0	16.0	0.68	4syl	models-phon.txt
+(praefix_phoncat2 = KC) and (signi_suffix = bar) => stress_class=paenultima (49.0/7.0)	49.0	7.0	0.857143	4syl	models-affix.txt
+(syl_weight2 = schwa) and (syl_weight1 = light) and (sonority0 <= 10) and (suffix2 = en) => stress_class=sekunda (49.0/5.0)	49.0	5.0	0.897959	5syl	models-all.txt
+(nucleus_len0 <= 1) and (nucleus_len2 <= 1) and (syl_len3 >= 4) and (syl_len0 <= 3) and (syl_len0 >= 3) and (syl_cv3 = CVC) and (koda_len2 <= 0) => stress_class=antepaenultima (49.0/3.0)	49.0	3.0	0.938776	4syl	models-sylstruct.txt
+(comp_len <= 1) and (nucleus_len3 <= 1) and (nucleus_len1 >= 2) and (sonority3 <= 12) and (sonority3 >= 12) => stress_class=paenultima (49.0/3.0)	49.0	3.0	0.938776	4syl	models-numeric.txt
+(nucleus_phoncat3 = L) and (syl_open1 = o) and (sonority2 <= 9) and (sonority0 <= 10) => stress_class=paenultima (49.0/11.0)	49.0	11.0	0.77551	5syl	models-all.txt
+(nucleus_len2 >= 2) and (comp_len <= 1) and (sonority1 <= 9) and (syl_len2 >= 3) and (cv_ratio2 <= 0) => stress_class=ultima (49.0/1.0)	49.0	1.0	0.979592	3syl	models-numeric.txt
+(syl_len0 <= 2) and (syl_weight0 = schwa) => stress_class=paenultima (49.0/0.0)	49.0	0.0	1	3syl	models-sparse.txt
+(syl_open2 = c) and (syl_weight1 = light) and (syl_open1 = c) and (syl_weight4 = schwa) and (syl_open3 = c) => stress_class=sekunda (48.0/21.0)	48.0	21.0	0.5625	5syl	models-weight.txt
+(comp_len <= 1) and (comp_len <= 0) and (syl_len1 >= 3) and (sonority_dir >= 0) and (syl_len2 <= 3) and (sonority2 >= 11) and (onset_len1 <= 1) and (sonority_ratio0 >= 3) => stress_class=paenultima (48.0/2.0)	48.0	2.0	0.958333	3syl	models-numeric.txt
+(comp_len <= 1) and (sonority_ratio3 >= 4) and (pos = A) and (sonority3 >= 10) and (cv_ratio4 >= 2) => stress_class=paenultima (48.0/18.0)	48.0	18.0	625	5syl	models-sparse.txt
+(syl_weight1 = light) and (nucleus_phoncat0 = K) and (sonority1 >= 12) and (syl_phoncat0 = CK) and (sonority1 >= 13) => stress_class=antepaenultima (48.0/17.0)	48.0	17.0	0.645833	4syl	models-phon.txt
+(syl_weight1 = light) and (syl_open2 = o) and (syl_weight5 = light) and (syl_open5 = c) and (syl_open4 = c) => stress_class=paenultima (48.0/15.0)	48.0	15.0	0.6875	6syl	models-weight.txt
+(nucleus_phoncat0 = K) and (nucleus_phoncat1 = L) and (syl_phoncat0 = CK) => stress_class=paenultima (48.0/11.0)	48.0	11.0	0.770833	3syl	models-phoncat.txt
+(nucleus_phoncat2 = L) and (syl_phoncat1 = CCL) and (koda_phoncat2 = C) => stress_class=ultima (48.0/10.0)	48.0	10.0	0.791667	3syl	models-phoncat.txt
+(comp_len <= 1) and (pos = V) and (comp_struct = R) => stress_class=paenultima (48.0/0.0)	48.0	0.0	1	3syl	models-meta.txt
+(nucleus_phoncat4 = L) and (pos = A) and (syl_len3 <= 2) and (syl_weight4 = light) => stress_class=ultima (47.0/8.0)	47.0	8.0	0.829787	5syl	models-sparse.txt
+(nucleus_len2 >= 2) and (comp_len <= 1) and (syl_open1 = o) and (koda_phoncat2 = C) and (comp_len <= 0) => stress_class=ultima (47.0/8.0)	47.0	8.0	0.829787	3syl	models-sparse.txt
+(suffix_phoncat4 = KCKC) and (suffix3 = ung) and (suffix5 = igung) => stress_class=antepaenultima (47.0/6.0)	47.0	6.0	0.87234	4syl	models-suffix.txt
+(sonority2 >= 13) and (syl_len1 <= 2) and (sonority2 >= 14) and (comp_len >= 2) and (syl_len2 <= 4) => stress_class=antepaenultima (47.0/5.0)	47.0	5.0	0.893617	5syl	models-numeric.txt
+(nucleus_phoncat1 = L) and (syl_phoncat0 = CKC) and (syl_phoncat1 = CL) and (syl_open2 = o) => stress_class=paenultima (47.0/17.0)	47.0	17.0	0.638298	3syl	models-phon.txt
+(nucleus_phoncat0 = K) and (syl_weight1 = heavy) and (syl_phoncat0 = CKC) and (sonority0 <= 11) => stress_class=paenultima (47.0/16.0)	47.0	16.0	0.659574	3syl	models-phon.txt
+(praefix_phoncat2 = KC) and (praefix3 = Unt) and (suffix_phoncat2 = KC) => stress_class=paenultima (47.0/15.0)	47.0	15.0	0.680851	4syl	models-affix.txt
+(syl_weight2 = schwa) and (onset_phoncat0 = C) => stress_class=sekunda (47.0/14.0)	47.0	14.0	0.702128	6syl	models-phon.txt
+(comp_len <= 1) and (onset_len0 >= 1) and (syl_len0 <= 3) and (sonority_ratio2 <= 3) and (koda_len2 <= 1) and (syl_len2 >= 5) => stress_class=paenultima (47.0/14.0)	47.0	14.0	0.702128	3syl	models-numeric.txt
+(comp_len >= 2) and (nucleus_len1 >= 2) and (sonority0 <= 9) and (nucleus_len2 <= 1) and (onset_len0 >= 1) => stress_class=sekunda (47.0/12.0)	47.0	12.0	0.744681	5syl	models-numeric.txt
+(syl_cv2 = CVVC) and (syl_len2 <= 3) and (nucleus_len4 <= 1) => stress_class=antepaenultima (47.0/10.0)	47.0	10.0	0.787234	5syl	models-sylstruct.txt
+(suffix4 = isch) and (suffix_phoncat4 = CCKC) => stress_class=paenultima (46.0/7.0)	46.0	7.0	0.847826	5syl	models-suffix.txt
+(sonority_ratio3 >= 6) and (sonority2 <= 10) and (nucleus_phoncat2 = K) and (sonority_ratio1 <= 5) => stress_class=ultima (46.0/5.0)	46.0	5.0	0.891304	4syl	models-phon.txt
+(suffix_phoncat2 = KC) and (suffix3 = ung) and (suffix_phoncat5 = CLCKC) and (suffix5 = erung) => stress_class=paenultima (46.0/4.0)	46.0	4.0	0.913043	3syl	models-suffix.txt
+(koda_len2 >= 2) and (comp_len <= 1) and (comp_len <= 0) => stress_class=ultima (46.0/19.0)	46.0	19.0	0.586957	3syl	models-numeric.txt
+(suffix_phoncat4 = KCKC) and (suffix2 = ng) and (suffix5 = elung) => stress_class=antepaenultima (46.0/18.0)	46.0	18.0	0.608696	4syl	models-suffix.txt
+(syl_len0 <= 2) and (syl_praefix = um) and (onset_len1 >= 2) and (syl_len1 >= 4) => stress_class=paenultima (46.0/17.0)	46.0	17.0	0.630435	3syl	models-all.txt
+(nucleus_phoncat0 = K) and (nucleus_phoncat1 = L) and (koda_phoncat0 = C) and (syl_phoncat0 = CKC) and (syl_phoncat2 = CK) and (onset_phoncat1 = C) => stress_class=paenultima (46.0/16.0)	46.0	16.0	0.652174	3syl	models-phoncat.txt
+(koda_phoncat3 = C) and (syl_weight1 = light) and (prae_class = ø) and (comp_len >= 2) => stress_class=sekunda (46.0/15.0)	46.0	15.0	0.673913	6syl	models-sparse.txt
+(syl_len0 <= 2) and (nucleus_phoncat1 = L) and (prae_class = ø) and (sonority0 <= 10) and (sonority1 >= 13) and (onset_len0 >= 1) and (syl_open1 = c) => stress_class=paenultima (46.0/1.0)	46.0	1.0	0.978261	3syl	models-sparse.txt
+(syl_phoncat0 = L) and (sonority0 >= 8) and (sonority_ratio3 >= 4) and (sonority3 <= 12) and (syl_weight3 = light) => stress_class=paenultima (45.0/6.0)	45.0	6.0	0.866667	4syl	models-phon.txt
+(syl_suffix = ø) and (comp_len <= 1) and (nucleus_len2 >= 2) and (suffix1 = e) => stress_class=ultima (45.0/3.0)	45.0	3.0	0.933333	3syl	models-all.txt
+(comp_len >= 2) and (syl_weight1 = light) and (koda_phoncat1 = C) and (syl_len0 <= 3) and (sonority_ratio0 <= 4) and (sonority_ratio0 >= 4) => stress_class=sekunda (45.0/2.0)	45.0	2.0	0.955556	5syl	models-sparse.txt
+(syl_weight3 = schwa) and (onset_len0 <= 0) and (koda_phoncat1 = C) and (sonority_ratio0 <= 8) => stress_class=antepaenultima (45.0/17.0)	45.0	17.0	0.622222	5syl	models-all.txt
+(praefix_phoncat2 = CK) and (praefix2 = Ve) => stress_class=antepaenultima (45.0/1.0)	45.0	1.0	0.977778	4syl	models-praefix.txt
+(praefix_phoncat2 = CK) and (praefix2 = Ve) => stress_class=antepaenultima (45.0/1.0)	45.0	1.0	0.977778	4syl	models-affix.txt
+(comp_len <= 1) and (onset_len0 >= 1) and (nucleus_len1 >= 2) and (syl_len2 >= 5) and (syl_len1 <= 2) => stress_class=paenultima (44.0/7.0)	44.0	7.0	0.840909	3syl	models-numeric.txt
+(sonority2 >= 14) and (koda_phoncat2 = C) and (syl_len1 <= 2) => stress_class=antepaenultima (44.0/3.0)	44.0	3.0	0.931818	5syl	models-sparse.txt
+(syl_weight1 = light) and (sonority0 <= 10) and (sonority0 <= 7) and (nucleus_phoncat1 = D) => stress_class=ultima (44.0/21.0)	44.0	21.0	0.522727	2syl	models-phon.txt
+(praefix_phoncat5 = LCKCC) and (suffix3 = ung) and (praefix2 = Ue) => stress_class=paenultima (44.0/2.0)	44.0	2.0	0.954545	4syl	models-affix.txt
+(syl_len0 <= 3) and (nucleus_len1 >= 2) and (nucleus_len0 <= 1) and (syl_len1 <= 3) and (syl_len1 >= 3) and (onset_len0 >= 1) => stress_class=ultima (44.0/16.0)	44.0	16.0	0.636364	2syl	models-numeric.txt
+(syl_phoncat4 = CKC) and (nucleus_phoncat1 = L) and (syl_phoncat2 = CK) => stress_class=paenultima (44.0/15.0)	44.0	15.0	0.659091	5syl	models-phoncat.txt
+(syl_phoncat3 = CD) => stress_class=ultima (44.0/13.0)	44.0	13.0	0.704545	4syl	models-phoncat.txt
+(sonority1 >= 12) and (sonority_ratio0 <= 4) and (sonority1 >= 14) and (sonority0 <= 7) => stress_class=sekunda (44.0/12.0)	44.0	12.0	0.727273	5syl	models-sonority.txt
+(nucleus_phoncat2 = K) and (syl_phoncat0 = CKC) and (koda_phoncat2 = CC) => stress_class=sekunda (43.0/9.0)	43.0	9.0	0.790698	5syl	models-phoncat.txt
+(syl_weight1 = light) and (comp_len <= 1) and (suffix_phoncat5 = KCCKC) => stress_class=paenultima (43.0/7.0)	43.0	7.0	0.837209	5syl	models-all.txt
+(syl_weight1 = light) and (syl_phoncat2 = CK) and (sonority0 <= 10) and (sonority0 >= 10) and (syl_phoncat3 = CKC) => stress_class=antepaenultima (43.0/6.0)	43.0	6.0	0.860465	4syl	models-phon.txt
+(suff_class = acc) => stress_class=ultima (43.0/3.0)	43.0	3.0	0.930233	4syl	models-suffix.txt
+(suff_class = acc) => stress_class=ultima (43.0/3.0)	43.0	3.0	0.930233	4syl	models-affix.txt
+(sonority2 >= 10) and (sonority_ratio0 >= 8) and (sonority_ratio1 <= 3) and (sonority0 <= 8) => stress_class=antepaenultima (43.0/18.0)	43.0	18.0	0.581395	5syl	models-sonority.txt
+(sonority1 <= 9) and (sonority_ratio1 >= 4) and (sonority4 >= 13) and (sonority0 >= 11) => stress_class=paenultima (43.0/17.0)	43.0	17.0	0.604651	5syl	models-sonority.txt
+(comp_len <= 1) and (nucleus_phoncat2 = L) and (suffix3 = sch) => stress_class=paenultima (43.0/16.0)	43.0	16.0	0.627907	4syl	models-all.txt
+(nucleus_phoncat1 = L) and (syl_open0 = o) and (sonority2 >= 12) and (sonority_ratio0 >= 6) => stress_class=paenultima (43.0/16.0)	43.0	16.0	0.627907	3syl	models-phon.txt
+(sonority2 <= 9) and (sonority2 >= 9) and (sonority3 >= 10) and (sonority3 <= 10) => stress_class=paenultima (43.0/14.0)	43.0	14.0	0.674419	5syl	models-sonority.txt
+(nucleus_phoncat3 = L) and (comp_len <= 1) and (syl_len2 <= 3) and (syl_len3 >= 3) and (syl_open1 = o) => stress_class=ultima (43.0/12.0)	43.0	12.0	0.72093	4syl	models-sparse.txt
+(syl_len0 <= 3) and (syl_len1 >= 4) and (koda_len1 >= 2) and (cv_ratio1 >= 4) and (cv_ratio0 >= 2) => stress_class=ultima (43.0/11.0)	43.0	11.0	0.744186	2syl	models-sylstruct.txt
+(syl_cv4 = CVC) and (syl_len4 >= 5) and (syl_len2 <= 2) => stress_class=paenultima (43.0/10.0)	43.0	10.0	0.767442	5syl	models-sylstruct.txt
+(suffix_phoncat2 = LC) and (signi_suffix = ø) and (suffix2 = ur) => stress_class=ultima (43.0/10.0)	43.0	10.0	0.767442	3syl	models-suffix.txt
+(praefix_phoncat2 = AL) and (praefix3 = zur) => stress_class=antepaenultima (43.0/0.0)	43.0	0.0	1	4syl	models-praefix.txt
+(praefix_phoncat2 = AL) and (praefix3 = zur) => stress_class=antepaenultima (43.0/0.0)	43.0	0.0	1	4syl	models-affix.txt
+(comp_len <= 1) and (nucleus_phoncat3 = L) and (syl_weight4 = light) and (sonority4 >= 13) => stress_class=paenultima (42.0/9.0)	42.0	9.0	0.785714	5syl	models-sparse.txt
+(prae_class = ø) and (praefix_phoncat1 = K) and (praefix1 = A) and (suffix_phoncat1 = K) => stress_class=paenultima (42.0/8.0)	42.0	8.0	0.809524	3syl	models-affix.txt
+(sonority_ratio3 >= 4) and (sonority4 >= 9) and (sonority5 >= 13) and (sonority5 <= 13) => stress_class=paenultima (42.0/6.0)	42.0	6.0	0.857143	6syl	models-sonority.txt
+(syl_weight1 = light) and (syl_phoncat4 = CKC) and (sonority0 <= 10) and (syl_weight4 = light) and (sonority3 >= 10) and (syl_weight2 = light) => stress_class=paenultima (42.0/5.0)	42.0	5.0	0.880952	5syl	models-phon.txt
+(comp_len <= 1) and (prae_class = ø) and (nucleus_phoncat1 = L) and (cv_ratio0 >= 2) and (syl_len0 <= 3) and (syl_len2 >= 4) => stress_class=paenultima (42.0/5.0)	42.0	5.0	0.880952	3syl	models-all.txt
+(nucleus_len2 >= 2) and (syl_open2 = c) and (syl_weight1 = light) and (nucleus_phoncat2 = L) => stress_class=antepaenultima (42.0/3.0)	42.0	3.0	0.928571	5syl	models-all.txt
+(syl_weight4 = light) and (syl_open3 = o) and (syl_weight1 = light) and (syl_weight2 = light) and (syl_open4 = o) and (syl_weight0 = light) => stress_class=ultima (41.0/9.0)	41.0	9.0	0.780488	5syl	models-weight.txt
+(syl_cv1 = CVVC) and (syl_len1 <= 3) => stress_class=sekunda (41.0/7.0)	41.0	7.0	0.829268	5syl	models-sylstruct.txt
+(prae_class = noacc) => stress_class=sekunda (41.0/5.0)	41.0	5.0	0.878049	6syl	models-sparse.txt
+(prae_class = noacc) => stress_class=sekunda (41.0/5.0)	41.0	5.0	0.878049	6syl	models-praefix.txt
+(prae_class = noacc) => stress_class=sekunda (41.0/5.0)	41.0	5.0	0.878049	6syl	models-affix.txt
+(cv_ratio2 <= 0) and (nucleus_phoncat3 = L) and (syl_open3 = c) => stress_class=paenultima (41.0/4.0)	41.0	4.0	0.902439	5syl	models-sparse.txt
+(comp_len <= 1) and (sonority0 <= 10) and (nucleus_phoncat1 = L) and (syl_weight3 = schwa) and (syl_len3 <= 2) => stress_class=paenultima (41.0/2.0)	41.0	2.0	0.95122	4syl	models-all.txt
+(sonority_ratio4 >= 4) and (sonority6 >= 10) and (sonority_ratio2 >= 4) => stress_class=paenultima (41.0/13.0)	41.0	13.0	0.682927	7syl	models-sonority.txt
+(nucleus_phoncat0 = K) and (syl_weight1 = light) and (sonority_ratio0 >= 5) and (sonority_dir >= 0) and (sonority2 <= 11) and (sonority0 <= 10) => stress_class=paenultima (41.0/12.0)	41.0	12.0	0.707317	3syl	models-all.txt
+(comp_len <= 1) and (onset_len0 >= 1) and (syl_len0 <= 3) and (koda_len2 <= 0) and (sonority0 <= 10) and (nucleus_len2 <= 1) and (sonority_ratio1 <= 5) => stress_class=paenultima (41.0/1.0)	41.0	1.0	0.97561	3syl	models-numeric.txt
+(syl_len1 >= 4) and (syl_len0 <= 3) and (onset_len0 >= 1) and (syl_cv2 = CVC) and (syl_cv0 = CVC) and (cv_ratio1 >= 3) => stress_class=antepaenultima (41.0/10.0)	41.0	10.0	0.756098	4syl	models-sylstruct.txt
+(syl_len0 <= 2) and (syl_weight1 = light) and (syl_weight0 = schwa) => stress_class=ultima (41.0/0.0)	41.0	0.0	1	2syl	models-sparse.txt
+(praefix2 = Ue) => stress_class=antepaenultima (40.0/14.0)	40.0	14.0	0.65	5syl	models-affix.txt
+(nucleus_phoncat1 = L) and (comp_len <= 1) and (prae_class = ø) and (suffix_phoncat4 = LCKC) and (sonority_dir >= 0) and (suffix1 = n) => stress_class=paenultima (40.0/12.0)	40.0	12.0	0.7	3syl	models-all.txt
+(syl_phoncat4 = KC) and (nucleus_phoncat2 = L) => stress_class=antepaenultima (39.0/9.0)	39.0	9.0	0.769231	5syl	models-phoncat.txt
+(sonority3 <= 6) and (sonority4 >= 10) => stress_class=paenultima (39.0/4.0)	39.0	4.0	0.897436	6syl	models-phon.txt
+(syl_len1 >= 4) and (sonority0 <= 7) and (syl_weight1 = heavy) and (syl_len0 <= 2) and (prae_class = ø) => stress_class=antepaenultima (39.0/2.0)	39.0	2.0	0.948718	4syl	models-sparse.txt
+(syl_weight3 = schwa) and (syl_phoncat3 = CKC) and (syl_weight1 = light) => stress_class=antepaenultima (39.0/17.0)	39.0	17.0	0.564103	5syl	models-phon.txt
+(nucleus_phoncat3 = L) and (syl_weight1 = light) and (syl_weight2 = light) and (sonority2 <= 9) and (syl_open3 = c) => stress_class=paenultima (39.0/1.0)	39.0	1.0	0.974359	5syl	models-phon.txt
+(syl_len0 <= 2) and (syl_len1 <= 3) and (syl_weight1 = light) and (nucleus_phoncat2 = L) and (syl_open2 = c) and (syl_suffix = ø) => stress_class=paenultima (39.0/1.0)	39.0	1.0	0.974359	4syl	models-all.txt
+(syl_len3 >= 3) and (nucleus_len3 >= 2) and (cv_ratio2 <= 0) and (sonority3 >= 8) => stress_class=antepaenultima (39.0/0.0)	39.0	0.0	1	6syl	models-numeric.txt
+(syl_phoncat4 = KC) and (nucleus_phoncat2 = L) => stress_class=antepaenultima (38.0/9.0)	38.0	9.0	0.763158	5syl	models-phon.txt
+(suffix_phoncat4 = LCKC) and (suffix3 = bel) => stress_class=paenultima (38.0/9.0)	38.0	9.0	0.763158	4syl	models-suffix.txt
+(syl_phoncat0 = L) and (sonority0 >= 8) and (sonority3 >= 14) => stress_class=paenultima (38.0/9.0)	38.0	9.0	0.763158	4syl	models-phon.txt
+(suffix_phoncat4 = LCKC) and (suffix3 = bel) => stress_class=paenultima (38.0/9.0)	38.0	9.0	0.763158	4syl	models-affix.txt
+(cv_ratio2 <= 0) and (suffix_phoncat3 = LLC) => stress_class=ultima (38.0/8.0)	38.0	8.0	0.789474	3syl	models-all.txt
+(syl_len0 <= 2) and (syl_len1 <= 3) and (cv_ratio0 >= 2) and (syl_cv3 = CVC) => stress_class=paenultima (38.0/6.0)	38.0	6.0	0.842105	4syl	models-sylstruct.txt
+(suffix_phoncat2 = LC) and (suffix_phoncat4 = KCLC) and (suffix1 = v) => stress_class=ultima (38.0/5.0)	38.0	5.0	0.868421	4syl	models-suffix.txt
+(suffix_phoncat4 = KCLC) and (suffix1 = v) => stress_class=ultima (38.0/5.0)	38.0	5.0	0.868421	4syl	models-affix.txt
+(comp_len <= 1) and (comp_struct = ø) and (sonority1 <= 9) and (pos = N) => stress_class=paenultima (38.0/12.0)	38.0	12.0	0.684211	4syl	models-all.txt
+(syl_len0 <= 2) and (sonority_ratio1 <= 2) and (syl_len1 >= 4) and (syl_len1 <= 4) => stress_class=ultima (38.0/12.0)	38.0	12.0	0.684211	2syl	models-numeric.txt
+(syl_weight0 = schwa) => stress_class=sekunda (38.0/1.0)	38.0	1.0	0.973684	5syl	models-sparse.txt
+(suffix_phoncat3 = CLC) and (suffix2 = ur) => stress_class=ultima (38.0/10.0)	38.0	10.0	0.736842	4syl	models-affix.txt
+(syl_cv6 = CVC) and (syl_len4 <= 2) => stress_class=paenultima (37.0/9.0)	37.0	9.0	0.756757	7syl	models-sylstruct.txt
+(suffix_phoncat3 = CKC) and (suffix3 = sch) => stress_class=paenultima (37.0/6.0)	37.0	6.0	0.837838	6syl	models-suffix.txt
+(suffix_phoncat3 = CKC) and (suffix3 = sch) => stress_class=paenultima (37.0/6.0)	37.0	6.0	0.837838	6syl	models-affix.txt
+(nucleus_phoncat2 = L) and (syl_weight1 = light) and (sonority1 <= 9) and (koda_phoncat2 = C) and (sonority2 <= 12) and (syl_weight0 = light) and (sonority1 >= 8) => stress_class=ultima (37.0/6.0)	37.0	6.0	0.837838	3syl	models-phon.txt
+(nucleus_phoncat2 = L) and (nucleus_phoncat1 = L) and (syl_phoncat1 = AL) => stress_class=ultima (37.0/6.0)	37.0	6.0	0.837838	3syl	models-phoncat.txt
+(syl_weight1 = heavy) and (sonority_ratio0 <= 3) and (syl_phoncat0 = CK) => stress_class=antepaenultima (37.0/4.0)	37.0	4.0	0.891892	4syl	models-phon.txt
+(nucleus_phoncat2 = L) and (syl_weight1 = light) and (sonority1 <= 10) and (sonority_dir >= 2) and (sonority_ratio2 <= 4) and (syl_phoncat2 = CCLC) => stress_class=ultima (37.0/3.0)	37.0	3.0	0.918919	3syl	models-phon.txt
+(syl_weight1 = light) and (pos = N) and (syl_cv0 = CVC) and (sonority1 >= 11) and (sonority1 >= 14) => stress_class=antepaenultima (37.0/16.0)	37.0	16.0	0.567568	4syl	models-all.txt
+(comp_len <= 1) and (pos = A) and (comp_struct = R) => stress_class=paenultima (37.0/12.0)	37.0	12.0	0.675676	5syl	models-meta.txt
+(comp_len <= 1) and (prae_class = ø) and (syl_weight1 = light) and (sonority0 <= 11) and (sonority_ratio1 <= 3) and (suffix5 = ø) and (syl_len2 <= 2) => stress_class=paenultima (37.0/12.0)	37.0	12.0	0.675676	3syl	models-all.txt
+(suffix_phoncat4 = LCLC) => stress_class=ultima (37.0/11.0)	37.0	11.0	0.702703	6syl	models-suffix.txt
+(praefix_phoncat2 = CK) and (signi_praefix = be) => stress_class=paenultima (37.0/1.0)	37.0	1.0	0.972973	3syl	models-affix.txt
+(praefix_phoncat3 = CKC) and (suffix5 = ø) and (suffix2 = en) => stress_class=sekunda (37.0/10.0)	37.0	10.0	0.72973	5syl	models-affix.txt
+(syl_len0 <= 2) and (syl_weight1 = light) and (syl_weight0 = schwa) => stress_class=ultima (37.0/0.0)	37.0	0.0	1	2syl	models-all.txt
+(comp_len <= 1) and (nucleus_phoncat2 = L) and (syl_phoncat1 = CKC) and (pos = N) and (syl_weight3 = light) and (signi_suffix = ø) => stress_class=paenultima (36.0/9.0)	36.0	9.0	0.75	4syl	models-all.txt
+(suffix_phoncat5 = LCLKC) => stress_class=antepaenultima (36.0/7.0)	36.0	7.0	0.805556	5syl	models-suffix.txt
+(suffix_phoncat5 = LCLKC) => stress_class=antepaenultima (36.0/7.0)	36.0	7.0	0.805556	5syl	models-all.txt
+(suffix_phoncat5 = LCLKC) => stress_class=antepaenultima (36.0/7.0)	36.0	7.0	0.805556	5syl	models-affix.txt
+(nucleus_phoncat1 = L) and (syl_phoncat0 = CCK) => stress_class=ultima (36.0/4.0)	36.0	4.0	0.888889	2syl	models-phoncat.txt
+(sonority1 >= 12) and (sonority_ratio0 <= 4) and (sonority_ratio4 <= 3) and (sonority_ratio0 >= 4) => stress_class=sekunda (36.0/12.0)	36.0	12.0	0.666667	5syl	models-sonority.txt
+(syl_phoncat0 = CK) and (syl_weight0 = schwa) => stress_class=sekunda (36.0/1.0)	36.0	1.0	0.972222	5syl	models-all.txt
+(nucleus_len2 >= 2) and (comp_len <= 1) and (koda_len1 <= 0) and (syl_len1 >= 3) and (sonority_ratio2 <= 4) => stress_class=ultima (36.0/10.0)	36.0	10.0	0.722222	3syl	models-numeric.txt
+(nucleus_phoncat4 = L) and (nucleus_phoncat2 = L) and (sonority3 <= 9) and (sonority_ratio2 <= 4) and (sonority_dir <= 0) => stress_class=ultima (35.0/8.0)	35.0	8.0	0.771429	5syl	models-phon.txt
+(syl_len0 <= 2) and (sonority3 >= 13) and (nucleus_len2 >= 2) and (pos = N) and (syl_open2 = c) => stress_class=paenultima (35.0/8.0)	35.0	8.0	0.771429	4syl	models-sparse.txt
+(sonority3 <= 6) and (sonority2 <= 9) and (sonority4 >= 13) => stress_class=ultima (35.0/7.0)	35.0	7.0	0.8	5syl	models-sonority.txt
+(sonority_dir >= 1) and (sonority_ratio2 >= 4) and (sonority_ratio3 >= 5) and (sonority2 >= 13) => stress_class=paenultima (35.0/6.0)	35.0	6.0	0.828571	4syl	models-sonority.txt
+(comp_len <= 0) and (syl_len1 >= 4) and (syl_weight1 = heavy) and (syl_len0 <= 3) => stress_class=ultima (35.0/6.0)	35.0	6.0	0.828571	2syl	models-sparse.txt
+(prae_class = noacc) and (cv_ratio2 >= 1) => stress_class=sekunda (35.0/1.0)	35.0	1.0	0.971429	6syl	models-all.txt
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (syl_len0 <= 1) => stress_class=ultima (34.0/9.0)	34.0	9.0	0.735294	2syl	models-sylstruct.txt
+(koda_len2 >= 2) and (comp_len <= 1) and (sonority2 <= 13) and (sonority2 >= 10) and (syl_len2 <= 4) and (sonority_ratio2 <= 2) and (cv_ratio1 >= 2) => stress_class=ultima (34.0/8.0)	34.0	8.0	0.764706	3syl	models-numeric.txt
+(suffix_phoncat5 = LCLCK) => stress_class=paenultima (34.0/5.0)	34.0	5.0	0.852941	5syl	models-suffix.txt
+(suffix2 = ø) and (comp_len <= 1) and (sonority4 >= 13) and (sonority4 <= 14) => stress_class=ultima (34.0/5.0)	34.0	5.0	0.852941	5syl	models-all.txt
+(syl_phoncat2 = CLC) and (sonority_ratio0 <= 3) => stress_class=antepaenultima (34.0/4.0)	34.0	4.0	0.882353	5syl	models-phon.txt
+(sonority_ratio0 <= 3) and (nucleus_phoncat2 = K) and (syl_weight1 = light) and (koda_phoncat2 = CC) and (syl_phoncat0 = CKC) => stress_class=sekunda (34.0/3.0)	34.0	3.0	0.911765	5syl	models-phon.txt
+(nucleus_len2 >= 2) and (onset_len4 <= 0) and (cv_ratio4 >= 1) and (syl_len4 <= 2) => stress_class=antepaenultima (34.0/3.0)	34.0	3.0	0.911765	5syl	models-numeric.txt
+(comp_len <= 1) and (nucleus_phoncat2 = L) and (prae_class = ø) and (syl_weight1 = light) and (syl_open1 = o) and (sonority_ratio3 <= 4) => stress_class=paenultima (34.0/3.0)	34.0	3.0	0.911765	4syl	models-sparse.txt
+(syl_len0 <= 1) and (syl_len2 >= 3) and (cv_ratio3 >= 1) and (koda_len2 >= 1) => stress_class=antepaenultima (34.0/13.0)	34.0	13.0	0.617647	5syl	models-sylstruct.txt
+(syl_cv0 = VC) and (syl_len2 <= 3) and (cv_ratio2 <= 1) and (syl_len0 <= 1) => stress_class=paenultima (33.0/9.0)	33.0	9.0	0.727273	3syl	models-sylstruct.txt
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (sonority_ratio1 <= 4) and (sonority_ratio0 >= 5) and (sonority_dir >= 2) => stress_class=ultima (33.0/9.0)	33.0	9.0	0.727273	2syl	models-numeric.txt
+(suffix_phoncat5 = LCLCK) => stress_class=paenultima (33.0/4.0)	33.0	4.0	0.878788	5syl	models-affix.txt
+(praefix_phoncat4 = CKCD) => stress_class=antepaenultima (33.0/2.0)	33.0	2.0	0.939394	4syl	models-affix.txt
+(nucleus_phoncat3 = L) and (syl_weight1 = light) and (syl_weight2 = light) and (syl_phoncat4 = CK) => stress_class=paenultima (33.0/14.0)	33.0	14.0	0.575758	5syl	models-phon.txt
+(cv_ratio6 >= 2) and (comp_len <= 1) => stress_class=paenultima (32.0/4.0)	32.0	4.0	875	7syl	models-sparse.txt
+(cv_ratio6 >= 2) and (comp_len <= 1) => stress_class=paenultima (32.0/4.0)	32.0	4.0	875	7syl	models-numeric.txt
+(syl_weight3 = heavy) and (syl_weight2 = light) and (syl_weight1 = light) => stress_class=antepaenultima (32.0/4.0)	32.0	4.0	875	6syl	models-weight.txt
+(nucleus_phoncat0 = K) and (nucleus_phoncat1 = L) and (syl_phoncat0 = CCK) => stress_class=paenultima (32.0/4.0)	32.0	4.0	875	3syl	models-phon.txt
+(onset_len3 <= 0) and (comp_len <= 1) and (nucleus_len3 >= 2) and (syl_len3 >= 2) => stress_class=ultima (32.0/3.0)	32.0	3.0	0.90625	4syl	models-numeric.txt
+(nucleus_phoncat3 = L) and (nucleus_phoncat2 = L) and (syl_phoncat4 = CK) and (sonority2 <= 9) => stress_class=paenultima (32.0/2.0)	32.0	2.0	0.9375	5syl	models-phon.txt
+(suffix1 = e) and (praefix_phoncat4 = CKCK) => stress_class=paenultima (31.0/6.0)	31.0	6.0	0.806452	3syl	models-affix.txt
+(nucleus_phoncat2 = K) and (syl_weight1 = light) and (syl_open0 = o) and (koda_phoncat1 = C) and (syl_weight4 = schwa) and (sonority0 <= 12) => stress_class=sekunda (31.0/3.0)	31.0	3.0	0.903226	5syl	models-phon.txt
+(suffix3 = ø) and (praefix_phoncat3 = CKC) and (praefix2 = Ge) => stress_class=ultima (31.0/3.0)	31.0	3.0	0.903226	2syl	models-affix.txt
+(suffix_phoncat4 = LCKC) and (suffix2 = or) => stress_class=paenultima (31.0/2.0)	31.0	2.0	0.935484	4syl	models-suffix.txt
+(suffix_phoncat4 = LCKC) and (suffix2 = or) => stress_class=paenultima (31.0/2.0)	31.0	2.0	0.935484	4syl	models-affix.txt
+(syl_cv4 = VC) and (cv_ratio2 <= 0) and (syl_len4 <= 2) => stress_class=antepaenultima (31.0/1.0)	31.0	1.0	0.967742	5syl	models-sylstruct.txt
+(cv_ratio2 <= 0) and (onset_len4 <= 0) and (cv_ratio4 >= 1) and (syl_len4 <= 2) => stress_class=antepaenultima (31.0/1.0)	31.0	1.0	0.967742	5syl	models-sparse.txt
+(cv_ratio3 <= 0) and (sonority3 >= 14) and (suffix1 = i) and (sonority_ratio1 <= 5) => stress_class=ultima (31.0/1.0)	31.0	1.0	0.967742	4syl	models-all.txt
+(nucleus_phoncat0 = K) and (nucleus_phoncat2 = K) and (syl_phoncat0 = CK) and (syl_phoncat3 = CDC) => stress_class=antepaenultima (30.0/8.0)	30.0	8.0	0.733333	4syl	models-phoncat.txt
+(nucleus_len5 >= 2) and (cv_ratio4 <= 0) and (syl_len2 <= 2) and (koda_len3 <= 0) => stress_class=ultima (30.0/5.0)	30.0	5.0	0.833333	6syl	models-sylstruct.txt
+(syl_len5 >= 5) and (syl_cv5 = CVC) and (syl_len3 <= 2) => stress_class=paenultima (30.0/4.0)	30.0	4.0	0.866667	6syl	models-sylstruct.txt
+(sonority4 <= 9) and (sonority4 >= 8) and (sonority_ratio3 >= 4) and (sonority3 <= 12) and (sonority4 <= 8) => stress_class=ultima (30.0/4.0)	30.0	4.0	0.866667	5syl	models-sonority.txt
+(nucleus_phoncat3 = L) and (syl_phoncat1 = CL) and (syl_open0 = o) => stress_class=ultima (30.0/13.0)	30.0	13.0	0.566667	4syl	models-phon.txt
+(syl_len0 <= 2) and (syl_len1 <= 3) and (nucleus_len1 >= 2) and (nucleus_len2 >= 2) and (koda_len2 >= 1) => stress_class=paenultima (29.0/5.0)	29.0	5.0	0.827586	4syl	models-numeric.txt
+(nucleus_phoncat2 = L) and (syl_phoncat3 = CKC) and (nucleus_phoncat0 = K) and (syl_phoncat1 = CK) and (syl_phoncat0 = CK) => stress_class=paenultima (29.0/4.0)	29.0	4.0	0.862069	4syl	models-phoncat.txt
+(comp_len >= 2) and (syl_weight1 = light) and (syl_len0 <= 2) and (koda_phoncat1 = C) and (syl_weight4 = schwa) and (prae_class = ø) => stress_class=sekunda (29.0/1.0)	29.0	1.0	0.965517	5syl	models-all.txt
+(syl_weight1 = light) and (syl_open1 = o) and (nucleus_phoncat1 = N) => stress_class=ultima (29.0/0.0)	29.0	0.0	1	2syl	models-phon.txt
+(syl_phoncat0 = CK) and (nucleus_phoncat1 = D) => stress_class=ultima (29.0/0.0)	29.0	0.0	1	2syl	models-phoncat.txt
+(suffix3 = ø) and (suffix_phoncat4 = ø) and (suffix1 = n) => stress_class=ultima (29.0/0.0)	29.0	0.0	1	2syl	models-affix.txt
+(syl_len0 <= 2) and (syl_weight1 = heavy) and (nomen = F) and (sonority0 <= 10) => stress_class=ultima (28.0/6.0)	28.0	6.0	0.785714	2syl	models-all.txt
+(syl_weight2 = heavy) and (comp_len <= 1) and (syl_weight1 = light) and (sonority0 <= 10) and (onset_len0 <= 0) => stress_class=ultima (28.0/3.0)	28.0	3.0	0.892857	3syl	models-sparse.txt
+(cv_ratio2 <= 0) and (nucleus_len3 >= 2) and (koda_len3 >= 1) and (sonority2 <= 9) => stress_class=paenultima (28.0/1.0)	28.0	1.0	0.964286	5syl	models-numeric.txt
+(syl_len1 >= 4) and (sonority0 <= 7) and (syl_weight1 = heavy) and (praefix_phoncat3 = CKC) => stress_class=antepaenultima (28.0/1.0)	28.0	1.0	0.964286	4syl	models-all.txt
+(suffix_phoncat4 = ø) and (suffix_phoncat1 = N) => stress_class=ultima (28.0/0.0)	28.0	0.0	1	2syl	models-suffix.txt
+(nucleus_phoncat3 = L) and (nucleus_phoncat1 = L) and (onset_phoncat3 = C) and (syl_phoncat1 = CCL) => stress_class=ultima (27.0/7.0)	27.0	7.0	0.740741	4syl	models-phoncat.txt
+(syl_weight1 = light) and (syl_open0 = o) and (syl_phoncat1 = CL) and (syl_weight2 = light) and (nucleus_phoncat0 = L) and (sonority2 >= 11) => stress_class=paenultima (27.0/5.0)	27.0	5.0	0.814815	4syl	models-phon.txt
+(nucleus_phoncat2 = L) and (syl_weight1 = light) and (sonority_ratio1 <= 3) and (syl_phoncat3 = CKC) and (nucleus_phoncat0 = K) and (sonority3 >= 13) => stress_class=paenultima (27.0/4.0)	27.0	4.0	0.851852	4syl	models-phon.txt
+(nucleus_len2 >= 2) and (comp_len <= 1) and (syl_open1 = o) and (koda_phoncat2 = C) and (sonority0 <= 10) and (nucleus_phoncat1 = L) => stress_class=ultima (27.0/11.0)	27.0	11.0	0.592593	3syl	models-sparse.txt
+(comp_len <= 1) and (nucleus_len3 <= 1) and (koda_phoncat2 = C) and (sonority_ratio3 >= 4) and (syl_len3 <= 3) and (pos = N) => stress_class=paenultima (27.0/1.0)	27.0	1.0	0.962963	4syl	models-sparse.txt
+(praefix3 = ø) and (suffix_phoncat5 = CLCKC) and (suffix5 = erung) => stress_class=paenultima (27.0/1.0)	27.0	1.0	0.962963	3syl	models-affix.txt
+(syl_phoncat3 = LCC) => stress_class=antepaenultima (27.0/0.0)	27.0	0.0	1	6syl	models-phon.txt
+(syl_phoncat3 = LCC) => stress_class=antepaenultima (27.0/0.0)	27.0	0.0	1	6syl	models-phoncat.txt
+(syl_phoncat3 = LCC) => stress_class=antepaenultima (27.0/0.0)	27.0	0.0	1	6syl	models-all.txt
+(sonority_ratio1 >= 4) and (sonority_ratio3 <= 2) and (sonority3 <= 8) and (sonority_ratio2 >= 5) and (sonority0 >= 9) => stress_class=ultima (27.0/0.0)	27.0	0.0	1	4syl	models-sonority.txt
+(sonority0 <= 10) and (sonority0 <= 7) and (sonority2 <= 13) and (sonority_ratio2 >= 4) and (sonority1 >= 12) => stress_class=paenultima (26.0/9.0)	26.0	9.0	0.653846	3syl	models-sonority.txt
+(cv_ratio2 <= 0) and (syl_len0 <= 3) and (syl_cv3 = CVC) and (syl_len2 >= 3) and (onset_len0 >= 1) and (onset_len0 >= 2) => stress_class=paenultima (26.0/3.0)	26.0	3.0	0.884615	4syl	models-sylstruct.txt
+(comp_len <= 1) and (suffix5 = tisch) => stress_class=paenultima (26.0/1.0)	26.0	1.0	0.961538	4syl	models-all.txt
+(syl_suffix = ø) and (comp_struct = ø) and (sonority_dir >= 1) and (koda_phoncat2 = C) and (sonority1 <= 9) and (sonority2 >= 14) and (sonority0 <= 11) => stress_class=ultima (25.0/5.0)	25.0	5.0	0.8	3syl	models-all.txt
+(nucleus_len1 >= 2) and (comp_len >= 2) and (koda_phoncat1 = C) and (nucleus_phoncat1 = L) and (nucleus_phoncat0 = K) and (sonority1 <= 14) and (syl_len0 <= 3) => stress_class=antepaenultima (24.0/4.0)	24.0	4.0	0.833333	4syl	models-sparse.txt
+(syl_len0 <= 2) and (syl_len1 <= 3) and (comp_len <= 1) and (koda_len1 >= 1) and (syl_len1 <= 2) and (onset_len0 >= 1) => stress_class=paenultima (24.0/4.0)	24.0	4.0	0.833333	4syl	models-numeric.txt
+(nucleus_phoncat2 = L) and (syl_weight1 = light) and (syl_open1 = o) and (sonority_ratio1 <= 3) and (koda_phoncat2 = C) and (sonority_ratio2 <= 4) => stress_class=ultima (24.0/1.0)	24.0	1.0	0.958333	3syl	models-phon.txt
+(syl_len1 <= 2) and (comp_len <= 1) and (cv_ratio5 >= 2) => stress_class=paenultima (23.0/6.0)	23.0	6.0	0.73913	6syl	models-sparse.txt
+(sonority5 <= 9) and (sonority5 >= 8) and (sonority2 <= 9) and (sonority_ratio4 >= 4) => stress_class=ultima (23.0/6.0)	23.0	6.0	0.73913	6syl	models-sonority.txt
+(syl_weight2 = schwa) and (syl_weight1 = light) and (onset_phoncat0 = C) and (onset_phoncat1 = C) and (syl_weight4 = schwa) and (nucleus_phoncat0 = K) => stress_class=sekunda (23.0/3.0)	23.0	3.0	0.869565	5syl	models-phon.txt
+(comp_len <= 1) and (syl_len3 >= 5) and (syl_len2 <= 2) and (sonority3 <= 10) => stress_class=paenultima (23.0/3.0)	23.0	3.0	0.869565	4syl	models-numeric.txt
+(comp_len >= 2) and (syl_weight1 = light) and (syl_weight4 = schwa) and (koda_phoncat2 = C) and (cv_ratio1 >= 2) and (sonority0 <= 11) => stress_class=sekunda (22.0/6.0)	22.0	6.0	0.727273	5syl	models-sparse.txt
+(nucleus_len4 >= 2) and (syl_len4 <= 3) and (cv_ratio3 <= 0) and (koda_len1 <= 0) => stress_class=ultima (22.0/4.0)	22.0	4.0	0.818182	5syl	models-sylstruct.txt
+(nucleus_phoncat2 = L) and (nucleus_len3 >= 2) and (syl_open3 = c) => stress_class=paenultima (21.0/7.0)	21.0	7.0	0.666667	5syl	models-all.txt
+(syl_suffix = ø) and (comp_len <= 1) and (suffix1 = t) and (pos = N) and (syl_weight1 = light) => stress_class=ultima (21.0/5.0)	21.0	5.0	0.761905	3syl	models-all.txt
+(comp_len <= 1) and (syl_len4 <= 3) and (nucleus_len2 >= 2) and (sonority_ratio4 <= 4) and (nucleus_len1 >= 2) => stress_class=paenultima (20.0/4.0)	20.0	4.0	0.8	5syl	models-numeric.txt
+(nucleus_phoncat4 = L) and (sonority4 <= 10) and (sonority_ratio0 >= 4) and (syl_weight2 = light) and (sonority0 <= 11) => stress_class=ultima (17.0/5.0)	17.0	5.0	0.705882	5syl	models-phon.txt
+(nucleus_phoncat3 = L) and (syl_weight1 = light) and (syl_weight2 = light) and (syl_phoncat4 = CKC) and (onset_phoncat0 = C) and (sonority3 <= 10) => stress_class=paenultima (17.0/5.0)	17.0	5.0	0.705882	5syl	models-phon.txt
+(syl_suffix = ø) and (syl_len0 <= 3) and (nucleus_len1 >= 2) and (nucleus_phoncat0 = K) and (koda_phoncat1 = C) and (praefix_phoncat1 = C) and (comp_len <= 1) => stress_class=ultima (17.0/3.0)	17.0	3.0	0.823529	2syl	models-all.txt
+(nucleus_phoncat4 = L) and (sonority_dir >= 0) and (sonority_ratio4 <= 4) and (syl_open3 = o) => stress_class=paenultima (14.0/4.0)	14.0	4.0	0.714286	6syl	models-phon.txt
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (koda_len1 >= 1) and (koda_len0 <= 0) => stress_class=ultima (9.0/0.0)	9.0	0.0	1	2syl	models-sylstruct.txt
+(nucleus_phoncat1 = L) and (syl_phoncat0 = CKC) and (sonority_ratio2 >= 4) and (sonority0 <= 11) and (sonority0 >= 11) => stress_class=paenultima (8.0/0.0)	8.0	0.0	1	3syl	models-phon.txt

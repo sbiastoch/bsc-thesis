@@ -1,0 +1,339 @@
+(cv_ratio0 >= 2) and (sonority0 <= 11) and (sonority0 >= 11) and (koda_len1 >= 1) and (nucleus_len2 <= 1) and (syl_len0 <= 3) and (sonority_ratio0 <= 3)  ZZZ Zstress_class=paenultima (435.0/12.0) ZZZ Z3syl_models-numeric.txt
+(cv_ratio0 >= 2) and (sonority0 <= 11) and (sonority0 >= 11) and (koda_len1 >= 1) and (nucleus_len2 <= 1) and (syl_len0 <= 3) and (sonority_ratio0 <= 3)  ZZZ Zstress_class=paenultima (435.0/12.0) ZZZ Z3syl_models-numeric.txt
+(cv_ratio0 >= 2) and (sonority0 <= 11) and (sonority0 >= 11) and (koda_len1 >= 1) and (nucleus_len2 <= 1) and (syl_len0 <= 3) and (sonority_ratio0 <= 3)  ZZZ Zstress_class=paenultima (435.0/12.0) ZZZ Z3syl_models-numeric.txt
+(cv_ratio0 >= 2) and (sonority0 <= 11) and (sonority0 >= 11) and (koda_len1 >= 1) and (nucleus_len2 <= 1) and (syl_len0 <= 3) and (sonority_ratio0 <= 3)  ZZZ Zstress_class=paenultima (435.0/12.0) ZZZ Z3syl_models-numeric.txt
+(cv_ratio0 >= 2) and (sonority0 <= 11) and (sonority0 >= 11) and (koda_len1 >= 1) and (nucleus_len2 <= 1) and (syl_len0 <= 3) and (sonority_ratio0 <= 3)  ZZZ Zstress_class=paenultima (435.0/12.0) ZZZ Z3syl_models-numeric.txt
+(cv_ratio0 >= 2) and (sonority0 <= 11) and (sonority0 >= 11) and (koda_len1 >= 1) and (nucleus_len2 <= 1) and (syl_len0 <= 3) and (sonority_ratio0 <= 3)  ZZZ Zstress_class=paenultima (435.0/12.0) ZZZ Z3syl_models-numeric.txt
+(cv_ratio0 >= 2) and (sonority0 <= 11) and (sonority0 >= 11) and (koda_len1 >= 1) and (nucleus_len2 <= 1) and (syl_len0 <= 3) and (sonority_ratio0 <= 3)  ZZZ Zstress_class=paenultima (435.0/12.0) ZZZ Z3syl_models-numeric.txt
+(cv_ratio0 >= 2) and (syl_len0 <= 3) and (sonority_ratio0 <= 3) and (nucleus_len1 >= 2)  ZZZ Zstress_class=paenultima (729.0/45.0) ZZZ Z3syl_models-numeric.txt
+(cv_ratio0 >= 2) and (syl_len0 <= 3) and (sonority_ratio0 <= 3) and (nucleus_len1 >= 2)  ZZZ Zstress_class=paenultima (729.0/45.0) ZZZ Z3syl_models-numeric.txt
+(cv_ratio0 >= 2) and (syl_len0 <= 3) and (sonority_ratio0 <= 3) and (nucleus_len1 >= 2)  ZZZ Zstress_class=paenultima (729.0/45.0) ZZZ Z3syl_models-numeric.txt
+(cv_ratio0 >= 2) and (syl_len0 <= 3) and (sonority_ratio0 <= 3) and (nucleus_len1 >= 2)  ZZZ Zstress_class=paenultima (729.0/45.0) ZZZ Z3syl_models-numeric.txt
+(cv_ratio0 >= 2) and (syl_len0 <= 3) and (sonority_ratio0 <= 3) and (nucleus_len1 >= 2)  ZZZ Zstress_class=paenultima (729.0/45.0) ZZZ Z3syl_models-numeric.txt
+(cv_ratio4 <= 0) and (sonority4 >= 9)  ZZZ Zstress_class=ultima (251.0/9.0) ZZZ Z5syl_models-numeric.txt
+(cv_ratio4 <= 0) and (sonority4 >= 9)  ZZZ Zstress_class=ultima (251.0/9.0) ZZZ Z5syl_models-numeric.txt
+(cv_ratio4 <= 0) and (sonority4 >= 9)  ZZZ Zstress_class=ultima (251.0/9.0) ZZZ Z5syl_models-numeric.txt
+(nomen = F) and (comp_struct = R)  ZZZ Zstress_class=paenultima (299.0/44.0) ZZZ Z4syl_models-meta.txt
+(nomen = F) and (comp_struct = R)  ZZZ Zstress_class=paenultima (299.0/44.0) ZZZ Z4syl_models-meta.txt
+(nomen = F) and (comp_struct = R)  ZZZ Zstress_class=paenultima (299.0/44.0) ZZZ Z4syl_models-meta.txt
+(nucleus_len0 <= 1) and (syl_len0 <= 3) and (syl_cv0 = CV)  ZZZ Zstress_class=paenultima (713.0/0.0) ZZZ Z3syl_models-sylstruct.txt
+(nucleus_len0 <= 1) and (syl_len0 <= 3) and (syl_cv0 = CV)  ZZZ Zstress_class=paenultima (713.0/0.0) ZZZ Z3syl_models-sylstruct.txt
+(nucleus_len0 <= 1) and (syl_len0 <= 3) and (syl_cv0 = CV)  ZZZ Zstress_class=paenultima (713.0/0.0) ZZZ Z3syl_models-sylstruct.txt
+(nucleus_len1 >= 2) and (syl_len0 <= 3) and (cv_ratio0 >= 2) and (syl_len1 >= 3) and (comp_len <= 1)  ZZZ Zstress_class=ultima (264.0/57.0) ZZZ Z2syl_models-sparse.txt
+(nucleus_len1 >= 2) and (syl_len0 <= 3) and (cv_ratio0 >= 2) and (syl_len1 >= 3) and (comp_len <= 1)  ZZZ Zstress_class=ultima (264.0/57.0) ZZZ Z2syl_models-sparse.txt
+(nucleus_len1 >= 2) and (syl_len0 <= 3) and (cv_ratio0 >= 2) and (syl_len1 >= 3) and (comp_len <= 1)  ZZZ Zstress_class=ultima (264.0/57.0) ZZZ Z2syl_models-sparse.txt
+(nucleus_len1 >= 2) and (syl_len0 <= 3) and (cv_ratio0 >= 2) and (syl_len1 >= 3) and (comp_len <= 1)  ZZZ Zstress_class=ultima (264.0/57.0) ZZZ Z2syl_models-sparse.txt
+(nucleus_len1 >= 2) and (syl_len0 <= 3) and (cv_ratio0 >= 2) and (syl_len1 >= 3) and (comp_len <= 1)  ZZZ Zstress_class=ultima (264.0/57.0) ZZZ Z2syl_models-sparse.txt
+(nucleus_len1 >= 2) and (syl_len0 <= 3) and (syl_len1 >= 3) and (koda_len0 <= 0) and (syl_len0 <= 2)  ZZZ Zstress_class=ultima (265.0/29.0) ZZZ Z2syl_models-sylstruct.txt
+(nucleus_len1 >= 2) and (syl_len0 <= 3) and (syl_len1 >= 3) and (koda_len0 <= 0) and (syl_len0 <= 2)  ZZZ Zstress_class=ultima (265.0/29.0) ZZZ Z2syl_models-sylstruct.txt
+(nucleus_len1 >= 2) and (syl_len0 <= 3) and (syl_len1 >= 3) and (koda_len0 <= 0) and (syl_len0 <= 2)  ZZZ Zstress_class=ultima (265.0/29.0) ZZZ Z2syl_models-sylstruct.txt
+(nucleus_len1 >= 2) and (syl_len0 <= 3) and (syl_len1 >= 3) and (koda_len0 <= 0) and (syl_len0 <= 2)  ZZZ Zstress_class=ultima (265.0/29.0) ZZZ Z2syl_models-sylstruct.txt
+(nucleus_len2 >= 2) and (cv_ratio1 <= 0)  ZZZ Zstress_class=paenultima (647.0/83.0) ZZZ Z4syl_models-numeric.txt
+(nucleus_len2 >= 2) and (cv_ratio1 <= 0)  ZZZ Zstress_class=paenultima (647.0/83.0) ZZZ Z4syl_models-numeric.txt
+(nucleus_len2 >= 2) and (cv_ratio1 <= 0)  ZZZ Zstress_class=paenultima (647.0/83.0) ZZZ Z4syl_models-numeric.txt
+(nucleus_len2 >= 2) and (signi_suffix = ø) and (suffix_phoncat2 = LC) and (syl_weight1 = light)  ZZZ Zstress_class=ultima (595.0/56.0) ZZZ Z3syl_models-all.txt
+(nucleus_len2 >= 2) and (signi_suffix = ø) and (suffix_phoncat2 = LC) and (syl_weight1 = light)  ZZZ Zstress_class=ultima (595.0/56.0) ZZZ Z3syl_models-all.txt
+(nucleus_len2 >= 2) and (signi_suffix = ø) and (suffix_phoncat2 = LC) and (syl_weight1 = light)  ZZZ Zstress_class=ultima (595.0/56.0) ZZZ Z3syl_models-all.txt
+(nucleus_len2 >= 2) and (signi_suffix = ø) and (suffix_phoncat2 = LC) and (syl_weight1 = light)  ZZZ Zstress_class=ultima (595.0/56.0) ZZZ Z3syl_models-all.txt
+(nucleus_len2 >= 2) and (signi_suffix = ø) and (suffix_phoncat2 = LC) and (syl_weight1 = light)  ZZZ Zstress_class=ultima (595.0/56.0) ZZZ Z3syl_models-all.txt
+(nucleus_len2 >= 2) and (syl_cv1 = CVV) and (koda_len2 >= 1)  ZZZ Zstress_class=ultima (428.0/80.0) ZZZ Z3syl_models-sylstruct.txt
+(nucleus_len2 >= 2) and (syl_cv1 = CVV) and (koda_len2 >= 1)  ZZZ Zstress_class=ultima (428.0/80.0) ZZZ Z3syl_models-sylstruct.txt
+(nucleus_len2 >= 2) and (syl_cv1 = CVV) and (koda_len2 >= 1)  ZZZ Zstress_class=ultima (428.0/80.0) ZZZ Z3syl_models-sylstruct.txt
+(nucleus_len2 >= 2) and (syl_len1 <= 2) and (onset_len0 >= 1) and (syl_len2 >= 3)  ZZZ Zstress_class=ultima (516.0/44.0) ZZZ Z3syl_models-numeric.txt
+(nucleus_len2 >= 2) and (syl_len1 <= 2) and (onset_len0 >= 1) and (syl_len2 >= 3)  ZZZ Zstress_class=ultima (516.0/44.0) ZZZ Z3syl_models-numeric.txt
+(nucleus_len2 >= 2) and (syl_len1 <= 2) and (onset_len0 >= 1) and (syl_len2 >= 3)  ZZZ Zstress_class=ultima (516.0/44.0) ZZZ Z3syl_models-numeric.txt
+(nucleus_len2 >= 2) and (syl_len1 <= 2) and (onset_len0 >= 1) and (syl_len2 >= 3)  ZZZ Zstress_class=ultima (516.0/44.0) ZZZ Z3syl_models-numeric.txt
+(nucleus_len2 >= 2) and (syl_len1 <= 2) and (onset_len0 >= 1) and (syl_len2 >= 3)  ZZZ Zstress_class=ultima (516.0/44.0) ZZZ Z3syl_models-numeric.txt
+(nucleus_len2 >= 2) and (syl_len1 <= 2) and (onset_len0 >= 1) and (syl_len2 >= 3)  ZZZ Zstress_class=ultima (516.0/44.0) ZZZ Z3syl_models-sparse.txt
+(nucleus_len2 >= 2) and (syl_len1 <= 2) and (onset_len0 >= 1) and (syl_len2 >= 3)  ZZZ Zstress_class=ultima (516.0/44.0) ZZZ Z3syl_models-sparse.txt
+(nucleus_len2 >= 2) and (syl_len1 <= 2) and (onset_len0 >= 1) and (syl_len2 >= 3)  ZZZ Zstress_class=ultima (516.0/44.0) ZZZ Z3syl_models-sparse.txt
+(nucleus_len2 >= 2) and (syl_len1 <= 2) and (onset_len0 >= 1) and (syl_len2 >= 3)  ZZZ Zstress_class=ultima (516.0/44.0) ZZZ Z3syl_models-sparse.txt
+(nucleus_len2 >= 2) and (syl_len1 <= 2) and (onset_len0 >= 1) and (syl_len2 >= 3)  ZZZ Zstress_class=ultima (516.0/44.0) ZZZ Z3syl_models-sparse.txt
+(nucleus_len3 >= 2) and (cv_ratio2 <= 0) and (sonority3 <= 9) and (koda_len3 >= 1)  ZZZ Zstress_class=ultima (255.0/3.0) ZZZ Z4syl_models-numeric.txt
+(nucleus_len3 >= 2) and (cv_ratio2 <= 0) and (sonority3 <= 9) and (koda_len3 >= 1)  ZZZ Zstress_class=ultima (255.0/3.0) ZZZ Z4syl_models-numeric.txt
+(nucleus_len3 >= 2) and (cv_ratio2 <= 0) and (sonority3 <= 9) and (koda_len3 >= 1)  ZZZ Zstress_class=ultima (255.0/3.0) ZZZ Z4syl_models-numeric.txt
+(nucleus_len3 >= 2) and (cv_ratio2 <= 0) and (sonority3 <= 9) and (koda_len3 >= 1)  ZZZ Zstress_class=ultima (255.0/3.0) ZZZ Z4syl_models-numeric.txt
+(nucleus_len3 >= 2) and (cv_ratio2 <= 0) and (sonority3 <= 9) and (koda_len3 >= 1)  ZZZ Zstress_class=ultima (255.0/3.0) ZZZ Z4syl_models-numeric.txt
+(nucleus_len3 >= 2) and (syl_len2 <= 2) and (syl_len3 <= 3) and (syl_len3 >= 3) and (koda_len1 <= 0)  ZZZ Zstress_class=ultima (283.0/44.0) ZZZ Z4syl_models-sylstruct.txt
+(nucleus_len3 >= 2) and (syl_len2 <= 2) and (syl_len3 <= 3) and (syl_len3 >= 3) and (koda_len1 <= 0)  ZZZ Zstress_class=ultima (283.0/44.0) ZZZ Z4syl_models-sylstruct.txt
+(nucleus_len3 >= 2) and (syl_len2 <= 2) and (syl_len3 <= 3) and (syl_len3 >= 3) and (koda_len1 <= 0)  ZZZ Zstress_class=ultima (283.0/44.0) ZZZ Z4syl_models-sylstruct.txt
+(nucleus_len3 >= 2) and (syl_len2 <= 2) and (syl_len3 <= 3) and (syl_len3 >= 3) and (koda_len1 <= 0)  ZZZ Zstress_class=ultima (283.0/44.0) ZZZ Z4syl_models-sylstruct.txt
+(nucleus_len3 >= 2) and (syl_len2 <= 2) and (syl_len3 >= 3)  ZZZ Zstress_class=ultima (328.0/40.0) ZZZ Z4syl_models-numeric.txt
+(nucleus_len3 >= 2) and (syl_len2 <= 2) and (syl_len3 >= 3)  ZZZ Zstress_class=ultima (328.0/40.0) ZZZ Z4syl_models-numeric.txt
+(nucleus_len3 >= 2) and (syl_len2 <= 2) and (syl_len3 >= 3)  ZZZ Zstress_class=ultima (328.0/40.0) ZZZ Z4syl_models-numeric.txt
+(nucleus_len3 >= 2) and (syl_len2 <= 2) and (syl_len3 >= 3)  ZZZ Zstress_class=ultima (328.0/40.0) ZZZ Z4syl_models-numeric.txt
+(nucleus_phoncat0 = K) and (nucleus_phoncat2 = K) and (onset_phoncat0 = C) and (syl_phoncat2 = CK) and (syl_phoncat3 = CKC)  ZZZ Zstress_class=antepaenultima (276.0/98.0) ZZZ Z4syl_models-phoncat.txt
+(nucleus_phoncat0 = K) and (nucleus_phoncat2 = K) and (onset_phoncat0 = C) and (syl_phoncat2 = CK) and (syl_phoncat3 = CKC)  ZZZ Zstress_class=antepaenultima (276.0/98.0) ZZZ Z4syl_models-phoncat.txt
+(nucleus_phoncat0 = K) and (nucleus_phoncat2 = K) and (onset_phoncat0 = C) and (syl_phoncat2 = CK) and (syl_phoncat3 = CKC)  ZZZ Zstress_class=antepaenultima (276.0/98.0) ZZZ Z4syl_models-phoncat.txt
+(nucleus_phoncat0 = K) and (nucleus_phoncat2 = K) and (onset_phoncat0 = C) and (syl_phoncat2 = CK) and (syl_phoncat3 = CKC)  ZZZ Zstress_class=antepaenultima (276.0/98.0) ZZZ Z4syl_models-phoncat.txt
+(nucleus_phoncat0 = K) and (nucleus_phoncat2 = K) and (onset_phoncat0 = C) and (syl_phoncat2 = CK) and (syl_phoncat3 = CKC)  ZZZ Zstress_class=antepaenultima (276.0/98.0) ZZZ Z4syl_models-phoncat.txt
+(nucleus_phoncat0 = K) and (syl_open0 = o)  ZZZ Zstress_class=paenultima (716.0/0.0) ZZZ Z3syl_models-phon.txt
+(nucleus_phoncat0 = K) and (syl_open0 = o)  ZZZ Zstress_class=paenultima (716.0/0.0) ZZZ Z3syl_models-phon.txt
+(nucleus_phoncat0 = K) and (syl_phoncat0 = CK) and (nucleus_phoncat2 = K)  ZZZ Zstress_class=paenultima (1137.0/271.0) ZZZ Z3syl_models-phoncat.txt
+(nucleus_phoncat0 = K) and (syl_phoncat0 = CK) and (nucleus_phoncat2 = K)  ZZZ Zstress_class=paenultima (1137.0/271.0) ZZZ Z3syl_models-phoncat.txt
+(nucleus_phoncat0 = K) and (syl_phoncat0 = CK) and (nucleus_phoncat2 = K)  ZZZ Zstress_class=paenultima (1137.0/271.0) ZZZ Z3syl_models-phoncat.txt
+(nucleus_phoncat0 = K) and (syl_phoncat2 = CKC) and (syl_phoncat0 = CKC)  ZZZ Zstress_class=paenultima (1069.0/388.0) ZZZ Z3syl_models-phoncat.txt
+(nucleus_phoncat0 = K) and (syl_phoncat2 = CKC) and (syl_phoncat0 = CKC)  ZZZ Zstress_class=paenultima (1069.0/388.0) ZZZ Z3syl_models-phoncat.txt
+(nucleus_phoncat0 = K) and (syl_phoncat2 = CKC) and (syl_phoncat0 = CKC)  ZZZ Zstress_class=paenultima (1069.0/388.0) ZZZ Z3syl_models-phoncat.txt
+(nucleus_phoncat0 = K) and (syl_weight1 = light) and (sonority0 <= 11) and (sonority0 >= 10) and (syl_phoncat0 = CKC) and (sonority0 >= 11)  ZZZ Zstress_class=paenultima (877.0/95.0) ZZZ Z3syl_models-phon.txt
+(nucleus_phoncat0 = K) and (syl_weight1 = light) and (sonority0 <= 11) and (sonority0 >= 10) and (syl_phoncat0 = CKC) and (sonority0 >= 11)  ZZZ Zstress_class=paenultima (877.0/95.0) ZZZ Z3syl_models-phon.txt
+(nucleus_phoncat0 = K) and (syl_weight1 = light) and (sonority0 <= 11) and (sonority0 >= 10) and (syl_phoncat0 = CKC) and (sonority0 >= 11)  ZZZ Zstress_class=paenultima (877.0/95.0) ZZZ Z3syl_models-phon.txt
+(nucleus_phoncat0 = K) and (syl_weight1 = light) and (sonority0 <= 11) and (sonority0 >= 10) and (syl_phoncat0 = CKC) and (sonority0 >= 11)  ZZZ Zstress_class=paenultima (877.0/95.0) ZZZ Z3syl_models-phon.txt
+(nucleus_phoncat1 = L) and (koda_phoncat1 = C)  ZZZ Zstress_class=antepaenultima (316.0/101.0) ZZZ Z4syl_models-phoncat.txt
+(nucleus_phoncat1 = L) and (koda_phoncat1 = C)  ZZZ Zstress_class=antepaenultima (316.0/101.0) ZZZ Z4syl_models-phoncat.txt
+(nucleus_phoncat1 = L) and (nucleus_phoncat2 = L) and (onset_phoncat3 = C) and (syl_open1 = o)  ZZZ Zstress_class=paenultima (463.0/77.0) ZZZ Z4syl_models-phon.txt
+(nucleus_phoncat1 = L) and (nucleus_phoncat2 = L) and (onset_phoncat3 = C) and (syl_open1 = o)  ZZZ Zstress_class=paenultima (463.0/77.0) ZZZ Z4syl_models-phon.txt
+(nucleus_phoncat1 = L) and (nucleus_phoncat2 = L) and (onset_phoncat3 = C) and (syl_open1 = o)  ZZZ Zstress_class=paenultima (463.0/77.0) ZZZ Z4syl_models-phon.txt
+(nucleus_phoncat1 = L) and (nucleus_phoncat2 = L) and (onset_phoncat3 = C) and (syl_open1 = o)  ZZZ Zstress_class=paenultima (463.0/77.0) ZZZ Z4syl_models-phon.txt
+(nucleus_phoncat1 = L) and (sonority0 <= 11) and (nucleus_phoncat0 = K) and (sonority_ratio0 >= 3) and (syl_open1 = c)  ZZZ Zstress_class=ultima (339.0/120.0) ZZZ Z2syl_models-phon.txt
+(nucleus_phoncat1 = L) and (sonority0 <= 11) and (nucleus_phoncat0 = K) and (sonority_ratio0 >= 3) and (syl_open1 = c)  ZZZ Zstress_class=ultima (339.0/120.0) ZZZ Z2syl_models-phon.txt
+(nucleus_phoncat1 = L) and (sonority0 <= 11) and (nucleus_phoncat0 = K) and (sonority_ratio0 >= 3) and (syl_open1 = c)  ZZZ Zstress_class=ultima (339.0/120.0) ZZZ Z2syl_models-phon.txt
+(nucleus_phoncat1 = L) and (sonority0 <= 11) and (nucleus_phoncat0 = K) and (sonority_ratio0 >= 3) and (syl_open1 = c)  ZZZ Zstress_class=ultima (339.0/120.0) ZZZ Z2syl_models-phon.txt
+(nucleus_phoncat1 = L) and (sonority0 <= 11) and (nucleus_phoncat0 = K) and (sonority_ratio0 >= 3) and (syl_open1 = c)  ZZZ Zstress_class=ultima (339.0/120.0) ZZZ Z2syl_models-phon.txt
+(nucleus_phoncat1 = L) and (syl_open0 = o) and (syl_open1 = c)  ZZZ Zstress_class=ultima (310.0/68.0) ZZZ Z2syl_models-phon.txt
+(nucleus_phoncat1 = L) and (syl_open0 = o) and (syl_open1 = c)  ZZZ Zstress_class=ultima (310.0/68.0) ZZZ Z2syl_models-phon.txt
+(nucleus_phoncat1 = L) and (syl_open0 = o) and (syl_open1 = c)  ZZZ Zstress_class=ultima (310.0/68.0) ZZZ Z2syl_models-phon.txt
+(nucleus_phoncat2 = L) and (nucleus_phoncat1 = L) and (syl_phoncat3 = CKC)  ZZZ Zstress_class=paenultima (558.0/71.0) ZZZ Z4syl_models-phoncat.txt
+(nucleus_phoncat2 = L) and (nucleus_phoncat1 = L) and (syl_phoncat3 = CKC)  ZZZ Zstress_class=paenultima (558.0/71.0) ZZZ Z4syl_models-phoncat.txt
+(nucleus_phoncat2 = L) and (nucleus_phoncat1 = L) and (syl_phoncat3 = CKC)  ZZZ Zstress_class=paenultima (558.0/71.0) ZZZ Z4syl_models-phoncat.txt
+(nucleus_phoncat2 = L) and (onset_len0 >= 1) and (pos = V)  ZZZ Zstress_class=paenultima (328.0/8.0) ZZZ Z4syl_models-sparse.txt
+(nucleus_phoncat2 = L) and (onset_len0 >= 1) and (pos = V)  ZZZ Zstress_class=paenultima (328.0/8.0) ZZZ Z4syl_models-sparse.txt
+(nucleus_phoncat2 = L) and (onset_len0 >= 1) and (pos = V)  ZZZ Zstress_class=paenultima (328.0/8.0) ZZZ Z4syl_models-sparse.txt
+(nucleus_phoncat2 = L) and (onset_len0 >= 1) and (pos = V)  ZZZ Zstress_class=paenultima (328.0/8.0) ZZZ Z4syl_models-sparse.txt
+(nucleus_phoncat2 = L) and (onset_len0 >= 1) and (syl_suffix = ren)  ZZZ Zstress_class=paenultima (321.0/2.0) ZZZ Z4syl_models-all.txt
+(nucleus_phoncat2 = L) and (onset_len0 >= 1) and (syl_suffix = ren)  ZZZ Zstress_class=paenultima (321.0/2.0) ZZZ Z4syl_models-all.txt
+(nucleus_phoncat2 = L) and (onset_len0 >= 1) and (syl_suffix = ren)  ZZZ Zstress_class=paenultima (321.0/2.0) ZZZ Z4syl_models-all.txt
+(nucleus_phoncat2 = L) and (syl_phoncat1 = CL) and (koda_phoncat2 = C)  ZZZ Zstress_class=ultima (359.0/60.0) ZZZ Z3syl_models-phoncat.txt
+(nucleus_phoncat2 = L) and (syl_phoncat1 = CL) and (koda_phoncat2 = C)  ZZZ Zstress_class=ultima (359.0/60.0) ZZZ Z3syl_models-phoncat.txt
+(nucleus_phoncat2 = L) and (syl_phoncat1 = CL) and (koda_phoncat2 = C)  ZZZ Zstress_class=ultima (359.0/60.0) ZZZ Z3syl_models-phoncat.txt
+(nucleus_phoncat3 = L) and (nucleus_phoncat2 = L)  ZZZ Zstress_class=paenultima (610.0/167.0) ZZZ Z5syl_models-phoncat.txt
+(nucleus_phoncat3 = L) and (nucleus_phoncat2 = L)  ZZZ Zstress_class=paenultima (610.0/167.0) ZZZ Z5syl_models-phoncat.txt
+(nucleus_phoncat3 = L) and (nucleus_phoncat2 = L) and (sonority3 <= 9) and (koda_phoncat3 = C) and (sonority2 <= 12)  ZZZ Zstress_class=ultima (266.0/11.0) ZZZ Z4syl_models-phon.txt
+(nucleus_phoncat3 = L) and (nucleus_phoncat2 = L) and (sonority3 <= 9) and (koda_phoncat3 = C) and (sonority2 <= 12)  ZZZ Zstress_class=ultima (266.0/11.0) ZZZ Z4syl_models-phon.txt
+(nucleus_phoncat3 = L) and (nucleus_phoncat2 = L) and (sonority3 <= 9) and (koda_phoncat3 = C) and (sonority2 <= 12)  ZZZ Zstress_class=ultima (266.0/11.0) ZZZ Z4syl_models-phon.txt
+(nucleus_phoncat3 = L) and (nucleus_phoncat2 = L) and (sonority3 <= 9) and (koda_phoncat3 = C) and (sonority2 <= 12)  ZZZ Zstress_class=ultima (266.0/11.0) ZZZ Z4syl_models-phon.txt
+(nucleus_phoncat3 = L) and (nucleus_phoncat2 = L) and (sonority3 <= 9) and (koda_phoncat3 = C) and (sonority2 <= 12)  ZZZ Zstress_class=ultima (266.0/11.0) ZZZ Z4syl_models-phon.txt
+(nucleus_phoncat3 = L) and (signi_suffix = ø) and (syl_len3 >= 3)  ZZZ Zstress_class=ultima (498.0/56.0) ZZZ Z4syl_models-all.txt
+(nucleus_phoncat3 = L) and (signi_suffix = ø) and (syl_len3 >= 3)  ZZZ Zstress_class=ultima (498.0/56.0) ZZZ Z4syl_models-all.txt
+(nucleus_phoncat3 = L) and (signi_suffix = ø) and (syl_len3 >= 3)  ZZZ Zstress_class=ultima (498.0/56.0) ZZZ Z4syl_models-all.txt
+(nucleus_phoncat3 = L) and (signi_suffix = ø) and (syl_len3 >= 3)  ZZZ Zstress_class=ultima (498.0/56.0) ZZZ Z4syl_models-all.txt
+(nucleus_phoncat3 = L) and (sonority4 >= 13) and (prae_class = ø) and (syl_weight4 = schwa)  ZZZ Zstress_class=paenultima (254.0/2.0) ZZZ Z5syl_models-sparse.txt
+(nucleus_phoncat3 = L) and (sonority4 >= 13) and (prae_class = ø) and (syl_weight4 = schwa)  ZZZ Zstress_class=paenultima (254.0/2.0) ZZZ Z5syl_models-sparse.txt
+(nucleus_phoncat3 = L) and (sonority4 >= 13) and (prae_class = ø) and (syl_weight4 = schwa)  ZZZ Zstress_class=paenultima (254.0/2.0) ZZZ Z5syl_models-sparse.txt
+(nucleus_phoncat3 = L) and (sonority4 >= 13) and (prae_class = ø) and (syl_weight4 = schwa)  ZZZ Zstress_class=paenultima (254.0/2.0) ZZZ Z5syl_models-sparse.txt
+(nucleus_phoncat3 = L) and (sonority4 >= 13) and (prae_class = ø) and (syl_weight4 = schwa)  ZZZ Zstress_class=paenultima (254.0/2.0) ZZZ Z5syl_models-sparse.txt
+(nucleus_phoncat3 = L) and (syl_len2 <= 2) and (koda_phoncat3 = C)  ZZZ Zstress_class=ultima (477.0/38.0) ZZZ Z4syl_models-sparse.txt
+(nucleus_phoncat3 = L) and (syl_len2 <= 2) and (koda_phoncat3 = C)  ZZZ Zstress_class=ultima (477.0/38.0) ZZZ Z4syl_models-sparse.txt
+(nucleus_phoncat3 = L) and (syl_len2 <= 2) and (koda_phoncat3 = C)  ZZZ Zstress_class=ultima (477.0/38.0) ZZZ Z4syl_models-sparse.txt
+(nucleus_phoncat3 = L) and (syl_len2 <= 2) and (koda_phoncat3 = C)  ZZZ Zstress_class=ultima (477.0/38.0) ZZZ Z4syl_models-sparse.txt
+(nucleus_phoncat3 = L) and (syl_open1 = o) and (sonority2 <= 11) and (syl_weight2 = light)  ZZZ Zstress_class=ultima (326.0/78.0) ZZZ Z4syl_models-phon.txt
+(nucleus_phoncat3 = L) and (syl_open1 = o) and (sonority2 <= 11) and (syl_weight2 = light)  ZZZ Zstress_class=ultima (326.0/78.0) ZZZ Z4syl_models-phon.txt
+(nucleus_phoncat3 = L) and (syl_open1 = o) and (sonority2 <= 11) and (syl_weight2 = light)  ZZZ Zstress_class=ultima (326.0/78.0) ZZZ Z4syl_models-phon.txt
+(nucleus_phoncat3 = L) and (syl_open1 = o) and (sonority2 <= 11) and (syl_weight2 = light)  ZZZ Zstress_class=ultima (326.0/78.0) ZZZ Z4syl_models-phon.txt
+(nucleus_phoncat3 = L) and (syl_phoncat2 = CL)  ZZZ Zstress_class=ultima (274.0/98.0) ZZZ Z4syl_models-phoncat.txt
+(nucleus_phoncat3 = L) and (syl_phoncat2 = CL)  ZZZ Zstress_class=ultima (274.0/98.0) ZZZ Z4syl_models-phoncat.txt
+(nucleus_phoncat4 = L) and (pos = N)  ZZZ Zstress_class=ultima (309.0/17.0) ZZZ Z5syl_models-sparse.txt
+(nucleus_phoncat4 = L) and (pos = N)  ZZZ Zstress_class=ultima (309.0/17.0) ZZZ Z5syl_models-sparse.txt
+(nucleus_phoncat4 = L) and (pos = N)  ZZZ Zstress_class=ultima (309.0/17.0) ZZZ Z5syl_models-sparse.txt
+(nucleus_phoncat4 = L) and (sonority4 <= 10)  ZZZ Zstress_class=ultima (298.0/15.0) ZZZ Z5syl_models-all.txt
+(nucleus_phoncat4 = L) and (sonority4 <= 10)  ZZZ Zstress_class=ultima (298.0/15.0) ZZZ Z5syl_models-all.txt
+(nucleus_phoncat4 = L) and (sonority4 <= 10)  ZZZ Zstress_class=ultima (298.0/15.0) ZZZ Z5syl_models-all.txt
+(nucleus_phoncat4 = L) and (sonority4 <= 9) and (syl_open3 = o)  ZZZ Zstress_class=ultima (299.0/34.0) ZZZ Z5syl_models-phon.txt
+(nucleus_phoncat4 = L) and (sonority4 <= 9) and (syl_open3 = o)  ZZZ Zstress_class=ultima (299.0/34.0) ZZZ Z5syl_models-phon.txt
+(nucleus_phoncat4 = L) and (sonority4 <= 9) and (syl_open3 = o)  ZZZ Zstress_class=ultima (299.0/34.0) ZZZ Z5syl_models-phon.txt
+(pos = V)  ZZZ Zstress_class=paenultima (277.0/32.0) ZZZ Z5syl_models-meta.txt
+(pos = V)  ZZZ Zstress_class=paenultima (277.0/32.0) ZZZ Z5syl_models-meta.txt
+(pos = V) and (comp_struct = N)  ZZZ Zstress_class=paenultima (268.0/76.0) ZZZ Z3syl_models-meta.txt
+(pos = V) and (comp_struct = N)  ZZZ Zstress_class=paenultima (268.0/76.0) ZZZ Z3syl_models-meta.txt
+(pos = V) and (comp_struct = N)  ZZZ Zstress_class=paenultima (268.0/76.0) ZZZ Z3syl_models-meta.txt
+(prae_class = noacc)  ZZZ Zstress_class=antepaenultima (390.0/2.0) ZZZ Z4syl_models-affix.txt
+(prae_class = noacc)  ZZZ Zstress_class=antepaenultima (392.0/2.0) ZZZ Z4syl_models-all.txt
+(prae_class = noacc)  ZZZ Zstress_class=antepaenultima (392.0/2.0) ZZZ Z4syl_models-praefix.txt
+(prae_class = noacc)  ZZZ Zstress_class=antepaenultima (392.0/2.0) ZZZ Z4syl_models-sparse.txt
+(prae_class = noacc)  ZZZ Zstress_class=paenultima (1559.0/1.0) ZZZ Z3syl_models-sparse.txt
+(prae_class = noacc)  ZZZ Zstress_class=paenultima (1560.0/1.0) ZZZ Z3syl_models-all.txt
+(prae_class = noacc)  ZZZ Zstress_class=paenultima (1561.0/1.0) ZZZ Z3syl_models-affix.txt
+(prae_class = noacc)  ZZZ Zstress_class=paenultima (1562.0/1.0) ZZZ Z3syl_models-praefix.txt
+(prae_class = ø) and (syl_weight1 = light) and (sonority0 <= 10) and (syl_phoncat0 = CK) and (syl_open0 = o)  ZZZ Zstress_class=paenultima (276.0/0.0) ZZZ Z3syl_models-all.txt
+(prae_class = ø) and (syl_weight1 = light) and (sonority0 <= 10) and (syl_phoncat0 = CK) and (syl_open0 = o)  ZZZ Zstress_class=paenultima (276.0/0.0) ZZZ Z3syl_models-all.txt
+(prae_class = ø) and (syl_weight1 = light) and (sonority0 <= 10) and (syl_phoncat0 = CK) and (syl_open0 = o)  ZZZ Zstress_class=paenultima (276.0/0.0) ZZZ Z3syl_models-all.txt
+(prae_class = ø) and (syl_weight1 = light) and (sonority0 <= 10) and (syl_phoncat0 = CK) and (syl_open0 = o)  ZZZ Zstress_class=paenultima (276.0/0.0) ZZZ Z3syl_models-all.txt
+(prae_class = ø) and (syl_weight1 = light) and (sonority0 <= 10) and (syl_phoncat0 = CK) and (syl_open0 = o)  ZZZ Zstress_class=paenultima (276.0/0.0) ZZZ Z3syl_models-all.txt
+(prae_class = ø) and (syl_weight1 = light) and (sonority0 <= 10) and (syl_phoncat0 = CK) and (syl_open0 = o)  ZZZ Zstress_class=paenultima (276.0/0.0) ZZZ Z3syl_models-all.txt
+(prae_class = ø) and (syl_weight1 = light) and (sonority0 <= 10) and (syl_weight0 = schwa)  ZZZ Zstress_class=paenultima (274.0/0.0) ZZZ Z3syl_models-sparse.txt
+(prae_class = ø) and (syl_weight1 = light) and (sonority0 <= 10) and (syl_weight0 = schwa)  ZZZ Zstress_class=paenultima (274.0/0.0) ZZZ Z3syl_models-sparse.txt
+(prae_class = ø) and (syl_weight1 = light) and (sonority0 <= 10) and (syl_weight0 = schwa)  ZZZ Zstress_class=paenultima (274.0/0.0) ZZZ Z3syl_models-sparse.txt
+(prae_class = ø) and (syl_weight1 = light) and (sonority0 <= 10) and (syl_weight0 = schwa)  ZZZ Zstress_class=paenultima (274.0/0.0) ZZZ Z3syl_models-sparse.txt
+(prae_class = ø) and (syl_weight1 = light) and (sonority0 <= 10) and (syl_weight0 = schwa)  ZZZ Zstress_class=paenultima (274.0/0.0) ZZZ Z3syl_models-sparse.txt
+(prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (onset_len0 >= 1) and (syl_weight2 = schwa) and (suffix_phoncat2 = CK)  ZZZ Zstress_class=paenultima (264.0/19.0) ZZZ Z3syl_models-all.txt
+(prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (onset_len0 >= 1) and (syl_weight2 = schwa) and (suffix_phoncat2 = CK)  ZZZ Zstress_class=paenultima (264.0/19.0) ZZZ Z3syl_models-all.txt
+(prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (onset_len0 >= 1) and (syl_weight2 = schwa) and (suffix_phoncat2 = CK)  ZZZ Zstress_class=paenultima (264.0/19.0) ZZZ Z3syl_models-all.txt
+(prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (onset_len0 >= 1) and (syl_weight2 = schwa) and (suffix_phoncat2 = CK)  ZZZ Zstress_class=paenultima (264.0/19.0) ZZZ Z3syl_models-all.txt
+(prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (onset_len0 >= 1) and (syl_weight2 = schwa) and (suffix_phoncat2 = CK)  ZZZ Zstress_class=paenultima (264.0/19.0) ZZZ Z3syl_models-all.txt
+(prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (onset_len0 >= 1) and (syl_weight2 = schwa) and (suffix_phoncat2 = CK)  ZZZ Zstress_class=paenultima (264.0/19.0) ZZZ Z3syl_models-all.txt
+(prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (onset_len0 >= 1) and (syl_weight2 = schwa) and (suffix_phoncat2 = CK)  ZZZ Zstress_class=paenultima (264.0/19.0) ZZZ Z3syl_models-all.txt
+(prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (sonority0 <= 10) and (onset_phoncat2 = C) and (cv_ratio1 <= 1)  ZZZ Zstress_class=paenultima (302.0/80.0) ZZZ Z3syl_models-all.txt
+(prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (sonority0 <= 10) and (onset_phoncat2 = C) and (cv_ratio1 <= 1)  ZZZ Zstress_class=paenultima (302.0/80.0) ZZZ Z3syl_models-all.txt
+(prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (sonority0 <= 10) and (onset_phoncat2 = C) and (cv_ratio1 <= 1)  ZZZ Zstress_class=paenultima (302.0/80.0) ZZZ Z3syl_models-all.txt
+(prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (sonority0 <= 10) and (onset_phoncat2 = C) and (cv_ratio1 <= 1)  ZZZ Zstress_class=paenultima (302.0/80.0) ZZZ Z3syl_models-all.txt
+(prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (sonority0 <= 10) and (onset_phoncat2 = C) and (cv_ratio1 <= 1)  ZZZ Zstress_class=paenultima (302.0/80.0) ZZZ Z3syl_models-all.txt
+(prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (sonority0 <= 10) and (onset_phoncat2 = C) and (cv_ratio1 <= 1)  ZZZ Zstress_class=paenultima (302.0/80.0) ZZZ Z3syl_models-all.txt
+(prae_class = ø) and (syl_weight1 = light) and (syl_len0 <= 3) and (sonority0 <= 10) and (onset_phoncat2 = C) and (cv_ratio1 <= 1)  ZZZ Zstress_class=paenultima (302.0/80.0) ZZZ Z3syl_models-all.txt
+(praefix_phoncat2 = CK) and (praefix_phoncat4 = CKCL)  ZZZ Zstress_class=paenultima (256.0/37.0) ZZZ Z3syl_models-affix.txt
+(praefix_phoncat2 = CK) and (praefix_phoncat4 = CKCL)  ZZZ Zstress_class=paenultima (256.0/37.0) ZZZ Z3syl_models-affix.txt
+(praefix_phoncat2 = CK) and (praefix_phoncat5 = CKCLC)  ZZZ Zstress_class=paenultima (303.0/83.0) ZZZ Z3syl_models-praefix.txt
+(praefix_phoncat2 = CK) and (praefix_phoncat5 = CKCLC)  ZZZ Zstress_class=paenultima (303.0/83.0) ZZZ Z3syl_models-praefix.txt
+(sonority0 <= 10) and (nucleus_phoncat2 = L) and (syl_weight1 = light) and (sonority1 <= 10) and (onset_phoncat3 = C)  ZZZ Zstress_class=paenultima (398.0/37.0) ZZZ Z4syl_models-all.txt
+(sonority0 <= 10) and (nucleus_phoncat2 = L) and (syl_weight1 = light) and (sonority1 <= 10) and (onset_phoncat3 = C)  ZZZ Zstress_class=paenultima (398.0/37.0) ZZZ Z4syl_models-all.txt
+(sonority0 <= 10) and (nucleus_phoncat2 = L) and (syl_weight1 = light) and (sonority1 <= 10) and (onset_phoncat3 = C)  ZZZ Zstress_class=paenultima (398.0/37.0) ZZZ Z4syl_models-all.txt
+(sonority0 <= 10) and (nucleus_phoncat2 = L) and (syl_weight1 = light) and (sonority1 <= 10) and (onset_phoncat3 = C)  ZZZ Zstress_class=paenultima (398.0/37.0) ZZZ Z4syl_models-all.txt
+(sonority0 <= 10) and (nucleus_phoncat2 = L) and (syl_weight1 = light) and (sonority1 <= 10) and (onset_phoncat3 = C)  ZZZ Zstress_class=paenultima (398.0/37.0) ZZZ Z4syl_models-all.txt
+(sonority0 <= 10) and (nucleus_phoncat2 = L) and (syl_weight1 = light) and (sonority1 <= 10) and (onset_phoncat3 = C)  ZZZ Zstress_class=paenultima (398.0/37.0) ZZZ Z4syl_models-all.txt
+(sonority0 <= 10) and (sonority0 <= 7) and (sonority1 >= 12) and (sonority1 >= 14)  ZZZ Zstress_class=paenultima (271.0/96.0) ZZZ Z3syl_models-sonority.txt
+(sonority0 <= 10) and (sonority0 <= 7) and (sonority1 >= 12) and (sonority1 >= 14)  ZZZ Zstress_class=paenultima (271.0/96.0) ZZZ Z3syl_models-sonority.txt
+(sonority0 <= 10) and (sonority0 >= 10) and (onset_len0 <= 0) and (nucleus_len0 <= 1)  ZZZ Zstress_class=paenultima (450.0/23.0) ZZZ Z3syl_models-numeric.txt
+(sonority0 <= 10) and (sonority0 >= 10) and (onset_len0 <= 0) and (nucleus_len0 <= 1)  ZZZ Zstress_class=paenultima (450.0/23.0) ZZZ Z3syl_models-numeric.txt
+(sonority0 <= 10) and (sonority0 >= 10) and (onset_len0 <= 0) and (nucleus_len0 <= 1)  ZZZ Zstress_class=paenultima (450.0/23.0) ZZZ Z3syl_models-numeric.txt
+(sonority0 <= 10) and (sonority0 >= 10) and (onset_len0 <= 0) and (nucleus_len0 <= 1)  ZZZ Zstress_class=paenultima (450.0/23.0) ZZZ Z3syl_models-numeric.txt
+(sonority0 <= 10) and (sonority0 >= 10) and (sonority2 <= 10) and (sonority2 >= 10)  ZZZ Zstress_class=paenultima (268.0/120.0) ZZZ Z3syl_models-sonority.txt
+(sonority0 <= 10) and (sonority0 >= 10) and (sonority2 <= 10) and (sonority2 >= 10)  ZZZ Zstress_class=paenultima (268.0/120.0) ZZZ Z3syl_models-sonority.txt
+(sonority0 <= 10) and (sonority0 >= 10) and (sonority_ratio0 >= 5) and (sonority_ratio1 >= 4) and (sonority_ratio0 <= 5)  ZZZ Zstress_class=paenultima (287.0/80.0) ZZZ Z3syl_models-sonority.txt
+(sonority0 <= 10) and (sonority0 >= 10) and (sonority_ratio0 >= 5) and (sonority_ratio1 >= 4) and (sonority_ratio0 <= 5)  ZZZ Zstress_class=paenultima (287.0/80.0) ZZZ Z3syl_models-sonority.txt
+(sonority0 <= 10) and (sonority0 >= 10) and (sonority_ratio0 >= 5) and (sonority_ratio1 >= 4) and (sonority_ratio0 <= 5)  ZZZ Zstress_class=paenultima (287.0/80.0) ZZZ Z3syl_models-sonority.txt
+(sonority0 <= 10) and (sonority_ratio2 >= 4) and (sonority1 <= 9) and (sonority_ratio2 >= 5)  ZZZ Zstress_class=paenultima (296.0/132.0) ZZZ Z4syl_models-sonority.txt
+(sonority0 <= 10) and (sonority_ratio2 >= 4) and (sonority1 <= 9) and (sonority_ratio2 >= 5)  ZZZ Zstress_class=paenultima (296.0/132.0) ZZZ Z4syl_models-sonority.txt
+(sonority0 <= 10) and (sonority_ratio2 >= 4) and (sonority1 <= 9) and (sonority_ratio2 >= 5)  ZZZ Zstress_class=paenultima (296.0/132.0) ZZZ Z4syl_models-sonority.txt
+(sonority0 <= 10) and (syl_weight1 = light) and (prae_class = ø) and (syl_weight3 = schwa)  ZZZ Zstress_class=paenultima (359.0/50.0) ZZZ Z4syl_models-sparse.txt
+(sonority0 <= 10) and (syl_weight1 = light) and (prae_class = ø) and (syl_weight3 = schwa)  ZZZ Zstress_class=paenultima (359.0/50.0) ZZZ Z4syl_models-sparse.txt
+(sonority0 <= 10) and (syl_weight1 = light) and (prae_class = ø) and (syl_weight3 = schwa)  ZZZ Zstress_class=paenultima (359.0/50.0) ZZZ Z4syl_models-sparse.txt
+(sonority0 <= 10) and (syl_weight1 = light) and (prae_class = ø) and (syl_weight3 = schwa)  ZZZ Zstress_class=paenultima (359.0/50.0) ZZZ Z4syl_models-sparse.txt
+(sonority0 <= 10) and (syl_weight1 = light) and (prae_class = ø) and (syl_weight3 = schwa)  ZZZ Zstress_class=paenultima (359.0/50.0) ZZZ Z4syl_models-sparse.txt
+(sonority0 <= 10) and (syl_weight1 = light) and (sonority0 >= 10) and (nucleus_phoncat0 = K) and (sonority_ratio0 >= 5)  ZZZ Zstress_class=paenultima (370.0/31.0) ZZZ Z3syl_models-phon.txt
+(sonority0 <= 10) and (syl_weight1 = light) and (sonority0 >= 10) and (nucleus_phoncat0 = K) and (sonority_ratio0 >= 5)  ZZZ Zstress_class=paenultima (370.0/31.0) ZZZ Z3syl_models-phon.txt
+(sonority0 <= 10) and (syl_weight1 = light) and (sonority0 >= 10) and (nucleus_phoncat0 = K) and (sonority_ratio0 >= 5)  ZZZ Zstress_class=paenultima (370.0/31.0) ZZZ Z3syl_models-phon.txt
+(sonority0 <= 10) and (syl_weight1 = light) and (sonority0 >= 10) and (nucleus_phoncat0 = K) and (sonority_ratio0 >= 5)  ZZZ Zstress_class=paenultima (370.0/31.0) ZZZ Z3syl_models-phon.txt
+(sonority0 <= 11) and (sonority_ratio0 <= 3) and (sonority_ratio0 >= 3) and (sonority0 >= 11) and (sonority1 >= 11) and (sonority2 >= 10)  ZZZ Zstress_class=paenultima (738.0/217.0) ZZZ Z3syl_models-sonority.txt
+(sonority0 <= 11) and (sonority_ratio0 <= 3) and (sonority_ratio0 >= 3) and (sonority0 >= 11) and (sonority1 >= 11) and (sonority2 >= 10)  ZZZ Zstress_class=paenultima (738.0/217.0) ZZZ Z3syl_models-sonority.txt
+(sonority0 <= 11) and (sonority_ratio0 <= 3) and (sonority_ratio0 >= 3) and (sonority0 >= 11) and (sonority1 >= 11) and (sonority2 >= 10)  ZZZ Zstress_class=paenultima (738.0/217.0) ZZZ Z3syl_models-sonority.txt
+(sonority0 <= 11) and (sonority_ratio0 <= 3) and (sonority_ratio0 >= 3) and (sonority0 >= 11) and (sonority1 >= 11) and (sonority2 >= 10)  ZZZ Zstress_class=paenultima (738.0/217.0) ZZZ Z3syl_models-sonority.txt
+(sonority0 <= 11) and (sonority_ratio0 <= 3) and (sonority_ratio0 >= 3) and (sonority_ratio2 >= 4) and (sonority_dir <= 1) and (sonority1 >= 8)  ZZZ Zstress_class=paenultima (544.0/204.0) ZZZ Z3syl_models-sonority.txt
+(sonority0 <= 11) and (sonority_ratio0 <= 3) and (sonority_ratio0 >= 3) and (sonority_ratio2 >= 4) and (sonority_dir <= 1) and (sonority1 >= 8)  ZZZ Zstress_class=paenultima (544.0/204.0) ZZZ Z3syl_models-sonority.txt
+(sonority0 <= 11) and (sonority_ratio0 <= 3) and (sonority_ratio0 >= 3) and (sonority_ratio2 >= 4) and (sonority_dir <= 1) and (sonority1 >= 8)  ZZZ Zstress_class=paenultima (544.0/204.0) ZZZ Z3syl_models-sonority.txt
+(sonority0 <= 11) and (sonority_ratio0 <= 3) and (sonority_ratio0 >= 3) and (sonority_ratio2 >= 4) and (sonority_dir <= 1) and (sonority1 >= 8)  ZZZ Zstress_class=paenultima (544.0/204.0) ZZZ Z3syl_models-sonority.txt
+(sonority0 <= 11) and (sonority_ratio0 <= 3) and (sonority_ratio0 >= 3) and (sonority_ratio2 >= 4) and (sonority_dir <= 1) and (sonority1 >= 8)  ZZZ Zstress_class=paenultima (544.0/204.0) ZZZ Z3syl_models-sonority.txt
+(sonority0 <= 11) and (sonority_ratio0 <= 4) and (sonority_ratio0 >= 3) and (sonority_ratio0 <= 3) and (sonority0 >= 11) and (sonority_ratio2 >= 3) and (sonority2 <= 12) and (sonority2 >= 10) and (sonority_ratio2 <= 4)  ZZZ Zstress_class=paenultima (292.0/132.0) ZZZ Z3syl_models-sonority.txt
+(sonority0 <= 11) and (sonority_ratio0 <= 4) and (sonority_ratio0 >= 3) and (sonority_ratio0 <= 3) and (sonority0 >= 11) and (sonority_ratio2 >= 3) and (sonority2 <= 12) and (sonority2 >= 10) and (sonority_ratio2 <= 4)  ZZZ Zstress_class=paenultima (292.0/132.0) ZZZ Z3syl_models-sonority.txt
+(sonority0 <= 11) and (sonority_ratio0 <= 4) and (sonority_ratio0 >= 3) and (sonority_ratio0 <= 3) and (sonority0 >= 11) and (sonority_ratio2 >= 3) and (sonority2 <= 12) and (sonority2 >= 10) and (sonority_ratio2 <= 4)  ZZZ Zstress_class=paenultima (292.0/132.0) ZZZ Z3syl_models-sonority.txt
+(sonority0 <= 11) and (sonority_ratio0 <= 4) and (sonority_ratio0 >= 3) and (sonority_ratio0 <= 3) and (sonority0 >= 11) and (sonority_ratio2 >= 3) and (sonority2 <= 12) and (sonority2 >= 10) and (sonority_ratio2 <= 4)  ZZZ Zstress_class=paenultima (292.0/132.0) ZZZ Z3syl_models-sonority.txt
+(sonority0 <= 11) and (syl_weight1 = light) and (syl_open0 = o) and (syl_phoncat0 = CL) and (onset_phoncat2 = C) and (nucleus_phoncat2 = K)  ZZZ Zstress_class=paenultima (378.0/103.0) ZZZ Z3syl_models-phon.txt
+(sonority0 <= 11) and (syl_weight1 = light) and (syl_open0 = o) and (syl_phoncat0 = CL) and (onset_phoncat2 = C) and (nucleus_phoncat2 = K)  ZZZ Zstress_class=paenultima (378.0/103.0) ZZZ Z3syl_models-phon.txt
+(sonority0 <= 11) and (syl_weight1 = light) and (syl_open0 = o) and (syl_phoncat0 = CL) and (onset_phoncat2 = C) and (nucleus_phoncat2 = K)  ZZZ Zstress_class=paenultima (378.0/103.0) ZZZ Z3syl_models-phon.txt
+(sonority0 <= 11) and (syl_weight1 = light) and (syl_open0 = o) and (syl_phoncat0 = CL) and (onset_phoncat2 = C) and (nucleus_phoncat2 = K)  ZZZ Zstress_class=paenultima (378.0/103.0) ZZZ Z3syl_models-phon.txt
+(sonority0 <= 11) and (syl_weight1 = light) and (syl_open0 = o) and (syl_phoncat0 = CL) and (onset_phoncat2 = C) and (nucleus_phoncat2 = K)  ZZZ Zstress_class=paenultima (378.0/103.0) ZZZ Z3syl_models-phon.txt
+(sonority0 <= 11) and (syl_weight1 = light) and (syl_open0 = o) and (syl_phoncat0 = CL) and (onset_phoncat2 = C) and (nucleus_phoncat2 = K)  ZZZ Zstress_class=paenultima (378.0/103.0) ZZZ Z3syl_models-phon.txt
+(sonority3 <= 9) and (sonority3 >= 8) and (sonority_ratio2 >= 4) and (sonority2 <= 10)  ZZZ Zstress_class=ultima (331.0/119.0) ZZZ Z4syl_models-sonority.txt
+(sonority3 <= 9) and (sonority3 >= 8) and (sonority_ratio2 >= 4) and (sonority2 <= 10)  ZZZ Zstress_class=ultima (331.0/119.0) ZZZ Z4syl_models-sonority.txt
+(sonority3 <= 9) and (sonority3 >= 8) and (sonority_ratio2 >= 4) and (sonority2 <= 10)  ZZZ Zstress_class=ultima (331.0/119.0) ZZZ Z4syl_models-sonority.txt
+(sonority4 <= 9) and (sonority4 >= 8) and (sonority_ratio3 >= 4) and (sonority3 <= 10)  ZZZ Zstress_class=ultima (275.0/45.0) ZZZ Z5syl_models-sonority.txt
+(sonority4 <= 9) and (sonority4 >= 8) and (sonority_ratio3 >= 4) and (sonority3 <= 10)  ZZZ Zstress_class=ultima (275.0/45.0) ZZZ Z5syl_models-sonority.txt
+(sonority4 <= 9) and (sonority4 >= 8) and (sonority_ratio3 >= 4) and (sonority3 <= 10)  ZZZ Zstress_class=ultima (275.0/45.0) ZZZ Z5syl_models-sonority.txt
+(sonority_dir >= 0) and (sonority_ratio0 >= 8) and (sonority0 <= 8)  ZZZ Zstress_class=paenultima (304.0/121.0) ZZZ Z4syl_models-sonority.txt
+(sonority_dir >= 0) and (sonority_ratio0 >= 8) and (sonority0 <= 8)  ZZZ Zstress_class=paenultima (304.0/121.0) ZZZ Z4syl_models-sonority.txt
+(sonority_dir >= 0) and (sonority_ratio0 >= 8) and (sonority0 <= 8)  ZZZ Zstress_class=paenultima (304.0/121.0) ZZZ Z4syl_models-sonority.txt
+(sonority_dir >= 1) and (sonority_ratio2 >= 4) and (sonority3 >= 13) and (sonority3 <= 13)  ZZZ Zstress_class=paenultima (425.0/106.0) ZZZ Z4syl_models-sonority.txt
+(sonority_dir >= 1) and (sonority_ratio2 >= 4) and (sonority3 >= 13) and (sonority3 <= 13)  ZZZ Zstress_class=paenultima (425.0/106.0) ZZZ Z4syl_models-sonority.txt
+(sonority_dir >= 1) and (sonority_ratio2 >= 4) and (sonority3 >= 13) and (sonority3 <= 13)  ZZZ Zstress_class=paenultima (425.0/106.0) ZZZ Z4syl_models-sonority.txt
+(sonority_ratio0 <= 3) and (koda_len0 <= 0) and (nucleus_len0 <= 1)  ZZZ Zstress_class=paenultima (664.0/0.0) ZZZ Z3syl_models-numeric.txt
+(sonority_ratio0 <= 3) and (koda_len0 <= 0) and (nucleus_len0 <= 1)  ZZZ Zstress_class=paenultima (664.0/0.0) ZZZ Z3syl_models-numeric.txt
+(sonority_ratio0 <= 3) and (koda_len0 <= 0) and (nucleus_len0 <= 1)  ZZZ Zstress_class=paenultima (664.0/0.0) ZZZ Z3syl_models-numeric.txt
+(sonority_ratio0 <= 3) and (koda_len0 <= 0) and (nucleus_len0 <= 1)  ZZZ Zstress_class=paenultima (664.0/0.0) ZZZ Z3syl_models-numeric.txt
+(sonority_ratio0 <= 4) and (sonority2 >= 10) and (sonority_ratio2 <= 4) and (sonority0 <= 11)  ZZZ Zstress_class=sekunda (447.0/197.0) ZZZ Z5syl_models-sonority.txt
+(sonority_ratio0 <= 4) and (sonority2 >= 10) and (sonority_ratio2 <= 4) and (sonority0 <= 11)  ZZZ Zstress_class=sekunda (447.0/197.0) ZZZ Z5syl_models-sonority.txt
+(sonority_ratio0 <= 4) and (sonority2 >= 10) and (sonority_ratio2 <= 4) and (sonority0 <= 11)  ZZZ Zstress_class=sekunda (447.0/197.0) ZZZ Z5syl_models-sonority.txt
+(sonority_ratio0 <= 4) and (sonority2 >= 10) and (sonority_ratio2 <= 4) and (sonority0 <= 11)  ZZZ Zstress_class=sekunda (447.0/197.0) ZZZ Z5syl_models-sonority.txt
+(sonority_ratio2 >= 4) and (sonority3 >= 13) and (sonority3 <= 13)  ZZZ Zstress_class=paenultima (318.0/140.0) ZZZ Z4syl_models-sonority.txt
+(sonority_ratio2 >= 4) and (sonority3 >= 13) and (sonority3 <= 13)  ZZZ Zstress_class=paenultima (318.0/140.0) ZZZ Z4syl_models-sonority.txt
+(sonority_ratio2 >= 6) and (sonority2 >= 14)  ZZZ Zstress_class=ultima (267.0/48.0) ZZZ Z3syl_models-sonority.txt
+(sonority_ratio2 >= 6) and (sonority2 >= 14)  ZZZ Zstress_class=ultima (267.0/48.0) ZZZ Z3syl_models-sonority.txt
+(suffix3 = ø) and (syl_len0 <= 3) and (nucleus_len1 >= 2) and (syl_len1 >= 3) and (praefix_phoncat1 = C)  ZZZ Zstress_class=ultima (295.0/70.0) ZZZ Z2syl_models-all.txt
+(suffix3 = ø) and (syl_len0 <= 3) and (nucleus_len1 >= 2) and (syl_len1 >= 3) and (praefix_phoncat1 = C)  ZZZ Zstress_class=ultima (295.0/70.0) ZZZ Z2syl_models-all.txt
+(suffix3 = ø) and (syl_len0 <= 3) and (nucleus_len1 >= 2) and (syl_len1 >= 3) and (praefix_phoncat1 = C)  ZZZ Zstress_class=ultima (295.0/70.0) ZZZ Z2syl_models-all.txt
+(suffix3 = ø) and (syl_len0 <= 3) and (nucleus_len1 >= 2) and (syl_len1 >= 3) and (praefix_phoncat1 = C)  ZZZ Zstress_class=ultima (295.0/70.0) ZZZ Z2syl_models-all.txt
+(suffix3 = ø) and (syl_len0 <= 3) and (nucleus_len1 >= 2) and (syl_len1 >= 3) and (praefix_phoncat1 = C)  ZZZ Zstress_class=ultima (295.0/70.0) ZZZ Z2syl_models-all.txt
+(suffix3 = ø) and (syl_len0 <= 3) and (nucleus_len1 >= 2) and (syl_len1 >= 3) and (praefix_phoncat1 = C)  ZZZ Zstress_class=ultima (295.0/70.0) ZZZ Z2syl_models-all.txt
+(suffix_phoncat2 = LC) and (suffix_phoncat4 = LCLC) and (signi_suffix = ø)  ZZZ Zstress_class=ultima (304.0/50.0) ZZZ Z3syl_models-suffix.txt
+(suffix_phoncat2 = LC) and (suffix_phoncat4 = LCLC) and (signi_suffix = ø)  ZZZ Zstress_class=ultima (304.0/50.0) ZZZ Z3syl_models-suffix.txt
+(suffix_phoncat2 = LC) and (suffix_phoncat4 = LCLC) and (signi_suffix = ø)  ZZZ Zstress_class=ultima (304.0/50.0) ZZZ Z3syl_models-suffix.txt
+(suffix_phoncat4 = LCKC) and (sonority4 >= 13) and (prae_class = ø)  ZZZ Zstress_class=paenultima (341.0/5.0) ZZZ Z5syl_models-all.txt
+(suffix_phoncat4 = LCKC) and (sonority4 >= 13) and (prae_class = ø)  ZZZ Zstress_class=paenultima (341.0/5.0) ZZZ Z5syl_models-all.txt
+(suffix_phoncat4 = LCKC) and (sonority4 >= 13) and (prae_class = ø)  ZZZ Zstress_class=paenultima (341.0/5.0) ZZZ Z5syl_models-all.txt
+(suffix_phoncat4 = LCKC) and (sonority4 >= 13) and (prae_class = ø)  ZZZ Zstress_class=paenultima (341.0/5.0) ZZZ Z5syl_models-all.txt
+(suffix_phoncat4 = LCKC) and (suffix4 = eren)  ZZZ Zstress_class=paenultima (477.0/50.0) ZZZ Z4syl_models-suffix.txt
+(suffix_phoncat4 = LCKC) and (suffix4 = eren)  ZZZ Zstress_class=paenultima (477.0/50.0) ZZZ Z4syl_models-suffix.txt
+(suffix_phoncat4 = LCKC) and (suffix5 = ieren)  ZZZ Zstress_class=paenultima (269.0/24.0) ZZZ Z5syl_models-suffix.txt
+(suffix_phoncat4 = LCKC) and (suffix5 = ieren)  ZZZ Zstress_class=paenultima (269.0/24.0) ZZZ Z5syl_models-suffix.txt
+(suffix_phoncat4 = LCKC) and (suffix5 = ieren) and (prae_class = ø)  ZZZ Zstress_class=paenultima (426.0/4.0) ZZZ Z4syl_models-affix.txt
+(suffix_phoncat4 = LCKC) and (suffix5 = ieren) and (prae_class = ø)  ZZZ Zstress_class=paenultima (426.0/4.0) ZZZ Z4syl_models-affix.txt
+(suffix_phoncat4 = LCKC) and (suffix5 = ieren) and (prae_class = ø)  ZZZ Zstress_class=paenultima (426.0/4.0) ZZZ Z4syl_models-affix.txt
+(syl_cv0 = CV)  ZZZ Zstress_class=antepaenultima (255.0/1.0) ZZZ Z4syl_models-sylstruct.txt
+(syl_cv0 = CVC) and (nucleus_len1 >= 2) and (syl_len0 <= 3)  ZZZ Zstress_class=paenultima (896.0/175.0) ZZZ Z3syl_models-sylstruct.txt
+(syl_cv0 = CVC) and (nucleus_len1 >= 2) and (syl_len0 <= 3)  ZZZ Zstress_class=paenultima (896.0/175.0) ZZZ Z3syl_models-sylstruct.txt
+(syl_cv0 = CVC) and (nucleus_len1 >= 2) and (syl_len0 <= 3)  ZZZ Zstress_class=paenultima (896.0/175.0) ZZZ Z3syl_models-sylstruct.txt
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (koda_len1 >= 1) and (onset_len0 >= 1)  ZZZ Zstress_class=ultima (285.0/23.0) ZZZ Z2syl_models-numeric.txt
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (koda_len1 >= 1) and (onset_len0 >= 1)  ZZZ Zstress_class=ultima (285.0/23.0) ZZZ Z2syl_models-numeric.txt
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (koda_len1 >= 1) and (onset_len0 >= 1)  ZZZ Zstress_class=ultima (285.0/23.0) ZZZ Z2syl_models-numeric.txt
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (koda_len1 >= 1) and (onset_len0 >= 1)  ZZZ Zstress_class=ultima (285.0/23.0) ZZZ Z2syl_models-numeric.txt
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (onset_len0 >= 1) and (onset_len2 >= 1)  ZZZ Zstress_class=paenultima (412.0/113.0) ZZZ Z3syl_models-numeric.txt
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (onset_len0 >= 1) and (onset_len2 >= 1)  ZZZ Zstress_class=paenultima (412.0/113.0) ZZZ Z3syl_models-numeric.txt
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (onset_len0 >= 1) and (onset_len2 >= 1)  ZZZ Zstress_class=paenultima (412.0/113.0) ZZZ Z3syl_models-numeric.txt
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (onset_len0 >= 1) and (onset_len2 >= 1)  ZZZ Zstress_class=paenultima (412.0/113.0) ZZZ Z3syl_models-numeric.txt
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (onset_len0 >= 1) and (syl_open1 = c)  ZZZ Zstress_class=ultima (285.0/23.0) ZZZ Z2syl_models-sparse.txt
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (onset_len0 >= 1) and (syl_open1 = c)  ZZZ Zstress_class=ultima (285.0/23.0) ZZZ Z2syl_models-sparse.txt
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (onset_len0 >= 1) and (syl_open1 = c)  ZZZ Zstress_class=ultima (285.0/23.0) ZZZ Z2syl_models-sparse.txt
+(syl_len0 <= 2) and (nucleus_len1 >= 2) and (onset_len0 >= 1) and (syl_open1 = c)  ZZZ Zstress_class=ultima (285.0/23.0) ZZZ Z2syl_models-sparse.txt
+(syl_len0 <= 2) and (nucleus_len2 >= 2) and (nucleus_len1 >= 2) and (syl_cv3 = CVC) and (syl_len1 <= 3)  ZZZ Zstress_class=paenultima (364.0/39.0) ZZZ Z4syl_models-sylstruct.txt
+(syl_len0 <= 2) and (nucleus_len2 >= 2) and (nucleus_len1 >= 2) and (syl_cv3 = CVC) and (syl_len1 <= 3)  ZZZ Zstress_class=paenultima (364.0/39.0) ZZZ Z4syl_models-sylstruct.txt
+(syl_len0 <= 2) and (nucleus_len2 >= 2) and (nucleus_len1 >= 2) and (syl_cv3 = CVC) and (syl_len1 <= 3)  ZZZ Zstress_class=paenultima (364.0/39.0) ZZZ Z4syl_models-sylstruct.txt
+(syl_len0 <= 2) and (nucleus_len2 >= 2) and (nucleus_len1 >= 2) and (syl_cv3 = CVC) and (syl_len1 <= 3)  ZZZ Zstress_class=paenultima (364.0/39.0) ZZZ Z4syl_models-sylstruct.txt
+(syl_len0 <= 2) and (nucleus_len2 >= 2) and (nucleus_len1 >= 2) and (syl_cv3 = CVC) and (syl_len1 <= 3)  ZZZ Zstress_class=paenultima (364.0/39.0) ZZZ Z4syl_models-sylstruct.txt
+(syl_len0 <= 2) and (syl_len1 <= 3) and (syl_len0 <= 1) and (sonority_ratio0 >= 8) and (koda_len3 >= 1)  ZZZ Zstress_class=paenultima (279.0/101.0) ZZZ Z4syl_models-numeric.txt
+(syl_len0 <= 2) and (syl_len1 <= 3) and (syl_len0 <= 1) and (sonority_ratio0 >= 8) and (koda_len3 >= 1)  ZZZ Zstress_class=paenultima (279.0/101.0) ZZZ Z4syl_models-numeric.txt
+(syl_len0 <= 2) and (syl_len1 <= 3) and (syl_len0 <= 1) and (sonority_ratio0 >= 8) and (koda_len3 >= 1)  ZZZ Zstress_class=paenultima (279.0/101.0) ZZZ Z4syl_models-numeric.txt
+(syl_len0 <= 2) and (syl_len1 <= 3) and (syl_len0 <= 1) and (sonority_ratio0 >= 8) and (koda_len3 >= 1)  ZZZ Zstress_class=paenultima (279.0/101.0) ZZZ Z4syl_models-numeric.txt
+(syl_len0 <= 3) and (nucleus_len0 <= 1) and (syl_cv2 = CVC) and (syl_len0 >= 3) and (koda_len1 >= 1)  ZZZ Zstress_class=paenultima (637.0/174.0) ZZZ Z3syl_models-sylstruct.txt
+(syl_len0 <= 3) and (nucleus_len0 <= 1) and (syl_cv2 = CVC) and (syl_len0 >= 3) and (koda_len1 >= 1)  ZZZ Zstress_class=paenultima (637.0/174.0) ZZZ Z3syl_models-sylstruct.txt
+(syl_len0 <= 3) and (nucleus_len0 <= 1) and (syl_cv2 = CVC) and (syl_len0 >= 3) and (koda_len1 >= 1)  ZZZ Zstress_class=paenultima (637.0/174.0) ZZZ Z3syl_models-sylstruct.txt
+(syl_len0 <= 3) and (nucleus_len0 <= 1) and (syl_cv2 = CVC) and (syl_len0 >= 3) and (koda_len1 >= 1)  ZZZ Zstress_class=paenultima (637.0/174.0) ZZZ Z3syl_models-sylstruct.txt
+(syl_len0 <= 3) and (nucleus_len1 >= 2) and (cv_ratio0 >= 2) and (syl_len1 >= 3) and (koda_len0 <= 1)  ZZZ Zstress_class=ultima (325.0/65.0) ZZZ Z2syl_models-sylstruct.txt
+(syl_len0 <= 3) and (nucleus_len1 >= 2) and (cv_ratio0 >= 2) and (syl_len1 >= 3) and (koda_len0 <= 1)  ZZZ Zstress_class=ultima (325.0/65.0) ZZZ Z2syl_models-sylstruct.txt
+(syl_len0 <= 3) and (nucleus_len1 >= 2) and (cv_ratio0 >= 2) and (syl_len1 >= 3) and (koda_len0 <= 1)  ZZZ Zstress_class=ultima (325.0/65.0) ZZZ Z2syl_models-sylstruct.txt
+(syl_len0 <= 3) and (nucleus_len1 >= 2) and (cv_ratio0 >= 2) and (syl_len1 >= 3) and (koda_len0 <= 1)  ZZZ Zstress_class=ultima (325.0/65.0) ZZZ Z2syl_models-sylstruct.txt
+(syl_len0 <= 3) and (nucleus_len1 >= 2) and (cv_ratio0 >= 2) and (syl_len1 >= 3) and (koda_len0 <= 1)  ZZZ Zstress_class=ultima (325.0/65.0) ZZZ Z2syl_models-sylstruct.txt
+(syl_phoncat0 = L) and (syl_phoncat1 = CKC)  ZZZ Zstress_class=paenultima (342.0/150.0) ZZZ Z4syl_models-phoncat.txt
+(syl_phoncat0 = L) and (syl_phoncat1 = CKC)  ZZZ Zstress_class=paenultima (342.0/150.0) ZZZ Z4syl_models-phoncat.txt
+(syl_suffix = ø) and (syl_weight2 = heavy) and (syl_weight1 = light)  ZZZ Zstress_class=ultima (382.0/74.0) ZZZ Z3syl_models-all.txt
+(syl_suffix = ø) and (syl_weight2 = heavy) and (syl_weight1 = light)  ZZZ Zstress_class=ultima (382.0/74.0) ZZZ Z3syl_models-all.txt
+(syl_suffix = ø) and (syl_weight2 = heavy) and (syl_weight1 = light)  ZZZ Zstress_class=ultima (382.0/74.0) ZZZ Z3syl_models-all.txt
+(syl_weight0 = schwa)  ZZZ Zstress_class=paenultima (721.0/0.0) ZZZ Z3syl_models-weight.txt
+(syl_weight1 = heavy) and (sonority0 <= 11) and (sonority_ratio0 >= 3) and (nucleus_phoncat0 = K)  ZZZ Zstress_class=ultima (267.0/107.0) ZZZ Z2syl_models-phon.txt
+(syl_weight1 = heavy) and (sonority0 <= 11) and (sonority_ratio0 >= 3) and (nucleus_phoncat0 = K)  ZZZ Zstress_class=ultima (267.0/107.0) ZZZ Z2syl_models-phon.txt
+(syl_weight1 = heavy) and (sonority0 <= 11) and (sonority_ratio0 >= 3) and (nucleus_phoncat0 = K)  ZZZ Zstress_class=ultima (267.0/107.0) ZZZ Z2syl_models-phon.txt
+(syl_weight1 = heavy) and (sonority0 <= 11) and (sonority_ratio0 >= 3) and (nucleus_phoncat0 = K)  ZZZ Zstress_class=ultima (267.0/107.0) ZZZ Z2syl_models-phon.txt
+(syl_weight1 = light) and (nucleus_phoncat2 = L) and (sonority0 <= 10) and (sonority3 >= 13)  ZZZ Zstress_class=paenultima (454.0/44.0) ZZZ Z4syl_models-phon.txt
+(syl_weight1 = light) and (nucleus_phoncat2 = L) and (sonority0 <= 10) and (sonority3 >= 13)  ZZZ Zstress_class=paenultima (454.0/44.0) ZZZ Z4syl_models-phon.txt
+(syl_weight1 = light) and (nucleus_phoncat2 = L) and (sonority0 <= 10) and (sonority3 >= 13)  ZZZ Zstress_class=paenultima (454.0/44.0) ZZZ Z4syl_models-phon.txt
+(syl_weight1 = light) and (nucleus_phoncat2 = L) and (sonority0 <= 10) and (sonority3 >= 13)  ZZZ Zstress_class=paenultima (454.0/44.0) ZZZ Z4syl_models-phon.txt
+(syl_weight1 = light) and (nucleus_phoncat2 = L) and (syl_phoncat4 = CKC)  ZZZ Zstress_class=paenultima (490.0/86.0) ZZZ Z5syl_models-phon.txt
+(syl_weight1 = light) and (nucleus_phoncat2 = L) and (syl_phoncat4 = CKC)  ZZZ Zstress_class=paenultima (490.0/86.0) ZZZ Z5syl_models-phon.txt
+(syl_weight1 = light) and (nucleus_phoncat2 = L) and (syl_phoncat4 = CKC)  ZZZ Zstress_class=paenultima (490.0/86.0) ZZZ Z5syl_models-phon.txt
+(syl_weight1 = light) and (syl_weight4 = schwa) and (syl_open2 = o) and (syl_open3 = o)  ZZZ Zstress_class=paenultima (324.0/57.0) ZZZ Z5syl_models-weight.txt
+(syl_weight1 = light) and (syl_weight4 = schwa) and (syl_open2 = o) and (syl_open3 = o)  ZZZ Zstress_class=paenultima (324.0/57.0) ZZZ Z5syl_models-weight.txt
+(syl_weight1 = light) and (syl_weight4 = schwa) and (syl_open2 = o) and (syl_open3 = o)  ZZZ Zstress_class=paenultima (324.0/57.0) ZZZ Z5syl_models-weight.txt
+(syl_weight1 = light) and (syl_weight4 = schwa) and (syl_open2 = o) and (syl_open3 = o)  ZZZ Zstress_class=paenultima (324.0/57.0) ZZZ Z5syl_models-weight.txt
+(syl_weight3 = light) and (syl_open2 = o) and (syl_weight2 = light) and (syl_weight1 = light) and (syl_open0 = o)  ZZZ Zstress_class=ultima (416.0/207.0) ZZZ Z4syl_models-weight.txt
+(syl_weight3 = light) and (syl_open2 = o) and (syl_weight2 = light) and (syl_weight1 = light) and (syl_open0 = o)  ZZZ Zstress_class=ultima (416.0/207.0) ZZZ Z4syl_models-weight.txt
+(syl_weight3 = light) and (syl_open2 = o) and (syl_weight2 = light) and (syl_weight1 = light) and (syl_open0 = o)  ZZZ Zstress_class=ultima (416.0/207.0) ZZZ Z4syl_models-weight.txt
+(syl_weight3 = light) and (syl_open2 = o) and (syl_weight2 = light) and (syl_weight1 = light) and (syl_open0 = o)  ZZZ Zstress_class=ultima (416.0/207.0) ZZZ Z4syl_models-weight.txt
+(syl_weight3 = light) and (syl_open2 = o) and (syl_weight2 = light) and (syl_weight1 = light) and (syl_open0 = o)  ZZZ Zstress_class=ultima (416.0/207.0) ZZZ Z4syl_models-weight.txt
+(syl_weight3 = light) and (syl_open3 = o)  ZZZ Zstress_class=ultima (265.0/114.0) ZZZ Z4syl_models-weight.txt
+(syl_weight3 = light) and (syl_open3 = o)  ZZZ Zstress_class=ultima (265.0/114.0) ZZZ Z4syl_models-weight.txt

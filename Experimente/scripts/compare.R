@@ -126,6 +126,49 @@ getRules <- function(fileName) {
 	rules
 }
 
+getRulesFeatures <- function(fileName) {
+	t = getRules(fileName)
+	ary = sapply(t, function(t) strsplit(t,' and '))
+	features_pre = sapply(ary, function(f) gsub('\\(','',f))
+	sapply(features_pre, function(f) gsub(' .*','',f))
+}
+
+getRuleNumbers <- function(rule) {
+	str = gsub('.*(ultima|sekunda|prima) |\\(|\\)', '', rule)
+	as.numeric(strsplit(str,'/')[[1]])
+}
+
+getRulesNumbers <- function(fileName) {
+	rules = getRules(fileName)
+	lapply(rules, function(line) {
+		str = gsub('.*(ultima|sekunda|prima) |\\(|\\)', '', line)
+		as.numeric(strsplit(str,'/')[[1]])
+	})
+}
+
+getRulesWordcount <- function(fileName) {
+	numbers = getRulesNumbers(fileName)
+	unlist(lapply(numbers, function(numbers) {
+		if(length(numbers)==1) numbers else sum(numbers)
+	}))
+}
+
+# ohne die letzte Regel!
+getRulesLength <- function(fileName) {
+	rules = getRules(fileName)
+	unlist(lapply(rules, function(rule) {
+		str_count(rule,' and ')+1
+	}))
+}
+
+getRulesPercentage <- function(fileName) {
+	numbers = getRulesNumbers(fileName)
+	unlist(lapply(numbers, function(numbers) {
+		if(length(numbers)==1) 100 else 100*numbers[1]/sum(numbers)
+	}))
+}
+
+
 getTree <- function(fileName) {
 	f = readChar(fileName, file.info(fileName)$size)
 	phrase = 'J48 pruned tree\n------------------\n'
@@ -138,6 +181,18 @@ getTree <- function(fileName) {
 	}
 	rules = strsplit(rules_string,'\n')[[1]]
 	rules
+}
+
+getCleanedTree <- function(fileName) {
+	t = getTreeLeafs(fileName)
+	t[!unlist(lapply(t, function(l) grepl('\\(0\\.0\\)', l, perl=TRUE)))]
+}
+
+getImportantLeafes <- function(fileName, treshold) {
+	t = getCleanedTree(fileName)
+	all_numbers = getTreeLeafsNumbers(fileName)
+	numbers = subset(matrix(all_numbers), apply(matrix(all_numbers), 1, function(x) sum(unlist(x))) > 0)[,1]
+	t[!unlist(lapply(t, function(l) grepl('(0.0))', l)))]
 }
 
 # Liefert die Tiefe jeder Regel im Entscheidungsbaum
@@ -170,7 +225,8 @@ getTreeLeafsPercentage <- function(fileName) {
 getTreeLeafsWordcount <- function(fileName) {
 	numbers = getTreeLeafsNumbers(fileName)
 	unlist(lapply(numbers, function(numbers) {
-		if(length(numbers)==1) numbers else sum(numbers)
+		#if(length(numbers)==1) numbers else sum(numbers)
+		sapply(numbers, sum)
 	}))
 }
 
@@ -182,14 +238,6 @@ getMaxTreeDepth <- function(fileName) {
 getTreeSize <- function(fileName) {
 	depths = getTreeDepths(fileName)
 	length(depths)
-}
-
-# ohne die letzte Regel!
-getRulesLength <- function(fileName) {
-	rules = getRules(fileName)
-	unlist(lapply(rules, function(rule) {
-		str_count(rule,' and ')+1
-	}))
 }
 
 plotTreeRules <- function(fileName) {
@@ -349,9 +397,17 @@ plot_analyze_j48(models, main_stats)
 
 
 
-
-
-
+# FÜhrt eine benutzerdefinierten Funktion auf allen Dateinamen aller Modelle aus. 
+doForAllModels <- function(func, models = c('all','numeric','sparse','suffix','praefix', 'affix', 'sonority', 'weight', 'phoncat', 'phon','sylstruct','meta'), syls=2:7) {
+	result = sapply(models, function(model) {
+		sapply(2:7, function(num_syls) {
+			fileName = paste(folder,'../trained_models/',num_syls,'syl/models-',model,'.txt',sep='')
+			func(fileName)
+		})
+	})
+	rownames(result) = 2:7
+	result
+}
 
 function() {
 	syls = 2:7
@@ -648,14 +704,74 @@ function() {
 			getTreeLeafsPercentage(fileName)
 		})
 	})
-	depths_all_syls = lapply(1:12, function(fs) unlist(lapply(1:6, function(syl) depths[[syl]][[fs]])))
-	counts_all_syls = lapply(1:12, function(fs) unlist(lapply(1:6, function(syl) counts[[syl]][[fs]])))
-	percent_all_syls = lapply(1:12, function(fs) unlist(lapply(1:6, function(syl) percent[[syl]][[fs]])))
+	depths_all_syls = lapply(1:6, function(syl) unlist(lapply(1:12, function(fs) depths[[syl]][[fs]])))
+	counts_all_syls = lapply(1:6, function(syl) unlist(lapply(1:12, function(fs) counts[[syl]][[fs]])))
+	percent_all_syls = lapply(1:6, function(syl) unlist(lapply(1:12, function(fs) percent[[syl]][[fs]])))
 	par(mar=c(4,4,.1,.1))
 	layout(matrix(c(1,1,1,2), 1, byrow = TRUE))
-	plot(x=counts_all_syls[[1]], y=percent_all_syls[[1]], xlim=c(0,950), cex=log((depths_all_syls[[1]]**2),base=4))
-	lapply(2:12, function(n) points(x=counts_all_syls[[n]], y=percent_all_syls[[n]], xlim=c(0,950), cex=log((depths_all_syls[[1]]**2),base=4)/2))
+	plot(x=counts_all_syls[[1]], y=percent_all_syls[[1]], xlim=c(0,950), col=rainbow(1,start=1/7), pch=21, cex=.65)#,cex=6*1/depths_all_syls[[1]])
+	lapply(2:6, function(n) points(x=counts_all_syls[[n]], y=percent_all_syls[[n]], xlim=c(0,950), col=rainbow(1,start=n/7), cex=.65))#,cex=6*1/depths_all_syls[[1]]))
 	par(mar=c(4,1,.1,.1))
-	plot(x=counts_all_syls[[1]], y=percent_all_syls[[1]], xlim=c(950,4000), yaxt='n', ylab='', cex=log((depths_all_syls[[1]]**2),base=4))
-	lapply(2:12, function(n) points(x=counts_all_syls[[n]], y=percent_all_syls[[n]], xlim=c(950,4000), yaxt='n', ylab='', cex=log((depths_all_syls[[1]]**2),base=4)/2))
+	plot(x=counts_all_syls[[1]], y=percent_all_syls[[1]], xlim=c(950,4000), yaxt='n', ylab='', xlab='', col=rainbow(1,start=1/7), cex=.65)#,cex=6*1/depths_all_syls[[1]])
+	lapply(2:6, function(n) points(x=counts_all_syls[[n]], y=percent_all_syls[[n]], xlim=c(950,4000), yaxt='n', ylab='', col=rainbow(1,start=n/7), cex=.65)#,cex=6*1/depths_all_syls[[n]]))
+	#legend('bottomright', pch=1, pt.cex=round(6*1/1:11,1), legend=paste('Länge = ',1:11))
+}()
+
+
+
+# Plottet alle Regnel aller Modelle mit ihrer individuellen Erkennungsrate, der Länge  als Punktgder Regel und die Anzahl betroffenr Wörter
+function() {
+	depths = lapply(2:7, function(num_syls) {
+		lapply(models, function(model) {
+			fileName = paste(folder,'../trained_models/',num_syls,'syl/models-',model,'.txt',sep='')
+			getRulesLength(fileName)
+		})
+	})
+	counts = lapply(2:7, function(num_syls) {
+		lapply(models, function(model) {
+			fileName = paste(folder,'../trained_models/',num_syls,'syl/models-',model,'.txt',sep='')
+			getRulesWordcount(fileName)
+		})
+	})
+	percent = lapply(2:7, function(num_syls) {
+		lapply(models, function(model) {
+			fileName = paste(folder,'../trained_models/',num_syls,'syl/models-',model,'.txt',sep='')
+			getRulesPercentage(fileName)
+		})
+	})
+	depths_all_syls = lapply(1:12, function(a) unlist(lapply(1:6, function(b) depths[[b]][[a]])))
+	counts_all_syls = lapply(1:12, function(a) unlist(lapply(1:6, function(b) counts[[b]][[a]])))
+	percent_all_syls = lapply(1:12, function(a) unlist(lapply(1:6, function(b) percent[[b]][[a]])))
+	par(mar=c(4,4,.1,.1))
+	layout(matrix(c(1,1,1,2), 1, byrow = TRUE))
+	plot(x=counts_all_syls[[1]], y=percent_all_syls[[1]], xlim=c(200,600), col=rainbow(1,start=1/12), lwd=2)
+	lapply(2:6, function(n) points(x=counts_all_syls[[n]], y=percent_all_syls[[n]], xlim=c(200,600), col=rainbow(1,start=n/12), lwd=2))
+	par(mar=c(4,1,.1,.1))
+	plot(x=counts_all_syls[[1]], y=percent_all_syls[[1]], xlim=c(600,1600), yaxt='n', ylab='', xlab='', col=rainbow(1,start=1/12), lwd=2)
+	lapply(2:6, function(n) points(x=counts_all_syls[[n]], y=percent_all_syls[[n]], xlim=c(600,1600), yaxt='n', ylab='', col=rainbow(1,start=n/12), lwd=2))
+	#legend('bottomright', pch=1, pt.cex=round(6*1/1:11,1), legend=paste('Länge = ',1:11))
+}()
+
+
+# Summiert die Anzahl der Wörter auf, die von einer Regel betroffen sind, je Feature
+function() {
+	all_features = doForAllModels(getRulesFeatures)
+	all_feature_names = names(table(unname(unlist(all_features))))
+	stats <<- list()
+	sapply(all_feature_names, function(f) stats[[f]]<<-0)
+	features_with_total=sapply(1:12, function(fs) { 
+		sapply(1:6, function(syls) {
+			rules = names(all_features[syls,fs][[1]])
+			numbers = as.numeric(sapply(rules, function(rule) sum(getRuleNumbers(rule))))
+			features_and_weight = matrix(c(numbers, unname(all_features[syls,fs][[1]])),,2)
+			if(length(features_and_weight) > 0) {
+				sapply(1:nrow(features_and_weight), function(n) sapply(features_and_weight[,2][[n]], function(feature) 
+					stats[[feature]] <<- stats[[feature]] + as.numeric(features_and_weight[n,1][[1]])
+				))
+			}
+		})
+	})
+	x=unlist(stats)
+	barplot(sort(x[x>200 & !is.na(x)], decreasing =TRUE), las=2, ylim=c(0,35000))
+	names(x[x<200 & !is.na(x)])
 }
