@@ -129,8 +129,8 @@ getRules <- function(fileName) {
 getRulesFeatures <- function(fileName) {
 	t = getRules(fileName)
 	ary = sapply(t, function(t) strsplit(t,' and '))
-	features_pre = sapply(ary, function(f) gsub('\\(','',f))
-	sapply(features_pre, function(f) gsub(' .*','',f))
+	features_pre = sapply(ary, function(f) gsub('\\(','',f), simplify=FALSE)
+	sapply(features_pre, function(f) gsub(' .*','',f), simplify=FALSE)
 }
 
 getRuleNumbers <- function(rule) {
@@ -382,18 +382,18 @@ models = c(
 	'sylstruct','meta'
 )
 
-plot_bestmodels_stat(models, main_stats)
+#plot_bestmodels_stat(models, main_stats)
 
-colors = c(replicate(6,c(replicate(3,'gray65'),replicate(3,'gray90'))),'gray100')
-plot_overview_stat(main_stats, 'Erkennungsraten aller Featuresets (%)', colors, 'all.png')
+#colors = c(replicate(6,c(replicate(3,'gray65'),replicate(3,'gray90'))),'gray100')
+#plot_overview_stat(main_stats, 'Erkennungsraten aller Featuresets (%)', colors, 'all.png')
 
-colors = c(replicate(3,'gray50'),replicate(2, 'gray90'),'gray50',replicate(3,'gray90'),'gray50',replicate(2,'gray90'),'gray100')
-plot_overview_stat(getStatSubset('NN'), 'Erkennungsraten aller NN (%)', colors, 'NN.png')
-plot_overview_stat(getStatSubset('JRip'), 'Erkennungsraten aller JRip (%)', colors, 'JRip.png')
-plot_overview_stat(getStatSubset('48'), 'Erkennungsraten aller J48 (%)', colors, 'J48.png')
+#colors = c(replicate(3,'gray50'),replicate(2, 'gray90'),'gray50',replicate(3,'gray90'),'gray50',replicate(2,'gray90'),'gray100')
+#plot_overview_stat(getStatSubset('NN'), 'Erkennungsraten aller NN (%)', colors, 'NN.png')
+#plot_overview_stat(getStatSubset('JRip'), 'Erkennungsraten aller JRip (%)', colors, 'JRip.png')
+#plot_overview_stat(getStatSubset('48'), 'Erkennungsraten aller J48 (%)', colors, 'J48.png')
 
-plot_analyze_jrip(models, main_stats)
-plot_analyze_j48(models, main_stats)
+#plot_analyze_jrip(models, main_stats)
+#plot_analyze_j48(models, main_stats)
 
 
 
@@ -405,7 +405,7 @@ doForAllModels <- function(func, models = c('all','numeric','sparse','suffix','p
 			func(fileName)
 		})
 	})
-	rownames(result) = 2:7
+#	rownames(result) = 2:7
 	result
 }
 
@@ -713,7 +713,7 @@ function() {
 	lapply(2:6, function(n) points(x=counts_all_syls[[n]], y=percent_all_syls[[n]], xlim=c(0,950), col=rainbow(1,start=n/7), cex=.65))#,cex=6*1/depths_all_syls[[1]]))
 	par(mar=c(4,1,.1,.1))
 	plot(x=counts_all_syls[[1]], y=percent_all_syls[[1]], xlim=c(950,4000), yaxt='n', ylab='', xlab='', col=rainbow(1,start=1/7), cex=.65)#,cex=6*1/depths_all_syls[[1]])
-	lapply(2:6, function(n) points(x=counts_all_syls[[n]], y=percent_all_syls[[n]], xlim=c(950,4000), yaxt='n', ylab='', col=rainbow(1,start=n/7), cex=.65)#,cex=6*1/depths_all_syls[[n]]))
+	lapply(2:6, function(n) points(x=counts_all_syls[[n]], y=percent_all_syls[[n]], xlim=c(950,4000), yaxt='n', ylab='', col=rainbow(1,start=n/7), cex=.65))#,cex=6*1/depths_all_syls[[n]]))
 	#legend('bottomright', pch=1, pt.cex=round(6*1/1:11,1), legend=paste('Länge = ',1:11))
 }()
 
@@ -755,23 +755,41 @@ function() {
 
 # Summiert die Anzahl der Wörter auf, die von einer Regel betroffen sind, je Feature
 function() {
+	tie = FALSE
+	filename = paste(folder,'jrip_feature_influence',if(tie) '_grouped' else '','.png',sep='')
+	png(filename = filename, width = 1920, height = 1024, units = "px", bg = "white", pointsize = 30)
+	par(mar=c(8,5,.5,.1),cex=.8)
+
 	all_features = doForAllModels(getRulesFeatures)
 	all_feature_names = names(table(unname(unlist(all_features))))
 	stats <<- list()
-	sapply(all_feature_names, function(f) stats[[f]]<<-0)
-	features_with_total=sapply(1:12, function(fs) { 
+	if(tie) {
+		void=sapply(unique(gsub('[0-9]','',all_feature_names)), function(f) stats[[f]]<<-0)
+	} else {
+		void=sapply(all_feature_names, function(f) stats[[f]]<<-0)
+	}
+	void=features_with_total=sapply(1:12, function(fs) { 
 		sapply(1:6, function(syls) {
 			rules = names(all_features[syls,fs][[1]])
+			#file = paste(folder,'../trained_models/',syls+1,'syl/models-',models[fs],'.txt',sep='')
+			#rules = getRules(file)
 			numbers = as.numeric(sapply(rules, function(rule) sum(getRuleNumbers(rule))))
 			features_and_weight = matrix(c(numbers, unname(all_features[syls,fs][[1]])),,2)
 			if(length(features_and_weight) > 0) {
-				sapply(1:nrow(features_and_weight), function(n) sapply(features_and_weight[,2][[n]], function(feature) 
+				sapply(1:nrow(features_and_weight), function(n) sapply(features_and_weight[,2][[n]], function(feature) {
+					if(tie) { feature = gsub('[0-9]','',feature) }
 					stats[[feature]] <<- stats[[feature]] + as.numeric(features_and_weight[n,1][[1]])
-				))
+				}))
 			}
 		})
 	})
 	x=unlist(stats)
-	barplot(sort(x[x>200 & !is.na(x)], decreasing =TRUE), las=2, ylim=c(0,35000))
-	names(x[x<200 & !is.na(x)])
-}
+	if(tie) {
+		barplot(sort(x, decreasing =TRUE), las=2, ylab='Nominale Anzahl Wörter')
+		sort(x)
+	} else {
+		barplot(sort(x[x>2500], decreasing=TRUE), las=2, ylab='Nominale Anzahl Wörter')
+		names(x[x<500])
+	}
+	dev.off()
+}()

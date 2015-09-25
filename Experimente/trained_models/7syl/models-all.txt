@@ -7,45 +7,6 @@ J48 pruned tree
 ------------------
 
 comp_len <= 1
-|   nucleus_phoncat6 = K: paenultima (33.0/5.0)
-|   nucleus_phoncat6 = L: ultima (27.0/1.0)
-|   nucleus_phoncat6 = D: sekunda (5.0/1.0)
-|   nucleus_phoncat6 = N: paenultima (0.0)
-comp_len > 1
-|   onset_len4 <= 0: antepaenultima (26.0/6.0)
-|   onset_len4 > 0
-|   |   syl_weight1 = light: sekunda (38.0/20.0)
-|   |   syl_weight1 = schwa: prima (29.0/3.0)
-|   |   syl_weight1 = heavy: prima (5.0/1.0)
-
-Number of Leaves  : 	8
-
-Size of the tree : 	12
-=== Classifier model ===
-
-Scheme:   JRip
-Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-output-debug-info-do-not-check-capabilities
-
-JRIP rules:
-===========
-
- => stress_class=prima (163.0/116.0)
-
-Number of Rules : 1
-=== Classifier model ===
-
-Scheme:   NeuralNetwork
-Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-output-debug-info-do-not-check-capabilities
-
-weka.classifiers.functions.NeuralNetwork@36549757=== Classifier model ===
-
-Scheme:   J48
-Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-output-debug-info-do-not-check-capabilities
-
-J48 pruned tree
-------------------
-
-comp_len <= 1
 |   nucleus_phoncat6 = K: paenultima (34.0/5.0)
 |   nucleus_phoncat6 = L: ultima (29.0/1.0)
 |   nucleus_phoncat6 = D: sekunda (5.0/1.0)

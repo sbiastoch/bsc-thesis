@@ -8,45 +8,6 @@ J48 pruned tree
 
 syl_weight4 = light
 |   syl_weight1 = light
-|   |   syl_weight6 = schwa: paenultima (25.0/9.0)
-|   |   syl_weight6 = light
-|   |   |   syl_open2 = o: ultima (37.0/19.0)
-|   |   |   syl_open2 = c: sekunda (31.0/21.0)
-|   |   syl_weight6 = heavy: paenultima (2.0)
-|   syl_weight1 = schwa: prima (29.0/5.0)
-|   syl_weight1 = heavy: prima (5.0/2.0)
-syl_weight4 = heavy: antepaenultima (25.0/6.0)
-syl_weight4 = schwa: prima (9.0/5.0)
-
-Number of Leaves  : 	8
-
-Size of the tree : 	12
-=== Classifier model ===
-
-Scheme:   JRip
-Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R42-55,130-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_weight.|syl_open.)$-V
-
-JRIP rules:
-===========
-
- => stress_class=prima (163.0/116.0)
-
-Number of Rules : 1
-=== Classifier model ===
-
-Scheme:   NeuralNetwork
-Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R42-55,130-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_weight.|syl_open.)$-V
-
-weka.classifiers.functions.NeuralNetwork@42d9fe0e=== Classifier model ===
-
-Scheme:   J48
-Relation: 7syl-all_training-weka.filters.unsupervised.attribute.Remove-R130-weka.filters.unsupervised.attribute.RemoveByName-E^(Word)$-weka.filters.unsupervised.attribute.RenameAttribute-find(_merged_infrequent_values)-remove-all-Rfirst-last-weka.filters.unsupervised.attribute.Remove-V-R42-55,130-weka.filters.unsupervised.attribute.RemoveByName-E^(syl_weight.|syl_open.)$-V
-
-J48 pruned tree
-------------------
-
-syl_weight4 = light
-|   syl_weight1 = light
 |   |   syl_weight6 = schwa: paenultima (26.0/10.0)
 |   |   syl_weight6 = light: ultima (72.0/44.0)
 |   |   syl_weight6 = heavy: paenultima (3.0/1.0)
