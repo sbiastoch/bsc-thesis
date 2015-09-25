@@ -126,11 +126,20 @@ getRules <- function(fileName) {
 	rules
 }
 
-getRulesFeatures <- function(fileName) {
-	t = getRules(fileName)
-	ary = sapply(t, function(t) strsplit(t,' and '))
+getRulesFeatures <- function(rules) {
+	ary = sapply(rules, function(t) strsplit(t,' and '))
 	features_pre = sapply(ary, function(f) gsub('\\(','',f), simplify=FALSE)
 	sapply(features_pre, function(f) gsub(' .*','',f), simplify=FALSE)
+}
+
+getJRipRulesFeatures <- function(fileName) {
+	rules = getRules(fileName)
+	getRulesFeatures(rules)
+}
+
+getJ48RulesFeatures <- function(fileName) {
+	rules = parseTreeToRules(fileName)
+	getRulesFeatures(rules)
 }
 
 getRuleNumbers <- function(rule) {
@@ -755,12 +764,13 @@ function() {
 
 # Summiert die Anzahl der Wörter auf, die von einer Regel betroffen sind, je Feature
 function() {
-	tie = TRUE
-	filename = paste(folder,'jrip_feature_influence',if(tie) '_grouped' else '','.png',sep='')
+	tie = FALSE
+	algo = if(1) 'jrip' else 'j48'
+	filename = paste(folder,algo,'_feature_influence',if(tie) '_grouped' else '','.png',sep='')
 	png(filename = filename, height = 1200, width = 700, units = "px", bg = "white", pointsize = 30)
 	par(mar=c(4,8,0,1.5))
 
-	all_features = doForAllModels(getRulesFeatures)
+	all_features = doForAllModels(if(algo == 'jrip') getJRipRulesFeatures else getJ48RulesFeatures)
 	all_feature_names = names(table(unname(unlist(all_features))))
 	stats <<- list()
 	if(tie) {
@@ -788,7 +798,7 @@ function() {
 		barplot(sort(x, decreasing =TRUE), las=1, xlab='Nominale Anzahl Wörter', horiz=TRUE)
 		sort(x)
 	} else {
-		barplot(sort(x[x>2500], decreasing=TRUE), las=1, xlab='Nominale Anzahl Wörter', horiz=TRUE, xlim=c(0,35000))
+		barplot(sort(x[x>2500], decreasing=TRUE), las=1, xlab='Nominale Anzahl Wörter', horiz=TRUE, cex.names=.7)
 		names(x[x<500])
 	}
 	dev.off()
@@ -819,11 +829,18 @@ isLeaf <- function(tree, index) {
 	return(str_count(tree[index], ':') == 1)
 }
 
+# stellt die komponenten im gleichen format wie JRip dar
 cleanNode <- function(tree, index) {
-	gsub('\\|   ', '', tree[index])
+	untabbed = gsub('\\|   ', '', tree[index])
+	brackets = paste('(', untabbed, sep='')
+	if(isLeaf(tree, index)) {
+		gsub(': ', ') => stress_class=', brackets)
+	} else {
+		paste(brackets, ')', sep='')
+	}
 }
 
-parseTreeToRules <- function(tree, index=1, rule_str='') {
+parseTreeToRulesWorker <- function(tree, index=1, rule_str='') {
 	cleaned_node = cleanNode(tree[index])
 	seperator = if(nchar(rule_str) > 0) ' and ' else ''
 	appended_rule_str = paste(rule_str, cleaned_node, sep=seperator)
@@ -833,7 +850,11 @@ parseTreeToRules <- function(tree, index=1, rule_str='') {
 	} else {
 		children_indices = find_direct_children_indices(tree, index)
 		sapply(children_indices, function(i) {
-			parseTreeToRules(tree, i, appended_rule_str)
+			parseTreeToRulesWorker(tree, i, appended_rule_str)
 		})
 	}
+}
+parseTreeToRules <- function(fileName) {
+	tree = getTree(fileName)
+	unlist(parseTreeToRulesWorker(tree))
 }
