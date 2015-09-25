@@ -755,10 +755,10 @@ function() {
 
 # Summiert die Anzahl der Wörter auf, die von einer Regel betroffen sind, je Feature
 function() {
-	tie = FALSE
+	tie = TRUE
 	filename = paste(folder,'jrip_feature_influence',if(tie) '_grouped' else '','.png',sep='')
-	png(filename = filename, width = 1920, height = 1024, units = "px", bg = "white", pointsize = 30)
-	par(mar=c(8,5,.5,.1),cex=.8)
+	png(filename = filename, height = 1200, width = 700, units = "px", bg = "white", pointsize = 30)
+	par(mar=c(4,8,0,1.5))
 
 	all_features = doForAllModels(getRulesFeatures)
 	all_feature_names = names(table(unname(unlist(all_features))))
@@ -785,11 +785,55 @@ function() {
 	})
 	x=unlist(stats)
 	if(tie) {
-		barplot(sort(x, decreasing =TRUE), las=2, ylab='Nominale Anzahl Wörter')
+		barplot(sort(x, decreasing =TRUE), las=1, xlab='Nominale Anzahl Wörter', horiz=TRUE)
 		sort(x)
 	} else {
-		barplot(sort(x[x>2500], decreasing=TRUE), las=2, ylab='Nominale Anzahl Wörter')
+		barplot(sort(x[x>2500], decreasing=TRUE), las=1, xlab='Nominale Anzahl Wörter', horiz=TRUE, xlim=c(0,35000))
 		names(x[x<500])
 	}
 	dev.off()
 }()
+
+
+depth <- function(tree, row_index) {
+	str_count(tree[row_index], '\\|')
+}
+
+find_direct_children_indices <- function(tree, vater_index=1) {
+	father_depth = depth(tree, vater_index)
+	children_depth = father_depth + 1
+	children_indices = list()
+
+	possible_child_index = vater_index + 1
+	while(possible_child_index < length(tree) & depth(tree, possible_child_index) > father_depth) {
+		if(depth(tree, possible_child_index) == children_depth) {
+			children_indices = c(children_indices, possible_child_index)
+		}
+		possible_child_index = possible_child_index + 1
+	}
+
+	children_indices
+}
+
+isLeaf <- function(tree, index) {
+	return(str_count(tree[index], ':') == 1)
+}
+
+cleanNode <- function(tree, index) {
+	gsub('\\|   ', '', tree[index])
+}
+
+parseTreeToRules <- function(tree, index=1, rule_str='') {
+	cleaned_node = cleanNode(tree[index])
+	seperator = if(nchar(rule_str) > 0) ' and ' else ''
+	appended_rule_str = paste(rule_str, cleaned_node, sep=seperator)
+
+	if(isLeaf(tree[index])) {
+		appended_rule_str
+	} else {
+		children_indices = find_direct_children_indices(tree, index)
+		sapply(children_indices, function(i) {
+			parseTreeToRules(tree, i, appended_rule_str)
+		})
+	}
+}
