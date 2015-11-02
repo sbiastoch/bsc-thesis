@@ -1,0 +1,145 @@
+\chapter{Vorüberlegungen}
+\section{Forschungsstand}
+
+Seit ca. 20 Jahren wird versucht mit maschinelle Lernverfahren den Wortakzentes vorherzusagen. Grundsätzlich gibt es zwei verschiedene Ansätze zur Bestimmung des Wortakzentes: \textit{Regelbasiert} und \textit{datenbasiert}.
+\\
+Regelbasierte Arbeiten formulieren ausgehend von linguistischen Konzepten und Thesen Regeln oder Bedingungen der Akzentzuweisung. Im Gegensatz dazu stehen datenbasierte Ansätze, die mit recht basalen Features, z.B. den Buchstaben oder Phonemen des Wortes, Maschinelle Lernverfahren anwenden.
+
+\subsection{Linguistische, regelbasierte Arbeiten}
+
+Die linguistischen Regeln der Akzentzuweisung im Deutschen sind bisher nicht abschließend geklärt \cite[S.~11]{Janssen2003}. Obwohl Untersuchungen zum Wortakzent in verschiedenen europäischen und außereuropäischen Sprachen, beginnend mit \cite{Chomsky&Halle1968}, eine lange Tradition haben, sind die einzigen Monographien zum deutschen Wortakzent nach meinen Recherchen \cite{Giegerich1985}, \cite{Mengel1998} und \cite{Janssen2003}.
+
+\cite{Jessen1999} stellte einige Regeln auf, die den deutschen Wortakzent erklären sollen. \cite{Wagner2001} evaluierte diese Regeln auf der Verbmobil-Wortliste \cite{Lungen&Ehlebracht1998} und stellte eine Fehlerrate von 4.17\% fest. Der von ihm verwendete Korpus umfasste jedoch nur ca. 5300 Wörter, darunter viele Flektionsformen der selben Lemmata.
+Wird ein Lemma flektiert, so verschiebt sich unter Umständen die Betonung, sie wird jedoch nicht komplett neu zugewiesen \cite{???}. Die Anzahl verschiedener Lemmata der Verbmobil-Wortliste ist somit noch deutlich geringer.
+% Wagner2001
+%\cite{Wagner2001} überprüft die von \cite{Jessen1999} aufgestellten Regeln zur Wortbetonung. Seine Datenbasis war die Verbmobil-Wortliste \cite{Lungen&Ehlebracht1998}, die nach dem Entfernen von Komposita 5385 Wörter enthielt. Da in der Verbmobil-Wortliste die Betonungen laut Wagner manuell annotiert worden sind, ist die Qualität der Trainingsdaten sehr hoch. Er berichtet von einer fehlerhaften Akzentzuweisung in 4.17\% der Fälle. Die verwendeten Regeln beinhalten im wesentlichen einige Eigenschaften der Silbenstruktur, des Silbengewichts sowie der Betonbarkeit der Silben. Da die an sich schon überschaubare Verbmobil-Wortliste viele Wörter mit ihren Flektionsformen enthält, reduziert sich der reale Umfang jedoch. Ob sie den deutschen Wortschatz gut repräsentiert, ist daher fraglich.
+
+\cite{Fery1998} untersuchte den deutschen Wortakzent aus einer rein linguistischen Perspektive nach dem Ansatz der Optimalitätstheorie. Diese bewertet alle mögliche Realisierungen des Wortakzents unter bestimmten Einschränkungen (\textit{Constraints}). Die Realisierung, die die wenigsten Einschränkungen verletzt, wird gewählt.
+Sie evaluierte anhand von einigen Beispielen Constraints verschiedener Autoren. Bis auf einige sehr simple Regeln gab es keine ohne Ausnahmen, bei abstrakteren Regeln war die Definition der zugrunde liegenden Phänomene bereits problematisch (bspw. Silbengewicht).
+
+Im Allgemeinen ist die Verwendung von lediglich exemplarischen Beispielen oder zu kleiner Korpora zur Evaluation linguistischer Theorien ein großes Problem, da bei vielen Problemen der sogenannte \enquote{large number of rare events}-Effekt (LNRE) auftritt \cite{Kvizhinadze2010}. Er beschreibt das überraschend häufige Auftreten von, für sich genommen, sehr unwahrscheinlichen Ereignissen. Je größer der Korpus ist, desto mehr Ausnahmen und Unregelmäßigkeiten treten auf, anstatt prozentual weniger zu werden, wie eigentlich das Gesetz der großen Zahlen annehmen lassen würde \cite[S.~69]{Demberg2006}. Studien anhand von kleinen Korpora oder induktiv aufgestelle Thesen, wie in der Literatur oft üblich, sind somit nur sehr schwer zu generalisieren. \label{LNRE}
+
+\subsection{Arbeiten mit Maschinelle Lernverfahren}
+
+% Rapp1995a, Rapp1995b
+Eine der frühsten Versuche den Wortakzent im Deutschen mit Maschinellen Lernverfahren zu bestimmen stammt von \cite{Rapp1995}. Mittels \textit{Rough Sets} versuchte er symbolische Regeln aus seinen Trainingsdaten zu extrahieren. Da ihm noch kein maschinenlesbarer Betonungskorpus zur Verfügung stand, basiert seine Arbeit auf einer Auswahl von Wörtern aus \cite{Giegerich1985} und enthält bloß 242 Wörter. Seine Features beschreiben die Reimstruktur der Wörter sowie grundlegende Eigenschaften der Vokale. Im Experiment mit 5-fold Cross-Validation erreichte er eine korrekte Klassifizierung von etwa 80\% der Wörter, während die Anzahl der generierten Regeln zwischen 15 und 30 schwankt. Aufgrund des geringen Umfangs an Trainingsdaten sind die extrahierten Regeln jedoch sehr speziell. Die meisten Regeln treffen auf kaum fünf Wörter zu, sodass ein Overfitting wahrscheinlich ist.
+
+% Hain&Zimmermann2001
+
+%\cite{Hain&Zimmermann2001} haben bereits vor fast 15 Jahren mit einem Neuronalen Netz und Weight Decay den deutschen, englischen und holländischen Wortakzent versucht zu bestimmen. Sie erreichen 97,4\% mit 100 Neuronen im Hidden Layer. Als Eingabedaten für das Deutsche verwendeten sie die ersten 9 Phoneme eines Wortes. Ihre Daten entstammen dem CELEX, doch leider finden weder Trainings-/Testset-Design noch Umfang oder Inhalt der verwendeten Daten Erwähnung. Dies macht einen direkten Vergleich mit anderen Arbeiten schwierig, motiviert jedoch nichts desto trotz zu weiteren Experimenten mit Neuronalen Netzen zur Vorhersage der Wortbetonung.
+
+% Hain2004
+\cite{Hain2004} hat in seiner Dissertation mit großem Erfolg mit Hilfe von Neuronalen Netzen den Wortakzent im Deutschen, Holländischem und Englischen bestimmt, nach meinen Recherchen erzielt keine vergleichbare Arbeit bessere Ergebnisse. Er berichtet von einer korrekten Klassifizierung der deutschen Wortformen des CELEX in 97.4\% aller Fälle bei einem Neuronalem Netz mit einem Layer und 100 Hidden Units. Als Eingabefeatures für das NN verwendete Hain die einzelnen Phoneme der Wörter. Um ein Phonem darzustellen benötigte er so viele Neuronen wie Phoneme im Alphabet vorhanden sind (44). Für jedes Input-Phonem gibt es ein Output-Neuron, das Neuron mit dem höchstem Wert gibt das Phonem an, welches Zentrum der Betonung ist. Unklar ist allerdings, ob Hain bei der Aufteilung der Wörter in Trainings-/Testset bereits auf die Trennung von Lemmata achtete. Die Flektierung ändert nämlich die Betonung im Vergleich zum Lemma nicht oder verschiebt sie nur geringfügig \cite{}. Wurde ein Algorithmus mit dem Wort \enquote{laufe} trainiert, stehen die Chancen gut, dass er auch \enquote{laufen} richtig klassifiziert. Eine strikte Trennung der Wortstämme im Trainings- und Testset ist daher sehr wichtig (\cite[S.~22]{Demberg2006}).
+
+
+% DEMBERG 2006
+\cite{Demberg2006} beschäftigt sich mit dem Wortakzent als Teil der Phonetischen Transkription. Ihre Daten sind die flektierten deutschen Wortformen aus dem CELEX sowie die Schnittmenge von CELEX\footnote{Verfügbar unter http://celex.mpi.nl/} und BOMP\footnote{Es existieren verschiedene Versionen des BOMP, die öffentlich verfügbare Version ist unter https://code.google.com/p/bofu/ zu finden. Die SAMPA-Version ist leider nicht öffentlich abrufbar.}, um die Qualität der Trainingsdaten zu erhöhen.
+Beste Ergebnisse erzielt Demberg mit Hidden Markov Models, als Features dienen dabei die phonetischen Silben. Sie erreicht somit eine Fehlerrate von etwa 10\%.
+Problematisch ist jedoch die Größe der trainierten HMMs, verursacht durch die direkte Verwendung der phonetischen Silben als Eingabe-Features. Lediglich bei einer Kontextgröße von 1 ist das trainierte Modell kleiner als die unkomprimierten Trainingsdaten \cite[S.~71]{Demberg2006}.
+
+% Dou&Bergsma2009
+
+\cite{Dou&Bergsma2009} stellt einen mächtigen, weitgehend sprachunabhängigen Ansatz zur Vorhersage von Primär- und Sekundärbetonungen vor. Die Akzentplatzierung formuliert er als Sequence Prediction Problem, bei dem ein SVM-Ranker mögliche Akzentmuster bewertet. Als Features dienen silbenähnliche Teilstrings der Eingabewörter in verschiedenen Kombinationen mit dem vorhergehenden und nachfolgenden Teilstring. Er berichtet von einer Erkennungsrate von 97.1\% auf phonemischen Teilstrings. Bei Trainings-/Testsets mit verschiedenen Wortstämmen wie bei \cite{Demberg2006} erreicht er 94.3\% und repräsentiert damit den aktuellen Stand der Technik dar. Als Datenbasis diente ihm wiederum der CELEX mit seinen Flektionsformen.
+
+
+
+
+
+
+
+
+
+\section{Mein Ansatz}
+
+Im Folgenden diskutiere ich kurz bisherige Arbeiten und begründe damit den von mir gewählten Ansatz eines datenbasierten Lernverfahrens auf Basis des CELEX-Korpus mit linguistischen Features unter Verwendung von Entscheidungsbäumen, Inductive Rule Learning und Neural Networks in Weka.
+
+\paragraph*{Regel- oder datenbasiert?}
+Linguisten wie \cite{Fery1998} oder \cite{Jessen1999} haben bereits zahlreiche Hypothesen zu Wortakzentregeln formuliert, gesammelt und diskutiert, daher erscheint es naheliegend diese zu implementieren und auf den umfangreichen CELEX-Daten zu evaluieren. Die konkrete Implementierung der recht abstrakten Regeln gestaltet sich dabei im Detail jedoch als kompliziert, da die zugrunde liegenden Konzepte der Regeln sich von Autor zu Autor teils stark unterscheiden. So gibt es beispielsweise keinen Konsens über den genauen Silbenschnitt, das Silbengewicht oder wann eine Silbe als leicht oder als offen gilt.\\
+Demberg kommt darüber hinaus zu dem Schluss, dass manuell erstelle, regelbasierte Systeme stark unter den häufig fehlerhaften Trainingsdaten des CELEX leiden und somit unter den gegebenen Bedingungen nicht anwendbar sind \cite[S.~68]{Demberg2006}. Linguistische Regeln manuell zu implementieren erscheint somit höchst unattraktiv. \\
+Im Gegensatz dazu bietet ein datenbasierter Ansatz die Möglichkeit neue Regeln und Abhängigkeiten in den Daten zu entdecken, ohne sich dabei in linguistische Detailfragen verstricken zu müssen.
+
+\paragraph*{Welche Features?}
+Mit der Verwendung von Buchstaben oder Phonemen als Input-Features wurden in der Vergangenheit bereits gute Ergebnisse erzielt (\cite{Hain2004}, \cite{Dou&Bergsma2009}), jedoch lernen die Algorithmen so lediglich Wahrscheinlichkeiten und nicht die zugrunde liegenden, linguistischen Gesetzmäßigkeiten des Wortakzents \cite[S.~80]{Demberg2006}.
+\\
+Silben direkt als Features zu verwenden, wie Demberg es getan hat, ist auch nicht ratsam, da auf Silben das bereits unter Kapitel \ref{LNRE} erwähnte LNRE-Problem zutrifft \cite[S.~69]{Demberg2006b}.
+\\
+Ich orientiere mich daher in meiner Arbeit an den frühen Experimenten von \cite{Rapp1995}, der Wörter durch linguistische Features repräsentiert. Durch eine phonologischen Beschreibung der Wörter werden sehr generelle Regeln möglich und die durch den LNRE-Effekt auftretende Probleme direkter Repräsentationen umgangen.
+
+
+\paragraph*{Welcher Korpus?}
+Obwohl es verschiedene Textdatenbanken mit vielen Millionen Einträgen gibt (Übersicht in \cite{Duffner&Naf2006}), gibt es lediglich vier Korpora, die Informationen zur Aussprache enthalten. Das Aussprachelexikon ??? \cite{???} der TTS-Software ??? verzichtet dabei explizit auf die Daten zur Wortbetonung. Die drei in Frage kommenden Korpora sind damit der BOMP, die Verbmobil-Wortliste sowie der CELEX.
+\\
+Die Verbmobil-Wortliste \cite{Lungen&Ehlebracht1998} enthält Wörter in ihrer orthographischen sowie phonetischen Transkription, wobei die Wortbetonungen manuell annotierte und damit sehr hochwertig sind \cite[S.~1]{Wagner2001}. Mit XXXX Elementen ist der Umfang für meine Zwecke jedoch viel zu gering.
+\\
+Der BOMP (Bonn Machine-Readable Pronunciation Dictionary) \cite{BOMP} enthält wie die Verbmobil-Wortliste die orthographische und phonetische Form der Wörter. Er umfasst 141548 deutsche Flektionsformen, es fehlen jedoch weitere Informationen wie das dazugehörige Lemma, wodurch eine korrekte Konstruktion von Trainings- und Testset schwierig wäre. Ausgehend vom Verhältnis der Lemmata zu den Flektionsformen des CELEX kann grob geschätzt werden, dass etwa $\frac{365530}{51728} \approx 7$ flektierte Einträge zu einem Lemma gehören. Somit umfasst der BOMP schätzungsweise etwas mehr als 20000 verschiedene Lemmata und ist somit zwei Drittel kleiner als der CELEX. Aufgrund von Lizenzbedingungen ist der BOMP mit phonetischer Transkription im SAMPA-Format (HADI-BOMP), welches auch der CELEX verwendet, nicht frei im Internet verfügbar. Zum Zeitpunkt des Verfassens dieser Arbeit ist leider weder die Homepage des Institutes, noch die beim BOMP angegebene Emailadresse erreichbar.
+\\
+Der CELEX \cite{Baayen&Piepenbrock&Gulikers1995} hingegen enthält 51728 deutsche Lemmata in einer Tabelle und ihre flektierten Formen (insgesamt 365530) in einer anderen Tabelle. Die Wörter des CELEX sind annotiert mit umfangreichen orthographischen, phonologischen, morphologischen, syntaktischen und Informationen zur Häufigkeit \cite{Gulikers&Rattnik&Piepenbrock}. Obwohl die Qualität des CELEX aufgrund der stückweit automatischen Annotation besser sein könnte, ist er der Standardkorpus in vielen linguistischen Fragestellungen. Größe und Umfang wiegen somit schwerer als die vergleichsweise geringere Qualität der Daten. Möglicherweise sind vereinzelte Fehler im CELEX sogar förderlich für die Lernalgorithmen, da es sie vor Overfitting schützt. Man könnte die Fehler somit auch als Rauschen bezeichnen, das in manchen Lernaufaufgaben sogar extra hinzugefügt wird \cite{???}. Üblicherweise wird mit der etwa siebenmal so großen \texttt{wordforms}-Tabelle gearbeitet, ich habe mich jedoch für die \texttt{lemmas}-Tabelle entschieden. Die flektierten Formen sind, wie bereits erwähnt, keine \enquote{echten} neuen Samples und bringen daher nur wenig neue Information in meine Trainingssets. Zudem machen sie weitere Preprocessing-Schritte notwendig, da teilweise Wörter enthalten sind, die aus zwei einzelnen Wörter bestehen (z.B. \enquote{änderte ab}). Darüber hinaus sind ca. 10\% der Wörter komplett ohne Betonung. So erscheint mir der Mehrwert der \texttt{wordforms}-Tabelle in Anbetracht des zusätzlichen Aufwands und der womöglich noch geringeren Datenqualität als gering. Durch die Verwendung der \texttt{lemmas}-Tabelle erreiche ich außerdem direkt eine strikte Trennung von Wörtern des gleichen Stammes in Trainings- und Testset, wie \cite{Demberg2006} es fordert, da keine flektierten Wörter vorkommen.
+
+\paragraph*{Welche Algorithmen?}
+In meiner Arbeit verwende ich drei verschiedene Lernalgorithmen. Mit C4.5 verwende ich einen hocheffizienten Algorithmus zur Generierung von Entscheidungsbäumen (In Weka als \textit{J48} \cite{???} implementiert), die sich hervorragend für schnelle Experimente eignet. Die Ergebnisse sind oft nicht so gut wie von anderen Algorithmen und die Entscheidungsbäume sind häufig unnötig komplex, jedoch ist die Laufzeit auf großen Datenmengen und bei vielen hundert Features immernoch im Bereich von wenigen Sekunden. Daher eignet sich C4.5 vervorragend für kurze Experimente, um herauszufinden, ob sich weitere Experimente mit rechenintensiveren Algorithmen lohnen.
+Eine deutlich kompaktere Darstellung von interpretierbaren Regeln liefert Inductive Rule Learning mittels RIPPER \cite{???} in der Implementierung von \cite{???} in Weka als \textit{JRip}. WAS MACHT JRIP ANDERS ALS J48???
+
+Um die maximale Ausdrucksstärke der Features besser beurteilen zu können, verwende ich als drittes Lernverfahren Neuronale Netze. Sie sind als universelle Approximatoren theoretisch in der Lage jede Funktion beliebig genau anzunähren \cite{???} (VORAUSSETZUNGEN?! ANZAHL HLs??). Durch lokale Minima während der Lernphase ist dies jedoch in der Praxis oft schwierig. Insbesondere die nichtlinearität ist ein Unterschied zu den beiden vorhergenannten Lernverfahren, weswegen ich die rechenintensiven Neuronalen Netze trotzdem verwende.
+
+\paragraph*{Welche Lernumgebung?}
+Weka bietet den großen Vorteil viele Standardaufgaben des Machine Learnings und Data Minings schnell und effizient durchführen zu können. Nahezu alle gängigen Aufgaben und Algorithmen der Bereiche Preprocessing, Klassifizierung, Clustering, Associate, Attribute Selection and Visualisierung lassen sich recht komfortable mit Weka durchführen. Mit dem Explorer können einzelne Datensätze erkundet werden, im Experimenter können verschiedene Datensätze auf verschiedenen ALgorithmen getestet werden. Der Knowledge-Flow Editor bietet eine graphische Oberfläche mit der man alle Module Wekas in komplexen Workflows arrangieren kann. So können komplexe Workflows automatisiert werden. Eine Übersicht über freie Software für Data Mining und Machine Leanring findet sich in \cite{Jovic&Brkic&Bogunovic}.
+
+\subsection{Preprocessing}
+%Probleme \& Fehler, Preprocessing
+%Auf den CELEX hingegen kann über ein Webinterface zugegriffen werden. Auf diesem Wege habe ich die gesamte Tabelle \textit{Lemmas} inklusive aller verfügbarer Felder heruntergeladen und in eine lokale MySQL-Datenbank eingespielt.
+
+%\subsubsection*{Wörter mit verschiedenen Betonungsmuster}
+%Wörter mit mehr als einem möglichen Betonungsmuster:
+%Bei exakt gleicher Rechtschreibung: balance, blutarm, heroin, kredit, modern, hinterbringen, hintergehen, service, tailleur, tuerkis, widerstreben
+%Einige aus: unter-, um-, über-, durch- (Sofern mehrere Formen bestehen?)
+
+\subsection{Modellierung des Problems}
+
+Der CELEX enthält knapp 52000 Lemmata mit 70 verschiedene Betonungsmustern, wobei eine unbetonte Silbe mit einer 0 und eine betonte mit einer 1 gekennzeichnet ist. Das Wort \textit{Gartenzwerg} hätte somit das Betonungsmuster \textit{100}.
+Wenn man der Literatur bezüglich der Bezeichnung der Silben folgt, reduziert sich die Anzahl der möglichen Klassen auf 2 bis 5. Wie üblich, nenne ich die letzte Silbe \textit{Ultima}, die vorletzte \textit{Paenultima} und die vor-vorletzte \textit{Antepaenultima}.  Die erste Silbe wird  als \textit{Prima}, die zweite als \textit{Sekunda} bezeichnet.
+
+Die Betonungsmuster von lediglich 360 Wörter (0,69\%) mit genau einer Primärbetonung können mit diesem Schema nicht beschrieben werden, da sie mehr als 5 Silben besitzen und auf einer der mittleren Silben betont sind. 500 Wörter (0,97\%) sind als Trainingsdaten unbrauchbar, da sie mehr als eine Primärbetonung aufweisen. Darüber hinaus gibt es 181 (0.35\%) Wötrer mehrfach, jedoch mit unterschiedlicher Betonung. Primär sind das Wörter mit abtrennbaren Präfixen, deren Bedeutung lediglich durch die Betonung unterschieden werden kann (\textit{über}setzen - über\textit{setzen} \cite[S.~535]{}). Um möglichst saubere Trainingsdaten zu erhalten habe ich diese, insgesamt 1041 (2.01\%) ungewöhnlichen bzw. fehlerhaften Wörter aus den Trainings- und Testdaten entfernt.
+
+
+Im Fall von Ambiguitäten zwischen Betonungsklassen, beispielsweise zwischen der Prima und der Antepaenultima bei Dreisilbern, hat die antepaen-/paen-/ultima Vorrang vor der Prima oder Sekunda. Bei Zwei- und Dreisilbern gibt es also weder Prima noch Sekunda und bei Viersilbern fehlt die Sekunda.
+
+Ein Problem dieser Notation möchte ich anhand eines Beispiels erläutern: Angenommen man entdeckt, dass ein ein Praefix immer betont ist, also ein beliebiges Wort mit diesem Präfix immer auf der ersten Silbe betont ist. Als Zweisilber fällt es somit in die Klasse Paenultima, als Dreisilber in die Klasse Antepaenultima und bei Wörtern mit vier oder mehr Silben fällt es in die Klasse Prima. Eine generelle Regel muss also immer die Silbenzahl berücksichtigen.
+Testweise trainierte Entscheidungsbäume enthalten daher sehr viele Vergleiche der Silbenanzahl, obwohl diese keinen wirklichen Mehrwert an Information mit sich bringt. Außerdem werden möglicherweise andere Attribute nicht berücksichtigt, da die Silbenzahl trivialerweise häufig das signifikanteste Attribut ist.
+
+\cite{Dou&Bergsma2009} umgehend Silbifizierungsproblem durch eigene, sehr einfache Silbendeifnition. Dadurch ist jedoch die Anzahl der Silben oft falsch.
+
+%CELEX Betonungsdaten sehr verrauscht, -tion immer betont sofern letztes Suffix, nur bei der Hälfte der Fall. -ell, -ieren \cite[S.~64,~S.~68]{Demberg2006} Daher sinnvoll nicht nur auf bspw. Suffixe sich zu verlassen. So wird aus den Fehlern lediglich ein womöglich sogar förderliches Rauschen, das bei der generalisierung hiflt.
+
+\subsection{Umfang der Trainings- und Testdaten}
+
+Zum Training und Testen der Lernalgorithmen habe ich meine Datensätze in jeweils 66\% Trainingsdaten und 33\% Testdaten geteilt. Der siebensilbige Datensatz enthält so wenige Daten, dass kaum anzunehmen ist, dass sinnvolle Ergebnisse damit zu erzielen sind. Es wird sich jedoch zeigen, dass trotz des geringen Umfangs noch verhältnismäßig gute Erkennungsraten damit erzielt werden, mehr dazu später.
+%Großes Testset => LNRE trifft stark => Ergebnisse kritischer
+
+\begin{table}[h]
+\centering
+    \begin{tabular}{|c|rrr|}
+    \hline
+    Silben & 66\% Training   & 33 \% Test   & Gesamt \\ \hline
+    2       & 8271            & 4261 & 12532  \\
+    3       & 12815           & 6601 & 19416  \\
+    4       & 7518            & 3873 & 11390  \\
+    5        & 2761            & 1422 & 4183  \\
+    6        & 713             & 368 & 1081   \\
+    7      & 163             & 84 & 247       \\ \hline
+    \end{tabular}
+\caption{Umfang der Trainings- und Testdaten}
+\end{table}
+
+\subsection{Preprocessing}
+Die aus dem Internet abgerufenen CELEX-Daten habe ich in einer lokalen MySQL-Datenbank gespeichert und mittels verschiedener Python-Klassen darauf zugegriffen. Neben der Konstruktion der Querys ist die Hauptaufgabe des Scripts die Generierung virtueller Attribute, die selbst nicht in der Datenbank enthalten sind, sich aber aus verschiedenen Feldern erzeugen lassen. 
+
+Eine weitere Klasse meines Scripts erweitert die MySQL-Tabelle um folgende Daten:
+\begin{enumerate}
+\item Eine Spalte mit der Betonungsklasse (ultima, prima, antepaenultima, paenultima, ultima, nulla (ohne), multa (mehrere))
+\item Einem Flag ob der Datensatz konsistent ist, also genau eine Primärbetonung hat, ob das Tupel (Wort, Betonung) eindeutig ist und mit den fünf oben definierten Betonungsklassen beschrieben werden kann.
+\item Eine Flag, ob das selbe Wort mehrfach mit verschiedener Betonung enthalten ist (VERWENDE ICH DAS, ODER BEZIEHE ICH DIE MIT EIN???)
+\item Ein Attribut mit eigener Silbenzählung, da die orthographische Silbenzählung des CELEX aufgrund eines eigensinnigen Silbenschnitts problematisch ist. 
+\item Umlaute wurde in den Wörtern durch Zahlen ersetzt, damit jeder Buchstabe die Länge 1 hat. Im CELEX wird außerdem leider nicht zwischen ss und ß unterschieden, daher habe ich beide zu einem Zeichen ({\$}) zusammengefasst.
+\end{enumerate}
+
+

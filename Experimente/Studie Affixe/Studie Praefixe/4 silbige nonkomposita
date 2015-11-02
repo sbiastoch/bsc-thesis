@@ -1,0 +1,21 @@
+4 silbige nonkomposita
+
+unbetont, 2. betont: ver, zer, be, ent, er
+praefix = ver: antepaenultima (221.0/3.0)
+praefix = zer: antepaenultima (9.0)
+praefix = be: antepaenultima (166.0)
+praefix = ent: antepaenultima (31.0)
+praefix = er: antepaenultima (59.0/1.0)
+
+betont: ab-, an-, auf-, aus-, durch-, ein-, fern-, fort-, mit-, nach-, ur-
+praefix = ab: prima (64.0/5.0)
+praefix = an: prima (69.0/5.0)
+praefix = auf: prima (48.0/2.0)
+praefix = aus: prima (70.0/2.0)
+praefix = durch: prima (3.0)
+praefix = ein: prima (64.0)
+praefix = fern: prima (1.0)
+praefix = fort: prima (2.0)
+praefix = mit: prima (17.0)
+praefix = nach: prima (15.0)
+praefix = ur: prima (20.0/1.0)

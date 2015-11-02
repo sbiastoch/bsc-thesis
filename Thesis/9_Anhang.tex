@@ -1,0 +1,81 @@
+\renewcommand{\thesection}{\Alph{section}}%
+\appendix 
+\addcontentsline{toc}{chapter}{Anhang} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Studie zu Affixen}
+\label{affix_studie}
+Zur Identifizierung möglichst vieler relevanter Prä- und Suffixe habe ich eine kleine Studie zu betonten/unbetonten Affixen durchgeführt. Hierfür habe ich einen Entscheidungsbaum mittels REPTree aus WEKA auf dem kompletten Datensatz (ohne Komposita) je Silbe trainiert. Als Features dienten mir lediglich die Suffixe bzw. Präfixe.  
+Ich habe deutlich mehr Suffixe als Präfixe gefunden, die eine eindeutige Betonungsklasse identifizieren. Aus allen Affixen habe ich die mit weniger als 10\% Ausnahmen identifiziert.
+Datensätze mit wenigen Silben haben mehr eindeutig betonte oder unbetonte Affixe. Bemerkenswert ist, dass es bei den Wörtern mit mehr als 3 Silben kein signifikantes Affix gibt, dass sich nicht schon bei den Zwei- und Dreisilbern als wichtig herausgestellt hat. Man kann jedoch bei einigen Affixen feststellen, dass sie häufiger eindeutig betont/unbetont sind als andere, beispielsweise -ik und -ismus. Ich vermute dass bei kurzen Wörtern es weniger andere Phänomene auftreten können, als bei langen Wörtern. Dies wäre ein Indiz für die sogenannte XYZ Hypothese, wie sie unter anderem in [CITE] formuliert wurde. Darüber hinausgehend formuliere ich die Hypothese, dass es nicht nur betonte und unbetonte Affixe gibt wie in [CITE] angegeben, sondern verschiedene Grade an Anzieungskraft der Betonung gibt. Ausgehend von der Hypothese, dass mehrere Betonungsregeln in wechselseitiger Beziehung zu einer stehen erscheint es um so sinnvoller neben Entscheidungsbäumen und Propositional Rule Learnern auch nichtlineare Neuronale Netze in die Untersuchung mit einzubeziehn, die im gegensatz zu den beiden erstgenannten Verfahren diese interdependeznen abbilden können.
+\input{figures/betonte_praefixe_nonkomposita.tex}
+\input{figures/unbetonte_suffixe_nonkomposita.tex}
+\input{figures/unbetonte_praefixe_nonkomposita.tex}
+\input{figures/betonte_suffixe_nonkomposita.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Features und Featuresets}
+\label{detail_performance}
+Die Summen am Ende der Tabelle beziehen sich auf die Anzahl der Werte aller Features eines Featuresets. Numerische Attribute Zählen als $1$. So gesehen ist die entsprechende Summe gleich der Anzahl an Neuronen im Input-Layer des Neuronalen Netzes.
+\input{figures/attr_counts}
+\ref{attr_counts}
+\newpage
+
+%\begin{landscape}
+
+\clearpage
+\input{figures/featurematrix}
+\clearpage
+%\end{landscape}
+
+%%%%%%%%%%%%%%%%%%%%
+
+\section{Detailierte Erkennungsraten}
+\label{performance_details}
+\begin{center}{\includegraphics[width=12cm]{figures/basicstats/2syl-basicstats.png}}\end{center}
+\begin{center}{\includegraphics[width=12cm]{figures/basicstats/3syl-basicstats.png}}\end{center}
+\begin{center}{\includegraphics[width=12cm]{figures/basicstats/4syl-basicstats.png}}\end{center}
+\begin{center}{\includegraphics[width=12cm]{figures/basicstats/5syl-basicstats.png}}\end{center}
+\begin{center}{\includegraphics[width=12cm]{figures/basicstats/6syl-basicstats.png}}\end{center}
+\begin{center}{\includegraphics[width=12cm]{figures/basicstats/7syl-basicstats.png}}\end{center}
+\newpage
+
+%\section{Einfluss der Features}
+\begin{figure}[!p]
+    \begin{floatrow}
+        \ffigbox{\includegraphics[scale = 0.27]{figures/features/jrip_feature_influence.png}} {
+            \caption{75 häufigste Features}
+            \label{figure:jrip_feature_influence}
+        }
+        \ffigbox{\includegraphics[scale = 0.27]{figures/features/j48_feature_influence.png}} {
+            \caption{75 häufigste Features}
+            \label{figure:j48_feature_influence}
+        }
+    \end{floatrow}
+\end{figure}
+
+%\section{Beispielregeln von JRip}
+\input{figures/jrip_examples.tex}
+\begin{landscape}
+\input{figures/data_example.tex}
+\end{landscape}
+
+%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{landscape}
+%\section{Vergleich der Modelle}
+
+%\begin{center}{\includegraphics[width=22cm]{figures/compare/2syl.png}}\end{center}
+%\begin{center}{\includegraphics[width=22cm]{figures/compare/3syl.png}}\end{center}
+%\begin{center}{\includegraphics[width=22cm]{figures/compare/4syl.png}}\end{center}
+%\begin{center}{\includegraphics[width=22cm]{figures/compare/5syl.png}}\end{center}
+%\begin{center}{\includegraphics[width=22cm]{figures/compare/6syl.png}}\end{center}
+%\begin{center}{\includegraphics[width=22cm]{figures/compare/7syl.png}}\end{center}
+%\end{landscape}
+
+%\cleardoublepage

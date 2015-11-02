@@ -1,0 +1,219 @@
+% Silbische Konsonanten \cite[S.~33]{Hall2011}
+% Alle Vokale sind Sonorant \cite[S.~22f]{Hall2011}
+ 
+\chapter{Feature Engineering}   
+\section{Phonologische Features}
+
+%\cite{LipoWang&HouChaiQuek} Okkhams Razor nicht gültig für NNs
+
+%\cite{Wagner2001} hält Silbengewicht schwer/leicht für zu einfach, Sonorität als wichtige Lauteigenschaft wird igonirert.
+
+%Perfekte Silbierung nicht notwendig \cite[S.~123]{Dou&Bergsma2009}
+
+\subsection{Transkription der Silben in Phonemklassen}
+
+Der Akzent ist in Sprachen mit freien Wortakzent, wozu das Deutsche zählt [CITE], trivialerweise durch das zugrunde liegende Wort bestimmt. Da einzelne Buchstaben hinsichtlich ihrer Aussprache nicht eindeutig sind, betrachte ich direkt die Phoneme.
+Dies erscheint sinnvoll, da beispielsweise 
+Da es aber noch mehr Phoneme als Grapheme gibt, ist es sinnvoll, diese in Klassen einzuteilen und die Abfolge dieser Phonemklassen als Features zu verwenden.
+Hierzu ist es jedoch notwendig die Linguistischen Unterscheidungsmerkmale von Phonemen zu verstehen.
+
+\cite[S.~12]{Mengel1998} gibt an, dass der Wortakzent in der \enquote{Gesamtheit des Wortes} gespeichert sein könnte. Ein Wort besteht aus seinen Lauten, daher nehme ich an, dass trivialerweise der Akzent aus seinen Phonemen ableitbar sein muss. Somit könnte es erfolgsversprechend sein die zahlreichen Phoneme in Klassen zu unterteilen und die Sequenz der Klassen je Silbe zu betrachten. Das Ziel ist die Silben selbst als Feature zu verwenden, jedoch nicht in ihrer direkten phonetischen Transkription, sondern deutlich kompakter in dem die Phoneme in Klassen unterteilt werden.
+Die Linguistik kennt eine Vielzahl an Merkmalen, mit denen Laute unterschieden werden können, dabei unterscheidet man Konsonanten und Vokale.
+
+Konsonanten werden durch drei Parameter unterschieden:
+\begin{enumerate}
+
+\item Stimmhaftigkeit: Beschreibt die Koordination des Verschlusses und der Stellung der Stimmlippen. Stimmhafte Laute bringen die Stimmlippen zum Vibrieren während dies bei stimmlosen nicht der Fall ist. Ein weiteres Attribut ist die Aspiration, also das anhauchen eines Lautes, wie beim das K bei K$^{(h)}$asse \cite[S.~5,~19ff]{Hall2011}
+
+\item Artikulationsstelle: Position im Sprachorgan, an dem der Laut entsteht. Im Deutschen unterscheidet man 8 Artikulationsstellen.\cite[S.~6,~32]{Hall2011}
+
+\item Artikulationsart: Beschreiben den Durchfluss des Luftstroms bzw. dessen Hemmung. Laute, bei denen der Luftstrom ungehindert fließt, nennt man Sonoranten, andernfalls heißen sie Obstruenten. Da bei Vokalen der Luftstrom immer ungehindert fließt, sind alle Vokale Sonoranten. Innerhalb dieser beiden wichtigen Hauptklassen gibt es viele verschiedene Unterklassen, die zu unterscheiden für unsere Zwecke nur bis zu einem bestimmten Grad sinnvoll sind. \cite[S.~9ff,~22f]{Hall2011}
+
+\end{enumerate}
+
+Bei Vokalen sind andere Eigenschaften nötig, um sie von einander zu unterscheiden:
+
+\begin{enumerate}
+
+\item Zungenhöhe: Legt die Größe des Luftkanals fast. Eine tiefe Zunge verursacht einen \textit{offenen} Luftkanal, eine hohe einen (weiter) \textit{geschlossenen}. \cite[S.~23]{Hall2011}
+
+\item Zungenlage: Beschreibt die horizontale Position der Zunge, man unterscheidet im wesentlichen zwischen Vorne und Hinten.\cite[S.~23f]{Hall2011}
+
+\item Lippenrundung: Es wird unterschieden zwischen gerundeten und ungerundet Lippen bei der artikulation.\cite[S.~24]{Hall2011}
+
+\item Gespannt/ungespannt: Beschreibt die muskuläre Anspannung der Zunge bei Aussprache des Vokals.\cite[S.~27]{Hall2011}
+
+\item Oral/nasal: Vokale können auch nasal ausgesprochen werden, wie im französischem bon. Andernfalls heißen sie oral.\cite[S.~28]{Hall2011}
+
+\item Länge: Die Länge des Vokals in der Aussprache (lang/kurz). \cite[S.~28]{Hall2011}
+
+\item Monophtong/Diphtonge: Ein Diphtong (ei, eu, au, ...) sind zwei Vokale, die auf der Dauer eines einzelnen ausgesprochen werden und zur Selben Silbe gehören.\cite[S.~29]{Hall2011}
+
+\end{enumerate}
+\input{figures/phoncats.tex}
+Diese Übersicht verdeutlicht, dass es eine Vielzahl an Unterscheidungsmerkmalen gibt, man für eine Einteilung in disjunkte Klassen jedoch nicht gut alle verwenden kann. Bei nichtsilbischen Konsonanten verwende ich die Artikulationsart als Klassenmerkmal, die silbischen Konsonanten formen eine Klasse und bei den Vokale unterscheide ich zwischen Diphtongen, Lang- und Kurzvokalen sowie Nasalen Vokalen. Die genaue Einteilung ist in Tabelle 4.2 dargestellt. Diese Einteilung ist sicher nicht perfekt, stellt jedoch einen Ausgangspunk für weitere Optimierungen in späteren Arbeiten dar.
+
+WARAUM DIESE MERKMALE UND KEINE ANDEREN?
+
+Aus der Klassifizierung der Phoneme habe ich vier Features generiert: Die Phonklassen der Silbe, des Onsets, des Nucleus und der Koda. Obwohl in der Literatur häufig der Onset als irrelevant dargestellt wird [CITE], habe ich diesen mit einbezogen um nicht leichtfertig möglicherweise wertvolle Features zu verschenken.
+
+%Phonemklassen:
+%    Konsonanten
+%        Artikulationsart
+%    Vokale
+%        Länge: Lang, Kurz
+%        Oral/Nasal: Nasal
+%        Mono/Diphtong: Diphtong
+
+\subsection{Sonorität}
+Dem Vorschlaf von \cite{Wagner2001} folgend beziehe ich die Sonorität als wichtige akusitische Eigenschaft mit ein.
+
+\input{figures/sonority.tex}
+Man kann Phone entsprechend ihrer Sonorität hierarchisch auf einer Skala anordnen, die angibt wie klanghaft sie sind \cite[S.~230]{Hall2011}:
+
+\begin{center}
+$Vokale > Liquide > Nasale > Obstruenten$
+\end{center}
+
+Neben dem Attribut $sonority[i]$, der die Sonorität angibt, berechne ich die das Verhältnis von Sonorität je Phonem ($sonority\_ratio[i]$). Es quantifiziert die Ballung der Sonorität, da es für die Betonung möglicherweise ein Unterschied machen könnte, ob eine Silbe kurz und sonor oder lang und wenig sonor ist. Darüber hinaus berechne ich den Sonoritätsverlauf über die Silben des Wortes hinweg. Hierzu berechne ich die Steigung der Graden einer linearen Regression über den Sonoritätswerten der Silben des Wortes. Die Hypothese dahinter ist, dass der Akzent vielleicht davon abhängig ist, ob die Sonorität zum Ende des Wortes hin steigt oder fällt.
+
+%Sonorität:
+%    Konsonanten
+%        Artikulationsart
+%    Vokale
+%        Oral/Nasal: Nasal
+%        Mono/Diphtong: Diphtong
+%        Zungenhöhe: Offen, Geschlossen
+
+\subsection{Silbengewicht}
+Das Silbengewicht wird oft als eine der zentralen Attribute zur bestimmung des Wortakzented verwendet \cite[S.~69]{Janssen2003}, \cite{Giegerich1985}, \cite{Fery1998}, \cite[S.~2ff]{Prince1990}, \cite{Mengel1998}. Man sagt, der Akzent sei gewichts- oder quantitätssensitiv. \cite[S.~3]{Janssen2003}
+Phonologen sind sich jedoch nicht in allen Punkten einig, wann eine Silbe als schwer gilt und wann nicht \cite[S.~3]{Janssen2003}, \cite[S.~34]{Kaltenbacher1994}. Eine sehr gute Übersicht über die verschiedenen Definitionen von Schwere findet sich in \cite[S.~38]{Mengel1998}.
+Nach dem Ansatz von \cite[S.~46]{Eisenberg1991} und \cite[S.~330f]{Wagner2001} unterscheide ich nicht nur in schwere und leichte Silben, sondern auch noch Schwa-Silben, die nie betonbar sind \cite[S.103]{Fery1998}. Dies hat sich bei mir als wichtiges Attribut bewährt.
+In meiner Implementierung orientiere ich mich am Ansatz von \cite[S.~330f]{Wagner2001} nach \cite{Fery1998}. Schwa-Silben sind jedoch bei mir lediglich durch ein Schwa, nicht durch silbische Konsonanten determiniert. Bei mir gelten somit Silben, die auf VC oder VV enden als leicht, Silben, die ein Schwa (DISC: @) oder einen syllabischen Konsonanten (DISC: C, F, H, P, R) enthalten als ultraleichte Silben und alle anderen als schwer. Zur Feststellung der VC-Struktur greife ich auf das PhonCV-Feld des CELEX zurück. Das numerische Attribut $syl\_weight[i]$ gibt somit das Silbengewicht der i-ten Silbe an.
+
+Hier gilt wieder, wie bei den Phonklassen auch, dass diese Einteilung lediglich als Ausgangspunkt für weitere phonologische und empirische Optimierungen dienen kann und in dieser Form sicherlich nicht optimal ist.
+
+\subsection{Offene Silben}
+Silben kann man strukturell in drei Teile zerlegen: Jede Silbe besitzt einen Nucleus, den Silbenkern, der aus einem Vokal, einem Diphtong aus zwei Vokalen oder einem sylbischen Konsonanten besteht. Der Nucleus kann links und rechts von Konsonanten eingeschlossen sein. Konsonanten einer Silbe vor dem Nucleus heißen Onset, Konsonanten danach heißen Koda. Silben ohne Koda heißen offen. [CITE]
+
+Das boolsche Attribut $syl\_open[i]$ gibt an, ob die i-te Silbe offen ist.
+
+\subsection{Nicht verwendete Features}
+\paragraph*{Nativität}
+Viele Arbeiten, die den deutschen Wortakzent untersuchen unterscheiden zwischen nativen und nicht-nativen Wörtern. Nichtnative Wörter sind solche, die aus anderen Sprachen übernommen wurden. Diese Unterscheidung ist jedoch häufig nicht eindeutig zu treffen, darüber hinaus würde es die Dinge stark verkomplizieren, da Regeln immer für den nativen und den (oder die) nichtnativen Fälle formuliert werden müssen. \cite[S.~76ff]{Giegerich1985}, \cite[S.~17]{Mengel1998}
+Daher habe ich mich der Ansicht von  \cite[S.~43]{Kaltenbacher1994} angeschlossen, der gegen eine generelle Aufteilung des Wortschatzes in native und nichtnative Wörter sich ausspricht.
+
+\section{Morphologische Features}
+
+...\cite[S.~3]{Janssen2003}
+
+\subsection{Prä- und Suffixe}
+
+Bei Attributen musste ich stark abwägen zwischen generalisieren und nur die wichtigsten Affixe oder Affixkllassen als Features verwenden, oder den Lernalgorithmen möglichst viele Daten geben, damit sie eventuell bestehende abhängigkeiten oder Koinzidenzien ausnutzen zu können? Daher habe ich versucht beides zu tun. Decision Trees und Inductive Rule Learner mögen von der höheren Generalisierung profitieren während das Neuronale Netz wahrscheinlich die feineren Informationen besser verarbeiten kann.
+
+Daher habe ich die Affixe auf folgende Arten als Features verwendet: Ich habe die Affixe in Klassen eingeteilt, betont, unbetont und sonstiges. Die Einteilung der Prä- und Suffixe in ihre Klassen habe ich entsprechend meiner Studie in Anhang \ref{affix_studie}. 
+
+Das Präfix bzw. Suffix eines Wortes ist die erste bzw. letzte Silbe eine Wortes. Die Feautres praefix\_class und suffix\_class haben drei mögliche Werte: betont / unbetont / keins. Keins bedeutet hier jedoch nicht, dass kein Affix vorhanden ist, sondern das keines vorhanden ist, dass sich häufig (un)betont ist. \ref{unbetonte_suffixe} sind die verwendeten unbetonten Suffixe, die Klasse der betonten Suffixe in \ref{betonte_suffixe} umfasst lediglich zwei Elemente.
+
+\begin{gather}
+    \label{unbetonte_suffixe}
+    \textrm{-ig, -ik, -ismus, -lich, -ler, -ling, -nis, -tum}\\
+    \label{betonte_suffixe}
+    \textrm{-ist, -ei}
+\end{gather}
+
+Die Zuordnung der Präfixe zu unbetonte \ref{unbetonte_praefixe} und betonten \ref{betonte_praefixe} ist wie folgt:
+\begin{gather}
+    \label{unbetonte_praefixe}
+    \textrm{be-, ent-, er-, ver-, zer-}\\
+    \label{betonte_praefixe}
+    \textrm{ab-, an-, auf-, aus-, bei-, durch-, ein-, fern-, fort-, gegen-, hinter-, hin-,}\\
+    \textrm{hoch-, mit-, nach-, über-, um-, unter-, ur-, vor-, weg-, zu-}\nonumber
+\end{gather}
+
+Neben der Klassifizierung der Affixe habe ich auf 
+Signifikante Suffixe:
+\begin{gather}
+    \textrm{-ig, -ung, -er, -ler, -lich, -isch, -ling, -ik, -nis, -ei, -ist,}\\
+    \textrm{-ismus, -bar, -sam, -keit, -heit, -tum, -schaft}\nonumber
+\end{gather}
+
+
+Suffixe habe ich von \cite[S.~28]{Giegerich1985} nach \cite{Benware1980}4verwendet. Diese Sammlung ist deutlich umfangreicher als meine eigene. Er unterscheidet dabei zwischen \enquote{Nonnative stressed suffixes} (\ref{nonnative_stressed_suffixes}), \enquote{Native suffixes} (\ref{native_suffixes}) und \enquote{Nonnative unstressed suffixes} (\ref{nonnative_unstressed_suffixes}).
+
+Dies sind die :
+\begin{gather}
+    \label{nonnative_stressed_suffixes}
+    \textrm{-abel, -age, -al, -ial, -and, -ant, -anz, -ar, -är, -at, -eil, -ement,}\\
+    \textrm{-end,-ei, -ent, -enz, -esk, -euse, -lade, -ibel, -ie, -ier, -ine, -ion,}\nonumber\\
+    \textrm{-ist, -ität, -iv, -os, -ös, -ual, -uell, -ur}\nonumber\\
+    \label{native_suffixes}
+    \textrm{-chen, -ler, -heit, -keit, -igkeit, -isch, -lein, -ling, -los, -bar, -mäßg,}\\
+    \textrm{-nis, -sam, -schaft, -ung, -tum, -sel, -er, -icht}\nonumber\\
+    \label{nonnative_unstressed_suffixes}
+    \textrm{ian, -ien, -ier, -is, -iter, -us, -a, -um, -o, -i, -or, -ik}
+\end{gather}
+
+Eine weitere Hypothese von mir ist, dass betonte und unbetonte Suffixe nicht aufgrund einer Art von \enquote{Konvention} hin den Akzent tragen oder abstoßen, sondern dass die Wörter lediglich gemeinsame zugrunde liegende \textit{Merkmale} teilen, die die Akzentposition beeinflussen. Daher verwende ich auch die Transkription der Affixe in die phonetischen Klassen aus \ref{table:phoncats} als Features.
+Genau so ist es möglich, dass Prä- oder Suffixe nicht die komplette erste/letzte Silbe benötigen, um ein eindeutiger Indikator für eine (nicht) Betonung zu sein. Daher verwende ich als vierte Darstellungsebene der Affixe die ersten/letzten 1-5 Buchstaben sowie die ersten/letzten Phoneme in ihrer Einteilung in die Phonemklassen aus \ref{table:phoncats}.
+
+\subsection{CV-Silbenstruktur}
+\begin{itemize}
+\item Jede einzelne Silbe in CV-Darstellung.
+\item Länge von Onset, Nucleus und Koda in CV-Darstellung. Der Nucleus besteht in dieser Darstellung lediglich aus einem oder mehreren V's und Onset bzw. Koda sind die vorhergehenden/nachfolgenden C's
+\item Verhältnis von Konsonanten (C) zu Vokalen bzw. silbuschen Konsonanten (V)
+\item Länge der orthographischen Silben
+\end{itemize}
+
+\section{Weitere Features}
+Unter dieser Kategorie habe ich Features subsummiert, die nicht direkt aus der phonetischen Transkription ableitbar sind. Hierzu gehören die Wortart, ein Flag ob das Wort ein Nomen ist, also großgeschrieben wurde, und Informationen zur Komposita-Struktur. Insgesamt enthält das Feld ImmClass, welches .... angibt, 250 verschiedene Werte. Nach dem Entfernen der Affix-Marker (x) bleiben 93 verschiedene Werte übrig. Die Länge dieses Feldes entspricht nun der Länge des Kompositums in einer flachen Segmentierung.
+
+Akzent könnte wortartabhängig sein \cite[S.~37]{Eisenberg1991}
+
+\paragraph*{Wortart (\texttt{pos})}
+Nur die vier häufigsten Klassen (N, A, V, ADV), die jedoch $99,1\%$ aller Wörter ausmachen. 
+
+\paragraph*{Kompositumstruktur (\texttt{comp\_struct})}
+Hierfür nutze ich das Feld ImmClass , welches die am wenigsten detailierte Form der morphologischen Analyse im CELEX ist. Es ist die \enquote{Immediate Segmentation} eines Wortes, es gibt Informationen über die Wortart der Wörter, die ein Kompositum formen.
+ImmClass, x entfernt, 200 verschiedene, ohne x nur noch 93 verschiedene. Nur Klassen mit mehr als 250 Elementen. 
+\begin{gather}
+    \textrm{N, V, NN, A, R, VN, AN, F, NA, BV, PV, NV, PN, AV, NF, AA, B}
+\end{gather}
+
+\paragraph*{Nomen (\texttt{nomen})}
+Erster Buchstabe groß?
+
+\paragraph*{Länge des Kompositums \texttt{comp\_len}}
+Länge von \verb'comp_struct'
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Featuresets}
+
+Die Feature Selection ist eine sehr wichtige Aufgabe im Machine Learning und Data Mining. Je weniger, dafür jedoch aussagekräftige Features man hat, desto bessere Ergebnisse sind damit erzielbar. [CITE]
+Da ich jedoch nicht weiß, welche Features relevanter sind oder welche möglicherweise erst in Kombination miteinander zu starken Indikatoren werden, habe ich eine Zahl an verschiedenen, teils disjunkten Featuresets gebildet.
+
+% all, numeric, sparse
+Sie gliedern sich in drei Arten: Die Gesamtfeaturesets, die sehr viele verschiedene Features enthalten, die Einzelfeatures, welche einen bestimmten Aspekt, beispielsweise die Suffixe oder die Sonorität betrachten sowie Bündel aus Einzelfeaturers.
+
+Das Ziel ist somit einen Überblick über die Ausdrucksstärke von einzelnen Featuren zu erhalten. Dies könnte man auch zur Auswahl von möglichst verschiedenen, unkorrelierten Modellen verwenden, um Esembles zu bilden.
+
+Eine detailierte Übersicht über die Anzahl der Werte je Feature und die Zuordnung der Features auf die Featuresets befindet sich in Anhang \ref{featurematrix}. 
+
+Um die Ergebnisse im Kontext der Schwierigkeit der Probleme beurteilen zu können gebe ich zu allen Ergebnissen jeweils das Ergebnis des trivialen Classifiers ZeroR an. Er klassifiziert alle Instanzen mit der häufigsten Klasse im Trainings-Datenset. Ein Classifier, der nicht besser als ZeroR ist, konnte keine Information aus den gegebenen Features ziehen.
+
+\section{Postprocessing}
+Bevor die empfangenen und weiterverarbeiteten Daten ausgegeben werden wurden noch folgende Postprocessing-Schritte durchgeführt:
+\begin{enumerate}
+\item Zeilen mit unpassender Spaltenzahl wurden herausgefiltert. Dies waren in der Praxis jedoch nur sehr wenige Wörter.
+\item Um die Anzahl an möglichen Werten pro Attribut möglichst klein zu halten und sich auf die häufigsten, d.h. repräsentativsten Werte zu beschränken wurden seltene Werte herausgefiltert. 
+\end{enumerate}
+
+%\chapter{Training der Lernalgorithmen}
+%Modelle konfigurieren                  
+%Modelle trainieren                     
+%Test-Set auf allen Modellen testen     
+%Ergebnisse

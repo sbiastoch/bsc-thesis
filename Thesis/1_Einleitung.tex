@@ -1,0 +1,57 @@
+\chapter{Einleitung}\label{Einleitung}
+%%%%%%%%%%%%%%%%%%%%%%
+% Was wurde untersucht? Was ist daran neu?
+% Warum ist das schwierig? Was sind die Herausforderungen?
+% Warum relevant?
+% Was leistet meine Arbeit? Welche wiss. Beiträge leiste ich?
+% Was gibt es für ähnliche Arbeiten? Wie ist meine Anders?
+% Der Fahrplan: Wie ist die Arbeit aufgebaut?
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%Betonung/wichtiger Name etc.: \textit{sehr}\\
+%Modell: \texttt{phoncat/JRip}\\
+%Algorithmus: \textbf{J48}\\
+%Featureset: \textsc{phoncat}\\
+%Feature: \textsf{syl\_len3}\\
+%%%\uppercase{Nicht verwendet}\\
+%%%\textsl{Nicht verwendet}\\
+
+Seit den 60er Jahren untersucht \cite[S.~63]{Demberg2006}
+
+Chomsky Halle 1968 context-sensitive Regeln für Englische Betonung
+
+Im Gegensatz zu bisherigen Forschungsansätzen betrachte ich nicht direkt den gesamten Korpus, sondern teile ihn auf in 2-7 silbige Wörter. Statt \textit{einem} Lernproblem betrachte ich also \textit{sechs} verschiedene.
+
+Der Akzent ist nach \cite[S.~278]{Hall2011} ein \enquote{Kernbereich der Phonologie, weil viele Sprachen über phonologische Regeln verfügen, die sich auf betonte bzw. unbetonte Silben beziehen.} Dies bedeutet, dass Kenntnis über die betonte Silbe eines Wortes nicht nur die Betonung desselben verbessert, sondern auch als gesamtes ein korrekte Aussprache unter Umständen erst möglich macht.
+
+Im Deutschen sind die Akzentregeln jedoch sehr kompliziert \cite[S.~280]{Hall2011}.
+
+Wortakzent ist schwierig, Übersicht in \cite{Jessen1999}.
+
+Teilweise widersprüchliche Studien mit nicht ausreichend begründeten Annahmen, die allesamt sich lediglich auf wenige Beispiele beziehen \cite[S.~101f]{Fery1998}, \cite{Kaltenbacher1994}
+
+Bestes Werk zum deutschen Wortakzent \cite{Mengel1998}
+
+Fokus auf Nonkomposita, da Kompositabetonung von der Struktur und von lexikalisiert? abhängt. Grundlage dafür ist sind jedoch Nonkomposita.
+
+Beispiel Lebensmittelpunkt \cite[S.~62]{Demberg2006}
+
+CELEX schlechr für Komposita, da Akzentzuweisung fast immer auf der ersten Silbe und wenig >echte< (nicht lexikalisierte) Komposita. \cite[S.~62]{Demberg2006}
+
+Motivation: Einfacher Ansatz mit generellen linguistischen, sprachunabhängigen Features, wenig Vorwissen oder Detailwissen über die Wort, wenig morphologische informatinoen.
+
+Vielen Linguisten versuchen viele einfache Regeln zu finden (Wagner, Jessen). Regelbasierte Ansätze leiden stark unter verrauschten/fehlenden  Daten, dieser ANsatz dahe für CELEX schlecht geeignet. \cite[S.~68]{Demberg2006}
+
+
+
+
+Von der linguistischen Perspektive sind bisherige Arbeiten zum deutschen Wortakzent höchst unbefriedigend. Weder auf klare Definitionen grundlegender Konzepte, noch auf eindeutige Regeln konnte man sich bisher einigen. Meistens wird in Aufsätzen zum Wortakzent zudem induktiv argumentiert: Eine These wird anhand einiger Beispiele verdeutlicht. Andere Autoren finden daraufhin Gegenbeispiele, stellen die Definition der zugrunde liegenden Konzepte in Frage und stellen Gegenthesen oder alternative Definitionen auf. Selbst die Definition der Silbe an sich ist nicht unumstritten.
+
+Aus diesem Grund ist es verständlich, dass es viele vollkommen datenbasierte Ansätze gibt, die lediglich mit n-Grammen als Features arbeiten .
+
+Der Wortakzent wird bereits seit den Ende der 60er Jahre untersucht \cite{CHOMSKY&HALLE1968}. Die meisten Linguisten gehen dabei jedoch rein induktiv vor, in dem sie aufgestellte Regeln anhand von Beispielen versuchen zu verifizieren. So formulierte Analysen und Theorien stehen daher teilweise im Widerspruch zueinander \cite{Fery1998}, was deduktive, datenbasierte Verfahren motiviert.
+
+Unter den datenbasierten, statistischen Verfahren werden am häufigsten und mit großem Erfolg n-Gramme in Kombinationen mit Support Vector Machines verwendet. Von einer linguistischen Perspektive sind diese Methoden jedoch uninteressant, da sie keinerlei Einsicht in das Gelernte ermöglichen.
+Regelbasierte Ansätze sind insofern oft schwierig, da sich die Autoren oft über die Definition von Kernbegriffen wie z.B. dem Silbengewicht uneins sind. %Umfangreiche Studien, ob das Deutsche eine quantitäts-sensitive Sprache ist, sind daher schwierig zu interpretieren, da sie sich jeweils auf individuelle Definitionen des Silbengewichts stützen.

@@ -1,0 +1,29 @@
+\chapter{Machine Learning Grundlagen}
+\section{Entscheidungsbäume}
+% https://books.google.de/books?id=b3ujBQAAQBAJ&lpg=PR4&ots=sP5pSLEnH2&dq=J.%20R.%20Quinlan%2C%20c4.5&hl=de&pg=PR5#v=onepage&q=J.%20R.%20Quinlan,%20c4.5&f=false
+Ross Quinlan C4.5
+
+
+Attribut Selektion
+Entropie der Subsets minimieren \cite[S.~60ff]{Bramer2007}
+Entropie neigt dazu Attribute mit vielen Werten zu wählen \cite[S.~72]{Bramer2007}
+Gain Ratio in C4.5 benutzt
+
+
+\section{Inductive Rule Learner}
+% http://www.cs.utsa.edu/~bylander/cs6243/cohen95ripper.pdf
+Zwei Phasen: Growing und Pruning
+Pruning, REduced error Pruning
+Growset und Prunset
+Solange Prunen wie der Fehler kleiner wird
+TOp-down inductive learning
+RIPPERk als verbsseurng von IREP
+FOIL und TopDownInductiveLearning\cite[S.~701]{RusselNorvig}
+regeln werden erstellt durch wiederholte maximierung von FOILs Information Gain Kriterium, in jeder iteration kommt eine bedingung hinzu, bis es keine negativbeispiele mehr gibt
+\section{Neural Networks}
+Modelieren biologisches Neuron.
+Inputs, Outputs, Aktivierungsfunktion
+%\section{Evaluationsmaße}
+%\subsection{Accurancy}
+%\subsection{Precision}
+%\subsection{F-Value}

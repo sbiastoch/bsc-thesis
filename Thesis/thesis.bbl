@@ -1,0 +1,148 @@
+\begin{thebibliography}{DBJK09}
+
+\bibitem[Ben80]{Benware1980}
+Wilbur~A. Benware.
+\newblock Zum fremdwortakzent im deutschen.
+\newblock {\em Zeitschrift f{\"u}r Dialektologie und Linguistik},
+  47(3):289--312, 1980.
+
+\bibitem[BPG95]{Baayen&Piepenbrock&Gulikers1995}
+R.~H. Baayen, R.~Piepenbrock, and L.~Gulikers.
+\newblock {\em The Celex lexical database}.
+\newblock {Linguistic Data Consortium}, Philadelphia, Pa., release 2, german
+  vers. 2.5, english vers. 2.5, dutch vers. 3.1 edition, 1995.
+
+\bibitem[Bra14]{Brandelik2014}
+Katharina Brandelik.
+\newblock {\em Sprachrhythmische F{\"a}higkeiten im Schriftspracherwerb}.
+\newblock Dissertation, {Eberhard Karls Universit{\"a}t T{\"u}bingen}, 2014.
+
+\bibitem[CH68]{CHOMSKY&HALLE1968}
+NOAM CHOMSKY and MORRIS HALLE.
+\newblock {\em The sound pattern of English}.
+\newblock 1968.
+
+\bibitem[CMC05]{Curtin&Mintz&Christiansen2005}
+Suzanne Curtin, Toben~H. Mintz, and Morten~H. Christiansen.
+\newblock Stress changes the representational landscape: Evidence from word
+  segmentation.
+\newblock {\em Cognition}, 96(3):233--262, 2005.
+
+\bibitem[DBJK09]{Dou&Bergsma2009}
+Qing Dou, Shane Bergsma, Sittichai Jiampojamarn, and Grzegorz Kondrak.
+\newblock A ranking approach to stress prediction for letter-to-phoneme
+  conversion.
+\newblock In Keh-Yih Su, editor, {\em Joint Conference of the 47th Annual
+  Meeting of the ACL and the 4th International Joint Conference}, page 118,
+  2009.
+
+\bibitem[Dem06a]{Demberg2006}
+Vera Demberg.
+\newblock {\em Letter-to-Phoneme Conversion for a German Text-to-Speech
+  System}.
+\newblock PhD thesis, {Universit{\"a}t Stuttgart}, Stuttgart, 2006.
+
+\bibitem[Dem06b]{Demberg2006b}
+Vera Demberg.
+\newblock {\em Letter-to-Phoneme Conversion for a German Text-to-Speech
+  System}.
+\newblock PhD thesis, {Universit{\"a}t Stuttgart}, 2006.
+
+\bibitem[DN06]{Duffner&Naf2006}
+Rolf Duffner and Anton N{\"a}f.
+\newblock Digitale textdatenbanken im vergleich.
+\newblock {\em Linguistik online 28, 3/06}, 2006.
+
+\bibitem[Eis91]{Eisenberg1991}
+Peter Eisenberg.
+\newblock Syllabische struktur und wortakzent: Prinzipien der prosodik
+  deutscher w{\"o}rter.
+\newblock {\em Zeitschrift f{\"u}r Sprachwissenschaft 10}, pages 37--64, 1991.
+
+\bibitem[Fer98]{Fery1998}
+Caroline Fery.
+\newblock German word stress in optimality theory.
+\newblock pages 101--142, 1998.
+
+\bibitem[Gie85]{Giegerich1985}
+Heinz~J. Giegerich.
+\newblock {\em Metrical phonology and phonological structure: German and
+  English: 1983--Diss., 1983}, volume~43 of {\em Cambridge studies in
+  linguistics}.
+\newblock {Cambridge Univ. Pr}, Cambridge, 1985.
+
+\bibitem[GRP]{Gulikers&Rattnik&Piepenbrock}
+L{\'e}on Gulikers, Gilbert Rattnik, and Richard Piepenbrock.
+\newblock German linguistic guide.
+
+\bibitem[Hai04]{Hain2004}
+Horst-Udo Hain.
+\newblock {\em Phonetische Transkription f{\"u}r ein multilinguales
+  Sprachsynthesesystem}.
+\newblock Dissertation, {Technischen Universit{\"a}t Dresden}, 2004.
+
+\bibitem[Hal11]{Hall2011}
+T.~A. Hall.
+\newblock {\em Phonologie: eine Einf{\"u}hrung}.
+\newblock {De Gruyter}, 2011.
+
+\bibitem[Jan03]{Janssen2003}
+Ulrike Jan{\ss}en.
+\newblock {\em Untersuchungen zum Wortakzent im Deutschen und
+  Niederl{\"a}ndischen}.
+\newblock Dissertation, {Universit{\"a}t D{\"u}sseldorf}, 2003.
+
+\bibitem[JBB]{Jovic&Brkic&Bogunovic}
+A.~Jovi{\'c}, K.~Brki{\'c}, and N.~Bogunovi{\'c}.
+\newblock An overview of free software tools for general data mining.
+
+\bibitem[Jes99]{Jessen1999}
+Michael Jessen.
+\newblock German.
+\newblock In H.~{van der Hulst}, editor, {\em Word Prosodic Systems in the
+  Languages of Europe}, pages 515--545. {Mouton de Gruyter}, 1999.
+
+\bibitem[Kal94]{Kaltenbacher1994}
+Erika Kaltenbacher.
+\newblock Typologische aspekte des wortakzents: Zum zusammenhang von
+  akzentposition und silbengewicht im arabischen und im deutschen.
+\newblock {\em Zeitschrift f{\"u}r Sprachwissenschaft}, 13(1):20--55, 1994.
+
+\bibitem[Kvi10]{Kvizhinadze2010}
+Giorgi Kvizhinadze.
+\newblock {\em Large number of rare events: Diversity analysis in multiple
+  choice questionnaires and related topics}.
+\newblock Dissertation, {Victoria University of Wellington}, 2010.
+
+\bibitem[LEGS98]{Lungen&Ehlebracht1998}
+Harald L{\"u}ngen, Karsten Ehlebracht, Dafydd Gibbon, and Ana Paula~Quirino
+  Sim{\~o}es.
+\newblock Verbmobil-ii whg-wortliste deutsch, 1998.
+
+\bibitem[Men98]{Mengel1998}
+Andreas Mengel.
+\newblock {\em Deutscher Wortakzent: Symbole, Signale}.
+\newblock Dissertation, {Technische Universit{\"a}t}, M{\"u}nchen, 1998.
+
+\bibitem[Pri90]{Prince1990}
+Alan Prince.
+\newblock Quantitative consequences of rhythmic organization.
+\newblock 1990.
+
+\bibitem[Rap95]{Rapp1995}
+Stefan Rapp.
+\newblock Maschinelles lernen von aspekten des deutschen wortakzents.
+\newblock {\em Arbeitspapiere des Instituts f{\"u}r Maschinelle
+  Sprachverarbeitung (AIMS) Vol. 2 No. 2}, 4/1995, 1995.
+
+\bibitem[{Ste}]{BOMP}
+{Stefan Breuer}.
+\newblock Bonn machine-readable pronunciation dictionary.
+
+\bibitem[Wag01]{Wagner2001}
+Petra Wagner.
+\newblock Systematische {\"u}berpr{\"u}fung deutscher wortbetonungsregeln.
+\newblock {\em Tagungsband Elektronische Sprachsignalverarbeitung ESSV 2001},
+  22:329--338, 2001.
+
+\end{thebibliography}

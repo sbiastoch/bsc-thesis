@@ -1,0 +1,50 @@
+\chapter{Zusammenfassung und Ausblick}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+% Was war das Ziel?
+% Was habe ich getan?
+% Was wurde erreicht?
+% Was lernen wir daraus?
+% "Woran könnte man weiter forschen?"
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+93.4\% all/NN
+zur Analyse sinnvoll auch Modelle mit geringeren Erekkungsraten zu untersuchen, die jedoch 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ziel dieser Arbeit war die Vorhersage des lexikalischen Wortakzentes mit linguistischen Features und symbolischen Lernverfahren. Ich habe dazu verschiedene linguistische Konzepte als Features verwendet und diese in verschiedenen Featuresets kombiniert. Auf basis der Lemmata aus dem CELEX habe ich drei verschiedene Lernalgorithmen trainiert: Entscheidungsbäume (C4.5), Inductive Rule Learning (JRip) und Neural Networks. Mit allen drei Algorithmen war ich in der Lage den Betonungsklasse in über 90\% der Fälle richtig zu bestimmen. Mit insgesamt 93.4\% erreichten Neural Networks die beste Ergebnisse auf allen verfügbaren Features.
+
+ 
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Ausblick}
+Alternativ zum gewählten Ansatz zur Klassifizierung der Betonungsmuster wäre es auch möglich keine diskreten Klassen, sondern eine reele Zahl $x \in [-1,1]$ zu bestimmen, die die Position der Betonung angibt. Die Silben eines $n$-silbigen Wortes teilen dieses Intervall in $n$ uniforme Teilintervalle $s_i$. Ist $x \in s_i$, so ist die i-te Silbe betont. So wäre es nicht notwendig die Trainingsdaten entsprechend ihrer Silbenzahl aufzuteilen und würde allgemeinere Regeln erhalten.
+
+Wie in Abschnitt \ref{rule_simplify} demonstriert kann man viele Regeln mit etwas Hintergrundwissen deutlich kompakter Schreiben. Mittels logischer Programmiersprachen wie Prolog ist es möglich Algorithmen zu schreiben, die ausgehend von einer gegebenen Wissensbasis neue logische Schlüsse ziehen \cite[S.~706]{RusselNorvig}. Ich halte es für sehr vielversprechend Domänenwissen aus der Linguistik und maschinelles Lernen so noch enger zu verweben.
+
+Weka optimieren um Ergebnisse der Klassifikation besser zu analysieren. Fehlerwörter bei JRip-Regeln etc.
+Weka hat sich während meiner Arbeit als ein sehr mächtiges und zum Teil recht störrisches Werkzeug erwiesen. Leider hört Weka dort auf, wo es eigentlich spannend wird: Bei der Interpretation der Ergebnisse. Es wäre höchstpraktisch sich die Wörter anzeigen lassen zu können, die von einer JRip-Regel oder einem Blatt im Entscheidungsbaum erfasst werden. 
+
+% Esemble

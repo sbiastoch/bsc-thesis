@@ -764,19 +764,23 @@ function() {
 
 # Summiert die Anzahl der Wörter auf, die von einer Regel betroffen sind, je Feature
 function() {
-	tie = FALSE
+	tie = TRUE
 	algo = if(1) 'jrip' else 'j48'
 	filename = paste(folder,algo,'_feature_influence',if(tie) '_grouped' else '','.png',sep='')
-	png(filename = filename, height = 1200, width = 700, units = "px", bg = "white", pointsize = 30)
+	height = if(tie) 1200 else 2000
+	png(filename = filename, height = height, width = 700, units = "px", bg = "white", pointsize = 30)
 	par(mar=c(4,8,0,1.5))
 
 	all_features = doForAllModels(if(algo == 'jrip') getJRipRulesFeatures else getJ48RulesFeatures)
 	all_feature_names = names(table(unname(unlist(all_features))))
 	stats <<- list()
+	percent_stats <<- list()
 	if(tie) {
 		void=sapply(unique(gsub('[0-9]','',all_feature_names)), function(f) stats[[f]]<<-0)
+		void=sapply(unique(gsub('[0-9]','',all_feature_names)), function(f) percent_stats[[f]]<<-0)
 	} else {
 		void=sapply(all_feature_names, function(f) stats[[f]]<<-0)
+		void=sapply(all_feature_names, function(f) percent_stats[[f]]<<-0)
 	}
 	void=features_with_total=sapply(1:12, function(fs) { 
 		sapply(1:6, function(syls) {
@@ -786,20 +790,27 @@ function() {
 			numbers = as.numeric(sapply(rules, function(rule) sum(getRuleNumbers(rule))))
 			features_and_weight = matrix(c(numbers, unname(all_features[syls,fs][[1]])),,2)
 			if(length(features_and_weight) > 0) {
-				sapply(1:nrow(features_and_weight), function(n) sapply(features_and_weight[,2][[n]], function(feature) {
-					if(tie) { feature = gsub('[0-9]','',feature) }
-					stats[[feature]] <<- stats[[feature]] + as.numeric(features_and_weight[n,1][[1]])
-				}))
+				sapply(1:nrow(features_and_weight), function(n) {
+					sapply(features_and_weight[,2][[n]], function(feature) {
+						if(tie) { feature = gsub('[0-9]','',feature) }
+						sum_words = as.numeric(features_and_weight[n,1][[1]])
+						stats[[feature]] <<- stats[[feature]] + sum_words
+						n = getRuleNumbers(rules[n])
+						percent_stats[[feature]] <<- percent_stats[[feature]] + n[1]
+					})
+				})
 			}
 		})
 	})
-	x=unlist(stats)
+	x=unlist(stats) # nominale anzahl
+	p=unlist(percent_stats)/unlist(stats)
+	x2 = rbind(p*x, x-(p*x)) # anzahl und gewichtete TP/FP
 	if(tie) {
-		barplot(sort(x, decreasing =TRUE), las=1, xlab='Nominale Anzahl Wörter', horiz=TRUE)
-		sort(x)
+		barplot(x2, las=1, xlab='Nominale Anzahl Wörter', horiz=TRUE)
 	} else {
-		barplot(sort(x[x>2500], decreasing=TRUE), las=1, xlab='Nominale Anzahl Wörter', horiz=TRUE, cex.names=.7)
-		names(x[x<500])
+		limit = 75
+		barplot(x[1:limit], las=1, xlab='Nominale Anzahl Wörter', horiz=TRUE, cex.names=.8)
+		x[(limit+1):length(x)]
 	}
 	dev.off()
 }()

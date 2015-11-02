@@ -1,0 +1,17 @@
+\section*{Zusammenfassung}
+%%%%%%%%%%%%%%%%%%%%%%
+% Was ist das Thema? Welche Methoden? Wie Evaluiert? Was für Ergebnisse/Schlüsse?
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Warum relevant?
+Text-To-Speech Systeme versuchen aus orthographisch repräsentierten Texten natürlich klingende Sprache zu generieren. Ohne Kenntnis des Wortakzentes ist keine korrekte phonetische Transkription der Wörter möglich \cite{???}. Betonungen helfen uns zudem im Sprachflusses einzelne Wörter zu identifizieren \cite{Curtin&Mintz&Christiansen2005}.
+Auch beim Spracherwerb spielt der Wortakzent eine wichtige Rolle \cite{Brandelik2014}.
+
+Seit Ende der 60er Jahre versuchen Linguisten Regeln zu finden, die die Akzentplatzierung erklären.
+Seit 20 Jahren beschäftigen sich Arbeiten mit der datenbasierten Vorhersage des Akzents durch maschinelle Lernverfahren. Mithilfe von Stochastische Lernverfahren wurde eine korrekte Vorhersage von bis zu 94.3\% erreicht \cite{Dou&Bergsma2009}. Diese Verfahren sind jedoch rein numerisch und haben nichts mit der linguistischen Theorie hinter dem Wortakzent zu tun, noch tragen sie zu einem besseren Verständnis derselben bei.
+
+In dieser Arbeit zeige ich, dass mit linguistischen Features der Wortakzent vorhergesagt werden kann. Durch die Verwendung phonologischer und phonetischer Features in Kombination mit symbolischen Lernverfahren (Entscheidungsbäumen und Inductive Rule Learning) generiere ich interpretierbare Regeln. Mit diesen erreiche ich eine korrekte Klassifizierung bis zu 90.1\% auf den Lemmata des CELEX-Korpus. Mit Neuronalen Netzen erreiche ich sogar 93.4\%. Durch lesbare Regeln bieten sich Linguisten die Möglichkeiten neue Zusammenhänge zu entdecken und mit die generierten Regeln mit linguistischen Theorien zu vergleichen. Vermutungen legen nahe, dass durch weitere Optimierung der Features und Hyperparametern der Algorithmen meine Ergebnisse noch weiter verbessert werden könnten.
+
+In meiner Evaluation untersuche ich die Ergebnisse der Algorithmen hinsichtlich ihrer Interpretierbarkeit und Ausdrucksstärke und Vergleiche die von mir zusammengestellten Featuresets. 
+Meine Ergebnisse bestätigen die Wichtigkeit des Silbengewichts bei der Akzentzuweisung, jedoch nur in Kombination mit weiteren Features, und sprechen somit für die Gewichtssensitivität des Deutschen. Als einflussreichstes Feature stellte sich die Silbensonorität heraus, welche in diesem Kontext in der Literatur bisher kaum Beachtung gefunden hat.

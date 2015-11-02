@@ -1,0 +1,61 @@
+\BOOKMARK [0][-]{chapter.1}{Einleitung}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Linguistische Grundlagen}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Metrische Phonologie}{chapter.2}% 3
+\BOOKMARK [2][-]{subsection.2.1.1}{Phonetik vs Phonologie}{section.2.1}% 4
+\BOOKMARK [2][-]{subsection.2.1.2}{Phonem vs Graphem}{section.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.1.3}{Akzent vs Prosodie}{section.2.1}% 6
+\BOOKMARK [2][-]{subsection.2.1.4}{Sonorit\344t und Phon-Klassen}{section.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.1.5}{Betrachtungsebenen von W\366rtern}{section.2.1}% 8
+\BOOKMARK [1][-]{section.2.2}{Machine Learning}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.1}{Inductive Learning}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.2}{Decision-Tree Learning}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.3}{Statistical Learning mit Artificial Neural Networks}{section.2.2}% 12
+\BOOKMARK [3][-]{subsubsection.2.2.3.1}{Perceptron}{subsection.2.2.3}% 13
+\BOOKMARK [3][-]{subsubsection.2.2.3.2}{Multilayer Networks}{subsection.2.2.3}% 14
+\BOOKMARK [0][-]{chapter.3}{Machine Learning Grundlagen}{}% 15
+\BOOKMARK [1][-]{section.3.1}{Entscheidungsb\344ume}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.2}{Inductive Rule Learner}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.3}{Neural Networks}{chapter.3}% 18
+\BOOKMARK [0][-]{chapter.4}{Vor\374berlegungen}{}% 19
+\BOOKMARK [1][-]{section.4.1}{Forschungsstand}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.1.1}{Linguistische, regelbasierte Arbeiten}{section.4.1}% 21
+\BOOKMARK [2][-]{subsection.4.1.2}{Arbeiten mit Maschinelle Lernverfahren}{section.4.1}% 22
+\BOOKMARK [1][-]{section.4.2}{Mein Ansatz}{chapter.4}% 23
+\BOOKMARK [2][-]{subsection.4.2.1}{Preprocessing}{section.4.2}% 24
+\BOOKMARK [2][-]{subsection.4.2.2}{Modellierung des Problems}{section.4.2}% 25
+\BOOKMARK [2][-]{subsection.4.2.3}{Umfang der Trainings- und Testdaten}{section.4.2}% 26
+\BOOKMARK [2][-]{subsection.4.2.4}{Preprocessing}{section.4.2}% 27
+\BOOKMARK [0][-]{chapter.5}{Feature Engineering}{}% 28
+\BOOKMARK [1][-]{section.5.1}{Phonologische Features}{chapter.5}% 29
+\BOOKMARK [2][-]{subsection.5.1.1}{Transkription der Silben in Phonemklassen}{section.5.1}% 30
+\BOOKMARK [2][-]{subsection.5.1.2}{Sonorit\344t}{section.5.1}% 31
+\BOOKMARK [2][-]{subsection.5.1.3}{Silbengewicht}{section.5.1}% 32
+\BOOKMARK [2][-]{subsection.5.1.4}{Offene Silben}{section.5.1}% 33
+\BOOKMARK [2][-]{subsection.5.1.5}{Nicht verwendete Features}{section.5.1}% 34
+\BOOKMARK [1][-]{section.5.2}{Morphologische Features}{chapter.5}% 35
+\BOOKMARK [2][-]{subsection.5.2.1}{Pr\344- und Suffixe}{section.5.2}% 36
+\BOOKMARK [2][-]{subsection.5.2.2}{CV-Silbenstruktur}{section.5.2}% 37
+\BOOKMARK [1][-]{section.5.3}{Weitere Features}{chapter.5}% 38
+\BOOKMARK [1][-]{section.5.4}{Featuresets}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.5}{Postprocessing}{chapter.5}% 40
+\BOOKMARK [0][-]{chapter.6}{Evaluation}{}% 41
+\BOOKMARK [1][-]{section.6.1}{Training}{chapter.6}% 42
+\BOOKMARK [1][-]{section.6.2}{Ergebnisse}{chapter.6}% 43
+\BOOKMARK [0][-]{chapter.7}{Diskussion}{}% 44
+\BOOKMARK [1][-]{section.7.1}{Generelles}{chapter.7}% 45
+\BOOKMARK [2][-]{subsection.7.1.1}{Die Ergebnisse im Kontext der Korpusgr\366\337e und Schwierigkeit der Klassifikation}{section.7.1}% 46
+\BOOKMARK [2][-]{subsection.7.1.2}{Ergebnisunterschiede auf den affix-Modellen}{section.7.1}% 47
+\BOOKMARK [2][-]{subsection.7.1.3}{Mehr Features, bessere Ergebnisse?}{section.7.1}% 48
+\BOOKMARK [2][-]{subsection.7.1.4}{Evaluation der Algorithmen}{section.7.1}% 49
+\BOOKMARK [2][-]{subsection.7.1.5}{Evaluation der Features}{section.7.1}% 50
+\BOOKMARK [3][-]{subsubsection.7.1.5.1}{Manuelle Analyse der Regeln}{subsection.7.1.5}% 51
+\BOOKMARK [3][-]{subsubsection.7.1.5.2}{Einfluss der Features}{subsection.7.1.5}% 52
+\BOOKMARK [2][-]{subsection.7.1.6}{Vergleich zu bisherigen Arbeiten}{section.7.1}% 53
+\BOOKMARK [0][-]{chapter.8}{Zusammenfassung und Ausblick}{}% 54
+\BOOKMARK [1][-]{section.8.1}{Ausblick}{chapter.8}% 55
+\BOOKMARK [0][-]{section.8.1}{Anhang}{}% 56
+\BOOKMARK [1][-]{section.Alph0.1}{Studie zu Affixen}{section.8.1}% 57
+\BOOKMARK [1][-]{section.Alph0.2}{Features und Featuresets}{section.8.1}% 58
+\BOOKMARK [1][-]{section.Alph0.3}{Feautrematrix}{section.8.1}% 59
+\BOOKMARK [1][-]{section.Alph0.4}{Detailierte Erkennungsraten}{section.8.1}% 60
+\BOOKMARK [0][-]{table.caption.34}{Literaturverzeichnis}{}% 61
