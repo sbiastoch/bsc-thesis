@@ -121,7 +121,7 @@ class CelexQuery:
 	def init_connection(self):
 		self.connection = MySQLdb.connect(	host="localhost", # your host, usually localhost
 								user="root", # your username
-								passwd="***REMOVED***", # your password
+								passwd="***", # your password
 								charset='utf8',
 								use_unicode=True,
 								db="celex", cursorclass=MySQLdb.cursors.DictCursor ) # name of the data base
